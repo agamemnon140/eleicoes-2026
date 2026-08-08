@@ -1,0 +1,2516 @@
+election_date: '2026-10-04'
+generated_from: preview snapshot
+holdovers:
+  PL:
+  - Magno Malta (ES)
+  - Wilder Morais (GO)
+  - Wellington Fagundes (MT)
+  - Efraim Filho (PB)
+  - Sergio Moro (PR)
+  - Romário (RJ)
+  - Rogerio Marinho (RN)
+  - Jaime Bagattoli (RO)
+  - Hermes Klann (SC)
+  - Astronauta Marcos Pontes (SP)
+  PT:
+  - Camilo Santana (CE)
+  - Beto Faro (PA)
+  - Teresa Leitão (PE)
+  PSD:
+  - Omar Aziz (AM)
+  - Otto Alencar (BA)
+  - Jussara Lima (PI)
+  MDB:
+  - Renan Filho (AL)
+  PP:
+  - Tereza Cristina (MS)
+  - Dr. Hiran (RR)
+  - Laércio Oliveira (SE)
+  Republicanos:
+  - Alan Rick (AC)
+  - Damares Alves (DF)
+  - Cleitinho (MG)
+  - Hamilton Mourão (RS)
+  União:
+  - Davi Alcolumbre (AP)
+  - Professora Dorinha Seabra (TO)
+  PSB:
+  - Lourdinha Pereira (MA)
+national_seed:
+- party: PL
+  hold: 10
+  gov: 5
+- party: PT
+  hold: 3
+  gov: 2
+- party: PSD
+  hold: 3
+  gov: 6
+- party: MDB
+  hold: 1
+  gov: 3
+- party: PP
+  hold: 3
+  gov: 4
+- party: Republicanos
+  hold: 4
+  gov: 2
+- party: União
+  hold: 2
+  gov: 2
+- party: PSB
+  hold: 1
+  gov: 0
+- party: PDT
+  hold: 0
+  gov: 1
+- party: Rede
+  hold: 0
+  gov: 0
+- party: Novo
+  hold: 0
+  gov: 0
+- party: PSOL
+  hold: 0
+  gov: 0
+- party: Podemos
+  hold: 0
+  gov: 0
+- party: Avante
+  hold: 0
+  gov: 0
+- party: PSDB
+  hold: 0
+  gov: 2
+pres_lean:
+  AC:
+    Lula: 29.7
+    Flávio: 70.3
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  AL:
+    Lula: 58.7
+    Flávio: 41.3
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  AM:
+    Lula: 51.1
+    Flávio: 48.9
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  AP:
+    Lula: 51.4
+    Flávio: 48.6
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  BA:
+    Lula: 52
+    Flávio: 18
+    Caiado: 3
+    Zema: 2
+    basis: Quaest 23–27/07
+  CE:
+    Lula: 55
+    Flávio: 22
+    Caiado: 2
+    Zema: 2
+    basis: Quaest 24–28/07
+  DF:
+    Lula: 32
+    Flávio: 33.5
+    Caiado: 5
+    Zema: 4
+    basis: Correio/Opinião 30/07–01/08
+  ES:
+    Lula: 42.0
+    Flávio: 58.0
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  GO:
+    Lula: 23
+    Flávio: 27
+    Caiado: 33
+    Zema: 3
+    basis: Quaest 24–28/07
+  MA:
+    Lula: 71.1
+    Flávio: 28.9
+    Caiado: 3
+    Zema: 2
+    basis: proxy 2º turno 2022
+  MG:
+    Lula: 30
+    Flávio: 29
+    Caiado: 3
+    Zema: 12
+    basis: Quaest 22–26/07
+  MS:
+    Lula: 40.5
+    Flávio: 59.5
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  MT:
+    Lula: 34.9
+    Flávio: 65.1
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  PA:
+    Lula: 38
+    Flávio: 31
+    Caiado: 3
+    Zema: 2
+    basis: Quaest 21–25/07
+  PB:
+    Lula: 66.6
+    Flávio: 33.4
+    Caiado: 3
+    Zema: 2
+    basis: proxy 2º turno 2022
+  PE:
+    Lula: 55
+    Flávio: 21
+    Caiado: 1
+    Zema: 1
+    basis: Quaest 22–26/07
+  PI:
+    Lula: 76.9
+    Flávio: 23.1
+    Caiado: 2
+    Zema: 2
+    basis: proxy 2º turno 2022
+  PR:
+    Lula: 24
+    Flávio: 42
+    Caiado: 2
+    Zema: 2
+    basis: Quaest 21–25/07
+  RJ:
+    Lula: 30
+    Flávio: 32
+    Caiado: 3
+    Zema: 3
+    basis: Quaest 21–25/07
+  RN:
+    Lula: 65.1
+    Flávio: 34.9
+    Caiado: 3
+    Zema: 2
+    basis: proxy 2º turno 2022
+  RO:
+    Lula: 29.3
+    Flávio: 70.7
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  RR:
+    Lula: 23.9
+    Flávio: 76.1
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  RS:
+    Lula: 30
+    Flávio: 32
+    Caiado: 3
+    Zema: 3
+    basis: Quaest 24–28/07
+  SC:
+    Lula: 30.7
+    Flávio: 69.3
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+  SE:
+    Lula: 67.2
+    Flávio: 32.8
+    Caiado: 3
+    Zema: 2
+    basis: proxy 2º turno 2022
+  SP:
+    Lula: 30
+    Flávio: 34
+    Caiado: 3
+    Zema: 3
+    basis: Quaest 23–27/07
+  TO:
+    Lula: 51.4
+    Flávio: 48.6
+    Caiado: 3
+    Zema: 3
+    basis: proxy 2º turno 2022
+gov_confidence:
+  AC: Baixa
+  AL: Baixa
+  AM: Baixa
+  AP: Alta
+  BA: Média
+  CE: Média
+  DF: Média
+  ES: Muito baixa
+  GO: Média-alta
+  MA: Média
+  MG: Média-alta
+  MS: Alta
+  MT: Muito baixa
+  PA: Muito baixa
+  PB: Baixa
+  PE: Baixa
+  PI: Alta
+  PR: Alta
+  RJ: Alta
+  RN: Muito baixa
+  RO: Média
+  RR: Baixa
+  RS: Muito baixa
+  SC: Alta
+  SE: Muito baixa
+  SP: Alta
+  TO: Muito baixa
+sen_confidence:
+  AC: Média
+  AL: Média
+  AM: Média
+  AP: Média
+  BA: Alta
+  CE: Média
+  DF: Baixa
+  ES: Muito baixa
+  GO: Muito baixa
+  MA: Muito baixa
+  MG: Muito baixa
+  MS: Média
+  MT: Muito baixa
+  PA: Muito baixa
+  PB: Média
+  PE: Média-alta
+  PI: Média
+  PR: Baixa
+  RJ: Média-alta
+  RN: Baixa
+  RO: Média
+  RR: Baixa
+  RS: Média
+  SC: Média
+  SE: Média
+  SP: Média-alta
+  TO: Média
+gov_estimate:
+  AC:
+    name: Mailza Assis
+    party: PP
+  AL:
+    name: JHC
+    party: PSDB
+  AM:
+    name: Omar Aziz
+    party: PSD
+  AP:
+    name: Dr. Furlan
+    party: PSD
+  BA:
+    name: ACM Neto
+    party: União
+  CE:
+    name: Ciro Gomes
+    party: PSDB
+  DF:
+    name: Celina Leão
+    party: PP
+  ES:
+    name: Ricardo Ferraço
+    party: MDB
+  GO:
+    name: Daniel Vilela
+    party: MDB
+  MA:
+    name: Eduardo Braide
+    party: PSD
+  MG:
+    name: Cleitinho
+    party: Republicanos
+  MS:
+    name: Eduardo Riedel
+    party: PP
+  MT:
+    name: Wellington Fagundes
+    party: PL
+  PA:
+    name: Hana Ghassan
+    party: MDB
+  PB:
+    name: Lucas Ribeiro
+    party: PP
+  PE:
+    name: Raquel Lyra
+    party: PSD
+  PI:
+    name: Rafael Fonteles
+    party: PT
+  PR:
+    name: Sergio Moro
+    party: PL
+  RJ:
+    name: Eduardo Paes
+    party: PSD
+  RN:
+    name: Cadu Xavier
+    party: PT
+  RO:
+    name: Marcos Rogério
+    party: PL
+  RR:
+    name: Arthur Henrique
+    party: PL
+  RS:
+    name: Juliana Brizola
+    party: PDT
+  SC:
+    name: Jorginho Mello
+    party: PL
+  SE:
+    name: Fábio Mitidieri
+    party: PSD
+  SP:
+    name: Tarcísio de Freitas
+    party: Republicanos
+  TO:
+    name: Professora Dorinha
+    party: União
+sen_estimate:
+  AC:
+  - name: Marcio Bittar
+    party: PL
+    score: 70.5
+  - name: Mara Rocha
+    party: MDB
+    score: 67.5
+  AL:
+  - name: Arthur Lira
+    party: PP
+    score: 75.2
+  - name: Renan Calheiros
+    party: MDB
+    score: 65.1
+  AM:
+  - name: Eduardo Braga
+    party: MDB
+    score: 58.4
+  - name: Capitão Alberto Neto
+    party: PL
+    score: 52.1
+  AP:
+  - name: Rayssa Furlan
+    party: Podemos
+    score: 85.8
+  - name: Lucas Barreto
+    party: PSD
+    score: 62.5
+  BA:
+  - name: Rui Costa
+    party: PT
+    score: 83.2
+  - name: Jaques Wagner
+    party: PT
+    score: 77.8
+  CE:
+  - name: Cid Gomes
+    party: PSB
+    score: 78.1
+  - name: Luizianne Lins
+    party: Rede
+    score: 69.0
+  DF:
+  - name: Michelle Bolsonaro
+    party: PL
+    score: 65.5
+  - name: Bia Kicis
+    party: PL
+    score: 54.2
+  ES:
+  - name: Renato Casagrande
+    party: PSB
+    score: 57.2
+  - name: Sergio Meneguelli
+    party: Republicanos
+    score: 42.0
+  GO:
+  - name: Gracinha Caiado
+    party: União
+    score: 67.9
+  - name: Vanderlan Cardoso
+    party: PSD
+    score: 55.0
+  MA:
+  - name: Duarte Jr.
+    party: Avante
+    score: 67.6
+  - name: Roseana Sarney
+    party: MDB
+    score: 65.8
+  MG:
+  - name: Domingos Sávio
+    party: PL
+    score: 53.8
+  - name: Carlos Viana
+    party: PSD
+    score: 48.3
+  MS:
+  - name: Reinaldo Azambuja
+    party: PL
+    score: 80.0
+  - name: Capitão Contar
+    party: PL
+    score: 67.5
+  MT:
+  - name: José Medeiros
+    party: PL
+    score: 66.7
+  - name: Mauro Mendes
+    party: União
+    score: 49.7
+  PA:
+  - name: Helder Barbalho
+    party: MDB
+    score: 67.1
+  - name: Celso Sabino
+    party: PDT
+    score: 49.6
+  PB:
+  - name: João Azevêdo
+    party: PSB
+    score: 68.4
+  - name: Veneziano Vital do Rêgo
+    party: MDB
+    score: 60.4
+  PE:
+  - name: Marília Arraes
+    party: PDT
+    score: 84.1
+  - name: Humberto Costa
+    party: PT
+    score: 81.6
+  PI:
+  - name: Marcelo Castro
+    party: MDB
+    score: 88.5
+  - name: Júlio César
+    party: PSD
+    score: 81.5
+  PR:
+  - name: Deltan Dallagnol
+    party: Novo
+    score: 52.8
+  - name: Filipe Barros
+    party: PL
+    score: 52.8
+  RJ:
+  - name: Pedro Paulo
+    party: PSD
+    score: 67.6
+  - name: Benedita da Silva
+    party: PT
+    score: 66.8
+  RN:
+  - name: Samanda Alves
+    party: PT
+    score: 66.9
+  - name: Rafael Motta
+    party: PDT
+    score: 62.5
+  RO:
+  - name: Fernando Máximo
+    party: PL
+    score: 70.9
+  - name: Bruno Scheid
+    party: PL
+    score: 63.0
+  RR:
+  - name: Hélio Lopes
+    party: PL
+    score: 56.8
+  - name: Nicoletti
+    party: PL
+    score: 56.8
+  RS:
+  - name: Manuela d'Ávila
+    party: PSOL
+    score: 57.5
+  - name: Paulo Pimenta
+    party: PT
+    score: 53.8
+  SC:
+  - name: Caroline de Toni
+    party: PL
+    score: 86.1
+  - name: Carlos Bolsonaro
+    party: PL
+    score: 85.9
+  SE:
+  - name: Rogério Carvalho
+    party: PT
+    score: 61.3
+  - name: Rodrigo Valadares
+    party: PL
+    score: 56.5
+  SP:
+  - name: Guilherme Derrite
+    party: PP
+    score: 72.6
+  - name: André do Prado
+    party: PL
+    score: 70.5
+  TO:
+  - name: Eduardo Gomes
+    party: PL
+    score: 67.2
+  - name: Carlos Gaguim
+    party: União
+    score: 56.1
+late_switch:
+  GO: 61
+  MG: 64
+  RS: 62
+  SP: 54
+  CE: 57
+  PE: 53
+  RJ: 61
+states:
+  AC:
+    estado: Acre
+    governor:
+      candidates:
+      - name: Mailza Assis
+        party: PP
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Alan Rick
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Tião Bocalom
+        party: PSDB
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Thor Dantas
+        party: PSB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Marcio Bittar
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Gladson Cameli
+        party: PP
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Mara Rocha
+        party: MDB
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Jorge Viana
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Sérgio Petecão
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Eduardo Velloso
+        party: Solidariedade
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Petecão
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
+  AL:
+    estado: Alagoas
+    governor:
+      candidates:
+      - name: JHC
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido; tende à oposição a Lula
+        apoio_verificado: false
+        active: true
+      - name: Renan Filho
+        party: MDB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Alfredo Gaspar
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Arthur Lira
+        party: PP
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Renan Calheiros
+        party: MDB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Alfredo Gaspar
+        party: PL
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: false
+      - name: Maria Cândia
+        party: PSDB
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  AP:
+    estado: Amapá
+    governor:
+      candidates:
+      - name: Dr. Furlan
+        party: PSD
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Clécio Luís
+        party: União
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Marcos Reategui
+        party: DC
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Rayssa Furlan
+        party: Podemos
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Randolfe Rodrigues
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Lucas Barreto
+        party: PSD
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  AM:
+    estado: Amazonas
+    governor:
+      candidates:
+      - name: Omar Aziz
+        party: PSD
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Roberto Cidade
+        party: União
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: David Almeida
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Eduardo Braga
+        party: MDB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Capitão Alberto Neto
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Wilson Lima
+        party: União
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Plínio Valério
+        party: PSDB
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Marcelo Ramos
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+  BA:
+    estado: Bahia
+    governor:
+      candidates:
+      - name: ACM Neto
+        party: União
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Jerônimo Rodrigues
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Ronaldo Mansur
+        party: PSOL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: João Roma
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Rui Costa
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Jaques Wagner
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: João Roma
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Angelo Coronel
+        party: Republicanos
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Ângelo Coronel
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / centro-direita
+        apoio_verificado: false
+        active: true
+  CE:
+    estado: Ceará
+    governor:
+      candidates:
+      - name: Ciro Gomes
+        party: PSDB
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (aproximação provável)
+        apoio_verificado: false
+        active: true
+      - name: Elmano de Freitas
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Eduardo Girão
+        party: Novo
+        bloc: Zema
+        endorsement: não verificado
+        apoio: Romeu Zema
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Cid Gomes
+        party: PSB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Capitão Wagner
+        party: União
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Luizianne Lins
+        party: Rede
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Eunício Oliveira
+        party: MDB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Alcides Fernandes
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  DF:
+    estado: Distrito Federal
+    governor:
+      candidates:
+      - name: Celina Leão
+        party: PP
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: José Roberto Arruda
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / centro-direita
+        apoio_verificado: false
+        active: true
+      - name: Leandro Grass
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Leila Barros
+        party: PDT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Michelle Bolsonaro
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Erika Kokay
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Bia Kicis
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Ibaneis Rocha
+        party: MDB
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+  ES:
+    estado: Espírito Santo
+    governor:
+      candidates:
+      - name: Ricardo Ferraço
+        party: MDB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Lorenzo Pazolini
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Paulo Hartung
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado (provável)
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Renato Casagrande
+        party: PSB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Paulo Hartung
+        party: PSD
+        bloc: Caiado
+        endorsement: inferido
+        apoio: Ronaldo Caiado (provável)
+        apoio_verificado: false
+        active: true
+      - name: Sergio Meneguelli
+        party: Republicanos
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Fabiano Contarato
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Maguinha Malta
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Evair Melo
+        party: Republicanos
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  GO:
+    estado: Goiás
+    governor:
+      candidates:
+      - name: Daniel Vilela
+        party: MDB
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Marconi Perillo
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Wilder Morais
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Luis Cesar Bueno
+        party: PT
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Gracinha Caiado
+        party: União
+        bloc: Caiado
+        endorsement: chapa/aliança
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Vanderlan Cardoso
+        party: PSD
+        bloc: Caiado
+        endorsement: chapa/aliança
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
+      - name: Gustavo Gayer
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Zacarias Calil
+        party: MDB
+        bloc: Caiado
+        endorsement: chapa/aliança
+        apoio: Ronaldo Caiado / centro-direita
+        apoio_verificado: false
+        active: true
+      - name: Gustavo Mendanha
+        party: PRD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Gustavo Medanha
+        party: PRD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / direita
+        apoio_verificado: false
+        active: true
+      - name: Humberto Teófilo
+        party: Novo
+        bloc: Zema
+        endorsement: inferido
+        apoio: Romeu Zema
+        apoio_verificado: false
+        active: true
+      - name: Oséias Varão
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  MA:
+    estado: Maranhão
+    governor:
+      candidates:
+      - name: Eduardo Braide
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado (provável)
+        apoio_verificado: false
+        active: true
+      - name: Orleans Brandão
+        party: MDB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Felipe Camarão
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Duarte Jr.
+        party: Avante
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Roseana Sarney
+        party: MDB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Weverton Rocha
+        party: PDT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: André Fufuca
+        party: PP
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Eliziane Gama
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Cidônio Gonçalves
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  MT:
+    estado: Mato Grosso
+    governor:
+      candidates:
+      - name: Wellington Fagundes
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Otaviano Pivetta
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Jayme Campos
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Janaína Riva
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: José Medeiros
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Carlos Fávaro
+        party: PSD
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Mauro Mendes
+        party: União
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+  MS:
+    estado: Mato Grosso do Sul
+    governor:
+      candidates:
+      - name: Eduardo Riedel
+        party: PP
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Fábio Trad
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: João Henrique Catan
+        party: Novo
+        bloc: Zema
+        endorsement: não verificado
+        apoio: Romeu Zema
+        apoio_verificado: false
+        active: true
+      - name: Lucien Rezende
+        party: PSOL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Renato Gomes
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Reinaldo Azambuja
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Capitão Contar
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Nelsinho Trad
+        party: PSD
+        bloc: Caiado
+        endorsement: inferido
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
+      - name: Vander Loubet
+        party: PT
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Soraya Thronicke
+        party: PSB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+  MG:
+    estado: Minas Gerais
+    governor:
+      candidates:
+      - name: Cleitinho
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Alexandre Kalil
+        party: PDT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Patrus Ananias
+        party: PT
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Mateus Simões
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado (provável)
+        apoio_verificado: false
+        active: true
+      - name: Gabriel Azevedo
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Flávio Roscoe
+        party: PL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Marília Campos
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Aécio Neves
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: false
+      - name: Carlos Viana
+        party: PSD
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Marcelo Aro
+        party: PP
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Domingos Sávio
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Eros Biondini
+        party: PL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Áurea Carolina
+        party: PSOL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Euclydes Pettersen
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Jarbas Soares
+        party: PSB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Maria Lúcia Cardoso
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Vanessa Portugal
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+  PR:
+    estado: Paraná
+    governor:
+      candidates:
+      - name: Sergio Moro
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Requião Filho
+        party: PDT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Sandro Alex
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Rafael Greca
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Alexandre Curi
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Deltan Dallagnol
+        party: Novo
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Filipe Barros
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Gleisi Hoffmann
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Álvaro Dias
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / centro-direita
+        apoio_verificado: false
+        active: false
+  PB:
+    estado: Paraíba
+    governor:
+      candidates:
+      - name: Lucas Ribeiro
+        party: PP
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Cícero Lucena
+        party: MDB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Efraim Filho
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: João Azevêdo
+        party: PSB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Marcelo Queiroga
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Nabor Wanderley
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Veneziano Vital do Rêgo
+        party: MDB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+  PA:
+    estado: Pará
+    governor:
+      candidates:
+      - name: Hana Ghassan
+        party: MDB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Dr. Daniel Santos
+        party: Podemos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Mário Couto
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Professora Araci Lemos
+        party: PSOL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Araceli Lemos
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Helder Barbalho
+        party: MDB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Delegado Éder Mauro
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Celso Sabino
+        party: PDT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Zequinha Marinho
+        party: Podemos
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Chicão Melo
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Chicão
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+  PE:
+    estado: Pernambuco
+    governor:
+      candidates:
+      - name: Raquel Lyra
+        party: PSD
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula (apoio possível, não exclusivo)
+        apoio_verificado: false
+        active: true
+      - name: João Campos
+        party: PSB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Camila Falcão
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Ivan Moraes
+        party: PSOL
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Eduardo Moura
+        party: Novo
+        bloc: Zema
+        endorsement: não verificado
+        apoio: Romeu Zema
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Marília Arraes
+        party: PDT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Humberto Costa
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Mendonça Filho
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Miguel Coelho
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
+      - name: Eduardo da Fonte
+        party: PP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Anderson Ferreira
+        party: PL
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+  PI:
+    estado: Piauí
+    governor:
+      candidates:
+      - name: Rafael Fonteles
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Joel Rodrigues
+        party: PP
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Toni Rodrigues
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Marcelo Castro
+        party: MDB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Ciro Nogueira
+        party: PP
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Júlio César
+        party: PSD
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (aliança local)
+        apoio_verificado: false
+        active: true
+      - name: Thiago Junqueira
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  RN:
+    estado: Rio Grande do Norte
+    governor:
+      candidates:
+      - name: Cadu Xavier
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Allyson Bezerra
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Álvaro Dias
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Rafael Motta
+        party: PDT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Samanda Alves
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Styvenson Valentim
+        party: Podemos
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Zenaide Maia
+        party: PSD
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Coronel Hélio Oliveira
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  RS:
+    estado: Rio Grande do Sul
+    governor:
+      candidates:
+      - name: Juliana Brizola
+        party: PDT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula / apoio do PT
+        apoio_verificado: false
+        active: true
+      - name: Luciano Zucco
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Gabriel Souza
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / centro
+        apoio_verificado: false
+        active: true
+      - name: Marcelo Maranata
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Manuela d'Ávila
+        party: PSOL
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Germano Rigotto
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Paulo Pimenta
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Marcel van Hattem
+        party: Novo
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Ubiratan Sanderson
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  RJ:
+    estado: Rio de Janeiro
+    governor:
+      candidates:
+      - name: Eduardo Paes
+        party: PSD
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Douglas Ruas
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Anthony Garotinho
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / direita
+        apoio_verificado: false
+        active: true
+      - name: André Marinho
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Benedita da Silva
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Marcelo Crivella
+        party: Republicanos
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Pedro Paulo
+        party: PSD
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Márcio Canella
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro / indefinido
+        apoio_verificado: false
+        active: true
+      - name: Carlos Portinho
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Carlos Jordy
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  RO:
+    estado: Rondônia
+    governor:
+      candidates:
+      - name: Marcos Rogério
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Adailton Fúria
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Hildon Chaves
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro / indefinido
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Fernando Máximo
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Silvia Cristina
+        party: PP
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Bruno Scheid
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Confúcio Moura
+        party: MDB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+  RR:
+    estado: Roraima
+    governor:
+      candidates:
+      - name: Arthur Henrique
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Antônia Pedrosa
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Soldado Sampaio
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Chico Rodrigues
+        party: PSB
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Mauro Asato
+        party: Democrata
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Rogério Miranda
+        party: DC
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Teresa Surita
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro / indefinido
+        apoio_verificado: false
+        active: true
+      - name: Hélio Lopes
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Nicoletti
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  SC:
+    estado: Santa Catarina
+    governor:
+      candidates:
+      - name: Jorginho Mello
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: João Rodrigues
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+      - name: Gelson Merísio
+        party: PSB
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Carlos Bolsonaro
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Caroline de Toni
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Décio Lima
+        party: PT
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Esperidião Amin
+        party: PP
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+  SE:
+    estado: Sergipe
+    governor:
+      candidates:
+      - name: Fábio Mitidieri
+        party: PSD
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Valmir de Francisquinho
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Ricardo Marques
+        party: PL
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Delegado André David
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: André Moura
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido / direita
+        apoio_verificado: false
+        active: true
+      - name: Dr. Eduardo Amorim
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Rodrigo Valadares
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Delegado Alessandro Vieira
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Rogério Carvalho
+        party: PT
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: André David
+        party: Republicanos
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Eduardo Amorim
+        party: PSDB
+        bloc: Flávio
+        endorsement: inferido
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Coronel Rocha
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+  SP:
+    estado: São Paulo
+    governor:
+      candidates:
+      - name: Tarcísio de Freitas
+        party: Republicanos
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro
+        apoio_verificado: false
+        active: true
+      - name: Fernando Haddad
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Carlos Machado
+        party: PCB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Vera Lúcia
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Vivian Mendes
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Marina Silva
+        party: Rede
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Simone Tebet
+        party: PSB
+        bloc: Lula
+        endorsement: chapa/aliança
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+      - name: Ricardo Salles
+        party: Novo
+        bloc: Zema
+        endorsement: inferido
+        apoio: Romeu Zema / direita
+        apoio_verificado: false
+        active: true
+      - name: André do Prado
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Guilherme Derrite
+        party: PP
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Paulinho da Força
+        party: Solidariedade
+        bloc: Lula
+        endorsement: inferido
+        apoio: Lula (provável)
+        apoio_verificado: false
+        active: true
+      - name: Pablo Marçal
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: Robson Tuma
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+      - name: José Aníbal
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+  TO:
+    estado: Tocantins
+    governor:
+      candidates:
+      - name: Professora Dorinha
+        party: União
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado (provável)
+        apoio_verificado: false
+        active: true
+      - name: Vicentinho Júnior
+        party: PSDB
+        bloc: Flávio
+        endorsement: não verificado
+        apoio: Flávio Bolsonaro (provável)
+        apoio_verificado: false
+        active: true
+      - name: Laurez Moreira
+        party: PSD
+        bloc: Caiado
+        endorsement: não verificado
+        apoio: Ronaldo Caiado
+        apoio_verificado: false
+        active: true
+    senate:
+      seats: 2
+      candidates:
+      - name: Eduardo Gomes
+        party: PL
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Alexandre Guimarães
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido
+        apoio_verificado: false
+        active: true
+      - name: Carlos Gaguim
+        party: União
+        bloc: Flávio
+        endorsement: explícito
+        apoio: Flávio Bolsonaro — apoio explícito 06/08
+        apoio_verificado: true
+        active: true
+      - name: Mauro Carlesse
+        party: PSD
+        bloc: Caiado
+        endorsement: inferido
+        apoio: Ronaldo Caiado / indefinido
+        apoio_verificado: false
+        active: true
