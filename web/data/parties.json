@@ -1,0 +1,51 @@
+{
+ "blocs": {
+  "Lula": {
+   "label": "Lula",
+   "color": "#C4122E"
+  },
+  "Flávio": {
+   "label": "Flávio Bolsonaro",
+   "color": "#1B3A8C"
+  },
+  "Caiado": {
+   "label": "Caiado",
+   "color": "#1E8449"
+  },
+  "Zema": {
+   "label": "Zema",
+   "color": "#E67E22"
+  },
+  "Indefinido": {
+   "label": "Indefinido",
+   "color": "#94A3B8"
+  }
+ },
+ "default_bloc_color": "#94A3B8",
+ "parties": {
+  "PL": "#14356E",
+  "PT": "#C4122E",
+  "PSD": "#F39C12",
+  "MDB": "#0A7D3B",
+  "PP": "#2B6CB0",
+  "Republicanos": "#2E5AAC",
+  "União": "#003B7A",
+  "PSB": "#E4002B",
+  "PDT": "#D2001F",
+  "Rede": "#00A651",
+  "Novo": "#FF6A00",
+  "PSOL": "#8E2DE2",
+  "Podemos": "#1BA39C",
+  "Avante": "#EF7D00",
+  "PSDB": "#0080C6",
+  "Solidariedade": "#E6320F",
+  "PSC": "#1F8A3B",
+  "DC": "#1B5FAA",
+  "Democrata": "#1B5FAA",
+  "PRD": "#26418F",
+  "PCB": "#B00000",
+  "PSTU": "#C81414",
+  "UP": "#A80000"
+ },
+ "default_party_color": "#64748B"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "eleicoes-2026",
+  "version": "1.0.0",
+  "description": "Site estático/PWA que projeta, por estado, o **governador** e as **2 vagas de Senado**, além de um **agregado nacional presidencial**. Um pipeline em Python coleta as pesquisas mais recentes, recalcula os modelos e emite JSON que o site lê. Uma automação semanal (GitHub Actions) roda até o 1º turno (**04/10/2026**) e republica sozinha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

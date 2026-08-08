@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eleições 2026 — previsão</title>
+<meta name="description" content="Previsão semanal de governadores, senadores e presidente nas eleições estaduais de 2026, por um modelo de chapa executiva.">
+<meta name="theme-color" content="#0f172a">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Eleições 2026">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <img class="logo" src="icons/icon.svg" alt="" width="46" height="46">
+    <div>
+      <h1>Eleições 2026 <span class="tag">previsão</span></h1>
+      <p class="subtitle" id="subtitle">Governador, Senado e Presidente — modelo de chapa executiva, atualizado semanalmente até o 1º turno.</p>
+    </div>
+  </div>
+  <nav class="tabs wrap" id="tabs" role="tablist">
+    <button data-tab="gov" class="active" role="tab">Governadores</button>
+    <button data-tab="sen" role="tab">Senado</button>
+    <button data-tab="pres" role="tab">Presidente</button>
+  </nav>
+</header>
+
+<main class="wrap" id="view" aria-live="polite">
+  <p class="loading">Carregando previsão…</p>
+</main>
+
+<footer class="wrap">
+  <p><b>Como ler:</b> o índice 0-100 serve para <b>ordenar</b> candidatos — não é probabilidade calibrada de vitória.
+  Os pesos variam no tempo: perto da eleição, as pesquisas do próprio pleito ganham peso (Senado até um teto),
+  e a influência presidencial sobre o governador diminui. Números calibrados por backtest 2018/2022.</p>
+  <p class="muted" id="meta"></p>
+</footer>
+
+<div id="tooltip" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
