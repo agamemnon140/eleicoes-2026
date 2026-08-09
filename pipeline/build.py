@@ -21,6 +21,29 @@ from pipeline import model, schedule
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEB_DATA = ROOT / "docs" / "data"         # JSONs publicados (servidos pelo site via GitHub Pages)
 BLOCS = ("Lula", "Flávio", "Caiado", "Zema")
+NAT_2022_LULA = 50.9                        # Lula no 2º turno nacional de 2022 (% dos válidos)
+
+
+def national_swing(pres: dict | None) -> float:
+    """Swing nacional Lula (p.p.) vs. 2022, do 2º turno do agregado presidencial atual."""
+    ro = ((pres or {}).get("runoff")) or {}
+    lula, flavio = ro.get("Lula"), ro.get("Flávio")
+    if not lula or not flavio:
+        return 0.0
+    return round(lula / (lula + flavio) * 100 - NAT_2022_LULA, 1)
+
+
+def swing_lean(lean: dict, swing: float) -> dict:
+    """Aplica o swing nacional (top-2 Lula/Flávio) a um lean de base 'proxy 2022'."""
+    if not swing or "proxy" not in (lean.get("basis") or "").lower():
+        return lean
+    out = dict(lean)
+    if isinstance(out.get("Lula"), (int, float)):
+        out["Lula"] = round(min(100.0, max(0.0, out["Lula"] + swing)), 1)
+    if isinstance(out.get("Flávio"), (int, float)):
+        out["Flávio"] = round(min(100.0, max(0.0, out["Flávio"] - swing)), 1)
+    out["basis"] = (lean.get("basis") or "") + f" + swing nac. {swing:+.1f}"
+    return out
 
 
 def latest_polls() -> dict:
@@ -41,8 +64,8 @@ def state_may_change(sen_records: list[dict]) -> float | None:
     return None
 
 
-def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
-    lean = pres_lean.get(uf, {})
+def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swing=0.0):
+    lean = swing_lean(pres_lean.get(uf, {}), swing)   # combina 2022 + swing nacional
     basis = lean.get("basis")
 
     # --- governador: pesquisa própria (confiab. 1.0) + lean presidencial do bloco ---
@@ -74,9 +97,10 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
     weights = {"governo": sw.gov, "presidente": sw.pres, "senado": sw.sen, "apoio": sw.apoio}
     sens = []
     for r in sen_recs:
+        sen_pres = lean.get(r["bloc"]) if r["bloc"] in BLOCS else r.get("pres_pct")
         res = model.score_senate(
             gov_pct=r.get("gov_pct"), gov_reliability=r.get("gov_reliability") or 0.78,
-            pres_pct=r.get("pres_pct"), pres_reliability=r.get("pres_reliability") or 0.65,
+            pres_pct=sen_pres, pres_reliability=r.get("pres_reliability") or 0.65,
             sen_norm=r.get("sen_norm") or 0.0, endorsement=r.get("endorsement"),
             weights=weights,
         )
@@ -89,7 +113,7 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
                          "momentum": {"delta_pp": r.get("mom") or 0, "weight": round(schedule.momentum_weight(days), 2),
                                       "bonus": mom_bonus},
                          "inputs": {"gov_pct": r.get("gov_pct"), "gov_reliability": r.get("gov_reliability") or 0.78,
-                                    "pres_pct": r.get("pres_pct"), "pres_reliability": r.get("pres_reliability") or 0.65,
+                                    "pres_pct": sen_pres, "pres_reliability": r.get("pres_reliability") or 0.65,
                                     "pres_bloc": r["bloc"], "pres_basis": basis,
                                     "sen_norm": r.get("sen_norm"), "gov_ticket": r.get("gov_ticket"),
                                     "endorsement": r.get("endorsement")}}})
@@ -182,11 +206,12 @@ def main():
         r["_estado"] = estados.get(r["uf"], r["uf"])
         by_uf.setdefault(r["uf"], {"Governo": [], "Senado": []})[r["cargo"]].append(r)
 
+    swing = national_swing(polls.get("president"))   # 2022 estadual + pesquisa nacional atual
     states = {}
     for uf in sorted(by_uf):
         states[uf] = score_state(
             uf, by_uf[uf]["Governo"], by_uf[uf]["Senado"], roster["pres_lean"],
-            days, roster["gov_confidence"], roster["sen_confidence"],
+            days, roster["gov_confidence"], roster["sen_confidence"], swing=swing,
         )
 
     forecast = {
@@ -204,7 +229,9 @@ def main():
         "generated_at": date_str,
         "available": bool(polls.get("president")),
         "national": polls.get("president"),
-        "pres_lean": roster.get("pres_lean", {}),
+        "national_swing": swing,
+        "pres_lean": {uf: (swing_lean(l, swing) if isinstance(l, dict) else l)
+                      for uf, l in roster.get("pres_lean", {}).items()},
     }
     (WEB_DATA / "president.json").write_text(
         json.dumps(president, ensure_ascii=False, indent=1), encoding="utf-8")
