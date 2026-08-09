@@ -4,6 +4,7 @@ __pycache__/
 .pytest_cache/
 node_modules/
 tools/*.png
+tmp_*.txt
 .DS_Store
 Thumbs.db
 *.log

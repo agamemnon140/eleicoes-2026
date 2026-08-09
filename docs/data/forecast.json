@@ -2,7 +2,7 @@
  "generated_at": "2026-08-08",
  "election_date": "2026-10-04",
  "days_to_election": 57,
- "source": "preview snapshot",
+ "source": "wikipedia + base",
  "national": [
   {
    "party": "PL",
@@ -419,7 +419,7 @@
       "scores": {
        "governo": 45.760000000000005,
        "presidente": 65.0,
-       "senado": 87.86407766990291,
+       "senado": 87.864078,
        "apoio": 100.0
       },
       "estimated": true
@@ -457,7 +457,7 @@
       "scores": {
        "governo": 45.760000000000005,
        "presidente": 65.0,
-       "senado": 89.80582524271844,
+       "senado": 89.805825,
        "apoio": 45.0
       },
       "estimated": false
@@ -495,7 +495,7 @@
       "scores": {
        "governo": 12.610000000000001,
        "presidente": 32.175000000000004,
-       "senado": 55.33980582524271,
+       "senado": 55.339806,
        "apoio": 45.0
       },
       "estimated": false
@@ -533,7 +533,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 48.05825242718446,
+       "senado": 48.058252,
        "apoio": 0.0
       },
       "estimated": false
@@ -571,7 +571,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 31.06796116504854,
+       "senado": 31.067961,
        "apoio": 0.0
       },
       "estimated": false
@@ -841,7 +841,7 @@
       "scores": {
        "governo": 53.30000000000001,
        "presidente": 63.591666666666676,
-       "senado": 91.45728643216081,
+       "senado": 91.457286,
        "apoio": 45.0
       },
       "estimated": true
@@ -1149,7 +1149,7 @@
       "scores": {
        "governo": 30.42,
        "presidente": 52.975,
-       "senado": 62.055335968379445,
+       "senado": 62.055336,
        "apoio": 100.0
       },
       "estimated": true
@@ -1187,7 +1187,7 @@
       "scores": {
        "governo": 30.42,
        "presidente": 52.975,
-       "senado": 60.47430830039526,
+       "senado": 60.474308,
        "apoio": 45.0
       },
       "estimated": false
@@ -1225,7 +1225,7 @@
       "scores": {
        "governo": 30.42,
        "presidente": 52.975,
-       "senado": 38.73517786561265,
+       "senado": 38.735178,
        "apoio": 45.0
       },
       "estimated": false
@@ -1263,7 +1263,7 @@
       "scores": {
        "governo": 35.1,
        "presidente": 55.35833333333334,
-       "senado": 29.249011857707508,
+       "senado": 29.249012,
        "apoio": 45.0
       },
       "estimated": false
@@ -1799,7 +1799,7 @@
       "scores": {
        "governo": 66.16666666666667,
        "presidente": 86.66666666666667,
-       "senado": 78.69955156950672,
+       "senado": 78.699552,
        "apoio": 90.0
       },
       "estimated": true
@@ -1837,7 +1837,7 @@
       "scores": {
        "governo": 63.57,
        "presidente": 30.0,
-       "senado": 54.03587443946188,
+       "senado": 54.035874,
        "apoio": 100.0
       },
       "estimated": false
@@ -1875,7 +1875,7 @@
       "scores": {
        "governo": 63.57,
        "presidente": 30.0,
-       "senado": 49.10313901345291,
+       "senado": 49.103139,
        "apoio": 100.0
       },
       "estimated": false
@@ -2145,7 +2145,7 @@
       "scores": {
        "governo": 71.66666666666667,
        "presidente": 36.66666666666667,
-       "senado": 69.56521739130434,
+       "senado": 69.565217,
        "apoio": 100.0
       },
       "estimated": true
@@ -2183,7 +2183,7 @@
       "scores": {
        "governo": 55.0,
        "presidente": 91.66666666666667,
-       "senado": 39.130434782608695,
+       "senado": 39.130435,
        "apoio": 90.0
       },
       "estimated": false
@@ -2221,7 +2221,7 @@
       "scores": {
        "governo": 42.9,
        "presidente": 91.66666666666667,
-       "senado": 34.78260869565217,
+       "senado": 34.782609,
        "apoio": 45.0
       },
       "estimated": false
@@ -2259,7 +2259,7 @@
       "scores": {
        "governo": 71.66666666666667,
        "presidente": 36.66666666666667,
-       "senado": 13.043478260869565,
+       "senado": 13.043478,
        "apoio": 100.0
       },
       "estimated": false
@@ -2453,7 +2453,7 @@
       "scores": {
        "governo": 44.980000000000004,
        "presidente": 55.833333333333336,
-       "senado": 91.83673469387755,
+       "senado": 91.836735,
        "apoio": 100.0
       },
       "estimated": true
@@ -2529,7 +2529,7 @@
       "scores": {
        "governo": 44.980000000000004,
        "presidente": 55.833333333333336,
-       "senado": 46.68367346938775,
+       "senado": 46.683673,
        "apoio": 100.0
       },
       "estimated": false
@@ -2567,7 +2567,7 @@
       "scores": {
        "governo": 15.470000000000002,
        "presidente": 53.333333333333336,
-       "senado": 72.44897959183673,
+       "senado": 72.44898,
        "apoio": 45.0
       },
       "estimated": false
@@ -3715,7 +3715,7 @@
       "scores": {
        "governo": 40.300000000000004,
        "presidente": 65.0,
-       "senado": 92.85714285714286,
+       "senado": 92.857143,
        "apoio": 90.0
       },
       "estimated": true
@@ -3753,7 +3753,7 @@
       "scores": {
        "governo": 40.300000000000004,
        "presidente": 65.0,
-       "senado": 92.85714285714286,
+       "senado": 92.857143,
        "apoio": 90.0
       },
       "estimated": false
@@ -3791,7 +3791,7 @@
       "scores": {
        "governo": 40.300000000000004,
        "presidente": 65.0,
-       "senado": 71.42857142857143,
+       "senado": 71.428571,
        "apoio": 90.0
       },
       "estimated": false
@@ -3829,7 +3829,7 @@
       "scores": {
        "governo": 40.300000000000004,
        "presidente": 65.0,
-       "senado": 71.42857142857143,
+       "senado": 71.428571,
        "apoio": 90.0
       },
       "estimated": false
@@ -4163,7 +4163,7 @@
       "scores": {
        "governo": 45.5,
        "presidente": 48.333333333333336,
-       "senado": 57.89473684210526,
+       "senado": 57.894737,
        "apoio": 100.0
       },
       "estimated": true
@@ -4239,7 +4239,7 @@
       "scores": {
        "governo": 45.5,
        "presidente": 48.333333333333336,
-       "senado": 57.89473684210526,
+       "senado": 57.894737,
        "apoio": 45.0
       },
       "estimated": false
@@ -4277,7 +4277,7 @@
       "scores": {
        "governo": 45.5,
        "presidente": 48.333333333333336,
-       "senado": 57.89473684210526,
+       "senado": 57.894737,
        "apoio": 45.0
       },
       "estimated": false
@@ -4315,7 +4315,7 @@
       "scores": {
        "governo": 45.5,
        "presidente": 0.0,
-       "senado": 42.10526315789474,
+       "senado": 42.105263,
        "apoio": 0.0
       },
       "estimated": false
@@ -4353,7 +4353,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 15.789473684210526,
+       "senado": 15.789474,
        "apoio": 0.0
       },
       "estimated": false
@@ -4391,7 +4391,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 5.2631578947368425,
+       "senado": 5.263158,
        "apoio": 0.0
       },
       "estimated": false
@@ -4429,7 +4429,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 5.2631578947368425,
+       "senado": 5.263158,
        "apoio": 0.0
       },
       "estimated": false
@@ -4467,7 +4467,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 5.2631578947368425,
+       "senado": 5.263158,
        "apoio": 0.0
       },
       "estimated": false
@@ -4881,7 +4881,7 @@
       "scores": {
        "governo": 57.20000000000001,
        "presidente": 3.25,
-       "senado": 39.473684210526315,
+       "senado": 39.473684,
        "apoio": 45.0
       },
       "estimated": false
@@ -4919,7 +4919,7 @@
       "scores": {
        "governo": 32.50000000000001,
        "presidente": 43.875,
-       "senado": 21.05263157894737,
+       "senado": 21.052632,
        "apoio": 45.0
       },
       "estimated": false
@@ -4957,7 +4957,7 @@
       "scores": {
        "governo": 32.50000000000001,
        "presidente": 0.0,
-       "senado": 23.68421052631579,
+       "senado": 23.684211,
        "apoio": 0.0
       },
       "estimated": false
@@ -5151,7 +5151,7 @@
       "scores": {
        "governo": 45.0,
        "presidente": 65.0,
-       "senado": 85.71428571428571,
+       "senado": 85.714286,
        "apoio": 100.0
       },
       "estimated": true
@@ -5189,7 +5189,7 @@
       "scores": {
        "governo": 32.50000000000001,
        "presidente": 37.80833333333333,
-       "senado": 82.14285714285714,
+       "senado": 82.142857,
        "apoio": 45.0
       },
       "estimated": true
@@ -5227,7 +5227,7 @@
       "scores": {
        "governo": 32.50000000000001,
        "presidente": 65.0,
-       "senado": 57.142857142857146,
+       "senado": 57.142857,
        "apoio": 45.0
       },
       "estimated": false
@@ -5949,7 +5949,7 @@
       "scores": {
        "governo": 33.67,
        "presidente": 65.0,
-       "senado": 80.64516129032258,
+       "senado": 80.645161,
        "apoio": 90.0
       },
       "estimated": true
@@ -5987,7 +5987,7 @@
       "scores": {
        "governo": 24.050000000000004,
        "presidente": 36.18333333333333,
-       "senado": 38.70967741935484,
+       "senado": 38.709677,
        "apoio": 100.0
       },
       "estimated": false
@@ -6025,7 +6025,7 @@
       "scores": {
        "governo": 42.510000000000005,
        "presidente": 0.0,
-       "senado": 35.483870967741936,
+       "senado": 35.483871,
        "apoio": 0.0
       },
       "estimated": false
@@ -6122,6 +6122,40 @@
      {
       "uf": "PE",
       "cargo": "Governo",
+      "name": "Eduardo Moura",
+      "party": "Novo",
+      "bloc": "Zema",
+      "apoio": "Romeu Zema",
+      "apoio_verificado": false,
+      "pct": 7.0,
+      "pctDisplay": "7,0%",
+      "instituto": "Real Time Big Data",
+      "campo": "29–30 Dec",
+      "cenario": "Estimulado, 1º turno",
+      "indecisao": "Branco/nulo 5%; não sabe 2%",
+      "situacao": "Sem percentual comparável",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "estimated_preview": false,
+      "certainty_preview": "",
+      "components": {
+       "governo": 10.4,
+       "presidente": 0.2
+      },
+      "score": 10.6,
+      "scores": {
+       "governo": 11.666666666666668,
+       "presidente": 1.6666666666666667
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PE",
+      "cargo": "Governo",
       "name": "Camila Falcão",
       "party": "UP",
       "bloc": "Indefinido",
@@ -6184,40 +6218,6 @@
       "scores": {
        "governo": 1.6666666666666667,
        "presidente": 0.0
-      },
-      "estimated": false
-     },
-     {
-      "uf": "PE",
-      "cargo": "Governo",
-      "name": "Eduardo Moura",
-      "party": "Novo",
-      "bloc": "Zema",
-      "apoio": "Romeu Zema",
-      "apoio_verificado": false,
-      "pct": null,
-      "pctDisplay": "Não testado nesta rodada",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
-      "cenario": "Estimulado, 1º turno",
-      "indecisao": "Branco/nulo 5%; não sabe 2%",
-      "situacao": "Sem percentual comparável",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": null,
-      "may_change": null,
-      "estimated_preview": false,
-      "certainty_preview": "",
-      "components": {
-       "governo": 0.0,
-       "presidente": 0.2
-      },
-      "score": 0.2,
-      "scores": {
-       "governo": 0.0,
-       "presidente": 1.6666666666666667
       },
       "estimated": false
      }
@@ -6325,7 +6325,7 @@
       "scores": {
        "governo": 70.0,
        "presidente": 91.66666666666667,
-       "senado": 83.33333333333333,
+       "senado": 83.333333,
        "apoio": 90.0
       },
       "estimated": true
@@ -6363,7 +6363,7 @@
       "scores": {
        "governo": 62.400000000000006,
        "presidente": 35.0,
-       "senado": 55.55555555555556,
+       "senado": 55.555556,
        "apoio": 100.0
       },
       "estimated": false
@@ -6477,7 +6477,7 @@
       "scores": {
        "governo": 62.400000000000006,
        "presidente": 0.0,
-       "senado": 38.888888888888886,
+       "senado": 38.888889,
        "apoio": 0.0
       },
       "estimated": false
@@ -6709,7 +6709,7 @@
       "scores": {
        "governo": 100.0,
        "presidente": 65.0,
-       "senado": 72.05882352941177,
+       "senado": 72.058824,
        "apoio": 90.0
       },
       "estimated": true
@@ -6785,7 +6785,7 @@
       "scores": {
        "governo": 28.21,
        "presidente": 25.025000000000006,
-       "senado": 33.82352941176471,
+       "senado": 33.823529,
        "apoio": 100.0
       },
       "estimated": false
@@ -7431,7 +7431,7 @@
       "scores": {
        "governo": 81.0,
        "presidente": 50.0,
-       "senado": 57.718120805369125,
+       "senado": 57.718121,
        "apoio": 90.0
       },
       "estimated": true
@@ -7469,7 +7469,7 @@
       "scores": {
        "governo": 14.43,
        "presidente": 53.333333333333336,
-       "senado": 85.23489932885906,
+       "senado": 85.234899,
        "apoio": 45.0
       },
       "estimated": false
@@ -7507,7 +7507,7 @@
       "scores": {
        "governo": 14.43,
        "presidente": 53.333333333333336,
-       "senado": 30.872483221476507,
+       "senado": 30.872483,
        "apoio": 100.0
       },
       "estimated": false
@@ -7583,7 +7583,7 @@
       "scores": {
        "governo": 14.43,
        "presidente": 0.0,
-       "senado": 47.651006711409394,
+       "senado": 47.651007,
        "apoio": 0.0
       },
       "estimated": false
@@ -7777,7 +7777,7 @@
       "scores": {
        "governo": 49.01000000000001,
        "presidente": 65.0,
-       "senado": 85.04672897196262,
+       "senado": 85.046729,
        "apoio": 90.0
       },
       "estimated": true
@@ -7853,7 +7853,7 @@
       "scores": {
        "governo": 49.01000000000001,
        "presidente": 65.0,
-       "senado": 67.28971962616824,
+       "senado": 67.28972,
        "apoio": 90.0
       },
       "estimated": false
@@ -7891,7 +7891,7 @@
       "scores": {
        "governo": 49.01000000000001,
        "presidente": 65.0,
-       "senado": 52.33644859813084,
+       "senado": 52.336449,
        "apoio": 90.0
       },
       "estimated": false
@@ -7929,7 +7929,7 @@
       "scores": {
        "governo": 35.49,
        "presidente": 37.80833333333333,
-       "senado": 71.49532710280374,
+       "senado": 71.495327,
        "apoio": 100.0
       },
       "estimated": false
@@ -8161,7 +8161,7 @@
       "scores": {
        "governo": 46.800000000000004,
        "presidente": 65.0,
-       "senado": 68.42105263157895,
+       "senado": 68.421053,
        "apoio": 100.0
       },
       "estimated": true
@@ -8199,7 +8199,7 @@
       "scores": {
        "governo": 46.800000000000004,
        "presidente": 65.0,
-       "senado": 73.6842105263158,
+       "senado": 73.684211,
        "apoio": 45.0
       },
       "estimated": false
@@ -8237,7 +8237,7 @@
       "scores": {
        "governo": 36.400000000000006,
        "presidente": 31.74166666666667,
-       "senado": 68.42105263157895,
+       "senado": 68.421053,
        "apoio": 45.0
       },
       "estimated": false
@@ -8757,10 +8757,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 3,
-      "pctDisplay": "3,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "pct": 1.5,
+      "pctDisplay": "1,5%",
+      "instituto": "Brasmarket",
+      "campo": "26–29 Dec",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Espontânea: cerca de 83% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -8773,12 +8773,12 @@
       "estimated_preview": false,
       "certainty_preview": "",
       "components": {
-       "governo": 4.4,
+       "governo": 2.2,
        "presidente": 0.0
       },
-      "score": 4.4,
+      "score": 2.2,
       "scores": {
-       "governo": 5.0,
+       "governo": 2.5,
        "presidente": 0.0
       },
       "estimated": false
@@ -8925,7 +8925,7 @@
       "scores": {
        "governo": 28.600000000000005,
        "presidente": 53.333333333333336,
-       "senado": 58.333333333333336,
+       "senado": 58.333333,
        "apoio": 100.0
       },
       "estimated": false
@@ -9233,7 +9233,7 @@
       "scores": {
        "governo": 90.33333333333334,
        "presidente": 65.0,
-       "senado": 98.97435897435898,
+       "senado": 98.974359,
        "apoio": 100.0
       },
       "estimated": true
@@ -9271,7 +9271,7 @@
       "scores": {
        "governo": 70.46000000000001,
        "presidente": 65.0,
-       "senado": 87.43589743589743,
+       "senado": 87.435897,
        "apoio": 45.0
       },
       "estimated": false
@@ -9309,7 +9309,7 @@
       "scores": {
        "governo": 10.14,
        "presidente": 33.25833333333333,
-       "senado": 69.23076923076923,
+       "senado": 69.230769,
        "apoio": 45.0
       },
       "estimated": false
@@ -9503,7 +9503,7 @@
       "scores": {
        "governo": 55.900000000000006,
        "presidente": 65.0,
-       "senado": 52.94117647058823,
+       "senado": 52.941176,
        "apoio": 90.0
       },
       "estimated": true
@@ -9541,7 +9541,7 @@
       "scores": {
        "governo": 52.00000000000001,
        "presidente": 35.53333333333333,
-       "senado": 70.58823529411765,
+       "senado": 70.588235,
        "apoio": 100.0
       },
       "estimated": true
@@ -9617,7 +9617,7 @@
       "scores": {
        "governo": 52.00000000000001,
        "presidente": 0.0,
-       "senado": 82.3529411764706,
+       "senado": 82.352941,
        "apoio": 0.0
       },
       "estimated": false
@@ -9655,7 +9655,7 @@
       "scores": {
        "governo": 52.00000000000001,
        "presidente": 0.0,
-       "senado": 76.47058823529412,
+       "senado": 76.470588,
        "apoio": 0.0
       },
       "estimated": false
@@ -9807,7 +9807,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 52.94117647058823,
+       "senado": 52.941176,
        "apoio": 0.0
       },
       "estimated": false
@@ -9844,7 +9844,7 @@
       "pct": 52.9,
       "pctDisplay": "52,9%",
       "instituto": "Vox Brasil",
-      "campo": "29–31/07/2026",
+      "campo": "29–31 Jul",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo/nenhum 5,5%; não sabe 3,7%",
       "situacao": "Maior percentual no cenário",
@@ -9878,7 +9878,7 @@
       "pct": 34.3,
       "pctDisplay": "34,3%",
       "instituto": "Vox Brasil",
-      "campo": "29–31/07/2026",
+      "campo": "29–31 Jul",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo/nenhum 5,5%; não sabe 3,7%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -10107,7 +10107,7 @@
       "scores": {
        "governo": 88.16666666666667,
        "presidente": 56.66666666666667,
-       "senado": 35.714285714285715,
+       "senado": 35.714286,
        "apoio": 100.0
       },
       "estimated": true
@@ -10183,7 +10183,7 @@
       "scores": {
        "governo": 44.589999999999996,
        "presidente": 50.0,
-       "senado": 85.71428571428571,
+       "senado": 85.714286,
        "apoio": 90.0
       },
       "estimated": false
@@ -10221,7 +10221,7 @@
       "scores": {
        "governo": 44.589999999999996,
        "presidente": 50.0,
-       "senado": 28.571428571428573,
+       "senado": 28.571429,
        "apoio": 45.0
       },
       "estimated": false
@@ -10259,7 +10259,7 @@
       "scores": {
        "governo": 68.77000000000001,
        "presidente": 0.0,
-       "senado": 64.28571428571429,
+       "senado": 64.285714,
        "apoio": 0.0
       },
       "estimated": false
@@ -10297,7 +10297,7 @@
       "scores": {
        "governo": 68.77000000000001,
        "presidente": 5.0,
-       "senado": 28.571428571428573,
+       "senado": 28.571429,
        "apoio": 45.0
       },
       "estimated": false
@@ -10335,7 +10335,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 21.428571428571427,
+       "senado": 21.428571,
        "apoio": 0.0
       },
       "estimated": false
@@ -10373,7 +10373,7 @@
       "scores": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 7.142857142857143,
+       "senado": 7.142857,
        "apoio": 0.0
       },
       "estimated": false
@@ -10605,7 +10605,7 @@
       "scores": {
        "governo": 46.800000000000004,
        "presidente": 52.65,
-       "senado": 55.55555555555556,
+       "senado": 55.555556,
        "apoio": 100.0
       },
       "estimated": true
@@ -10643,7 +10643,7 @@
       "scores": {
        "governo": 46.800000000000004,
        "presidente": 0.0,
-       "senado": 69.44444444444444,
+       "senado": 69.444444,
        "apoio": 0.0
       },
       "estimated": false
