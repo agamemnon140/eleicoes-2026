@@ -92,12 +92,13 @@ def senate_weights(
     may_change_pct: float | None = None,
     single_seat_stable: bool = False,
     k: float = K,
+    cap: float = SEN_POLL_CAP,
 ) -> SenateWeights:
     r = ramp(days_to_election, k)
-    w_sen = (SEN_POLL_MIN + (SEN_POLL_CAP - SEN_POLL_MIN) * r) * volatility_factor(may_change_pct)
+    w_sen = (SEN_POLL_MIN + (cap - SEN_POLL_MIN) * r) * volatility_factor(may_change_pct)
     if single_seat_stable:
         w_sen *= 1.10  # permite chegar ao teto rígido em corrida de 1 vaga estável
-    hi = SEN_POLL_HARD_MAX if single_seat_stable else SEN_POLL_CAP
+    hi = SEN_POLL_HARD_MAX if single_seat_stable else cap
     w_sen = clamp(w_sen, SEN_POLL_ABS_FLOOR, hi)
     rem = 1.0 - SEN_APOIO - w_sen
     return SenateWeights(

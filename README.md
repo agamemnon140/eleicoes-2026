@@ -22,8 +22,17 @@ Os **pesos variam no tempo** (curva côncava — pesquisas ficam mais confiávei
 - **Senado:** peso da pesquisa própria cresce **0,15 → 0,50** (teto rígido 0,55), modulado pra baixo por
   volatilidade ("pode mudar o voto"). O resto vai pra chapa (governador + presidente + apoio).
 
-Números calibrados por **backtest 2018/2022** e ancorados na literatura (Jennings & Wlezien 2018;
-Erikson & Wlezien; Borges & Lloyd 2016). Ver `.claude/plans` / histórico para as fontes.
+Pesos ancorados na literatura (Jennings & Wlezien 2018; Erikson & Wlezien; Borges & Lloyd 2016)
+e nas viradas de Senado de 2018/2022.
+
+**Backtest (`pipeline/backtest/`, `py -m pipeline.backtest.run`):** nos casos documentados de erro
+de pesquisa (PR/MG/SP 2018, SP/PR 2022), o modelo ponderado por chapa fica **comparável à pesquisa
+pura**, não a supera — essas viradas foram puxadas por volatilidade tardia (indeciso decidindo no
+fim), que um sinal estrutural não prevê. Conclusão honesta: o índice serve para **ordenar** (é bom
+onde a pesquisa é fraca/precoce), mas **não é um corretor de erro de pesquisa**; por isso o teto do
+Senado é mantido **moderado (~0,50)** — nem 1,0 (pesquisa pura) nem baixo demais. A amostra do
+backtest é pequena e enviesada (casos notórios); uma calibração definitiva exigiria raspar todos os
+pleitos de 2018/2022.
 
 ## Estrutura
 
