@@ -7,8 +7,8 @@
   {
    "party": "PL",
    "hold": 10,
-   "newSen": 18,
-   "sen2027": 28,
+   "newSen": 17,
+   "sen2027": 27,
    "gov": 5,
    "holdNames": [
     "Magno Malta (ES)",
@@ -60,8 +60,8 @@
   {
    "party": "PP",
    "hold": 3,
-   "newSen": 2,
-   "sen2027": 5,
+   "newSen": 3,
+   "sen2027": 6,
    "gov": 4,
    "holdNames": [
     "Tereza Cristina (MS)",
@@ -120,6 +120,14 @@
    "holdNames": []
   },
   {
+   "party": "Novo",
+   "hold": 0,
+   "newSen": 1,
+   "sen2027": 1,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
    "party": "Avante",
    "hold": 0,
    "newSen": 1,
@@ -129,14 +137,6 @@
   },
   {
    "party": "PSOL",
-   "hold": 0,
-   "newSen": 1,
-   "sen2027": 1,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
-   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -189,8 +189,8 @@
       "apoio_verificado": false,
       "pct": 35.2,
       "pctDisplay": "35,2%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
       "situacao": "Maior percentual no cenário",
@@ -237,8 +237,8 @@
       "apoio_verificado": false,
       "pct": 33.1,
       "pctDisplay": "33,1%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -285,8 +285,8 @@
       "apoio_verificado": false,
       "pct": 18.5,
       "pctDisplay": "18,5%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -333,8 +333,8 @@
       "apoio_verificado": false,
       "pct": 9.7,
       "pctDisplay": "9,7%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -414,8 +414,8 @@
       "apoio_verificado": true,
       "pct": 20.6,
       "pctDisplay": "20,6%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "No top 2 numérico da pesquisa",
@@ -528,8 +528,8 @@
       "apoio_verificado": false,
       "pct": 18.5,
       "pctDisplay": "18,5%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "No top 2 numérico da pesquisa",
@@ -585,8 +585,8 @@
       "apoio_verificado": false,
       "pct": 11.4,
       "pctDisplay": "11,4%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "Fora do top 2 numérico",
@@ -642,8 +642,8 @@
       "apoio_verificado": false,
       "pct": 9.9,
       "pctDisplay": "9,9%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "Fora do top 2 numérico",
@@ -699,8 +699,8 @@
       "apoio_verificado": false,
       "pct": 6.4,
       "pctDisplay": "6,4%",
-      "instituto": "AtlasIntel",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "Fora do top 2 numérico",
@@ -2095,7 +2095,7 @@
      "name": "ACM Neto",
      "party": "União",
      "bloc": "Caiado",
-     "score": 73.1
+     "score": 79.1
     },
     "weights": {
      "gov": 0.89,
@@ -2110,10 +2110,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado",
       "apoio_verificado": false,
-      "pct": 48.9,
-      "pctDisplay": "48,9%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 53.0,
+      "pctDisplay": "53,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
       "situacao": "Maior percentual no cenário",
@@ -2125,14 +2125,14 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 73.1,
+      "score": 79.1,
       "components": {
-       "governo": 72.5,
+       "governo": 78.6,
        "presidente": 0.6
       },
       "model": {
        "scores": {
-        "governo": 81.5,
+        "governo": 88.33333333333334,
         "presidente": 5.0
        },
        "weights": {
@@ -2140,7 +2140,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 48.9,
+        "gov_pct": 53.0,
         "gov_reliability": 1.0,
         "pres_pct": 3,
         "pres_reliability": 1.0,
@@ -2158,10 +2158,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 39.7,
-      "pctDisplay": "39,7%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 39.8,
+      "pctDisplay": "39,8%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -2173,14 +2173,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 68.4,
+      "score": 68.6,
       "components": {
-       "governo": 58.9,
+       "governo": 59.0,
        "presidente": 9.6
       },
       "model": {
        "scores": {
-        "governo": 66.16666666666667,
+        "governo": 66.33333333333333,
         "presidente": 86.66666666666667
        },
        "weights": {
@@ -2188,7 +2188,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 39.7,
+        "gov_pct": 39.8,
         "gov_reliability": 1.0,
         "pres_pct": 52,
         "pres_reliability": 1.0,
@@ -2206,10 +2206,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": null,
-      "pctDisplay": "Não testado nesta rodada",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 26.7,
+      "pctDisplay": "26,7%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
       "situacao": "Sem percentual comparável",
@@ -2221,14 +2221,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 3.3,
+      "score": 42.9,
       "components": {
-       "governo": 0.0,
+       "governo": 39.6,
        "presidente": 3.3
       },
       "model": {
        "scores": {
-        "governo": 0.0,
+        "governo": 44.5,
         "presidente": 30.0
        },
        "weights": {
@@ -2236,7 +2236,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": null,
+        "gov_pct": 26.7,
         "gov_reliability": 1.0,
         "pres_pct": 18,
         "pres_reliability": 1.0,
@@ -2254,10 +2254,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 0.7,
-      "pctDisplay": "0,7%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 1.2,
+      "pctDisplay": "1,2%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -2269,14 +2269,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 1.0,
+      "score": 1.8,
       "components": {
-       "governo": 1.0,
+       "governo": 1.8,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 1.1666666666666667,
+        "governo": 2.0,
         "presidente": 0.0
        },
        "weights": {
@@ -2284,7 +2284,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 0.7,
+        "gov_pct": 1.2,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -2317,13 +2317,13 @@
       "name": "Rui Costa",
       "party": "PT",
       "bloc": "Lula",
-      "score": 85.2
+      "score": 85.3
      },
      {
       "name": "Jaques Wagner",
       "party": "PT",
       "bloc": "Lula",
-      "score": 78.1
+      "score": 77.2
      }
     ],
     "candidates": [
@@ -2335,10 +2335,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 44.6,
-      "pctDisplay": "44,6%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 47.5,
+      "pctDisplay": "47,5%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
       "situacao": "No top 2 numérico da pesquisa",
@@ -2350,16 +2350,16 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 85.2,
+      "score": 85.3,
       "components": {
-       "governo": 20.1,
+       "governo": 20.2,
        "presidente": 22.6,
        "senado": 33.5,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 66.16666666666667,
+        "governo": 66.33333333333333,
         "presidente": 86.66666666666667,
         "senado": 100.0,
         "apoio": 90.0
@@ -2371,7 +2371,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 39.7,
+        "gov_pct": 39.8,
         "gov_reliability": 1.0,
         "pres_pct": 52,
         "pres_reliability": 1.0,
@@ -2392,10 +2392,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 35.1,
-      "pctDisplay": "35,1%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 36.0,
+      "pctDisplay": "36,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
       "situacao": "No top 2 numérico da pesquisa",
@@ -2407,18 +2407,18 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 78.1,
+      "score": 77.2,
       "components": {
-       "governo": 20.1,
+       "governo": 20.2,
        "presidente": 22.6,
-       "senado": 26.3,
+       "senado": 25.4,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 66.16666666666667,
+        "governo": 66.33333333333333,
         "presidente": 86.66666666666667,
-        "senado": 78.699552,
+        "senado": 75.789474,
         "apoio": 90.0
        },
        "weights": {
@@ -2428,13 +2428,13 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 39.7,
+        "gov_pct": 39.8,
         "gov_reliability": 1.0,
         "pres_pct": 52,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
         "pres_basis": "Quaest 23–27/07",
-        "sen_norm": 78.699552,
+        "sen_norm": 75.789474,
         "gov_ticket": "Jerônimo Rodrigues",
         "endorsement": "chapa/aliança"
        }
@@ -2464,18 +2464,18 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.3,
+      "score": 55.8,
       "components": {
-       "governo": 19.4,
+       "governo": 21.0,
        "presidente": 7.8,
-       "senado": 18.1,
+       "senado": 17.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 63.57,
+        "governo": 68.9,
         "presidente": 30.0,
-        "senado": 54.035874,
+        "senado": 50.736842,
         "apoio": 100.0
        },
        "weights": {
@@ -2485,13 +2485,13 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48.9,
+        "gov_pct": 53.0,
         "gov_reliability": 0.78,
         "pres_pct": 18,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 23–27/07",
-        "sen_norm": 54.035874,
+        "sen_norm": 50.736842,
         "gov_ticket": "ACM Neto",
         "endorsement": "explícito"
        }
@@ -2506,10 +2506,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 21.9,
-      "pctDisplay": "21,9%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "31/07–02/08/2026",
+      "pct": 24.0,
+      "pctDisplay": "24,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
       "situacao": "Fora do top 2 numérico",
@@ -2521,18 +2521,18 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 53.6,
+      "score": 55.7,
       "components": {
-       "governo": 19.4,
+       "governo": 21.0,
        "presidente": 7.8,
-       "senado": 16.4,
+       "senado": 16.9,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 63.57,
+        "governo": 68.9,
         "presidente": 30.0,
-        "senado": 49.103139,
+        "senado": 50.526316,
         "apoio": 100.0
        },
        "weights": {
@@ -2542,13 +2542,13 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48.9,
+        "gov_pct": 53.0,
         "gov_reliability": 0.78,
         "pres_pct": 18,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 23–27/07",
-        "sen_norm": 49.103139,
+        "sen_norm": 50.526316,
         "gov_ticket": "ACM Neto",
         "endorsement": "explícito"
        }
@@ -2578,16 +2578,16 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 19.4,
+      "score": 21.0,
       "components": {
-       "governo": 19.4,
+       "governo": 21.0,
        "presidente": 0.0,
        "senado": 0.0,
        "apoio": 0.0
       },
       "model": {
        "scores": {
-        "governo": 63.57,
+        "governo": 68.9,
         "presidente": 0.0,
         "senado": 0.0,
         "apoio": 0.0
@@ -2599,7 +2599,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48.9,
+        "gov_pct": 53.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -2641,10 +2641,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro (aproximação provável)",
       "apoio_verificado": false,
-      "pct": 43,
+      "pct": 43.0,
       "pctDisplay": "43,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Alta indefinição espontânea; ver fonte",
       "situacao": "Maior percentual no cenário",
@@ -2671,7 +2671,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 43,
+        "gov_pct": 43.0,
         "gov_reliability": 1.0,
         "pres_pct": 22,
         "pres_reliability": 1.0,
@@ -2689,10 +2689,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 33,
+      "pct": 33.0,
       "pctDisplay": "33,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Alta indefinição espontânea; ver fonte",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -2719,7 +2719,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 33,
+        "gov_pct": 33.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -2737,10 +2737,10 @@
       "bloc": "Zema",
       "apoio": "Romeu Zema",
       "apoio_verificado": false,
-      "pct": 3,
+      "pct": 3.0,
       "pctDisplay": "3,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Alta indefinição espontânea; ver fonte",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -2767,7 +2767,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 3,
+        "gov_pct": 3.0,
         "gov_reliability": 1.0,
         "pres_pct": 2,
         "pres_reliability": 1.0,
@@ -2818,10 +2818,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 23,
+      "pct": 23.0,
       "pctDisplay": "23,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Alto nível de indecisão; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -2854,7 +2854,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 33,
+        "gov_pct": 33.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -2875,10 +2875,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 16,
+      "pct": 16.0,
       "pctDisplay": "16,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Alto nível de indecisão; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -2911,7 +2911,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 43,
+        "gov_pct": 43.0,
         "gov_reliability": 1.0,
         "pres_pct": 22,
         "pres_reliability": 1.0,
@@ -2932,10 +2932,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Alto nível de indecisão; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -2968,7 +2968,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 33,
+        "gov_pct": 33.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -2989,10 +2989,10 @@
       "bloc": "Lula",
       "apoio": "Lula (provável)",
       "apoio_verificado": false,
-      "pct": 8,
+      "pct": 8.0,
       "pctDisplay": "8,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Alto nível de indecisão; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -3025,7 +3025,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 33,
+        "gov_pct": 33.0,
         "gov_reliability": 0.78,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -3046,10 +3046,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 3,
+      "pct": 3.0,
       "pctDisplay": "3,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Alto nível de indecisão; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -3082,7 +3082,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 43,
+        "gov_pct": 43.0,
         "gov_reliability": 1.0,
         "pres_pct": 22,
         "pres_reliability": 1.0,
@@ -4147,10 +4147,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado",
       "apoio_verificado": false,
-      "pct": 37,
+      "pct": 37.0,
       "pctDisplay": "37,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
       "situacao": "Maior percentual no cenário",
@@ -4177,7 +4177,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 37,
+        "gov_pct": 37.0,
         "gov_reliability": 1.0,
         "pres_pct": 33,
         "pres_reliability": 1.0,
@@ -4195,10 +4195,10 @@
       "bloc": "Indefinido",
       "apoio": "Indefinido",
       "apoio_verificado": false,
-      "pct": 21,
+      "pct": 21.0,
       "pctDisplay": "21,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -4225,7 +4225,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 21,
+        "gov_pct": 21.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -4243,10 +4243,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": 11,
+      "pct": 11.0,
       "pctDisplay": "11,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -4273,7 +4273,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 11,
+        "gov_pct": 11.0,
         "gov_reliability": 1.0,
         "pres_pct": 27,
         "pres_reliability": 1.0,
@@ -4291,10 +4291,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 3,
+      "pct": 3.0,
       "pctDisplay": "3,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -4321,7 +4321,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 3,
+        "gov_pct": 3.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -4372,10 +4372,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado",
       "apoio_verificado": false,
-      "pct": 20,
+      "pct": 20.0,
       "pctDisplay": "20,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -4408,7 +4408,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 37,
+        "gov_pct": 37.0,
         "gov_reliability": 1.0,
         "pres_pct": 33,
         "pres_reliability": 1.0,
@@ -4429,10 +4429,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado / indefinido",
       "apoio_verificado": false,
-      "pct": 10,
+      "pct": 10.0,
       "pctDisplay": "10,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -4465,7 +4465,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 37,
+        "gov_pct": 37.0,
         "gov_reliability": 0.78,
         "pres_pct": 33,
         "pres_reliability": 1.0,
@@ -4486,10 +4486,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado / centro-direita",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -4522,7 +4522,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 37,
+        "gov_pct": 37.0,
         "gov_reliability": 0.78,
         "pres_pct": 33,
         "pres_reliability": 1.0,
@@ -4543,10 +4543,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -4579,7 +4579,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 11,
+        "gov_pct": 11.0,
         "gov_reliability": 0.78,
         "pres_pct": 27,
         "pres_reliability": 1.0,
@@ -4636,7 +4636,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 11,
+        "gov_pct": 11.0,
         "gov_reliability": 0.78,
         "pres_pct": 27,
         "pres_reliability": 1.0,
@@ -4657,10 +4657,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 6,
+      "pct": 6.0,
       "pctDisplay": "6,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -5374,7 +5374,7 @@
      "name": "Cleitinho",
      "party": "Republicanos",
      "bloc": "Flávio",
-     "score": 57.2
+     "score": 58.7
     },
     "weights": {
      "gov": 0.89,
@@ -5389,10 +5389,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro (provável)",
       "apoio_verificado": false,
-      "pct": 35,
-      "pctDisplay": "35,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 36.0,
+      "pctDisplay": "36,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Maior percentual no cenário",
@@ -5404,14 +5404,14 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 57.2,
+      "score": 58.7,
       "components": {
-       "governo": 51.9,
+       "governo": 53.4,
        "presidente": 5.3
       },
       "model": {
        "scores": {
-        "governo": 58.333333333333336,
+        "governo": 60.0,
         "presidente": 48.333333333333336
        },
        "weights": {
@@ -5419,7 +5419,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 35,
+        "gov_pct": 36.0,
         "gov_reliability": 1.0,
         "pres_pct": 29,
         "pres_reliability": 1.0,
@@ -5437,10 +5437,10 @@
       "bloc": "Lula",
       "apoio": "Lula (provável)",
       "apoio_verificado": false,
-      "pct": 12,
-      "pctDisplay": "12,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 15.0,
+      "pctDisplay": "15,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -5452,14 +5452,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 23.3,
+      "score": 27.8,
       "components": {
-       "governo": 17.8,
+       "governo": 22.2,
        "presidente": 5.5
       },
       "model": {
        "scores": {
-        "governo": 20.0,
+        "governo": 25.0,
         "presidente": 50.0
        },
        "weights": {
@@ -5467,7 +5467,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 12,
+        "gov_pct": 15.0,
         "gov_reliability": 1.0,
         "pres_pct": 30,
         "pres_reliability": 1.0,
@@ -5485,10 +5485,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 10,
-      "pctDisplay": "10,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 14.0,
+      "pctDisplay": "14,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -5500,14 +5500,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 14.8,
+      "score": 20.8,
       "components": {
-       "governo": 14.8,
+       "governo": 20.8,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 16.666666666666668,
+        "governo": 23.333333333333336,
         "presidente": 0.0
        },
        "weights": {
@@ -5515,7 +5515,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 10,
+        "gov_pct": 14.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -5533,10 +5533,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado (provável)",
       "apoio_verificado": false,
-      "pct": 6,
-      "pctDisplay": "6,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 10.0,
+      "pctDisplay": "10,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -5548,14 +5548,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 9.4,
+      "score": 15.4,
       "components": {
-       "governo": 8.9,
+       "governo": 14.8,
        "presidente": 0.6
       },
       "model": {
        "scores": {
-        "governo": 10.0,
+        "governo": 16.666666666666668,
         "presidente": 5.0
        },
        "weights": {
@@ -5563,7 +5563,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 6,
+        "gov_pct": 10.0,
         "gov_reliability": 1.0,
         "pres_pct": 3,
         "pres_reliability": 1.0,
@@ -5581,10 +5581,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 4,
-      "pctDisplay": "4,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 7.0,
+      "pctDisplay": "7,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -5596,14 +5596,14 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 5.9,
+      "score": 10.4,
       "components": {
-       "governo": 5.9,
+       "governo": 10.4,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 6.666666666666667,
+        "governo": 11.666666666666668,
         "presidente": 0.0
        },
        "weights": {
@@ -5611,7 +5611,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 4,
+        "gov_pct": 7.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -5629,10 +5629,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 2,
+      "pct": 2.0,
       "pctDisplay": "2,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado; cenário com Cleitinho",
       "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -5659,7 +5659,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 2,
+        "gov_pct": 2.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -5673,10 +5673,10 @@
    },
    "senate": {
     "seats": 2,
-    "bloc": "Flávio",
+    "bloc": "Lula",
     "blocs": [
-     "Flávio",
-     "Lula"
+     "Lula",
+     "Flávio"
     ],
     "certainty": "Muito baixa",
     "stale": false,
@@ -5689,76 +5689,19 @@
     },
     "estimate": [
      {
-      "name": "Domingos Sávio",
-      "party": "PL",
-      "bloc": "Flávio",
-      "score": 54.7
-     },
-     {
       "name": "Marília Campos",
       "party": "PT",
       "bloc": "Lula",
-      "score": 52.5
+      "score": 54.4
+     },
+     {
+      "name": "Marcelo Aro",
+      "party": "PP",
+      "bloc": "Flávio",
+      "score": 52.9
      }
     ],
     "candidates": [
-     {
-      "uf": "MG",
-      "cargo": "Senado",
-      "name": "Domingos Sávio",
-      "party": "PL",
-      "bloc": "Flávio",
-      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
-      "apoio_verificado": true,
-      "pct": 11,
-      "pctDisplay": "11%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
-      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
-      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
-      "situacao": "Fora do top 2 numérico",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": "Cleitinho",
-      "may_change": 64,
-      "estimated_preview": true,
-      "certainty_preview": "Muito baixa",
-      "score": 54.7,
-      "components": {
-       "governo": 16.3,
-       "presidente": 14.8,
-       "senado": 13.6,
-       "apoio": 10.0
-      },
-      "model": {
-       "scores": {
-        "governo": 45.5,
-        "presidente": 48.333333333333336,
-        "senado": 57.894737,
-        "apoio": 100.0
-       },
-       "weights": {
-        "governo": 0.35801049507315313,
-        "presidente": 0.30686613863413126,
-        "senado": 0.23512336629271552,
-        "apoio": 0.1
-       },
-       "inputs": {
-        "gov_pct": 35,
-        "gov_reliability": 0.78,
-        "pres_pct": 29,
-        "pres_reliability": 1.0,
-        "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 57.894737,
-        "gov_ticket": "Cleitinho",
-        "endorsement": "explícito"
-       }
-      },
-      "estimated": true
-     },
      {
       "uf": "MG",
       "cargo": "Senado",
@@ -5767,10 +5710,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 19,
-      "pctDisplay": "19%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 21.0,
+      "pctDisplay": "21,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
       "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -5782,16 +5725,16 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 52.5,
+      "score": 54.4,
       "components": {
-       "governo": 4.7,
+       "governo": 6.5,
        "presidente": 15.3,
        "senado": 23.5,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 13.000000000000002,
+        "governo": 18.200000000000003,
         "presidente": 50.0,
         "senado": 100.0,
         "apoio": 90.0
@@ -5803,7 +5746,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 10,
+        "gov_pct": 14.0,
         "gov_reliability": 0.78,
         "pres_pct": 30,
         "pres_reliability": 1.0,
@@ -5819,72 +5762,15 @@
      {
       "uf": "MG",
       "cargo": "Senado",
-      "name": "Carlos Viana",
-      "party": "PSD",
-      "bloc": "Flávio",
-      "apoio": "Flávio Bolsonaro (provável)",
-      "apoio_verificado": false,
-      "pct": 11,
-      "pctDisplay": "11%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
-      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
-      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
-      "situacao": "Dentro da margem do 2º colocado",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": "Cleitinho",
-      "may_change": 64,
-      "estimated_preview": true,
-      "certainty_preview": "Muito baixa",
-      "score": 49.2,
-      "components": {
-       "governo": 16.3,
-       "presidente": 14.8,
-       "senado": 13.6,
-       "apoio": 4.5
-      },
-      "model": {
-       "scores": {
-        "governo": 45.5,
-        "presidente": 48.333333333333336,
-        "senado": 57.894737,
-        "apoio": 45.0
-       },
-       "weights": {
-        "governo": 0.35801049507315313,
-        "presidente": 0.30686613863413126,
-        "senado": 0.23512336629271552,
-        "apoio": 0.1
-       },
-       "inputs": {
-        "gov_pct": 35,
-        "gov_reliability": 0.78,
-        "pres_pct": 29,
-        "pres_reliability": 1.0,
-        "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 57.894737,
-        "gov_ticket": "Cleitinho",
-        "endorsement": "inferido"
-       }
-      },
-      "estimated": false
-     },
-     {
-      "uf": "MG",
-      "cargo": "Senado",
       "name": "Marcelo Aro",
       "party": "PP",
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro (provável)",
       "apoio_verificado": false,
-      "pct": 11,
-      "pctDisplay": "11%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 15.0,
+      "pctDisplay": "15,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
       "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
       "situacao": "Dentro da margem do 2º colocado",
@@ -5896,18 +5782,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 49.2,
+      "score": 52.9,
       "components": {
-       "governo": 16.3,
+       "governo": 16.8,
        "presidente": 14.8,
-       "senado": 13.6,
+       "senado": 16.8,
        "apoio": 4.5
       },
       "model": {
        "scores": {
-        "governo": 45.5,
+        "governo": 46.800000000000004,
         "presidente": 48.333333333333336,
-        "senado": 57.894737,
+        "senado": 71.428571,
         "apoio": 45.0
        },
        "weights": {
@@ -5917,13 +5803,127 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 35,
+        "gov_pct": 36.0,
         "gov_reliability": 0.78,
         "pres_pct": 29,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 57.894737,
+        "sen_norm": 71.428571,
+        "gov_ticket": "Cleitinho",
+        "endorsement": "inferido"
+       }
+      },
+      "estimated": true
+     },
+     {
+      "uf": "MG",
+      "cargo": "Senado",
+      "name": "Domingos Sávio",
+      "party": "PL",
+      "bloc": "Flávio",
+      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
+      "apoio_verificado": true,
+      "pct": 9.0,
+      "pctDisplay": "9,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
+      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
+      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
+      "situacao": "Fora do top 2 numérico",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": "Cleitinho",
+      "may_change": 64,
+      "estimated_preview": true,
+      "certainty_preview": "Muito baixa",
+      "score": 51.7,
+      "components": {
+       "governo": 16.8,
+       "presidente": 14.8,
+       "senado": 10.1,
+       "apoio": 10.0
+      },
+      "model": {
+       "scores": {
+        "governo": 46.800000000000004,
+        "presidente": 48.333333333333336,
+        "senado": 42.857143,
+        "apoio": 100.0
+       },
+       "weights": {
+        "governo": 0.35801049507315313,
+        "presidente": 0.30686613863413126,
+        "senado": 0.23512336629271552,
+        "apoio": 0.1
+       },
+       "inputs": {
+        "gov_pct": 36.0,
+        "gov_reliability": 0.78,
+        "pres_pct": 29,
+        "pres_reliability": 1.0,
+        "pres_bloc": "Flávio",
+        "pres_basis": "Quaest 22–26/07",
+        "sen_norm": 42.857143,
+        "gov_ticket": "Cleitinho",
+        "endorsement": "explícito"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "MG",
+      "cargo": "Senado",
+      "name": "Carlos Viana",
+      "party": "PSD",
+      "bloc": "Flávio",
+      "apoio": "Flávio Bolsonaro (provável)",
+      "apoio_verificado": false,
+      "pct": 12.0,
+      "pctDisplay": "12,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
+      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
+      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
+      "situacao": "Dentro da margem do 2º colocado",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": "Cleitinho",
+      "may_change": 64,
+      "estimated_preview": true,
+      "certainty_preview": "Muito baixa",
+      "score": 49.5,
+      "components": {
+       "governo": 16.8,
+       "presidente": 14.8,
+       "senado": 13.4,
+       "apoio": 4.5
+      },
+      "model": {
+       "scores": {
+        "governo": 46.800000000000004,
+        "presidente": 48.333333333333336,
+        "senado": 57.142857,
+        "apoio": 45.0
+       },
+       "weights": {
+        "governo": 0.35801049507315313,
+        "presidente": 0.30686613863413126,
+        "senado": 0.23512336629271552,
+        "apoio": 0.1
+       },
+       "inputs": {
+        "gov_pct": 36.0,
+        "gov_reliability": 0.78,
+        "pres_pct": 29,
+        "pres_reliability": 1.0,
+        "pres_bloc": "Flávio",
+        "pres_basis": "Quaest 22–26/07",
+        "sen_norm": 57.142857,
         "gov_ticket": "Cleitinho",
         "endorsement": "inferido"
        }
@@ -5953,18 +5953,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 26.2,
+      "score": 25.7,
       "components": {
-       "governo": 16.3,
+       "governo": 16.8,
        "presidente": 0.0,
-       "senado": 9.9,
+       "senado": 9.0,
        "apoio": 0.0
       },
       "model": {
        "scores": {
-        "governo": 45.5,
+        "governo": 46.800000000000004,
         "presidente": 0.0,
-        "senado": 42.105263,
+        "senado": 38.095238,
         "apoio": 0.0
        },
        "weights": {
@@ -5974,13 +5974,13 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 35,
+        "gov_pct": 36.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 42.105263,
+        "sen_norm": 38.095238,
         "gov_ticket": "Cleitinho",
         "endorsement": "não verificado"
        }
@@ -5995,10 +5995,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 3,
-      "pctDisplay": "3%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 8.0,
+      "pctDisplay": "8,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
       "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
       "situacao": "Sem percentual comparável",
@@ -6010,18 +6010,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 3.7,
+      "score": 9.0,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 3.7,
+       "senado": 9.0,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
         "presidente": 0.0,
-        "senado": 15.789474,
+        "senado": 38.095238,
         "apoio": 0.0
        },
        "weights": {
@@ -6037,7 +6037,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 15.789474,
+        "sen_norm": 38.095238,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -6052,10 +6052,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 1,
-      "pctDisplay": "1%",
-      "instituto": "Genial/Quaest",
-      "campo": "22–26/07/2026",
+      "pct": 5.0,
+      "pctDisplay": "5,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
       "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
       "situacao": "Sem percentual comparável",
@@ -6067,18 +6067,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 1.2,
+      "score": 5.6,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 1.2,
+       "senado": 5.6,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
         "presidente": 0.0,
-        "senado": 5.263158,
+        "senado": 23.809524,
         "apoio": 0.0
        },
        "weights": {
@@ -6094,7 +6094,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 5.263158,
+        "sen_norm": 23.809524,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -6124,18 +6124,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 1.2,
+      "score": 1.1,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 1.2,
+       "senado": 1.1,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
         "presidente": 0.0,
-        "senado": 5.263158,
+        "senado": 4.761905,
         "apoio": 0.0
        },
        "weights": {
@@ -6151,7 +6151,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 5.263158,
+        "sen_norm": 4.761905,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -6181,18 +6181,18 @@
       "may_change": 64,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 1.2,
+      "score": 1.1,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 1.2,
+       "senado": 1.1,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
         "presidente": 0.0,
-        "senado": 5.263158,
+        "senado": 4.761905,
         "apoio": 0.0
        },
        "weights": {
@@ -6208,7 +6208,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 5.263158,
+        "sen_norm": 4.761905,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -6358,10 +6358,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": 44,
+      "pct": 44.0,
       "pctDisplay": "44,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 51% não sabem; estimulado: 6%",
       "situacao": "Maior percentual no cenário",
@@ -6388,7 +6388,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 44,
+        "gov_pct": 44.0,
         "gov_reliability": 1.0,
         "pres_pct": 59.5,
         "pres_reliability": 0.65,
@@ -6406,10 +6406,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 25,
+      "pct": 25.0,
       "pctDisplay": "25,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 51% não sabem; estimulado: 6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -6436,7 +6436,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 25,
+        "gov_pct": 25.0,
         "gov_reliability": 1.0,
         "pres_pct": 40.5,
         "pres_reliability": 0.65,
@@ -6454,10 +6454,10 @@
       "bloc": "Zema",
       "apoio": "Romeu Zema",
       "apoio_verificado": false,
-      "pct": 12,
+      "pct": 12.0,
       "pctDisplay": "12,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 51% não sabem; estimulado: 6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -6484,7 +6484,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 12,
+        "gov_pct": 12.0,
         "gov_reliability": 1.0,
         "pres_pct": 3,
         "pres_reliability": 0.65,
@@ -6502,10 +6502,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 3,
+      "pct": 3.0,
       "pctDisplay": "3,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 51% não sabem; estimulado: 6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -6532,7 +6532,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 3,
+        "gov_pct": 3.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 0.65,
@@ -6550,10 +6550,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 3,
+      "pct": 3.0,
       "pctDisplay": "3,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 51% não sabem; estimulado: 6%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -6580,7 +6580,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 3,
+        "gov_pct": 3.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 0.65,
@@ -6631,10 +6631,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 38,
+      "pct": 38.0,
       "pctDisplay": "38,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 4%; não sabe 6%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -6667,7 +6667,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 44,
+        "gov_pct": 44.0,
         "gov_reliability": 1.0,
         "pres_pct": 59.5,
         "pres_reliability": 0.65,
@@ -6688,10 +6688,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 19,
+      "pct": 19.0,
       "pctDisplay": "19,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 4%; não sabe 6%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -6724,7 +6724,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 44,
+        "gov_pct": 44.0,
         "gov_reliability": 1.0,
         "pres_pct": 59.5,
         "pres_reliability": 0.65,
@@ -6745,10 +6745,10 @@
       "bloc": "Caiado",
       "apoio": "Ronaldo Caiado / indefinido",
       "apoio_verificado": false,
-      "pct": 15,
+      "pct": 15.0,
       "pctDisplay": "15,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 4%; não sabe 6%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -6781,7 +6781,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 44,
+        "gov_pct": 44.0,
         "gov_reliability": 0.78,
         "pres_pct": 3,
         "pres_reliability": 0.65,
@@ -6802,10 +6802,10 @@
       "bloc": "Lula",
       "apoio": "Lula (provável)",
       "apoio_verificado": false,
-      "pct": 8,
+      "pct": 8.0,
       "pctDisplay": "8,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 4%; não sabe 6%",
       "situacao": "Fora do top 2 numérico",
@@ -6838,7 +6838,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 25,
+        "gov_pct": 25.0,
         "gov_reliability": 0.78,
         "pres_pct": 40.5,
         "pres_reliability": 0.65,
@@ -6859,10 +6859,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "01–05/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "06/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 4%; não sabe 6%",
       "situacao": "Fora do top 2 numérico",
@@ -6895,7 +6895,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 25,
+        "gov_pct": 25.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
@@ -7363,10 +7363,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 31,
+      "pct": 31.0,
       "pctDisplay": "31,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
       "situacao": "Empate técnico na liderança",
@@ -7393,7 +7393,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 31,
+        "gov_pct": 31.0,
         "gov_reliability": 1.0,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -7411,10 +7411,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro (provável)",
       "apoio_verificado": false,
-      "pct": 29,
+      "pct": 29.0,
       "pctDisplay": "29,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
       "situacao": "Empate técnico na liderança",
@@ -7441,7 +7441,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 29,
+        "gov_pct": 29.0,
         "gov_reliability": 1.0,
         "pres_pct": 31,
         "pres_reliability": 1.0,
@@ -7459,10 +7459,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 12,
+      "pct": 12.0,
       "pctDisplay": "12,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -7489,7 +7489,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 12,
+        "gov_pct": 12.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -7555,10 +7555,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 4,
+      "pct": 4.0,
       "pctDisplay": "4,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -7585,7 +7585,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 4,
+        "gov_pct": 4.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -7636,10 +7636,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 40,
+      "pct": 40.0,
       "pctDisplay": "40,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -7672,7 +7672,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 31,
+        "gov_pct": 31.0,
         "gov_reliability": 0.78,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -7693,10 +7693,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 16,
+      "pct": 16.0,
       "pctDisplay": "16,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -7729,7 +7729,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 29,
+        "gov_pct": 29.0,
         "gov_reliability": 0.78,
         "pres_pct": 31,
         "pres_reliability": 1.0,
@@ -7750,10 +7750,10 @@
       "bloc": "Lula",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 12,
+      "pct": 12.0,
       "pctDisplay": "12,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -7786,7 +7786,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 31,
+        "gov_pct": 31.0,
         "gov_reliability": 0.78,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -7807,10 +7807,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 11,
+      "pct": 11.0,
       "pctDisplay": "11,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "Fora do top 2 numérico",
@@ -7843,7 +7843,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 29,
+        "gov_pct": 29.0,
         "gov_reliability": 0.78,
         "pres_pct": 31,
         "pres_reliability": 1.0,
@@ -7864,10 +7864,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 10,
+      "pct": 10.0,
       "pctDisplay": "10,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "04/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "Fora do top 2 numérico",
@@ -7900,7 +7900,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 31,
+        "gov_pct": 31.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -7957,7 +7957,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 31,
+        "gov_pct": 31.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -8425,10 +8425,10 @@
       "bloc": "Lula",
       "apoio": "Lula (apoio possível, não exclusivo)",
       "apoio_verificado": false,
-      "pct": 48,
+      "pct": 48.0,
       "pctDisplay": "48,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 5%; não sabe 2%",
       "situacao": "Empate técnico na liderança",
@@ -8455,7 +8455,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 48,
+        "gov_pct": 48.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -8473,10 +8473,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 42,
+      "pct": 42.0,
       "pctDisplay": "42,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 5%; não sabe 2%",
       "situacao": "Empate técnico na liderança",
@@ -8503,7 +8503,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 42,
+        "gov_pct": 42.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -8569,10 +8569,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 1,
+      "pct": 1.0,
       "pctDisplay": "1,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 5%; não sabe 2%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -8599,7 +8599,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 1,
+        "gov_pct": 1.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -8617,10 +8617,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 1,
+      "pct": 1.0,
       "pctDisplay": "1,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Branco/nulo 5%; não sabe 2%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -8647,7 +8647,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 1,
+        "gov_pct": 1.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -8698,10 +8698,10 @@
       "bloc": "Lula",
       "apoio": "Lula (provável)",
       "apoio_verificado": false,
-      "pct": 18,
+      "pct": 18.0,
       "pctDisplay": "18,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Branco/nulo 21%; não sabe 9%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -8734,7 +8734,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 42,
+        "gov_pct": 42.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -8755,10 +8755,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 15,
+      "pct": 15.0,
       "pctDisplay": "15,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Branco/nulo 21%; não sabe 9%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -8791,7 +8791,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 42,
+        "gov_pct": 42.0,
         "gov_reliability": 1.0,
         "pres_pct": 55,
         "pres_reliability": 1.0,
@@ -8812,10 +8812,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 10,
+      "pct": 10.0,
       "pctDisplay": "10,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Branco/nulo 21%; não sabe 9%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -8848,7 +8848,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48,
+        "gov_pct": 48.0,
         "gov_reliability": 0.78,
         "pres_pct": 21,
         "pres_reliability": 1.0,
@@ -8869,10 +8869,10 @@
       "bloc": "Indefinido",
       "apoio": "Ronaldo Caiado / indefinido",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Branco/nulo 21%; não sabe 9%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -8905,7 +8905,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48,
+        "gov_pct": 48.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -8962,7 +8962,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48,
+        "gov_pct": 48.0,
         "gov_reliability": 0.78,
         "pres_pct": 21,
         "pres_reliability": 1.0,
@@ -8983,10 +8983,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 7,
+      "pct": 7.0,
       "pctDisplay": "7,0%",
-      "instituto": "Datafolha",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "01/08/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Branco/nulo 21%; não sabe 9%",
       "situacao": "Fora do top 2 numérico",
@@ -9019,7 +9019,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 48,
+        "gov_pct": 48.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -9694,13 +9694,13 @@
       "name": "Deltan Dallagnol",
       "party": "Novo",
       "bloc": "Flávio",
-      "score": 47.2
+      "score": 80.7
      },
      {
       "name": "Filipe Barros",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 47.2
+      "score": 62.2
      }
     ],
     "candidates": [
@@ -9712,10 +9712,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": null,
-      "pctDisplay": "20,8% 1º voto / 10,6% 2º",
-      "instituto": "IRG",
-      "campo": "24–28/07/2026",
+      "pct": 20.8,
+      "pctDisplay": "20,8%",
+      "instituto": "Gazeta do Povo",
+      "campo": "29/07/2026",
       "cenario": "Primeiro e segundo votos divulgados separadamente",
       "indecisao": "Espontânea: 73,8% não sabem",
       "situacao": "Sem percentual comparável",
@@ -9727,18 +9727,18 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 47.2,
+      "score": 80.7,
       "components": {
        "governo": 19.0,
        "presidente": 18.3,
-       "senado": 0.0,
+       "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 62.333333333333336,
         "presidente": 70.0,
-        "senado": 0.0,
+        "senado": 100.0,
         "apoio": 100.0
        },
        "weights": {
@@ -9754,7 +9754,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 0.0,
+        "sen_norm": 100.0,
         "gov_ticket": "Sergio Moro",
         "endorsement": "explícito"
        }
@@ -9769,10 +9769,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": null,
-      "pctDisplay": "9,3% 1º / 14,6% 2º",
-      "instituto": "IRG",
-      "campo": "24–28/07/2026",
+      "pct": 9.3,
+      "pctDisplay": "9,3%",
+      "instituto": "Gazeta do Povo",
+      "campo": "29/07/2026",
       "cenario": "Primeiro e segundo votos divulgados separadamente",
       "indecisao": "Espontânea: 73,8% não sabem",
       "situacao": "Sem percentual comparável",
@@ -9784,18 +9784,18 @@
       "may_change": null,
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 47.2,
+      "score": 62.2,
       "components": {
        "governo": 19.0,
        "presidente": 18.3,
-       "senado": 0.0,
+       "senado": 15.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 62.333333333333336,
         "presidente": 70.0,
-        "senado": 0.0,
+        "senado": 44.711538,
         "apoio": 100.0
        },
        "weights": {
@@ -9811,7 +9811,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 0.0,
+        "sen_norm": 44.711538,
         "gov_ticket": "Sergio Moro",
         "endorsement": "explícito"
        }
@@ -9826,10 +9826,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": null,
-      "pctDisplay": "18,9% 1º / 6,0% 2º",
-      "instituto": "IRG",
-      "campo": "24–28/07/2026",
+      "pct": 18.9,
+      "pctDisplay": "18,9%",
+      "instituto": "Gazeta do Povo",
+      "campo": "29/07/2026",
       "cenario": "Primeiro e segundo votos divulgados separadamente",
       "indecisao": "Espontânea: 73,8% não sabem",
       "situacao": "Sem percentual comparável",
@@ -9841,18 +9841,18 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 22.5,
+      "score": 52.9,
       "components": {
        "governo": 7.6,
        "presidente": 10.4,
-       "senado": 0.0,
+       "senado": 30.4,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 24.830000000000002,
         "presidente": 40.0,
-        "senado": 0.0,
+        "senado": 90.865385,
         "apoio": 45.0
        },
        "weights": {
@@ -9868,7 +9868,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 0.0,
+        "sen_norm": 90.865385,
         "gov_ticket": "Requião Filho",
         "endorsement": "inferido"
        }
@@ -9883,10 +9883,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": null,
-      "pctDisplay": "14,2% 1º / 10,1% 2º",
-      "instituto": "IRG",
-      "campo": "24–28/07/2026",
+      "pct": 14.2,
+      "pctDisplay": "14,2%",
+      "instituto": "Gazeta do Povo",
+      "campo": "29/07/2026",
       "cenario": "Primeiro e segundo votos divulgados separadamente",
       "indecisao": "Espontânea: 73,8% não sabem",
       "situacao": "Sem percentual comparável",
@@ -9898,18 +9898,18 @@
       "may_change": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 6.5,
+      "score": 29.4,
       "components": {
        "governo": 6.5,
        "presidente": 0.0,
-       "senado": 0.0,
+       "senado": 22.8,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 21.45,
         "presidente": 0.0,
-        "senado": 0.0,
+        "senado": 68.269231,
         "apoio": 0.0
        },
        "weights": {
@@ -9925,7 +9925,7 @@
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 0.0,
+        "sen_norm": 68.269231,
         "gov_ticket": "Sandro Alex",
         "endorsement": "não verificado"
        }
@@ -10020,8 +10020,8 @@
       "apoio_verificado": false,
       "pct": 48.6,
       "pctDisplay": "48,6%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
       "situacao": "Maior percentual no cenário",
@@ -10068,8 +10068,8 @@
       "apoio_verificado": false,
       "pct": 11.1,
       "pctDisplay": "11,1%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -10116,8 +10116,8 @@
       "apoio_verificado": false,
       "pct": 11.0,
       "pctDisplay": "11,0%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -10164,8 +10164,8 @@
       "apoio_verificado": false,
       "pct": 3.4,
       "pctDisplay": "3,4%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -10245,8 +10245,8 @@
       "apoio_verificado": false,
       "pct": 29.8,
       "pctDisplay": "29,8%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea muito indefinida; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -10302,8 +10302,8 @@
       "apoio_verificado": false,
       "pct": 17.2,
       "pctDisplay": "17,2%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea muito indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -10359,8 +10359,8 @@
       "apoio_verificado": false,
       "pct": 25.4,
       "pctDisplay": "25,4%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea muito indefinida; ver fonte",
       "situacao": "No top 2 numérico da pesquisa",
@@ -10416,8 +10416,8 @@
       "apoio_verificado": true,
       "pct": 9.2,
       "pctDisplay": "9,2%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea muito indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -10530,8 +10530,8 @@
       "apoio_verificado": false,
       "pct": 14.2,
       "pctDisplay": "14,2%",
-      "instituto": "Paraná Pesquisas",
-      "campo": "28–30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "31/07/2026",
       "cenario": "Dois votos, consolidado",
       "indecisao": "Espontânea muito indefinida; ver fonte",
       "situacao": "Fora do top 2 numérico",
@@ -12055,10 +12055,10 @@
       "bloc": "Lula",
       "apoio": "Lula / apoio do PT",
       "apoio_verificado": false,
-      "pct": 24,
+      "pct": 24.0,
       "pctDisplay": "24,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Espontânea: cerca de 83% indecisos",
       "situacao": "Empate técnico na liderança",
@@ -12085,7 +12085,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 24,
+        "gov_pct": 24.0,
         "gov_reliability": 1.0,
         "pres_pct": 30,
         "pres_reliability": 1.0,
@@ -12103,10 +12103,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": 22,
+      "pct": 22.0,
       "pctDisplay": "22,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Espontânea: cerca de 83% indecisos",
       "situacao": "Empate técnico na liderança",
@@ -12133,7 +12133,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 22,
+        "gov_pct": 22.0,
         "gov_reliability": 1.0,
         "pres_pct": 32,
         "pres_reliability": 1.0,
@@ -12151,10 +12151,10 @@
       "bloc": "Indefinido",
       "apoio": "Indefinido / centro",
       "apoio_verificado": false,
-      "pct": 6,
+      "pct": 6.0,
       "pctDisplay": "6,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Estimulado, cenário principal",
       "indecisao": "Espontânea: cerca de 83% indecisos",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -12181,7 +12181,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 6,
+        "gov_pct": 6.0,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -12280,10 +12280,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 12,
+      "pct": 12.0,
       "pctDisplay": "12,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 15%; indecisos 39%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -12316,7 +12316,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 24,
+        "gov_pct": 24.0,
         "gov_reliability": 1.0,
         "pres_pct": 30,
         "pres_reliability": 1.0,
@@ -12337,10 +12337,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 15%; indecisos 39%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -12373,7 +12373,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 24,
+        "gov_pct": 24.0,
         "gov_reliability": 1.0,
         "pres_pct": 30,
         "pres_reliability": 1.0,
@@ -12394,10 +12394,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 7,
+      "pct": 7.0,
       "pctDisplay": "7,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 15%; indecisos 39%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -12430,7 +12430,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 22,
+        "gov_pct": 22.0,
         "gov_reliability": 0.78,
         "pres_pct": 32,
         "pres_reliability": 1.0,
@@ -12451,10 +12451,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 6,
+      "pct": 6.0,
       "pctDisplay": "6,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 15%; indecisos 39%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -12487,7 +12487,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 22,
+        "gov_pct": 22.0,
         "gov_reliability": 0.78,
         "pres_pct": 32,
         "pres_reliability": 1.0,
@@ -12508,10 +12508,10 @@
       "bloc": "Indefinido",
       "apoio": "Indefinido",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Genial/Quaest",
-      "campo": "publicado 30/07/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "30/07/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 15%; indecisos 39%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -12544,7 +12544,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 6,
+        "gov_pct": 6.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -13012,10 +13012,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 43,
+      "pct": 43.0,
       "pctDisplay": "43,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 58% não sabem; estimulado: 4%",
       "situacao": "Empate técnico na liderança",
@@ -13042,7 +13042,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 43,
+        "gov_pct": 43.0,
         "gov_reliability": 1.0,
         "pres_pct": 67.2,
         "pres_reliability": 0.65,
@@ -13060,10 +13060,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": 40,
+      "pct": 40.0,
       "pctDisplay": "40,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 58% não sabem; estimulado: 4%",
       "situacao": "Empate técnico na liderança",
@@ -13090,7 +13090,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 1.0,
         "pres_pct": 32.8,
         "pres_reliability": 0.65,
@@ -13108,10 +13108,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
-      "pct": 6,
+      "pct": 6.0,
       "pctDisplay": "6,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 58% não sabem; estimulado: 4%",
       "situacao": "Abaixo do grupo líder no cenário",
@@ -13138,7 +13138,7 @@
         "presidente": 0.11
        },
        "inputs": {
-        "gov_pct": 6,
+        "gov_pct": 6.0,
         "gov_reliability": 1.0,
         "pres_pct": 32.8,
         "pres_reliability": 0.65,
@@ -13189,10 +13189,10 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "Fora do top 2 numérico",
@@ -13225,7 +13225,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 43,
+        "gov_pct": 43.0,
         "gov_reliability": 0.78,
         "pres_pct": 67.2,
         "pres_reliability": 0.65,
@@ -13246,10 +13246,10 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 12,
+      "pct": 12.0,
       "pctDisplay": "12,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "Dentro da margem do 2º colocado",
@@ -13282,7 +13282,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 32.8,
         "pres_reliability": 0.65,
@@ -13303,10 +13303,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 17,
+      "pct": 17.0,
       "pctDisplay": "17,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -13339,7 +13339,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
@@ -13355,15 +13355,72 @@
      {
       "uf": "SE",
       "cargo": "Senado",
+      "name": "Coronel Rocha",
+      "party": "PL",
+      "bloc": "Flávio",
+      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
+      "apoio_verificado": true,
+      "pct": 6.0,
+      "pctDisplay": "6,0%",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
+      "cenario": "N/D",
+      "indecisao": "",
+      "situacao": "Sem percentual comparável",
+      "fonte": "",
+      "status": "Candidatura pós-convenção; registro ainda sujeito ao prazo do TSE",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": "Valmir de Francisquinho",
+      "may_change": null,
+      "estimated_preview": false,
+      "certainty_preview": "",
+      "score": 46.9,
+      "components": {
+       "governo": 15.8,
+       "presidente": 9.3,
+       "senado": 11.8,
+       "apoio": 10.0
+      },
+      "model": {
+       "scores": {
+        "governo": 52.00000000000001,
+        "presidente": 35.53333333333333,
+        "senado": 35.294118,
+        "apoio": 100.0
+       },
+       "weights": {
+        "governo": 0.3043949012812474,
+        "presidente": 0.2609099153839263,
+        "senado": 0.33469518333482634,
+        "apoio": 0.1
+       },
+       "inputs": {
+        "gov_pct": 40.0,
+        "gov_reliability": 0.78,
+        "pres_pct": 32.8,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Flávio",
+        "pres_basis": "proxy 2º turno 2022",
+        "sen_norm": 35.294118,
+        "gov_ticket": "Valmir de Francisquinho",
+        "endorsement": "explícito"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "SE",
+      "cargo": "Senado",
       "name": "André Moura",
       "party": "União",
       "bloc": "Indefinido",
       "apoio": "Indefinido / direita",
       "apoio_verificado": false,
-      "pct": 14,
+      "pct": 14.0,
       "pctDisplay": "14,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "No top 2 numérico; vaga não separada pela margem",
@@ -13396,7 +13453,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
@@ -13453,7 +13510,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
@@ -13462,63 +13519,6 @@
         "sen_norm": 76.470588,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "não verificado"
-       }
-      },
-      "estimated": false
-     },
-     {
-      "uf": "SE",
-      "cargo": "Senado",
-      "name": "Coronel Rocha",
-      "party": "PL",
-      "bloc": "Flávio",
-      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
-      "apoio_verificado": true,
-      "pct": null,
-      "pctDisplay": "Não testado",
-      "instituto": "N/D",
-      "campo": "N/D",
-      "cenario": "N/D",
-      "indecisao": "",
-      "situacao": "Sem percentual comparável",
-      "fonte": "",
-      "status": "Candidatura pós-convenção; registro ainda sujeito ao prazo do TSE",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": "Valmir de Francisquinho",
-      "may_change": null,
-      "estimated_preview": false,
-      "certainty_preview": "",
-      "score": 35.1,
-      "components": {
-       "governo": 15.8,
-       "presidente": 9.3,
-       "senado": 0.0,
-       "apoio": 10.0
-      },
-      "model": {
-       "scores": {
-        "governo": 52.00000000000001,
-        "presidente": 35.53333333333333,
-        "senado": 0.0,
-        "apoio": 100.0
-       },
-       "weights": {
-        "governo": 0.3043949012812474,
-        "presidente": 0.2609099153839263,
-        "senado": 0.33469518333482634,
-        "apoio": 0.1
-       },
-       "inputs": {
-        "gov_pct": 40,
-        "gov_reliability": 0.78,
-        "pres_pct": 32.8,
-        "pres_reliability": 0.65,
-        "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
-        "sen_norm": 0.0,
-        "gov_ticket": "Valmir de Francisquinho",
-        "endorsement": "explícito"
        }
       },
       "estimated": false
@@ -13567,7 +13567,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 32.8,
         "pres_reliability": 0.65,
@@ -13624,7 +13624,7 @@
         "apoio": 0.1
        },
        "inputs": {
-        "gov_pct": 40,
+        "gov_pct": 40.0,
         "gov_reliability": 0.78,
         "pres_pct": 32.8,
         "pres_reliability": 0.65,
@@ -13645,10 +13645,10 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 9,
+      "pct": 9.0,
       "pctDisplay": "9,0%",
-      "instituto": "Real Time Big Data",
-      "campo": "publicado 03/08/2026",
+      "instituto": "Gazeta do Povo",
+      "campo": "03/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "Fora do top 2 numérico",
