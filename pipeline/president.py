@@ -132,6 +132,10 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
                     series.append(pct)
         if len(series) >= 2:
             trend[b] = round(series[-1] - series[0], 1)
+    used = [{"pollster": p["pollster"], "date": p["date"],
+             "Lula": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Lula"), None),
+             "Flávio": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Flávio"), None)}
+            for p in win]
     return {
         "polls": len(win),
         "institutos": [p["pollster"] for p in win],
@@ -139,6 +143,7 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
         "first_round": first,
         "runoff": runoff,
         "trend": trend,
+        "used": used,
     }
 
 

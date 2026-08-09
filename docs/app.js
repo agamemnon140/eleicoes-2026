@@ -315,8 +315,11 @@ function factorDetail(c, off){
       line('Apoio / chapa', esc(inp.endorsement||'—'), 'apoio'),
     ];
   }
+  const used = (c.polls && c.polls.length)
+    ? `<div class="usedpolls"><b>Pesquisas na média:</b> ${c.polls.map(p=>`${esc(p.pollster)} (${esc(p.date)}) ${String(p.pct).replace('.',',')}% <span class="muted">·${esc(p.source)}</span>`).join(' &nbsp;|&nbsp; ')}</div>`
+    : (c.fonte ? `<div class="usedpolls"><b>Pesquisa:</b> ${esc(c.instituto||'')} ${esc(c.campo||'')} · <a href="${esc(c.fonte)}" target="_blank" rel="noopener">fonte ↗</a></div>` : '');
   return `<div class="detail-inner">${rows.join('')}
-    <div class="frow ftot"><div class="fl"><b>Índice</b></div><div class="fc"><b>${Math.round(c.score)}</b> (0–100, para ordenar — não é probabilidade)</div></div></div>`;
+    <div class="frow ftot"><div class="fl"><b>Índice</b></div><div class="fc"><b>${Math.round(c.score)}</b> (0–100, para ordenar — não é probabilidade)</div></div>${used}</div>`;
 }
 function wireDetails(){
   document.querySelectorAll('.det-toggle').forEach(b=>b.onclick=(e)=>{
@@ -348,9 +351,13 @@ function renderPresident(){
     const roHtml = (ro['Lula']!=null && ro['Flávio']!=null) ? `
       <div class="runoff"><div class="rlabel">2º turno (média): <b>${ro['Lula']>=ro['Flávio']?'Lula':'Flávio'} lidera por ${Math.abs(ro['Lula']-ro['Flávio']).toFixed(1)} pp</b></div>
         <div class="rbar"><span style="flex:${ro['Lula']};background:${blocColor('Lula')}">Lula ${ro['Lula']}%</span><span style="flex:${ro['Flávio']};background:${blocColor('Flávio')}">${ro['Flávio']}% Flávio</span></div></div>` : '';
+    const used = nat.used || [];
+    const usedHtml = used.length ? `<details class="usedd"><summary>Ver as ${used.length} pesquisas do agregado</summary>
+      <div class="usedtbl"><div class="ur uh"><span>Instituto</span><span>Data</span><span>Lula</span><span>Flávio</span></div>
+      ${used.map(u=>`<div class="ur"><span>${esc(u.pollster)}</span><span>${esc(u.date)}</span><span>${u.Lula??'—'}%</span><span>${u['Flávio']??'—'}%</span></div>`).join('')}</div></details>` : '';
     head = `<section class="panel"><h2 style="margin:0 0 4px">Presidente — agregado nacional (poll-of-polls)</h2>
       <p class="desc">Média de ${nat.polls} pesquisas recentes (${esc((nat.institutos||[]).join(', '))}). Mais recente: ${esc(nat.latest_date||'—')}. Setas = tendência na janela.</p>
-      <div class="pres1t">${bars}</div>${roHtml}</section>`;
+      <div class="pres1t">${bars}</div>${roHtml}${usedHtml}</section>`;
   } else {
     head = `<section class="panel note"><h2 style="margin-top:0">Presidente — agregado nacional</h2>
       <p class="desc" style="margin:0">Nenhuma pesquisa presidencial coletada nesta rodada (rode <code>py -m pipeline.collect</code>).</p></section>`;
@@ -364,7 +371,10 @@ function renderPresident(){
       <div class="track">${segs}</div>
       <div class="meta2">Lula ${l.Lula??'—'}% · Flávio ${l['Flávio']??'—'}% <span class="muted">(${esc(l.basis||'')})</span></div></div>`;
   }).join('');
+  const sw = PRES && PRES.national_swing;
+  const swNote = (typeof sw === 'number' && sw)
+    ? ` Estados sem pesquisa estadual usam o resultado de 2022 <b>+ o swing nacional atual (Lula ${sw>0?'+':''}${sw} pp)</b>.` : '';
   return head + `<section class="panel"><h2>Inclinação presidencial por estado</h2>
-    <p class="desc">Alimenta os modelos de governador e senado (sempre com o % real). Pesquisa estadual quando há; senão proxy de 2022.</p>
+    <p class="desc">Alimenta os modelos de governador e senado (sempre com o % real).${swNote}</p>
     <div class="pres-lean">${cards}</div></section>`;
 }

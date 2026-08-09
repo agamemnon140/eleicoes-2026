@@ -159,6 +159,15 @@ button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 .fl b{color:var(--ink)} .fi{color:var(--muted)}
 .fnote{color:var(--teal);font-size:11px;margin-top:2px}
 .fc{white-space:nowrap;color:var(--muted)} .fc b{color:var(--ink);font-size:14px}
+.usedpolls{font-size:11px;color:var(--muted);margin-top:8px;line-height:1.6}
+.usedpolls b{color:var(--ink)}
+/* pesquisas do agregado presidencial */
+.usedd{margin-top:12px}
+.usedd summary{cursor:pointer;color:var(--teal);font-weight:700;font-size:13px}
+.usedtbl{margin-top:8px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.ur{display:grid;grid-template-columns:1fr 130px 60px 60px;gap:8px;padding:6px 10px;font-size:12px;border-bottom:1px solid #f1f5f9}
+.ur.uh{background:var(--soft);font-weight:800;color:var(--muted);text-transform:uppercase;font-size:10px}
+.ur span:nth-child(3),.ur span:nth-child(4){text-align:right;font-weight:700}
 
 footer{padding:10px 16px 46px;font-size:12px;color:#475569}
 footer p{margin:6px 0}
