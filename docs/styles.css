@@ -105,6 +105,16 @@ main{padding:18px 16px 10px;min-height:60vh}
 .pl b{font-size:12px}
 .pl .track{display:flex;height:12px;border-radius:6px;overflow:hidden;margin-top:6px}
 .note{background:var(--warn);border:1px solid #f3e0b0;border-left:5px solid var(--gold);border-radius:10px;padding:12px 14px}
+/* agregado presidencial */
+.pres1t{display:flex;flex-direction:column;gap:7px;margin-top:6px}
+.prow{display:grid;grid-template-columns:225px 1fr 90px;gap:10px;align-items:center;font-size:13px}
+.pname{display:flex;align-items:center;gap:7px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.prow .bar{height:12px}
+.prow b{text-align:right;white-space:nowrap}
+.runoff{margin-top:14px}
+.rlabel{font-size:13px;color:var(--muted);margin-bottom:5px}
+.rbar{display:flex;height:28px;border-radius:8px;overflow:hidden;font-size:12px;font-weight:800;color:#fff}
+.rbar span{display:flex;align-items:center;justify-content:center;min-width:66px;padding:0 8px}
 
 /* tooltip */
 #tooltip{position:fixed;pointer-events:none;z-index:50;background:var(--navy);color:#fff;white-space:pre-line;
@@ -144,5 +154,7 @@ footer p{margin:6px 0}
   .cand .pollbox{grid-column:2;grid-row:2;text-align:right}
   .natrow{grid-template-columns:90px 34px 1fr 34px 46px;font-size:12px}
   .natrow .b2wrap,.natrow.h .b2h{display:none}
+  .prow{grid-template-columns:120px 1fr 74px;font-size:12px}
+  .ppbar{grid-template-columns:110px 1fr 24px}
   h1{font-size:19px}
 }

@@ -1,7 +1,84 @@
 {
  "generated_at": "2026-08-09",
- "available": false,
- "note": "Agregado nacional presidencial será preenchido pelo president.py (agregador).",
+ "available": true,
+ "national": {
+  "polls": 6,
+  "institutos": [
+   "Genial Quaest",
+   "Meio Ideia",
+   "Nexus Btg Pactual",
+   "Poderdata",
+   "Atlasintel",
+   "Nexus Btg Pactual"
+  ],
+  "latest_date": "05/08/2026",
+  "first_round": [
+   {
+    "name": "Lula",
+    "party": "PT",
+    "bloc": "Lula",
+    "avg": 41.8,
+    "n": 6
+   },
+   {
+    "name": "Flávio Bolsonaro",
+    "party": "PL",
+    "bloc": "Flávio",
+    "avg": 34.3,
+    "n": 6
+   },
+   {
+    "name": "Renan Santos",
+    "party": "Missão",
+    "bloc": "Indefinido",
+    "avg": 4.9,
+    "n": 6
+   },
+   {
+    "name": "Ronaldo Caiado",
+    "party": "PSD",
+    "bloc": "Caiado",
+    "avg": 4.8,
+    "n": 6
+   },
+   {
+    "name": "Romeu Zema",
+    "party": "Novo",
+    "bloc": "Zema",
+    "avg": 2.7,
+    "n": 6
+   },
+   {
+    "name": "Augusto Cury",
+    "party": "Avante",
+    "bloc": "Indefinido",
+    "avg": 1.9,
+    "n": 5
+   },
+   {
+    "name": "Samara Martins",
+    "party": "UP",
+    "bloc": "Indefinido",
+    "avg": 1.1,
+    "n": 4
+   },
+   {
+    "name": "Cabo Daciolo",
+    "party": "Mobiliza",
+    "bloc": "Indefinido",
+    "avg": 0.7,
+    "n": 5
+   }
+  ],
+  "runoff": {
+   "Lula": 46.8,
+   "Flávio": 42.6
+  },
+  "trend": {
+   "Lula": -3.0,
+   "Flávio": -3.0
+  }
+ },
  "pres_lean": {
   "AC": {
    "Lula": 29.7,

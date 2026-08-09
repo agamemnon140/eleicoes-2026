@@ -198,8 +198,8 @@ def main():
 
     president = {
         "generated_at": date_str,
-        "available": False,
-        "note": "Agregado nacional presidencial será preenchido pelo president.py (agregador).",
+        "available": bool(polls.get("president")),
+        "national": polls.get("president"),
         "pres_lean": roster.get("pres_lean", {}),
     }
     (WEB_DATA / "president.json").write_text(
