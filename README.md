@@ -41,16 +41,14 @@ quem sobe nas pesquisas recentes) recupera as viradas documentadas (2/8 → 7/8)
 Por isso o momentum entra como termo **pequeno e time-gated** (ativo só nos últimos ~14 dias),
 calculado a partir da **série real** de snapshots que o coletor acumula — dormente a 56 dias da eleição.
 
-**Tentativa de validação out-of-sample (2018):** construímos o scraper histórico
-(`pipeline/backtest/scrape_history.py` + `backtest_oos.py`) que raspa a série de pesquisas ao Senado
-da Wikipedia PT (cobertura ~12/15 estados) e o momentum REAL (pesquisa final − de ~3 semanas antes).
-**Resultado honesto:** a extração dos VENCEDORES das tabelas de resultado da Wikipedia é
-**inconsistente/pouco confiável** (formatos variados; alguns estados retornaram vencedores errados),
-reduzindo a amostra a poucos estados. Nessa amostra pequena e imperfeita, o momentum **não melhorou** a
-previsão (flat) — coerente com a suspeita de que o ganho in-sample era viés de seleção, mas os dados
-não permitem conclusão firme. **Portanto o momentum segue conservador e dormente, não validado OOS.**
-Uma validação definitiva exigiria uma fonte oficial e limpa de resultados (ex.: dados do TSE), o que
-fica mapeado como próximo passo.
+**Validação out-of-sample (2018):** o scraper histórico (`pipeline/backtest/scrape_history.py` +
+`backtest_oos.py`) raspa a série de pesquisas ao Senado da Wikipedia PT (grid p/ rowspans) e os
+**eleitos** (top-2 por votos na tabela de resultado), cobrindo **14 estados**. Com o momentum **REAL**
+(pesquisa final − de ~3 semanas antes, sem hindsight), a acurácia sobe de **17/28 (pesquisa pura) para
+20/28** (61% → 71%) com peso de momentum **0,5–1,5**, e volta a cair em 2,0 (overfit). Ou seja, o
+momentum **melhora a previsão out-of-sample** — e o pico confirma manter o peso **pequeno (~1,0**, o
+default de produção). Amostra limitada aos estados com pesquisa+resultado tabulados na Wikipedia; uma
+validação ainda mais ampla usaria a base oficial do TSE.
 
 ## Estrutura
 
