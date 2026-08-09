@@ -19,7 +19,7 @@ import yaml
 from pipeline import model, schedule
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-WEB_DATA = ROOT / "web" / "data"          # JSONs publicados (servidos pelo site)
+WEB_DATA = ROOT / "docs" / "data"         # JSONs publicados (servidos pelo site via GitHub Pages)
 BLOCS = ("Lula", "Flávio", "Caiado", "Zema")
 
 
