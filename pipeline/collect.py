@@ -144,6 +144,32 @@ def recompute_derived(records: list[dict]) -> None:
                 r["gov_pct"] = gp
 
 
+def compute_momentum(records: list[dict], date_str: str) -> int:
+    """Δ p.p. da pesquisa vs. um snapshot de ~3 semanas atrás (para o termo de momentum)."""
+    for r in records:
+        r["mom"] = 0.0
+    cur = datetime.date.fromisoformat(date_str)
+    best, best_diff = None, 999
+    for f in (ROOT / "data" / "polls").glob("*.json"):
+        try:
+            age = (cur - datetime.date.fromisoformat(f.stem)).days
+        except ValueError:
+            continue
+        if 14 <= age <= 42 and abs(age - 21) < best_diff:
+            best, best_diff = f, abs(age - 21)
+    if not best:
+        return 0
+    prev = {(x["uf"], x["cargo"], x["name"]): x.get("pct")
+            for x in json.loads(best.read_text(encoding="utf-8")).get("records", [])}
+    n = 0
+    for r in records:
+        p0 = prev.get((r["uf"], r["cargo"], r["name"]))
+        if isinstance(p0, (int, float)) and isinstance(r.get("pct"), (int, float)):
+            r["mom"] = round(r["pct"] - p0, 1)
+            n += 1
+    return n
+
+
 def main():
     date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
@@ -154,6 +180,7 @@ def main():
     fresh = collect_fresh(roster)
     updated, flagged, skipped_old = apply_fresh(records, fresh)
     recompute_derived(records)
+    mom_n = compute_momentum(records, date_str)
 
     print("Agregando pesquisas presidenciais (poll-of-polls)…")
     psx = requests.Session(); psx.headers.update(gz.UA)

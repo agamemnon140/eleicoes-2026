@@ -120,6 +120,14 @@
    "holdNames": []
   },
   {
+   "party": "PSOL",
+   "hold": 0,
+   "newSen": 1,
+   "sen2027": 1,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
    "party": "Avante",
    "hold": 0,
    "newSen": 1,
@@ -129,14 +137,6 @@
   },
   {
    "party": "Novo",
-   "hold": 0,
-   "newSen": 1,
-   "sen2027": 1,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
-   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -452,6 +452,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 0.78,
@@ -509,6 +514,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 35.2,
@@ -568,6 +578,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 0.78,
@@ -625,6 +640,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 9.7,
@@ -684,6 +704,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -742,6 +767,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -799,6 +829,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -1059,6 +1094,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 45.9,
         "gov_reliability": 1.0,
@@ -1116,6 +1156,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 41.0,
@@ -1175,6 +1220,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 45.9,
         "gov_reliability": 0.78,
@@ -1232,6 +1282,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -1492,6 +1547,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 0.78,
@@ -1549,6 +1609,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 23.4,
@@ -1608,6 +1673,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
@@ -1666,6 +1736,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
@@ -1723,6 +1798,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 27.0,
@@ -1983,6 +2063,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 66.0,
         "gov_reliability": 1.0,
@@ -2041,6 +2126,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 66.0,
         "gov_reliability": 0.78,
@@ -2098,6 +2188,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 30.0,
@@ -2407,6 +2502,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 39.7,
         "gov_reliability": 1.0,
@@ -2464,6 +2564,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 39.7,
@@ -2523,6 +2628,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 48.9,
         "gov_reliability": 0.78,
@@ -2581,6 +2691,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 48.9,
         "gov_reliability": 0.78,
@@ -2638,6 +2753,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 48.9,
@@ -2898,6 +3018,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 33.0,
         "gov_reliability": 1.0,
@@ -2955,6 +3080,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 43.0,
@@ -3014,6 +3144,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 33.0,
         "gov_reliability": 1.0,
@@ -3072,6 +3207,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 33.0,
         "gov_reliability": 0.78,
@@ -3129,6 +3269,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 43.0,
@@ -3389,6 +3534,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.6,
         "gov_reliability": 0.78,
@@ -3446,6 +3596,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 11.9,
@@ -3505,6 +3660,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.6,
         "gov_reliability": 0.78,
@@ -3563,6 +3723,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 11.9,
         "gov_reliability": 0.78,
@@ -3620,6 +3785,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 34.6,
@@ -3880,6 +4050,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
@@ -3937,6 +4112,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 19.0,
@@ -3996,6 +4176,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 19.0,
         "gov_reliability": 0.78,
@@ -4053,6 +4238,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 19.0,
@@ -4112,6 +4302,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
@@ -4169,6 +4364,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -4478,6 +4678,11 @@
         "senado": 0.2439091148552547,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 1.0,
@@ -4535,6 +4740,11 @@
         "presidente": 0.3028111777591132,
         "senado": 0.2439091148552547,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 37.0,
@@ -4594,6 +4804,11 @@
         "senado": 0.2439091148552547,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 0.78,
@@ -4651,6 +4866,11 @@
         "presidente": 0.3028111777591132,
         "senado": 0.2439091148552547,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 11.0,
@@ -4710,6 +4930,11 @@
         "senado": 0.2439091148552547,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 11.0,
         "gov_reliability": 0.78,
@@ -4767,6 +4992,11 @@
         "presidente": 0.3028111777591132,
         "senado": 0.2439091148552547,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -4826,6 +5056,11 @@
         "senado": 0.2439091148552547,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -4883,6 +5118,11 @@
         "presidente": 0.3028111777591132,
         "senado": 0.2439091148552547,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -5143,6 +5383,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -5200,6 +5445,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 31.0,
@@ -5259,6 +5509,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -5316,6 +5571,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 31.0,
@@ -5375,6 +5635,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -5432,6 +5697,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -5839,6 +6109,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 14.0,
         "gov_reliability": 0.78,
@@ -5896,6 +6171,11 @@
         "presidente": 0.30686613863413126,
         "senado": 0.23512336629271552,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 36.0,
@@ -5955,6 +6235,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
@@ -6012,6 +6297,11 @@
         "presidente": 0.30686613863413126,
         "senado": 0.23512336629271552,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 36.0,
@@ -6071,6 +6361,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
@@ -6128,6 +6423,11 @@
         "presidente": 0.30686613863413126,
         "senado": 0.23512336629271552,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -6187,6 +6487,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -6244,6 +6549,11 @@
         "presidente": 0.30686613863413126,
         "senado": 0.23512336629271552,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -6303,6 +6613,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -6361,6 +6676,11 @@
         "senado": 0.23512336629271552,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -6418,6 +6738,11 @@
         "presidente": 0.30686613863413126,
         "senado": 0.23512336629271552,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -6776,6 +7101,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 44.0,
         "gov_reliability": 1.0,
@@ -6833,6 +7163,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 44.0,
@@ -6892,6 +7227,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 44.0,
         "gov_reliability": 0.78,
@@ -6950,6 +7290,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 0.78,
@@ -7007,6 +7352,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 25.0,
@@ -7267,6 +7617,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 1.0,
@@ -7324,6 +7679,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 25.0,
@@ -7383,6 +7743,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 0.78,
@@ -7440,6 +7805,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 25.0,
@@ -7798,6 +8168,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -7855,6 +8230,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 29.0,
@@ -7914,6 +8294,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -7971,6 +8356,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 29.0,
@@ -8030,6 +8420,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
@@ -8087,6 +8482,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 31.0,
@@ -8347,6 +8747,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 32.7,
         "gov_reliability": 0.78,
@@ -8404,6 +8809,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 25.9,
@@ -8463,6 +8873,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 18.5,
         "gov_reliability": 0.78,
@@ -8520,6 +8935,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 32.7,
@@ -8878,6 +9298,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 42.0,
         "gov_reliability": 1.0,
@@ -8935,6 +9360,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 42.0,
@@ -8994,6 +9424,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 48.0,
         "gov_reliability": 0.78,
@@ -9051,6 +9486,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 48.0,
@@ -9110,6 +9550,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 48.0,
         "gov_reliability": 0.78,
@@ -9167,6 +9612,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 48.0,
@@ -9427,6 +9877,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 64.2,
         "gov_reliability": 1.0,
@@ -9484,6 +9939,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 64.2,
@@ -9543,6 +10003,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 21.7,
         "gov_reliability": 0.78,
@@ -9600,6 +10065,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 21.7,
@@ -9909,6 +10379,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 37.4,
         "gov_reliability": 1.0,
@@ -9966,6 +10441,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 37.4,
@@ -10025,6 +10505,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 19.1,
         "gov_reliability": 0.78,
@@ -10083,6 +10568,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 16.5,
         "gov_reliability": 0.78,
@@ -10140,6 +10630,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -10449,6 +10944,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 48.6,
         "gov_reliability": 0.78,
@@ -10506,6 +11006,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 48.6,
@@ -10565,6 +11070,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 11.1,
         "gov_reliability": 0.78,
@@ -10622,6 +11132,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 11.1,
@@ -10681,6 +11196,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 11.1,
         "gov_reliability": 0.78,
@@ -10738,6 +11258,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 11.1,
@@ -10998,6 +11523,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
@@ -11055,6 +11585,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 27.7,
@@ -11114,6 +11649,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
@@ -11172,6 +11712,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
@@ -11229,6 +11774,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 27.7,
@@ -11489,6 +12039,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
@@ -11546,6 +12101,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 36.0,
@@ -11605,6 +12165,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
@@ -11662,6 +12227,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 28.0,
@@ -11922,6 +12492,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 0.78,
@@ -11979,6 +12554,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 60.0,
@@ -12038,6 +12618,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 0.78,
@@ -12095,6 +12680,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 60.0,
@@ -12154,6 +12744,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -12211,6 +12806,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -12520,6 +13120,11 @@
         "senado": 0.24098053200107494,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 24.0,
         "gov_reliability": 1.0,
@@ -12577,6 +13182,11 @@
         "presidente": 0.30416283138411926,
         "senado": 0.24098053200107494,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 24.0,
@@ -12636,6 +13246,11 @@
         "senado": 0.24098053200107494,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 22.0,
         "gov_reliability": 0.78,
@@ -12694,6 +13309,11 @@
         "senado": 0.24098053200107494,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 22.0,
         "gov_reliability": 0.78,
@@ -12751,6 +13371,11 @@
         "presidente": 0.30416283138411926,
         "senado": 0.24098053200107494,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 6.0,
@@ -13011,6 +13636,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 1.0,
@@ -13068,6 +13698,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 52.8,
@@ -13127,6 +13762,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 0.78,
@@ -13184,6 +13824,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 8.2,
@@ -13444,6 +14089,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 43.0,
         "gov_reliability": 0.78,
@@ -13501,6 +14151,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 40.0,
@@ -13560,6 +14215,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
@@ -13617,6 +14277,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 40.0,
@@ -13676,6 +14341,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
@@ -13733,6 +14403,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 40.0,
@@ -13792,6 +14467,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
@@ -13850,6 +14530,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
@@ -13907,6 +14592,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -14265,6 +14955,11 @@
         "senado": 0.2644091948345128,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 52.9,
         "gov_reliability": 1.0,
@@ -14322,6 +15017,11 @@
         "presidente": 0.29334960238407104,
         "senado": 0.2644091948345128,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 52.9,
@@ -14381,6 +15081,11 @@
         "senado": 0.2644091948345128,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.3,
         "gov_reliability": 0.78,
@@ -14438,6 +15143,11 @@
         "presidente": 0.29334960238407104,
         "senado": 0.2644091948345128,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 34.3,
@@ -14497,6 +15207,11 @@
         "senado": 0.2644091948345128,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.3,
         "gov_reliability": 0.78,
@@ -14554,6 +15269,11 @@
         "presidente": 0.29334960238407104,
         "senado": 0.2644091948345128,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 52.9,
@@ -14613,6 +15333,11 @@
         "senado": 0.2644091948345128,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 52.9,
         "gov_reliability": 0.78,
@@ -14671,6 +15396,11 @@
         "senado": 0.2644091948345128,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
@@ -14728,6 +15458,11 @@
         "presidente": 0.29334960238407104,
         "senado": 0.2644091948345128,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 0.0,
@@ -14988,6 +15723,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.4,
         "gov_reliability": 0.78,
@@ -15045,6 +15785,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 34.4,
@@ -15104,6 +15849,11 @@
         "senado": 0.33469518333482634,
         "apoio": 0.1
        },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
        "inputs": {
         "gov_pct": 34.4,
         "gov_reliability": 0.78,
@@ -15161,6 +15911,11 @@
         "presidente": 0.2609099153839263,
         "senado": 0.33469518333482634,
         "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
        },
        "inputs": {
         "gov_pct": 10.1,

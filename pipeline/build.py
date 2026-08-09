@@ -80,10 +80,14 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
             sen_norm=r.get("sen_norm") or 0.0, endorsement=r.get("endorsement"),
             weights=weights,
         )
-        sens.append({**_public(r), "score": res["score"], "components": res["components"],
+        mom_bonus = round(schedule.momentum_weight(days) * (r.get("mom") or 0), 1)
+        sens.append({**_public(r), "score": round(res["score"] + mom_bonus, 1),
+                     "components": res["components"],
                      "model": {
                          "scores": res["scores"],
                          "weights": weights,
+                         "momentum": {"delta_pp": r.get("mom") or 0, "weight": round(schedule.momentum_weight(days), 2),
+                                      "bonus": mom_bonus},
                          "inputs": {"gov_pct": r.get("gov_pct"), "gov_reliability": r.get("gov_reliability") or 0.78,
                                     "pres_pct": r.get("pres_pct"), "pres_reliability": r.get("pres_reliability") or 0.65,
                                     "pres_bloc": r["bloc"], "pres_basis": basis,

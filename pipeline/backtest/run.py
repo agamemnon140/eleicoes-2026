@@ -21,7 +21,7 @@ def _sen_norm(cands):
     return {c["name"]: c["poll_pct"] / leader * 100 for c in cands}
 
 
-def predict_model(race, k, cap):
+def predict_model(race, k, cap, w_mom=0.0):
     w = schedule.senate_weights(0, may_change_pct=race.get("may_change"), k=k, cap=cap)
     weights = {"governo": w.gov, "presidente": w.pres, "senado": w.sen, "apoio": w.apoio}
     sn = _sen_norm(race["senate"])
@@ -33,7 +33,8 @@ def predict_model(race, k, cap):
             sen_norm=sn[c["name"]], endorsement=c.get("endorsement", "inferido"),
             weights=weights,
         )
-        scored.append((c["name"], r["score"]))
+        score = r["score"] + w_mom * c.get("mom", 0)   # bônus/ônus de momentum (p.p. * peso)
+        scored.append((c["name"], score))
     scored.sort(key=lambda t: -t[1])
     return [n for n, _ in scored[: race["seats"]]]
 
@@ -60,12 +61,17 @@ def main():
             h = sum(hits(predict_model(r, k, cap), r["winners"]) for r in RACES)
             row.append(f"{h:>3}/{total}")
         print(f"  {cap:>6.2f} | " + " | ".join(row))
-    print("\nPor corrida (k=2.75, teto=0.50):")
+    print("\nMOMENTUM — acertos com peso de momentum (k=2.75, teto=0.50):")
+    for wm in (0.0, 0.5, 1.0, 1.5, 2.0, 3.0):
+        h = sum(hits(predict_model(r, 2.75, 0.50, w_mom=wm), r["winners"]) for r in RACES)
+        print(f"  peso_momentum {wm:>3}: {h}/{total}")
+
+    print("\nPor corrida (k=2.75, teto=0.50, momentum=1.5):")
     for r in RACES:
-        pm = predict_model(r, 2.75, 0.50)
+        pm = predict_model(r, 2.75, 0.50, w_mom=1.5)
         pr = predict_raw(r)
         print(f"  {r['id']:8} real={r['winners']}\n"
-              f"           modelo={pm} ({hits(pm, r['winners'])}/{len(r['winners'])}) | "
+              f"           c/momentum={pm} ({hits(pm, r['winners'])}/{len(r['winners'])}) | "
               f"pesquisa={pr} ({hits(pr, r['winners'])}/{len(r['winners'])})")
 
 

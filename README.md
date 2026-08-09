@@ -34,6 +34,14 @@ Senado é mantido **moderado (~0,50)** — nem 1,0 (pesquisa pura) nem baixo dem
 backtest é pequena e enviesada (casos notórios); uma calibração definitiva exigiria raspar todos os
 pleitos de 2018/2022.
 
+**Momentum (movimento de última hora):** adicionar um termo de momentum (rebaixar quem cai, valorizar
+quem sobe nas pesquisas recentes) recupera as viradas documentadas (2/8 → 7/8). Confirma a *direção*
+(a literatura mostra que indecisos/terceira via decidem nas últimas 2 semanas), mas o teste é
+**in-sample** (as trajetórias refletem o resultado conhecido) e parte do momentum é ruído/reversão.
+Por isso o momentum entra como termo **pequeno e time-gated** (ativo só nos últimos ~14 dias),
+calculado a partir da **série real** de snapshots que o coletor acumula — dormente a 56 dias da
+eleição. Validação out-of-sample exige o scrape histórico completo (viável: a pt.wiki tem as séries).
+
 ## Estrutura
 
 ```
