@@ -47,5 +47,28 @@
   "PSTU": "#C81414",
   "UP": "#A80000"
  },
- "default_party_color": "#64748B"
+ "default_party_color": "#64748B",
+ "party_field": {
+  "PT": "Lula",
+  "PSB": "Lula",
+  "PDT": "Lula",
+  "PCdoB": "Lula",
+  "PSOL": "Lula",
+  "Rede": "Lula",
+  "PV": "Lula",
+  "PL": "Direita",
+  "PP": "Direita",
+  "Republicanos": "Direita",
+  "União": "Direita",
+  "Novo": "Direita",
+  "PSC": "Direita",
+  "PSDB": "Centro",
+  "MDB": "Centro",
+  "PSD": "Centro",
+  "Podemos": "Centro",
+  "Avante": "Centro",
+  "Solidariedade": "Centro",
+  "Democratas": "Direita",
+  "PRD": "Centro"
+ }
 }

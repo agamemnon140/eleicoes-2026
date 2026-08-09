@@ -36,3 +36,29 @@ parties:
   UP:            "#A80000"
 
 default_party_color: "#64748B"
+
+# Campo político dos 27 senadores com mandato até 2031 (holdovers), para o rollup
+# de maioria do Senado (esquerda x direita). Editorial e aproximado — partidos do
+# "centrão" ficam em Centro. Os 54 eleitos em 2026 são agrupados pelo bloco do modelo.
+party_field:
+  PT: Lula
+  PSB: Lula
+  PDT: Lula
+  PCdoB: Lula
+  PSOL: Lula
+  Rede: Lula
+  PV: Lula
+  PL: Direita
+  PP: Direita
+  Republicanos: Direita
+  União: Direita
+  Novo: Direita
+  PSC: Direita
+  PSDB: Centro
+  MDB: Centro
+  PSD: Centro
+  Podemos: Centro
+  Avante: Centro
+  Solidariedade: Centro
+  Democratas: Direita
+  PRD: Centro

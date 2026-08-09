@@ -16,7 +16,9 @@ const COMP_COLOR = {governo:'#334155', presidente:'#0f766e', senado:'#b7791f', a
 const COMP_LABEL = {governo:'Governador', presidente:'Presidente', senado:'Pesquisa Senado', apoio:'Apoio/chapa'};
 const BLOC_ORDER = ['Lula','Flávio','Caiado','Zema','Indefinido'];
 
-let FC = null, PARTIES = null, PRES = null;
+let FC = null, PARTIES = null, PRES = null;   // FC/PRES = "visão" exibida (podem já refletir a simulação)
+let RAW = null, PRES_RAW = null;              // dados crus, sem simulação
+const sim = {pres:0, gov:0, sen:0};           // erro simulado nas pesquisas (pp; + = Lula, − = Bolsonaro)
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
 let partyFocus = null;                 // partido em foco (drill-down)
@@ -53,16 +55,20 @@ if ('serviceWorker' in navigator) {
 init();
 async function init(){
   try{
-    [FC, PARTIES, PRES] = await Promise.all([
+    [RAW, PARTIES, PRES_RAW] = await Promise.all([
       fetch('data/forecast.json').then(r=>r.json()),
       fetch('data/parties.json').then(r=>r.json()),
       fetch('data/president.json').then(r=>r.json()).catch(()=>null),
     ]);
+    FC = RAW; PRES = PRES_RAW;
   }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>py -m pipeline.build</code>.</p>`; return; }
 
   const d = new Date(FC.generated_at + 'T00:00:00');
   $('#subtitle').textContent = `Governador, Senado e Presidente — modelo de chapa executiva. Faltam ${FC.days_to_election} dias para o 1º turno (04/10/2026).`;
   $('#meta').textContent = `Atualizado em ${d.toLocaleDateString('pt-BR')} · fonte: ${FC.source} · os pesos do modelo refletem ${FC.days_to_election} dias até a eleição.`;
+
+  try{ selfCheckSim(); }catch(e){ console.error(e); }
+  renderSimPanel(); wireSim();
 
   $('#tabs').addEventListener('click', e => {
     const b = e.target.closest('button'); if(!b) return;
@@ -75,11 +81,14 @@ async function init(){
 }
 
 function render(){
+  applySim();
+  updateSimLabels();
   const v = $('#view');
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
   const off = office();
   v.innerHTML =
     (partyFocus ? partyFocusPanel() : '') +
+    (off==='senate' ? senateComposition() : '') +
     mapPanel(off) +
     (colorMode==='partido' ? partyPanel(off) : '') +
     (off==='senate' ? nationalPanel() : '') +
@@ -377,4 +386,217 @@ function renderPresident(){
   return head + `<section class="panel"><h2>Inclinação presidencial por estado</h2>
     <p class="desc">Alimenta os modelos de governador e senado (sempre com o % real).${swNote}</p>
     <div class="pres-lean">${cards}</div></section>`;
+}
+
+/* =====================================================================
+   SIMULADOR — recalcula o modelo no cliente a partir dos inputs crus.
+   Espelha pipeline/model.py (aritmética simples). sim.* em pontos percentuais:
+   + desloca a favor de Lula, − a favor de Bolsonaro (eixo Lula×Flávio).
+   ===================================================================== */
+const PCT_NORM = 0.6, NAT_2022_LULA = 50.9;
+const APOIO_JS = {'explícito':100, 'chapa/aliança':90, 'inferido':45, 'não verificado':0};
+const clampn = (x,a,b)=>Math.max(a,Math.min(b,x));
+const r1 = x => Math.round(x*10)/10;
+const sPoll = (pct,rel)=> pct==null ? 0 : rel*Math.min(100, pct/PCT_NORM);
+const sApoio = e => APOIO_JS[e] ?? 0;
+const simActive = ()=> !!(sim.pres || sim.gov || sim.sen);
+
+// swing nacional ADICIONAL (p.p.) que o erro presidencial impõe aos estados-proxy
+function presSwingExtra(){
+  const ro = PRES_RAW && PRES_RAW.national && PRES_RAW.national.runoff;
+  if(!ro || ro['Lula']==null || ro['Flávio']==null || !sim.pres) return 0;
+  const lula = ro['Lula'] + sim.pres, flavio = ro['Flávio'] - sim.pres;
+  if(lula<=0 || flavio<=0) return 0;
+  const s1 = lula/(lula+flavio)*100 - NAT_2022_LULA;
+  return r1(s1 - (PRES_RAW.national_swing || 0));
+}
+function simPresPct(inp){
+  const proxy = /proxy/i.test(inp.pres_basis || '');
+  if(!proxy || !sim.pres) return inp.pres_pct;
+  const e = presSwingExtra();
+  if(inp.pres_bloc==='Lula')   return r1(clampn(inp.pres_pct + e, 0, 100));
+  if(inp.pres_bloc==='Flávio') return r1(clampn(inp.pres_pct - e, 0, 100));
+  return inp.pres_pct;
+}
+function shiftByBloc(pct, bloc, delta){
+  if(!delta || pct==null) return pct;
+  if(bloc==='Lula')   return r1(clampn(pct + delta, 0, 100));
+  if(bloc==='Flávio') return r1(clampn(pct - delta, 0, 100));
+  return pct;
+}
+function scoreGovJS(inp, w){
+  const gs = sPoll(inp.gov_pct, inp.gov_reliability), ps = sPoll(inp.pres_pct, inp.pres_reliability);
+  const c = {governo: w.governo*gs, presidente: w.presidente*ps};
+  return {components:{governo:r1(c.governo), presidente:r1(c.presidente)},
+          score:r1(c.governo+c.presidente), scores:{governo:gs, presidente:ps}};
+}
+function scoreSenJS(inp, w, mom){
+  const gs = sPoll(inp.gov_pct, inp.gov_reliability), ps = sPoll(inp.pres_pct, inp.pres_reliability), aps = sApoio(inp.endorsement);
+  const c = {governo:w.governo*gs, presidente:w.presidente*ps, senado:w.senado*inp.sen_norm, apoio:w.apoio*aps};
+  const base = c.governo+c.presidente+c.senado+c.apoio;
+  return {components:{governo:r1(c.governo), presidente:r1(c.presidente), senado:r1(c.senado), apoio:r1(c.apoio)},
+          score:r1(base + (mom||0)), scores:{governo:gs, presidente:ps, senado:inp.sen_norm, apoio:aps}};
+}
+
+// devolve {view, pres}: clones de RAW/PRES_RAW com scores, estimativas e totais recalculados
+function simulateAll(){
+  const view = JSON.parse(JSON.stringify(RAW));
+  for(const uf of Object.keys(view.states)){
+    const st = view.states[uf];
+    // ---- governador ----
+    for(const c of st.governor.candidates){
+      const inp = c.model && c.model.inputs; if(!inp) continue;
+      inp.gov_pct = shiftByBloc(inp.gov_pct, c.bloc, sim.gov);
+      inp.pres_pct = simPresPct(inp);
+      const res = scoreGovJS(inp, c.model.weights);
+      c.model.scores = res.scores; c.components = res.components; c.score = res.score;
+      if(sim.gov && (c.bloc==='Lula'||c.bloc==='Flávio') && c.pct!=null){ c.pct = inp.gov_pct; c.pctDisplay = fpct(inp.gov_pct); }
+    }
+    st.governor.candidates.sort((a,b)=>b.score-a.score);
+    const gEst = st.governor.candidates.find(c=>c.active) || null;
+    st.governor.candidates.forEach(c=>c.estimated = (c===gEst));
+    st.governor.bloc = gEst ? gEst.bloc : 'Indefinido';
+    st.governor.estimate = gEst ? {name:gEst.name, party:gEst.party, bloc:gEst.bloc, score:gEst.score} : null;
+    // ---- senado: desloca a pesquisa própria e renormaliza (líder do estado = 100) ----
+    const sc = st.senate.candidates;
+    for(const c of sc){
+      const inp = c.model && c.model.inputs; if(!inp) continue;
+      const sp = shiftByBloc(c.pct, c.bloc, sim.sen);
+      inp.gov_pct = shiftByBloc(inp.gov_pct, c.bloc, sim.gov);   // vento de chapa (governador)
+      inp.pres_pct = simPresPct(inp);
+      // desloca a pesquisa do Senado proporcionalmente (preserva os zeros do pipeline; em sim=0 não muda)
+      if(sim.sen && typeof sp==='number' && typeof c.pct==='number' && c.pct>0)
+        inp.sen_norm = clampn(inp.sen_norm * sp / c.pct, 0, 100);
+      if(sim.sen && (c.bloc==='Lula'||c.bloc==='Flávio') && c.pct!=null){ c.pct = sp; c.pctDisplay = fpct(sp); }
+      const mom = (c.model.momentum && c.model.momentum.bonus) || 0;
+      const res = scoreSenJS(inp, c.model.weights, mom);
+      c.model.scores = res.scores; c.components = res.components; c.score = res.score;
+    }
+    sc.sort((a,b)=>b.score-a.score);
+    const sEst = sc.filter(c=>c.active).slice(0,2);
+    sc.forEach(c=>c.estimated = sEst.includes(c));
+    st.senate.bloc = sEst[0] ? sEst[0].bloc : 'Indefinido';
+    st.senate.blocs = sEst.map(c=>c.bloc);
+    st.senate.estimate = sEst.map(c=>({name:c.name, party:c.party, bloc:c.bloc, score:c.score}));
+  }
+  view.national = tallyNational(view.states);
+  // ---- presidente (visão) ----
+  const pres = JSON.parse(JSON.stringify(PRES_RAW || {}));
+  if(pres && pres.national){
+    const e = presSwingExtra();
+    pres.national_swing = r1((PRES_RAW.national_swing || 0) + e);
+    const ro = pres.national.runoff;
+    if(ro){ if(ro['Lula']!=null) ro['Lula']=r1(clampn(ro['Lula']+sim.pres,0,100));
+            if(ro['Flávio']!=null) ro['Flávio']=r1(clampn(ro['Flávio']-sim.pres,0,100)); }
+    if(Array.isArray(pres.national.first_round)) pres.national.first_round.forEach(c=>{
+      if(c.bloc==='Lula') c.avg=r1(clampn(c.avg+sim.pres,0,100));
+      if(c.bloc==='Flávio') c.avg=r1(clampn(c.avg-sim.pres,0,100));
+    });
+    if(pres.pres_lean && sim.pres) for(const uf of Object.keys(pres.pres_lean)){
+      const l = pres.pres_lean[uf];
+      if(/proxy/i.test(l.basis||'')){
+        if(l['Lula']!=null) l['Lula']=r1(clampn(l['Lula']+e,0,100));
+        if(l['Flávio']!=null) l['Flávio']=r1(clampn(l['Flávio']-e,0,100));
+        const sw = pres.national_swing;
+        l.basis = (l.basis||'').replace(/swing nac\. [+-]?[\d.]+/, `swing nac. ${sw>0?'+':''}${sw}`) + ' · simulação';
+      }
+    }
+  }
+  return {view, pres};
+}
+// consolidado nacional (espelha pipeline/build.national_table); holdovers vêm de RAW
+function tallyNational(states){
+  const hold={}, holdNames={};
+  RAW.national.forEach(r=>{ hold[r.party]=r.hold; holdNames[r.party]=r.holdNames||[]; });
+  const newSen={}, gov={};
+  Object.values(states).forEach(st=>{
+    st.senate.estimate.forEach(e=>newSen[e.party]=(newSen[e.party]||0)+1);
+    const g=st.governor.estimate; if(g) gov[g.party]=(gov[g.party]||0)+1;
+  });
+  const parties = new Set([...Object.keys(hold), ...Object.keys(newSen), ...Object.keys(gov)]);
+  const rows = [...parties].map(p=>{ const h=hold[p]||0, n=newSen[p]||0, g=gov[p]||0;
+    return {party:p, hold:h, newSen:n, sen2027:h+n, gov:g, holdNames:holdNames[p]||[]}; });
+  rows.sort((a,b)=> (b.sen2027-a.sen2027) || (b.gov-a.gov));
+  return rows;
+}
+function applySim(){
+  if(!simActive()){ FC = RAW; PRES = PRES_RAW; return; }
+  const {view, pres} = simulateAll();
+  FC = view; PRES = pres;
+}
+// prova de sanidade: com sim=0 o port JS reproduz os scores do Python (docs/data)
+function selfCheckSim(){
+  const save = {...sim}; sim.pres=0; sim.gov=0; sim.sen=0;
+  const {view} = simulateAll();
+  let bad = 0;
+  for(const uf of Object.keys(RAW.states)) for(const off of ['governor','senate'])
+    RAW.states[uf][off].candidates.forEach(rc=>{
+      const vc = view.states[uf][off].candidates.find(x=>x.name===rc.name);
+      if(vc && Math.abs(vc.score-rc.score) > 0.2){ if(++bad<=6) console.error('sim mismatch', uf, off, rc.name, 'py', rc.score, 'js', vc.score); }
+    });
+  Object.assign(sim, save);
+  if(!bad) console.log(`sim self-check OK (${Object.keys(RAW.states).length} estados, JS≡Python em sim=0)`);
+}
+
+/* ---------- painel do simulador (persistente em #sim) ---------- */
+function simReadout(v){ return v>0 ? `Lula +${v} pp` : v<0 ? `Bolsonaro +${(-v)} pp` : 'sem erro'; }
+function renderSimPanel(){
+  const host = $('#sim'); if(!host) return;
+  const row = (id,label,help)=>`
+    <label class="simrow">
+      <span class="siml">${label} <b class="simval ${sim[id]>0?'lu':sim[id]<0?'bo':''}" id="v-${id}">${simReadout(sim[id])}</b></span>
+      <input type="range" id="sim-${id}" min="-10" max="10" step="0.5" value="${sim[id]}" aria-label="${label}">
+      <span class="simhelp">${help}</span>
+    </label>`;
+  host.innerHTML = `<section class="panel simpanel">
+    <div class="panel-top"><h2>Simular erro das pesquisas <span class="muted">— e se elas estiverem erradas?</span></h2>
+      <button class="clearfocus" id="sim-reset">zerar</button></div>
+    <p class="desc">Desloque as intenções no eixo <b style="color:${blocColor('Lula')}">Lula</b> ⟷ <b style="color:${blocColor('Flávio')}">Bolsonaro</b>: à direita = erro que subestimou Lula; à esquerda = subestimou Bolsonaro. Índice, mapa e totais recalculam ao vivo.</p>
+    ${row('pres','Presidente (nacional)','desloca o 2º turno nacional e, via swing, os estados sem pesquisa estadual')}
+    ${row('gov','Governadores','desloca a pesquisa de cada governador (e o vento de chapa no Senado)')}
+    ${row('sen','Senado','desloca a pesquisa de cada candidatura ao Senado')}
+  </section>`;
+}
+function updateSimLabels(){
+  const host = $('#sim'); if(!host) return;
+  host.classList.toggle('active', simActive());
+  ['pres','gov','sen'].forEach(id=>{
+    const v = $('#v-'+id); if(v){ v.textContent = simReadout(sim[id]); v.className = `simval ${sim[id]>0?'lu':sim[id]<0?'bo':''}`; }
+    const s = $('#sim-'+id); if(s && +s.value!==sim[id]) s.value = sim[id];
+  });
+}
+function wireSim(){
+  ['pres','gov','sen'].forEach(id=>{ const el=$('#sim-'+id); if(el) el.oninput = e=>{ sim[id]=parseFloat(e.target.value); render(); }; });
+  const rb = $('#sim-reset'); if(rb) rb.onclick = ()=>{ sim.pres=0; sim.gov=0; sim.sen=0; render(); };
+}
+
+/* ---------- composição do Senado (manchete da aba Senado) ---------- */
+const SEN_MAJ = 41, SEN_TOTAL = 81, SEN_NEW = 54;
+const FIELD_KEYS = ['Lula','Direita','Centro'];
+const fieldColor = f => f==='Lula' ? blocColor('Lula') : f==='Direita' ? blocColor('Flávio') : blocColor('Indefinido');
+const fieldLabel = f => f==='Lula' ? 'Campo Lula (esq.)' : f==='Direita' ? 'Campo direita' : 'Centro/indef.';
+const fieldOfBloc = b => b==='Lula' ? 'Lula' : (b==='Flávio'||b==='Caiado'||b==='Zema') ? 'Direita' : 'Centro';
+const fieldOfParty = p => (PARTIES.party_field && PARTIES.party_field[p]) || 'Centro';
+function senateComposition(){
+  const el = {Lula:0,Direita:0,Centro:0}, ho = {Lula:0,Direita:0,Centro:0};
+  Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{ el[fieldOfBloc(e.bloc)]++; }));
+  RAW.national.forEach(r=>{ ho[fieldOfParty(r.party)] += (r.hold||0); });
+  const tot = {Lula:el.Lula+ho.Lula, Direita:el.Direita+ho.Direita, Centro:el.Centro+ho.Centro};
+  const bar = (obj)=>FIELD_KEYS.filter(f=>obj[f]).map(f=>
+    `<span style="flex:${obj[f]};background:${fieldColor(f)}" title="${fieldLabel(f)}: ${obj[f]}">${obj[f]}</span>`).join('');
+  const lead = FIELD_KEYS.reduce((a,b)=> tot[b]>tot[a] ? b : a);
+  const maj = tot[lead] >= SEN_MAJ
+    ? `<b style="color:${fieldColor(lead)}">${fieldLabel(lead)}</b> tem maioria: <b>${tot[lead]}</b>/${SEN_TOTAL} (precisa de ${SEN_MAJ})`
+    : `Nenhum campo isolado chega a ${SEN_MAJ} — maior é <b style="color:${fieldColor(lead)}">${fieldLabel(lead)}</b> com ${tot[lead]}`;
+  const legend = FIELD_KEYS.map(f=>`<span class="lg"><span class="sw" style="background:${fieldColor(f)}"></span>${fieldLabel(f)} <b>${tot[f]}</b></span>`).join('');
+  return `<section class="panel compo">
+    <div class="panel-top"><h2>Composição do Senado 2027 ${simActive()?'<span class="simtag">simulação</span>':''}</h2></div>
+    <p class="desc">No Senado o que importa é o total de cadeiras, não quem vence em cada estado. São 81 senadores; <b>maioria absoluta = ${SEN_MAJ}</b>. Agrupamento por campo político (holdovers por partido — aproximado).</p>
+    <div class="compo-block"><div class="compo-h"><b>Senado em 2027</b> <span class="muted">27 mantidos (mandato até 2031) + ${SEN_NEW} eleitos em 2026</span></div>
+      <div class="compobar big">${bar(tot)}<i class="majline" style="left:${100*SEN_MAJ/SEN_TOTAL}%"></i></div>
+      <div class="compo-maj">${maj}</div></div>
+    <div class="compo-block"><div class="compo-h"><b>Em disputa em 2026</b> <span class="muted">${SEN_NEW} cadeiras (2 por estado)</span></div>
+      <div class="compobar">${bar(el)}</div></div>
+    <div class="legend2">${legend}</div>
+  </section>`;
 }
