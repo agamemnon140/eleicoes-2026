@@ -540,34 +540,50 @@ function selfCheckSim(){
 
 /* ---------- painel do simulador (persistente em #sim) ---------- */
 function simReadout(v){ return v>0 ? `Lula +${v} pp` : v<0 ? `Bolsonaro +${(-v)} pp` : 'sem erro'; }
+const simMixed = ()=> !(sim.pres===sim.gov && sim.gov===sim.sen);
 function renderSimPanel(){
   const host = $('#sim'); if(!host) return;
-  const row = (id,label,help)=>`
-    <label class="simrow">
-      <span class="siml">${label} <b class="simval ${sim[id]>0?'lu':sim[id]<0?'bo':''}" id="v-${id}">${simReadout(sim[id])}</b></span>
-      <input type="range" id="sim-${id}" min="-10" max="10" step="0.5" value="${sim[id]}" aria-label="${label}">
+  const row = (id,label,help,val,read,cls)=>`
+    <label class="simrow ${cls||''}">
+      <span class="siml">${label} <b class="simval ${val>0?'lu':val<0?'bo':''}" id="v-${id}">${read}</b></span>
+      <input type="range" id="sim-${id}" min="-10" max="10" step="0.5" value="${val}" aria-label="${label}">
       <span class="simhelp">${help}</span>
     </label>`;
+  const mx = simMixed();
   host.innerHTML = `<section class="panel simpanel">
     <div class="panel-top"><h2>Simular erro das pesquisas <span class="muted">— e se elas estiverem erradas?</span></h2>
       <button class="clearfocus" id="sim-reset">zerar</button></div>
     <p class="desc">Desloque as intenções no eixo <b style="color:${blocColor('Lula')}">Lula</b> ⟷ <b style="color:${blocColor('Flávio')}">Bolsonaro</b>: à direita = erro que subestimou Lula; à esquerda = subestimou Bolsonaro. Índice, mapa e totais recalculam ao vivo.</p>
-    ${row('pres','Presidente (nacional)','desloca o 2º turno nacional e, via swing, os estados sem pesquisa estadual')}
-    ${row('gov','Governadores','desloca a pesquisa de cada governador (e o vento de chapa no Senado)')}
-    ${row('sen','Senado','desloca a pesquisa de cada candidatura ao Senado')}
+    ${row('all','Erro correlacionado (chapa toda)','move Presidente, Governadores e Senado juntos — um viés geral das pesquisas, como a direita subestimada em 2018/2022', mx?sim.pres:sim.pres, mx?'misto':simReadout(sim.pres), 'master')}
+    <div class="simpresets"><span class="muted">atalhos:</span>
+      <button class="chipbtn bo" data-preset="-3">Bolsonaro +3</button>
+      <button class="chipbtn bo" data-preset="-5">Bolsonaro +5</button>
+      <button class="chipbtn lu" data-preset="3">Lula +3</button>
+      <button class="chipbtn lu" data-preset="5">Lula +5</button></div>
+    <div class="simsep">ou ajuste cada eixo</div>
+    ${row('pres','Presidente (nacional)','desloca o 2º turno nacional e, via swing, os estados sem pesquisa estadual', sim.pres, simReadout(sim.pres))}
+    ${row('gov','Governadores','desloca a pesquisa de cada governador (e o vento de chapa no Senado)', sim.gov, simReadout(sim.gov))}
+    ${row('sen','Senado','desloca a pesquisa de cada candidatura ao Senado', sim.sen, simReadout(sim.sen))}
   </section>`;
 }
 function updateSimLabels(){
   const host = $('#sim'); if(!host) return;
   host.classList.toggle('active', simActive());
+  const mx = simMixed();
+  const va=$('#v-all'); if(va){ va.textContent = mx?'misto':simReadout(sim.pres);
+    va.className = `simval ${(!mx&&sim.pres>0)?'lu':(!mx&&sim.pres<0)?'bo':''}`; }
+  const sa=$('#sim-all'); if(sa && +sa.value!==sim.pres) sa.value=sim.pres;
   ['pres','gov','sen'].forEach(id=>{
     const v = $('#v-'+id); if(v){ v.textContent = simReadout(sim[id]); v.className = `simval ${sim[id]>0?'lu':sim[id]<0?'bo':''}`; }
     const s = $('#sim-'+id); if(s && +s.value!==sim[id]) s.value = sim[id];
   });
 }
 function wireSim(){
+  const setAll = v=>{ sim.pres=v; sim.gov=v; sim.sen=v; render(); };
+  const ea=$('#sim-all'); if(ea) ea.oninput = e=>setAll(parseFloat(e.target.value));
+  document.querySelectorAll('#sim .chipbtn[data-preset]').forEach(b=>b.onclick=()=>setAll(parseFloat(b.dataset.preset)));
   ['pres','gov','sen'].forEach(id=>{ const el=$('#sim-'+id); if(el) el.oninput = e=>{ sim[id]=parseFloat(e.target.value); render(); }; });
-  const rb = $('#sim-reset'); if(rb) rb.onclick = ()=>{ sim.pres=0; sim.gov=0; sim.sen=0; render(); };
+  const rb = $('#sim-reset'); if(rb) rb.onclick = ()=>setAll(0);
 }
 
 /* ---------- composição do Senado (manchete da aba Senado) ---------- */

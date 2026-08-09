@@ -182,6 +182,14 @@ button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 .simval.lu{background:#fde8ec;color:#b4123a}
 .simval.bo{background:#e6ebfb;color:#1b3a8c}
 #sim-reset{cursor:pointer}
+.simrow.master{background:#f6f8ff;border-radius:10px;padding:10px 12px;border-top:none;margin-bottom:2px}
+.simrow.master .siml{font-size:15px}
+.simpresets{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:2px 0 4px;font-size:12px}
+.chipbtn{cursor:pointer;border:1px solid var(--line);background:#fff;border-radius:999px;padding:3px 11px;font-size:12px;font-weight:800}
+.chipbtn.bo{color:#1b3a8c;border-color:#c7d2fe}
+.chipbtn.lu{color:#b4123a;border-color:#f3c2cf}
+.chipbtn:hover{filter:brightness(.97);background:var(--soft)}
+.simsep{font-size:10.5px;color:var(--muted);margin:6px 0 0;text-transform:uppercase;letter-spacing:.04em;border-top:1px dashed var(--line);padding-top:6px}
 .simtag{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;color:#8a5a00;background:#fff3d6;border:1px solid #f2d98a;border-radius:999px;padding:1px 8px;vertical-align:middle}
 
 /* ---------- composição do Senado ---------- */
