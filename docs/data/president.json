@@ -77,7 +77,45 @@
   "trend": {
    "Lula": -3.0,
    "Flávio": -3.0
-  }
+  },
+  "used": [
+   {
+    "pollster": "Genial Quaest",
+    "date": "05/08/2026",
+    "Lula": 39.0,
+    "Flávio": 30.0
+   },
+   {
+    "pollster": "Meio Ideia",
+    "date": "05/08/2026",
+    "Lula": 43.0,
+    "Flávio": 35.0
+   },
+   {
+    "pollster": "Nexus Btg Pactual",
+    "date": "03/08/2026",
+    "Lula": 41.0,
+    "Flávio": 37.0
+   },
+   {
+    "pollster": "Poderdata",
+    "date": "30/07/2026",
+    "Lula": 41.0,
+    "Flávio": 35.0
+   },
+   {
+    "pollster": "Atlasintel",
+    "date": "29/07/2026",
+    "Lula": 44.9,
+    "Flávio": 35.8
+   },
+   {
+    "pollster": "Nexus Btg Pactual",
+    "date": "27/07/2026",
+    "Lula": 42.0,
+    "Flávio": 33.0
+   }
+  ]
  },
  "national_swing": 1.4,
  "pres_lean": {

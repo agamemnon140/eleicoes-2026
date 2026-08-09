@@ -11,8 +11,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 35.2,
-   "pctDisplay": "35,2%",
+   "pct": 31.6,
+   "pctDisplay": "31,6%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -21,7 +21,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
@@ -32,8 +32,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 35.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 28.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -44,8 +59,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 33.1,
-   "pctDisplay": "33,1%",
+   "pct": 35.5,
+   "pctDisplay": "35,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -54,7 +69,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
@@ -65,8 +80,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 33.1,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 38.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -77,8 +107,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 18.5,
-   "pctDisplay": "18,5%",
+   "pct": 17.8,
+   "pctDisplay": "17,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -87,7 +117,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
@@ -98,8 +128,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 18.5,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 17.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -110,8 +155,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 9.7,
-   "pctDisplay": "9,7%",
+   "pct": 8.3,
+   "pctDisplay": "8,3%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -120,7 +165,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 0,9%; não sabe 2,6%",
@@ -131,8 +176,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 9.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -143,17 +203,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 20.6,
-   "pctDisplay": "20,6%",
-   "sen_norm": 100.0,
+   "pct": 20.3,
+   "pctDisplay": "20,3%",
+   "sen_norm": 93.119266,
    "gov_ticket": "Mailza Assis",
-   "gov_pct": 35.2,
+   "gov_pct": 31.6,
    "gov_reliability": 0.78,
    "pres_pct": 70.3,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
@@ -164,8 +224,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 20.6,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 20.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -176,17 +251,17 @@
    "endorsement": "inferido",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 18.5,
-   "pctDisplay": "18,5%",
-   "sen_norm": 89.805825,
+   "pct": 21.8,
+   "pctDisplay": "21,8%",
+   "sen_norm": 100.0,
    "gov_ticket": "Mailza Assis",
-   "gov_pct": 35.2,
+   "gov_pct": 31.6,
    "gov_reliability": 0.78,
    "pres_pct": 70.3,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
@@ -197,8 +272,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 18.5,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 25.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -211,9 +301,9 @@
    "apoio_verificado": true,
    "pct": 18.1,
    "pctDisplay": "18,1%",
-   "sen_norm": 87.864078,
+   "sen_norm": 83.027523,
    "gov_ticket": "Mailza Assis",
-   "gov_pct": 35.2,
+   "gov_pct": 31.6,
    "gov_reliability": 0.78,
    "pres_pct": 70.3,
    "pres_reliability": 0.65,
@@ -229,7 +319,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -240,17 +331,17 @@
    "endorsement": "inferido",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 11.4,
-   "pctDisplay": "11,4%",
-   "sen_norm": 55.339806,
+   "pct": 13.7,
+   "pctDisplay": "13,7%",
+   "sen_norm": 62.844037,
    "gov_ticket": "Thor Dantas",
-   "gov_pct": 9.7,
+   "gov_pct": 8.3,
    "gov_reliability": 0.78,
    "pres_pct": 29.7,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
@@ -261,8 +352,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 11.4,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -273,9 +379,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 9.9,
-   "pctDisplay": "9,9%",
-   "sen_norm": 48.058252,
+   "pct": 7.5,
+   "pctDisplay": "7,5%",
+   "sen_norm": 34.40367,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -283,7 +389,7 @@
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
@@ -294,8 +400,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 9.9,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -306,9 +427,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 6.4,
-   "pctDisplay": "6,4%",
-   "sen_norm": 31.067961,
+   "pct": 5.7,
+   "pctDisplay": "5,7%",
+   "sen_norm": 26.146789,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -316,7 +437,7 @@
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
@@ -327,8 +448,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 6.4,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AC",
@@ -359,7 +495,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -391,8 +528,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/07/2026",
+     "pct": 45.9,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -424,8 +570,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/07/2026",
+     "pct": 41.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -457,8 +612,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/07/2026",
+     "pct": 40.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -490,8 +654,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/07/2026",
+     "pct": 39.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -522,7 +695,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -553,7 +727,8 @@
    "status_tipo": "fora",
    "active": false,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -564,8 +739,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 66.0,
-   "pctDisplay": "66,0%",
+   "pct": 65.8,
+   "pctDisplay": "65,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -574,7 +749,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "24/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Não sabe 2%; branco/nulo 2%",
@@ -585,8 +760,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "24/07/2026",
+     "pct": 66.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 65.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -597,8 +787,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 30.0,
-   "pctDisplay": "30,0%",
+   "pct": 28.1,
+   "pctDisplay": "28,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -607,7 +797,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "24/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Não sabe 2%; branco/nulo 2%",
@@ -618,8 +808,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "24/07/2026",
+     "pct": 30.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 26.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -650,7 +855,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -661,17 +867,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 32.0,
-   "pctDisplay": "32,0%",
+   "pct": 46.0,
+   "pctDisplay": "46,0%",
    "sen_norm": 100.0,
    "gov_ticket": "Dr. Furlan",
-   "gov_pct": 66.0,
+   "gov_pct": 65.8,
    "gov_reliability": 1.0,
    "pres_pct": 48.6,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "24/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Não sabe 2%; branco/nulo 2%",
@@ -682,8 +888,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "24/07/2026",
+     "pct": 32.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 60.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -694,17 +915,17 @@
    "endorsement": "inferido",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 18.0,
-   "pctDisplay": "18,0%",
-   "sen_norm": 56.25,
+   "pct": 26.6,
+   "pctDisplay": "26,6%",
+   "sen_norm": 57.826087,
    "gov_ticket": "Clécio Luís",
-   "gov_pct": 30.0,
+   "gov_pct": 28.1,
    "gov_reliability": 0.78,
    "pres_pct": 51.4,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "24/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Não sabe 2%; branco/nulo 2%",
@@ -715,8 +936,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "24/07/2026",
+     "pct": 18.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 35.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AP",
@@ -727,17 +963,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 12.0,
-   "pctDisplay": "12,0%",
-   "sen_norm": 37.5,
+   "pct": 24.9,
+   "pctDisplay": "24,9%",
+   "sen_norm": 54.130435,
    "gov_ticket": "Dr. Furlan",
-   "gov_pct": 66.0,
+   "gov_pct": 65.8,
    "gov_reliability": 0.78,
    "pres_pct": 48.6,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "24/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Não sabe 2%; branco/nulo 2%",
@@ -748,8 +984,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "24/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 37.7,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -780,7 +1031,8 @@
    "status_tipo": "confirmado",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Baixa"
+   "certainty_preview": "Baixa",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -811,7 +1063,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -842,7 +1095,8 @@
    "status_tipo": "confirmado",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -873,7 +1127,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -904,7 +1159,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -935,7 +1191,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -966,7 +1223,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "AM",
@@ -997,7 +1255,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1008,8 +1267,8 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado",
    "apoio_verificado": false,
-   "pct": 48.9,
-   "pctDisplay": "48,9%",
+   "pct": 47.0,
+   "pctDisplay": "47,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1018,7 +1277,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
@@ -1029,8 +1288,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 53.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 48.9,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 39.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1041,8 +1321,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 39.7,
-   "pctDisplay": "39,7%",
+   "pct": 39.2,
+   "pctDisplay": "39,2%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1051,7 +1331,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
@@ -1062,8 +1342,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 39.8,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 39.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 38.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1074,8 +1375,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 0.7,
-   "pctDisplay": "0,7%",
+   "pct": 1.0,
+   "pctDisplay": "1,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1084,7 +1385,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
@@ -1095,8 +1396,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 1.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 0.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1107,8 +1429,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 24.1,
-   "pctDisplay": "24,1%",
+   "pct": 18.9,
+   "pctDisplay": "18,9%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1117,7 +1439,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 39,1% não sabem; estimulado: 4,4%",
@@ -1128,8 +1450,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 26.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 24.1,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1140,17 +1483,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 44.6,
-   "pctDisplay": "44,6%",
+   "pct": 38.0,
+   "pctDisplay": "38,0%",
    "sen_norm": 100.0,
    "gov_ticket": "Jerônimo Rodrigues",
-   "gov_pct": 39.7,
+   "gov_pct": 39.2,
    "gov_reliability": 1.0,
    "pres_pct": 52,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 23–27/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
@@ -1161,8 +1504,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 47.5,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 44.6,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 22.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1173,17 +1537,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 35.1,
-   "pctDisplay": "35,1%",
-   "sen_norm": 78.699552,
+   "pct": 29.0,
+   "pctDisplay": "29,0%",
+   "sen_norm": 76.315789,
    "gov_ticket": "Jerônimo Rodrigues",
-   "gov_pct": 39.7,
+   "gov_pct": 39.2,
    "gov_reliability": 1.0,
    "pres_pct": 52,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 23–27/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
@@ -1194,8 +1558,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 36.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 35.1,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1208,9 +1593,9 @@
    "apoio_verificado": true,
    "pct": 24.1,
    "pctDisplay": "24,1%",
-   "sen_norm": 54.035874,
+   "sen_norm": 63.421053,
    "gov_ticket": "ACM Neto",
-   "gov_pct": 48.9,
+   "gov_pct": 47.0,
    "gov_reliability": 0.78,
    "pres_pct": 18,
    "pres_reliability": 1.0,
@@ -1226,7 +1611,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1237,17 +1623,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 21.9,
-   "pctDisplay": "21,9%",
-   "sen_norm": 49.103139,
+   "pct": 17.3,
+   "pctDisplay": "17,3%",
+   "sen_norm": 45.526316,
    "gov_ticket": "ACM Neto",
-   "gov_pct": 48.9,
+   "gov_pct": 47.0,
    "gov_reliability": 0.78,
    "pres_pct": 18,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 23–27/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "03/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea: 73,7% não sabem; estimulado: 6,9%",
@@ -1258,8 +1644,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 24.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 21.9,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "BA",
@@ -1274,7 +1681,7 @@
    "pctDisplay": "Não testado nesta rodada",
    "sen_norm": 0.0,
    "gov_ticket": "ACM Neto",
-   "gov_pct": 48.9,
+   "gov_pct": 47.0,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -1290,7 +1697,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1301,8 +1709,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (aproximação provável)",
    "apoio_verificado": false,
-   "pct": 43.0,
-   "pctDisplay": "43,0%",
+   "pct": 41.5,
+   "pctDisplay": "41,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1311,7 +1719,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Alta indefinição espontânea; ver fonte",
@@ -1322,8 +1730,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 43.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 40.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1334,8 +1757,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 33.0,
-   "pctDisplay": "33,0%",
+   "pct": 38.5,
+   "pctDisplay": "38,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1344,7 +1767,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Alta indefinição espontânea; ver fonte",
@@ -1355,8 +1778,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 33.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 44.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1367,8 +1805,8 @@
    "endorsement": "não verificado",
    "apoio": "Romeu Zema",
    "apoio_verificado": false,
-   "pct": 3.0,
-   "pctDisplay": "3,0%",
+   "pct": 5.0,
+   "pctDisplay": "5,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -1377,7 +1815,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Alta indefinição espontânea; ver fonte",
@@ -1388,8 +1826,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1400,17 +1853,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 23.0,
-   "pctDisplay": "23,0%",
+   "pct": 24.5,
+   "pctDisplay": "24,5%",
    "sen_norm": 100.0,
    "gov_ticket": "Elmano de Freitas",
-   "gov_pct": 33.0,
+   "gov_pct": 38.5,
    "gov_reliability": 1.0,
    "pres_pct": 55,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Alto nível de indecisão; ver fonte",
@@ -1421,8 +1874,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 23.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 26.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1433,17 +1901,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 16.0,
-   "pctDisplay": "16,0%",
-   "sen_norm": 69.565217,
+   "pct": 19.0,
+   "pctDisplay": "19,0%",
+   "sen_norm": 77.55102,
    "gov_ticket": "Ciro Gomes",
-   "gov_pct": 43.0,
+   "gov_pct": 41.5,
    "gov_reliability": 1.0,
    "pres_pct": 22,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Alto nível de indecisão; ver fonte",
@@ -1454,8 +1922,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 22.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1466,17 +1949,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 39.130435,
+   "pct": 11.5,
+   "pctDisplay": "11,5%",
+   "sen_norm": 46.938776,
    "gov_ticket": "Elmano de Freitas",
-   "gov_pct": 33.0,
+   "gov_pct": 38.5,
    "gov_reliability": 1.0,
    "pres_pct": 55,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Alto nível de indecisão; ver fonte",
@@ -1487,8 +1970,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1501,9 +1999,9 @@
    "apoio_verificado": false,
    "pct": 8.0,
    "pctDisplay": "8,0%",
-   "sen_norm": 34.782609,
+   "sen_norm": 32.653061,
    "gov_ticket": "Elmano de Freitas",
-   "gov_pct": 33.0,
+   "gov_pct": 38.5,
    "gov_reliability": 0.78,
    "pres_pct": 55,
    "pres_reliability": 1.0,
@@ -1520,8 +2018,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "CE",
@@ -1532,17 +2039,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 3.0,
-   "pctDisplay": "3,0%",
-   "sen_norm": 13.043478,
+   "pct": 8.5,
+   "pctDisplay": "8,5%",
+   "sen_norm": 34.693878,
    "gov_ticket": "Ciro Gomes",
-   "gov_pct": 43.0,
+   "gov_pct": 41.5,
    "gov_reliability": 1.0,
    "pres_pct": 22,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Alto nível de indecisão; ver fonte",
@@ -1553,8 +2060,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "15/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1585,7 +2107,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1616,7 +2139,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1647,7 +2171,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1679,8 +2204,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "20/07/2026",
+     "pct": 39.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1712,8 +2246,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "20/07/2026",
+     "pct": 36.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1745,8 +2288,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "20/07/2026",
+     "pct": 28.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1778,8 +2330,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "20/07/2026",
+     "pct": 18.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "DF",
@@ -1810,7 +2371,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -1842,8 +2404,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -1875,8 +2446,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 19.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -1908,8 +2488,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 19.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -1941,8 +2530,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 24.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -1973,7 +2571,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -2004,7 +2603,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Muito baixa"
+   "certainty_preview": "Muito baixa",
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -2036,8 +2636,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2048,8 +2657,8 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado",
    "apoio_verificado": false,
-   "pct": 37.0,
-   "pctDisplay": "37,0%",
+   "pct": 41.5,
+   "pctDisplay": "41,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -2058,7 +2667,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
@@ -2069,8 +2678,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 37.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 43.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 44.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2081,8 +2711,8 @@
    "endorsement": "não verificado",
    "apoio": "Indefinido",
    "apoio_verificado": false,
-   "pct": 21.0,
-   "pctDisplay": "21,0%",
+   "pct": 24.1,
+   "pctDisplay": "24,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -2091,7 +2721,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
@@ -2102,8 +2732,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 26.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 25.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2114,8 +2765,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 11.0,
-   "pctDisplay": "11,0%",
+   "pct": 12.8,
+   "pctDisplay": "12,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -2124,7 +2775,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
@@ -2135,8 +2786,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 11.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2147,8 +2819,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 3.0,
-   "pctDisplay": "3,0%",
+   "pct": 3.8,
+   "pctDisplay": "3,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -2157,7 +2829,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 80% indecisos; estimulado: 20%",
@@ -2168,8 +2840,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 3.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2180,17 +2873,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Ronaldo Caiado",
    "apoio_verificado": false,
-   "pct": 20.0,
-   "pctDisplay": "20,0%",
+   "pct": 27.0,
+   "pctDisplay": "27,0%",
    "sen_norm": 100.0,
    "gov_ticket": "Daniel Vilela",
-   "gov_pct": 37.0,
+   "gov_pct": 41.5,
    "gov_reliability": 1.0,
    "pres_pct": 33,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 61,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Segunda vaga indefinida; ver fonte",
@@ -2201,8 +2894,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 20.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 26.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 35.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2213,17 +2927,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Ronaldo Caiado / indefinido",
    "apoio_verificado": false,
-   "pct": 10.0,
-   "pctDisplay": "10,0%",
-   "sen_norm": 50.0,
+   "pct": 14.9,
+   "pctDisplay": "14,9%",
+   "sen_norm": 55.185185,
    "gov_ticket": "Daniel Vilela",
-   "gov_pct": 37.0,
+   "gov_pct": 41.5,
    "gov_reliability": 0.78,
    "pres_pct": 33,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 61,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Segunda vaga indefinida; ver fonte",
@@ -2234,8 +2948,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 25.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2246,17 +2981,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 45.0,
+   "pct": 15.1,
+   "pctDisplay": "15,1%",
+   "sen_norm": 55.925926,
    "gov_ticket": "Wilder Morais",
-   "gov_pct": 11.0,
+   "gov_pct": 12.8,
    "gov_reliability": 0.78,
    "pres_pct": 27,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 61,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Segunda vaga indefinida; ver fonte",
@@ -2267,8 +3002,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 15.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 21.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2279,17 +3035,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Ronaldo Caiado / centro-direita",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 45.0,
+   "pct": 13.6,
+   "pctDisplay": "13,6%",
+   "sen_norm": 50.37037,
    "gov_ticket": "Daniel Vilela",
-   "gov_pct": 37.0,
+   "gov_pct": 41.5,
    "gov_reliability": 0.78,
    "pres_pct": 33,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 61,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Segunda vaga indefinida; ver fonte",
@@ -2300,8 +3056,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 19.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2312,9 +3089,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 6.0,
-   "pctDisplay": "6,0%",
-   "sen_norm": 30.0,
+   "pct": 11.5,
+   "pctDisplay": "11,5%",
+   "sen_norm": 42.592593,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -2322,7 +3099,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 61,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Segunda vaga indefinida; ver fonte",
@@ -2333,8 +3110,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 15.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2365,7 +3163,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -2396,7 +3195,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2428,8 +3228,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 44.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2461,8 +3270,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 31.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2494,8 +3312,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2527,8 +3354,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2560,8 +3396,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2593,8 +3438,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2626,8 +3480,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -2659,8 +3522,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "08/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2691,7 +3563,8 @@
    "status_tipo": "confirmado",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Muito baixa"
+   "certainty_preview": "Muito baixa",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2722,7 +3595,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2753,7 +3627,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2784,7 +3659,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2815,7 +3691,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Muito baixa"
+   "certainty_preview": "Muito baixa",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2846,7 +3723,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MT",
@@ -2877,7 +3755,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Muito baixa"
+   "certainty_preview": "Muito baixa",
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -2909,8 +3788,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 44.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -2942,8 +3830,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 25.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -2975,8 +3872,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3008,8 +3914,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3041,8 +3956,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3074,8 +3998,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 38.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3107,8 +4040,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 19.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3140,8 +4082,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 15.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3173,8 +4124,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MS",
@@ -3206,8 +4166,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/08/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3218,8 +4187,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 36.0,
-   "pctDisplay": "36,0%",
+   "pct": 35.5,
+   "pctDisplay": "35,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -3228,7 +4197,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3239,8 +4208,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 36.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 35.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3251,8 +4235,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula (provável)",
    "apoio_verificado": false,
-   "pct": 15.0,
-   "pctDisplay": "15,0%",
+   "pct": 13.5,
+   "pctDisplay": "13,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -3261,7 +4245,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3272,8 +4256,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 15.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3284,8 +4283,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 14.0,
-   "pctDisplay": "14,0%",
+   "pct": 12.0,
+   "pctDisplay": "12,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -3294,7 +4293,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3305,8 +4304,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3317,8 +4331,8 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado (provável)",
    "apoio_verificado": false,
-   "pct": 10.0,
-   "pctDisplay": "10,0%",
+   "pct": 8.0,
+   "pctDisplay": "8,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -3327,7 +4341,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3338,8 +4352,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3350,8 +4379,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 7.0,
-   "pctDisplay": "7,0%",
+   "pct": 5.5,
+   "pctDisplay": "5,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -3360,7 +4389,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3371,8 +4400,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3393,7 +4437,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado; cenário com Cleitinho",
    "indecisao": "Espontânea: 88% indecisos; no cenário, 15% indecisos",
@@ -3404,8 +4448,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 2.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 2.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3416,17 +4475,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 21.0,
-   "pctDisplay": "21,0%",
+   "pct": 19.5,
+   "pctDisplay": "19,5%",
    "sen_norm": 100.0,
    "gov_ticket": "Patrus Ananias",
-   "gov_pct": 14.0,
+   "gov_pct": 12.0,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -3437,8 +4496,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 18.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3469,7 +4543,8 @@
    "status_tipo": "fora",
    "active": false,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3480,17 +4555,17 @@
    "endorsement": "inferido",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 12.0,
-   "pctDisplay": "12,0%",
-   "sen_norm": 57.142857,
+   "pct": 11.5,
+   "pctDisplay": "11,5%",
+   "sen_norm": 58.974359,
    "gov_ticket": "Cleitinho",
-   "gov_pct": 36.0,
+   "gov_pct": 35.5,
    "gov_reliability": 0.78,
    "pres_pct": 29,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -3501,8 +4576,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3513,17 +4603,17 @@
    "endorsement": "inferido",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 15.0,
-   "pctDisplay": "15,0%",
-   "sen_norm": 71.428571,
+   "pct": 12.5,
+   "pctDisplay": "12,5%",
+   "sen_norm": 64.102564,
    "gov_ticket": "Cleitinho",
-   "gov_pct": 36.0,
+   "gov_pct": 35.5,
    "gov_reliability": 0.78,
    "pres_pct": 29,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -3534,8 +4624,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 15.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3548,15 +4653,15 @@
    "apoio_verificado": true,
    "pct": 9.0,
    "pctDisplay": "9,0%",
-   "sen_norm": 42.857143,
+   "sen_norm": 46.153846,
    "gov_ticket": "Cleitinho",
-   "gov_pct": 36.0,
+   "gov_pct": 35.5,
    "gov_reliability": 0.78,
    "pres_pct": 29,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -3567,8 +4672,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -3581,9 +4701,9 @@
    "apoio_verificado": false,
    "pct": 8.0,
    "pctDisplay": "8,0%",
-   "sen_norm": 38.095238,
+   "sen_norm": 41.025641,
    "gov_ticket": "Cleitinho",
-   "gov_pct": 36.0,
+   "gov_pct": 35.5,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -3600,8 +4720,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3633,8 +4762,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 37.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3666,8 +4804,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 19.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3699,8 +4846,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 16.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3732,8 +4888,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 11.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3744,9 +4909,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 14.2,
-   "pctDisplay": "14,2%",
-   "sen_norm": 68.269231,
+   "pct": 12.1,
+   "pctDisplay": "12,1%",
+   "sen_norm": 78.571429,
    "gov_ticket": "Sandro Alex",
    "gov_pct": 16.5,
    "gov_reliability": 0.78,
@@ -3754,7 +4919,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "29/07/2026",
    "cenario": "Primeiro e segundo votos divulgados separadamente",
    "indecisao": "Espontânea: 73,8% não sabem",
@@ -3765,8 +4930,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 14.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3777,8 +4957,8 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 20.8,
-   "pctDisplay": "20,8%",
+   "pct": 15.4,
+   "pctDisplay": "15,4%",
    "sen_norm": 100.0,
    "gov_ticket": "Sergio Moro",
    "gov_pct": 37.4,
@@ -3787,7 +4967,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "29/07/2026",
    "cenario": "Primeiro e segundo votos divulgados separadamente",
    "indecisao": "Espontânea: 73,8% não sabem",
@@ -3798,8 +4978,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 20.8,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3810,9 +5005,9 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 9.3,
-   "pctDisplay": "9,3%",
-   "sen_norm": 44.711538,
+   "pct": 8.7,
+   "pctDisplay": "8,7%",
+   "sen_norm": 56.493506,
    "gov_ticket": "Sergio Moro",
    "gov_pct": 37.4,
    "gov_reliability": 1.0,
@@ -3820,7 +5015,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "29/07/2026",
    "cenario": "Primeiro e segundo votos divulgados separadamente",
    "indecisao": "Espontânea: 73,8% não sabem",
@@ -3831,8 +5026,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 9.3,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3843,9 +5053,9 @@
    "endorsement": "inferido",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 18.9,
-   "pctDisplay": "18,9%",
-   "sen_norm": 90.865385,
+   "pct": 14.4,
+   "pctDisplay": "14,4%",
+   "sen_norm": 93.506494,
    "gov_ticket": "Requião Filho",
    "gov_pct": 19.1,
    "gov_reliability": 0.78,
@@ -3853,7 +5063,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "29/07/2026",
    "cenario": "Primeiro e segundo votos divulgados separadamente",
    "indecisao": "Espontânea: 73,8% não sabem",
@@ -3864,8 +5074,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 18.9,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PR",
@@ -3896,7 +5121,8 @@
    "status_tipo": "fora",
    "active": false,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -3927,7 +5153,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Baixa"
+   "certainty_preview": "Baixa",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -3958,7 +5185,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -3989,7 +5217,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -4020,7 +5249,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -4051,7 +5281,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -4082,7 +5313,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PB",
@@ -4113,7 +5345,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Média"
+   "certainty_preview": "Média",
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4124,8 +5357,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 31.0,
-   "pctDisplay": "31,0%",
+   "pct": 27.5,
+   "pctDisplay": "27,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4134,7 +5367,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -4145,8 +5378,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 31.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 24.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4157,8 +5405,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 29.0,
-   "pctDisplay": "29,0%",
+   "pct": 24.5,
+   "pctDisplay": "24,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4167,7 +5415,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -4178,8 +5426,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 29.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 20.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4190,8 +5453,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 12.0,
-   "pctDisplay": "12,0%",
+   "pct": 11.5,
+   "pctDisplay": "11,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4200,7 +5463,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -4211,8 +5474,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4223,8 +5501,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 4.0,
-   "pctDisplay": "4,0%",
+   "pct": 3.0,
+   "pctDisplay": "3,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4233,7 +5511,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -4244,8 +5522,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 2.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4276,7 +5569,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4287,17 +5581,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 40.0,
-   "pctDisplay": "40,0%",
+   "pct": 30.5,
+   "pctDisplay": "30,5%",
    "sen_norm": 100.0,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 31.0,
+   "gov_pct": 27.5,
    "gov_reliability": 0.78,
    "pres_pct": 38,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -4308,8 +5602,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 40.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4320,17 +5629,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 16.0,
-   "pctDisplay": "16,0%",
-   "sen_norm": 40.0,
+   "pct": 15.0,
+   "pctDisplay": "15,0%",
+   "sen_norm": 49.180328,
    "gov_ticket": "Dr. Daniel Santos",
-   "gov_pct": 29.0,
+   "gov_pct": 24.5,
    "gov_reliability": 0.78,
    "pres_pct": 31,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -4341,8 +5650,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4353,17 +5677,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 12.0,
-   "pctDisplay": "12,0%",
-   "sen_norm": 30.0,
+   "pct": 8.5,
+   "pctDisplay": "8,5%",
+   "sen_norm": 27.868852,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 31.0,
+   "gov_pct": 27.5,
    "gov_reliability": 0.78,
    "pres_pct": 38,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -4374,8 +5698,23 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4386,17 +5725,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 11.0,
-   "pctDisplay": "11,0%",
-   "sen_norm": 27.5,
+   "pct": 9.0,
+   "pctDisplay": "9,0%",
+   "sen_norm": 29.508197,
    "gov_ticket": "Dr. Daniel Santos",
-   "gov_pct": 29.0,
+   "gov_pct": 24.5,
    "gov_reliability": 0.78,
    "pres_pct": 31,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -4407,8 +5746,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4419,17 +5773,17 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 10.0,
-   "pctDisplay": "10,0%",
-   "sen_norm": 25.0,
+   "pct": 6.5,
+   "pctDisplay": "6,5%",
+   "sen_norm": 21.311475,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 31.0,
+   "gov_pct": 27.5,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "04/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -4440,8 +5794,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "04/08/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PA",
@@ -4456,7 +5825,7 @@
    "pctDisplay": "Não testado nesta rodada",
    "sen_norm": 0.0,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 31.0,
+   "gov_pct": 27.5,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -4472,7 +5841,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4483,8 +5853,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula (apoio possível, não exclusivo)",
    "apoio_verificado": false,
-   "pct": 48.0,
-   "pctDisplay": "48,0%",
+   "pct": 45.0,
+   "pctDisplay": "45,0%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4493,7 +5863,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 5%; não sabe 2%",
@@ -4504,8 +5874,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 48.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 44.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 43.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4516,8 +5907,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 42.0,
-   "pctDisplay": "42,0%",
+   "pct": 40.3,
+   "pctDisplay": "40,3%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4526,7 +5917,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 5%; não sabe 2%",
@@ -4537,8 +5928,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 42.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 42.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 37.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4559,7 +5971,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 5%; não sabe 2%",
@@ -4570,8 +5982,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4582,8 +6009,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 1.0,
-   "pctDisplay": "1,0%",
+   "pct": 1.7,
+   "pctDisplay": "1,7%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4592,7 +6019,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo 5%; não sabe 2%",
@@ -4603,8 +6030,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4636,8 +6084,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Real Time Big Data",
+     "date": "29–30 Dec",
+     "pct": 7.0,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4648,17 +6105,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula (provável)",
    "apoio_verificado": false,
-   "pct": 18.0,
-   "pctDisplay": "18,0%",
+   "pct": 21.7,
+   "pctDisplay": "21,7%",
    "sen_norm": 100.0,
    "gov_ticket": "João Campos",
-   "gov_pct": 42.0,
+   "gov_pct": 40.3,
    "gov_reliability": 1.0,
    "pres_pct": 55,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Branco/nulo 21%; não sabe 9%",
@@ -4669,8 +6126,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 18.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 28.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 19.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4681,17 +6159,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 15.0,
-   "pctDisplay": "15,0%",
-   "sen_norm": 83.333333,
+   "pct": 16.0,
+   "pctDisplay": "16,0%",
+   "sen_norm": 73.732719,
    "gov_ticket": "João Campos",
-   "gov_pct": 42.0,
+   "gov_pct": 40.3,
    "gov_reliability": 1.0,
    "pres_pct": 55,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Branco/nulo 21%; não sabe 9%",
@@ -4702,8 +6180,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 15.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4714,17 +6213,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 10.0,
-   "pctDisplay": "10,0%",
-   "sen_norm": 55.555556,
+   "pct": 9.0,
+   "pctDisplay": "9,0%",
+   "sen_norm": 41.474654,
    "gov_ticket": "Raquel Lyra",
-   "gov_pct": 48.0,
+   "gov_pct": 45.0,
    "gov_reliability": 0.78,
    "pres_pct": 21,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Branco/nulo 21%; não sabe 9%",
@@ -4735,8 +6234,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4747,17 +6261,17 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado / indefinido",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 50.0,
+   "pct": 12.3,
+   "pctDisplay": "12,3%",
+   "sen_norm": 56.682028,
    "gov_ticket": "Raquel Lyra",
-   "gov_pct": 48.0,
+   "gov_pct": 45.0,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Branco/nulo 21%; não sabe 9%",
@@ -4768,8 +6282,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 22.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4780,17 +6315,17 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 7.0,
-   "pctDisplay": "7,0%",
-   "sen_norm": 38.888889,
+   "pct": 10.3,
+   "pctDisplay": "10,3%",
+   "sen_norm": 47.465438,
    "gov_ticket": "Raquel Lyra",
-   "gov_pct": 48.0,
+   "gov_pct": 45.0,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "01/08/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Branco/nulo 21%; não sabe 9%",
@@ -4801,8 +6336,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "01/08/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 18.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PE",
@@ -4817,7 +6373,7 @@
    "pctDisplay": "Não testado nesta rodada",
    "sen_norm": 0.0,
    "gov_ticket": "Raquel Lyra",
-   "gov_pct": 48.0,
+   "gov_pct": 45.0,
    "gov_reliability": 0.78,
    "pres_pct": 21,
    "pres_reliability": 1.0,
@@ -4833,7 +6389,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -4844,8 +6401,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 64.2,
-   "pctDisplay": "64,2%",
+   "pct": 63.9,
+   "pctDisplay": "63,9%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4854,7 +6411,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Favoritismo amplo de Rafael Fonteles",
@@ -4865,8 +6422,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 64.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 64.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 63.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -4877,8 +6455,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 21.7,
-   "pctDisplay": "21,7%",
+   "pct": 22.5,
+   "pctDisplay": "22,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4887,7 +6465,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Favoritismo amplo de Rafael Fonteles",
@@ -4898,8 +6476,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 21.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 23.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 22.9,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -4910,8 +6509,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 2.6,
-   "pctDisplay": "2,6%",
+   "pct": 1.7,
+   "pctDisplay": "1,7%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -4920,7 +6519,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Favoritismo amplo de Rafael Fonteles",
@@ -4931,8 +6530,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 2.6,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 1.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -4943,17 +6563,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 20.4,
-   "pctDisplay": "20,4%",
+   "pct": 22.8,
+   "pctDisplay": "22,8%",
    "sen_norm": 100.0,
    "gov_ticket": "Rafael Fonteles",
-   "gov_pct": 64.2,
+   "gov_pct": 63.9,
    "gov_reliability": 1.0,
    "pres_pct": 76.9,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Consolidado do 1º e 2º votos",
    "indecisao": "Branco/nulo 14,8%; não sabe 16,3%",
@@ -4964,8 +6584,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 20.4,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 28.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 20.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -4976,17 +6617,17 @@
    "endorsement": "inferido",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 15.3,
-   "pctDisplay": "15,3%",
-   "sen_norm": 75.0,
+   "pct": 16.3,
+   "pctDisplay": "16,3%",
+   "sen_norm": 71.491228,
    "gov_ticket": "Joel Rodrigues",
-   "gov_pct": 21.7,
+   "gov_pct": 22.5,
    "gov_reliability": 0.78,
    "pres_pct": 23.1,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Consolidado do 1º e 2º votos",
    "indecisao": "Branco/nulo 14,8%; não sabe 16,3%",
@@ -4997,8 +6638,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 15.3,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 12.6,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -5009,17 +6671,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula (aliança local)",
    "apoio_verificado": false,
-   "pct": 14.7,
-   "pctDisplay": "14,7%",
-   "sen_norm": 72.058824,
+   "pct": 17.2,
+   "pctDisplay": "17,2%",
+   "sen_norm": 75.438596,
    "gov_ticket": "Rafael Fonteles",
-   "gov_pct": 64.2,
+   "gov_pct": 63.9,
    "gov_reliability": 1.0,
    "pres_pct": 76.9,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Consolidado do 1º e 2º votos",
    "indecisao": "Branco/nulo 14,8%; não sabe 16,3%",
@@ -5030,8 +6692,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 14.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 15.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "PI",
@@ -5042,17 +6725,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 6.9,
-   "pctDisplay": "6,9%",
-   "sen_norm": 33.823529,
+   "pct": 7.0,
+   "pctDisplay": "7,0%",
+   "sen_norm": 30.701754,
    "gov_ticket": "Joel Rodrigues",
-   "gov_pct": 21.7,
+   "gov_pct": 22.5,
    "gov_reliability": 0.78,
    "pres_pct": 23.1,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "21/07/2026",
    "cenario": "Consolidado do 1º e 2º votos",
    "indecisao": "Branco/nulo 14,8%; não sabe 16,3%",
@@ -5063,8 +6746,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "21/07/2026",
+     "pct": 6.9,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "14/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "23/06/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5096,8 +6800,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 36.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5129,8 +6842,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 25.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5162,8 +6884,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 27.7,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5195,8 +6926,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 14.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5228,8 +6968,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 18.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5261,8 +7010,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 21.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -5294,8 +7052,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 11.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5306,8 +7073,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula / apoio do PT",
    "apoio_verificado": false,
-   "pct": 24.0,
-   "pctDisplay": "24,0%",
+   "pct": 28.1,
+   "pctDisplay": "28,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5316,7 +7083,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Espontânea: cerca de 83% indecisos",
@@ -5327,8 +7094,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 24.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 30.1,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "16-19 Jul 2026",
+     "pct": 30.1,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5339,8 +7127,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 22.0,
-   "pctDisplay": "22,0%",
+   "pct": 30.1,
+   "pctDisplay": "30,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5349,7 +7137,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Espontânea: cerca de 83% indecisos",
@@ -5360,8 +7148,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 22.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 34.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "16-19 Jul 2026",
+     "pct": 34.2,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5372,8 +7181,8 @@
    "endorsement": "não verificado",
    "apoio": "Indefinido / centro",
    "apoio_verificado": false,
-   "pct": 6.0,
-   "pctDisplay": "6,0%",
+   "pct": 10.7,
+   "pctDisplay": "10,7%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5382,7 +7191,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Estimulado, cenário principal",
    "indecisao": "Espontânea: cerca de 83% indecisos",
@@ -5393,8 +7202,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "16-19 Jul 2026",
+     "pct": 13.0,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5426,8 +7256,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Brasmarket",
+     "date": "26–29 Dec",
+     "pct": 1.5,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5438,17 +7277,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 12.0,
-   "pctDisplay": "12,0%",
-   "sen_norm": 100.0,
+   "pct": 20.0,
+   "pctDisplay": "20,0%",
+   "sen_norm": 84.033613,
    "gov_ticket": "Juliana Brizola",
-   "gov_pct": 24.0,
+   "gov_pct": 28.1,
    "gov_reliability": 1.0,
    "pres_pct": 30,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 62,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 15%; indecisos 39%",
@@ -5459,8 +7298,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 30.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Brasmarket",
+     "date": "1–3 Jul 2026",
+     "pct": 17.4,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5471,17 +7331,17 @@
    "endorsement": "não verificado",
    "apoio": "Indefinido",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 75.0,
+   "pct": 18.3,
+   "pctDisplay": "18,3%",
+   "sen_norm": 76.890756,
    "gov_ticket": "Gabriel Souza",
-   "gov_pct": 6.0,
+   "gov_pct": 10.7,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 62,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 15%; indecisos 39%",
@@ -5492,8 +7352,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 26.3,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Brasmarket",
+     "date": "1–3 Jul 2026",
+     "pct": 19.5,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5504,17 +7385,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 75.0,
+   "pct": 15.3,
+   "pctDisplay": "15,3%",
+   "sen_norm": 64.285714,
    "gov_ticket": "Juliana Brizola",
-   "gov_pct": 24.0,
+   "gov_pct": 28.1,
    "gov_reliability": 1.0,
    "pres_pct": 30,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 62,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 15%; indecisos 39%",
@@ -5525,8 +7406,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 23.7,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Brasmarket",
+     "date": "1–3 Jul 2026",
+     "pct": 13.2,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5537,17 +7439,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 7.0,
-   "pctDisplay": "7,0%",
-   "sen_norm": 58.333333,
+   "pct": 23.8,
+   "pctDisplay": "23,8%",
+   "sen_norm": 100.0,
    "gov_ticket": "Luciano Zucco",
-   "gov_pct": 22.0,
+   "gov_pct": 30.1,
    "gov_reliability": 0.78,
    "pres_pct": 32,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 62,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 15%; indecisos 39%",
@@ -5558,8 +7460,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 28.6,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Brasmarket",
+     "date": "1–3 Jul 2026",
+     "pct": 35.7,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RS",
@@ -5570,17 +7493,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 6.0,
-   "pctDisplay": "6,0%",
-   "sen_norm": 50.0,
+   "pct": 16.8,
+   "pctDisplay": "16,8%",
+   "sen_norm": 70.588235,
    "gov_ticket": "Luciano Zucco",
-   "gov_pct": 22.0,
+   "gov_pct": 30.1,
    "gov_reliability": 0.78,
    "pres_pct": 32,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": 62,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 15%; indecisos 39%",
@@ -5591,8 +7514,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 20.3,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Brasmarket",
+     "date": "1–3 Jul 2026",
+     "pct": 24.1,
+     "source": "wikipedia"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5603,8 +7547,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 48.6,
-   "pctDisplay": "48,6%",
+   "pct": 41.2,
+   "pctDisplay": "41,2%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5613,7 +7557,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
@@ -5624,8 +7568,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 48.6,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 37.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 38.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5636,8 +7601,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 11.1,
-   "pctDisplay": "11,1%",
+   "pct": 12.4,
+   "pctDisplay": "12,4%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5646,7 +7611,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
@@ -5657,8 +7622,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 11.1,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 16.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5679,7 +7665,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
@@ -5690,8 +7676,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5702,8 +7709,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 3.4,
-   "pctDisplay": "3,4%",
+   "pct": 2.1,
+   "pctDisplay": "2,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -5712,7 +7719,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 70,2% não sabem; estimulado: 6,1%",
@@ -5723,8 +7730,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 3.4,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 2.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5735,17 +7763,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 29.8,
-   "pctDisplay": "29,8%",
+   "pct": 18.3,
+   "pctDisplay": "18,3%",
    "sen_norm": 100.0,
    "gov_ticket": "Eduardo Paes",
-   "gov_pct": 48.6,
+   "gov_pct": 41.2,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea muito indefinida; ver fonte",
@@ -5756,8 +7784,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 29.8,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 11.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5768,17 +7817,17 @@
    "endorsement": "inferido",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 25.4,
-   "pctDisplay": "25,4%",
-   "sen_norm": 85.234899,
+   "pct": 16.8,
+   "pctDisplay": "16,8%",
+   "sen_norm": 91.803279,
    "gov_ticket": "Douglas Ruas",
-   "gov_pct": 11.1,
+   "gov_pct": 12.4,
    "gov_reliability": 0.78,
    "pres_pct": 32,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea muito indefinida; ver fonte",
@@ -5789,8 +7838,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 25.4,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 17.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5801,17 +7871,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula (provável)",
    "apoio_verificado": false,
-   "pct": 17.2,
-   "pctDisplay": "17,2%",
-   "sen_norm": 57.718121,
+   "pct": 11.1,
+   "pctDisplay": "11,1%",
+   "sen_norm": 60.655738,
    "gov_ticket": "Eduardo Paes",
-   "gov_pct": 48.6,
+   "gov_pct": 41.2,
    "gov_reliability": 1.0,
    "pres_pct": 30,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea muito indefinida; ver fonte",
@@ -5822,8 +7892,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 17.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5834,17 +7925,17 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro / indefinido",
    "apoio_verificado": false,
-   "pct": 14.2,
-   "pctDisplay": "14,2%",
-   "sen_norm": 47.651007,
+   "pct": 9.4,
+   "pctDisplay": "9,4%",
+   "sen_norm": 51.36612,
    "gov_ticket": "Douglas Ruas",
-   "gov_pct": 11.1,
+   "gov_pct": 12.4,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea muito indefinida; ver fonte",
@@ -5855,8 +7946,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 14.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 10.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -5867,17 +7979,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 9.2,
-   "pctDisplay": "9,2%",
-   "sen_norm": 30.872483,
+   "pct": 8.7,
+   "pctDisplay": "8,7%",
+   "sen_norm": 47.540984,
    "gov_ticket": "Douglas Ruas",
-   "gov_pct": 11.1,
+   "gov_pct": 12.4,
    "gov_reliability": 0.78,
    "pres_pct": 32,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 3 pesquisas",
    "campo": "31/07/2026",
    "cenario": "Dois votos, consolidado",
    "indecisao": "Espontânea muito indefinida; ver fonte",
@@ -5888,8 +8000,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "31/07/2026",
+     "pct": 9.2,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -5921,8 +8054,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 36.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -5954,8 +8096,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 28.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -5987,8 +8138,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -6020,8 +8180,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 19.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -6053,8 +8222,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -6086,8 +8264,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RO",
@@ -6119,8 +8306,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 13.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6151,7 +8347,8 @@
    "status_tipo": "confirmado",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Baixa"
+   "certainty_preview": "Baixa",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6182,7 +8379,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6213,7 +8411,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6244,7 +8443,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6275,7 +8475,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6306,7 +8507,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -6337,7 +8539,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6369,8 +8572,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 52.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6402,8 +8614,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 20.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6435,8 +8656,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 8.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6468,8 +8698,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 27.7,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6501,8 +8740,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 21.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6534,8 +8782,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 13.8,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SC",
@@ -6567,8 +8824,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "27/07/2026",
+     "pct": 11.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6600,8 +8866,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 43.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6633,8 +8908,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 40.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6666,8 +8950,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6699,8 +8992,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 17.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6732,8 +9034,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6764,7 +9075,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6796,8 +9108,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6829,8 +9150,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6862,8 +9192,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6894,7 +9233,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -6925,7 +9265,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -6936,8 +9277,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro",
    "apoio_verificado": false,
-   "pct": 52.9,
-   "pctDisplay": "52,9%",
+   "pct": 47.5,
+   "pctDisplay": "47,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -6946,7 +9287,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Vox Brasil",
+   "instituto": "média de 3 pesquisas",
    "campo": "29–31 Jul",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo/nenhum 5,5%; não sabe 3,7%",
@@ -6957,8 +9298,29 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Vox Brasil",
+     "date": "29–31 Jul",
+     "pct": 52.9,
+     "source": "wikipedia"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 41.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 48.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -6969,8 +9331,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 34.3,
-   "pctDisplay": "34,3%",
+   "pct": 31.8,
+   "pctDisplay": "31,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -6979,7 +9341,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "Vox Brasil",
+   "instituto": "média de 3 pesquisas",
    "campo": "29–31 Jul",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Branco/nulo/nenhum 5,5%; não sabe 3,7%",
@@ -6990,8 +9352,29 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Vox Brasil",
+     "date": "29–31 Jul",
+     "pct": 34.3,
+     "source": "wikipedia"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 26.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 35.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7022,7 +9405,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7053,7 +9437,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7084,7 +9469,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7099,7 +9485,7 @@
    "pctDisplay": "14,0%",
    "sen_norm": 100.0,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 34.3,
+   "gov_pct": 31.8,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -7116,8 +9502,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 14.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7132,7 +9527,7 @@
    "pctDisplay": "12,0%",
    "sen_norm": 85.714286,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 34.3,
+   "gov_pct": 31.8,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -7149,8 +9544,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7165,7 +9569,7 @@
    "pctDisplay": "4,0%",
    "sen_norm": 28.571429,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 52.9,
+   "gov_pct": 47.5,
    "gov_reliability": 0.78,
    "pres_pct": 3,
    "pres_reliability": 1.0,
@@ -7182,8 +9586,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7198,7 +9611,7 @@
    "pctDisplay": "5,0%",
    "sen_norm": 35.714286,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 52.9,
+   "gov_pct": 47.5,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -7215,8 +9628,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7231,7 +9653,7 @@
    "pctDisplay": "7,0%",
    "sen_norm": 50.0,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 52.9,
+   "gov_pct": 47.5,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -7248,8 +9670,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média-alta",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 7.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7264,7 +9695,7 @@
    "pctDisplay": "4,0%",
    "sen_norm": 28.571429,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 34.3,
+   "gov_pct": 31.8,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -7281,8 +9712,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7314,8 +9754,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Muito baixa",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 34.4,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7347,8 +9796,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 33.5,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7380,8 +9838,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 10.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7413,8 +9880,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 31.2,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7446,8 +9922,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 25.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7479,8 +9964,17 @@
    "active": true,
    "estimated_preview": true,
    "certainty_preview": "Média",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "25/07/2026",
+     "pct": 16.7,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "TO",
@@ -7511,7 +10005,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RN",
@@ -7543,8 +10038,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "22/07/2026",
+     "pct": 15.3,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -7555,9 +10059,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 8.0,
-   "pctDisplay": "8,0%",
-   "sen_norm": 38.095238,
+   "pct": 5.5,
+   "pctDisplay": "5,5%",
+   "sen_norm": 28.205128,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -7565,7 +10069,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -7576,8 +10080,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 8.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -7588,9 +10107,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 5.0,
-   "pctDisplay": "5,0%",
-   "sen_norm": 23.809524,
+   "pct": 3.0,
+   "pctDisplay": "3,0%",
+   "sen_norm": 15.384615,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -7598,7 +10117,7 @@
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 22–26/07",
    "may_change": 64,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "30/07/2026",
    "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
    "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
@@ -7609,8 +10128,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "30/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -7642,8 +10176,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 0.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -7656,7 +10199,7 @@
    "apoio_verificado": false,
    "pct": 1.0,
    "pctDisplay": "1,0%",
-   "sen_norm": 4.761905,
+   "sen_norm": 5.128205,
    "gov_ticket": null,
    "gov_pct": 0.0,
    "gov_reliability": 0.78,
@@ -7675,8 +10218,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MG",
@@ -7708,8 +10260,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "28/07/2026",
+     "pct": 0.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7724,7 +10285,7 @@
    "pctDisplay": "9,0%",
    "sen_norm": 64.285714,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 52.9,
+   "gov_pct": 47.5,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -7741,8 +10302,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 9.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7774,8 +10344,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 3.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "SP",
@@ -7807,8 +10386,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "29/07/2026",
+     "pct": 1.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "AL",
@@ -7839,7 +10427,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -7871,8 +10460,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 12.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "ES",
@@ -7904,8 +10502,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "16/07/2026",
+     "pct": 4.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "GO",
@@ -7916,17 +10523,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 5.0,
-   "pctDisplay": "5,0%",
-   "sen_norm": 25.0,
+   "pct": 3.5,
+   "pctDisplay": "3,5%",
+   "sen_norm": 12.962963,
    "gov_ticket": "Wilder Morais",
-   "gov_pct": 11.0,
+   "gov_pct": 12.8,
    "gov_reliability": 0.78,
    "pres_pct": 27,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 24–28/07",
    "may_change": null,
-   "instituto": "Gazeta do Povo",
+   "instituto": "média de 2 pesquisas",
    "campo": "09/07/2026",
    "cenario": "N/D",
    "indecisao": "",
@@ -7937,8 +10544,23 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "09/07/2026",
+     "pct": 5.0,
+     "source": "gazeta"
+    },
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "06/07/2026",
+     "pct": 2.1,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   },
   {
    "uf": "MA",
@@ -7969,7 +10591,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RJ",
@@ -7984,7 +10607,7 @@
    "pctDisplay": "Não testado",
    "sen_norm": 0.0,
    "gov_ticket": "Douglas Ruas",
-   "gov_pct": 11.1,
+   "gov_pct": 12.4,
    "gov_reliability": 0.78,
    "pres_pct": 32,
    "pres_reliability": 1.0,
@@ -8000,7 +10623,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": false,
-   "certainty_preview": ""
+   "certainty_preview": "",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -8031,7 +10655,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Baixa"
+   "certainty_preview": "Baixa",
+   "mom": 0.0
   },
   {
    "uf": "RR",
@@ -8062,7 +10687,8 @@
    "status_tipo": "pendente",
    "active": true,
    "estimated_preview": true,
-   "certainty_preview": "Baixa"
+   "certainty_preview": "Baixa",
+   "mom": 0.0
   },
   {
    "uf": "SE",
@@ -8094,8 +10720,17 @@
    "active": true,
    "estimated_preview": false,
    "certainty_preview": "",
-   "source": "wikipedia",
-   "stale": false
+   "source": "média",
+   "polls": [
+    {
+     "pollster": "Gazeta do Povo",
+     "date": "03/08/2026",
+     "pct": 6.0,
+     "source": "gazeta"
+    }
+   ],
+   "stale": false,
+   "mom": 0.0
   }
  ],
  "president": {
@@ -8174,6 +10809,44 @@
   "trend": {
    "Lula": -3.0,
    "Flávio": -3.0
-  }
+  },
+  "used": [
+   {
+    "pollster": "Genial Quaest",
+    "date": "05/08/2026",
+    "Lula": 39.0,
+    "Flávio": 30.0
+   },
+   {
+    "pollster": "Meio Ideia",
+    "date": "05/08/2026",
+    "Lula": 43.0,
+    "Flávio": 35.0
+   },
+   {
+    "pollster": "Nexus Btg Pactual",
+    "date": "03/08/2026",
+    "Lula": 41.0,
+    "Flávio": 37.0
+   },
+   {
+    "pollster": "Poderdata",
+    "date": "30/07/2026",
+    "Lula": 41.0,
+    "Flávio": 35.0
+   },
+   {
+    "pollster": "Atlasintel",
+    "date": "29/07/2026",
+    "Lula": 44.9,
+    "Flávio": 35.8
+   },
+   {
+    "pollster": "Nexus Btg Pactual",
+    "date": "27/07/2026",
+    "Lula": 42.0,
+    "Flávio": 33.0
+   }
+  ]
  }
 }

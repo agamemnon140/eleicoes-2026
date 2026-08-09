@@ -60,41 +60,64 @@ def latest_snapshot() -> dict:
     return json.loads(files[-1].read_text(encoding="utf-8"))
 
 
+def _ord(rec: tuple) -> int:
+    return rec[0] * 365 + rec[1] * 30 + rec[2]
+
+
+MA_WINDOW_DAYS = 30   # janela da média móvel (poll-of-polls) para governador/senado
+
+
 def collect_fresh(roster: dict) -> dict:
-    """Roda Wikipedia + Gazeta e funde por recência (mantém a pesquisa mais nova por candidato)."""
+    """Wikipedia + Gazeta -> média móvel (poll-of-polls) por candidato numa janela recente."""
     estados = {uf: st["estado"] for uf, st in roster["states"].items()}
-    fresh: dict = {}
+    obs: dict = defaultdict(list)   # (uf,cargo,nome) -> lista de PollRecord (observações)
 
-    def keep_newer(r):
-        k = (r.uf, r.cargo, r.name)
-        if k not in fresh or parse_recency(r.date) >= parse_recency(fresh[k].date):
-            fresh[k] = r
-
-    # 1) Wikipedia (agregador estruturado)
+    # 1) Wikipedia (última linha por candidato)
     ws = requests.Session(); ws.headers.update(wk.UA)
     wiki_states = set()
     for uf in sorted(roster["states"]):
         recs = wk.collect_state(estados[uf], uf, roster["states"][uf], ws)
         for r in recs:
-            keep_newer(r)
+            obs[(r.uf, r.cargo, r.name)].append(r)
         if recs:
             wiki_states.add(uf)
-    print(f"  Wikipedia: {len(wiki_states)} estados ({', '.join(sorted(wiki_states))})")
+    print(f"  Wikipedia: {len(wiki_states)} estados")
 
-    # 2) Gazeta do Povo (portais, cobre o que a Wikipedia não tabula), paginando o índice
+    # 2) Gazeta (várias matérias por estado, paginando o índice)
     gsx = requests.Session(); gsx.headers.update(gz.UA)
     gz_states = set()
-    for uf, urls in gz.discover(gsx, estados).items():
+    for uf, urls in gz.discover(gsx, estados, per_uf=3).items():
         for url in urls:
             recs = gz.collect_url(uf, roster["states"][uf], url, gsx)
             for r in recs:
-                keep_newer(r)
+                obs[(r.uf, r.cargo, r.name)].append(r)
             if recs:
                 gz_states.add(uf)
-    print(f"  Gazeta: {len(gz_states)} estados ({', '.join(sorted(gz_states))})")
+    print(f"  Gazeta: {len(gz_states)} estados")
+
+    # média móvel: média das pesquisas dentro de MA_WINDOW_DAYS da mais recente
+    fresh: dict = {}
+    n_avg = 0
+    for key, lst in obs.items():
+        lst.sort(key=lambda r: parse_recency(r.date), reverse=True)
+        newest = lst[0]
+        top = _ord(parse_recency(newest.date))
+        window = [r for r in lst if isinstance(r.pct, (int, float))
+                  and top - _ord(parse_recency(r.date)) <= MA_WINDOW_DAYS]
+        if not window:
+            window = [newest]
+        avg = round(sum(r.pct for r in window) / len(window), 1)
+        label = f"média de {len(window)} pesquisas" if len(window) > 1 else newest.pollster
+        if len(window) > 1:
+            n_avg += 1
+        fresh[key] = {
+            "pct": avg, "date": newest.date, "pollster": label,
+            "sources": [{"pollster": r.pollster, "date": r.date, "pct": r.pct, "source": r.source}
+                        for r in window],
+        }
 
     covered = wiki_states | gz_states
-    print(f"Cobertura total: {len(covered)}/27 estados.")
+    print(f"Cobertura total: {len(covered)}/27 estados; {n_avg} candidatos com média móvel (>1 pesquisa).")
     return fresh
 
 
@@ -105,16 +128,17 @@ def apply_fresh(records: list[dict], fresh: dict) -> tuple[int, int]:
         if not fr or not r.get("active"):
             continue
         base_rec = parse_recency(r.get("campo"))
-        if base_rec > (0, 0, 0) and parse_recency(fr.date) < base_rec:
-            skipped_old += 1          # pesquisa da Wikipedia é mais antiga que a atual — não rebaixa
+        if base_rec > (0, 0, 0) and parse_recency(fr["date"]) < base_rec:
+            skipped_old += 1          # coleta mais antiga que a atual — não rebaixa
             continue
-        ok, reason = validate.check(r.get("pct"), fr.pct)
+        ok, reason = validate.check(r.get("pct"), fr["pct"])
         if ok:
-            r["pct"] = fr.pct
-            r["pctDisplay"] = fmt_pct(fr.pct)
-            r["instituto"] = fr.pollster
-            r["campo"] = fr.date
-            r["source"] = "wikipedia"
+            r["pct"] = fr["pct"]
+            r["pctDisplay"] = fmt_pct(fr["pct"])
+            r["instituto"] = fr["pollster"]
+            r["campo"] = fr["date"]
+            r["source"] = "média"
+            r["polls"] = fr["sources"]     # pesquisas que compõem a média (transparência)
             r["stale"] = False
             updated += 1
         else:
