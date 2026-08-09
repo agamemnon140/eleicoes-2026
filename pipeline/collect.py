@@ -18,7 +18,7 @@ from collections import defaultdict
 import requests
 import yaml
 
-from pipeline import validate
+from pipeline import president, validate
 from pipeline.sources import gazeta as gz
 from pipeline.sources import wikipedia as wk
 
@@ -155,7 +155,16 @@ def main():
     updated, flagged, skipped_old = apply_fresh(records, fresh)
     recompute_derived(records)
 
-    out = {"date": date_str, "source": "wikipedia + base", "records": records}
+    print("Agregando pesquisas presidenciais (poll-of-polls)…")
+    psx = requests.Session(); psx.headers.update(gz.UA)
+    pres_agg = president.collect(psx)
+    if pres_agg:
+        print(f"  presidencial: {pres_agg['polls']} pesquisas, "
+              f"Lula {pres_agg['first_round'][0]['avg']}% x "
+              f"{pres_agg['first_round'][1]['avg']}% {pres_agg['first_round'][1]['name']}")
+
+    out = {"date": date_str, "source": "wikipedia + gazeta + base",
+           "records": records, "president": pres_agg}
     (ROOT / "data" / "polls" / f"{date_str}.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"OK: {updated} atualizadas, {skipped_old} ignoradas por serem mais antigas, "

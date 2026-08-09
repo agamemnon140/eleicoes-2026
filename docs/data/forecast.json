@@ -2,7 +2,7 @@
  "generated_at": "2026-08-09",
  "election_date": "2026-10-04",
  "days_to_election": 56,
- "source": "wikipedia + base",
+ "source": "wikipedia + gazeta + base",
  "national": [
   {
    "party": "PL",
@@ -120,7 +120,7 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "Avante",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -128,7 +128,7 @@
    "holdNames": []
   },
   {
-   "party": "Avante",
+   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,

@@ -288,7 +288,33 @@ function wireDetails(){
 }
 
 /* ---------- presidente ---------- */
+function trendArrow(trend, bloc){
+  if(!trend || trend[bloc]==null) return '';
+  const d = trend[bloc];
+  if(Math.abs(d) < 0.3) return ' <span class="muted" title="estável">→</span>';
+  return d>0 ? ` <span style="color:#166534" title="subindo">▲${d}</span>`
+             : ` <span style="color:#9f1239" title="caindo">▼${Math.abs(d)}</span>`;
+}
 function renderPresident(){
+  const nat = PRES && PRES.national;
+  let head;
+  if(nat && nat.first_round && nat.first_round.length){
+    const fr = nat.first_round, max = Math.max(...fr.map(c=>c.avg), 1);
+    const bars = fr.map(c=>`<div class="prow">
+      <span class="pname"><span class="badge" style="background:${partyColor(c.party)}">${esc(c.party)}</span> ${esc(c.name)}</span>
+      <div class="bar"><i style="width:${100*c.avg/max}%;background:${blocColor(c.bloc)}"></i></div>
+      <b>${c.avg}%${trendArrow(nat.trend, c.bloc)}</b></div>`).join('');
+    const ro = nat.runoff || {};
+    const roHtml = (ro['Lula']!=null && ro['Flávio']!=null) ? `
+      <div class="runoff"><div class="rlabel">2º turno (média): <b>${ro['Lula']>=ro['Flávio']?'Lula':'Flávio'} lidera por ${Math.abs(ro['Lula']-ro['Flávio']).toFixed(1)} pp</b></div>
+        <div class="rbar"><span style="flex:${ro['Lula']};background:${blocColor('Lula')}">Lula ${ro['Lula']}%</span><span style="flex:${ro['Flávio']};background:${blocColor('Flávio')}">${ro['Flávio']}% Flávio</span></div></div>` : '';
+    head = `<section class="panel"><h2 style="margin:0 0 4px">Presidente — agregado nacional (poll-of-polls)</h2>
+      <p class="desc">Média de ${nat.polls} pesquisas recentes (${esc((nat.institutos||[]).join(', '))}). Mais recente: ${esc(nat.latest_date||'—')}. Setas = tendência na janela.</p>
+      <div class="pres1t">${bars}</div>${roHtml}</section>`;
+  } else {
+    head = `<section class="panel note"><h2 style="margin-top:0">Presidente — agregado nacional</h2>
+      <p class="desc" style="margin:0">Nenhuma pesquisa presidencial coletada nesta rodada (rode <code>py -m pipeline.collect</code>).</p></section>`;
+  }
   const lean = (PRES && PRES.pres_lean) || {};
   const ufs = Object.keys(lean).sort((a,b)=>(FC.states[a]?.estado||a).localeCompare(FC.states[b]?.estado||b,'pt-BR'));
   const cards = ufs.map(uf=>{
@@ -298,9 +324,7 @@ function renderPresident(){
       <div class="track">${segs}</div>
       <div class="meta2">Lula ${l.Lula??'—'}% · Flávio ${l['Flávio']??'—'}% <span class="muted">(${esc(l.basis||'')})</span></div></div>`;
   }).join('');
-  return `<section class="panel note"><h2 style="margin-top:0">Disputa presidencial — agregado nacional</h2>
-    <p class="desc" style="margin:0">O agregado nacional (poll-of-polls, 1º e 2º turno) será preenchido automaticamente pelo coletor do agregador. Por enquanto, veja abaixo a inclinação presidencial por estado, que alimenta os modelos de governador e senado — sempre com o percentual real.</p></section>
-  <section class="panel"><h2>Inclinação presidencial por estado</h2>
-    <p class="desc">Barra proporcional ao 2º turno estimado por estado (pesquisa estadual quando há; senão proxy de 2022).</p>
+  return head + `<section class="panel"><h2>Inclinação presidencial por estado</h2>
+    <p class="desc">Alimenta os modelos de governador e senado (sempre com o % real). Pesquisa estadual quando há; senão proxy de 2022.</p>
     <div class="pres-lean">${cards}</div></section>`;
 }
