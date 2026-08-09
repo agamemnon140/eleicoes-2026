@@ -25,30 +25,45 @@ def uf_slug(estado: str) -> str:
     return strip_accents(estado).lower().replace(" ", "-")
 
 
-def discover(session: requests.Session, estados: dict) -> dict:
-    """estados: {uf: nome}. Retorna {uf: url da matéria mais recente} achada no índice."""
+def discover(session: requests.Session, estados: dict, max_pages: int = 6, per_uf: int = 2) -> dict:
+    """Pagina o índice e retorna {uf: [urls]} das matérias (novas primeiro).
+    per_uf limita as páginas por estado (pega, ex., governador-only + senador-only)."""
     from bs4 import BeautifulSoup
-    try:
-        r = session.get(INDEX, timeout=30)
-    except requests.RequestException:
-        return {}
-    soup = BeautifulSoup(r.text, "lxml")
     slugs = {uf: uf_slug(nome) for uf, nome in estados.items()}
-    latest: dict = {}
-    for a in soup.select('a[href*="pesquisa-eleitoral-2026/"]'):
-        href = a.get("href") or ""
-        if "#" in href or "presidente" in href:
-            continue
-        if not any(k in href for k in ("governador", "senador", "senado")):
-            continue
-        # casa a UF cujo slug (mais longo) aparece como -slug- no href
-        matched = [(uf, s) for uf, s in slugs.items() if f"-{s}-" in href]
-        if not matched:
-            continue
-        uf = max(matched, key=lambda t: len(t[1]))[0]
-        if uf not in latest:
-            latest[uf] = href if href.startswith("http") else BASE + href
-    return latest
+    found: dict = {}
+    seen_slugs: set = set()
+    for page in range(1, max_pages + 1):
+        url = INDEX if page == 1 else f"{INDEX}{page}/"
+        try:
+            r = session.get(url, timeout=30)
+        except requests.RequestException:
+            break
+        if r.status_code != 200:
+            break
+        soup = BeautifulSoup(r.text, "lxml")
+        new_this_page = 0
+        for a in soup.select('a[href*="pesquisa-eleitoral-2026/"]'):
+            href = a.get("href") or ""
+            if "#" in href or "presidente" in href:
+                continue
+            if not any(k in href for k in ("governador", "senador", "senado")):
+                continue
+            slug = href.rstrip("/").split("/")[-1]
+            if slug in seen_slugs:
+                continue
+            seen_slugs.add(slug)
+            new_this_page += 1
+            matched = [(uf, s) for uf, s in slugs.items() if f"-{s}-" in href]
+            if not matched:
+                continue
+            uf = max(matched, key=lambda t: len(t[1]))[0]
+            full = href if href.startswith("http") else BASE + href
+            lst = found.setdefault(uf, [])
+            if full not in lst and len(lst) < per_uf:
+                lst.append(full)
+        if new_this_page == 0:
+            break
+    return found
 
 
 def _pct(s: str) -> float | None:
