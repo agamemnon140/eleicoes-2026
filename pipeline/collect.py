@@ -19,6 +19,7 @@ import requests
 import yaml
 
 from pipeline import validate
+from pipeline.sources import gazeta as gz
 from pipeline.sources import wikipedia as wk
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
@@ -60,19 +61,39 @@ def latest_snapshot() -> dict:
 
 
 def collect_fresh(roster: dict) -> dict:
-    session = requests.Session()
-    session.headers.update(wk.UA)
+    """Roda Wikipedia + Gazeta e funde por recência (mantém a pesquisa mais nova por candidato)."""
+    estados = {uf: st["estado"] for uf, st in roster["states"].items()}
     fresh: dict = {}
-    hits = 0
+
+    def keep_newer(r):
+        k = (r.uf, r.cargo, r.name)
+        if k not in fresh or parse_recency(r.date) >= parse_recency(fresh[k].date):
+            fresh[k] = r
+
+    # 1) Wikipedia (agregador estruturado)
+    ws = requests.Session(); ws.headers.update(wk.UA)
+    wiki_states = set()
     for uf in sorted(roster["states"]):
-        estado = roster["states"][uf]["estado"]
-        recs = wk.collect_state(estado, uf, roster["states"][uf], session)
+        recs = wk.collect_state(estados[uf], uf, roster["states"][uf], ws)
         for r in recs:
-            fresh[(r.uf, r.cargo, r.name)] = r
+            keep_newer(r)
         if recs:
-            hits += 1
-        print(f"  {uf}: {len(recs)} pesquisas")
-    print(f"Fontes com dados: {hits}/27 estados.")
+            wiki_states.add(uf)
+    print(f"  Wikipedia: {len(wiki_states)} estados ({', '.join(sorted(wiki_states))})")
+
+    # 2) Gazeta do Povo (portais, cobre o que a Wikipedia não tabula)
+    gsx = requests.Session(); gsx.headers.update(gz.UA)
+    gz_states = set()
+    for uf, url in gz.discover(gsx, estados).items():
+        recs = gz.collect_url(uf, roster["states"][uf], url, gsx)
+        for r in recs:
+            keep_newer(r)
+        if recs:
+            gz_states.add(uf)
+    print(f"  Gazeta: {len(gz_states)} estados ({', '.join(sorted(gz_states))})")
+
+    covered = wiki_states | gz_states
+    print(f"Cobertura total: {len(covered)}/27 estados.")
     return fresh
 
 
