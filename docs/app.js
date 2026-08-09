@@ -88,9 +88,9 @@ function render(){
   const off = office();
   v.innerHTML =
     (partyFocus ? partyFocusPanel() : '') +
-    (off==='senate' ? senateComposition() : '') +
+    (off==='senate' ? senateComposition() + senSeatsByParty() : '') +
     mapPanel(off) +
-    (colorMode==='partido' ? partyPanel(off) : '') +
+    (colorMode==='partido' && off==='governor' ? partyPanel(off) : '') +
     (off==='senate' ? nationalPanel() : '') +
     controlsBar() +
     `<div id="states">${statesList(off)}</div>`;
@@ -167,10 +167,12 @@ function blocLegend(off){
 }
 function partyLegend(off){
   const counts = {};
-  Object.values(FC.states).forEach(st=>{const p=winnerParty(st,off); if(p) counts[p]=(counts[p]||0)+1;});
+  if(off==='senate') Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{counts[e.party]=(counts[e.party]||0)+1;}));
+  else Object.values(FC.states).forEach(st=>{const p=winnerParty(st,off); if(p) counts[p]=(counts[p]||0)+1;});
   const items = Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([p,n])=>
     `<button class="lg lgbtn ${partyFocus===p?'on':''}" data-party="${esc(p)}"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}<span class="count">${n}</span></button>`).join('');
-  return `<h3>Partidos — clique para ver onde vence</h3>${items}`;
+  const title = off==='senate' ? 'Partidos — nº de senadores (clique p/ estados)' : 'Partidos — clique para ver onde vence';
+  return `<h3>${title}</h3>${items}`;
 }
 function wireMap(off){
   const tip = $('#tooltip');
@@ -212,6 +214,21 @@ function nationalPanel(){
     <p class="desc">Mantém os 27 senadores com mandato até 2031 e soma os 54 novos estimados por este modelo.</p>
     <div class="natrow h"><div>Partido</div><div>Mant.</div><div></div><div>Novos</div><div class="b2h"></div><div>2027</div><div>Gov.</div></div>
     ${body}</section>`;
+}
+
+/* ---------- senadores eleitos por partido (contagem das 54 cadeiras) ---------- */
+function senSeatsByParty(){
+  const counts = {};
+  Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{counts[e.party]=(counts[e.party]||0)+1;}));
+  const entries = Object.entries(counts).sort((a,b)=> b[1]-a[1] || a[0].localeCompare(b[0],'pt-BR'));
+  const max = Math.max(...entries.map(e=>e[1]), 1);
+  const rows = entries.map(([p,n])=>`
+    <button class="ppbar ${partyFocus===p?'on':''}" data-party="${esc(p)}" title="ver estados">
+      <span class="ppname"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}</span>
+      <div class="bar"><i style="width:${100*n/max}%;background:${partyColor(p)}"></i></div><b>${n}</b></button>`).join('');
+  return `<section class="panel"><h2>Senadores eleitos por partido ${simActive()?'<span class="simtag">simulação</span>':''}</h2>
+    <p class="desc">Quantas das ${SEN_NEW} cadeiras em disputa em 2026 cada partido elege (2 por estado). Clique num partido para ver em quais estados.</p>
+    ${rows}</section>`;
 }
 
 /* ---------- controles ---------- */
@@ -325,7 +342,7 @@ function factorDetail(c, off){
     ];
   }
   const used = (c.polls && c.polls.length)
-    ? `<div class="usedpolls"><b>Pesquisas na média:</b> ${c.polls.map(p=>`${esc(p.pollster)} (${esc(p.date)}) ${String(p.pct).replace('.',',')}% <span class="muted">·${esc(p.source)}</span>`).join(' &nbsp;|&nbsp; ')}</div>`
+    ? `<div class="usedpolls"><b>Média móvel (peso por recência):</b> ${c.polls.map(p=>`${esc(p.pollster)} (${esc(p.date)}) ${String(p.pct).replace('.',',')}%${p.weight!=null?` <span class="muted">peso ${Math.round(p.weight*100)}%</span>`:` <span class="muted">·${esc(p.source)}</span>`}`).join(' &nbsp;|&nbsp; ')}</div>`
     : (c.fonte ? `<div class="usedpolls"><b>Pesquisa:</b> ${esc(c.instituto||'')} ${esc(c.campo||'')} · <a href="${esc(c.fonte)}" target="_blank" rel="noopener">fonte ↗</a></div>` : '');
   return `<div class="detail-inner">${rows.join('')}
     <div class="frow ftot"><div class="fl"><b>Índice</b></div><div class="fc"><b>${Math.round(c.score)}</b> (0–100, para ordenar — não é probabilidade)</div></div>${used}</div>`;
@@ -362,10 +379,10 @@ function renderPresident(){
         <div class="rbar"><span style="flex:${ro['Lula']};background:${blocColor('Lula')}">Lula ${ro['Lula']}%</span><span style="flex:${ro['Flávio']};background:${blocColor('Flávio')}">${ro['Flávio']}% Flávio</span></div></div>` : '';
     const used = nat.used || [];
     const usedHtml = used.length ? `<details class="usedd"><summary>Ver as ${used.length} pesquisas do agregado</summary>
-      <div class="usedtbl"><div class="ur uh"><span>Instituto</span><span>Data</span><span>Lula</span><span>Flávio</span></div>
-      ${used.map(u=>`<div class="ur"><span>${esc(u.pollster)}</span><span>${esc(u.date)}</span><span>${u.Lula??'—'}%</span><span>${u['Flávio']??'—'}%</span></div>`).join('')}</div></details>` : '';
+      <div class="usedtbl"><div class="ur uh"><span>Instituto</span><span>Data</span><span>Peso</span><span>Lula</span><span>Flávio</span></div>
+      ${used.map(u=>`<div class="ur"><span>${esc(u.pollster)}</span><span>${esc(u.date)}</span><span>${u.weight!=null?Math.round(u.weight*100)+'%':'—'}</span><span>${u.Lula??'—'}%</span><span>${u['Flávio']??'—'}%</span></div>`).join('')}</div></details>` : '';
     head = `<section class="panel"><h2 style="margin:0 0 4px">Presidente — agregado nacional (poll-of-polls)</h2>
-      <p class="desc">Média de ${nat.polls} pesquisas recentes (${esc((nat.institutos||[]).join(', '))}). Mais recente: ${esc(nat.latest_date||'—')}. Setas = tendência na janela.</p>
+      <p class="desc">Média <b>ponderada por recência</b> de ${nat.polls} pesquisas (${esc((nat.institutos||[]).join(', '))}). Mais recente: ${esc(nat.latest_date||'—')}. Setas = tendência na janela.</p>
       <div class="pres1t">${bars}</div>${roHtml}${usedHtml}</section>`;
   } else {
     head = `<section class="panel note"><h2 style="margin-top:0">Presidente — agregado nacional</h2>

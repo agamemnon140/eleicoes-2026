@@ -17,21 +17,21 @@
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 41.8,
+    "avg": 41.7,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 34.3,
+    "avg": 34.2,
     "n": 6
    },
    {
     "name": "Renan Santos",
     "party": "Missão",
     "bloc": "Indefinido",
-    "avg": 4.9,
+    "avg": 4.8,
     "n": 6
    },
    {
@@ -52,26 +52,26 @@
     "name": "Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 1.9,
+    "avg": 1.8,
     "n": 5
    },
    {
     "name": "Samara Martins",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 1.1,
+    "avg": 1.0,
     "n": 4
    },
    {
     "name": "Cabo Daciolo",
     "party": "Mobiliza",
     "bloc": "Indefinido",
-    "avg": 0.7,
+    "avg": 0.8,
     "n": 5
    }
   ],
   "runoff": {
-   "Lula": 46.8,
+   "Lula": 46.7,
    "Flávio": 42.6
   },
   "trend": {
@@ -82,36 +82,42 @@
    {
     "pollster": "Genial Quaest",
     "date": "05/08/2026",
+    "weight": 0.196,
     "Lula": 39.0,
     "Flávio": 30.0
    },
    {
     "pollster": "Meio Ideia",
     "date": "05/08/2026",
+    "weight": 0.196,
     "Lula": 43.0,
     "Flávio": 35.0
    },
    {
     "pollster": "Nexus Btg Pactual",
     "date": "03/08/2026",
+    "weight": 0.178,
     "Lula": 41.0,
     "Flávio": 37.0
    },
    {
     "pollster": "Poderdata",
     "date": "30/07/2026",
+    "weight": 0.153,
     "Lula": 41.0,
     "Flávio": 35.0
    },
    {
     "pollster": "Atlasintel",
     "date": "29/07/2026",
+    "weight": 0.146,
     "Lula": 44.9,
     "Flávio": 35.8
    },
    {
     "pollster": "Nexus Btg Pactual",
     "date": "27/07/2026",
+    "weight": 0.132,
     "Lula": 42.0,
     "Flávio": 33.0
    }

@@ -96,32 +96,50 @@ def parse_poll(html: str, url: str) -> dict:
     return {"pollster": pollster_from_url(url), "date": date, "first_round": first, "runoff": runoff}
 
 
+HALFLIFE_DAYS = 14   # meia-vida do peso por recência no agregado presidencial
+
+
+def _pord(d: str | None) -> int:
+    y, m, dd = _recency(d)
+    return y * 365 + m * 30 + dd
+
+
 def aggregate(polls: list[dict], window: int = 6) -> dict:
     polls = [p for p in polls if p["first_round"]]
     polls.sort(key=lambda p: _recency(p["date"]), reverse=True)
     win = polls[:window]
     if not win:
         return {}
-    # 1º turno: média por candidato
-    fr, party = defaultdict(list), {}
+    top = max((_pord(p["date"]) for p in win), default=0)
+
+    def wof(p: dict) -> float:
+        return 0.5 ** (max(0, top - _pord(p["date"])) / HALFLIFE_DAYS)
+
+    # 1º turno: média PONDERADA POR RECÊNCIA por candidato
+    fr, frw, cnt, party = defaultdict(float), defaultdict(float), defaultdict(int), {}
     for p in win:
+        w = wof(p)
         for name, pty, pct in p["first_round"]:
-            fr[name].append(pct)
+            fr[name] += w * pct
+            frw[name] += w
+            cnt[name] += 1
             party.setdefault(name, pty)
     min_n = max(2, len(win) // 2)   # candidato precisa aparecer em ao menos metade das pesquisas
     first = sorted(
         [{"name": n, "party": party[n], "bloc": _bloc(n),
-          "avg": round(sum(v) / len(v), 1), "n": len(v)}
-         for n, v in fr.items() if len(v) >= min_n],
+          "avg": round(fr[n] / frw[n], 1), "n": cnt[n]}
+         for n in fr if cnt[n] >= min_n],
         key=lambda c: -c["avg"])[:8]
-    # 2º turno Lula x Flávio
-    ro = defaultdict(list)
+    # 2º turno Lula x Flávio (ponderado)
+    ro, row = defaultdict(float), defaultdict(float)
     for p in win:
+        w = wof(p)
         for name, _pty, pct in p["runoff"]:
             b = _bloc(name)
             if b in ("Lula", "Flávio"):
-                ro[b].append(pct)
-    runoff = {b: round(sum(v) / len(v), 1) for b, v in ro.items() if v}
+                ro[b] += w * pct
+                row[b] += w
+    runoff = {b: round(ro[b] / row[b], 1) for b in ro if row[b]}
     # tendência (mais antigo -> mais novo na janela) para Lula e Flávio no 1º turno
     trend = {}
     for b in ("Lula", "Flávio"):
@@ -132,7 +150,8 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
                     series.append(pct)
         if len(series) >= 2:
             trend[b] = round(series[-1] - series[0], 1)
-    used = [{"pollster": p["pollster"], "date": p["date"],
+    wsum = sum(wof(p) for p in win) or 1.0
+    used = [{"pollster": p["pollster"], "date": p["date"], "weight": round(wof(p) / wsum, 3),
              "Lula": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Lula"), None),
              "Flávio": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Flávio"), None)}
             for p in win]

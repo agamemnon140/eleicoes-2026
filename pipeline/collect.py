@@ -64,7 +64,13 @@ def _ord(rec: tuple) -> int:
     return rec[0] * 365 + rec[1] * 30 + rec[2]
 
 
-MA_WINDOW_DAYS = 30   # janela da média móvel (poll-of-polls) para governador/senado
+MA_WINDOW_DAYS = 30    # janela da média móvel (poll-of-polls) para governador/senado
+MA_HALFLIFE_DAYS = 14  # meia-vida do peso por recência: pesquisa 14 dias mais velha pesa metade
+
+
+def _recency_weight(age_days: float) -> float:
+    """Peso exponencial decrescente com a idade da pesquisa (mais recente pesa mais)."""
+    return 0.5 ** (max(0.0, age_days) / MA_HALFLIFE_DAYS)
 
 
 def collect_fresh(roster: dict) -> dict:
@@ -95,7 +101,7 @@ def collect_fresh(roster: dict) -> dict:
                 gz_states.add(uf)
     print(f"  Gazeta: {len(gz_states)} estados")
 
-    # média móvel: média das pesquisas dentro de MA_WINDOW_DAYS da mais recente
+    # média móvel PONDERADA POR RECÊNCIA das pesquisas dentro de MA_WINDOW_DAYS da mais recente
     fresh: dict = {}
     n_avg = 0
     for key, lst in obs.items():
@@ -106,14 +112,17 @@ def collect_fresh(roster: dict) -> dict:
                   and top - _ord(parse_recency(r.date)) <= MA_WINDOW_DAYS]
         if not window:
             window = [newest]
-        avg = round(sum(r.pct for r in window) / len(window), 1)
-        label = f"média de {len(window)} pesquisas" if len(window) > 1 else newest.pollster
+        weights = [_recency_weight(top - _ord(parse_recency(r.date))) for r in window]
+        wsum = sum(weights) or 1.0
+        avg = round(sum(w * r.pct for w, r in zip(weights, window)) / wsum, 1)
+        label = f"média móvel de {len(window)} pesquisas" if len(window) > 1 else newest.pollster
         if len(window) > 1:
             n_avg += 1
         fresh[key] = {
             "pct": avg, "date": newest.date, "pollster": label,
-            "sources": [{"pollster": r.pollster, "date": r.date, "pct": r.pct, "source": r.source}
-                        for r in window],
+            "sources": [{"pollster": r.pollster, "date": r.date, "pct": r.pct, "source": r.source,
+                         "weight": round(w / wsum, 3)}
+                        for w, r in zip(weights, window)],
         }
 
     covered = wiki_states | gz_states

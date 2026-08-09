@@ -165,9 +165,11 @@ button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 .usedd{margin-top:12px}
 .usedd summary{cursor:pointer;color:var(--teal);font-weight:700;font-size:13px}
 .usedtbl{margin-top:8px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
-.ur{display:grid;grid-template-columns:1fr 130px 60px 60px;gap:8px;padding:6px 10px;font-size:12px;border-bottom:1px solid #f1f5f9}
+.ur{display:grid;grid-template-columns:1fr 92px 44px 50px 52px;gap:8px;padding:6px 10px;font-size:12px;border-bottom:1px solid #f1f5f9}
 .ur.uh{background:var(--soft);font-weight:800;color:var(--muted);text-transform:uppercase;font-size:10px}
-.ur span:nth-child(3),.ur span:nth-child(4){text-align:right;font-weight:700}
+.ur span:nth-child(n+3){text-align:right}
+.ur span:nth-child(4),.ur span:nth-child(5){font-weight:700}
+.ur span:nth-child(3){color:var(--muted)}
 
 /* ---------- simulador ---------- */
 #sim{margin-top:0}
