@@ -28,13 +28,15 @@ Erikson & Wlezien; Borges & Lloyd 2016). Ver `.claude/plans` / histórico para a
 ## Estrutura
 
 ```
-data/        forecast.json, president.json e snapshots de pesquisas
+data/polls/  snapshots de pesquisas (entradas do modelo)
 reference/   roster.yaml (candidatos·partido·bloco·apoio), parties.yaml (cores)
 pipeline/    Python — sources/ (coleta), schedule.py, model.py, president.py, validate.py, build.py, backtest/, tests/
-web/         site estático (index.html, app.js, styles.css, brazil-map.svg, PWA)
-assets/      logo.svg
-.github/workflows/update.yml   # cron semanal
+docs/        site estático publicado no GitHub Pages (index.html, app.js, styles.css, data/, PWA)
+assets/      logo.svg / icon.svg
+ci/update.yml   workflow do cron semanal (mover para .github/workflows/ ao ativar a automação)
 ```
+
+Publicado via **GitHub Pages** servindo a pasta `docs/` da branch `main` — cada push de dados republica.
 
 ## Rodar localmente (Windows)
 
@@ -42,6 +44,6 @@ assets/      logo.svg
 py -m venv .venv
 .venv/Scripts/python -m pip install -r pipeline/requirements.txt
 .venv/Scripts/python -m pytest          # testes do modelo/cronograma
-.venv/Scripts/python -m pipeline.build  # gera data/forecast.json e data/president.json
-py -m http.server -d web 8000           # abre o site em http://localhost:8000
+.venv/Scripts/python -m pipeline.build  # gera docs/data/forecast.json e docs/data/president.json
+py -m http.server -d docs 8000          # abre o site em http://localhost:8000
 ```

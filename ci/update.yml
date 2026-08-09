@@ -1,0 +1,36 @@
+# Workflow do cron semanal. Para ATIVAR a automação, mova este arquivo para
+# .github/workflows/update.yml (requer um token com o escopo `workflow` no push).
+# O GitHub Pages está configurado para servir a pasta docs/ da branch main, então
+# basta commitar/pushar os dados atualizados que o site republica sozinho.
+name: Atualiza previsão (semanal)
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"        # toda segunda 12:00 UTC (09:00 BRT)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - name: Coleta pesquisas (agregador + portais)
+        run: python -m pipeline.collect || echo "coletor ainda não implementado — usando último snapshot"
+      - name: Recalcula o modelo
+        run: python -m pipeline.build
+      - name: Testes
+        run: python -m pytest -q
+      - name: Commit e push dos dados atualizados
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/polls docs/data
+          git commit -m "Atualização automática da previsão ($(date -u +%F))" || echo "sem mudanças"
+          git push
