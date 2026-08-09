@@ -1,61 +1,62 @@
 # Casos DOCUMENTADOS de erro/acerto de pesquisa ao Senado (2018/2022), para sanity-check.
-# Números são as posições da pesquisa final + resultado real, aproximados das fontes citadas
-# na pesquisa de embasamento (ND Mais, Gazeta/Ibope, Senado Notícias, CNN, Metrópoles).
-# ATENÇÃO: amostra pequena e ENVIESADA para casos notórios — serve para mostrar a DIREÇÃO
-# (a chapa recupera erros da pesquisa; o teto do Senado não deve ser 1,0), não para cravar o teto.
-# pres/gov = % do bloco no estado (2º turno presidencial / resultado do governador).
-# blocos: Dir (Bolsonaro/direita) x Esq (PT/esquerda). seats = vagas em disputa naquele ano.
+# Números = posição da pesquisa final + resultado real, aproximados das fontes citadas na
+# pesquisa de embasamento (ND Mais, Gazeta/Ibope, Senado Notícias, CNN, Metrópoles).
+# `mom` = momentum ≈ variação (p.p.) da pesquisa nas ~3-4 semanas finais (últimas pesquisas
+# menos as de ~1 mês antes), refletindo a dinâmica documentada (colapsos e surtos tardios).
+# ATENÇÃO: amostra pequena e ENVIESADA para casos notórios de virada tardia — serve para
+# TESTAR A DIREÇÃO (momentum ajuda a pegar viradas de última hora?), não para cravar pesos.
+# pres/gov = % do bloco no estado. blocos: Dir (Bolsonaro) x Esq (PT). seats = vagas no ano.
 
 races:
   - id: MG-2018
     seats: 2
     pres: {Dir: 55, Esq: 45}
-    gov:  {Dir: 72, Esq: 28}       # Zema (Novo) venceu
+    gov:  {Dir: 72, Esq: 28}
     winners: [Rodrigo Pacheco, Carlos Viana]
     senate:
-      - {name: Dilma Rousseff, party: PT,   bloc: Esq, poll_pct: 28, endorsement: inferido}
-      - {name: Rodrigo Pacheco, party: DEM,  bloc: Dir, poll_pct: 17, endorsement: chapa/aliança}
-      - {name: Carlos Viana,    party: PHS,  bloc: Dir, poll_pct: 14, endorsement: chapa/aliança}
-      - {name: Antonio Anastasia, party: PSDB, bloc: Dir, poll_pct: 12, endorsement: inferido}
+      - {name: Dilma Rousseff,   party: PT,   bloc: Esq, poll_pct: 28, endorsement: inferido,      mom: -2}
+      - {name: Rodrigo Pacheco,  party: DEM,  bloc: Dir, poll_pct: 17, endorsement: chapa/aliança, mom: 7}
+      - {name: Carlos Viana,     party: PHS,  bloc: Dir, poll_pct: 14, endorsement: chapa/aliança, mom: 6}
+      - {name: Antonio Anastasia, party: PSDB, bloc: Dir, poll_pct: 12, endorsement: inferido,     mom: -2}
 
   - id: SP-2018
     seats: 2
     pres: {Dir: 55, Esq: 45}
-    gov:  {Dir: 52, Esq: 48}       # Doria (PSDB) venceu
+    gov:  {Dir: 52, Esq: 48}
     winners: [Major Olímpio, Mara Gabrilli]
     senate:
-      - {name: Eduardo Suplicy,  party: PT,   bloc: Esq, poll_pct: 15, endorsement: inferido}
-      - {name: Major Olímpio,    party: PSL,  bloc: Dir, poll_pct: 12, endorsement: chapa/aliança}
-      - {name: Mara Gabrilli,    party: PSDB, bloc: Dir, poll_pct: 10, endorsement: chapa/aliança}
-      - {name: Marta Suplicy,    party: MDB,  bloc: Esq, poll_pct: 10, endorsement: inferido}
+      - {name: Eduardo Suplicy,  party: PT,   bloc: Esq, poll_pct: 15, endorsement: inferido,      mom: -3}
+      - {name: Major Olímpio,    party: PSL,  bloc: Dir, poll_pct: 12, endorsement: chapa/aliança, mom: 6}
+      - {name: Mara Gabrilli,    party: PSDB, bloc: Dir, poll_pct: 10, endorsement: chapa/aliança, mom: 3}
+      - {name: Marta Suplicy,    party: MDB,  bloc: Esq, poll_pct: 10, endorsement: inferido,      mom: -1}
 
   - id: PR-2018
     seats: 2
     pres: {Dir: 62, Esq: 38}
-    gov:  {Dir: 58, Esq: 42}       # Ratinho Jr (PSD) venceu
-    winners: [Oriovisto Guimarães, Flávio Arns]   # caso anômalo: Arns (Rede) fora do bloco Dir
+    gov:  {Dir: 58, Esq: 42}
+    winners: [Oriovisto Guimarães, Flávio Arns]     # anomalia: outsider Oriovisto e Arns (Rede)
     senate:
-      - {name: Roberto Requião,     party: MDB,     bloc: Esq, poll_pct: 38, endorsement: inferido}
-      - {name: Oriovisto Guimarães, party: Podemos, bloc: Dir, poll_pct: 23, endorsement: inferido}
-      - {name: Beto Richa,          party: PSDB,    bloc: Dir, poll_pct: 21, endorsement: chapa/aliança}
-      - {name: Flávio Arns,         party: Rede,    bloc: Esq, poll_pct: 21, endorsement: inferido}
+      - {name: Roberto Requião,     party: MDB,     bloc: Esq, poll_pct: 38, endorsement: inferido,      mom: -2}
+      - {name: Oriovisto Guimarães, party: Podemos, bloc: Dir, poll_pct: 23, endorsement: inferido,      mom: 11}
+      - {name: Beto Richa,          party: PSDB,    bloc: Dir, poll_pct: 21, endorsement: chapa/aliança, mom: -7}
+      - {name: Flávio Arns,         party: Rede,    bloc: Esq, poll_pct: 21, endorsement: inferido,      mom: 6}
 
   - id: SP-2022
     seats: 1
     pres: {Dir: 54, Esq: 46}
-    gov:  {Dir: 55, Esq: 45}       # Tarcísio (Republicanos) venceu
+    gov:  {Dir: 55, Esq: 45}
     winners: [Marcos Pontes]
     senate:
-      - {name: Márcio França,  party: PSB, bloc: Esq, poll_pct: 30, endorsement: inferido}
-      - {name: Marcos Pontes,  party: PL,  bloc: Dir, poll_pct: 19, endorsement: chapa/aliança}
-      - {name: Janaina Paschoal, party: PRTB, bloc: Dir, poll_pct: 8, endorsement: inferido}
+      - {name: Márcio França,   party: PSB,  bloc: Esq, poll_pct: 30, endorsement: inferido,      mom: -6}
+      - {name: Marcos Pontes,   party: PL,   bloc: Dir, poll_pct: 19, endorsement: chapa/aliança, mom: 6}
+      - {name: Janaina Paschoal, party: PRTB, bloc: Dir, poll_pct: 8, endorsement: inferido,      mom: -1}
 
   - id: PR-2022
     seats: 1
     pres: {Dir: 62, Esq: 38}
-    gov:  {Dir: 60, Esq: 40}       # Ratinho Jr (PSD) venceu
-    winners: [Sergio Moro]         # caso difícil: Álvaro Dias liderava e perdeu
+    gov:  {Dir: 60, Esq: 40}
+    winners: [Sergio Moro]                          # Álvaro Dias liderava e caiu
     senate:
-      - {name: Álvaro Dias,    party: Podemos, bloc: Dir, poll_pct: 41, endorsement: inferido}
-      - {name: Sergio Moro,    party: União,   bloc: Dir, poll_pct: 35, endorsement: chapa/aliança}
-      - {name: Paulo Martins,  party: PL,      bloc: Dir, poll_pct: 14, endorsement: chapa/aliança}
+      - {name: Álvaro Dias,    party: Podemos, bloc: Dir, poll_pct: 41, endorsement: inferido,      mom: -4}
+      - {name: Sergio Moro,    party: União,   bloc: Dir, poll_pct: 35, endorsement: chapa/aliança, mom: 5}
+      - {name: Paulo Martins,  party: PL,      bloc: Dir, poll_pct: 14, endorsement: chapa/aliança, mom: 4}

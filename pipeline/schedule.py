@@ -35,8 +35,20 @@ SEN_GOV_SHARE = 0.35 / 0.65         # repartição do restante entre gov e pres
 SEN_PRES_SHARE = 0.30 / 0.65        # (ratio 0,35:0,30 do preview)
 
 
+# Momentum: só nos últimos dias, peso pequeno (bônus em pontos = peso × Δp.p. da pesquisa)
+MOM_WINDOW = 14     # dias antes da eleição em que o momentum passa a valer
+MOM_MAX = 1.0       # peso máximo no dia (backtest: pequeno; 3,0 seria overfit)
+
+
 def clamp(x: float, lo: float, hi: float) -> float:
     return max(lo, min(hi, x))
+
+
+def momentum_weight(days_to_election: float) -> float:
+    """0 fora da janela final; sobe linear até MOM_MAX no dia da eleição."""
+    if days_to_election >= MOM_WINDOW:
+        return 0.0
+    return MOM_MAX * (MOM_WINDOW - max(0.0, days_to_election)) / MOM_WINDOW
 
 
 def days_until(as_of: date, election: date = ELECTION_DATE) -> int:
