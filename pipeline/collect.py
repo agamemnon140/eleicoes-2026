@@ -121,7 +121,7 @@ def collect_fresh(roster: dict) -> dict:
         fresh[key] = {
             "pct": avg, "date": newest.date, "pollster": label,
             "sources": [{"pollster": r.pollster, "date": r.date, "pct": r.pct, "source": r.source,
-                         "weight": round(w / wsum, 3)}
+                         "url": r.url, "weight": round(w / wsum, 3)}
                         for w, r in zip(weights, window)],
         }
 

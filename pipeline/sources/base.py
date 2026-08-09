@@ -15,6 +15,7 @@ class PollRecord:
     pollster: str
     date: str
     source: str         # ex.: "wikipedia"
+    url: str = ""       # link para a fonte da pesquisa
 
 
 def strip_accents(s: str) -> str:

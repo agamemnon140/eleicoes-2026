@@ -82,6 +82,7 @@
    {
     "pollster": "Genial Quaest",
     "date": "05/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-agosto-2026/",
     "weight": 0.196,
     "Lula": 39.0,
     "Flávio": 30.0
@@ -89,6 +90,7 @@
    {
     "pollster": "Meio Ideia",
     "date": "05/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-agosto-2026/",
     "weight": 0.196,
     "Lula": 43.0,
     "Flávio": 35.0
@@ -96,6 +98,7 @@
    {
     "pollster": "Nexus Btg Pactual",
     "date": "03/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026/",
     "weight": 0.178,
     "Lula": 41.0,
     "Flávio": 37.0
@@ -103,6 +106,7 @@
    {
     "pollster": "Poderdata",
     "date": "30/07/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-julho-2026/",
     "weight": 0.153,
     "Lula": 41.0,
     "Flávio": 35.0
@@ -110,6 +114,7 @@
    {
     "pollster": "Atlasintel",
     "date": "29/07/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-julho-2026-2/",
     "weight": 0.146,
     "Lula": 44.9,
     "Flávio": 35.8
@@ -117,6 +122,7 @@
    {
     "pollster": "Nexus Btg Pactual",
     "date": "27/07/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-julho-2026-2/",
     "weight": 0.132,
     "Lula": 42.0,
     "Flávio": 33.0

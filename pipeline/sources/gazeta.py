@@ -128,5 +128,5 @@ def parse_html(uf: str, roster_state: dict, html: str, url: str) -> list[PollRec
                 continue
             seen.add(key)
             records.append(PollRecord(uf, cargo, cand["name"], cand["party"], pct,
-                                       "Gazeta do Povo", date, "gazeta"))
+                                       "Gazeta do Povo", date, "gazeta", url))
     return records

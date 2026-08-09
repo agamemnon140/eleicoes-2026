@@ -191,6 +191,66 @@ def parties_json():
         json.dumps(p, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
+def _datekey(d: str | None) -> tuple:
+    import re
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", d or "")
+    if m:
+        return (int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    m = re.match(r"(\d{1,2})/(\d{4})", d or "")
+    return (int(m.group(2)), int(m.group(1)), 0) if m else (0, 0, 0)
+
+
+def poll_ids(records: list[dict]) -> set:
+    """Identidade de cada pesquisa considerada (para diferenciar novas de já vistas)."""
+    ids = set()
+    for r in records:
+        for s in (r.get("polls") or []):
+            ids.add((r["uf"], r["cargo"], s.get("pollster"), s.get("date")))
+    return ids
+
+
+def new_poll_ids(records: list[dict]) -> tuple[set, str | None, bool]:
+    """Pesquisas que apareceram desde o snapshot anterior (para o aviso no topo).
+
+    Retorna (novas, data_anterior, comparável). `comparável=False` quando o snapshot
+    anterior não tinha registro de pesquisas (não dá para afirmar quantas são novas).
+    """
+    files = sorted((ROOT / "data" / "polls").glob("*.json"))
+    if len(files) < 2:
+        return set(), None, False
+    prev = json.loads(files[-2].read_text(encoding="utf-8"))
+    prev_date = prev.get("date") or files[-2].stem
+    prev_ids = poll_ids(prev.get("records", []))
+    if not prev_ids:
+        return set(), prev_date, False
+    return poll_ids(records) - prev_ids, prev_date, True
+
+
+def build_polls_log(records: list[dict], president: dict | None, estados: dict, new_ids: set):
+    """Registro de todas as pesquisas consideradas (uma linha por pesquisa distinta)."""
+    polls: dict = {}
+    for r in records:
+        for s in (r.get("polls") or []):
+            # uma linha por matéria (inclui a URL: 2 matérias no mesmo dia não se fundem)
+            key = (r["uf"], r["cargo"], s.get("pollster"), s.get("date"), s.get("url", ""))
+            e = polls.setdefault(key, {
+                "uf": r["uf"], "estado": estados.get(r["uf"], r["uf"]), "cargo": r["cargo"],
+                "pollster": s.get("pollster"), "date": s.get("date"), "source": s.get("source", ""),
+                "url": s.get("url", ""),
+                "is_new": (r["uf"], r["cargo"], s.get("pollster"), s.get("date")) in new_ids,
+                "readings": []})
+            e["readings"].append({"name": r["name"], "party": r["party"], "pct": s.get("pct")})
+    for e in polls.values():
+        e["readings"].sort(key=lambda x: (x["pct"] is None, -(x["pct"] or 0)))
+    state_polls = sorted(polls.values(),
+                         key=lambda p: (_datekey(p["date"]), p["estado"], p["cargo"]), reverse=True)
+    pres_polls = []
+    for u in ((president or {}).get("used") or []):
+        pres_polls.append({"pollster": u["pollster"], "date": u["date"], "url": u.get("url", ""),
+                           "Lula": u.get("Lula"), "Flávio": u.get("Flávio"), "weight": u.get("weight")})
+    return state_polls, pres_polls
+
+
 def main():
     WEB_DATA.mkdir(parents=True, exist_ok=True)
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
@@ -214,11 +274,16 @@ def main():
             days, roster["gov_confidence"], roster["sen_confidence"], swing=swing,
         )
 
+    new_ids, prev_date, comparable = new_poll_ids(polls["records"])
+    state_polls, pres_polls = build_polls_log(polls["records"], polls.get("president"), estados, new_ids)
+
     forecast = {
         "generated_at": date_str,
         "election_date": roster.get("election_date", "2026-10-04"),
         "days_to_election": days,
         "source": polls.get("source", "snapshot"),
+        "update": {"new_polls": len(new_ids), "prev_date": prev_date, "comparable": comparable,
+                   "total_polls": len(state_polls) + len(pres_polls)},
         "national": national_table(states, roster),
         "states": states,
     }
@@ -236,12 +301,18 @@ def main():
     (WEB_DATA / "president.json").write_text(
         json.dumps(president, ensure_ascii=False, indent=1), encoding="utf-8")
 
+    (WEB_DATA / "polls_log.json").write_text(json.dumps(
+        {"generated_at": date_str, "state_polls": state_polls, "president_polls": pres_polls},
+        ensure_ascii=False, indent=1), encoding="utf-8")
+
     parties_json()
 
     n_states = len(states)
     n_est_sen = sum(len(s["senate"]["estimate"]) for s in states.values())
     print(f"OK: {n_states} estados, {n_est_sen} senadores estimados, {days} dias até a eleição.")
-    print("  -> docs/data/forecast.json, docs/data/president.json, docs/data/parties.json")
+    print(f"  {len(state_polls)} pesquisas estaduais + {len(pres_polls)} presidenciais no registro; "
+          f"{len(new_ids)} novas desde {prev_date}.")
+    print("  -> forecast.json, president.json, parties.json, polls_log.json")
 
 
 if __name__ == "__main__":
