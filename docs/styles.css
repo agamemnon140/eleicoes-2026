@@ -107,9 +107,33 @@ main{padding:18px 16px 10px;min-height:60vh}
 .note{background:var(--warn);border:1px solid #f3e0b0;border-left:5px solid var(--gold);border-radius:10px;padding:12px 14px}
 
 /* tooltip */
-#tooltip{position:fixed;pointer-events:none;z-index:50;background:var(--navy);color:#fff;
-  padding:7px 10px;border-radius:8px;font-size:12px;opacity:0;transform:translateY(4px);transition:opacity .1s;max-width:230px;box-shadow:var(--shadow)}
+#tooltip{position:fixed;pointer-events:none;z-index:50;background:var(--navy);color:#fff;white-space:pre-line;
+  padding:8px 11px;border-radius:8px;font-size:12px;line-height:1.45;opacity:0;transform:translateY(4px);transition:opacity .1s;max-width:260px;box-shadow:var(--shadow)}
 #tooltip.on{opacity:1;transform:none}
+
+/* toggle de cor + topo do painel */
+.panel-top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.toggle{display:flex;background:#e2e8f0;border-radius:9px;padding:3px;flex:none}
+.toggle button{border:0;background:transparent;padding:6px 11px;border-radius:7px;cursor:pointer;font:inherit;font-size:12px;font-weight:700;color:#475569}
+.toggle button.active{background:#fff;color:var(--navy);box-shadow:0 1px 4px rgba(0,0,0,.12)}
+.tile.sel{outline:3px solid var(--navy);outline-offset:1px}
+
+/* consolidado por partido */
+.ppbar{display:grid;grid-template-columns:160px 1fr 28px;gap:10px;align-items:center;padding:5px 0;font-size:13px;border-bottom:1px solid #f1f5f9}
+.ppname{display:flex;align-items:center;gap:7px;font-weight:700}
+.ppbar .bar{height:10px}
+
+/* detalhe do índice (expansível) */
+.det-toggle{margin-top:6px;border:0;background:transparent;color:var(--teal);font:inherit;font-size:11px;font-weight:700;cursor:pointer;padding:0}
+.det-toggle:hover{text-decoration:underline}
+.cand-detail{grid-column:1/-1;display:none}
+.cand.open .cand-detail{display:block;margin-top:9px;border-top:1px dashed var(--line);padding-top:9px}
+.detail-inner{display:flex;flex-direction:column;gap:6px}
+.frow{display:flex;justify-content:space-between;gap:12px;align-items:baseline;font-size:12px;padding:6px 9px;background:var(--soft);border-radius:8px}
+.frow.ftot{background:#fff7e6;border:1px solid #eee1c8}
+.fl b{color:var(--ink)} .fi{color:var(--muted)}
+.fnote{color:var(--teal);font-size:11px;margin-top:2px}
+.fc{white-space:nowrap;color:var(--muted)} .fc b{color:var(--ink);font-size:14px}
 
 footer{padding:10px 16px 46px;font-size:12px;color:#475569}
 footer p{margin:6px 0}

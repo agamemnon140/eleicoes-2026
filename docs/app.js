@@ -13,10 +13,13 @@ const UF_GRID = {
   SC:[4,9], RS:[3,9],
 };
 const COMP_COLOR = {governo:'#334155', presidente:'#0f766e', senado:'#b7791f', apoio:'#94a3b8'};
+const COMP_LABEL = {governo:'Governador', presidente:'Presidente', senado:'Pesquisa Senado', apoio:'Apoio/chapa'};
 const BLOC_ORDER = ['Lula','Flávio','Caiado','Zema','Indefinido'];
 
 let FC = null, PARTIES = null, PRES = null;
 let tab = 'gov';
+let colorMode = 'bloco';               // 'bloco' | 'partido'
+const openCards = new Set();           // detalhes abertos (uf|cargo|nome)
 const filters = {uf:'ALL', bloc:'ALL', q:'', showOut:false};
 
 const $ = (s, r=document) => r.querySelector(s);
@@ -24,6 +27,14 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt
 const blocColor = b => (PARTIES?.blocs?.[b]?.color) || PARTIES?.default_bloc_color || '#94a3b8';
 const blocLabel = b => (PARTIES?.blocs?.[b]?.label) || b || 'Indefinido';
 const partyColor = p => (PARTIES?.parties?.[p]) || PARTIES?.default_party_color || '#64748b';
+const num = x => (typeof x === 'number');
+const fpct = x => num(x) ? String(x).replace('.', ',') + '%' : '—';
+
+const office = () => tab === 'gov' ? 'governor' : 'senate';
+const winnerParty = (st, off) => off === 'governor'
+  ? (st.governor.estimate?.party) : (st.senate.estimate[0]?.party);
+const tileColor = (st, off) => colorMode === 'bloco'
+  ? blocColor(st[off].bloc) : partyColor(winnerParty(st, off));
 
 if ('serviceWorker' in navigator) {
   addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
@@ -37,7 +48,7 @@ async function init(){
       fetch('data/parties.json').then(r=>r.json()),
       fetch('data/president.json').then(r=>r.json()).catch(()=>null),
     ]);
-  }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>python -m pipeline.build</code>.</p>`; return; }
+  }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>py -m pipeline.build</code>.</p>`; return; }
 
   const d = new Date(FC.generated_at + 'T00:00:00');
   $('#subtitle').textContent = `Governador, Senado e Presidente — modelo de chapa executiva. Faltam ${FC.days_to_election} dias para o 1º turno (04/10/2026).`;
@@ -47,7 +58,7 @@ async function init(){
     const b = e.target.closest('button'); if(!b) return;
     tab = b.dataset.tab;
     document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('active', x===b));
-    filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false;
+    filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear();
     render();
   });
   render();
@@ -56,54 +67,92 @@ async function init(){
 function render(){
   const v = $('#view');
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
-  const office = tab==='gov' ? 'governor' : 'senate';
+  const off = office();
   v.innerHTML =
-    mapPanel(office) +
-    (office==='senate' ? nationalPanel() : '') +
-    controlsBar(office) +
-    `<div id="states">${statesList(office)}</div>`;
-  wireControls(office);
-  wireMap(office);
+    mapPanel(off) +
+    (colorMode==='partido' ? partyPanel(off) : '') +
+    (off==='senate' ? nationalPanel() : '') +
+    controlsBar() +
+    `<div id="states">${statesList(off)}</div>`;
+  wireControls();
+  wireMap(off);
+  wireDetails();
 }
 
 /* ---------- mapa ---------- */
-function mapPanel(office){
-  const tiles = Object.keys(FC.states).map(uf=>{
-    const st = FC.states[uf]; const o = st[office];
-    const [c,r] = UF_GRID[uf] || [1,1];
-    const est = office==='governor' ? (o.estimate?`${o.estimate.name}`:'—')
-              : (o.estimate.map(e=>e.name).join(' + ') || '—');
-    return `<button class="tile ${o.stale?'stale':''}" style="grid-column:${c};grid-row:${r};background:${blocColor(o.bloc)}"
-      data-uf="${uf}" data-est="${esc(st.estado)} — ${esc(est)}" aria-label="${esc(st.estado)}">
-      ${uf}${o.estimate && (Array.isArray(o.estimate)?o.estimate.length:o.estimate)?'<span class="dot"></span>':''}</button>`;
-  }).join('');
-  // contagem por bloco
-  const counts = {};
-  Object.values(FC.states).forEach(st=>{const b=st[office].bloc; counts[b]=(counts[b]||0)+1;});
-  const legend = BLOC_ORDER.filter(b=>counts[b]).map(b=>
-    `<div class="lg"><span class="sw" style="background:${blocColor(b)}"></span>${esc(blocLabel(b))}<span class="count">${counts[b]}</span></div>`).join('');
-  const title = office==='governor' ? 'Governadores estimados por estado' : 'Senado — bloco do 1º nome estimado';
-  return `<section class="panel"><h2>${title}</h2>
-    <p class="desc">Cada quadro é um estado, colorido pelo bloco do vencedor estimado. Toque para ir ao detalhe. Hachurado = pode estar desatualizado.</p>
-    <div class="mapwrap"><div class="tilemap" role="group" aria-label="Mapa do Brasil">${tiles}</div>
-      <div class="legend"><h3>Blocos (nº de estados)</h3>${legend}</div></div></section>`;
+function tooltipFor(st, off){
+  const o = st[off];
+  const est = off==='governor' ? (o.estimate?[o.estimate]:[]) : o.estimate;
+  const lines = est.filter(Boolean).map(e=>{
+    const c = o.candidates.find(x=>x.name===e.name);
+    return `${e.name} (${e.party}) — ${c?esc(c.pctDisplay):'—'} · índice ${Math.round(e.score)}`;
+  });
+  return `${st.estado} · ${off==='governor'?'Governador':'Senado'}\n` + (lines.join('\n') || '—');
 }
-function wireMap(office){
+function mapPanel(off){
+  const tiles = Object.keys(FC.states).map(uf=>{
+    const st = FC.states[uf], o = st[off];
+    const [c,r] = UF_GRID[uf] || [1,1];
+    const has = off==='governor' ? !!o.estimate : o.estimate.length;
+    return `<button class="tile ${o.stale?'stale':''} ${filters.uf===uf?'sel':''}" style="grid-column:${c};grid-row:${r};background:${tileColor(st,off)}"
+      data-uf="${uf}" data-tip="${esc(tooltipFor(st,off))}" aria-label="${esc(st.estado)}">
+      ${uf}${has?'<span class="dot"></span>':''}</button>`;
+  }).join('');
+  const legend = colorMode==='bloco' ? blocLegend(off) : partyLegend(off);
+  const title = off==='governor' ? 'Governador estimado por estado' : 'Senado — bloco/partido do 1º nome estimado';
+  return `<section class="panel"><div class="panel-top"><h2>${title}</h2>
+      <div class="toggle" id="colorToggle">
+        <button data-m="bloco" class="${colorMode==='bloco'?'active':''}">Cor por bloco</button>
+        <button data-m="partido" class="${colorMode==='partido'?'active':''}">Cor por partido</button>
+      </div></div>
+    <p class="desc">Toque num estado para ver só ele; passe o mouse para os percentuais. Hachurado = pode estar desatualizado.</p>
+    <div class="mapwrap"><div class="tilemap" role="group" aria-label="Mapa do Brasil">${tiles}</div>
+      <div class="legend">${legend}</div></div></section>`;
+}
+function blocLegend(off){
+  const counts = {};
+  Object.values(FC.states).forEach(st=>{const b=st[off].bloc; counts[b]=(counts[b]||0)+1;});
+  const items = BLOC_ORDER.filter(b=>counts[b]).map(b=>
+    `<div class="lg"><span class="sw" style="background:${blocColor(b)}"></span>${esc(blocLabel(b))}<span class="count">${counts[b]}</span></div>`).join('');
+  return `<h3>Blocos (nº de estados)</h3>${items}`;
+}
+function partyLegend(off){
+  const counts = {};
+  Object.values(FC.states).forEach(st=>{const p=winnerParty(st,off); if(p) counts[p]=(counts[p]||0)+1;});
+  const items = Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([p,n])=>
+    `<div class="lg"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}<span class="count">${n}</span></div>`).join('');
+  return `<h3>Partidos (nº de estados)</h3>${items}`;
+}
+function wireMap(off){
   const tip = $('#tooltip');
+  document.querySelectorAll('#colorToggle button').forEach(b=>b.onclick=()=>{colorMode=b.dataset.m; render();});
   document.querySelectorAll('.tile').forEach(t=>{
-    t.addEventListener('click', ()=>{ const el = document.getElementById('state-'+t.dataset.uf);
-      if(el){ el.scrollIntoView({behavior:'smooth',block:'start'}); el.animate([{background:'#fff7e6'},{background:'transparent'}],{duration:1200}); } });
-    t.addEventListener('pointermove', e=>{ tip.textContent = t.dataset.est; tip.classList.add('on');
-      tip.style.left = Math.min(e.clientX+12, innerWidth-240)+'px'; tip.style.top=(e.clientY+14)+'px'; });
+    t.addEventListener('click', ()=>{ filters.uf = (filters.uf===t.dataset.uf ? 'ALL' : t.dataset.uf); render();
+      const el=$('#states'); if(el) el.scrollIntoView({behavior:'smooth',block:'start'}); });
+    t.addEventListener('pointermove', e=>{ tip.textContent = t.dataset.tip; tip.classList.add('on');
+      tip.style.left = Math.min(e.clientX+12, innerWidth-250)+'px'; tip.style.top=(e.clientY+14)+'px'; });
     t.addEventListener('pointerleave', ()=> tip.classList.remove('on'));
   });
 }
 
+/* ---------- consolidado por partido ---------- */
+function partyPanel(off){
+  const counts = {};
+  if(off==='governor') Object.values(FC.states).forEach(st=>{const p=st.governor.estimate?.party; if(p) counts[p]=(counts[p]||0)+1;});
+  else Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{counts[e.party]=(counts[e.party]||0)+1;}));
+  const total = off==='governor' ? 27 : 54;
+  const max = Math.max(...Object.values(counts), 1);
+  const rows = Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([p,n])=>`
+    <div class="ppbar"><span class="ppname"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}</span>
+      <div class="bar"><i style="width:${100*n/max}%;background:${partyColor(p)}"></i></div><b>${n}</b></div>`).join('');
+  const label = off==='governor' ? 'Governadores estimados por partido' : 'Cadeiras novas do Senado por partido (2 por estado)';
+  return `<section class="panel"><h2>${label}</h2><p class="desc">Consolidado da estimativa atual (${total} no total).</p>${rows}</section>`;
+}
+
 /* ---------- consolidado nacional (senado) ---------- */
 function nationalPanel(){
-  const rows = FC.national;
-  const max = Math.max(...rows.map(r=>r.sen2027), 1);
-  const body = rows.filter(r=>r.sen2027>0||r.gov>0).map(r=>`
+  const rows = FC.national.filter(r=>r.sen2027>0||r.gov>0);
+  const body = rows.map(r=>`
     <div class="natrow">
       <strong>${esc(r.party)}</strong>
       <b>${r.hold}</b><div class="bar"><i style="width:${100*r.hold/27}%;background:${partyColor(r.party)}"></i></div>
@@ -117,7 +166,7 @@ function nationalPanel(){
 }
 
 /* ---------- controles ---------- */
-function controlsBar(office){
+function controlsBar(){
   const ufs = Object.keys(FC.states).sort((a,b)=>FC.states[a].estado.localeCompare(FC.states[b].estado,'pt-BR'));
   const opt = ufs.map(uf=>`<option value="${uf}" ${filters.uf===uf?'selected':''}>${esc(FC.states[uf].estado)}</option>`).join('');
   const blocs = BLOC_ORDER.map(b=>`<option value="${b}" ${filters.bloc===b?'selected':''}>${esc(blocLabel(b))}</option>`).join('');
@@ -128,13 +177,13 @@ function controlsBar(office){
     <label class="check"><input type="checkbox" id="f-out" ${filters.showOut?'checked':''}> mostrar retirados/não testados</label>
   </div>`;
 }
-function wireControls(office){
-  $('#f-uf').onchange = e=>{ filters.uf=e.target.value; refresh(office); };
-  $('#f-bloc').onchange = e=>{ filters.bloc=e.target.value; refresh(office); };
-  $('#f-q').oninput = e=>{ filters.q=e.target.value.toLowerCase(); refresh(office); };
-  $('#f-out').onchange = e=>{ filters.showOut=e.target.checked; refresh(office); };
+function wireControls(){
+  $('#f-uf').onchange = e=>{ filters.uf=e.target.value; refresh(); };
+  $('#f-bloc').onchange = e=>{ filters.bloc=e.target.value; refresh(); };
+  $('#f-q').oninput = e=>{ filters.q=e.target.value.toLowerCase(); refresh(); };
+  $('#f-out').onchange = e=>{ filters.showOut=e.target.checked; refresh(); };
 }
-function refresh(office){ $('#states').innerHTML = statesList(office); }
+function refresh(){ $('#states').innerHTML = statesList(office()); wireDetails(); }
 
 /* ---------- estados ---------- */
 function candMatch(c){
@@ -143,64 +192,99 @@ function candMatch(c){
   if(filters.q && !(`${c.name} ${c.party}`.toLowerCase().includes(filters.q))) return false;
   return true;
 }
-function statesList(office){
+function statesList(off){
   const ufs = Object.keys(FC.states).sort((a,b)=>FC.states[a].estado.localeCompare(FC.states[b].estado,'pt-BR'))
     .filter(uf=>filters.uf==='ALL'||filters.uf===uf);
-  const out = ufs.map(uf=>stateCard(uf, office)).filter(Boolean).join('');
+  const out = ufs.map(uf=>stateCard(uf, off)).filter(Boolean).join('');
   return out || `<p class="loading">Nenhum resultado com esses filtros.</p>`;
 }
-function stateCard(uf, office){
-  const st = FC.states[uf], o = st[office];
+function stateCard(uf, off){
+  const st = FC.states[uf], o = st[off];
   const cands = o.candidates.filter(candMatch);
   if(!cands.length) return '';
-  const label = office==='governor' ? 'Governador' : 'Senado · 2 vagas';
+  const label = off==='governor' ? 'Governador' : 'Senado · 2 vagas';
   return `<section class="state" id="state-${uf}">
     <div class="state-head"><h2>${esc(st.estado)} · ${label}</h2></div>
-    ${estimateBox(uf, office)}
-    ${office==='senate' ? competeBand(o) : ''}
-    <div class="cards">${cands.map(c=>candRow(c, office)).join('')}</div>
+    ${estimateBox(uf, off)}
+    ${off==='senate' ? competeBand(o) : ''}
+    <div class="cards">${cands.map(c=>candRow(c, off)).join('')}</div>
   </section>`;
 }
-function estimateBox(uf, office){
-  const o = FC.states[uf][office];
-  const who = office==='governor'
+function estimateBox(uf, off){
+  const o = FC.states[uf][off];
+  const who = off==='governor'
     ? (o.estimate ? `<span class="blocchip" style="background:${blocColor(o.estimate.bloc)}">${esc(blocLabel(o.estimate.bloc))}</span> <strong>${esc(o.estimate.name)}</strong> <span class="badge" style="background:${partyColor(o.estimate.party)}">${esc(o.estimate.party)}</span>` : '—')
     : o.estimate.map(e=>`<span class="blocchip" style="background:${blocColor(e.bloc)}">${esc(e.party)}</span> <strong>${esc(e.name)}</strong>`).join(' &nbsp;+&nbsp; ');
-  const w = office==='governor'
+  const w = off==='governor'
     ? `pesos: governador ${(o.weights.gov*100|0)}% · presidente ${(o.weights.pres*100|0)}%`
     : `pesos: Senado ${(o.weights.senado*100|0)}% · gov. ${(o.weights.governo*100|0)}% · pres. ${(o.weights.presidente*100|0)}% · apoio ${(o.weights.apoio*100|0)}%`;
   return `<div class="estimate">
-    <div><strong>★ ${office==='governor'?'Governador estimado':'Senadores estimados'}</strong>
+    <div><strong>★ ${off==='governor'?'Governador estimado':'Senadores estimados'}</strong>
       <div class="who">${who}</div><div class="meta2">${w}${o.stale?' · <span class="pill stale">pode estar desatualizado</span>':''}</div></div>
     <div class="certainty"><span class="muted">certeza</span><b>${esc(o.certainty||'—')}</b>${o.may_change?`<div class="muted">${o.may_change}% podem mudar</div>`:''}</div>
   </div>`;
 }
 function competeBand(o){
-  const polled = o.candidates.filter(c=>c.active && typeof c.pct==='number').sort((a,b)=>b.pct-a.pct).slice(0,4);
+  const polled = o.candidates.filter(c=>c.active && num(c.pct)).sort((a,b)=>b.pct-a.pct).slice(0,4);
   if(polled.length<2) return '';
   return `<div class="compete"><b>Pesquisa do Senado — faixa competitiva</b>
     <div class="chips">${polled.map(c=>`<span class="chip">${esc(c.name)} · ${esc(c.pctDisplay)}</span>`).join('')}</div></div>`;
 }
-function candRow(c, office){
+function candRow(c, off){
   const comps = c.components || {};
   const compBar = Object.keys(COMP_COLOR).filter(k=>comps[k]>0)
-    .map(k=>`<i style="flex:${comps[k]};background:${COMP_COLOR[k]}" title="${k}: ${comps[k]}"></i>`).join('');
-  const pctBar = typeof c.pct==='number' ? `<div class="pollbar"><i style="width:${Math.min(100,c.pct)}%"></i></div>` : '';
-  const est = c.estimated ? `<span class="won">★ estimado · ${esc(c.certainty_preview||FC.states[c.uf]?.[office]?.certainty||'')}</span>` : '';
-  const apoio = c.apoio_verificado
-    ? `<span class="win-badge">${esc(c.apoio)}</span>`
-    : (c.apoio ? esc(c.apoio) : 'apoio não verificado');
+    .map(k=>`<i style="flex:${comps[k]};background:${COMP_COLOR[k]}" title="${COMP_LABEL[k]}: ${comps[k]}"></i>`).join('');
+  const pctBar = num(c.pct) ? `<div class="pollbar"><i style="width:${Math.min(100,c.pct)}%"></i></div>` : '';
+  const est = c.estimated ? `<span class="won">★ estimado · ${esc(c.certainty_preview||'')}</span>` : '';
+  const apoio = c.apoio_verificado ? `<span class="win-badge">${esc(c.apoio)}</span>` : (c.apoio ? esc(c.apoio) : 'apoio não verificado');
   const src = c.fonte ? ` · <a class="src" href="${esc(c.fonte)}" target="_blank" rel="noopener">pesquisa ↗</a>` : '';
-  return `<div class="cand ${c.estimated?'est':''} ${c.active?'':'out'}">
-    <div>
+  const key = `${c.uf}|${c.cargo}|${c.name}`;
+  const open = openCards.has(key);
+  return `<div class="cand ${c.estimated?'est':''} ${c.active?'':'out'} ${open?'open':''}" data-key="${esc(key)}">
+    <div class="cand-main">
       <div class="name">${esc(c.name)} <span class="badge" style="background:${partyColor(c.party)}">${esc(c.party)}</span>
         <span class="blocchip" style="background:${blocColor(c.bloc)}">${esc(blocLabel(c.bloc))}</span></div>
       <div class="meta2">${apoio} · ${esc(c.instituto||'')} ${esc(c.campo||'')}${src}</div>
       ${est?`<div style="margin-top:4px">${est}</div>`:''}
     </div>
     <div class="pollbox"><div class="pct">${esc(c.pctDisplay||'—')}</div>${pctBar}</div>
-    <div class="scorebox"><div class="score">${Math.round(c.score)}<small>índice</small></div><div class="comp">${compBar}</div></div>
+    <div class="scorebox"><div class="score">${Math.round(c.score)}<small>índice</small></div><div class="comp">${compBar}</div>
+      <button class="det-toggle" data-key="${esc(key)}">${open?'ocultar':'como foi calculado ▾'}</button></div>
+    <div class="cand-detail">${open?factorDetail(c, off):''}</div>
   </div>`;
+}
+function factorDetail(c, off){
+  const m = c.model; if(!m) return '<div class="muted">Sem detalhamento (candidato sem índice).</div>';
+  const sc=m.scores, cp=c.components, w=m.weights, inp=m.inputs;
+  const line = (label, input, key, note) =>
+    `<div class="frow"><div class="fl"><b>${label}</b> <span class="fi">${input}</span>${note?`<div class="fnote">${note}</div>`:''}</div>
+      <div class="fc">S ${Math.round(sc[key]??0)} × ${Math.round((w[key==='governo'?'governo':key]??w[key])*100)}% = <b>${(cp[key]??0).toFixed(1)}</b></div></div>`;
+  let rows;
+  if(off==='governor'){
+    rows = [
+      line('Pesquisa do governador', inp.gov_pct!=null?fpct(inp.gov_pct):'sem pesquisa', 'governo'),
+      line('Presidente no estado', `${esc(blocLabel(inp.pres_bloc))} ${inp.pres_pct!=null?fpct(inp.pres_pct):'—'}`, 'presidente',
+           'Usa o % REAL do bloco (não 0/1): 5pp de vantagem entram proporcionalmente.'),
+    ];
+  } else {
+    rows = [
+      line('Governador da chapa', `${esc(inp.gov_ticket||'—')}${inp.gov_pct!=null?' · '+fpct(inp.gov_pct):''}`, 'governo'),
+      line('Presidente no estado', `${esc(blocLabel(inp.pres_bloc))} ${inp.pres_pct!=null?fpct(inp.pres_pct):'—'}`, 'presidente',
+           'Usa o % REAL do bloco (não 0/1): 5pp de vantagem entram proporcionalmente.'),
+      line('Pesquisa do Senado', `normalizada em ${Math.round(inp.sen_norm||0)}/100 (líder do estado = 100)`, 'senado'),
+      line('Apoio / chapa', esc(inp.endorsement||'—'), 'apoio'),
+    ];
+  }
+  return `<div class="detail-inner">${rows.join('')}
+    <div class="frow ftot"><div class="fl"><b>Índice</b></div><div class="fc"><b>${Math.round(c.score)}</b> (0–100, para ordenar — não é probabilidade)</div></div></div>`;
+}
+function wireDetails(){
+  document.querySelectorAll('.det-toggle').forEach(b=>b.onclick=(e)=>{
+    e.stopPropagation();
+    const key=b.dataset.key;
+    if(openCards.has(key)) openCards.delete(key); else openCards.add(key);
+    refresh();
+  });
 }
 
 /* ---------- presidente ---------- */
@@ -215,7 +299,7 @@ function renderPresident(){
       <div class="meta2">Lula ${l.Lula??'—'}% · Flávio ${l['Flávio']??'—'}% <span class="muted">(${esc(l.basis||'')})</span></div></div>`;
   }).join('');
   return `<section class="panel note"><h2 style="margin-top:0">Disputa presidencial — agregado nacional</h2>
-    <p class="desc" style="margin:0">O agregado nacional (poll-of-polls, 1º e 2º turno) será preenchido automaticamente pelo coletor do agregador (president.py). Por enquanto, veja abaixo a inclinação presidencial por estado, que alimenta os modelos de governador e senado.</p></section>
+    <p class="desc" style="margin:0">O agregado nacional (poll-of-polls, 1º e 2º turno) será preenchido automaticamente pelo coletor do agregador. Por enquanto, veja abaixo a inclinação presidencial por estado, que alimenta os modelos de governador e senado — sempre com o percentual real.</p></section>
   <section class="panel"><h2>Inclinação presidencial por estado</h2>
     <p class="desc">Barra proporcional ao 2º turno estimado por estado (pesquisa estadual quando há; senão proxy de 2022).</p>
     <div class="pres-lean">${cards}</div></section>`;

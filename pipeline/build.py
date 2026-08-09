@@ -55,7 +55,13 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
             pres_pct=pres_pct, pres_reliability=pres_reliability(basis),
             w_gov=gw.gov, w_pres=gw.pres,
         )
-        govs.append({**_public(r), **res})
+        govs.append({**_public(r), "score": res["score"], "components": res["components"],
+                     "model": {
+                         "scores": res["scores"],
+                         "weights": {"governo": round(gw.gov, 3), "presidente": round(gw.pres, 3)},
+                         "inputs": {"gov_pct": r.get("pct"), "gov_reliability": 1.0,
+                                    "pres_pct": pres_pct, "pres_reliability": pres_reliability(basis),
+                                    "pres_bloc": r["bloc"], "pres_basis": basis}}})
     govs.sort(key=lambda c: c["score"], reverse=True)
 
     gov_estimate = next((c for c in govs if c["active"]), None)
@@ -74,7 +80,15 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
             sen_norm=r.get("sen_norm") or 0.0, endorsement=r.get("endorsement"),
             weights=weights,
         )
-        sens.append({**_public(r), **res})
+        sens.append({**_public(r), "score": res["score"], "components": res["components"],
+                     "model": {
+                         "scores": res["scores"],
+                         "weights": weights,
+                         "inputs": {"gov_pct": r.get("gov_pct"), "gov_reliability": r.get("gov_reliability") or 0.78,
+                                    "pres_pct": r.get("pres_pct"), "pres_reliability": r.get("pres_reliability") or 0.65,
+                                    "pres_bloc": r["bloc"], "pres_basis": basis,
+                                    "sen_norm": r.get("sen_norm"), "gov_ticket": r.get("gov_ticket"),
+                                    "endorsement": r.get("endorsement")}}})
     sens.sort(key=lambda c: c["score"], reverse=True)
 
     sen_estimate = [c for c in sens if c["active"]][:2]
@@ -196,7 +210,7 @@ def main():
     n_states = len(states)
     n_est_sen = sum(len(s["senate"]["estimate"]) for s in states.values())
     print(f"OK: {n_states} estados, {n_est_sen} senadores estimados, {days} dias até a eleição.")
-    print("  -> web/data/forecast.json, web/data/president.json, web/data/parties.json")
+    print("  -> docs/data/forecast.json, docs/data/president.json, docs/data/parties.json")
 
 
 if __name__ == "__main__":
