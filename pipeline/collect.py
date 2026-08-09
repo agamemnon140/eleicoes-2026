@@ -81,15 +81,16 @@ def collect_fresh(roster: dict) -> dict:
             wiki_states.add(uf)
     print(f"  Wikipedia: {len(wiki_states)} estados ({', '.join(sorted(wiki_states))})")
 
-    # 2) Gazeta do Povo (portais, cobre o que a Wikipedia não tabula)
+    # 2) Gazeta do Povo (portais, cobre o que a Wikipedia não tabula), paginando o índice
     gsx = requests.Session(); gsx.headers.update(gz.UA)
     gz_states = set()
-    for uf, url in gz.discover(gsx, estados).items():
-        recs = gz.collect_url(uf, roster["states"][uf], url, gsx)
-        for r in recs:
-            keep_newer(r)
-        if recs:
-            gz_states.add(uf)
+    for uf, urls in gz.discover(gsx, estados).items():
+        for url in urls:
+            recs = gz.collect_url(uf, roster["states"][uf], url, gsx)
+            for r in recs:
+                keep_newer(r)
+            if recs:
+                gz_states.add(uf)
     print(f"  Gazeta: {len(gz_states)} estados ({', '.join(sorted(gz_states))})")
 
     covered = wiki_states | gz_states

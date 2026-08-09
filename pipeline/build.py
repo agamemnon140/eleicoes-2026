@@ -125,7 +125,7 @@ def _public(r: dict) -> dict:
     """Campos de exibição que o front usa (sem os internos do modelo)."""
     keep = ("uf", "cargo", "name", "party", "bloc", "apoio", "apoio_verificado", "pct",
             "pctDisplay", "instituto", "campo", "cenario", "indecisao", "situacao", "fonte",
-            "status", "status_tipo", "active", "gov_ticket", "may_change",
+            "status", "status_tipo", "active", "gov_ticket", "may_change", "source",
             "estimated_preview", "certainty_preview")
     return {k: r.get(k) for k in keep}
 
