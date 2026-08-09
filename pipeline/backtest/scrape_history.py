@@ -126,37 +126,45 @@ def parse_senate_polls(html: str) -> dict | None:
     return None
 
 
-def parse_senate_results(html: str, poll_cands, seats: int):
-    """Top-N candidatos por votos na tabela de RESULTADO do Senado (casada com os da pesquisa)."""
+def parse_senate_results(html: str, seats: int):
+    """Top-N eleitos (por votos) na tabela de RESULTADO do Senado. Retorna nomes completos."""
     soup = BeautifulSoup(html, "lxml")
-    poll_low = [strip_accents(c).lower() for c in poll_cands]
-    best, best_overlap = None, 0
+    best, best_rows = None, 0
     for t in soup.select("table.wikitable"):
-        head = " ".join(strip_accents(c.get_text()).lower()
-                        for c in (t.find("tr").find_all(["th", "td"]) if t.find("tr") else []))
-        if "votos" not in head or "instituto" in head:
+        grid = table_to_grid(t)
+        if len(grid) < 2:
+            continue
+        header = [strip_accents(h).lower() for h in grid[0]]
+        hjoined = " ".join(header)
+        heading = t.find_previous(["h2", "h3", "h4"])
+        htx = strip_accents(heading.get_text(" ", strip=True)).lower() if heading else ""
+        is_sen = ("senad" in htx or "senador" in hjoined)
+        if not is_sen or "instituto" in hjoined:
+            continue
+        if any(x in htx + " " + hjoined for x in ("governad", "deputad", "presiden")):
+            continue
+        vcol = next((i for i, h in enumerate(header)
+                     if ("votos" in h or "votacao" in h) and "%" not in h and "porcent" not in h), None)
+        ncol = next((i for i, h in enumerate(header)
+                     if any(k in h for k in ("candidato", "senador", "nome"))), None)
+        if vcol is None or ncol is None:
             continue
         rows = []
-        for tr in t.find_all("tr")[1:]:
-            cells = [c.get_text(" ", strip=True) for c in tr.find_all(["th", "td"])]
-            votes = max([int(re.sub(r"[^\d]", "", x)) for x in cells
-                         if len(re.sub(r"[^\d]", "", x)) >= 4] or [-1])
-            if votes < 0:
+        for row in grid[1:]:
+            if vcol >= len(row) or ncol >= len(row):
                 continue
-            name = None
-            joined = strip_accents(" ".join(cells)).lower()
-            for pc in poll_low:
-                if pc and pc in joined:
-                    name = pc
-                    break
-            rows.append((name, votes))
-        overlap = sum(1 for n, _ in rows if n)
-        if overlap > best_overlap:
-            best, best_overlap = rows, overlap
-    if not best or best_overlap < seats:
+            vd = re.sub(r"[^\d]", "", row[vcol])
+            name = re.sub(r"\[.*?\]", "", row[ncol]).strip()
+            nl = strip_accents(name).lower()
+            if len(vd) < 4 or not name or nl.startswith(("tota", "branco", "nulo", "absten")):
+                continue
+            rows.append((name, int(vd)))
+        if len(rows) > best_rows:
+            best, best_rows = rows, len(rows)
+    if not best or best_rows < seats:
         return None
     best.sort(key=lambda r: -r[1])
-    return [n for n, _ in best if n][:seats]
+    return [n for n, _ in best[:seats]]
 
 
 if __name__ == "__main__":

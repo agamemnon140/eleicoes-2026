@@ -36,11 +36,9 @@ def build_case(estado, session):
     cands = [c for c in polls["candidates"] if strip_accents(c).lower() not in POLLSTERS]
     if len(cands) < SEATS + 1:
         return None
-    winners = sh.parse_senate_results(html, cands, SEATS)
-    cand_low = {strip_accents(c).lower() for c in cands}
-    if (not winners or len(set(winners)) < SEATS
-            or not all(w in cand_low for w in winners)):
-        return None   # vencedores duvidosos (lixo/duplicado/fora da lista) -> descarta o estado
+    winners = sh.parse_senate_results(html, SEATS)   # nomes completos, top-N por votos
+    if not winners or len(set(winners)) < SEATS:
+        return None
     series = sorted(polls["series"], key=lambda r: _doy(r["key"]))
     final = series[-1]
     earlier = next((p for p in reversed(series[:-1]) if _doy(final["key"]) - _doy(p["key"]) >= 14), None)
