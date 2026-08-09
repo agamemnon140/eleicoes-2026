@@ -39,8 +39,18 @@ quem sobe nas pesquisas recentes) recupera as viradas documentadas (2/8 → 7/8)
 (a literatura mostra que indecisos/terceira via decidem nas últimas 2 semanas), mas o teste é
 **in-sample** (as trajetórias refletem o resultado conhecido) e parte do momentum é ruído/reversão.
 Por isso o momentum entra como termo **pequeno e time-gated** (ativo só nos últimos ~14 dias),
-calculado a partir da **série real** de snapshots que o coletor acumula — dormente a 56 dias da
-eleição. Validação out-of-sample exige o scrape histórico completo (viável: a pt.wiki tem as séries).
+calculado a partir da **série real** de snapshots que o coletor acumula — dormente a 56 dias da eleição.
+
+**Tentativa de validação out-of-sample (2018):** construímos o scraper histórico
+(`pipeline/backtest/scrape_history.py` + `backtest_oos.py`) que raspa a série de pesquisas ao Senado
+da Wikipedia PT (cobertura ~12/15 estados) e o momentum REAL (pesquisa final − de ~3 semanas antes).
+**Resultado honesto:** a extração dos VENCEDORES das tabelas de resultado da Wikipedia é
+**inconsistente/pouco confiável** (formatos variados; alguns estados retornaram vencedores errados),
+reduzindo a amostra a poucos estados. Nessa amostra pequena e imperfeita, o momentum **não melhorou** a
+previsão (flat) — coerente com a suspeita de que o ganho in-sample era viés de seleção, mas os dados
+não permitem conclusão firme. **Portanto o momentum segue conservador e dormente, não validado OOS.**
+Uma validação definitiva exigiria uma fonte oficial e limpa de resultados (ex.: dados do TSE), o que
+fica mapeado como próximo passo.
 
 ## Estrutura
 
