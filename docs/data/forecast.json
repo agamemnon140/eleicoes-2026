@@ -120,7 +120,7 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -136,7 +136,7 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -220,10 +220,10 @@
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 1.0,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -269,10 +269,10 @@
        "inputs": {
         "gov_pct": 33.1,
         "gov_reliability": 1.0,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -318,10 +318,10 @@
        "inputs": {
         "gov_pct": 18.5,
         "gov_reliability": 1.0,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -350,15 +350,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 17.9,
+      "score": 18.1,
       "components": {
        "governo": 14.4,
-       "presidente": 3.5
+       "presidente": 3.7
       },
       "model": {
        "scores": {
         "governo": 16.166666666666668,
-        "presidente": 32.175000000000004
+        "presidente": 33.69166666666667
        },
        "weights": {
         "governo": 0.89,
@@ -367,10 +367,10 @@
        "inputs": {
         "gov_pct": 9.7,
         "gov_reliability": 1.0,
-        "pres_pct": 29.7,
+        "pres_pct": 31.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -460,10 +460,10 @@
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 0.78,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Mailza Assis",
         "endorsement": "explícito"
@@ -523,10 +523,10 @@
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 0.78,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 87.864078,
         "gov_ticket": "Mailza Assis",
         "endorsement": "explícito"
@@ -586,10 +586,10 @@
        "inputs": {
         "gov_pct": 35.2,
         "gov_reliability": 0.78,
-        "pres_pct": 70.3,
+        "pres_pct": 68.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 89.805825,
         "gov_ticket": "Mailza Assis",
         "endorsement": "inferido"
@@ -621,17 +621,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 35.3,
+      "score": 35.7,
       "components": {
        "governo": 3.8,
-       "presidente": 8.4,
+       "presidente": 8.8,
        "senado": 18.5,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 12.610000000000001,
-        "presidente": 32.175000000000004,
+        "presidente": 33.69166666666667,
         "senado": 55.339806,
         "apoio": 45.0
        },
@@ -649,10 +649,10 @@
        "inputs": {
         "gov_pct": 9.7,
         "gov_reliability": 0.78,
-        "pres_pct": 29.7,
+        "pres_pct": 31.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 55.339806,
         "gov_ticket": "Thor Dantas",
         "endorsement": "inferido"
@@ -715,7 +715,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 48.058252,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -778,7 +778,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 31.067961,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -841,7 +841,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -914,7 +914,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -943,15 +943,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 67.8,
+      "score": 68.0,
       "components": {
        "governo": 60.8,
-       "presidente": 7.0
+       "presidente": 7.2
       },
       "model": {
        "scores": {
         "governo": 68.33333333333334,
-        "presidente": 63.591666666666676
+        "presidente": 65.0
        },
        "weights": {
         "governo": 0.89,
@@ -960,10 +960,10 @@
        "inputs": {
         "gov_pct": 41.0,
         "gov_reliability": 1.0,
-        "pres_pct": 58.7,
+        "pres_pct": 60.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -992,15 +992,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 64.8,
+      "score": 64.7,
       "components": {
        "governo": 59.9,
-       "presidente": 4.9
+       "presidente": 4.8
       },
       "model": {
        "scores": {
         "governo": 67.33333333333333,
-        "presidente": 44.74166666666667
+        "presidente": 43.225
        },
        "weights": {
         "governo": 0.89,
@@ -1009,10 +1009,10 @@
        "inputs": {
         "gov_pct": 40.4,
         "gov_reliability": 1.0,
-        "pres_pct": 41.3,
+        "pres_pct": 39.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -1040,13 +1040,13 @@
       "name": "Arthur Lira",
       "party": "PP",
       "bloc": "Flávio",
-      "score": 78.4
+      "score": 78.0
      },
      {
       "name": "Renan Calheiros",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 67.9
+      "score": 68.3
      }
     ],
     "candidates": [
@@ -1074,17 +1074,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 78.4,
+      "score": 78.0,
       "components": {
        "governo": 23.3,
-       "presidente": 11.7,
+       "presidente": 11.3,
        "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 76.5,
-        "presidente": 44.74166666666667,
+        "presidente": 43.225,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -1102,10 +1102,10 @@
        "inputs": {
         "gov_pct": 45.9,
         "gov_reliability": 1.0,
-        "pres_pct": 41.3,
+        "pres_pct": 39.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "JHC",
         "endorsement": "explícito"
@@ -1137,17 +1137,17 @@
       "source": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 67.9,
+      "score": 68.3,
       "components": {
        "governo": 16.2,
-       "presidente": 16.6,
+       "presidente": 17.0,
        "senado": 30.6,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 53.30000000000001,
-        "presidente": 63.591666666666676,
+        "presidente": 65.0,
         "senado": 91.457286,
         "apoio": 45.0
        },
@@ -1165,10 +1165,10 @@
        "inputs": {
         "gov_pct": 41.0,
         "gov_reliability": 0.78,
-        "pres_pct": 58.7,
+        "pres_pct": 60.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 91.457286,
         "gov_ticket": "Renan Filho",
         "endorsement": "inferido"
@@ -1200,17 +1200,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.8,
+      "score": 39.4,
       "components": {
        "governo": 18.2,
-       "presidente": 11.7,
+       "presidente": 11.3,
        "senado": 0.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 59.67,
-        "presidente": 44.74166666666667,
+        "presidente": 43.225,
         "senado": 0.0,
         "apoio": 100.0
        },
@@ -1228,10 +1228,10 @@
        "inputs": {
         "gov_pct": 45.9,
         "gov_reliability": 0.78,
-        "pres_pct": 41.3,
+        "pres_pct": 39.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "JHC",
         "endorsement": "explícito"
@@ -1263,17 +1263,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 16.2,
+      "score": 15.8,
       "components": {
        "governo": 0.0,
-       "presidente": 11.7,
+       "presidente": 11.3,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 44.74166666666667,
+        "presidente": 43.225,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -1291,10 +1291,10 @@
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
-        "pres_pct": 41.3,
+        "pres_pct": 39.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": null,
         "gov_ticket": null,
         "endorsement": "inferido"
@@ -1316,7 +1316,7 @@
      "name": "Omar Aziz",
      "party": "PSD",
      "bloc": "Lula",
-     "score": 46.1
+     "score": 46.3
     },
     "weights": {
      "gov": 0.89,
@@ -1347,15 +1347,15 @@
       "source": null,
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 46.1,
+      "score": 46.3,
       "components": {
        "governo": 40.0,
-       "presidente": 6.1
+       "presidente": 6.3
       },
       "model": {
        "scores": {
         "governo": 45.0,
-        "presidente": 55.35833333333334
+        "presidente": 56.875
        },
        "weights": {
         "governo": 0.89,
@@ -1364,10 +1364,10 @@
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 1.0,
-        "pres_pct": 51.1,
+        "pres_pct": 52.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -1396,15 +1396,15 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 40.5,
+      "score": 40.4,
       "components": {
        "governo": 34.7,
-       "presidente": 5.8
+       "presidente": 5.7
       },
       "model": {
        "scores": {
         "governo": 39.0,
-        "presidente": 52.975
+        "presidente": 51.458333333333336
        },
        "weights": {
         "governo": 0.89,
@@ -1413,10 +1413,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 1.0,
-        "pres_pct": 48.9,
+        "pres_pct": 47.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -1465,7 +1465,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -1493,13 +1493,13 @@
       "name": "Eduardo Braga",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 63.1
+      "score": 63.5
      },
      {
       "name": "Capitão Alberto Neto",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 53.9
+      "score": 53.5
      }
     ],
     "candidates": [
@@ -1527,17 +1527,17 @@
       "source": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 63.1,
+      "score": 63.5,
       "components": {
        "governo": 10.7,
-       "presidente": 14.4,
+       "presidente": 14.8,
        "senado": 33.5,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 35.1,
-        "presidente": 55.35833333333334,
+        "presidente": 56.875,
         "senado": 100.0,
         "apoio": 45.0
        },
@@ -1555,10 +1555,10 @@
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 0.78,
-        "pres_pct": 51.1,
+        "pres_pct": 52.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Omar Aziz",
         "endorsement": "inferido"
@@ -1590,17 +1590,17 @@
       "source": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 53.9,
+      "score": 53.5,
       "components": {
        "governo": 9.3,
-       "presidente": 13.8,
+       "presidente": 13.4,
        "senado": 20.8,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 52.975,
+        "presidente": 51.458333333333336,
         "senado": 62.055336,
         "apoio": 100.0
        },
@@ -1618,10 +1618,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 48.9,
+        "pres_pct": 47.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 62.055336,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "explícito"
@@ -1653,17 +1653,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 47.8,
+      "score": 47.4,
       "components": {
        "governo": 9.3,
-       "presidente": 13.8,
+       "presidente": 13.4,
        "senado": 20.2,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 52.975,
+        "presidente": 51.458333333333336,
         "senado": 60.474308,
         "apoio": 45.0
        },
@@ -1681,10 +1681,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 48.9,
+        "pres_pct": 47.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 60.474308,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "inferido"
@@ -1716,17 +1716,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 40.5,
+      "score": 40.2,
       "components": {
        "governo": 9.3,
-       "presidente": 13.8,
+       "presidente": 13.4,
        "senado": 13.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 52.975,
+        "presidente": 51.458333333333336,
         "senado": 38.735178,
         "apoio": 45.0
        },
@@ -1744,10 +1744,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 48.9,
+        "pres_pct": 47.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 38.735178,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "inferido"
@@ -1779,17 +1779,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.4,
+      "score": 39.8,
       "components": {
        "governo": 10.7,
-       "presidente": 14.4,
+       "presidente": 14.8,
        "senado": 9.8,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 35.1,
-        "presidente": 55.35833333333334,
+        "presidente": 56.875,
         "senado": 29.249012,
         "apoio": 45.0
        },
@@ -1807,10 +1807,10 @@
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 0.78,
-        "pres_pct": 51.1,
+        "pres_pct": 52.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 29.249012,
         "gov_ticket": "Omar Aziz",
         "endorsement": "inferido"
@@ -1832,7 +1832,7 @@
      "name": "Dr. Furlan",
      "party": "PSD",
      "bloc": "Flávio",
-     "score": 94.8
+     "score": 94.6
     },
     "weights": {
      "gov": 0.89,
@@ -1863,15 +1863,15 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 94.8,
+      "score": 94.6,
       "components": {
        "governo": 89.0,
-       "presidente": 5.8
+       "presidente": 5.6
       },
       "model": {
        "scores": {
         "governo": 100.0,
-        "presidente": 52.65
+        "presidente": 51.13333333333334
        },
        "weights": {
         "governo": 0.89,
@@ -1880,10 +1880,10 @@
        "inputs": {
         "gov_pct": 66.0,
         "gov_reliability": 1.0,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -1912,15 +1912,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 50.6,
+      "score": 50.8,
       "components": {
        "governo": 44.5,
-       "presidente": 6.1
+       "presidente": 6.3
       },
       "model": {
        "scores": {
         "governo": 50.0,
-        "presidente": 55.68333333333334
+        "presidente": 57.2
        },
        "weights": {
         "governo": 0.89,
@@ -1929,10 +1929,10 @@
        "inputs": {
         "gov_pct": 30.0,
         "gov_reliability": 1.0,
-        "pres_pct": 51.4,
+        "pres_pct": 52.8,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -1961,15 +1961,15 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 5.8,
+      "score": 5.6,
       "components": {
        "governo": 0.0,
-       "presidente": 5.8
+       "presidente": 5.6
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 52.65
+        "presidente": 51.13333333333334
        },
        "weights": {
         "governo": 0.89,
@@ -1978,10 +1978,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 1.0,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -2009,13 +2009,13 @@
       "name": "Rayssa Furlan",
       "party": "Podemos",
       "bloc": "Flávio",
-      "score": 87.6
+      "score": 87.3
      },
      {
       "name": "Lucas Barreto",
       "party": "PSD",
       "bloc": "Flávio",
-      "score": 60.0
+      "score": 59.6
      }
     ],
     "candidates": [
@@ -2043,17 +2043,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 87.6,
+      "score": 87.3,
       "components": {
        "governo": 30.4,
-       "presidente": 13.7,
+       "presidente": 13.3,
        "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 100.0,
-        "presidente": 52.65,
+        "presidente": 51.13333333333334,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -2071,10 +2071,10 @@
        "inputs": {
         "gov_pct": 66.0,
         "gov_reliability": 1.0,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Dr. Furlan",
         "endorsement": "explícito"
@@ -2106,17 +2106,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 60.0,
+      "score": 59.6,
       "components": {
        "governo": 23.7,
-       "presidente": 13.7,
+       "presidente": 13.3,
        "senado": 12.6,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 78.0,
-        "presidente": 52.65,
+        "presidente": 51.13333333333334,
         "senado": 37.5,
         "apoio": 100.0
        },
@@ -2134,10 +2134,10 @@
        "inputs": {
         "gov_pct": 66.0,
         "gov_reliability": 0.78,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 37.5,
         "gov_ticket": "Dr. Furlan",
         "endorsement": "explícito"
@@ -2169,17 +2169,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 49.7,
+      "score": 50.1,
       "components": {
        "governo": 11.9,
-       "presidente": 14.5,
+       "presidente": 14.9,
        "senado": 18.8,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 39.0,
-        "presidente": 55.68333333333334,
+        "presidente": 57.2,
         "senado": 56.25,
         "apoio": 45.0
        },
@@ -2197,10 +2197,10 @@
        "inputs": {
         "gov_pct": 30.0,
         "gov_reliability": 0.78,
-        "pres_pct": 51.4,
+        "pres_pct": 52.8,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 56.25,
         "gov_ticket": "Clécio Luís",
         "endorsement": "inferido"
@@ -3819,7 +3819,7 @@
      "name": "Ricardo Ferraço",
      "party": "MDB",
      "bloc": "Lula",
-     "score": 36.2
+     "score": 36.3
     },
     "weights": {
      "gov": 0.89,
@@ -3850,15 +3850,15 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 36.2,
+      "score": 36.3,
       "components": {
        "governo": 31.1,
-       "presidente": 5.0
+       "presidente": 5.2
       },
       "model": {
        "scores": {
         "governo": 35.0,
-        "presidente": 45.5
+        "presidente": 47.016666666666666
        },
        "weights": {
         "governo": 0.89,
@@ -3867,10 +3867,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 1.0,
-        "pres_pct": 42.0,
+        "pres_pct": 43.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -3899,15 +3899,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 35.1,
+      "score": 34.9,
       "components": {
        "governo": 28.2,
-       "presidente": 6.9
+       "presidente": 6.8
       },
       "model": {
        "scores": {
         "governo": 31.666666666666668,
-        "presidente": 62.833333333333336
+        "presidente": 61.31666666666668
        },
        "weights": {
         "governo": 0.89,
@@ -3916,10 +3916,10 @@
        "inputs": {
         "gov_pct": 19.0,
         "gov_reliability": 1.0,
-        "pres_pct": 58.0,
+        "pres_pct": 56.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -3968,7 +3968,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -3996,13 +3996,13 @@
       "name": "Renato Casagrande",
       "party": "PSB",
       "bloc": "Lula",
-      "score": 62.7
+      "score": 63.0
      },
      {
       "name": "Maguinha Malta",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 50.6
+      "score": 50.3
      }
     ],
     "candidates": [
@@ -4030,17 +4030,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 62.7,
+      "score": 63.0,
       "components": {
        "governo": 8.3,
-       "presidente": 11.9,
+       "presidente": 12.3,
        "senado": 33.5,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 27.3,
-        "presidente": 45.5,
+        "presidente": 47.016666666666666,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -4058,10 +4058,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
-        "pres_pct": 42.0,
+        "pres_pct": 43.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Ricardo Ferraço",
         "endorsement": "chapa/aliança"
@@ -4093,17 +4093,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 50.6,
+      "score": 50.3,
       "components": {
        "governo": 7.5,
-       "presidente": 16.4,
+       "presidente": 16.0,
        "senado": 16.7,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 24.700000000000003,
-        "presidente": 62.833333333333336,
+        "presidente": 61.31666666666668,
         "senado": 50.0,
         "apoio": 100.0
        },
@@ -4121,10 +4121,10 @@
        "inputs": {
         "gov_pct": 19.0,
         "gov_reliability": 0.78,
-        "pres_pct": 58.0,
+        "pres_pct": 56.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 50.0,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "explícito"
@@ -4156,17 +4156,17 @@
       "source": null,
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 42.4,
+      "score": 42.0,
       "components": {
        "governo": 7.5,
-       "presidente": 16.4,
+       "presidente": 16.0,
        "senado": 13.9,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 24.700000000000003,
-        "presidente": 62.833333333333336,
+        "presidente": 61.31666666666668,
         "senado": 41.666667,
         "apoio": 45.0
        },
@@ -4184,10 +4184,10 @@
        "inputs": {
         "gov_pct": 19.0,
         "gov_reliability": 0.78,
-        "pres_pct": 58.0,
+        "pres_pct": 56.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 41.666667,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "inferido"
@@ -4219,17 +4219,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.5,
+      "score": 39.1,
       "components": {
        "governo": 7.5,
-       "presidente": 16.4,
+       "presidente": 16.0,
        "senado": 5.6,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 24.700000000000003,
-        "presidente": 62.833333333333336,
+        "presidente": 61.31666666666668,
         "senado": 16.666667,
         "apoio": 100.0
        },
@@ -4247,10 +4247,10 @@
        "inputs": {
         "gov_pct": 19.0,
         "gov_reliability": 0.78,
-        "pres_pct": 58.0,
+        "pres_pct": 56.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 16.666667,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "explícito"
@@ -4282,17 +4282,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 37.5,
+      "score": 37.9,
       "components": {
        "governo": 8.3,
-       "presidente": 11.9,
+       "presidente": 12.3,
        "senado": 8.4,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 27.3,
-        "presidente": 45.5,
+        "presidente": 47.016666666666666,
         "senado": 25.0,
         "apoio": 90.0
        },
@@ -4310,10 +4310,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
-        "pres_pct": 42.0,
+        "pres_pct": 43.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 25.0,
         "gov_ticket": "Ricardo Ferraço",
         "endorsement": "chapa/aliança"
@@ -4376,7 +4376,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 58.333333,
         "gov_ticket": null,
         "endorsement": "inferido"
@@ -5203,7 +5203,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -5249,10 +5249,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 1.0,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -5298,10 +5298,10 @@
        "inputs": {
         "gov_pct": 9.0,
         "gov_reliability": 1.0,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -5391,10 +5391,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Orleans Brandão",
         "endorsement": "chapa/aliança"
@@ -5454,10 +5454,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 92.857143,
         "gov_ticket": "Orleans Brandão",
         "endorsement": "chapa/aliança"
@@ -5517,10 +5517,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 92.857143,
         "gov_ticket": "Orleans Brandão",
         "endorsement": "chapa/aliança"
@@ -5580,10 +5580,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 71.428571,
         "gov_ticket": "Orleans Brandão",
         "endorsement": "chapa/aliança"
@@ -5643,10 +5643,10 @@
        "inputs": {
         "gov_pct": 31.0,
         "gov_reliability": 0.78,
-        "pres_pct": 71.1,
+        "pres_pct": 72.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 71.428571,
         "gov_ticket": "Orleans Brandão",
         "endorsement": "chapa/aliança"
@@ -5678,17 +5678,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 18.2,
+      "score": 17.8,
       "components": {
        "governo": 0.0,
-       "presidente": 8.2,
+       "presidente": 7.8,
        "senado": 0.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 31.308333333333334,
+        "presidente": 29.791666666666668,
         "senado": 0.0,
         "apoio": 100.0
        },
@@ -5706,10 +5706,10 @@
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
-        "pres_pct": 28.9,
+        "pres_pct": 27.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "explícito"
@@ -6772,7 +6772,7 @@
      "name": "Eduardo Riedel",
      "party": "PP",
      "bloc": "Flávio",
-     "score": 72.4
+     "score": 72.2
     },
     "weights": {
      "gov": 0.89,
@@ -6803,15 +6803,15 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 72.4,
+      "score": 72.2,
       "components": {
        "governo": 65.2,
-       "presidente": 7.1
+       "presidente": 6.9
       },
       "model": {
        "scores": {
         "governo": 73.33333333333334,
-        "presidente": 64.45833333333334
+        "presidente": 62.94166666666668
        },
        "weights": {
         "governo": 0.89,
@@ -6820,10 +6820,10 @@
        "inputs": {
         "gov_pct": 44.0,
         "gov_reliability": 1.0,
-        "pres_pct": 59.5,
+        "pres_pct": 58.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -6852,15 +6852,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 41.9,
+      "score": 42.1,
       "components": {
        "governo": 37.1,
-       "presidente": 4.8
+       "presidente": 5.0
       },
       "model": {
        "scores": {
         "governo": 41.66666666666667,
-        "presidente": 43.875
+        "presidente": 45.391666666666666
        },
        "weights": {
         "governo": 0.89,
@@ -6869,10 +6869,10 @@
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 1.0,
-        "pres_pct": 40.5,
+        "pres_pct": 41.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -6921,7 +6921,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Zema",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -6970,7 +6970,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -7019,7 +7019,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -7047,13 +7047,13 @@
       "name": "Reinaldo Azambuja",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 82.6
+      "score": 82.2
      },
      {
       "name": "Capitão Contar",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 65.9
+      "score": 65.5
      }
     ],
     "candidates": [
@@ -7081,17 +7081,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 82.6,
+      "score": 82.2,
       "components": {
        "governo": 22.3,
-       "presidente": 16.8,
+       "presidente": 16.4,
        "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 73.33333333333334,
-        "presidente": 64.45833333333334,
+        "presidente": 62.94166666666668,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -7109,10 +7109,10 @@
        "inputs": {
         "gov_pct": 44.0,
         "gov_reliability": 1.0,
-        "pres_pct": 59.5,
+        "pres_pct": 58.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Eduardo Riedel",
         "endorsement": "explícito"
@@ -7144,17 +7144,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 65.9,
+      "score": 65.5,
       "components": {
        "governo": 22.3,
-       "presidente": 16.8,
+       "presidente": 16.4,
        "senado": 16.7,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 73.33333333333334,
-        "presidente": 64.45833333333334,
+        "presidente": 62.94166666666668,
         "senado": 50.0,
         "apoio": 100.0
        },
@@ -7172,10 +7172,10 @@
        "inputs": {
         "gov_pct": 44.0,
         "gov_reliability": 1.0,
-        "pres_pct": 59.5,
+        "pres_pct": 58.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 50.0,
         "gov_ticket": "Eduardo Riedel",
         "endorsement": "explícito"
@@ -7238,7 +7238,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 39.473684,
         "gov_ticket": "Eduardo Riedel",
         "endorsement": "inferido"
@@ -7270,17 +7270,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 32.9,
+      "score": 33.3,
       "components": {
        "governo": 9.9,
-       "presidente": 11.4,
+       "presidente": 11.8,
        "senado": 7.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 32.50000000000001,
-        "presidente": 43.875,
+        "presidente": 45.391666666666666,
         "senado": 21.052632,
         "apoio": 45.0
        },
@@ -7298,10 +7298,10 @@
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 0.78,
-        "pres_pct": 40.5,
+        "pres_pct": 41.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 21.052632,
         "gov_ticket": "Fábio Trad",
         "endorsement": "inferido"
@@ -7364,7 +7364,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 23.684211,
         "gov_ticket": "Fábio Trad",
         "endorsement": "não verificado"
@@ -7434,10 +7434,10 @@
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 1.0,
-        "pres_pct": 65.1,
+        "pres_pct": 63.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -7483,10 +7483,10 @@
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 1.0,
-        "pres_pct": 65.1,
+        "pres_pct": 63.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -7535,7 +7535,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -7569,7 +7569,7 @@
       "name": "Carlos Fávaro",
       "party": "PSD",
       "bloc": "Lula",
-      "score": 51.8
+      "score": 52.1
      }
     ],
     "candidates": [
@@ -7625,10 +7625,10 @@
        "inputs": {
         "gov_pct": 27.0,
         "gov_reliability": 1.0,
-        "pres_pct": 65.1,
+        "pres_pct": 63.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 85.714286,
         "gov_ticket": "Wellington Fagundes",
         "endorsement": "explícito"
@@ -7660,17 +7660,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 51.8,
+      "score": 52.1,
       "components": {
        "governo": 9.9,
-       "presidente": 9.9,
+       "presidente": 10.3,
        "senado": 27.5,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 32.50000000000001,
-        "presidente": 37.80833333333333,
+        "presidente": 39.325,
         "senado": 82.142857,
         "apoio": 45.0
        },
@@ -7688,10 +7688,10 @@
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 0.78,
-        "pres_pct": 34.9,
+        "pres_pct": 36.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 82.142857,
         "gov_ticket": "Otaviano Pivetta",
         "endorsement": "inferido"
@@ -7751,10 +7751,10 @@
        "inputs": {
         "gov_pct": 25.0,
         "gov_reliability": 0.78,
-        "pres_pct": 65.1,
+        "pres_pct": 63.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 57.142857,
         "gov_ticket": "Otaviano Pivetta",
         "endorsement": "inferido"
@@ -7817,7 +7817,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Otaviano Pivetta",
         "endorsement": "não verificado"
@@ -8564,10 +8564,10 @@
        "inputs": {
         "gov_pct": 32.7,
         "gov_reliability": 1.0,
-        "pres_pct": 66.6,
+        "pres_pct": 68.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -8613,10 +8613,10 @@
        "inputs": {
         "gov_pct": 25.9,
         "gov_reliability": 1.0,
-        "pres_pct": 66.6,
+        "pres_pct": 68.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -8645,15 +8645,15 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 31.4,
+      "score": 31.3,
       "components": {
        "governo": 27.4,
-       "presidente": 4.0
+       "presidente": 3.8
       },
       "model": {
        "scores": {
         "governo": 30.833333333333336,
-        "presidente": 36.18333333333333
+        "presidente": 34.66666666666667
        },
        "weights": {
         "governo": 0.89,
@@ -8662,10 +8662,10 @@
        "inputs": {
         "gov_pct": 18.5,
         "gov_reliability": 1.0,
-        "pres_pct": 33.4,
+        "pres_pct": 32.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -8755,10 +8755,10 @@
        "inputs": {
         "gov_pct": 32.7,
         "gov_reliability": 0.78,
-        "pres_pct": 66.6,
+        "pres_pct": 68.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Lucas Ribeiro",
         "endorsement": "chapa/aliança"
@@ -8818,10 +8818,10 @@
        "inputs": {
         "gov_pct": 25.9,
         "gov_reliability": 0.78,
-        "pres_pct": 66.6,
+        "pres_pct": 68.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 80.645161,
         "gov_ticket": "Cícero Lucena",
         "endorsement": "chapa/aliança"
@@ -8853,17 +8853,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.7,
+      "score": 39.3,
       "components": {
        "governo": 7.3,
-       "presidente": 9.4,
+       "presidente": 9.0,
        "senado": 13.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 24.050000000000004,
-        "presidente": 36.18333333333333,
+        "presidente": 34.66666666666667,
         "senado": 38.709677,
         "apoio": 100.0
        },
@@ -8881,10 +8881,10 @@
        "inputs": {
         "gov_pct": 18.5,
         "gov_reliability": 0.78,
-        "pres_pct": 33.4,
+        "pres_pct": 32.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 38.709677,
         "gov_ticket": "Efraim Filho",
         "endorsement": "explícito"
@@ -8947,7 +8947,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 35.483871,
         "gov_ticket": "Lucas Ribeiro",
         "endorsement": "não verificado"
@@ -9694,10 +9694,10 @@
        "inputs": {
         "gov_pct": 64.2,
         "gov_reliability": 1.0,
-        "pres_pct": 76.9,
+        "pres_pct": 78.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -9726,15 +9726,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 34.9,
+      "score": 34.8,
       "components": {
        "governo": 32.2,
-       "presidente": 2.8
+       "presidente": 2.6
       },
       "model": {
        "scores": {
         "governo": 36.166666666666664,
-        "presidente": 25.025000000000006
+        "presidente": 23.508333333333333
        },
        "weights": {
         "governo": 0.89,
@@ -9743,10 +9743,10 @@
        "inputs": {
         "gov_pct": 21.7,
         "gov_reliability": 1.0,
-        "pres_pct": 23.1,
+        "pres_pct": 21.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -9775,15 +9775,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 6.6,
+      "score": 6.4,
       "components": {
        "governo": 3.9,
-       "presidente": 2.8
+       "presidente": 2.6
       },
       "model": {
        "scores": {
         "governo": 4.333333333333334,
-        "presidente": 25.025000000000006
+        "presidente": 23.508333333333333
        },
        "weights": {
         "governo": 0.89,
@@ -9792,10 +9792,10 @@
        "inputs": {
         "gov_pct": 2.6,
         "gov_reliability": 1.0,
-        "pres_pct": 23.1,
+        "pres_pct": 21.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -9885,10 +9885,10 @@
        "inputs": {
         "gov_pct": 64.2,
         "gov_reliability": 1.0,
-        "pres_pct": 76.9,
+        "pres_pct": 78.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Rafael Fonteles",
         "endorsement": "chapa/aliança"
@@ -9948,10 +9948,10 @@
        "inputs": {
         "gov_pct": 64.2,
         "gov_reliability": 1.0,
-        "pres_pct": 76.9,
+        "pres_pct": 78.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 72.058824,
         "gov_ticket": "Rafael Fonteles",
         "endorsement": "chapa/aliança"
@@ -9983,17 +9983,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 44.7,
+      "score": 44.3,
       "components": {
        "governo": 8.6,
-       "presidente": 6.5,
+       "presidente": 6.1,
        "senado": 25.1,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 28.21,
-        "presidente": 25.025000000000006,
+        "presidente": 23.508333333333333,
         "senado": 75.0,
         "apoio": 45.0
        },
@@ -10011,10 +10011,10 @@
        "inputs": {
         "gov_pct": 21.7,
         "gov_reliability": 0.78,
-        "pres_pct": 23.1,
+        "pres_pct": 21.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 75.0,
         "gov_ticket": "Joel Rodrigues",
         "endorsement": "inferido"
@@ -10046,17 +10046,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 36.4,
+      "score": 36.0,
       "components": {
        "governo": 8.6,
-       "presidente": 6.5,
+       "presidente": 6.1,
        "senado": 11.3,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 28.21,
-        "presidente": 25.025000000000006,
+        "presidente": 23.508333333333333,
         "senado": 33.823529,
         "apoio": 100.0
        },
@@ -10074,10 +10074,10 @@
        "inputs": {
         "gov_pct": 21.7,
         "gov_reliability": 0.78,
-        "pres_pct": 23.1,
+        "pres_pct": 21.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 33.823529,
         "gov_ticket": "Joel Rodrigues",
         "endorsement": "explícito"
@@ -11340,10 +11340,10 @@
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 1.0,
-        "pres_pct": 65.1,
+        "pres_pct": 66.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -11372,15 +11372,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.2,
+      "score": 45.1,
       "components": {
        "governo": 41.1,
-       "presidente": 4.2
+       "presidente": 4.0
       },
       "model": {
        "scores": {
         "governo": 46.166666666666664,
-        "presidente": 37.80833333333333
+        "presidente": 36.29166666666667
        },
        "weights": {
         "governo": 0.89,
@@ -11389,10 +11389,10 @@
        "inputs": {
         "gov_pct": 27.7,
         "gov_reliability": 1.0,
-        "pres_pct": 34.9,
+        "pres_pct": 33.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -11441,7 +11441,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -11475,7 +11475,7 @@
       "name": "Styvenson Valentim",
       "party": "Podemos",
       "bloc": "Flávio",
-      "score": 64.3
+      "score": 63.9
      }
     ],
     "candidates": [
@@ -11531,10 +11531,10 @@
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
-        "pres_pct": 65.1,
+        "pres_pct": 66.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 85.046729,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -11566,17 +11566,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 64.3,
+      "score": 63.9,
       "components": {
        "governo": 11.0,
-       "presidente": 9.9,
+       "presidente": 9.5,
        "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 36.01,
-        "presidente": 37.80833333333333,
+        "presidente": 36.29166666666667,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -11594,10 +11594,10 @@
        "inputs": {
         "gov_pct": 27.7,
         "gov_reliability": 0.78,
-        "pres_pct": 34.9,
+        "pres_pct": 33.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Álvaro Dias",
         "endorsement": "explícito"
@@ -11657,10 +11657,10 @@
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
-        "pres_pct": 65.1,
+        "pres_pct": 66.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 67.28972,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -11720,10 +11720,10 @@
        "inputs": {
         "gov_pct": 36.3,
         "gov_reliability": 0.78,
-        "pres_pct": 65.1,
+        "pres_pct": 66.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 52.336449,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -11755,17 +11755,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 54.8,
+      "score": 54.4,
       "components": {
        "governo": 11.0,
-       "presidente": 9.9,
+       "presidente": 9.5,
        "senado": 23.9,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 36.01,
-        "presidente": 37.80833333333333,
+        "presidente": 36.29166666666667,
         "senado": 71.495327,
         "apoio": 100.0
        },
@@ -11783,10 +11783,10 @@
        "inputs": {
         "gov_pct": 27.7,
         "gov_reliability": 0.78,
-        "pres_pct": 34.9,
+        "pres_pct": 33.5,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 71.495327,
         "gov_ticket": "Álvaro Dias",
         "endorsement": "explícito"
@@ -11856,10 +11856,10 @@
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 1.0,
-        "pres_pct": 70.7,
+        "pres_pct": 69.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -11908,7 +11908,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -11957,7 +11957,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -12047,10 +12047,10 @@
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 69.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Marcos Rogério",
         "endorsement": "explícito"
@@ -12110,10 +12110,10 @@
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 69.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 68.421053,
         "gov_ticket": "Marcos Rogério",
         "endorsement": "explícito"
@@ -12173,10 +12173,10 @@
        "inputs": {
         "gov_pct": 36.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 69.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 73.684211,
         "gov_ticket": "Marcos Rogério",
         "endorsement": "inferido"
@@ -12208,17 +12208,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 46.8,
+      "score": 47.2,
       "components": {
        "governo": 11.1,
-       "presidente": 8.3,
+       "presidente": 8.7,
        "senado": 22.9,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 36.400000000000006,
-        "presidente": 31.74166666666667,
+        "presidente": 33.25833333333333,
         "senado": 68.421053,
         "apoio": 45.0
        },
@@ -12236,10 +12236,10 @@
        "inputs": {
         "gov_pct": 28.0,
         "gov_reliability": 0.78,
-        "pres_pct": 29.3,
+        "pres_pct": 30.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 68.421053,
         "gov_ticket": "Adailton Fúria",
         "endorsement": "inferido"
@@ -12309,10 +12309,10 @@
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 1.0,
-        "pres_pct": 76.1,
+        "pres_pct": 74.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -12358,10 +12358,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 1.0,
-        "pres_pct": 76.1,
+        "pres_pct": 74.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -12390,15 +12390,15 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 2.9,
+      "score": 3.0,
       "components": {
        "governo": 0.0,
-       "presidente": 2.9
+       "presidente": 3.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 25.89166666666667
+        "presidente": 27.40833333333334
        },
        "weights": {
         "governo": 0.89,
@@ -12407,10 +12407,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 1.0,
-        "pres_pct": 23.9,
+        "pres_pct": 25.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -12500,10 +12500,10 @@
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 0.78,
-        "pres_pct": 76.1,
+        "pres_pct": 74.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Arthur Henrique",
         "endorsement": "explícito"
@@ -12563,10 +12563,10 @@
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 0.78,
-        "pres_pct": 76.1,
+        "pres_pct": 74.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Arthur Henrique",
         "endorsement": "explícito"
@@ -12626,10 +12626,10 @@
        "inputs": {
         "gov_pct": 60.0,
         "gov_reliability": 0.78,
-        "pres_pct": 76.1,
+        "pres_pct": 74.7,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Arthur Henrique",
         "endorsement": "inferido"
@@ -12692,7 +12692,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Arthur Henrique",
         "endorsement": "não verificado"
@@ -12724,17 +12724,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 11.3,
+      "score": 11.7,
       "components": {
        "governo": 0.0,
-       "presidente": 6.8,
+       "presidente": 7.2,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 25.89166666666667,
+        "presidente": 27.40833333333334,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -12752,10 +12752,10 @@
        "inputs": {
         "gov_pct": 0.0,
         "gov_reliability": 0.78,
-        "pres_pct": 23.9,
+        "pres_pct": 25.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Antônia Pedrosa",
         "endorsement": "inferido"
@@ -12818,7 +12818,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -13453,10 +13453,10 @@
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 1.0,
-        "pres_pct": 69.3,
+        "pres_pct": 67.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -13505,7 +13505,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -13534,15 +13534,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 15.8,
+      "score": 16.0,
       "components": {
        "governo": 12.2,
-       "presidente": 3.7
+       "presidente": 3.8
       },
       "model": {
        "scores": {
         "governo": 13.666666666666666,
-        "presidente": 33.25833333333333
+        "presidente": 34.775000000000006
        },
        "weights": {
         "governo": 0.89,
@@ -13551,10 +13551,10 @@
        "inputs": {
         "gov_pct": 8.2,
         "gov_reliability": 1.0,
-        "pres_pct": 30.7,
+        "pres_pct": 32.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -13644,10 +13644,10 @@
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 1.0,
-        "pres_pct": 69.3,
+        "pres_pct": 67.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Jorginho Mello",
         "endorsement": "explícito"
@@ -13707,10 +13707,10 @@
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 1.0,
-        "pres_pct": 69.3,
+        "pres_pct": 67.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 75.812274,
         "gov_ticket": "Jorginho Mello",
         "endorsement": "explícito"
@@ -13770,10 +13770,10 @@
        "inputs": {
         "gov_pct": 52.8,
         "gov_reliability": 0.78,
-        "pres_pct": 69.3,
+        "pres_pct": 67.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 41.516245,
         "gov_ticket": "Jorginho Mello",
         "endorsement": "inferido"
@@ -13805,17 +13805,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 33.1,
+      "score": 33.5,
       "components": {
        "governo": 3.2,
-       "presidente": 8.7,
+       "presidente": 9.1,
        "senado": 16.7,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 10.66,
-        "presidente": 33.25833333333333,
+        "presidente": 34.775000000000006,
         "senado": 49.819495,
         "apoio": 45.0
        },
@@ -13833,10 +13833,10 @@
        "inputs": {
         "gov_pct": 8.2,
         "gov_reliability": 0.78,
-        "pres_pct": 30.7,
+        "pres_pct": 32.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 49.819495,
         "gov_ticket": "Gelson Merísio",
         "endorsement": "inferido"
@@ -13906,10 +13906,10 @@
        "inputs": {
         "gov_pct": 43.0,
         "gov_reliability": 1.0,
-        "pres_pct": 67.2,
+        "pres_pct": 68.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -13938,15 +13938,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 63.2,
+      "score": 63.1,
       "components": {
        "governo": 59.3,
-       "presidente": 3.9
+       "presidente": 3.8
       },
       "model": {
        "scores": {
         "governo": 66.66666666666667,
-        "presidente": 35.53333333333333
+        "presidente": 34.01666666666667
        },
        "weights": {
         "governo": 0.89,
@@ -13955,10 +13955,10 @@
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 1.0,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -13987,15 +13987,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 12.8,
+      "score": 12.6,
       "components": {
        "governo": 8.9,
-       "presidente": 3.9
+       "presidente": 3.8
       },
       "model": {
        "scores": {
         "governo": 10.0,
-        "presidente": 35.53333333333333
+        "presidente": 34.01666666666667
        },
        "weights": {
         "governo": 0.89,
@@ -14004,10 +14004,10 @@
        "inputs": {
         "gov_pct": 6.0,
         "gov_reliability": 1.0,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -14041,7 +14041,7 @@
       "name": "Rodrigo Valadares",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 58.7
+      "score": 58.3
      }
     ],
     "candidates": [
@@ -14097,10 +14097,10 @@
        "inputs": {
         "gov_pct": 43.0,
         "gov_reliability": 0.78,
-        "pres_pct": 67.2,
+        "pres_pct": 68.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 52.941176,
         "gov_ticket": "Fábio Mitidieri",
         "endorsement": "chapa/aliança"
@@ -14132,17 +14132,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 58.7,
+      "score": 58.3,
       "components": {
        "governo": 15.8,
-       "presidente": 9.3,
+       "presidente": 8.9,
        "senado": 23.6,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 52.00000000000001,
-        "presidente": 35.53333333333333,
+        "presidente": 34.01666666666667,
         "senado": 70.588235,
         "apoio": 100.0
        },
@@ -14160,10 +14160,10 @@
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 70.588235,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "explícito"
@@ -14226,7 +14226,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "não verificado"
@@ -14258,17 +14258,17 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 46.9,
+      "score": 46.5,
       "components": {
        "governo": 15.8,
-       "presidente": 9.3,
+       "presidente": 8.9,
        "senado": 11.8,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 52.00000000000001,
-        "presidente": 35.53333333333333,
+        "presidente": 34.01666666666667,
         "senado": 35.294118,
         "apoio": 100.0
        },
@@ -14286,10 +14286,10 @@
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 35.294118,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "explícito"
@@ -14352,7 +14352,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 82.352941,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "não verificado"
@@ -14415,7 +14415,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 76.470588,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "não verificado"
@@ -14447,17 +14447,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 29.6,
+      "score": 29.2,
       "components": {
        "governo": 15.8,
-       "presidente": 9.3,
+       "presidente": 8.9,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 52.00000000000001,
-        "presidente": 35.53333333333333,
+        "presidente": 34.01666666666667,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -14475,10 +14475,10 @@
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "inferido"
@@ -14510,17 +14510,17 @@
       "source": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 29.6,
+      "score": 29.2,
       "components": {
        "governo": 15.8,
-       "presidente": 9.3,
+       "presidente": 8.9,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 52.00000000000001,
-        "presidente": 35.53333333333333,
+        "presidente": 34.01666666666667,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -14538,10 +14538,10 @@
        "inputs": {
         "gov_pct": 40.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32.8,
+        "pres_pct": 31.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Valmir de Francisquinho",
         "endorsement": "inferido"
@@ -14604,7 +14604,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 52.941176,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -15492,7 +15492,7 @@
      "name": "Vicentinho Júnior",
      "party": "PSDB",
      "bloc": "Flávio",
-     "score": 55.5
+     "score": 55.3
     },
     "weights": {
      "gov": 0.89,
@@ -15523,15 +15523,15 @@
       "source": "wikipedia",
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.5,
+      "score": 55.3,
       "components": {
        "governo": 49.7,
-       "presidente": 5.8
+       "presidente": 5.6
       },
       "model": {
        "scores": {
         "governo": 55.833333333333336,
-        "presidente": 52.65
+        "presidente": 51.13333333333334
        },
        "weights": {
         "governo": 0.89,
@@ -15540,10 +15540,10 @@
        "inputs": {
         "gov_pct": 33.5,
         "gov_reliability": 1.0,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": true
@@ -15592,7 +15592,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -15641,7 +15641,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4"
        }
       },
       "estimated": false
@@ -15669,13 +15669,13 @@
       "name": "Eduardo Gomes",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 70.8
+      "score": 70.4
      },
      {
       "name": "Carlos Gaguim",
       "party": "União",
       "bloc": "Flávio",
-      "score": 55.3
+      "score": 54.9
      }
     ],
     "candidates": [
@@ -15703,17 +15703,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 70.8,
+      "score": 70.4,
       "components": {
        "governo": 13.6,
-       "presidente": 13.7,
+       "presidente": 13.3,
        "senado": 33.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 44.720000000000006,
-        "presidente": 52.65,
+        "presidente": 51.13333333333334,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -15731,10 +15731,10 @@
        "inputs": {
         "gov_pct": 34.4,
         "gov_reliability": 0.78,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 100.0,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "explícito"
@@ -15766,17 +15766,17 @@
       "source": "wikipedia",
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 55.3,
+      "score": 54.9,
       "components": {
        "governo": 13.6,
-       "presidente": 13.7,
+       "presidente": 13.3,
        "senado": 17.9,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 44.720000000000006,
-        "presidente": 52.65,
+        "presidente": 51.13333333333334,
         "senado": 53.525641,
         "apoio": 100.0
        },
@@ -15794,10 +15794,10 @@
        "inputs": {
         "gov_pct": 34.4,
         "gov_reliability": 0.78,
-        "pres_pct": 48.6,
+        "pres_pct": 47.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 53.525641,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "explícito"
@@ -15860,7 +15860,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 80.448718,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "não verificado"
@@ -15923,7 +15923,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.4",
         "sen_norm": 0.0,
         "gov_ticket": "Laurez Moreira",
         "endorsement": "inferido"
