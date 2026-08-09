@@ -19,6 +19,7 @@ const BLOC_ORDER = ['Lula','Flávio','Caiado','Zema','Indefinido'];
 let FC = null, PARTIES = null, PRES = null;
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
+let partyFocus = null;                 // partido em foco (drill-down)
 const openCards = new Set();           // detalhes abertos (uf|cargo|nome)
 const filters = {uf:'ALL', bloc:'ALL', q:'', showOut:false};
 
@@ -33,8 +34,17 @@ const fpct = x => num(x) ? String(x).replace('.', ',') + '%' : '—';
 const office = () => tab === 'gov' ? 'governor' : 'senate';
 const winnerParty = (st, off) => off === 'governor'
   ? (st.governor.estimate?.party) : (st.senate.estimate[0]?.party);
-const tileColor = (st, off) => colorMode === 'bloco'
-  ? blocColor(st[off].bloc) : partyColor(winnerParty(st, off));
+const estColor = e => colorMode === 'bloco' ? blocColor(e.bloc) : partyColor(e.party);
+// fundo do quadro: governador = 1 cor; senado = dividido pelos 2 senadores estimados
+function tileBg(st, off){
+  if(off === 'governor'){ const e = st.governor.estimate; return e ? estColor(e) : blocColor('Indefinido'); }
+  const es = st.senate.estimate;
+  if(es.length >= 2) return `linear-gradient(135deg, ${estColor(es[0])} 0 50%, ${estColor(es[1])} 50% 100%)`;
+  return es.length === 1 ? estColor(es[0]) : blocColor('Indefinido');
+}
+// estado "vence" para um partido? (governador OU alguma vaga de senado)
+const govWins = (st, p) => st.governor.estimate?.party === p;
+const senWins = (st, p) => st.senate.estimate.some(e => e.party === p);
 
 if ('serviceWorker' in navigator) {
   addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
@@ -58,7 +68,7 @@ async function init(){
     const b = e.target.closest('button'); if(!b) return;
     tab = b.dataset.tab;
     document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('active', x===b));
-    filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear();
+    filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear(); partyFocus=null;
     render();
   });
   render();
@@ -69,6 +79,7 @@ function render(){
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
   const off = office();
   v.innerHTML =
+    (partyFocus ? partyFocusPanel() : '') +
     mapPanel(off) +
     (colorMode==='partido' ? partyPanel(off) : '') +
     (off==='senate' ? nationalPanel() : '') +
@@ -76,7 +87,34 @@ function render(){
     `<div id="states">${statesList(off)}</div>`;
   wireControls();
   wireMap(off);
+  wireParty();
   wireDetails();
+}
+function partyFocusPanel(){
+  const p = partyFocus;
+  const govs = Object.keys(FC.states).filter(uf=>govWins(FC.states[uf], p))
+    .sort((a,b)=>FC.states[a].estado.localeCompare(FC.states[b].estado,'pt-BR'));
+  const sens = [];
+  Object.keys(FC.states).forEach(uf=>FC.states[uf].senate.estimate.forEach(e=>{ if(e.party===p) sens.push({uf, name:e.name}); }));
+  sens.sort((a,b)=>FC.states[a.uf].estado.localeCompare(FC.states[b.uf].estado,'pt-BR'));
+  const chip = (uf,label)=>`<button class="stchip" data-uf="${uf}">${esc(label||FC.states[uf].estado)}</button>`;
+  return `<section class="panel focus" style="border-left:5px solid ${partyColor(p)}">
+    <div class="panel-top"><h2><span class="badge" style="background:${partyColor(p)}">${esc(p)}</span> onde o modelo prevê vitória</h2>
+      <button class="clearfocus" id="clearFocus">limpar ✕</button></div>
+    <div class="focusgrid">
+      <div><b>Governador (${govs.length})</b><div class="chips2">${govs.map(uf=>chip(uf)).join('') || '<span class="muted">nenhum</span>'}</div></div>
+      <div><b>Senado (${sens.length} vaga${sens.length!==1?'s':''})</b><div class="chips2">${sens.map(s=>chip(s.uf, `${s.name} · ${s.uf}`)).join('') || '<span class="muted">nenhuma</span>'}</div></div>
+    </div></section>`;
+}
+function wireParty(){
+  document.querySelectorAll('[data-party]').forEach(b=>b.onclick=()=>{
+    const p=b.dataset.party; partyFocus = (partyFocus===p ? null : p); render();
+  });
+  const cf = $('#clearFocus'); if(cf) cf.onclick = ()=>{ partyFocus=null; render(); };
+  document.querySelectorAll('.stchip').forEach(b=>b.onclick=()=>{
+    filters.uf=b.dataset.uf; render();
+    const el=$('#states'); if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  });
 }
 
 /* ---------- mapa ---------- */
@@ -94,12 +132,14 @@ function mapPanel(off){
     const st = FC.states[uf], o = st[off];
     const [c,r] = UF_GRID[uf] || [1,1];
     const has = off==='governor' ? !!o.estimate : o.estimate.length;
-    return `<button class="tile ${o.stale?'stale':''} ${filters.uf===uf?'sel':''}" style="grid-column:${c};grid-row:${r};background:${tileColor(st,off)}"
+    const wins = off==='governor' ? govWins(st,partyFocus) : senWins(st,partyFocus);
+    const focus = partyFocus ? (wins?'hit':'dim') : '';
+    return `<button class="tile ${o.stale?'stale':''} ${filters.uf===uf?'sel':''} ${focus}" style="grid-column:${c};grid-row:${r};background:${tileBg(st,off)}"
       data-uf="${uf}" data-tip="${esc(tooltipFor(st,off))}" aria-label="${esc(st.estado)}">
       ${uf}${has?'<span class="dot"></span>':''}</button>`;
   }).join('');
   const legend = colorMode==='bloco' ? blocLegend(off) : partyLegend(off);
-  const title = off==='governor' ? 'Governador estimado por estado' : 'Senado — bloco/partido do 1º nome estimado';
+  const title = off==='governor' ? 'Governador estimado por estado' : 'Senado — os 2 senadores estimados por estado';
   return `<section class="panel"><div class="panel-top"><h2>${title}</h2>
       <div class="toggle" id="colorToggle">
         <button data-m="bloco" class="${colorMode==='bloco'?'active':''}">Cor por bloco</button>
@@ -120,8 +160,8 @@ function partyLegend(off){
   const counts = {};
   Object.values(FC.states).forEach(st=>{const p=winnerParty(st,off); if(p) counts[p]=(counts[p]||0)+1;});
   const items = Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([p,n])=>
-    `<div class="lg"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}<span class="count">${n}</span></div>`).join('');
-  return `<h3>Partidos (nº de estados)</h3>${items}`;
+    `<button class="lg lgbtn ${partyFocus===p?'on':''}" data-party="${esc(p)}"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}<span class="count">${n}</span></button>`).join('');
+  return `<h3>Partidos — clique para ver onde vence</h3>${items}`;
 }
 function wireMap(off){
   const tip = $('#tooltip');
@@ -143,10 +183,10 @@ function partyPanel(off){
   const total = off==='governor' ? 27 : 54;
   const max = Math.max(...Object.values(counts), 1);
   const rows = Object.entries(counts).sort((a,b)=>b[1]-a[1]).map(([p,n])=>`
-    <div class="ppbar"><span class="ppname"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}</span>
-      <div class="bar"><i style="width:${100*n/max}%;background:${partyColor(p)}"></i></div><b>${n}</b></div>`).join('');
+    <button class="ppbar ${partyFocus===p?'on':''}" data-party="${esc(p)}"><span class="ppname"><span class="sw" style="background:${partyColor(p)}"></span>${esc(p)}</span>
+      <div class="bar"><i style="width:${100*n/max}%;background:${partyColor(p)}"></i></div><b>${n}</b></button>`).join('');
   const label = off==='governor' ? 'Governadores estimados por partido' : 'Cadeiras novas do Senado por partido (2 por estado)';
-  return `<section class="panel"><h2>${label}</h2><p class="desc">Consolidado da estimativa atual (${total} no total).</p>${rows}</section>`;
+  return `<section class="panel"><h2>${label}</h2><p class="desc">Clique num partido para ver onde ele vence (${total} no total).</p>${rows}</section>`;
 }
 
 /* ---------- consolidado nacional (senado) ---------- */

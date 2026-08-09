@@ -43,11 +43,26 @@ main{padding:18px 16px 10px;min-height:60vh}
 .tile .dot{position:absolute;top:5px;right:5px;width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.85)}
 .tile.stale::after{content:"";position:absolute;inset:0;border-radius:9px;
   background:repeating-linear-gradient(45deg,transparent,transparent 5px,rgba(0,0,0,.14) 5px,rgba(0,0,0,.14) 8px)}
-.legend{min-width:180px;font-size:13px}
+.legend{min-width:190px;font-size:13px}
 .legend h3{margin:0 0 8px;font-size:12px;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
 .legend .lg{display:flex;align-items:center;gap:8px;margin:6px 0}
 .legend .sw{width:16px;height:16px;border-radius:5px;flex:none}
 .legend .count{margin-left:auto;font-weight:800;color:var(--ink)}
+.legend .lgbtn{width:100%;border:1px solid transparent;background:transparent;font:inherit;color:inherit;cursor:pointer;padding:5px 7px;border-radius:8px;text-align:left}
+.legend .lgbtn:hover{background:#f1f5f9}
+.legend .lgbtn.on{background:#eef6f4;border-color:var(--teal)}
+/* tile focus (drill-down por partido) */
+.tile.dim{opacity:.28;filter:grayscale(.3)}
+.tile.hit{outline:3px solid var(--navy);outline-offset:1px;opacity:1}
+/* painel de foco do partido */
+.panel.focus .clearfocus{border:0;background:#f1f5f9;color:#475569;font:inherit;font-weight:700;padding:6px 11px;border-radius:8px;cursor:pointer}
+.focusgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+.chips2{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.stchip{border:1px solid var(--line);background:#fff;font:inherit;font-size:12px;font-weight:700;padding:5px 9px;border-radius:999px;cursor:pointer;color:var(--ink)}
+.stchip:hover{border-color:var(--teal);color:var(--teal)}
+button.ppbar{width:100%;border:1px solid transparent;background:transparent;font:inherit;text-align:left;cursor:pointer}
+button.ppbar:hover{background:#f8fafc}
+button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 
 /* controls */
 .controls{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
@@ -156,5 +171,6 @@ footer p{margin:6px 0}
   .natrow .b2wrap,.natrow.h .b2h{display:none}
   .prow{grid-template-columns:120px 1fr 74px;font-size:12px}
   .ppbar{grid-template-columns:110px 1fr 24px}
+  .focusgrid{grid-template-columns:1fr}
   h1{font-size:19px}
 }
