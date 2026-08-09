@@ -17,8 +17,9 @@ const COMP_LABEL = {governo:'Governador', presidente:'Presidente', senado:'Pesqu
 const BLOC_ORDER = ['Lula','Flávio','Caiado','Zema','Indefinido'];
 
 let FC = null, PARTIES = null, PRES = null;   // FC/PRES = "visão" exibida (podem já refletir a simulação)
-let RAW = null, PRES_RAW = null;              // dados crus, sem simulação
+let RAW = null, PRES_RAW = null, LOG = null;  // dados crus + registro de pesquisas
 const sim = {pres:0, gov:0, sen:0};           // erro simulado nas pesquisas (pp; + = Lula, − = Bolsonaro)
+const logFilter = {uf:'ALL', cargo:'ALL'};    // filtros da aba Pesquisas
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
 let partyFocus = null;                 // partido em foco (drill-down)
@@ -55,10 +56,11 @@ if ('serviceWorker' in navigator) {
 init();
 async function init(){
   try{
-    [RAW, PARTIES, PRES_RAW] = await Promise.all([
+    [RAW, PARTIES, PRES_RAW, LOG] = await Promise.all([
       fetch('data/forecast.json').then(r=>r.json()),
       fetch('data/parties.json').then(r=>r.json()),
       fetch('data/president.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/polls_log.json').then(r=>r.json()).catch(()=>null),
     ]);
     FC = RAW; PRES = PRES_RAW;
   }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>py -m pipeline.build</code>.</p>`; return; }
@@ -69,21 +71,27 @@ async function init(){
 
   try{ selfCheckSim(); }catch(e){ console.error(e); }
   renderSimPanel(); wireSim();
+  renderTopbar();
 
   $('#tabs').addEventListener('click', e => {
     const b = e.target.closest('button'); if(!b) return;
-    tab = b.dataset.tab;
-    document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('active', x===b));
-    filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear(); partyFocus=null;
-    render();
+    selectTab(b.dataset.tab);
   });
   render();
 }
 
+function selectTab(t){
+  tab = t;
+  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('active', x.dataset.tab===t));
+  filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear(); partyFocus=null;
+  render();
+}
 function render(){
   applySim();
   updateSimLabels();
+  const sh = $('#sim'); if(sh) sh.style.display = (tab==='log') ? 'none' : '';
   const v = $('#view');
+  if(tab==='log'){ v.innerHTML = renderPollsLog(); wireLog(); return; }
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
   const off = office();
   v.innerHTML =
@@ -98,6 +106,20 @@ function render(){
   wireMap(off);
   wireParty();
   wireDetails();
+}
+function renderTopbar(){
+  const h = $('#topbar'); if(!h) return;
+  const u = FC.update;
+  if(!u){ h.innerHTML=''; return; }
+  const d = new Date(FC.generated_at + 'T00:00:00').toLocaleDateString('pt-BR');
+  const link = `<button class="linklike" id="goLog">ver registro${u.total_polls?` (${u.total_polls})`:''} →</button>`;
+  if(u.comparable && u.new_polls > 0)
+    h.innerHTML = `<div class="upbanner new">✓ Atualização de ${d}: <b>${u.new_polls} nova${u.new_polls>1?'s':''} pesquisa${u.new_polls>1?'s':''}</b> desde a rodada anterior. ${link}</div>`;
+  else if(u.comparable)
+    h.innerHTML = `<div class="upbanner">Atualizado em ${d} · nenhuma pesquisa nova desde a rodada anterior. ${link}</div>`;
+  else
+    h.innerHTML = `<div class="upbanner">Atualizado em ${d} · ${u.total_polls} pesquisas no registro. ${link}</div>`;
+  const gl = $('#goLog'); if(gl) gl.onclick = ()=>selectTab('log');
 }
 function partyFocusPanel(){
   const p = partyFocus;
@@ -632,4 +654,62 @@ function senateComposition(){
       <div class="compobar">${bar(el)}</div></div>
     <div class="legend2">${legend}</div>
   </section>`;
+}
+
+/* ---------- aba Pesquisas (registro de todas as pesquisas consideradas) ---------- */
+const SRC_NAME = {gazeta:'Gazeta do Povo', wikipedia:'Wikipedia', 'média':'agregado'};
+const srcName = s => SRC_NAME[s] || s || '—';
+const cargoShort = c => c==='Governo' ? 'Governador' : 'Senado';
+function pollLink(url, label){
+  return url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(label)} ↗</a>` : `<span class="muted">${esc(label)}</span>`;
+}
+function renderPollsLog(){
+  if(!LOG){ return `<section class="panel note"><h2 style="margin-top:0">Registro de pesquisas</h2>
+    <p class="desc" style="margin:0">Registro indisponível — rode <code>py -m pipeline.build</code>.</p></section>`; }
+  const sp = LOG.state_polls || [], pp = LOG.president_polls || [];
+  const ufs = [...new Set(sp.map(p=>p.uf))].sort((a,b)=>(FC.states[a]?.estado||a).localeCompare(FC.states[b]?.estado||b,'pt-BR'));
+  const optUf = ufs.map(uf=>`<option value="${uf}" ${logFilter.uf===uf?'selected':''}>${esc(FC.states[uf]?.estado||uf)}</option>`).join('');
+  const rows = sp.filter(p=>(logFilter.uf==='ALL'||p.uf===logFilter.uf) && (logFilter.cargo==='ALL'||p.cargo===logFilter.cargo));
+  const body = rows.map(p=>{
+    const rd = (p.readings||[]).slice(0,5).map(r=>`${esc(r.name.split(' ')[0])} ${fpct(r.pct)}`).join(' · ');
+    return `<tr class="${p.is_new?'newrow':''}">
+      <td class="dt">${esc(p.date)||'—'}${p.is_new?' <span class="newtag">nova</span>':''}</td>
+      <td>${esc(p.estado)}</td><td>${cargoShort(p.cargo)}</td>
+      <td>${esc(p.pollster)}</td><td class="rd">${rd}</td>
+      <td>${pollLink(p.url, srcName(p.source))}</td></tr>`;
+  }).join('');
+  const presBody = pp.map(u=>`<tr>
+      <td class="dt">${esc(u.date)||'—'}</td><td>${esc(u.pollster)}</td>
+      <td>${u.weight!=null?Math.round(u.weight*100)+'%':'—'}</td>
+      <td>Lula ${u.Lula??'—'}%</td><td>Flávio ${u['Flávio']??'—'}%</td>
+      <td>${pollLink(u.url,'fonte')}</td></tr>`).join('');
+  const u = FC.update || {};
+  return `<section class="panel">
+    <div class="panel-top"><h2 style="margin:0">Registro de pesquisas consideradas</h2>
+      <span class="muted">${sp.length} estaduais · ${pp.length} presidenciais${u.new_polls?` · ${u.new_polls} nova(s)`:''}</span></div>
+    <p class="desc">Todas as pesquisas que entram nas médias móveis, com data e fonte. Ordenadas da mais recente para a mais antiga.</p>
+    <div class="controls">
+      <select id="log-uf"><option value="ALL">Todos os estados</option>${optUf}</select>
+      <select id="log-cargo">
+        <option value="ALL" ${logFilter.cargo==='ALL'?'selected':''}>Governador e Senado</option>
+        <option value="Governo" ${logFilter.cargo==='Governo'?'selected':''}>Só Governador</option>
+        <option value="Senado" ${logFilter.cargo==='Senado'?'selected':''}>Só Senado</option>
+      </select></div>
+    <div class="logwrap"><table class="logtbl">
+      <thead><tr><th>Data</th><th>Estado</th><th>Cargo</th><th>Instituto</th><th>Leituras</th><th>Fonte</th></tr></thead>
+      <tbody>${body || `<tr><td colspan="6" class="muted">Nenhuma pesquisa com esse filtro.</td></tr>`}</tbody>
+    </table></div>
+  </section>
+  <section class="panel">
+    <h2 style="margin:0 0 4px">Pesquisas presidenciais no agregado</h2>
+    <p class="desc">As ${pp.length} pesquisas nacionais do poll-of-polls, com o peso por recência.</p>
+    <div class="logwrap"><table class="logtbl">
+      <thead><tr><th>Data</th><th>Instituto</th><th>Peso</th><th>1º turno Lula</th><th>1º turno Flávio</th><th>Fonte</th></tr></thead>
+      <tbody>${presBody || `<tr><td colspan="6" class="muted">Sem pesquisas presidenciais.</td></tr>`}</tbody>
+    </table></div>
+  </section>`;
+}
+function wireLog(){
+  const su = $('#log-uf'); if(su) su.onchange = e=>{ logFilter.uf = e.target.value; render(); };
+  const sc = $('#log-cargo'); if(sc) sc.onchange = e=>{ logFilter.cargo = e.target.value; render(); };
 }

@@ -28,15 +28,16 @@ def page_titles(estado: str) -> list[str]:
     return [f"2026_{e}_gubernatorial_election", f"2026_{e}_general_election"]
 
 
-def fetch_html(estado: str, session: requests.Session) -> str | None:
+def fetch_html(estado: str, session: requests.Session) -> tuple[str, str] | tuple[None, None]:
     for title in page_titles(estado):
+        url = f"https://en.wikipedia.org/wiki/{title}"
         try:
-            r = session.get(f"https://en.wikipedia.org/wiki/{title}", timeout=30)
+            r = session.get(url, timeout=30)
         except requests.RequestException:
             continue
         if r.status_code == 200 and "wikitable" in r.text:
-            return r.text
-    return None
+            return r.text, url
+    return None, None
 
 
 def _is_num(s: str) -> bool:
@@ -93,13 +94,13 @@ def _latest_row(rows, hlen: int):
 
 
 def collect_state(estado: str, uf: str, roster_state: dict, session: requests.Session) -> list[PollRecord]:
-    html = fetch_html(estado, session)
+    html, url = fetch_html(estado, session)
     if not html:
         return []
-    return parse_state(html, uf, roster_state)
+    return parse_state(html, uf, roster_state, url or "")
 
 
-def parse_state(html: str, uf: str, roster_state: dict) -> list[PollRecord]:
+def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[PollRecord]:
     soup = BeautifulSoup(html, "lxml")
     records: list[PollRecord] = []
     seen: set = set()   # (cargo, name) — pega da tabela mais recente (1ª ocorrência)
@@ -135,7 +136,7 @@ def parse_state(html: str, uf: str, roster_state: dict) -> list[PollRecord]:
                 continue
             seen.add(key)
             records.append(PollRecord(uf, cargo, cand["name"], cand["party"], pct,
-                                      _clean(row[0]), _clean(row[1]), "wikipedia"))
+                                      _clean(row[0]), _clean(row[1]), "wikipedia", url))
     return records
 
 

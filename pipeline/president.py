@@ -93,7 +93,8 @@ def parse_poll(html: str, url: str) -> dict:
             first = items
         if not runoff and "lula x flavio" in ctx:
             runoff = items
-    return {"pollster": pollster_from_url(url), "date": date, "first_round": first, "runoff": runoff}
+    return {"pollster": pollster_from_url(url), "date": date, "url": url,
+            "first_round": first, "runoff": runoff}
 
 
 HALFLIFE_DAYS = 14   # meia-vida do peso por recência no agregado presidencial
@@ -151,7 +152,8 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
         if len(series) >= 2:
             trend[b] = round(series[-1] - series[0], 1)
     wsum = sum(wof(p) for p in win) or 1.0
-    used = [{"pollster": p["pollster"], "date": p["date"], "weight": round(wof(p) / wsum, 3),
+    used = [{"pollster": p["pollster"], "date": p["date"], "url": p.get("url", ""),
+             "weight": round(wof(p) / wsum, 3),
              "Lula": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Lula"), None),
              "Flávio": next((v for n, _q, v in p["first_round"] if _bloc(n) == "Flávio"), None)}
             for p in win]

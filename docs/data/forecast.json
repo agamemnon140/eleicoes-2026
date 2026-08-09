@@ -3,6 +3,12 @@
  "election_date": "2026-10-04",
  "days_to_election": 56,
  "source": "wikipedia + gazeta + base",
+ "update": {
+  "new_polls": 0,
+  "prev_date": "2026-08-08",
+  "comparable": false,
+  "total_polls": 90
+ },
  "national": [
   {
    "party": "PL",
@@ -120,14 +126,6 @@
    "holdNames": []
   },
   {
-   "party": "Podemos",
-   "hold": 0,
-   "newSen": 2,
-   "sen2027": 2,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
    "party": "Novo",
    "hold": 0,
    "newSen": 2,
@@ -136,7 +134,15 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Podemos",
+   "hold": 0,
+   "newSen": 2,
+   "sen2027": 2,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
+   "party": "Avante",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -144,7 +150,7 @@
    "holdNames": []
   },
   {
-   "party": "Avante",
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -207,6 +213,7 @@
         "date": "03/08/2026",
         "pct": 33.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -214,6 +221,7 @@
         "date": "27/07/2026",
         "pct": 38.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -272,6 +280,7 @@
         "date": "03/08/2026",
         "pct": 35.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -279,6 +288,7 @@
         "date": "27/07/2026",
         "pct": 28.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -337,6 +347,7 @@
         "date": "03/08/2026",
         "pct": 18.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -344,6 +355,7 @@
         "date": "27/07/2026",
         "pct": 17.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -402,6 +414,7 @@
         "date": "03/08/2026",
         "pct": 9.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -409,6 +422,7 @@
         "date": "27/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -500,6 +514,7 @@
         "date": "03/08/2026",
         "pct": 20.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -507,6 +522,7 @@
         "date": "27/07/2026",
         "pct": 20.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -643,6 +659,7 @@
         "date": "03/08/2026",
         "pct": 18.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -650,6 +667,7 @@
         "date": "27/07/2026",
         "pct": 25.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -722,6 +740,7 @@
         "date": "03/08/2026",
         "pct": 11.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -729,6 +748,7 @@
         "date": "27/07/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -801,6 +821,7 @@
         "date": "03/08/2026",
         "pct": 9.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -808,6 +829,7 @@
         "date": "27/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -880,6 +902,7 @@
         "date": "03/08/2026",
         "pct": 6.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
         "weight": 0.574
        },
        {
@@ -887,6 +910,7 @@
         "date": "27/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
         "weight": 0.426
        }
       ],
@@ -1044,6 +1068,7 @@
         "date": "04/07/2026",
         "pct": 45.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-alagoas-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -1102,6 +1127,7 @@
         "date": "04/07/2026",
         "pct": 41.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-alagoas-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -1160,6 +1186,7 @@
         "date": "04/07/2026",
         "pct": 40.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-alagoas-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -1251,6 +1278,7 @@
         "date": "04/07/2026",
         "pct": 39.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-alagoas-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -2060,6 +2088,7 @@
         "date": "24/07/2026",
         "pct": 66.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
         "weight": 0.537
        },
        {
@@ -2067,6 +2096,7 @@
         "date": "21/07/2026",
         "pct": 65.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -2125,6 +2155,7 @@
         "date": "24/07/2026",
         "pct": 30.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
         "weight": 0.537
        },
        {
@@ -2132,6 +2163,7 @@
         "date": "21/07/2026",
         "pct": 26.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -2273,6 +2305,7 @@
         "date": "24/07/2026",
         "pct": 32.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
         "weight": 0.537
        },
        {
@@ -2280,6 +2313,7 @@
         "date": "21/07/2026",
         "pct": 60.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -2352,6 +2386,7 @@
         "date": "24/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
         "weight": 0.537
        },
        {
@@ -2359,6 +2394,7 @@
         "date": "21/07/2026",
         "pct": 37.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -2431,6 +2467,7 @@
         "date": "24/07/2026",
         "pct": 18.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
         "weight": 0.537
        },
        {
@@ -2438,6 +2475,7 @@
         "date": "21/07/2026",
         "pct": 35.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -2531,6 +2569,7 @@
         "date": "03/08/2026",
         "pct": 53.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2538,6 +2577,7 @@
         "date": "03/08/2026",
         "pct": 48.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2545,6 +2585,7 @@
         "date": "29/07/2026",
         "pct": 39.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -2603,6 +2644,7 @@
         "date": "03/08/2026",
         "pct": 39.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2610,6 +2652,7 @@
         "date": "03/08/2026",
         "pct": 39.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2617,6 +2660,7 @@
         "date": "29/07/2026",
         "pct": 38.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -2675,6 +2719,7 @@
         "date": "03/08/2026",
         "pct": 26.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2682,6 +2727,7 @@
         "date": "03/08/2026",
         "pct": 24.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2689,6 +2735,7 @@
         "date": "29/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -2747,6 +2794,7 @@
         "date": "03/08/2026",
         "pct": 1.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2754,6 +2802,7 @@
         "date": "03/08/2026",
         "pct": 0.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2761,6 +2810,7 @@
         "date": "29/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -2852,6 +2902,7 @@
         "date": "03/08/2026",
         "pct": 47.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2859,6 +2910,7 @@
         "date": "03/08/2026",
         "pct": 44.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2866,6 +2918,7 @@
         "date": "29/07/2026",
         "pct": 22.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -2938,6 +2991,7 @@
         "date": "03/08/2026",
         "pct": 36.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2945,6 +2999,7 @@
         "date": "03/08/2026",
         "pct": 35.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -2952,6 +3007,7 @@
         "date": "29/07/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -3088,6 +3144,7 @@
         "date": "03/08/2026",
         "pct": 24.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -3095,6 +3152,7 @@
         "date": "03/08/2026",
         "pct": 21.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
         "weight": 0.355
        },
        {
@@ -3102,6 +3160,7 @@
         "date": "29/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
         "weight": 0.291
        }
       ],
@@ -3259,6 +3318,7 @@
         "date": "30/07/2026",
         "pct": 43.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3266,6 +3326,7 @@
         "date": "15/07/2026",
         "pct": 40.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3324,6 +3385,7 @@
         "date": "30/07/2026",
         "pct": 33.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3331,6 +3393,7 @@
         "date": "15/07/2026",
         "pct": 44.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3389,6 +3452,7 @@
         "date": "30/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3396,6 +3460,7 @@
         "date": "15/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3487,6 +3552,7 @@
         "date": "30/07/2026",
         "pct": 23.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3494,6 +3560,7 @@
         "date": "15/07/2026",
         "pct": 26.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3566,6 +3633,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3573,6 +3641,7 @@
         "date": "15/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3645,6 +3714,7 @@
         "date": "30/07/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3652,6 +3722,7 @@
         "date": "15/07/2026",
         "pct": 22.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -3724,6 +3795,7 @@
         "date": "30/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -3796,6 +3868,7 @@
         "date": "30/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
         "weight": 0.678
        },
        {
@@ -3803,6 +3876,7 @@
         "date": "15/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -4079,6 +4153,7 @@
         "date": "20/07/2026",
         "pct": 36.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-distrito-federal-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4151,6 +4226,7 @@
         "date": "20/07/2026",
         "pct": 39.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-distrito-federal-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4223,6 +4299,7 @@
         "date": "20/07/2026",
         "pct": 18.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-distrito-federal-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4295,6 +4372,7 @@
         "date": "20/07/2026",
         "pct": 28.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-distrito-federal-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4452,6 +4530,7 @@
         "date": "16/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4510,6 +4589,7 @@
         "date": "16/07/2026",
         "pct": 19.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4568,6 +4648,7 @@
         "date": "16/07/2026",
         "pct": 19.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4659,6 +4740,7 @@
         "date": "16/07/2026",
         "pct": 24.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4731,6 +4813,7 @@
         "date": "16/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4867,6 +4950,7 @@
         "date": "16/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -4939,6 +5023,7 @@
         "date": "16/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -5096,6 +5181,7 @@
         "date": "30/07/2026",
         "pct": 37.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5103,6 +5189,7 @@
         "date": "09/07/2026",
         "pct": 43.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5110,6 +5197,7 @@
         "date": "06/07/2026",
         "pct": 44.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5168,6 +5256,7 @@
         "date": "30/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5175,6 +5264,7 @@
         "date": "09/07/2026",
         "pct": 26.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5182,6 +5272,7 @@
         "date": "06/07/2026",
         "pct": 25.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5240,6 +5331,7 @@
         "date": "30/07/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5247,6 +5339,7 @@
         "date": "09/07/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5254,6 +5347,7 @@
         "date": "06/07/2026",
         "pct": 11.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5312,6 +5406,7 @@
         "date": "30/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5319,6 +5414,7 @@
         "date": "09/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5326,6 +5422,7 @@
         "date": "06/07/2026",
         "pct": 3.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5417,6 +5514,7 @@
         "date": "30/07/2026",
         "pct": 20.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5424,6 +5522,7 @@
         "date": "09/07/2026",
         "pct": 26.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5431,6 +5530,7 @@
         "date": "06/07/2026",
         "pct": 35.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5503,6 +5603,7 @@
         "date": "30/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5510,6 +5611,7 @@
         "date": "09/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5517,6 +5619,7 @@
         "date": "06/07/2026",
         "pct": 25.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5589,6 +5692,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5596,6 +5700,7 @@
         "date": "09/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5603,6 +5708,7 @@
         "date": "06/07/2026",
         "pct": 19.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5675,6 +5781,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5682,6 +5789,7 @@
         "date": "09/07/2026",
         "pct": 15.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5689,6 +5797,7 @@
         "date": "06/07/2026",
         "pct": 21.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -5761,6 +5870,7 @@
         "date": "09/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.537
        },
        {
@@ -5768,6 +5878,7 @@
         "date": "06/07/2026",
         "pct": 2.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -5840,6 +5951,7 @@
         "date": "30/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
         "weight": 0.603
        },
        {
@@ -5847,6 +5959,7 @@
         "date": "09/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
         "weight": 0.213
        },
        {
@@ -5854,6 +5967,7 @@
         "date": "06/07/2026",
         "pct": 15.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
         "weight": 0.184
        }
       ],
@@ -6075,6 +6189,7 @@
         "date": "08/07/2026",
         "pct": 44.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6133,6 +6248,7 @@
         "date": "08/07/2026",
         "pct": 31.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6191,6 +6307,7 @@
         "date": "08/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6282,6 +6399,7 @@
         "date": "08/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6354,6 +6472,7 @@
         "date": "08/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6426,6 +6545,7 @@
         "date": "08/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6498,6 +6618,7 @@
         "date": "08/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6570,6 +6691,7 @@
         "date": "08/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -6727,6 +6849,7 @@
         "date": "30/07/2026",
         "pct": 36.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -6734,6 +6857,7 @@
         "date": "28/07/2026",
         "pct": 35.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -6792,6 +6916,7 @@
         "date": "30/07/2026",
         "pct": 15.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -6799,6 +6924,7 @@
         "date": "28/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -6857,6 +6983,7 @@
         "date": "30/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -6864,6 +6991,7 @@
         "date": "28/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -6922,6 +7050,7 @@
         "date": "30/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -6929,6 +7058,7 @@
         "date": "28/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -6987,6 +7117,7 @@
         "date": "30/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -6994,6 +7125,7 @@
         "date": "28/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7052,6 +7184,7 @@
         "date": "30/07/2026",
         "pct": 2.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7059,6 +7192,7 @@
         "date": "28/07/2026",
         "pct": 2.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7150,6 +7284,7 @@
         "date": "30/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7157,6 +7292,7 @@
         "date": "28/07/2026",
         "pct": 18.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7229,6 +7365,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7236,6 +7373,7 @@
         "date": "28/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7308,6 +7446,7 @@
         "date": "30/07/2026",
         "pct": 15.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7315,6 +7454,7 @@
         "date": "28/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7387,6 +7527,7 @@
         "date": "30/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7394,6 +7535,7 @@
         "date": "28/07/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7466,6 +7608,7 @@
         "date": "28/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -7538,6 +7681,7 @@
         "date": "30/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7545,6 +7689,7 @@
         "date": "28/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7617,6 +7762,7 @@
         "date": "30/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.525
        },
        {
@@ -7624,6 +7770,7 @@
         "date": "28/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -7696,6 +7843,7 @@
         "date": "28/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -7832,6 +7980,7 @@
         "date": "28/07/2026",
         "pct": 0.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -7904,6 +8053,7 @@
         "date": "28/07/2026",
         "pct": 0.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -7997,6 +8147,7 @@
         "date": "06/08/2026",
         "pct": 44.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8055,6 +8206,7 @@
         "date": "06/08/2026",
         "pct": 25.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8113,6 +8265,7 @@
         "date": "06/08/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8171,6 +8324,7 @@
         "date": "06/08/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8229,6 +8383,7 @@
         "date": "06/08/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8320,6 +8475,7 @@
         "date": "06/08/2026",
         "pct": 38.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8392,6 +8548,7 @@
         "date": "06/08/2026",
         "pct": 19.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8464,6 +8621,7 @@
         "date": "06/08/2026",
         "pct": 15.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8536,6 +8694,7 @@
         "date": "06/08/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -8608,6 +8767,7 @@
         "date": "06/08/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -9161,6 +9321,7 @@
         "date": "04/08/2026",
         "pct": 31.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9168,6 +9329,7 @@
         "date": "27/07/2026",
         "pct": 24.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9226,6 +9388,7 @@
         "date": "04/08/2026",
         "pct": 29.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9233,6 +9396,7 @@
         "date": "27/07/2026",
         "pct": 20.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9291,6 +9455,7 @@
         "date": "04/08/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9298,6 +9463,7 @@
         "date": "27/07/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9406,6 +9572,7 @@
         "date": "04/08/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9413,6 +9580,7 @@
         "date": "27/07/2026",
         "pct": 2.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9504,6 +9672,7 @@
         "date": "04/08/2026",
         "pct": 40.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9511,6 +9680,7 @@
         "date": "27/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9583,6 +9753,7 @@
         "date": "04/08/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9590,6 +9761,7 @@
         "date": "27/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9662,6 +9834,7 @@
         "date": "04/08/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9669,6 +9842,7 @@
         "date": "27/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9741,6 +9915,7 @@
         "date": "04/08/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9748,6 +9923,7 @@
         "date": "27/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -9820,6 +9996,7 @@
         "date": "04/08/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
         "weight": 0.586
        },
        {
@@ -9827,6 +10004,7 @@
         "date": "27/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
         "weight": 0.414
        }
       ],
@@ -10444,6 +10622,7 @@
         "date": "01/08/2026",
         "pct": 48.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10451,6 +10630,7 @@
         "date": "31/07/2026",
         "pct": 44.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10458,6 +10638,7 @@
         "date": "28/07/2026",
         "pct": 43.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -10516,6 +10697,7 @@
         "date": "01/08/2026",
         "pct": 42.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10523,6 +10705,7 @@
         "date": "31/07/2026",
         "pct": 42.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10530,6 +10713,7 @@
         "date": "28/07/2026",
         "pct": 37.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -10588,6 +10772,7 @@
         "date": "29–30 Dec",
         "pct": 7.0,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Pernambuco_gubernatorial_election",
         "weight": 1.0
        }
       ],
@@ -10646,6 +10831,7 @@
         "date": "01/08/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10653,6 +10839,7 @@
         "date": "31/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10660,6 +10847,7 @@
         "date": "28/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -10718,6 +10906,7 @@
         "date": "01/08/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.537
        },
        {
@@ -10725,6 +10914,7 @@
         "date": "28/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -10816,6 +11006,7 @@
         "date": "01/08/2026",
         "pct": 18.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10823,6 +11014,7 @@
         "date": "31/07/2026",
         "pct": 28.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10830,6 +11022,7 @@
         "date": "28/07/2026",
         "pct": 19.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -10902,6 +11095,7 @@
         "date": "01/08/2026",
         "pct": 15.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10909,6 +11103,7 @@
         "date": "31/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -10916,6 +11111,7 @@
         "date": "28/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -10988,6 +11184,7 @@
         "date": "01/08/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.537
        },
        {
@@ -10995,6 +11192,7 @@
         "date": "28/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.463
        }
       ],
@@ -11067,6 +11265,7 @@
         "date": "01/08/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -11074,6 +11273,7 @@
         "date": "31/07/2026",
         "pct": 22.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -11081,6 +11281,7 @@
         "date": "28/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -11153,6 +11354,7 @@
         "date": "01/08/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -11160,6 +11362,7 @@
         "date": "31/07/2026",
         "pct": 18.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
         "weight": 0.349
        },
        {
@@ -11167,6 +11370,7 @@
         "date": "28/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
         "weight": 0.301
        }
       ],
@@ -11324,6 +11528,7 @@
         "date": "21/07/2026",
         "pct": 64.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11331,6 +11536,7 @@
         "date": "14/07/2026",
         "pct": 64.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11338,6 +11544,7 @@
         "date": "23/06/2026",
         "pct": 63.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11396,6 +11603,7 @@
         "date": "21/07/2026",
         "pct": 21.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11403,6 +11611,7 @@
         "date": "14/07/2026",
         "pct": 23.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11410,6 +11619,7 @@
         "date": "23/06/2026",
         "pct": 22.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11468,6 +11678,7 @@
         "date": "21/07/2026",
         "pct": 2.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11475,6 +11686,7 @@
         "date": "14/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11482,6 +11694,7 @@
         "date": "23/06/2026",
         "pct": 1.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11573,6 +11786,7 @@
         "date": "21/07/2026",
         "pct": 20.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11580,6 +11794,7 @@
         "date": "14/07/2026",
         "pct": 28.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11587,6 +11802,7 @@
         "date": "23/06/2026",
         "pct": 20.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11659,6 +11875,7 @@
         "date": "21/07/2026",
         "pct": 14.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11666,6 +11883,7 @@
         "date": "14/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11673,6 +11891,7 @@
         "date": "23/06/2026",
         "pct": 15.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11745,6 +11964,7 @@
         "date": "21/07/2026",
         "pct": 15.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11752,6 +11972,7 @@
         "date": "14/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11759,6 +11980,7 @@
         "date": "23/06/2026",
         "pct": 12.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11831,6 +12053,7 @@
         "date": "21/07/2026",
         "pct": 6.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
         "weight": 0.511
        },
        {
@@ -11838,6 +12061,7 @@
         "date": "14/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
         "weight": 0.361
        },
        {
@@ -11845,6 +12069,7 @@
         "date": "23/06/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
         "weight": 0.128
        }
       ],
@@ -11938,6 +12163,7 @@
         "date": "29/07/2026",
         "pct": 37.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -11996,6 +12222,7 @@
         "date": "29/07/2026",
         "pct": 19.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -12054,6 +12281,7 @@
         "date": "29/07/2026",
         "pct": 16.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -12112,6 +12340,7 @@
         "date": "29/07/2026",
         "pct": 11.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -12203,6 +12432,7 @@
         "date": "29/07/2026",
         "pct": 20.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senador-parana-julho-2026/",
         "weight": 0.525
        },
        {
@@ -12210,6 +12440,7 @@
         "date": "27/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-parana-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -12282,6 +12513,7 @@
         "date": "29/07/2026",
         "pct": 9.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senador-parana-julho-2026/",
         "weight": 0.525
        },
        {
@@ -12289,6 +12521,7 @@
         "date": "27/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-parana-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -12361,6 +12594,7 @@
         "date": "29/07/2026",
         "pct": 18.9,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senador-parana-julho-2026/",
         "weight": 0.525
        },
        {
@@ -12368,6 +12602,7 @@
         "date": "27/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-parana-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -12440,6 +12675,7 @@
         "date": "29/07/2026",
         "pct": 14.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senador-parana-julho-2026/",
         "weight": 0.525
        },
        {
@@ -12447,6 +12683,7 @@
         "date": "27/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-parana-julho-2026/",
         "weight": 0.475
        }
       ],
@@ -12604,6 +12841,7 @@
         "date": "31/07/2026",
         "pct": 48.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -12611,6 +12849,7 @@
         "date": "28/07/2026",
         "pct": 37.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -12618,6 +12857,7 @@
         "date": "27/07/2026",
         "pct": 38.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -12676,6 +12916,7 @@
         "date": "31/07/2026",
         "pct": 11.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -12683,6 +12924,7 @@
         "date": "28/07/2026",
         "pct": 16.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -12690,6 +12932,7 @@
         "date": "27/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -12748,6 +12991,7 @@
         "date": "31/07/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -12755,6 +12999,7 @@
         "date": "28/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -12762,6 +13007,7 @@
         "date": "27/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -12820,6 +13066,7 @@
         "date": "31/07/2026",
         "pct": 3.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -12827,6 +13074,7 @@
         "date": "28/07/2026",
         "pct": 2.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -12834,6 +13082,7 @@
         "date": "27/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -12925,6 +13174,7 @@
         "date": "31/07/2026",
         "pct": 29.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -12932,6 +13182,7 @@
         "date": "28/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -12939,6 +13190,7 @@
         "date": "27/07/2026",
         "pct": 11.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -13011,6 +13263,7 @@
         "date": "31/07/2026",
         "pct": 17.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -13018,6 +13271,7 @@
         "date": "28/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -13025,6 +13279,7 @@
         "date": "27/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -13097,6 +13352,7 @@
         "date": "31/07/2026",
         "pct": 25.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -13104,6 +13360,7 @@
         "date": "28/07/2026",
         "pct": 17.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -13111,6 +13368,7 @@
         "date": "27/07/2026",
         "pct": 8.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -13183,6 +13441,7 @@
         "date": "31/07/2026",
         "pct": 9.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -13190,6 +13449,7 @@
         "date": "28/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -13197,6 +13457,7 @@
         "date": "27/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -13333,6 +13594,7 @@
         "date": "31/07/2026",
         "pct": 14.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
         "weight": 0.373
        },
        {
@@ -13340,6 +13602,7 @@
         "date": "28/07/2026",
         "pct": 10.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.321
        },
        {
@@ -13347,6 +13610,7 @@
         "date": "27/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
         "weight": 0.306
        }
       ],
@@ -13440,6 +13704,7 @@
         "date": "22/07/2026",
         "pct": 36.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13498,6 +13763,7 @@
         "date": "22/07/2026",
         "pct": 27.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13556,6 +13822,7 @@
         "date": "22/07/2026",
         "pct": 25.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13647,6 +13914,7 @@
         "date": "22/07/2026",
         "pct": 18.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13719,6 +13987,7 @@
         "date": "22/07/2026",
         "pct": 21.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13791,6 +14060,7 @@
         "date": "22/07/2026",
         "pct": 14.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13863,6 +14133,7 @@
         "date": "22/07/2026",
         "pct": 11.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -13935,6 +14206,7 @@
         "date": "22/07/2026",
         "pct": 15.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14028,6 +14300,7 @@
         "date": "16/07/2026",
         "pct": 36.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14086,6 +14359,7 @@
         "date": "16/07/2026",
         "pct": 28.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14144,6 +14418,7 @@
         "date": "16/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14235,6 +14510,7 @@
         "date": "16/07/2026",
         "pct": 19.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14307,6 +14583,7 @@
         "date": "16/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14379,6 +14656,7 @@
         "date": "16/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -14451,6 +14729,7 @@
         "date": "16/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -15132,6 +15411,7 @@
         "date": "30/07/2026",
         "pct": 22.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.444
        },
        {
@@ -15139,6 +15419,7 @@
         "date": "22/07/2026",
         "pct": 34.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.299
        },
        {
@@ -15146,6 +15427,7 @@
         "date": "16-19 Jul 2026",
         "pct": 34.2,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.257
        }
       ],
@@ -15204,6 +15486,7 @@
         "date": "30/07/2026",
         "pct": 24.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.444
        },
        {
@@ -15211,6 +15494,7 @@
         "date": "22/07/2026",
         "pct": 30.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.299
        },
        {
@@ -15218,6 +15502,7 @@
         "date": "16-19 Jul 2026",
         "pct": 30.1,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.257
        }
       ],
@@ -15276,6 +15561,7 @@
         "date": "30/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.444
        },
        {
@@ -15283,6 +15569,7 @@
         "date": "22/07/2026",
         "pct": 13.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.299
        },
        {
@@ -15290,6 +15577,7 @@
         "date": "16-19 Jul 2026",
         "pct": 13.0,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.257
        }
       ],
@@ -15348,6 +15636,7 @@
         "date": "26–29 Dec",
         "pct": 1.5,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 1.0
        }
       ],
@@ -15439,6 +15728,7 @@
         "date": "30/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.517
        },
        {
@@ -15446,6 +15736,7 @@
         "date": "22/07/2026",
         "pct": 30.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.348
        },
        {
@@ -15453,6 +15744,7 @@
         "date": "1–3 Jul 2026",
         "pct": 17.4,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.136
        }
       ],
@@ -15525,6 +15817,7 @@
         "date": "30/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.517
        },
        {
@@ -15532,6 +15825,7 @@
         "date": "22/07/2026",
         "pct": 28.6,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.348
        },
        {
@@ -15539,6 +15833,7 @@
         "date": "1–3 Jul 2026",
         "pct": 35.7,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.136
        }
       ],
@@ -15611,6 +15906,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.517
        },
        {
@@ -15618,6 +15914,7 @@
         "date": "22/07/2026",
         "pct": 23.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.348
        },
        {
@@ -15625,6 +15922,7 @@
         "date": "1–3 Jul 2026",
         "pct": 13.2,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.136
        }
       ],
@@ -15697,6 +15995,7 @@
         "date": "30/07/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.517
        },
        {
@@ -15704,6 +16003,7 @@
         "date": "22/07/2026",
         "pct": 20.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.348
        },
        {
@@ -15711,6 +16011,7 @@
         "date": "1–3 Jul 2026",
         "pct": 24.1,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.136
        }
       ],
@@ -15783,6 +16084,7 @@
         "date": "30/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.517
        },
        {
@@ -15790,6 +16092,7 @@
         "date": "22/07/2026",
         "pct": 26.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
         "weight": 0.348
        },
        {
@@ -15797,6 +16100,7 @@
         "date": "1–3 Jul 2026",
         "pct": 19.5,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_Rio_Grande_do_Sul_gubernatorial_election",
         "weight": 0.136
        }
       ],
@@ -15890,6 +16194,7 @@
         "date": "28/07/2026",
         "pct": 52.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -15948,6 +16253,7 @@
         "date": "28/07/2026",
         "pct": 20.3,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16006,6 +16312,7 @@
         "date": "28/07/2026",
         "pct": 8.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16097,6 +16404,7 @@
         "date": "27/07/2026",
         "pct": 27.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16169,6 +16477,7 @@
         "date": "27/07/2026",
         "pct": 21.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16241,6 +16550,7 @@
         "date": "27/07/2026",
         "pct": 11.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16313,6 +16623,7 @@
         "date": "27/07/2026",
         "pct": 13.8,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -16406,6 +16717,7 @@
         "date": "03/08/2026",
         "pct": 43.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16464,6 +16776,7 @@
         "date": "03/08/2026",
         "pct": 40.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16522,6 +16835,7 @@
         "date": "03/08/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16613,6 +16927,7 @@
         "date": "03/08/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16685,6 +17000,7 @@
         "date": "03/08/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16757,6 +17073,7 @@
         "date": "03/08/2026",
         "pct": 17.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16829,6 +17146,7 @@
         "date": "03/08/2026",
         "pct": 6.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -16901,6 +17219,7 @@
         "date": "03/08/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -17165,6 +17484,7 @@
         "date": "03/08/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
         "weight": 1.0
        }
       ],
@@ -17258,6 +17578,7 @@
         "date": "29–31 Jul",
         "pct": 52.9,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
         "weight": 0.356
        },
        {
@@ -17265,6 +17586,7 @@
         "date": "29/07/2026",
         "pct": 41.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-sao-paulo-julho-2026/",
         "weight": 0.322
        },
        {
@@ -17272,6 +17594,7 @@
         "date": "29/07/2026",
         "pct": 48.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-sao-paulo-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -17330,6 +17653,7 @@
         "date": "29–31 Jul",
         "pct": 34.3,
         "source": "wikipedia",
+        "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
         "weight": 0.356
        },
        {
@@ -17337,6 +17661,7 @@
         "date": "29/07/2026",
         "pct": 26.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-sao-paulo-julho-2026/",
         "weight": 0.322
        },
        {
@@ -17344,6 +17669,7 @@
         "date": "29/07/2026",
         "pct": 35.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-sao-paulo-julho-2026/",
         "weight": 0.322
        }
       ],
@@ -17585,6 +17911,7 @@
         "date": "29/07/2026",
         "pct": 7.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -17657,6 +17984,7 @@
         "date": "29/07/2026",
         "pct": 14.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -17729,6 +18057,7 @@
         "date": "29/07/2026",
         "pct": 5.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -17801,6 +18130,7 @@
         "date": "29/07/2026",
         "pct": 12.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -17873,6 +18203,7 @@
         "date": "29/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -17945,6 +18276,7 @@
         "date": "29/07/2026",
         "pct": 9.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -18017,6 +18349,7 @@
         "date": "29/07/2026",
         "pct": 4.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -18089,6 +18422,7 @@
         "date": "29/07/2026",
         "pct": 3.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -18161,6 +18495,7 @@
         "date": "29/07/2026",
         "pct": 1.0,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
         "weight": 1.0
        }
       ],
@@ -18254,6 +18589,7 @@
         "date": "25/07/2026",
         "pct": 33.5,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
@@ -18312,6 +18648,7 @@
         "date": "25/07/2026",
         "pct": 34.4,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
@@ -18370,6 +18707,7 @@
         "date": "25/07/2026",
         "pct": 10.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
@@ -18461,6 +18799,7 @@
         "date": "25/07/2026",
         "pct": 31.2,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
@@ -18533,6 +18872,7 @@
         "date": "25/07/2026",
         "pct": 16.7,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
@@ -18605,6 +18945,7 @@
         "date": "25/07/2026",
         "pct": 25.1,
         "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
         "weight": 1.0
        }
       ],
