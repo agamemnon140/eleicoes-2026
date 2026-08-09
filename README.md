@@ -33,7 +33,7 @@ reference/   roster.yaml (candidatos·partido·bloco·apoio), parties.yaml (core
 pipeline/    Python — sources/ (coleta), schedule.py, model.py, president.py, validate.py, build.py, backtest/, tests/
 docs/        site estático publicado no GitHub Pages (index.html, app.js, styles.css, data/, PWA)
 assets/      logo.svg / icon.svg
-ci/update.yml   workflow do cron semanal (mover para .github/workflows/ ao ativar a automação)
+.github/workflows/update.yml   cron semanal ATIVO: coleta → recalcula → publica
 ```
 
 Publicado via **GitHub Pages** servindo a pasta `docs/` da branch `main` — cada push de dados republica.
