@@ -104,14 +104,6 @@
    ]
   },
   {
-   "party": "Podemos",
-   "hold": 0,
-   "newSen": 2,
-   "sen2027": 2,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
    "party": "Novo",
    "hold": 0,
    "newSen": 2,
@@ -128,6 +120,14 @@
    "holdNames": []
   },
   {
+   "party": "Podemos",
+   "hold": 0,
+   "newSen": 2,
+   "sen2027": 2,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
    "party": "PDT",
    "hold": 0,
    "newSen": 2,
@@ -136,7 +136,7 @@
    "holdNames": []
   },
   {
-   "party": "Avante",
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -144,7 +144,7 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Avante",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
