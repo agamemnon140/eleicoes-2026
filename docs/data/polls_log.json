@@ -1,6 +1,80 @@
 {
- "generated_at": "2026-08-09",
+ "generated_at": "2026-08-10",
  "state_polls": [
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "10/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-senador-sao-paulo-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Simone Tebet",
+     "party": "PSB",
+     "pct": 26.8
+    },
+    {
+     "name": "Marina Silva",
+     "party": "Rede",
+     "pct": 23.3
+    },
+    {
+     "name": "Guilherme Derrite",
+     "party": "PP",
+     "pct": 19.4
+    },
+    {
+     "name": "André do Prado",
+     "party": "PL",
+     "pct": 19.0
+    },
+    {
+     "name": "Ricardo Salles",
+     "party": "Novo",
+     "pct": 16.4
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "10/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-governador-sao-paulo-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 50.6
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 33.6
+    },
+    {
+     "name": "Vera Lúcia",
+     "party": "PSTU",
+     "pct": 2.6
+    },
+    {
+     "name": "Carlos Machado",
+     "party": "PCB",
+     "pct": 1.0
+    },
+    {
+     "name": "Vivian Mendes",
+     "party": "UP",
+     "pct": 0.8
+    }
+   ]
+  },
   {
    "uf": "MS",
    "estado": "Mato Grosso do Sul",
@@ -932,50 +1006,6 @@
      "name": "José Aníbal",
      "party": "PSDB",
      "pct": 1.0
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-sao-paulo-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 41.0
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 26.0
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-sao-paulo-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 48.5
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 35.1
     }
    ]
   },
@@ -2568,21 +2598,21 @@
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Governo",
-   "pollster": "Vox Brasil",
-   "date": "29–31 Jul",
+   "pollster": "Ideia",
+   "date": "5–8 Aug",
    "source": "wikipedia",
    "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
      "party": "Republicanos",
-     "pct": 52.9
+     "pct": 50.6
     },
     {
      "name": "Fernando Haddad",
      "party": "PT",
-     "pct": 34.3
+     "pct": 33.6
     }
    ]
   },
@@ -2687,12 +2717,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "Nexus Btg Pactual",
+   "date": "10/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-2/",
+   "Lula": 40.0,
+   "Flávio": 35.0,
+   "weight": 0.224
+  },
+  {
    "pollster": "Genial Quaest",
    "date": "05/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 30.0,
-   "weight": 0.196
+   "weight": 0.175
   },
   {
    "pollster": "Meio Ideia",
@@ -2700,7 +2738,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-agosto-2026/",
    "Lula": 43.0,
    "Flávio": 35.0,
-   "weight": 0.196
+   "weight": 0.175
   },
   {
    "pollster": "Nexus Btg Pactual",
@@ -2708,7 +2746,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026/",
    "Lula": 41.0,
    "Flávio": 37.0,
-   "weight": 0.178
+   "weight": 0.159
   },
   {
    "pollster": "Poderdata",
@@ -2716,7 +2754,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-julho-2026/",
    "Lula": 41.0,
    "Flávio": 35.0,
-   "weight": 0.153
+   "weight": 0.137
   },
   {
    "pollster": "Atlasintel",
@@ -2724,15 +2762,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-julho-2026-2/",
    "Lula": 44.9,
    "Flávio": 35.8,
-   "weight": 0.146
-  },
-  {
-   "pollster": "Nexus Btg Pactual",
-   "date": "27/07/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-julho-2026-2/",
-   "Lula": 42.0,
-   "Flávio": 33.0,
-   "weight": 0.132
+   "weight": 0.13
   }
  ]
 }
