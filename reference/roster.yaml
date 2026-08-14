@@ -676,7 +676,9 @@ states:
         endorsement: não verificado
         apoio: Indefinido; tende à oposição a Lula
         apoio_verificado: false
-        active: true
+        active: false
+        status: Deixou a disputa ao governo para concorrer ao Senado (13/08/2026)
+        status_tipo: alerta
       - name: Renan Filho
         party: MDB
         bloc: Lula
@@ -694,6 +696,15 @@ states:
     senate:
       seats: 2
       candidates:
+      - name: JHC
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Indefinido; tende à oposição a Lula
+        apoio_verificado: false
+        active: true
+        status: Migrou do governo para o Senado (13/08/2026); sem pesquisa ao Senado ainda
+        status_tipo: alerta
       - name: Arthur Lira
         party: PP
         bloc: Flávio
@@ -896,13 +907,6 @@ states:
         endorsement: explícito
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
-        active: true
-      - name: Ângelo Coronel
-        party: Republicanos
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Indefinido / centro-direita
-        apoio_verificado: false
         active: true
   CE:
     estado: Ceará

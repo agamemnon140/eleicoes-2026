@@ -1,5 +1,6 @@
 // Service worker: cache-first para o shell, network-first para os dados (JSON).
-const CACHE = 'eleicoes-2026-v1';
+// bump a versão sempre que app.js/styles.css mudarem — o shell é cache-first
+const CACHE = 'eleicoes-2026-v2';
 const SHELL = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 

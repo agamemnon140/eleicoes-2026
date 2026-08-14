@@ -19,6 +19,7 @@ const BLOC_ORDER = ['Lula','Flávio','Caiado','Zema','Indefinido'];
 let FC = null, PARTIES = null, PRES = null;   // FC/PRES = "visão" exibida (podem já refletir a simulação)
 let RAW = null, PRES_RAW = null, LOG = null;  // dados crus + registro de pesquisas
 const sim = {pres:0, gov:0, sen:0};           // erro simulado nas pesquisas (pp; + = Lula, − = Bolsonaro)
+let simOpen = false;                          // painel do simulador começa fechado (é ferramenta, não manchete)
 const logFilter = {uf:'ALL', cargo:'ALL'};    // filtros da aba Pesquisas
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
@@ -66,8 +67,11 @@ async function init(){
   }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>py -m pipeline.build</code>.</p>`; return; }
 
   const d = new Date(FC.generated_at + 'T00:00:00');
+  // rodada e pesquisas se descolam: a rodada é diária, mas nem todo dia sai pesquisa nova
+  const pd = FC.polls_date && FC.polls_date !== FC.generated_at
+    ? ` · pesquisas até ${new Date(FC.polls_date + 'T00:00:00').toLocaleDateString('pt-BR')}` : '';
   $('#subtitle').textContent = `Governador, Senado e Presidente — modelo de chapa executiva. Faltam ${FC.days_to_election} dias para o 1º turno (04/10/2026).`;
-  $('#meta').textContent = `Atualizado em ${d.toLocaleDateString('pt-BR')} · fonte: ${FC.source} · os pesos do modelo refletem ${FC.days_to_election} dias até a eleição.`;
+  $('#meta').textContent = `Atualizado em ${d.toLocaleDateString('pt-BR')}${pd} · fonte: ${FC.source} · os pesos do modelo refletem ${FC.days_to_election} dias até a eleição.`;
 
   try{ selfCheckSim(); }catch(e){ console.error(e); }
   renderSimPanel(); wireSim();
@@ -326,6 +330,10 @@ function candRow(c, off){
   const est = c.estimated ? `<span class="won">★ estimado · ${esc(c.certainty_preview||'')}</span>` : '';
   const apoio = c.apoio_verificado ? `<span class="win-badge">${esc(c.apoio)}</span>` : (c.apoio ? esc(c.apoio) : 'apoio não verificado');
   const src = c.fonte ? ` · <a class="src" href="${esc(c.fonte)}" target="_blank" rel="noopener">pesquisa ↗</a>` : '';
+  // só os avisos que mudam a leitura do índice (troca de cargo, desistência) — o
+  // "homologação pendente" de 200 registros viraria ruído
+  const note = c.status && (c.status_tipo === 'alerta' || c.status_tipo === 'fora')
+    ? `<div class="cand-note ${esc(c.status_tipo)}">${esc(c.status)}</div>` : '';
   const key = `${c.uf}|${c.cargo}|${c.name}`;
   const open = openCards.has(key);
   return `<div class="cand ${c.estimated?'est':''} ${c.active?'':'out'} ${open?'open':''}" data-key="${esc(key)}">
@@ -334,6 +342,7 @@ function candRow(c, off){
         <span class="blocchip" style="background:${blocColor(c.bloc)}">${esc(blocLabel(c.bloc))}</span></div>
       <div class="meta2">${apoio} · ${esc(c.instituto||'')} ${esc(c.campo||'')}${src}</div>
       ${est?`<div style="margin-top:4px">${est}</div>`:''}
+      ${note}
     </div>
     <div class="pollbox"><div class="pct">${esc(c.pctDisplay||'—')}</div>${pctBar}</div>
     <div class="scorebox"><div class="score">${Math.round(c.score)}<small>índice</small></div><div class="comp">${compBar}</div>
@@ -590,24 +599,44 @@ function renderSimPanel(){
     </label>`;
   const mx = simMixed();
   host.innerHTML = `<section class="panel simpanel">
-    <div class="panel-top"><h2>Simular erro das pesquisas <span class="muted">— e se elas estiverem erradas?</span></h2>
-      <button class="clearfocus" id="sim-reset">zerar</button></div>
-    <p class="desc">Desloque as intenções no eixo <b style="color:${blocColor('Lula')}">Lula</b> ⟷ <b style="color:${blocColor('Flávio')}">Bolsonaro</b>: à direita = erro que subestimou Lula; à esquerda = subestimou Bolsonaro. Índice, mapa e totais recalculam ao vivo.</p>
-    ${row('all','Erro correlacionado (chapa toda)','move Presidente, Governadores e Senado juntos — um viés geral das pesquisas, como a direita subestimada em 2018/2022', mx?sim.pres:sim.pres, mx?'misto':simReadout(sim.pres), 'master')}
-    <div class="simpresets"><span class="muted">atalhos:</span>
-      <button class="chipbtn bo" data-preset="-3">Bolsonaro +3</button>
-      <button class="chipbtn bo" data-preset="-5">Bolsonaro +5</button>
-      <button class="chipbtn lu" data-preset="3">Lula +3</button>
-      <button class="chipbtn lu" data-preset="5">Lula +5</button></div>
-    <div class="simsep">ou ajuste cada eixo</div>
-    ${row('pres','Presidente (nacional)','desloca o 2º turno nacional e, via swing, os estados sem pesquisa estadual', sim.pres, simReadout(sim.pres))}
-    ${row('gov','Governadores','desloca a pesquisa de cada governador (e o vento de chapa no Senado)', sim.gov, simReadout(sim.gov))}
-    ${row('sen','Senado','desloca a pesquisa de cada candidatura ao Senado', sim.sen, simReadout(sim.sen))}
+    <button class="simtoggle" id="sim-toggle" aria-expanded="${simOpen}" aria-controls="sim-body">
+      <span class="simt-l"><b>Simular erro das pesquisas</b>
+        <span class="muted">e se elas estiverem erradas?</span></span>
+      <span class="simt-state" id="sim-state"></span>
+      <span class="chev" aria-hidden="true">▾</span>
+    </button>
+    <div class="simbody" id="sim-body"${simOpen ? '' : ' hidden'}>
+      <div class="panel-top">
+        <p class="desc">Desloque as intenções no eixo <b style="color:${blocColor('Lula')}">Lula</b> ⟷ <b style="color:${blocColor('Flávio')}">Bolsonaro</b>: à direita = erro que subestimou Lula; à esquerda = subestimou Bolsonaro. Índice, mapa e totais recalculam ao vivo.</p>
+        <button class="clearfocus" id="sim-reset">zerar</button></div>
+      ${row('all','Erro correlacionado (chapa toda)','move Presidente, Governadores e Senado juntos — um viés geral das pesquisas, como a direita subestimada em 2018/2022', sim.pres, mx?'misto':simReadout(sim.pres), 'master')}
+      <div class="simpresets"><span class="muted">atalhos:</span>
+        <button class="chipbtn bo" data-preset="-3">Bolsonaro +3</button>
+        <button class="chipbtn bo" data-preset="-5">Bolsonaro +5</button>
+        <button class="chipbtn lu" data-preset="3">Lula +3</button>
+        <button class="chipbtn lu" data-preset="5">Lula +5</button></div>
+      <div class="simsep">ou ajuste cada eixo</div>
+      ${row('pres','Presidente (nacional)','desloca o 2º turno nacional e, via swing, os estados sem pesquisa estadual', sim.pres, simReadout(sim.pres))}
+      ${row('gov','Governadores','desloca a pesquisa de cada governador (e o vento de chapa no Senado)', sim.gov, simReadout(sim.gov))}
+      ${row('sen','Senado','desloca a pesquisa de cada candidatura ao Senado', sim.sen, simReadout(sim.sen))}
+    </div>
   </section>`;
+}
+function setSimOpen(v){
+  simOpen = v;
+  const b = $('#sim-body'), t = $('#sim-toggle'), h = $('#sim');
+  if(b) b.hidden = !v;
+  if(t) t.setAttribute('aria-expanded', String(v));
+  if(h) h.classList.toggle('open', v);
 }
 function updateSimLabels(){
   const host = $('#sim'); if(!host) return;
   host.classList.toggle('active', simActive());
+  const st = $('#sim-state');   // com o painel fechado, é o único aviso de que a simulação está ligada
+  if(st){
+    st.textContent = simActive() ? (simMixed() ? 'simulação ativa (mista)' : `simulação ativa · ${simReadout(sim.pres)}`) : '';
+    st.hidden = !simActive();
+  }
   const mx = simMixed();
   const va=$('#v-all'); if(va){ va.textContent = mx?'misto':simReadout(sim.pres);
     va.className = `simval ${(!mx&&sim.pres>0)?'lu':(!mx&&sim.pres<0)?'bo':''}`; }
@@ -619,6 +648,7 @@ function updateSimLabels(){
 }
 function wireSim(){
   const setAll = v=>{ sim.pres=v; sim.gov=v; sim.sen=v; render(); };
+  const tg=$('#sim-toggle'); if(tg) tg.onclick = ()=>setSimOpen(!simOpen);
   const ea=$('#sim-all'); if(ea) ea.oninput = e=>setAll(parseFloat(e.target.value));
   document.querySelectorAll('#sim .chipbtn[data-preset]').forEach(b=>b.onclick=()=>setAll(parseFloat(b.dataset.preset)));
   ['pres','gov','sen'].forEach(id=>{ const el=$('#sim-'+id); if(el) el.oninput = e=>{ sim[id]=parseFloat(e.target.value); render(); }; });

@@ -1,7 +1,7 @@
 {
   "name": "Eleições 2026 — previsão",
   "short_name": "Eleições 2026",
-  "description": "Previsão semanal de governadores, senadores e presidente nas eleições estaduais de 2026.",
+  "description": "Previsão diária de governadores, senadores e presidente nas eleições estaduais de 2026.",
   "lang": "pt-BR",
   "start_url": "./",
   "scope": "./",

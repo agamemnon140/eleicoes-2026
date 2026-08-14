@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime
 import json
 import pathlib
+import sys
 
 import yaml
 
@@ -255,7 +256,11 @@ def main():
     WEB_DATA.mkdir(parents=True, exist_ok=True)
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
     polls = latest_polls()
-    date_str = polls.get("date") or datetime.date.today().isoformat()
+    # a data da RODADA manda nos pesos (eles mudam todo dia); a do snapshot diz até
+    # quando as pesquisas vão. Com cadência diária as duas se descolam quando não há
+    # pesquisa nova, e o site precisa mostrar as duas.
+    date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
+    polls_date = polls.get("date") or date_str
     as_of = datetime.date.fromisoformat(date_str)
     days = schedule.days_until(as_of)
 
@@ -279,6 +284,7 @@ def main():
 
     forecast = {
         "generated_at": date_str,
+        "polls_date": polls_date,
         "election_date": roster.get("election_date", "2026-10-04"),
         "days_to_election": days,
         "source": polls.get("source", "snapshot"),
@@ -292,6 +298,7 @@ def main():
 
     president = {
         "generated_at": date_str,
+        "polls_date": polls_date,
         "available": bool(polls.get("president")),
         "national": polls.get("president"),
         "national_swing": swing,
@@ -309,7 +316,8 @@ def main():
 
     n_states = len(states)
     n_est_sen = sum(len(s["senate"]["estimate"]) for s in states.values())
-    print(f"OK: {n_states} estados, {n_est_sen} senadores estimados, {days} dias até a eleição.")
+    print(f"OK: {n_states} estados, {n_est_sen} senadores estimados, {days} dias até a eleição "
+          f"(rodada {date_str}, pesquisas até {polls_date}).")
     print(f"  {len(state_polls)} pesquisas estaduais + {len(pres_polls)} presidenciais no registro; "
           f"{len(new_ids)} novas desde {prev_date}.")
     print("  -> forecast.json, president.json, parties.json, polls_log.json")
