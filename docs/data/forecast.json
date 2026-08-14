@@ -111,7 +111,7 @@
    ]
   },
   {
-   "party": "Podemos",
+   "party": "Novo",
    "hold": 0,
    "newSen": 2,
    "sen2027": 2,
@@ -127,7 +127,7 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "Podemos",
    "hold": 0,
    "newSen": 2,
    "sen2027": 2,
@@ -135,7 +135,7 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Avante",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -143,7 +143,7 @@
    "holdNames": []
   },
   {
-   "party": "Avante",
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -1579,6 +1579,70 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "AL",
+      "cargo": "Senado",
+      "name": "Davi Davino Filho",
+      "party": "Republicanos",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
      }
     ]
    }
@@ -2581,6 +2645,70 @@
         "sen_norm": 57.555556,
         "gov_ticket": "Clécio Luís",
         "endorsement": "inferido"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "AP",
+      "cargo": "Senado",
+      "name": "Acácio Favacho",
+      "party": "MDB",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
        }
       },
       "estimated": false
@@ -5132,6 +5260,70 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "ES",
+      "cargo": "Senado",
+      "name": "Marcos do Val",
+      "party": "Avante",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
      }
     ]
    }
@@ -6132,6 +6324,70 @@
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "Quaest 24–28/07",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "GO",
+      "cargo": "Senado",
+      "name": "Isaura Lemos",
+      "party": "PSB",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.3494931386663791,
+        "presidente": 0.2995655474283249,
+        "senado": 0.2509413139052959,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 24–28/07",
         "sen_norm": 0.0,
@@ -8983,6 +9239,56 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "MT",
+      "cargo": "Governo",
+      "name": "Doutora Natasha",
+      "party": "PSD",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0
+       },
+       "weights": {
+        "governo": 0.894,
+        "presidente": 0.106
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 1.0,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3"
+       }
+      },
+      "estimated": false
      }
     ]
    },
@@ -10569,6 +10875,134 @@
         "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
         "sen_norm": 35.483871,
         "gov_ticket": "Lucas Ribeiro",
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PB",
+      "cargo": "Senado",
+      "name": "André Gadelha",
+      "party": "MDB",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PB",
+      "cargo": "Senado",
+      "name": "Major Fábio",
+      "party": "Novo",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
         "endorsement": "não verificado"
        }
       },
@@ -12732,6 +13166,70 @@
      {
       "uf": "PR",
       "cargo": "Senado",
+      "name": "Dr. Rosinha",
+      "party": "PT",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 6.7,
+      "components": {
+       "governo": 0.0,
+       "presidente": 6.7,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 26.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": 24,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Lula",
+        "pres_basis": "Quaest 21–25/07",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PR",
+      "cargo": "Senado",
       "name": "Álvaro Dias",
       "party": "MDB",
       "bloc": "Indefinido",
@@ -12787,6 +13285,70 @@
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 21–25/07",
         "sen_norm": null,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PR",
+      "cargo": "Senado",
+      "name": "Cristina Graeml",
+      "party": "PSD",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "Quaest 21–25/07",
+        "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -13655,6 +14217,134 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "RJ",
+      "cargo": "Senado",
+      "name": "Monica Benicio",
+      "party": "PSOL",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 8.3,
+      "components": {
+       "governo": 0.0,
+       "presidente": 8.3,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 32.5,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": 30,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Lula",
+        "pres_basis": "Quaest 21–25/07",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "RJ",
+      "cargo": "Senado",
+      "name": "Waguinho",
+      "party": "Republicanos",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "Quaest 21–25/07",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
      }
     ]
    }
@@ -14449,6 +15139,56 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "RO",
+      "cargo": "Governo",
+      "name": "Expedito Netto",
+      "party": "PT",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 3.5,
+      "components": {
+       "governo": 0.0,
+       "presidente": 3.5
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 33.150000000000006
+       },
+       "weights": {
+        "governo": 0.894,
+        "presidente": 0.106
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 1.0,
+        "pres_pct": 30.6,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Lula",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3"
+       }
+      },
+      "estimated": false
      }
     ]
    },
@@ -14771,6 +15511,70 @@
         "sen_norm": 68.421053,
         "gov_ticket": "Adailton Fúria",
         "endorsement": "inferido"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "RO",
+      "cargo": "Senado",
+      "name": "Acir Gurgacz",
+      "party": "PDT",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
        }
       },
       "estimated": false
@@ -16145,6 +16949,70 @@
        }
       },
       "estimated": false
+     },
+     {
+      "uf": "RS",
+      "cargo": "Senado",
+      "name": "Frederico Antunes",
+      "party": "PSD",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.3511155327000722,
+        "presidente": 0.30095617088577614,
+        "senado": 0.2479282964141517,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "Quaest 24–28/07",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
      }
     ]
    }
@@ -16665,6 +17533,70 @@
         "sen_norm": 49.819495,
         "gov_ticket": "Gelson Merísio",
         "endorsement": "inferido"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "SC",
+      "cargo": "Senado",
+      "name": "Lunelli",
+      "party": "MDB",
+      "bloc": "Indefinido",
+      "apoio": "Não verificado",
+      "apoio_verificado": false,
+      "pct": null,
+      "pctDisplay": "N/D",
+      "instituto": "N/D",
+      "campo": "N/D",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro protocolado no TSE (13/08/2026); sem pesquisa ainda",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "roster",
+      "polls": null,
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 0.0,
+      "components": {
+       "governo": 0.0,
+       "presidente": 0.0,
+       "senado": 0.0,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 0.0,
+        "senado": 0.0,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.2991989236218951,
+        "presidente": 0.25645622024733866,
+        "senado": 0.34434485613076626,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": null,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Indefinido",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. +1.3",
+        "sen_norm": 0.0,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
        }
       },
       "estimated": false
