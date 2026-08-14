@@ -1,24 +1,28 @@
 """Coleta pesquisas das fontes e mescla no snapshot mais recente.
 
-Fluxo: parte do último snapshot (mantém bloco/apoio/entradas), busca pesquisas frescas
-(Wikipedia), aplica guardrails (validate), recomputa sen_norm por estado e propaga o pct
-do governador para o tailwind do Senado. Escreve data/polls/<data>.json.
+Fluxo: parte do último snapshot (mantém entradas do modelo), sincroniza as candidaturas
+com reference/roster.yaml (roster_sync), busca pesquisas frescas (Wikipedia/Gazeta),
+aplica guardrails (validate), recomputa sen_norm por estado e propaga o pct do governador
+para o tailwind do Senado. Escreve data/polls/<data>.json.
 
-Uso: py -m pipeline.collect [YYYY-MM-DD]
+Roda TODO DIA: quando nada muda de verdade, não grava snapshot novo (ver `changed`),
+para o histórico não virar 50 cópias idênticas.
+
+Uso: py -m pipeline.collect [YYYY-MM-DD] [--force]
 """
 from __future__ import annotations
 
+import argparse
 import datetime
 import json
 import pathlib
 import re
-import sys
 from collections import defaultdict
 
 import requests
 import yaml
 
-from pipeline import president, validate
+from pipeline import president, roster_sync, validate
 from pipeline.sources import gazeta as gz
 from pipeline.sources import wikipedia as wk
 
@@ -203,11 +207,34 @@ def compute_momentum(records: list[dict], date_str: str) -> int:
     return n
 
 
+# campos que definem se um snapshot é DIFERENTE do anterior (o resto é derivado ou ruído)
+MATERIAL_FIELDS = ("uf", "cargo", "name", "party", "bloc", "endorsement", "apoio",
+                   "apoio_verificado", "active", "pct", "campo", "instituto",
+                   "gov_ticket", "status", "stale")
+
+
+def fingerprint(records: list[dict], pres: dict | None) -> str:
+    """Assinatura do conteúdo coletado, insensível à ordem e aos campos derivados."""
+    recs = sorted(({k: r.get(k) for k in MATERIAL_FIELDS} for r in records),
+                  key=lambda d: (d["uf"], d["cargo"], str(d["name"])))
+    return json.dumps({"records": recs, "president": pres}, ensure_ascii=False, sort_keys=True)
+
+
 def main():
-    date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
+    ap = argparse.ArgumentParser(description="Coleta pesquisas e grava um snapshot")
+    ap.add_argument("date", nargs="?", default=datetime.date.today().isoformat())
+    ap.add_argument("--force", action="store_true",
+                    help="grava o snapshot mesmo sem mudança material")
+    args = ap.parse_args()
+    date_str = args.date
+
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
     snap = latest_snapshot()
     records = snap["records"]
+    before = fingerprint(records, snap.get("president"))
+
+    print("Sincronizando candidaturas com o roster…")
+    roster_sync.print_report(roster_sync.sync(records, roster))
 
     print("Coletando pesquisas (Wikipedia)…")
     fresh = collect_fresh(roster)
@@ -222,13 +249,22 @@ def main():
         print(f"  presidencial: {pres_agg['polls']} pesquisas, "
               f"Lula {pres_agg['first_round'][0]['avg']}% x "
               f"{pres_agg['first_round'][1]['avg']}% {pres_agg['first_round'][1]['name']}")
+    elif snap.get("president"):
+        # numa rodada diária, uma falha do agregador não pode apagar o último bom
+        pres_agg = snap["president"]
+        print("  presidencial: coleta vazia — mantendo o agregado anterior.")
+
+    print(f"OK: {updated} atualizadas, {skipped_old} ignoradas por serem mais antigas, "
+          f"{flagged} descartadas pelos guardrails.")
+
+    if fingerprint(records, pres_agg) == before and not args.force:
+        print("Nada mudou desde o último snapshot — nenhum arquivo novo (use --force para gravar).")
+        return
 
     out = {"date": date_str, "source": "wikipedia + gazeta + base",
            "records": records, "president": pres_agg}
     (ROOT / "data" / "polls" / f"{date_str}.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(f"OK: {updated} atualizadas, {skipped_old} ignoradas por serem mais antigas, "
-          f"{flagged} descartadas pelos guardrails.")
     print(f"  -> data/polls/{date_str}.json")
 
 

@@ -171,11 +171,30 @@ button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 .ur span:nth-child(4),.ur span:nth-child(5){font-weight:700}
 .ur span:nth-child(3){color:var(--muted)}
 
+/* aviso no card: troca de cargo / desistência (por que o índice está estranho) */
+.cand-note{margin-top:5px;font-size:11.5px;font-weight:700;line-height:1.35;border-radius:8px;
+  padding:4px 8px;display:inline-block}
+.cand-note.alerta{color:#8a5a00;background:#fff3d6;border:1px solid #f2d98a}
+.cand-note.fora{color:#64748b;background:var(--soft);border:1px solid var(--line)}
+
 /* ---------- simulador ---------- */
 #sim{margin-top:0}
 #sim:empty{display:none}
 .simpanel{border:1px solid var(--line);background:linear-gradient(180deg,#fbfdff,#fff)}
 #sim.active .simpanel{border-color:#c7d2fe;box-shadow:0 0 0 2px #e0e7ff inset}
+/* cabeçalho-botão: o simulador fica recolhido até alguém querer simular */
+.simtoggle{display:flex;align-items:center;gap:10px;width:100%;padding:0;border:0;background:none;
+  cursor:pointer;text-align:left;font:inherit;color:inherit}
+.simtoggle .simt-l{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;flex:1;min-width:0}
+.simtoggle b{font-size:16px}
+.simtoggle .muted{font-size:12.5px}
+.simt-state{font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.03em;color:#8a5a00;
+  background:#fff3d6;border:1px solid #f2d98a;border-radius:999px;padding:1px 8px;white-space:nowrap}
+.simtoggle .chev{color:var(--muted);font-size:13px;transition:transform .15s}
+#sim.open .simtoggle .chev{transform:rotate(180deg)}
+.simbody{margin-top:10px}
+.simbody .panel-top{align-items:flex-start;gap:12px}
+.simbody .desc{margin:0}
 .simrow{display:grid;grid-template-columns:230px 1fr;grid-template-areas:"lab slider" "help slider";gap:2px 16px;align-items:center;padding:8px 0;border-top:1px dashed var(--line)}
 .simrow .siml{grid-area:lab;font-weight:700;font-size:14px}
 .simrow .simhelp{grid-area:help;font-size:11.5px;color:var(--muted)}

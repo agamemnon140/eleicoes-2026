@@ -2,7 +2,7 @@
 
 Site estático/PWA que projeta, por estado, o **governador** e as **2 vagas de Senado**, além de um
 **agregado nacional presidencial**. Um pipeline em Python coleta as pesquisas mais recentes, recalcula os
-modelos e emite JSON que o site lê. Uma automação semanal (GitHub Actions) roda até o 1º turno
+modelos e emite JSON que o site lê. Uma automação **diária** (GitHub Actions) roda até o 1º turno
 (**04/10/2026**) e republica sozinha.
 
 ## Como funciona o modelo
@@ -50,15 +50,46 @@ momentum **melhora a previsão out-of-sample** — e o pico confirma manter o pe
 default de produção). Amostra limitada aos estados com pesquisa+resultado tabulados na Wikipedia; uma
 validação ainda mais ampla usaria a base oficial do TSE.
 
+## Atualização diária e mudanças de candidatura
+
+O cron roda **todo dia às 09:00 BRT**: sincroniza candidaturas → coleta pesquisas → recalcula → publica.
+Duas datas passaram a ser distintas no `forecast.json`, porque com cadência diária elas se descolam:
+
+- `generated_at` — a **rodada** (manda nos pesos, que mudam todo dia até 04/10);
+- `polls_date` — até quando vão as **pesquisas** do snapshot.
+
+Quando um dia não traz nada novo, o `collect` **não grava snapshot** (compara uma assinatura dos campos
+materiais), então `data/polls/` continua sendo uma série de mudanças reais, não 50 cópias iguais.
+
+**`reference/roster.yaml` é a fonte única de candidaturas.** Para registrar uma mudança (troca de cargo,
+desistência, novo nome) basta editar o YAML — nada de mexer em snapshot na mão:
+
+```sh
+py -m pipeline.roster_sync --dry-run   # relata o que mudaria
+py -m pipeline.roster_sync             # aplica ao snapshot e grava a rodada de hoje
+py -m pipeline.build                   # republica
+```
+
+O `roster_sync` (`pipeline/roster_sync.py`) faz o snapshot obedecer ao roster: quem está no roster e não
+no snapshot vira registro novo; quem sumiu do roster fica `active: false` (some da estimativa, mas o
+histórico de pesquisas continua); partido/bloco/apoio vêm do roster. Troca de cargo cai nos dois casos e
+é reportada. Ele ainda **funde duplicatas** ("Angelo"/"Ângelo" — o fantasma sem pesquisa pontuava pelo
+apoio e podia entrar no top-2), **limpa `gov_ticket`** apontando para governador que saiu da disputa, e
+**para o pipeline** se o roster tiver nome duplicado. É passo próprio no workflow, sem rede: uma edição
+de candidatura entra no ar mesmo com os scrapers fora do ar.
+
+Limite conhecido: quem troca de cargo chega ao novo cargo **sem pesquisa** e o índice não tem prior para
+isso — fica no fim da lista até sair a primeira pesquisa do novo pleito.
+
 ## Estrutura
 
 ```
 data/polls/  snapshots de pesquisas (entradas do modelo)
-reference/   roster.yaml (candidatos·partido·bloco·apoio), parties.yaml (cores)
-pipeline/    Python — sources/ (coleta), schedule.py, model.py, president.py, validate.py, build.py, backtest/, tests/
+reference/   roster.yaml (candidatos·partido·bloco·apoio) — FONTE ÚNICA de candidaturas; parties.yaml (cores)
+pipeline/    Python — sources/ (coleta), roster_sync.py, schedule.py, model.py, president.py, validate.py, build.py, backtest/, tests/
 docs/        site estático publicado no GitHub Pages (index.html, app.js, styles.css, data/, PWA)
 assets/      logo.svg / icon.svg
-.github/workflows/update.yml   cron semanal ATIVO: coleta → recalcula → publica
+.github/workflows/update.yml   cron DIÁRIO ATIVO: roster → coleta → recalcula → publica
 ```
 
 Publicado via **GitHub Pages** servindo a pasta `docs/` da branch `main` — cada push de dados republica.

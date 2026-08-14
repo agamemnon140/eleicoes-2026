@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-10",
+ "generated_at": "2026-08-13",
  "state_polls": [
   {
    "uf": "SP",
@@ -9,7 +9,7 @@
    "date": "10/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-senador-sao-paulo-agosto-2026/",
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Simone Tebet",
@@ -46,7 +46,7 @@
    "date": "10/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-governador-sao-paulo-agosto-2026/",
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -2602,7 +2602,7 @@
    "date": "5–8 Aug",
    "source": "wikipedia",
    "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",

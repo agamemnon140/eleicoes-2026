@@ -1,13 +1,21 @@
-# Workflow do cron semanal. Para ATIVAR a automação, mova este arquivo para
-# .github/workflows/update.yml (requer um token com o escopo `workflow` no push).
-# O GitHub Pages está configurado para servir a pasta docs/ da branch main, então
-# basta commitar/pushar os dados atualizados que o site republica sozinho.
-name: Atualiza previsão (semanal)
+# Cron DIÁRIO ativo: sincroniza candidaturas -> coleta pesquisas -> recalcula -> publica.
+# O GitHub Pages serve a pasta docs/ da branch main, então basta commitar/pushar os dados
+# atualizados que o site republica sozinho.
+#
+# Cadência diária: os pesos do modelo mudam todo dia (curva côncava até 04/10) e, na reta
+# das convenções/registro, uma pesquisa nova pode virar um estado. Quando nada muda de
+# verdade, o `collect` não grava snapshot novo — o commit fica só no forecast.
+name: Atualiza previsão (diária)
 
 on:
   schedule:
-    - cron: "0 12 * * 1"        # toda segunda 12:00 UTC (09:00 BRT)
+    - cron: "0 12 * * *"        # todo dia 12:00 UTC (09:00 BRT)
   workflow_dispatch: {}
+
+# duas rodadas nunca disputam o mesmo push
+concurrency:
+  group: atualiza-previsao
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -20,9 +28,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
       - run: pip install -r pipeline/requirements.txt
+      - name: Sincroniza candidaturas com o roster
+        # passo próprio (e sem rede): uma edição de candidatura no roster.yaml entra no ar
+        # mesmo que os scrapers estejam fora do ar naquele dia
+        run: python -m pipeline.roster_sync
       - name: Coleta pesquisas (agregador + portais)
-        run: python -m pipeline.collect || echo "coletor ainda não implementado — usando último snapshot"
+        run: python -m pipeline.collect || echo "coleta falhou — seguindo com o último snapshot"
       - name: Recalcula o modelo
         run: python -m pipeline.build
       - name: Testes
@@ -33,4 +46,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/polls docs/data
           git commit -m "Atualização automática da previsão ($(date -u +%F))" || echo "sem mudanças"
+          git pull --rebase --autostash
           git push
