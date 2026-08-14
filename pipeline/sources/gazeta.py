@@ -11,7 +11,7 @@ import re
 import requests
 
 from pipeline.sources.base import (BASE_TOTAL, BASE_VALID, FIRST_ROUND, RUNOFF, PollRecord,
-                                   match_candidate, option_kind, strip_accents)
+                                   canon_pollster, match_candidate, option_kind, strip_accents)
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
@@ -93,38 +93,17 @@ _SKIP = tuple(strip_accents(k) for k in SKIP_CTX)
 _RUNOFF_CTX = ("segundo turno", "2o turno", "2 turno", "2º turno")
 _VS = re.compile(r"\s+[xX×]\s+")
 
-# instituto -> nome canônico. A URL da matéria começa pelo slug do instituto.
-POLLSTERS = {
-    "atlasintel": "AtlasIntel", "atlas-intel": "AtlasIntel",
-    "real-time-big-data": "Real Time Big Data", "eal-time-big-data": "Real Time Big Data",
-    "realtimebigdata": "Real Time Big Data",
-    "parana-pesquisas": "Paraná Pesquisas",
-    "futura-inteligencia": "Futura Inteligência", "futura": "Futura Inteligência",
-    "datafolha": "Datafolha",
-    "genial-quaest": "Quaest", "quaest": "Quaest",
-    "ipec": "Ipec", "ipespe": "Ipespe", "mda": "CNT/MDA", "cnt": "CNT/MDA",
-    "irg": "IRG", "neokemp": "NeoKemp", "ideia": "Ideia",
-    "opiniao": "Opinião", "veritas": "Veritas", "ranking": "Ranking Pesquisas",
-    "offerwise": "Offerwise", "ativa": "Ativa Pesquisas", "vox": "Vox Populi",
-}
-_POLLSTER_KEYS = sorted(POLLSTERS, key=len, reverse=True)   # casa o mais específico antes
-
-
 def pollster_from(url: str, html: str = "") -> str:
     """Instituto que fez a pesquisa — NÃO o portal que publicou.
 
     A Gazeta é veículo, não instituto: creditar tudo a "Gazeta do Povo" apaga a diferença
     entre Datafolha e Paraná Pesquisas e faz a média móvel tratar as duas como a mesma série.
+    O slug da matéria começa pelo instituto; o texto é o plano B.
     """
-    slug = strip_accents(url.rstrip("/").split("/")[-1]).lower()
-    for k in _POLLSTER_KEYS:
-        if slug.startswith(k) or f"-{k}-" in slug:
-            return POLLSTERS[k]
-    hay = strip_accents(html[:20000]).lower()
-    for k in _POLLSTER_KEYS:
-        if k.replace("-", " ") in hay:
-            return POLLSTERS[k]
-    return "instituto não identificado"
+    slug = url.rstrip("/").split("/")[-1]
+    # só a parte antes do cargo: evita casar "para" (Pará) e afins no resto do slug
+    cabeca = re.split(r"-(governador|senador|senado|presidente)-", slug)[0]
+    return canon_pollster(cabeca) or canon_pollster(html[:20000]) or "instituto não identificado"
 
 
 def collect_url(uf: str, roster_state: dict, url: str, session: requests.Session) -> list[PollRecord]:

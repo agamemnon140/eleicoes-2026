@@ -14013,7 +14013,7 @@
      "date": "23–27 Apr",
      "polls": [
       {
-       "pollster": "Genial/Quaest",
+       "pollster": "Quaest",
        "date": "23–27 Apr",
        "pct": 14.0,
        "pct_valid": 28.57,
@@ -14098,7 +14098,7 @@
      "date": "23–27 Apr",
      "polls": [
       {
-       "pollster": "Genial/Quaest",
+       "pollster": "Quaest",
        "date": "23–27 Apr",
        "pct": 6.0,
        "pct_valid": 12.24,
@@ -14247,7 +14247,7 @@
      "date": "23–27 Apr",
      "polls": [
       {
-       "pollster": "Genial/Quaest",
+       "pollster": "Quaest",
        "date": "23–27 Apr",
        "pct": 8.0,
        "pct_valid": 16.33,
@@ -16544,12 +16544,12 @@
  "president": {
   "polls": 6,
   "institutos": [
-   "Poderdata",
-   "Cnt Mda",
+   "PoderData",
+   "CNT/MDA",
    "Gerp",
-   "Futura Inteligencia",
-   "Nexus Btg Pactual",
-   "Genial Quaest"
+   "Futura Inteligência",
+   "Nexus",
+   "Quaest"
   ],
   "latest_date": "13/08/2026",
   "first_round": [
@@ -16620,7 +16620,7 @@
   },
   "used": [
    {
-    "pollster": "Poderdata",
+    "pollster": "PoderData",
     "date": "13/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
     "weight": 0.19,
@@ -16628,7 +16628,7 @@
     "Flávio": 35.0
    },
    {
-    "pollster": "Cnt Mda",
+    "pollster": "CNT/MDA",
     "date": "11/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
     "weight": 0.172,
@@ -16644,7 +16644,7 @@
     "Flávio": 38.0
    },
    {
-    "pollster": "Futura Inteligencia",
+    "pollster": "Futura Inteligência",
     "date": "11/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
     "weight": 0.172,
@@ -16652,7 +16652,7 @@
     "Flávio": 34.1
    },
    {
-    "pollster": "Nexus Btg Pactual",
+    "pollster": "Nexus",
     "date": "10/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-2/",
     "weight": 0.164,
@@ -16660,7 +16660,7 @@
     "Flávio": 35.0
    },
    {
-    "pollster": "Genial Quaest",
+    "pollster": "Quaest",
     "date": "05/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-agosto-2026/",
     "weight": 0.128,

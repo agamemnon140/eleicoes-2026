@@ -23,6 +23,7 @@ let simOpen = false;                          // painel do simulador começa fec
 const logFilter = {uf:'ALL', cargo:'ALL'};    // filtros da aba Pesquisas
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
+let fieldFocus = null;                 // {field, grupo} — campo aberto na composição do Senado
 let partyFocus = null;                 // partido em foco (drill-down)
 const openCards = new Set();           // detalhes abertos (uf|cargo|nome)
 const filters = {uf:'ALL', bloc:'ALL', q:'', showOut:false};
@@ -130,21 +131,43 @@ function partyFocusPanel(){
   const govs = Object.keys(FC.states).filter(uf=>govWins(FC.states[uf], p))
     .sort((a,b)=>FC.states[a].estado.localeCompare(FC.states[b].estado,'pt-BR'));
   const sens = [];
-  Object.keys(FC.states).forEach(uf=>FC.states[uf].senate.estimate.forEach(e=>{ if(e.party===p) sens.push({uf, name:e.name}); }));
+  Object.keys(FC.states).forEach(uf=>FC.states[uf].senate.estimate.forEach(e=>{ if(e.party===p) sens.push({uf, name:e.name, bloc:e.bloc}); }));
   sens.sort((a,b)=>FC.states[a.uf].estado.localeCompare(FC.states[b.uf].estado,'pt-BR'));
   const chip = (uf,label)=>`<button class="stchip" data-uf="${uf}">${esc(label||FC.states[uf].estado)}</button>`;
+  const fchip = f=>`<span class="fieldtag" style="background:${fieldColor(f)}">${esc(fieldLabel(f))}</span>`;
+  const chipF = (uf,label,f)=>`<button class="stchip" data-uf="${uf}">${esc(label)} ${fchip(f)}</button>`;
+
+  // um partido NÃO é um campo: os eleitos vão pelo bloco declarado e os mantidos por
+  // cargo/atuação, então o mesmo partido aparece dos dois lados
+  const cnt = f=>sens.filter(s=>fieldOfBloc(s.bloc)===f).length;
+  const mant = (RAW.holdovers||[]).filter(h=>h.party===p).sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
+  const resumo = FIELD_KEYS.filter(f=>cnt(f) || mant.some(h=>h.field===f)).map(f=>
+    `<span class="fsum">${fchip(f)} <b>${cnt(f)+mant.filter(h=>h.field===f).length}</b>
+      <span class="muted">(${cnt(f)} eleitos + ${mant.filter(h=>h.field===f).length} mantidos)</span></span>`).join('');
   return `<section class="panel focus" style="border-left:5px solid ${partyColor(p)}">
     <div class="panel-top"><h2><span class="badge" style="background:${partyColor(p)}">${esc(p)}</span> onde o modelo prevê vitória</h2>
       <button class="clearfocus" id="clearFocus">limpar ✕</button></div>
+    <div class="fsumrow"><span class="muted">Campo político das cadeiras deste partido:</span> ${resumo || '<span class="muted">—</span>'}</div>
     <div class="focusgrid">
       <div><b>Governador (${govs.length})</b><div class="chips2">${govs.map(uf=>chip(uf)).join('') || '<span class="muted">nenhum</span>'}</div></div>
-      <div><b>Senado (${sens.length} vaga${sens.length!==1?'s':''})</b><div class="chips2">${sens.map(s=>chip(s.uf, `${s.name} · ${s.uf}`)).join('') || '<span class="muted">nenhuma</span>'}</div></div>
+      <div><b>Senado eleito em 2026 (${sens.length} vaga${sens.length!==1?'s':''})</b>
+        <div class="chips2">${sens.map(s=>chipF(s.uf, `${s.name} · ${s.uf}`, fieldOfBloc(s.bloc))).join('') || '<span class="muted">nenhuma</span>'}</div></div>
+      <div><b>Senado mantido até 2031 (${mant.length})</b>
+        <span class="muted">campo por cargo/atuação — ver critério</span>
+        <div class="chips2">${mant.map(h=>`<span class="stchip static">${esc(h.name)} · ${esc(h.uf)} ${fchip(h.field)}
+          <span class="crit ${h.criterio==='partido'?'fraco':''}">${esc(h.criterio)}</span></span>`).join('') || '<span class="muted">nenhum</span>'}</div></div>
     </div></section>`;
 }
 function wireParty(){
   document.querySelectorAll('[data-party]').forEach(b=>b.onclick=()=>{
     const p=b.dataset.party; partyFocus = (partyFocus===p ? null : p); render();
   });
+  document.querySelectorAll('.fseg').forEach(b=>b.onclick=()=>{
+    const f=b.dataset.field, g=b.dataset.grupo;
+    fieldFocus = (fieldFocus && fieldFocus.field===f && fieldFocus.grupo===g) ? null : {field:f, grupo:g};
+    render();
+  });
+  const cfd = $('#clearField'); if(cfd) cfd.onclick = ()=>{ fieldFocus=null; render(); };
   const cf = $('#clearFocus'); if(cf) cf.onclick = ()=>{ partyFocus=null; render(); };
   document.querySelectorAll('.stchip').forEach(b=>b.onclick=()=>{
     filters.uf=b.dataset.uf; render();
@@ -185,11 +208,14 @@ function mapPanel(off){
       <div class="legend">${legend}</div></div></section>`;
 }
 function blocLegend(off){
+  // no Senado cada estado elege DOIS: contar estados dá 27 onde a leitura natural é 54 cadeiras
   const counts = {};
-  Object.values(FC.states).forEach(st=>{const b=st[off].bloc; counts[b]=(counts[b]||0)+1;});
+  if(off==='senate') Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{counts[e.bloc]=(counts[e.bloc]||0)+1;}));
+  else Object.values(FC.states).forEach(st=>{const b=st[off].bloc; counts[b]=(counts[b]||0)+1;});
   const items = BLOC_ORDER.filter(b=>counts[b]).map(b=>
     `<div class="lg"><span class="sw" style="background:${blocColor(b)}"></span>${esc(blocLabel(b))}<span class="count">${counts[b]}</span></div>`).join('');
-  return `<h3>Blocos (nº de estados)</h3>${items}`;
+  const tot = Object.values(counts).reduce((a,b)=>a+b,0);
+  return `<h3>Blocos (${off==='senate'?`nº de cadeiras — ${tot}`:'nº de estados'})</h3>${items}`;
 }
 function partyLegend(off){
   const counts = {};
@@ -337,7 +363,7 @@ function raceBox(race){
 }
 /* Quando o usuário isola um estado: a conta inteira à mostra — quais pesquisas entraram
    na média, em que base cada instituto publicou e quanto cada uma pesou. */
-function maPanel(uf, off){
+function maPanel(uf, off, aberto){
   const o = FC.states[uf][off];
   const ma = FC.ma || {window_days:30, halflife_days:14};
   const linhas = [];
@@ -359,7 +385,7 @@ function maPanel(uf, off){
     <td class="r">${l.weight!=null?Math.round(l.weight*100)+'%':'—'}</td>
     <td class="r">${l.media_val!=null?`<b>${num(l.media_val)}</b>`:''}</td>
   </tr>`).join('');
-  return `<details class="mapanel"><summary>Média móvel usada neste estado — como foi calculada</summary>
+  return `<details class="mapanel"${aberto?' open':''}><summary>Média móvel usada neste estado — como foi calculada</summary>
     <p class="desc">Cada instituto publica numa base diferente: uns sobre o <b>total de entrevistados</b>
     (indeciso e branco/nulo entram na conta), outros já sobre os <b>votos válidos</b>. Comparar sem
     converter mistura escalas, então a média é feita sobre os <b>válidos</b>
@@ -788,8 +814,10 @@ function senateComposition(){
   if(hold.length) hold.forEach(h=>{ ho[h.field] = (ho[h.field]||0) + 1; });
   else RAW.national.forEach(r=>{ ho[fieldOfParty(r.party)] += (r.hold||0); });
   const tot = {Lula:el.Lula+ho.Lula, Direita:el.Direita+ho.Direita, Centro:el.Centro+ho.Centro};
-  const bar = (obj)=>FIELD_KEYS.filter(f=>obj[f]).map(f=>
-    `<span style="flex:${obj[f]};background:${fieldColor(f)}" title="${fieldLabel(f)}: ${obj[f]}">${obj[f]}</span>`).join('');
+  // cada fatia é clicável: abre quem compõe aquele campo, separando mantidos de eleitos
+  const bar = (obj, grupo)=>FIELD_KEYS.filter(f=>obj[f]).map(f=>
+    `<button class="fseg" style="flex:${obj[f]};background:${fieldColor(f)}" data-field="${f}" data-grupo="${grupo}"
+      title="${fieldLabel(f)}: ${obj[f]} — clique para ver quem">${obj[f]}</button>`).join('');
   const lead = FIELD_KEYS.reduce((a,b)=> tot[b]>tot[a] ? b : a);
   const maj = tot[lead] >= SEN_MAJ
     ? `<b style="color:${fieldColor(lead)}">${fieldLabel(lead)}</b> tem maioria: <b>${tot[lead]}</b>/${SEN_TOTAL} (precisa de ${SEN_MAJ})`
@@ -798,14 +826,48 @@ function senateComposition(){
   return `<section class="panel compo">
     <div class="panel-top"><h2>Composição do Senado 2027 ${simActive()?'<span class="simtag">simulação</span>':''}</h2></div>
     <p class="desc">No Senado o que importa é o total de cadeiras, não quem vence em cada estado. São 81 senadores; <b>maioria absoluta = ${SEN_MAJ}</b>.</p>
-    <div class="compo-block"><div class="compo-h"><b>Senado em 2027</b> <span class="muted">27 mantidos (mandato até 2031) + ${SEN_NEW} eleitos em 2026</span></div>
-      <div class="compobar big">${bar(tot)}<i class="majline" style="left:${100*SEN_MAJ/SEN_TOTAL}%"></i></div>
+    <div class="compo-block"><div class="compo-h"><b>Senado em 2027</b> <span class="muted">27 mantidos (mandato até 2031) + ${SEN_NEW} eleitos em 2026 — clique numa faixa para ver quem</span></div>
+      <div class="compobar big">${bar(tot,'todos')}<i class="majline" style="left:${100*SEN_MAJ/SEN_TOTAL}%"></i></div>
       <div class="compo-maj">${maj}</div></div>
+    ${fieldDrill()}
     <div class="compo-block"><div class="compo-h"><b>Em disputa em 2026</b> <span class="muted">${SEN_NEW} cadeiras (2 por estado)</span></div>
-      <div class="compobar">${bar(el)}</div></div>
+      <div class="compobar">${bar(el,'eleitos')}</div></div>
     <div class="legend2">${legend}</div>
     ${fieldMethod(hold)}
   </section>`;
+}
+/* Quem compõe um campo — mantidos e eleitos SEPARADOS: são populações diferentes,
+   com critérios de classificação diferentes (cargo/atuação x bloco da candidatura). */
+function fieldDrill(){
+  if(!fieldFocus) return '';
+  const f = fieldFocus.field;
+  const mantidos = (RAW.holdovers||[]).filter(h=>h.field===f)
+    .sort((a,b)=>a.name.localeCompare(b.name,'pt-BR'));
+  const eleitos = [];
+  Object.keys(FC.states).forEach(uf=>FC.states[uf].senate.estimate.forEach(e=>{
+    if(fieldOfBloc(e.bloc)===f) eleitos.push({...e, uf});
+  }));
+  eleitos.sort((a,b)=>FC.states[a.uf].estado.localeCompare(FC.states[b.uf].estado,'pt-BR'));
+  const chipM = h=>`<span class="senchip"><b>${esc(h.name)}</b> <span class="muted">${esc(h.uf)}</span>
+    <span class="badge sm" style="background:${partyColor(h.party)}">${esc(h.party)}</span>
+    <span class="crit ${h.criterio==='partido'?'fraco':''}">${esc(h.criterio)}</span></span>`;
+  const chipE = e=>`<button class="senchip lnk" data-uf="${e.uf}"><b>${esc(e.name)}</b>
+    <span class="muted">${esc(e.uf)}</span>
+    <span class="badge sm" style="background:${partyColor(e.party)}">${esc(e.party)}</span>
+    <span class="blocchip sm" style="background:${blocColor(e.bloc)}">${esc(blocLabel(e.bloc))}</span></button>`;
+  const grupo = fieldFocus.grupo;
+  const blocoM = grupo==='eleitos' ? '' : `<div class="drillg"><b>Mantidos (${mantidos.length})</b>
+    <span class="muted">mandato até 2031 — campo por cargo/atuação, ver critério</span>
+    <div class="chips2">${mantidos.map(chipM).join('') || '<span class="muted">nenhum</span>'}</div></div>`;
+  return `<div class="fielddrill" style="border-left:5px solid ${fieldColor(f)}">
+    <div class="panel-top"><h3 style="margin:0">${esc(fieldLabel(f))} — ${mantidos.length + eleitos.length} de 81
+      ${grupo==='eleitos'?'<span class="muted">(só os eleitos em 2026)</span>':''}</h3>
+      <button class="clearfocus" id="clearField">limpar ✕</button></div>
+    ${blocoM}
+    <div class="drillg"><b>Eleitos em 2026 (${eleitos.length})</b>
+      <span class="muted">campo pelo bloco declarado da candidatura</span>
+      <div class="chips2">${eleitos.map(chipE).join('') || '<span class="muted">nenhum</span>'}</div></div>
+  </div>`;
 }
 /* Como o campo de cada senador foi decidido — partido não basta: o mesmo partido tem
    senador do campo Lula e do campo oposto, e os 27 que ficam nem estão em disputa. */
@@ -853,12 +915,21 @@ function renderPollsLog(){
   const rows = sp.filter(p=>(logFilter.uf==='ALL'||p.uf===logFilter.uf) && (logFilter.cargo==='ALL'||p.cargo===logFilter.cargo));
   const body = rows.map(p=>{
     const rd = (p.readings||[]).slice(0,5).map(r=>`${esc(r.name.split(' ')[0])} ${fpct(r.pct)}`).join(' · ');
+    const t2 = p.scenario && p.scenario.indexOf('2') === 0;
     return `<tr class="${p.is_new?'newrow':''}">
       <td class="dt">${esc(p.date)||'—'}${p.is_new?' <span class="newtag">nova</span>':''}</td>
       <td>${esc(p.estado)}</td><td>${cargoShort(p.cargo)}</td>
+      <td><span class="turnotag ${t2?'t2':'t1'}">${esc(p.scenario||'1º turno')}</span></td>
+      <td><span class="basetag ${p.base==='válidos'?'v':'t'}">${esc(p.base||'?')}</span>${
+        p.undecided!=null?`<span class="muted sm"> br/ind. ${fpct(p.undecided)}</span>`:''}</td>
       <td>${esc(p.pollster)}</td><td class="rd">${rd}</td>
       <td>${pollLink(p.url, srcName(p.source))}</td></tr>`;
   }).join('');
+  // estado + cargo isolados: mostra a conta da média móvel daquela disputa
+  const off = logFilter.cargo==='Governo' ? 'governor' : logFilter.cargo==='Senado' ? 'senate' : null;
+  const card = (logFilter.uf!=='ALL' && off && FC.states[logFilter.uf])
+    ? `<section class="panel"><h2 style="margin:0 0 4px">${esc(FC.states[logFilter.uf].estado)} · ${cargoShort(logFilter.cargo)} — média móvel em uso</h2>
+       ${maPanel(logFilter.uf, off, true)}</section>` : '';
   const presBody = pp.map(u=>`<tr>
       <td class="dt">${esc(u.date)||'—'}</td><td>${esc(u.pollster)}</td>
       <td>${u.weight!=null?Math.round(u.weight*100)+'%':'—'}</td>
@@ -877,10 +948,11 @@ function renderPollsLog(){
         <option value="Senado" ${logFilter.cargo==='Senado'?'selected':''}>Só Senado</option>
       </select></div>
     <div class="logwrap"><table class="logtbl">
-      <thead><tr><th>Data</th><th>Estado</th><th>Cargo</th><th>Instituto</th><th>Leituras</th><th>Fonte</th></tr></thead>
-      <tbody>${body || `<tr><td colspan="6" class="muted">Nenhuma pesquisa com esse filtro.</td></tr>`}</tbody>
+      <thead><tr><th>Data</th><th>Estado</th><th>Cargo</th><th>Turno</th><th>Base</th><th>Instituto</th><th>Leituras</th><th>Fonte</th></tr></thead>
+      <tbody>${body || `<tr><td colspan="8" class="muted">Nenhuma pesquisa com esse filtro.</td></tr>`}</tbody>
     </table></div>
   </section>
+  ${card}
   <section class="panel">
     <h2 style="margin:0 0 4px">Pesquisas presidenciais no agregado</h2>
     <p class="desc">As ${pp.length} pesquisas nacionais do poll-of-polls, com o peso por recência.</p>

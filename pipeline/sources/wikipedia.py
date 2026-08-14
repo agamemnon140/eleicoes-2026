@@ -15,7 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from pipeline.sources.base import (BASE_TOTAL, BASE_VALID, FIRST_ROUND, RUNOFF, PollRecord,
-                                   norm_party, option_kind, strip_accents)
+                                   canon_pollster, norm_party, option_kind, strip_accents)
 
 UA = {"User-Agent": "eleicoes-2026-bot/0.1 (github.com/agamemnon140/eleicoes-2026)"}
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
@@ -184,7 +184,7 @@ def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[P
             seen.add(key)
             records.append(PollRecord(
                 uf, cargo, cand["name"], cand["party"], pct,
-                _clean(row[0]), _clean(row[1]), "wikipedia", url,
+                _pollster(row[0]), _clean(row[1]), "wikipedia", url,
                 scenario=cenario, base=base, sum_cands=round(soma_cands, 1),
                 undecided=round(undecided, 1),
                 opponents=adversarios if cenario == RUNOFF else ()))
@@ -193,3 +193,13 @@ def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[P
 
 def _clean(s: str) -> str:
     return re.sub(r"\[.*?\]", "", s).strip()
+
+
+def _pollster(s: str) -> str:
+    """Nome do instituto como a Wikipedia escreveu, mas canonicalizado.
+
+    "Genial/Quaest" aqui e "Quaest" na Gazeta são o mesmo instituto: sem unificar, a
+    média móvel trata as duas leituras como séries independentes.
+    """
+    limpo = _clean(s)
+    return canon_pollster(limpo) or limpo

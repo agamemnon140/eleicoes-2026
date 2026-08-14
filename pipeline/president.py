@@ -81,6 +81,14 @@ def _lists(html: str):
 
 
 def pollster_from_url(url: str) -> str:
+    """Instituto da pesquisa presidencial, no mesmo nome canônico das estaduais.
+
+    Sem isso o `.title()` do slug gera "Cnt Mda" e "Genial Quaest" enquanto as estaduais
+    dizem "CNT/MDA" e "Quaest" — o mesmo instituto com dois nomes no registro.
+    """
+    canon = gz.pollster_from(url)
+    if canon != "instituto não identificado":
+        return canon
     slug = url.rstrip("/").split("/")[-1]
     return slug.split("-presidente")[0].replace("-", " ").title()
 
