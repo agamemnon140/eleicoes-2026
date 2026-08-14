@@ -792,13 +792,6 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Petecão
-        party: PSD
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Ronaldo Caiado / indefinido
-        apoio_verificado: false
-        active: true
   AL:
     estado: Alagoas
     governor:
@@ -1332,13 +1325,6 @@ states:
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
-        apoio_verificado: false
-        active: true
-      - name: Gustavo Medanha
-        party: PRD
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Indefinido / direita
         apoio_verificado: false
         active: true
       - name: Humberto Teófilo
@@ -1889,13 +1875,6 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Professora Araci Lemos
-        party: PSOL
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Não verificado
-        apoio_verificado: false
-        active: true
       - name: Araceli Lemos
         party: PSOL
         bloc: Lula
@@ -1939,13 +1918,6 @@ states:
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
-        apoio_verificado: false
-        active: true
-      - name: Chicão
-        party: União
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Indefinido
         apoio_verificado: false
         active: true
   PE:
@@ -2602,13 +2574,6 @@ states:
         bloc: Lula
         endorsement: chapa/aliança
         apoio: Lula
-        apoio_verificado: false
-        active: true
-      - name: André David
-        party: Republicanos
-        bloc: Flávio
-        endorsement: inferido
-        apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
       - name: Eduardo Amorim

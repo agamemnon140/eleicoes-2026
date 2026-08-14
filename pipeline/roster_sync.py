@@ -69,6 +69,53 @@ def roster_index(roster: dict) -> dict:
     return idx
 
 
+def similar_names(roster: dict) -> list[str]:
+    """Nomes que provavelmente são a MESMA pessoa escrita de dois jeitos.
+
+    `roster_index` só pega duplicata idêntica (sem acento/caixa). "Professora Araci Lemos"
+    e "Araceli Lemos" (PSOL/PA) escapam — e viram dois candidatos, um deles sem pesquisa,
+    pontuando pelo apoio. Heurística: mesmo UF+cargo+partido e um sobrenome em comum.
+    """
+    achados = []
+    for uf, st in (roster.get("states") or {}).items():
+        for office, cargo in OFFICES.items():
+            cands = ((st.get(office) or {}).get("candidates") or [])
+            for i, a in enumerate(cands):
+                for b in cands[i + 1:]:
+                    if a.get("party") == b.get("party") and _mesma_pessoa(a["name"], b["name"]):
+                        achados.append(f"{uf} {cargo} ({a.get('party')}): "
+                                       f"{a['name']!r} x {b['name']!r}")
+    return achados
+
+
+def _dist(a: str, b: str) -> int:
+    """Distância de edição (Levenshtein), para pegar erro de digitação em sobrenome."""
+    if a == b:
+        return 0
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def _mesma_pessoa(n1: str, n2: str) -> bool:
+    """Um nome é o outro com prefixo/apelido a mais, ou o sobrenome só difere por digitação.
+
+    Compartilhar o PRIMEIRO nome não basta: 'Carlos Portinho' e 'Carlos Jordy' (PL/RJ) são
+    duas pessoas.
+    """
+    t1 = [t for t in norm(n1).split() if len(t) > 2]
+    t2 = [t for t in norm(n2).split() if len(t) > 2]
+    if not t1 or not t2:
+        return False
+    if set(t1) <= set(t2) or set(t2) <= set(t1):     # "Chicão" ⊂ "Chicão Melo"
+        return True
+    return _dist(t1[-1], t2[-1]) <= 2                # "mendanha" x "medanha"
+
+
 def new_record(spec: dict) -> dict:
     """Registro zerado para uma candidatura que ainda não tem pesquisa coletada."""
     r = {
@@ -124,6 +171,8 @@ def sync(records: list[dict], roster: dict) -> dict:
     """
     idx = roster_index(roster)
     seen = set()
+    for s in similar_names(roster):
+        print(f"  ⚠ possível duplicata no roster — {s}")
     left: set = set()    # (uf, nome) que saíram de algum cargo
     joined: dict = {}    # (uf, nome) -> cargo em que entraram
     report = {"added": [], "deactivated": [], "changed": [], "moved_office": []}

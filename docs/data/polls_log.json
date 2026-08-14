@@ -517,6 +517,11 @@
      "name": "Professora Araci Lemos",
      "party": "PSOL",
      "pct": 4.0
+    },
+    {
+     "name": "Araceli Lemos",
+     "party": "PSOL",
+     "pct": 4.0
     }
    ]
   },
@@ -1814,6 +1819,11 @@
     },
     {
      "name": "Professora Araci Lemos",
+     "party": "PSOL",
+     "pct": 2.0
+    },
+    {
+     "name": "Araceli Lemos",
      "party": "PSOL",
      "pct": 2.0
     }
