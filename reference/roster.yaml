@@ -733,6 +733,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Davi Davino Filho
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   AP:
     estado: Amapá
     governor:
@@ -782,6 +791,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Acácio Favacho
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   AM:
     estado: Amazonas
     governor:
@@ -1104,6 +1122,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Marcos do Val
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   GO:
     estado: Goiás
     governor:
@@ -1195,6 +1222,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Isaura Lemos
+        party: PSB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   MA:
     estado: Maranhão
     governor:
@@ -1290,6 +1326,15 @@ states:
         apoio: Ronaldo Caiado / indefinido
         apoio_verificado: false
         active: true
+      - name: Doutora Natasha
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1594,6 +1639,24 @@ states:
         apoio: Indefinido / centro-direita
         apoio_verificado: false
         active: false
+      - name: Cristina Graeml
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Dr. Rosinha
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   PB:
     estado: Paraíba
     governor:
@@ -1650,6 +1713,24 @@ states:
         apoio: Lula (provável)
         apoio_verificado: false
         active: true
+      - name: André Gadelha
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Major Fábio
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   PA:
     estado: Pará
     governor:
@@ -2007,6 +2088,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Frederico Antunes
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   RJ:
     estado: Rio de Janeiro
     governor:
@@ -2084,6 +2174,24 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Waguinho
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Monica Benicio
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   RO:
     estado: Rondônia
     governor:
@@ -2109,6 +2217,15 @@ states:
         apoio: Flávio Bolsonaro / indefinido
         apoio_verificado: false
         active: true
+      - name: Expedito Netto
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2140,6 +2257,15 @@ states:
         apoio: Lula (provável)
         apoio_verificado: false
         active: true
+      - name: Acir Gurgacz
+        party: PDT
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   RR:
     estado: Roraima
     governor:
@@ -2266,6 +2392,15 @@ states:
         apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
+      - name: Lunelli
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
   SE:
     estado: Sergipe
     governor:
