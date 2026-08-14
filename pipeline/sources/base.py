@@ -69,6 +69,35 @@ def option_kind(label: str) -> str:
     return "candidato"
 
 
+# instituto -> nome canônico. Vale para TODAS as fontes: "Genial/Quaest" (Wikipedia),
+# "genial-quaest" (slug da Gazeta) e "quaest" são o mesmo instituto e têm de virar uma
+# série só — senão a média móvel trata o mesmo instituto como dois.
+POLLSTERS = {
+    "atlasintel": "AtlasIntel", "atlas intel": "AtlasIntel",
+    "real time big data": "Real Time Big Data", "eal time big data": "Real Time Big Data",
+    "realtimebigdata": "Real Time Big Data",
+    "parana pesquisas": "Paraná Pesquisas", "paranapesquisas": "Paraná Pesquisas",
+    "futura inteligencia": "Futura Inteligência",
+    "datafolha": "Datafolha", "genial quaest": "Quaest", "quaest": "Quaest",
+    "ipec": "Ipec", "ipespe": "Ipespe", "cnt mda": "CNT/MDA", "mda": "CNT/MDA", "cnt": "CNT/MDA",
+    "irg": "IRG", "neokemp": "NeoKemp", "ideia": "Ideia", "poderdata": "PoderData",
+    "gerp": "Gerp", "nexus": "Nexus", "brasmarket": "Brasmarket", "verita": "Veritá",
+    "opiniao": "Opinião", "ranking": "Ranking Pesquisas", "offerwise": "Offerwise",
+    "ativa": "Ativa Pesquisas", "vox": "Vox Populi",
+}
+_POLLSTER_KEYS = sorted(POLLSTERS, key=len, reverse=True)   # casa o mais específico antes
+
+
+def canon_pollster(texto: str) -> str | None:
+    """Nome canônico do instituto a partir de texto livre ou slug. None se não reconhecer."""
+    s = strip_accents(texto or "").lower().replace("-", " ").replace("/", " ")
+    s = " ".join(s.split())
+    for k in _POLLSTER_KEYS:
+        if k in s:
+            return POLLSTERS[k]
+    return None
+
+
 def norm_party(p: str) -> str:
     p = strip_accents(p or "").upper().strip()
     return {

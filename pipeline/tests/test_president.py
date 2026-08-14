@@ -15,7 +15,9 @@ def test_parse_presidencial():
     # 2º turno Lula x Flávio
     ro = {name: pct for name, _party, pct in p["runoff"]}
     assert ro["Lula"] == 44.0 and ro["Flávio Bolsonaro"] == 39.0
-    assert p["pollster"].startswith("Genial")
+    # nome canônico: "genial-quaest" e "quaest" são o MESMO instituto e têm de virar
+    # uma série só, aqui e nas estaduais
+    assert p["pollster"] == "Quaest"
 
 
 def test_aggregate_filtra_ruido():

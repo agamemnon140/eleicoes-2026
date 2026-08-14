@@ -212,9 +212,16 @@ def poll_ids(records: list[dict]) -> set:
     """Identidade de cada pesquisa considerada (para diferenciar novas de já vistas)."""
     ids = set()
     for r in records:
-        for s in (r.get("polls") or []):
-            ids.add((r["uf"], r["cargo"], s.get("pollster"), s.get("date")))
+        for s in all_polls(r):
+            ids.add((r["uf"], r["cargo"], s.get("pollster"), s.get("date"), s.get("scenario")))
     return ids
+
+
+def all_polls(r: dict):
+    """Pesquisas de um registro: as de 1º turno e as de cada duelo de 2º turno."""
+    yield from (r.get("polls") or [])
+    for info in (r.get("runoff") or {}).values():
+        yield from (info.get("polls") or [])
 
 
 def new_poll_ids(records: list[dict]) -> tuple[set, str | None, bool]:
@@ -238,16 +245,23 @@ def build_polls_log(records: list[dict], president: dict | None, estados: dict, 
     """Registro de todas as pesquisas consideradas (uma linha por pesquisa distinta)."""
     polls: dict = {}
     for r in records:
-        for s in (r.get("polls") or []):
-            # uma linha por matéria (inclui a URL: 2 matérias no mesmo dia não se fundem)
-            key = (r["uf"], r["cargo"], s.get("pollster"), s.get("date"), s.get("url", ""))
+        for s in all_polls(r):
+            # uma linha por matéria E POR TURNO (a mesma matéria traz 1º e 2º turno, que não
+            # se somam); a URL entra na chave para 2 matérias do mesmo dia não se fundirem
+            key = (r["uf"], r["cargo"], s.get("pollster"), s.get("date"), s.get("url", ""),
+                   s.get("scenario"))
             e = polls.setdefault(key, {
                 "uf": r["uf"], "estado": estados.get(r["uf"], r["uf"]), "cargo": r["cargo"],
                 "pollster": s.get("pollster"), "date": s.get("date"), "source": s.get("source", ""),
                 "url": s.get("url", ""),
-                "is_new": (r["uf"], r["cargo"], s.get("pollster"), s.get("date")) in new_ids,
+                # turno e base ficam por pesquisa: são o que torna (ou não) duas comparáveis
+                "scenario": s.get("scenario"), "base": s.get("base"),
+                "sum_cands": s.get("sum_cands"), "undecided": s.get("undecided"),
+                "is_new": (r["uf"], r["cargo"], s.get("pollster"), s.get("date"),
+                           s.get("scenario")) in new_ids,
                 "readings": []})
-            e["readings"].append({"name": r["name"], "party": r["party"], "pct": s.get("pct")})
+            e["readings"].append({"name": r["name"], "party": r["party"], "pct": s.get("pct"),
+                                  "pct_valid": s.get("pct_valid")})
     for e in polls.values():
         e["readings"].sort(key=lambda x: (x["pct"] is None, -(x["pct"] or 0)))
     state_polls = sorted(polls.values(),
