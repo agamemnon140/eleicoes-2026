@@ -66,6 +66,87 @@ def score_senate(
     }
 
 
+MAIORIA = 50.0     # % dos votos válidos que encerra a eleição no 1º turno
+
+# --- média móvel (poll-of-polls) ---------------------------------------------
+MA_WINDOW_DAYS = 30    # janela: pesquisas até 30 dias mais velhas que a mais recente
+MA_HALFLIFE_DAYS = 14  # meia-vida do peso por recência: 14 dias mais velha pesa metade
+
+
+def model_pct(r: dict) -> float | None:
+    """% que o modelo usa: os válidos quando dá para converter, senão o publicado.
+
+    Fica aqui (e não no coletor) porque é decisão de modelo: qual base entra na conta.
+    """
+    v = r.get("pct_valid")
+    return v if isinstance(v, (int, float)) else r.get("pct")
+
+
+def _norm(s: str) -> str:
+    import unicodedata
+    s = unicodedata.normalize("NFKD", str(s or ""))
+    return "".join(c for c in s if not unicodedata.combining(c)).casefold().strip()
+
+
+def governor_race(cands: list[dict], threshold: float = MAIORIA) -> dict:
+    """Decide a eleição de governador em DOIS TURNOS, como ela de fato acontece.
+
+    `cands` são os candidatos ativos, cada um com `pct_valid` (% dos votos VÁLIDOS — é
+    sobre válidos que a Constituição conta a maioria), `score` (índice, usado como
+    desempate) e `runoff` ({adversário: % válidos no 2º turno}).
+
+    Regra:
+      1. líder com >= 50% dos válidos  -> eleito no 1º turno;
+      2. senão, os dois primeiros vão ao 2º turno e, havendo pesquisa DAQUELE par,
+         é ela que decide — não o índice do 1º turno;
+      3. sem pesquisa de 2º turno, cai no índice (chapa + presidente) como desempate.
+
+    Ordenar pelo 1º turno e declarar vencedor o primeiro é o erro clássico: quem lidera
+    com 40% em campo dividido perde o 2º turno com frequência.
+    """
+    polled = [c for c in cands if isinstance(c.get("pct_valid"), (int, float))]
+    by_score = sorted(cands, key=lambda c: c.get("score") or 0, reverse=True)
+    if len(polled) < 2:
+        w = by_score[0] if by_score else None
+        return {"turno": None, "winner": w["name"] if w else None,
+                "decidido_por": "índice (sem pesquisa comparável)", "finalistas": [], "pcts": {}}
+
+    polled.sort(key=lambda c: c["pct_valid"], reverse=True)
+    lider, vice = polled[0], polled[1]
+    pcts = {c["name"]: c["pct_valid"] for c in polled}
+
+    if lider["pct_valid"] >= threshold:
+        return {"turno": 1, "winner": lider["name"], "decidido_por": "1º turno (maioria dos válidos)",
+                "finalistas": [], "pcts": pcts,
+                "margem": round(lider["pct_valid"] - vice["pct_valid"], 1)}
+
+    finalistas = [lider["name"], vice["name"]]
+    # pesquisa de 2º turno DESTE par (procura nos dois sentidos; grafia pode variar)
+    duelo = {}
+    for a, b in ((lider, vice), (vice, lider)):
+        for rival, info in (a.get("runoff") or {}).items():
+            if _norm(rival) in _norm(b["name"]) or _norm(b["name"]) in _norm(rival):
+                duelo[a["name"]] = info.get("pct_valid")
+    # num duelo em base de válidos os dois somam 100 — um lado basta para fechar a conta
+    if len(duelo) == 1:
+        (quem, valor), = duelo.items()
+        if valor is not None:
+            outro = finalistas[1] if quem == finalistas[0] else finalistas[0]
+            duelo[outro] = round(100.0 - valor, 1)   # mesma precisão do porte JS
+
+    if len(duelo) == 2 and all(v is not None for v in duelo.values()):
+        vencedor = max(duelo, key=duelo.get)
+        return {"turno": 2, "winner": vencedor, "decidido_por": "pesquisa de 2º turno",
+                "finalistas": finalistas, "pcts": pcts, "duelo": duelo,
+                "margem": round(abs(duelo[finalistas[0]] - duelo[finalistas[1]]), 1)}
+
+    entre_finalistas = [c for c in by_score if c["name"] in finalistas]
+    vencedor = entre_finalistas[0]["name"] if entre_finalistas else lider["name"]
+    return {"turno": 2, "winner": vencedor, "decidido_por": "índice (sem pesquisa de 2º turno)",
+            "finalistas": finalistas, "pcts": pcts,
+            "margem": round(lider["pct_valid"] - vice["pct_valid"], 1)}
+
+
 def score_governor(
     *,
     gov_pct: float | None,

@@ -74,8 +74,9 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swi
     govs = []
     for r in gov_recs:
         pres_pct = lean.get(r["bloc"]) if r["bloc"] in BLOCS else None
+        mp = model.model_pct(r)            # % dos válidos quando dá para converter
         res = model.score_governor(
-            gov_pct=r.get("pct"), gov_reliability=1.0,
+            gov_pct=mp, gov_reliability=1.0,
             pres_pct=pres_pct, pres_reliability=pres_reliability(basis),
             w_gov=gw.gov, w_pres=gw.pres,
         )
@@ -83,14 +84,17 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swi
                      "model": {
                          "scores": res["scores"],
                          "weights": {"governo": round(gw.gov, 3), "presidente": round(gw.pres, 3)},
-                         "inputs": {"gov_pct": r.get("pct"), "gov_reliability": 1.0,
+                         "inputs": {"gov_pct": mp, "gov_reliability": 1.0,
                                     "pres_pct": pres_pct, "pres_reliability": pres_reliability(basis),
                                     "pres_bloc": r["bloc"], "pres_basis": basis}}})
     govs.sort(key=lambda c: c["score"], reverse=True)
 
-    gov_estimate = next((c for c in govs if c["active"]), None)
+    # a eleição de governador tem DOIS turnos — o índice do 1º turno sozinho não decide
+    race = model.governor_race([c for c in govs if c["active"]])
+    gov_estimate = next((c for c in govs if c["name"] == race["winner"]), None)
     for c in govs:
         c["estimated"] = c is gov_estimate
+        c["finalista"] = c["name"] in (race.get("finalistas") or [])
 
     # --- senado: chapa (gov + pres com confiab. do preview) + pesquisa do Senado + apoio ---
     mc = state_may_change(sen_recs)
@@ -133,6 +137,7 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swi
             "certainty": gov_conf.get(uf, ""),
             "stale": False,
             "estimate": _mini(gov_estimate),
+            "race": race,
             "weights": {"gov": round(gw.gov, 3), "pres": round(gw.pres, 3)},
             "candidates": govs,
         },
@@ -153,9 +158,9 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swi
 def _public(r: dict) -> dict:
     """Campos de exibição que o front usa (sem os internos do modelo)."""
     keep = ("uf", "cargo", "name", "party", "bloc", "apoio", "apoio_verificado", "pct",
-            "pctDisplay", "instituto", "campo", "cenario", "indecisao", "situacao", "fonte",
-            "status", "status_tipo", "active", "gov_ticket", "may_change", "source", "polls",
-            "estimated_preview", "certainty_preview")
+            "pct_valid", "runoff", "pctDisplay", "instituto", "campo", "cenario", "indecisao",
+            "situacao", "fonte", "status", "status_tipo", "active", "gov_ticket", "may_change",
+            "source", "polls", "estimated_preview", "certainty_preview")
     return {k: r.get(k) for k in keep}
 
 
@@ -167,7 +172,9 @@ def _mini(c):
 
 def national_table(states: dict, roster: dict) -> list[dict]:
     hold = {row["party"]: row["hold"] for row in roster["national_seed"]}
-    holdnames = roster.get("holdovers", {})
+    holdnames: dict = {}
+    for h in roster.get("holdovers", []):
+        holdnames.setdefault(h["party"], []).append(f"{h['name']} ({h['uf']})")
     newsen: dict = {}
     gov: dict = {}
     for st in states.values():
@@ -290,7 +297,12 @@ def main():
         "source": polls.get("source", "snapshot"),
         "update": {"new_polls": len(new_ids), "prev_date": prev_date, "comparable": comparable,
                    "total_polls": len(state_polls) + len(pres_polls)},
+        # parâmetros da média móvel, para o site poder explicar a conta que fez
+        "ma": {"window_days": model.MA_WINDOW_DAYS, "halflife_days": model.MA_HALFLIFE_DAYS,
+               "maioria": model.MAIORIA},
         "national": national_table(states, roster),
+        # campo político dos 27 senadores que ficam — classificado UM A UM, não por partido
+        "holdovers": roster.get("holdovers", []),
         "states": states,
     }
     (WEB_DATA / "forecast.json").write_text(

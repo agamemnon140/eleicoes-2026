@@ -14,7 +14,8 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
-from pipeline.sources.base import PollRecord, norm_party, strip_accents
+from pipeline.sources.base import (BASE_TOTAL, BASE_VALID, FIRST_ROUND, RUNOFF, PollRecord,
+                                   norm_party, option_kind, strip_accents)
 
 UA = {"User-Agent": "eleicoes-2026-bot/0.1 (github.com/agamemnon140/eleicoes-2026)"}
 MONTHS = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
@@ -100,10 +101,38 @@ def collect_state(estado: str, uf: str, roster_state: dict, session: requests.Se
     return parse_state(html, uf, roster_state, url or "")
 
 
+_META_HDR = ("margin", "sample", "lead", "link", "ref", "source", "date", "pollster",
+             "turnout", "method")
+_RUNOFF_HDR = ("second round", "runoff", "run-off", "2nd round")
+
+
+def _table_scenario(t) -> str:
+    """1º ou 2º turno, pelo título de seção acima da tabela."""
+    h = t.find_previous(["h2", "h3", "h4"])
+    for _ in range(3):
+        if h is None:
+            break
+        txt = strip_accents(h.get_text(" ", strip=True)).lower()
+        if any(k in txt for k in _RUNOFF_HDR):
+            return RUNOFF
+        if "first round" in txt or "opinion polling" in txt:
+            return FIRST_ROUND
+        h = h.find_previous(["h2", "h3", "h4"])
+    return FIRST_ROUND
+
+
+def _hdr_kind(idx: int, h: str) -> str:
+    """'meta', 'branco', 'outros' ou 'candidato' para uma coluna do cabeçalho."""
+    s = strip_accents(h or "").lower().strip()
+    if idx < 2 or any(k in s for k in _META_HDR):
+        return "meta"
+    return option_kind(h)
+
+
 def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[PollRecord]:
     soup = BeautifulSoup(html, "lxml")
     records: list[PollRecord] = []
-    seen: set = set()   # (cargo, name) — pega da tabela mais recente (1ª ocorrência)
+    seen: set = set()   # (cargo, name, cenário) — pega da tabela mais recente (1ª ocorrência)
     for t in soup.select("table.wikitable"):
         rows = t.find_all("tr")
         if not rows:
@@ -111,8 +140,9 @@ def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[P
         header = [c.get_text(" ", strip=True) for c in rows[0].find_all(["th", "td"])]
         if not any("Pollster" in h or "Date(s) conducted" in h for h in header):
             continue
-        cols, tally = {}, {}
+        cols, tally, kinds = {}, {}, {}
         for idx, h in enumerate(header):
+            kinds[idx] = _hdr_kind(idx, h)
             if idx < 2:
                 continue
             m = _match_header(h, roster_state)
@@ -125,18 +155,39 @@ def parse_state(html: str, uf: str, roster_state: dict, url: str = "") -> list[P
         row = _latest_row(rows, len(header))
         if not row:
             continue
+
+        # base da tabela: soma dos candidatos (+ "Others") x indecisos/brancos
+        soma_cands = undecided = 0.0
+        for idx, kind in kinds.items():
+            if kind == "meta" or idx >= len(row):
+                continue
+            v = _pct(row[idx])
+            if v is None:
+                continue
+            if kind == "branco":
+                undecided += v
+            else:
+                soma_cands += v
+        base = BASE_VALID if (undecided < 0.5 and abs(soma_cands - 100) < 2.5) else BASE_TOTAL
+        cenario = _table_scenario(t)
+        adversarios = tuple(c["name"] for _, (c, cargo) in cols.items() if cargo == cargo_tbl)
+
         for idx, (cand, cargo) in cols.items():
             if cargo != cargo_tbl:
                 continue
-            key = (cargo, cand["name"])
+            key = (cargo, cand["name"], cenario)
             if key in seen:
                 continue
             pct = _pct(row[idx]) if idx < len(row) else None
             if pct is None:
                 continue
             seen.add(key)
-            records.append(PollRecord(uf, cargo, cand["name"], cand["party"], pct,
-                                      _clean(row[0]), _clean(row[1]), "wikipedia", url))
+            records.append(PollRecord(
+                uf, cargo, cand["name"], cand["party"], pct,
+                _clean(row[0]), _clean(row[1]), "wikipedia", url,
+                scenario=cenario, base=base, sum_cands=round(soma_cands, 1),
+                undecided=round(undecided, 1),
+                opponents=adversarios if cenario == RUNOFF else ()))
     return records
 
 

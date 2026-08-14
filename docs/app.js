@@ -228,17 +228,18 @@ function partyPanel(off){
 
 /* ---------- consolidado nacional (senado) ---------- */
 function nationalPanel(){
-  const rows = FC.national.filter(r=>r.sen2027>0||r.gov>0);
+  // aba do Senado: só cadeiras de Senado. Contagem de governadores é assunto da outra aba.
+  const rows = FC.national.filter(r=>r.sen2027>0);
   const body = rows.map(r=>`
     <div class="natrow">
       <strong>${esc(r.party)}</strong>
       <b>${r.hold}</b><div class="bar"><i style="width:${100*r.hold/27}%;background:${partyColor(r.party)}"></i></div>
       <b>${r.newSen}</b><div class="bar b2 b2wrap"><i style="width:${100*r.newSen/54}%"></i></div>
-      <b title="Senado 2027 (mantidos + novos)">${r.sen2027}</b><b title="governadores">${r.gov}</b>
+      <b title="Senado 2027 (mantidos + novos)">${r.sen2027}</b>
     </div>`).join('');
   return `<section class="panel"><h2>Consolidado nacional do Senado em 2027</h2>
     <p class="desc">Mantém os 27 senadores com mandato até 2031 e soma os 54 novos estimados por este modelo.</p>
-    <div class="natrow h"><div>Partido</div><div>Mant.</div><div></div><div>Novos</div><div class="b2h"></div><div>2027</div><div>Gov.</div></div>
+    <div class="natrow h"><div>Partido</div><div>Mant.</div><div></div><div>Novos</div><div class="b2h"></div><div>2027</div></div>
     ${body}</section>`;
 }
 
@@ -300,6 +301,7 @@ function stateCard(uf, off){
     ${estimateBox(uf, off)}
     ${off==='senate' ? competeBand(o) : ''}
     <div class="cards">${cands.map(c=>candRow(c, off)).join('')}</div>
+    ${filters.uf!=='ALL' ? maPanel(uf, off) : ''}
   </section>`;
 }
 function estimateBox(uf, off){
@@ -314,7 +316,63 @@ function estimateBox(uf, off){
     <div><strong>★ ${off==='governor'?'Governador estimado':'Senadores estimados'}</strong>
       <div class="who">${who}</div><div class="meta2">${w}${o.stale?' · <span class="pill stale">pode estar desatualizado</span>':''}</div></div>
     <div class="certainty"><span class="muted">certeza</span><b>${esc(o.certainty||'—')}</b>${o.may_change?`<div class="muted">${o.may_change}% podem mudar</div>`:''}</div>
-  </div>`;
+  </div>${off==='governor' ? raceBox(FC.states[uf].governor.race) : ''}`;
+}
+/* como a eleição termina: no 1º turno ou num 2º — e, havendo 2º, quem a pesquisa do duelo dá */
+function raceBox(race){
+  if(!race || !race.turno) return '';
+  const pct = v => `${String(r1(v)).replace('.',',')}%`;
+  if(race.turno===1)
+    return `<div class="racebox r1"><b>Decidido no 1º turno</b>
+      <span>${esc(race.winner)} com <b>${pct(race.pcts[race.winner])}</b> dos votos válidos
+      (acima de 50%), ${race.margem} pp à frente do 2º.</span></div>`;
+  const [a,b] = race.finalistas || [];
+  const duelo = race.duelo;
+  const linha = duelo
+    ? `2º turno pela pesquisa do duelo: <b>${esc(race.winner)}</b> ${pct(duelo[race.winner])} x ${pct(duelo[race.winner===a?b:a])}.`
+    : `Sem pesquisa deste duelo — quem vence sai do índice (chapa + presidente).`;
+  return `<div class="racebox r2"><b>Vai a 2º turno</b>
+    <span>No 1º turno ninguém passa de 50% dos válidos: <b>${esc(a)}</b> ${pct(race.pcts[a])} e
+    <b>${esc(b)}</b> ${pct(race.pcts[b])}. ${linha}</span></div>`;
+}
+/* Quando o usuário isola um estado: a conta inteira à mostra — quais pesquisas entraram
+   na média, em que base cada instituto publicou e quanto cada uma pesou. */
+function maPanel(uf, off){
+  const o = FC.states[uf][off];
+  const ma = FC.ma || {window_days:30, halflife_days:14};
+  const linhas = [];
+  o.candidates.filter(c=>c.active && c.polls && c.polls.length).forEach(c=>{
+    c.polls.forEach((p,i)=>linhas.push({
+      cand: i===0 ? c.name : '', party: i===0 ? c.party : '',
+      media: i===0 ? c.pct : null, media_val: i===0 ? c.pct_valid : null, n: c.polls.length,
+      ...p}));
+  });
+  if(!linhas.length) return '';
+  const num = v => v==null ? '—' : String(r1(v)).replace('.',',')+'%';
+  const body = linhas.map(l=>`<tr${l.cand?' class="first"':''}>
+    <td>${l.cand?`<b>${esc(l.cand)}</b> <span class="badge sm" style="background:${partyColor(l.party)}">${esc(l.party)}</span>`:''}</td>
+    <td>${esc(l.pollster||'')}</td><td class="nw">${esc(l.date||'')}</td>
+    <td class="r">${num(l.pct)}</td>
+    <td><span class="basetag ${l.base==='válidos'?'v':'t'}">${esc(l.base||'?')}</span></td>
+    <td class="r">${num(l.undecided)}</td>
+    <td class="r"><b>${num(l.pct_valid)}</b></td>
+    <td class="r">${l.weight!=null?Math.round(l.weight*100)+'%':'—'}</td>
+    <td class="r">${l.media_val!=null?`<b>${num(l.media_val)}</b>`:''}</td>
+  </tr>`).join('');
+  return `<details class="mapanel"><summary>Média móvel usada neste estado — como foi calculada</summary>
+    <p class="desc">Cada instituto publica numa base diferente: uns sobre o <b>total de entrevistados</b>
+    (indeciso e branco/nulo entram na conta), outros já sobre os <b>votos válidos</b>. Comparar sem
+    converter mistura escalas, então a média é feita sobre os <b>válidos</b>
+    (<code>% ÷ soma dos candidatos</code>) e é esse número que alimenta o modelo.</p>
+    <p class="formula"><b>Média móvel</b> = Σ(pesoᵢ × %válidoᵢ) ÷ Σpesoᵢ, sobre as pesquisas até
+    <b>${ma.window_days} dias</b> mais velhas que a mais recente, com
+    <b>peso = 0,5<sup>(idade em dias ÷ ${ma.halflife_days})</sup></b> — uma pesquisa
+    ${ma.halflife_days} dias mais velha pesa metade. 1º e 2º turno são séries separadas.</p>
+    <div class="tblwrap"><table class="matbl">
+      <thead><tr><th>Candidato</th><th>Instituto</th><th>Campo</th><th class="r">% publicado</th>
+        <th>Base</th><th class="r">Br/nulo/ind.</th><th class="r">% válidos</th><th class="r">Peso</th>
+        <th class="r">Média</th></tr></thead>
+      <tbody>${body}</tbody></table></div></details>`;
 }
 function competeBand(o){
   const polled = o.candidates.filter(c=>c.active && num(c.pct)).sort((a,b)=>b.pct-a.pct).slice(0,4);
@@ -344,7 +402,8 @@ function candRow(c, off){
       ${est?`<div style="margin-top:4px">${est}</div>`:''}
       ${note}
     </div>
-    <div class="pollbox"><div class="pct">${esc(c.pctDisplay||'—')}</div>${pctBar}</div>
+    <div class="pollbox"><div class="pct">${esc(c.pctDisplay||'—')}</div>${pctBar}
+      ${num(c.pct_valid)?`<div class="pctval" title="mesma pesquisa, sobre os votos válidos (sem branco/nulo/indeciso) — é esta base que o modelo usa">${fpct(c.pct_valid)} <span>válidos</span></div>`:''}</div>
     <div class="scorebox"><div class="score">${Math.round(c.score)}<small>índice</small></div><div class="comp">${compBar}</div>
       <button class="det-toggle" data-key="${esc(key)}">${open?'ocultar':'como foi calculado ▾'}</button></div>
     <div class="cand-detail">${open?factorDetail(c, off):''}</div>
@@ -472,6 +531,48 @@ function shiftByBloc(pct, bloc, delta){
   if(bloc==='Flávio') return r1(clampn(pct - delta, 0, 100));
   return pct;
 }
+/* Regra de dois turnos — porte fiel de model.governor_race (Python).
+   Ordenar pelo 1º turno e coroar o líder é o erro clássico: quem lidera com 40% em campo
+   dividido perde o 2º turno com frequência. */
+const MAIORIA = 50.0;
+const nrm = s => String(s||'').normalize('NFKD').replace(/[̀-ͯ]/g,'').toLowerCase().trim();
+function governorRaceJS(cands){
+  const byScore = [...cands].sort((a,b)=>(b.score||0)-(a.score||0));
+  const polled = cands.filter(c=>typeof c.pct_valid === 'number').sort((a,b)=>b.pct_valid-a.pct_valid);
+  if(polled.length < 2){
+    const w = byScore[0] || null;
+    return {turno:null, winner:w?w.name:null, decidido_por:'índice (sem pesquisa comparável)',
+            finalistas:[], pcts:{}};
+  }
+  const pcts = {}; polled.forEach(c=>pcts[c.name]=c.pct_valid);
+  const [lider, vice] = polled;
+  if(lider.pct_valid >= MAIORIA)
+    return {turno:1, winner:lider.name, decidido_por:'1º turno (maioria dos válidos)',
+            finalistas:[], pcts, margem:r1(lider.pct_valid-vice.pct_valid)};
+  const finalistas = [lider.name, vice.name];
+  const duelo = {};
+  for(const [a,b] of [[lider,vice],[vice,lider]])
+    for(const rival of Object.keys(a.runoff||{})){
+      if(nrm(rival).includes(nrm(b.name)) || nrm(b.name).includes(nrm(rival)))
+        duelo[a.name] = a.runoff[rival].pct_valid;
+    }
+  // num duelo em base de válidos os dois somam 100 — um lado basta para fechar a conta
+  const chaves = Object.keys(duelo);
+  if(chaves.length===1 && typeof duelo[chaves[0]]==='number'){
+    const outro = chaves[0]===finalistas[0] ? finalistas[1] : finalistas[0];
+    duelo[outro] = r1(100 - duelo[chaves[0]]);
+  }
+  const vals = Object.values(duelo);
+  if(vals.length===2 && vals.every(v=>typeof v==='number')){
+    const vencedor = duelo[finalistas[0]] >= duelo[finalistas[1]] ? finalistas[0] : finalistas[1];
+    return {turno:2, winner:vencedor, decidido_por:'pesquisa de 2º turno', finalistas, pcts, duelo,
+            margem:r1(Math.abs(duelo[finalistas[0]]-duelo[finalistas[1]]))};
+  }
+  const entre = byScore.filter(c=>finalistas.includes(c.name));
+  return {turno:2, winner: entre.length?entre[0].name:lider.name,
+          decidido_por:'índice (sem pesquisa de 2º turno)', finalistas, pcts,
+          margem:r1(lider.pct_valid-vice.pct_valid)};
+}
 function scoreGovJS(inp, w){
   const gs = sPoll(inp.gov_pct, inp.gov_reliability), ps = sPoll(inp.pres_pct, inp.pres_reliability);
   const c = {governo: w.governo*gs, presidente: w.presidente*ps};
@@ -494,15 +595,24 @@ function simulateAll(){
     // ---- governador ----
     for(const c of st.governor.candidates){
       const inp = c.model && c.model.inputs; if(!inp) continue;
+      // o erro simulado desloca a pesquisa em pontos — inclusive a de 2º turno
+      c.pct_valid = shiftByBloc(c.pct_valid, c.bloc, sim.gov);
+      if(c.runoff) for(const k of Object.keys(c.runoff))
+        c.runoff[k].pct_valid = shiftByBloc(c.runoff[k].pct_valid, c.bloc, sim.gov);
       inp.gov_pct = shiftByBloc(inp.gov_pct, c.bloc, sim.gov);
       inp.pres_pct = simPresPct(inp);
       const res = scoreGovJS(inp, c.model.weights);
       c.model.scores = res.scores; c.components = res.components; c.score = res.score;
-      if(sim.gov && (c.bloc==='Lula'||c.bloc==='Flávio') && c.pct!=null){ c.pct = inp.gov_pct; c.pctDisplay = fpct(inp.gov_pct); }
+      if(sim.gov && (c.bloc==='Lula'||c.bloc==='Flávio') && c.pct!=null){ c.pct = shiftByBloc(c.pct, c.bloc, sim.gov); c.pctDisplay = fpct(c.pct); }
     }
     st.governor.candidates.sort((a,b)=>b.score-a.score);
-    const gEst = st.governor.candidates.find(c=>c.active) || null;
-    st.governor.candidates.forEach(c=>c.estimated = (c===gEst));
+    const race = governorRaceJS(st.governor.candidates.filter(c=>c.active));
+    const gEst = st.governor.candidates.find(c=>c.name===race.winner) || null;
+    st.governor.candidates.forEach(c=>{
+      c.estimated = (c===gEst);
+      c.finalista = (race.finalistas||[]).includes(c.name);
+    });
+    st.governor.race = race;
     st.governor.bloc = gEst ? gEst.bloc : 'Indefinido';
     st.governor.estimate = gEst ? {name:gEst.name, party:gEst.party, bloc:gEst.bloc, score:gEst.score} : null;
     // ---- senado: desloca a pesquisa própria e renormaliza (líder do estado = 100) ----
@@ -582,6 +692,13 @@ function selfCheckSim(){
       const vc = view.states[uf][off].candidates.find(x=>x.name===rc.name);
       if(vc && Math.abs(vc.score-rc.score) > 0.2){ if(++bad<=6) console.error('sim mismatch', uf, off, rc.name, 'py', rc.score, 'js', vc.score); }
     });
+  // a regra de dois turnos também é um porte — tem que bater com o Python em sim=0
+  for(const uf of Object.keys(RAW.states)){
+    const py = RAW.states[uf].governor.race || {}, js = view.states[uf].governor.race || {};
+    if(py.winner !== js.winner || py.turno !== js.turno){
+      if(++bad<=6) console.error('race mismatch', uf, 'py', py.turno, py.winner, 'js', js.turno, js.winner);
+    }
+  }
   Object.assign(sim, save);
   if(!bad) console.log(`sim self-check OK (${Object.keys(RAW.states).length} estados, JS≡Python em sim=0)`);
 }
@@ -665,7 +782,11 @@ const fieldOfParty = p => (PARTIES.party_field && PARTIES.party_field[p]) || 'Ce
 function senateComposition(){
   const el = {Lula:0,Direita:0,Centro:0}, ho = {Lula:0,Direita:0,Centro:0};
   Object.values(FC.states).forEach(st=>st.senate.estimate.forEach(e=>{ el[fieldOfBloc(e.bloc)]++; }));
-  RAW.national.forEach(r=>{ ho[fieldOfParty(r.party)] += (r.hold||0); });
+  // os 27 que ficam são classificados UM A UM (ver roster.holdovers), não pelo partido:
+  // o mesmo partido tem senador do campo Lula e do campo oposto
+  const hold = RAW.holdovers || [];
+  if(hold.length) hold.forEach(h=>{ ho[h.field] = (ho[h.field]||0) + 1; });
+  else RAW.national.forEach(r=>{ ho[fieldOfParty(r.party)] += (r.hold||0); });
   const tot = {Lula:el.Lula+ho.Lula, Direita:el.Direita+ho.Direita, Centro:el.Centro+ho.Centro};
   const bar = (obj)=>FIELD_KEYS.filter(f=>obj[f]).map(f=>
     `<span style="flex:${obj[f]};background:${fieldColor(f)}" title="${fieldLabel(f)}: ${obj[f]}">${obj[f]}</span>`).join('');
@@ -676,14 +797,44 @@ function senateComposition(){
   const legend = FIELD_KEYS.map(f=>`<span class="lg"><span class="sw" style="background:${fieldColor(f)}"></span>${fieldLabel(f)} <b>${tot[f]}</b></span>`).join('');
   return `<section class="panel compo">
     <div class="panel-top"><h2>Composição do Senado 2027 ${simActive()?'<span class="simtag">simulação</span>':''}</h2></div>
-    <p class="desc">No Senado o que importa é o total de cadeiras, não quem vence em cada estado. São 81 senadores; <b>maioria absoluta = ${SEN_MAJ}</b>. Agrupamento por campo político (holdovers por partido — aproximado).</p>
+    <p class="desc">No Senado o que importa é o total de cadeiras, não quem vence em cada estado. São 81 senadores; <b>maioria absoluta = ${SEN_MAJ}</b>.</p>
     <div class="compo-block"><div class="compo-h"><b>Senado em 2027</b> <span class="muted">27 mantidos (mandato até 2031) + ${SEN_NEW} eleitos em 2026</span></div>
       <div class="compobar big">${bar(tot)}<i class="majline" style="left:${100*SEN_MAJ/SEN_TOTAL}%"></i></div>
       <div class="compo-maj">${maj}</div></div>
     <div class="compo-block"><div class="compo-h"><b>Em disputa em 2026</b> <span class="muted">${SEN_NEW} cadeiras (2 por estado)</span></div>
       <div class="compobar">${bar(el)}</div></div>
     <div class="legend2">${legend}</div>
+    ${fieldMethod(hold)}
   </section>`;
+}
+/* Como o campo de cada senador foi decidido — partido não basta: o mesmo partido tem
+   senador do campo Lula e do campo oposto, e os 27 que ficam nem estão em disputa. */
+function fieldMethod(hold){
+  if(!hold || !hold.length) return '';
+  const n = {verificado:0, 'atuação':0, partido:0};
+  hold.forEach(h=>{ n[h.criterio] = (n[h.criterio]||0)+1; });
+  const linhas = [...hold].sort((a,b)=>a.field.localeCompare(b.field,'pt-BR')||a.name.localeCompare(b.name,'pt-BR'))
+    .map(h=>`<tr><td><b>${esc(h.name)}</b> <span class="muted">${esc(h.uf)}</span></td>
+      <td><span class="badge sm" style="background:${partyColor(h.party)}">${esc(h.party)}</span></td>
+      <td><span class="fieldtag" style="background:${fieldColor(h.field)}">${esc(fieldLabel(h.field))}</span></td>
+      <td><span class="crit ${h.criterio==='partido'?'fraco':''}">${esc(h.criterio)}</span></td>
+      <td class="basis">${esc(h.basis)}</td></tr>`).join('');
+  return `<details class="fieldmethod"><summary>Como cada campo foi definido — e o que é inferência</summary>
+    <p class="desc">Os <b>${SEN_NEW} em disputa</b> entram pelo <b>bloco declarado da candidatura</b>
+    (quem o candidato apoia para presidente), que está no roster candidato a candidato.
+    Os <b>27 que ficam</b> não têm candidatura, então precisam de outro critério — e classificar
+    por partido erra: o mesmo partido tem senador do campo Lula e do campo oposto. A ordem é:</p>
+    <ul class="critlist">
+      <li><b class="crit">verificado</b> (${n.verificado||0}) — cargo formal que define o campo sem
+        ambiguidade: ministro ou vice do governo Lula, ou do governo Bolsonaro.</li>
+      <li><b class="crit">atuação</b> (${n['atuação']||0}) — posição pública consistente, quando o
+        partido classificaria errado.</li>
+      <li><b class="crit fraco">partido</b> (${n.partido||0}) — <b>inferência</b>: herda o campo do
+        partido. É o elo mais fraco; corrija no <code>roster.yaml</code> quem estiver fora do lugar.</li>
+    </ul>
+    <div class="tblwrap"><table class="matbl"><thead><tr><th>Senador</th><th>Partido</th>
+      <th>Campo</th><th>Critério</th><th>Base</th></tr></thead><tbody>${linhas}</tbody></table></div>
+  </details>`;
 }
 
 /* ---------- aba Pesquisas (registro de todas as pesquisas consideradas) ---------- */

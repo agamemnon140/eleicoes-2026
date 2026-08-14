@@ -1,41 +1,174 @@
 election_date: '2026-10-04'
 generated_from: preview snapshot
 holdovers:
-  PL:
-  - Magno Malta (ES)
-  - Wilder Morais (GO)
-  - Wellington Fagundes (MT)
-  - Efraim Filho (PB)
-  - Sergio Moro (PR)
-  - Romário (RJ)
-  - Rogerio Marinho (RN)
-  - Jaime Bagattoli (RO)
-  - Hermes Klann (SC)
-  - Astronauta Marcos Pontes (SP)
-  PT:
-  - Camilo Santana (CE)
-  - Beto Faro (PA)
-  - Teresa Leitão (PE)
-  PSD:
-  - Omar Aziz (AM)
-  - Otto Alencar (BA)
-  - Jussara Lima (PI)
-  MDB:
-  - Renan Filho (AL)
-  PP:
-  - Tereza Cristina (MS)
-  - Dr. Hiran (RR)
-  - Laércio Oliveira (SE)
-  Republicanos:
-  - Alan Rick (AC)
-  - Damares Alves (DF)
-  - Cleitinho (MG)
-  - Hamilton Mourão (RS)
-  União:
-  - Davi Alcolumbre (AP)
-  - Professora Dorinha Seabra (TO)
-  PSB:
-  - Lourdinha Pereira (MA)
+# Campo político dos 27 senadores COM MANDATO ATÉ 2031 (não estão em disputa).
+# Classificar por partido erra: o mesmo partido tem senador do campo Lula e do campo
+# oposto. Critério, do mais forte para o mais fraco:
+#   verificado: cargo formal que define o campo (ministro/vice de Lula ou de Bolsonaro);
+#   atuação:    posição pública consistente quando o partido classificaria errado;
+#   partido:    default — herda reference/parties.yaml (party_field).
+- name: Magno Malta
+  uf: ES
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Wilder Morais
+  uf: GO
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Wellington Fagundes
+  uf: MT
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Efraim Filho
+  uf: PB
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Sergio Moro
+  uf: PR
+  party: PL
+  field: Direita
+  criterio: verificado
+  basis: ministro da Justiça do governo Bolsonaro
+- name: Romário
+  uf: RJ
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Rogerio Marinho
+  uf: RN
+  party: PL
+  field: Direita
+  criterio: verificado
+  basis: ministro do Desenvolvimento Regional do governo Bolsonaro
+- name: Jaime Bagattoli
+  uf: RO
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Hermes Klann
+  uf: SC
+  party: PL
+  field: Direita
+  criterio: partido
+  basis: partido (PL)
+- name: Astronauta Marcos Pontes
+  uf: SP
+  party: PL
+  field: Direita
+  criterio: verificado
+  basis: ministro da Ciência e Tecnologia do governo Bolsonaro
+- name: Camilo Santana
+  uf: CE
+  party: PT
+  field: Lula
+  criterio: verificado
+  basis: ministro da Educação do governo Lula (2023–2026)
+- name: Beto Faro
+  uf: PA
+  party: PT
+  field: Lula
+  criterio: partido
+  basis: partido (PT)
+- name: Teresa Leitão
+  uf: PE
+  party: PT
+  field: Lula
+  criterio: partido
+  basis: partido (PT)
+- name: Omar Aziz
+  uf: AM
+  party: PSD
+  field: Lula
+  criterio: atuação
+  basis: presidiu a CPI da Covid contra o governo Bolsonaro; base do governo Lula
+- name: Otto Alencar
+  uf: BA
+  party: PSD
+  field: Lula
+  criterio: atuação
+  basis: PSD/BA na base do governo Lula e do governo estadual do PT
+- name: Jussara Lima
+  uf: PI
+  party: PSD
+  field: Lula
+  criterio: atuação
+  basis: PSD/PI aliado ao governo estadual do PT
+- name: Renan Filho
+  uf: AL
+  party: MDB
+  field: Lula
+  criterio: verificado
+  basis: ministro dos Transportes do governo Lula (2023–2026)
+- name: Tereza Cristina
+  uf: MS
+  party: PP
+  field: Direita
+  criterio: verificado
+  basis: ministra da Agricultura do governo Bolsonaro
+- name: Dr. Hiran
+  uf: RR
+  party: PP
+  field: Direita
+  criterio: partido
+  basis: partido (PP)
+- name: Laércio Oliveira
+  uf: SE
+  party: PP
+  field: Centro
+  criterio: atuação
+  basis: PP/SE governista no estado; alinhamento nacional não declarado
+- name: Alan Rick
+  uf: AC
+  party: Republicanos
+  field: Direita
+  criterio: partido
+  basis: partido (Republicanos)
+- name: Damares Alves
+  uf: DF
+  party: Republicanos
+  field: Direita
+  criterio: verificado
+  basis: ministra da Mulher, Família e DH do governo Bolsonaro
+- name: Cleitinho
+  uf: MG
+  party: Republicanos
+  field: Direita
+  criterio: atuação
+  basis: voto majoritariamente com a oposição, sem vínculo formal declarado
+- name: Hamilton Mourão
+  uf: RS
+  party: Republicanos
+  field: Direita
+  criterio: verificado
+  basis: vice-presidente da República no governo Bolsonaro (2019–2022)
+- name: Davi Alcolumbre
+  uf: AP
+  party: União
+  field: Centro
+  criterio: atuação
+  basis: presidência do Senado; atuação pragmática, sem alinhamento declarado
+- name: Professora Dorinha Seabra
+  uf: TO
+  party: União
+  field: Direita
+  criterio: partido
+  basis: partido (União)
+- name: Lourdinha Pereira
+  uf: MA
+  party: PSB
+  field: Lula
+  criterio: partido
+  basis: partido (PSB)
 national_seed:
 - party: PL
   hold: 10

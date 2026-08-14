@@ -5,7 +5,7 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Datafolha",
    "date": "14/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-ceara-agosto-2026/",
@@ -27,7 +27,7 @@
    "uf": "PR",
    "estado": "Paraná",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "IRG",
    "date": "13/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-senador-parana-agosto-2026/",
@@ -69,7 +69,7 @@
    "uf": "PR",
    "estado": "Paraná",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "IRG",
    "date": "13/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-governador-parana-agosto-2026/",
@@ -91,7 +91,7 @@
    "uf": "PR",
    "estado": "Paraná",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "NeoKemp",
    "date": "12/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-parana-agosto-2026/",
@@ -118,7 +118,7 @@
    "uf": "MT",
    "estado": "Mato Grosso",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "12/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-agosto-2026/",
@@ -150,7 +150,7 @@
    "uf": "MT",
    "estado": "Mato Grosso",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "12/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-agosto-2026/",
@@ -177,7 +177,7 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "12/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senado-ceara-agosto-2026/",
@@ -209,7 +209,7 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "12/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senado-ceara-agosto-2026/",
@@ -231,7 +231,7 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "11/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-bahia-agosto-2026/",
@@ -248,6 +248,11 @@
      "pct": 20.0
     },
     {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 15.0
+    },
+    {
      "name": "Angelo Coronel",
      "party": "Republicanos",
      "pct": 15.0
@@ -258,7 +263,7 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "11/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-bahia-agosto-2026/",
@@ -275,11 +280,6 @@
      "pct": 42.0
     },
     {
-     "name": "João Roma",
-     "party": "PL",
-     "pct": 15.0
-    },
-    {
      "name": "Ronaldo Mansur",
      "party": "PSOL",
      "pct": 2.0
@@ -287,14 +287,31 @@
    ]
   },
   {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "11/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-bahia-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 15.0
+    }
+   ]
+  },
+  {
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Ideia",
    "date": "10/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-senador-sao-paulo-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Simone Tebet",
@@ -327,11 +344,11 @@
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Ideia",
    "date": "10/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/ideia-governador-sao-paulo-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -364,11 +381,11 @@
    "uf": "MS",
    "estado": "Mato Grosso do Sul",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "06/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -401,11 +418,11 @@
    "uf": "MS",
    "estado": "Mato Grosso do Sul",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "06/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-do-sul-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -438,11 +455,11 @@
    "uf": "PA",
    "estado": "Pará",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "04/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -475,11 +492,11 @@
    "uf": "PA",
    "estado": "Pará",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "04/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -507,11 +524,11 @@
    "uf": "SE",
    "estado": "Sergipe",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Delegado André David",
@@ -549,11 +566,11 @@
    "uf": "SE",
    "estado": "Sergipe",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -576,11 +593,11 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Futura Inteligência",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rui Costa",
@@ -593,6 +610,11 @@
      "pct": 36.0
     },
     {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 26.7
+    },
+    {
      "name": "Angelo Coronel",
      "party": "Republicanos",
      "pct": 24.0
@@ -603,11 +625,11 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rui Costa",
@@ -620,9 +642,68 @@
      "pct": 35.1
     },
     {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 24.1
+    },
+    {
      "name": "Angelo Coronel",
      "party": "Republicanos",
      "pct": 21.9
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
+   "pollster": "Futura Inteligência",
+   "date": "03/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 53.0
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 39.8
+    },
+    {
+     "name": "Ronaldo Mansur",
+     "party": "PSOL",
+     "pct": 1.2
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "03/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-bahia-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 48.9
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 39.7
+    },
+    {
+     "name": "Ronaldo Mansur",
+     "party": "PSOL",
+     "pct": 0.7
     }
    ]
   },
@@ -637,24 +718,9 @@
    "is_new": false,
    "readings": [
     {
-     "name": "ACM Neto",
-     "party": "União",
-     "pct": 53.0
-    },
-    {
-     "name": "Jerônimo Rodrigues",
-     "party": "PT",
-     "pct": 39.8
-    },
-    {
      "name": "João Roma",
      "party": "PL",
      "pct": 26.7
-    },
-    {
-     "name": "Ronaldo Mansur",
-     "party": "PSOL",
-     "pct": 1.2
     }
    ]
   },
@@ -669,24 +735,9 @@
    "is_new": false,
    "readings": [
     {
-     "name": "ACM Neto",
-     "party": "União",
-     "pct": 48.9
-    },
-    {
-     "name": "Jerônimo Rodrigues",
-     "party": "PT",
-     "pct": 39.7
-    },
-    {
      "name": "João Roma",
      "party": "PL",
      "pct": 24.1
-    },
-    {
-     "name": "Ronaldo Mansur",
-     "party": "PSOL",
-     "pct": 0.7
     }
    ]
   },
@@ -694,11 +745,11 @@
    "uf": "AC",
    "estado": "Acre",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcio Bittar",
@@ -731,11 +782,11 @@
    "uf": "AC",
    "estado": "Acre",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "03/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -763,11 +814,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Datafolha",
    "date": "01/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -800,11 +851,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Datafolha",
    "date": "01/08/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -832,11 +883,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "31/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -879,11 +930,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "31/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-de-janeiro-julho-2026-2/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -911,11 +962,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "31/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -943,11 +994,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "31/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -970,11 +1021,11 @@
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Manuela d'Ávila",
@@ -1012,11 +1063,11 @@
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Juliana Brizola",
@@ -1039,11 +1090,11 @@
    "uf": "MG",
    "estado": "Minas Gerais",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marília Campos",
@@ -1053,7 +1104,7 @@
     {
      "name": "Marcelo Aro",
      "party": "PP",
-     "pct": 15.0
+     "pct": 14.0
     },
     {
      "name": "Carlos Viana",
@@ -1081,11 +1132,11 @@
    "uf": "MG",
    "estado": "Minas Gerais",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1123,11 +1174,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -1160,11 +1211,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1192,11 +1243,11 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -1229,11 +1280,11 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "30/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -1256,11 +1307,11 @@
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "29/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-sao-paulo-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marina Silva",
@@ -1313,11 +1364,11 @@
    "uf": "SC",
    "estado": "Santa Catarina",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "NeoKemp",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-santa-catarina-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -1340,11 +1391,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcelo Crivella",
@@ -1382,11 +1433,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -1414,11 +1465,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -1451,11 +1502,11 @@
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1483,11 +1534,11 @@
    "uf": "MG",
    "estado": "Minas Gerais",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marília Campos",
@@ -1525,14 +1576,14 @@
      "pct": 1.0
     },
     {
-     "name": "Maria Lúcia Cardoso",
-     "party": "MDB",
+     "name": "Jarbas Soares",
+     "party": "PSB",
      "pct": 1.0
     },
     {
-     "name": "Jarbas Soares",
-     "party": "PSB",
-     "pct": 0.0
+     "name": "Maria Lúcia Cardoso",
+     "party": "MDB",
+     "pct": 1.0
     },
     {
      "name": "Vanessa Portugal",
@@ -1545,11 +1596,11 @@
    "uf": "MG",
    "estado": "Minas Gerais",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "28/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1587,11 +1638,11 @@
    "uf": "SC",
    "estado": "Santa Catarina",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "NeoKemp",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Carlos Bolsonaro",
@@ -1624,11 +1675,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -1671,11 +1722,11 @@
    "uf": "RJ",
    "estado": "Rio de Janeiro",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-de-janeiro-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -1703,11 +1754,11 @@
    "uf": "PA",
    "estado": "Pará",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -1740,11 +1791,11 @@
    "uf": "PA",
    "estado": "Pará",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -1772,11 +1823,11 @@
    "uf": "AC",
    "estado": "Acre",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -1809,11 +1860,11 @@
    "uf": "AC",
    "estado": "Acre",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "27/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/eal-time-big-data-governador-senador-acre-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Alan Rick",
@@ -1841,11 +1892,11 @@
    "uf": "TO",
    "estado": "Tocantins",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "25/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -1868,11 +1919,11 @@
    "uf": "TO",
    "estado": "Tocantins",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "25/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-julho-2026-2/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -1895,11 +1946,11 @@
    "uf": "AP",
    "estado": "Amapá",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "24/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rayssa Furlan",
@@ -1927,11 +1978,11 @@
    "uf": "AP",
    "estado": "Amapá",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "24/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-amapa-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -1949,11 +2000,11 @@
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "22/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Manuela d'Ávila",
@@ -1991,11 +2042,11 @@
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "22/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -2018,11 +2069,11 @@
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "22/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -2055,11 +2106,11 @@
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "22/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-rio-grande-do-norte-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -2082,11 +2133,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "21/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -2114,11 +2165,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "21/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -2141,11 +2192,11 @@
    "uf": "AP",
    "estado": "Amapá",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "21/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rayssa Furlan",
@@ -2173,11 +2224,11 @@
    "uf": "AP",
    "estado": "Amapá",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "21/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -2195,11 +2246,11 @@
    "uf": "DF",
    "estado": "Distrito Federal",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "20/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-distrito-federal-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Leila Barros",
@@ -2227,11 +2278,11 @@
    "uf": "RO",
    "estado": "Rondônia",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "16/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Fernando Máximo",
@@ -2264,11 +2315,11 @@
    "uf": "RO",
    "estado": "Rondônia",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "16/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rondonia-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -2296,11 +2347,11 @@
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "16/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -2308,14 +2359,19 @@
      "pct": 24.0
     },
     {
-     "name": "Maguinha Malta",
-     "party": "PL",
-     "pct": 12.0
+     "name": "Paulo Hartung",
+     "party": "PSD",
+     "pct": 11.0
     },
     {
      "name": "Fabiano Contarato",
      "party": "PT",
      "pct": 6.0
+    },
+    {
+     "name": "Maguinha Malta",
+     "party": "PL",
+     "pct": 4.0
     },
     {
      "name": "Evair Melo",
@@ -2333,11 +2389,11 @@
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Quaest",
    "date": "16/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2360,11 +2416,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "14/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -2392,11 +2448,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "14/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -2419,11 +2475,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "09/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -2466,11 +2522,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "09/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -2498,11 +2554,11 @@
    "uf": "MA",
    "estado": "Maranhão",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "08/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Duarte Jr.",
@@ -2535,11 +2591,11 @@
    "uf": "MA",
    "estado": "Maranhão",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "08/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-maranhao-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -2562,11 +2618,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "06/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -2604,11 +2660,11 @@
    "uf": "GO",
    "estado": "Goiás",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Paraná Pesquisas",
    "date": "06/07/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -2668,7 +2724,19 @@
      "name": "JHC",
      "party": "PSDB",
      "pct": 45.9
-    },
+    }
+   ]
+  },
+  {
+   "uf": "AL",
+   "estado": "Alagoas",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "04/07/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-alagoas-julho-2026/",
+   "is_new": true,
+   "readings": [
     {
      "name": "Renan Filho",
      "party": "MDB",
@@ -2685,11 +2753,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "23/06/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -2717,11 +2785,11 @@
    "uf": "PI",
    "estado": "Piauí",
    "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
+   "pollster": "AtlasIntel",
    "date": "23/06/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -2744,7 +2812,7 @@
    "uf": "PB",
    "estado": "Paraíba",
    "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
+   "pollster": "Real Time Big Data",
    "date": "27/05/2026",
    "source": "gazeta",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-paraiba-maio-2026/",
@@ -2884,28 +2952,6 @@
      "name": "Eduardo Moura",
      "party": "Novo",
      "pct": 7.0
-    }
-   ]
-  },
-  {
-   "uf": "MA",
-   "estado": "Maranhão",
-   "cargo": "Senado",
-   "pollster": "Veritá",
-   "date": "Jul 2026",
-   "source": "wikipedia",
-   "url": "https://en.wikipedia.org/wiki/2026_Maranhão_general_election",
-   "is_new": true,
-   "readings": [
-    {
-     "name": "André Fufuca",
-     "party": "PP",
-     "pct": 21.8
-    },
-    {
-     "name": "Eliziane Gama",
-     "party": "PT",
-     "pct": 17.0
     }
    ]
   },
