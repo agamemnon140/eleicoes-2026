@@ -1,6 +1,291 @@
 {
- "generated_at": "2026-08-13",
+ "generated_at": "2026-08-14",
  "state_polls": [
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "14/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-ceara-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 52.0
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 33.0
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "13/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-senador-parana-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 19.6
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 19.3
+    },
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 18.0
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 16.8
+    },
+    {
+     "name": "Cristina Graeml",
+     "party": "PSD",
+     "pct": 6.2
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 4.3
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "13/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-governador-parana-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 40.2
+    },
+    {
+     "name": "Rafael Greca",
+     "party": "MDB",
+     "pct": 24.8
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "12/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-parana-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 45.7
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 23.2
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 18.2
+    }
+   ]
+  },
+  {
+   "uf": "MT",
+   "estado": "Mato Grosso",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "12/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mauro Mendes",
+     "party": "União",
+     "pct": 27.0
+    },
+    {
+     "name": "Janaína Riva",
+     "party": "MDB",
+     "pct": 25.0
+    },
+    {
+     "name": "Carlos Fávaro",
+     "party": "PSD",
+     "pct": 13.0
+    },
+    {
+     "name": "José Medeiros",
+     "party": "PL",
+     "pct": 12.0
+    }
+   ]
+  },
+  {
+   "uf": "MT",
+   "estado": "Mato Grosso",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "12/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Wellington Fagundes",
+     "party": "PL",
+     "pct": 34.0
+    },
+    {
+     "name": "Otaviano Pivetta",
+     "party": "Republicanos",
+     "pct": 26.0
+    },
+    {
+     "name": "Doutora Natasha",
+     "party": "PSD",
+     "pct": 13.0
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "12/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senado-ceara-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Luizianne Lins",
+     "party": "Rede",
+     "pct": 24.0
+    },
+    {
+     "name": "Cid Gomes",
+     "party": "PSB",
+     "pct": 23.7
+    },
+    {
+     "name": "Capitão Wagner",
+     "party": "União",
+     "pct": 21.7
+    },
+    {
+     "name": "Alcides Fernandes",
+     "party": "PL",
+     "pct": 15.9
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "12/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senado-ceara-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 49.3
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 44.6
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "11/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-bahia-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rui Costa",
+     "party": "PT",
+     "pct": 25.0
+    },
+    {
+     "name": "Jaques Wagner",
+     "party": "PT",
+     "pct": 20.0
+    },
+    {
+     "name": "Angelo Coronel",
+     "party": "Republicanos",
+     "pct": 15.0
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
+   "pollster": "Gazeta do Povo",
+   "date": "11/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-bahia-agosto-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 44.0
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 42.0
+    },
+    {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 15.0
+    },
+    {
+     "name": "Ronaldo Mansur",
+     "party": "PSOL",
+     "pct": 2.0
+    }
+   ]
+  },
   {
    "uf": "SP",
    "estado": "São Paulo",
@@ -577,6 +862,16 @@
      "name": "Carlos Portinho",
      "party": "PL",
      "pct": 9.2
+    },
+    {
+     "name": "Waguinho",
+     "party": "Republicanos",
+     "pct": 9.2
+    },
+    {
+     "name": "Monica Benicio",
+     "party": "PSOL",
+     "pct": 7.2
     }
    ]
   },
@@ -705,6 +1000,11 @@
      "name": "Ubiratan Sanderson",
      "party": "PL",
      "pct": 6.0
+    },
+    {
+     "name": "Frederico Antunes",
+     "party": "PSD",
+     "pct": 1.0
     }
    ]
   },
@@ -1010,129 +1310,6 @@
    ]
   },
   {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senador-parana-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 20.8
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 18.9
-    },
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 14.2
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 9.3
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 37.4
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 19.1
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 16.5
-    },
-    {
-     "name": "Rafael Greca",
-     "party": "MDB",
-     "pct": 11.1
-    }
-   ]
-  },
-  {
-   "uf": "BA",
-   "estado": "Bahia",
-   "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Rui Costa",
-     "party": "PT",
-     "pct": 22.0
-    },
-    {
-     "name": "Jaques Wagner",
-     "party": "PT",
-     "pct": 16.0
-    },
-    {
-     "name": "Angelo Coronel",
-     "party": "Republicanos",
-     "pct": 6.0
-    }
-   ]
-  },
-  {
-   "uf": "BA",
-   "estado": "Bahia",
-   "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
-   "date": "29/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-bahia-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "ACM Neto",
-     "party": "União",
-     "pct": 39.0
-    },
-    {
-     "name": "Jerônimo Rodrigues",
-     "party": "PT",
-     "pct": 38.0
-    },
-    {
-     "name": "João Roma",
-     "party": "PL",
-     "pct": 6.0
-    },
-    {
-     "name": "Ronaldo Mansur",
-     "party": "PSOL",
-     "pct": 1.0
-    }
-   ]
-  },
-  {
    "uf": "SC",
    "estado": "Santa Catarina",
    "cargo": "Governo",
@@ -1193,6 +1370,11 @@
      "name": "Márcio Canella",
      "party": "União",
      "pct": 10.0
+    },
+    {
+     "name": "Waguinho",
+     "party": "Republicanos",
+     "pct": 7.0
     }
    ]
   },
@@ -1430,6 +1612,11 @@
      "name": "Esperidião Amin",
      "party": "PP",
      "pct": 11.5
+    },
+    {
+     "name": "Lunelli",
+     "party": "MDB",
+     "pct": 8.4
     }
    ]
   },
@@ -1466,6 +1653,16 @@
     {
      "name": "Pedro Paulo",
      "party": "PSD",
+     "pct": 3.0
+    },
+    {
+     "name": "Waguinho",
+     "party": "Republicanos",
+     "pct": 3.0
+    },
+    {
+     "name": "Monica Benicio",
+     "party": "PSOL",
      "pct": 3.0
     }
    ]
@@ -1568,38 +1765,6 @@
      "name": "Professora Araci Lemos",
      "party": "PSOL",
      "pct": 2.0
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
-   "date": "27/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-senador-parana-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 10.0
-    },
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 10.0
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 10.0
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 8.0
     }
    ]
   },
@@ -1750,6 +1915,11 @@
      "name": "Lucas Barreto",
      "party": "PSD",
      "pct": 12.0
+    },
+    {
+     "name": "Acácio Favacho",
+     "party": "MDB",
+     "pct": 3.0
     }
    ]
   },
@@ -1809,6 +1979,11 @@
      "name": "Ubiratan Sanderson",
      "party": "PL",
      "pct": 20.3
+    },
+    {
+     "name": "Frederico Antunes",
+     "party": "PSD",
+     "pct": 7.4
     }
    ]
   },
@@ -1986,6 +2161,11 @@
      "name": "Randolfe Rodrigues",
      "party": "PT",
      "pct": 35.1
+    },
+    {
+     "name": "Acácio Favacho",
+     "party": "MDB",
+     "pct": 12.3
     }
    ]
   },
@@ -2072,6 +2252,11 @@
      "name": "Confúcio Moura",
      "party": "MDB",
      "pct": 13.0
+    },
+    {
+     "name": "Acir Gurgacz",
+     "party": "PDT",
+     "pct": 8.0
     }
    ]
   },
@@ -2099,6 +2284,11 @@
      "name": "Hildon Chaves",
      "party": "União",
      "pct": 13.0
+    },
+    {
+     "name": "Expedito Netto",
+     "party": "PT",
+     "pct": 10.0
     }
    ]
   },
@@ -2131,6 +2321,11 @@
      "name": "Evair Melo",
      "party": "Republicanos",
      "pct": 4.0
+    },
+    {
+     "name": "Marcos do Val",
+     "party": "Avante",
+     "pct": 3.0
     }
    ]
   },
@@ -2158,65 +2353,6 @@
      "name": "Paulo Hartung",
      "party": "PSD",
      "pct": 19.0
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Senado",
-   "pollster": "Gazeta do Povo",
-   "date": "15/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cid Gomes",
-     "party": "PSB",
-     "pct": 26.0
-    },
-    {
-     "name": "Capitão Wagner",
-     "party": "União",
-     "pct": 22.0
-    },
-    {
-     "name": "Luizianne Lins",
-     "party": "Rede",
-     "pct": 14.0
-    },
-    {
-     "name": "Alcides Fernandes",
-     "party": "PL",
-     "pct": 14.0
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "Gazeta do Povo",
-   "date": "15/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-julho-2026/",
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 44.0
-    },
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 40.0
-    },
-    {
-     "name": "Eduardo Girão",
-     "party": "Novo",
-     "pct": 7.0
     }
    ]
   },
@@ -2317,6 +2453,11 @@
     {
      "name": "Oséias Varão",
      "party": "PL",
+     "pct": 5.0
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
      "pct": 5.0
     }
    ]
@@ -2505,6 +2646,11 @@
      "name": "Arthur Lira",
      "party": "PP",
      "pct": 39.8
+    },
+    {
+     "name": "Davi Davino Filho",
+     "party": "Republicanos",
+     "pct": 22.9
     }
    ]
   },
@@ -2595,6 +2741,28 @@
    ]
   },
   {
+   "uf": "PB",
+   "estado": "Paraíba",
+   "cargo": "Senado",
+   "pollster": "Gazeta do Povo",
+   "date": "27/05/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-paraiba-maio-2026/",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Major Fábio",
+     "party": "Novo",
+     "pct": 3.0
+    },
+    {
+     "name": "André Gadelha",
+     "party": "MDB",
+     "pct": 2.0
+    }
+   ]
+  },
+  {
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Governo",
@@ -2650,6 +2818,11 @@
      "name": "Paulo Pimenta",
      "party": "PT",
      "pct": 13.2
+    },
+    {
+     "name": "Frederico Antunes",
+     "party": "PSD",
+     "pct": 8.0
     }
    ]
   },
@@ -2713,16 +2886,97 @@
      "pct": 7.0
     }
    ]
+  },
+  {
+   "uf": "MA",
+   "estado": "Maranhão",
+   "cargo": "Senado",
+   "pollster": "Veritá",
+   "date": "Jul 2026",
+   "source": "wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2026_Maranhão_general_election",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "André Fufuca",
+     "party": "PP",
+     "pct": 21.8
+    },
+    {
+     "name": "Eliziane Gama",
+     "party": "PT",
+     "pct": 17.0
+    }
+   ]
+  },
+  {
+   "uf": "MA",
+   "estado": "Maranhão",
+   "cargo": "Governo",
+   "pollster": "Veritá",
+   "date": "17–21 Jul 2026",
+   "source": "wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2026_Maranhão_general_election",
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Orleans Brandão",
+     "party": "MDB",
+     "pct": 48.7
+    },
+    {
+     "name": "Eduardo Braide",
+     "party": "PSD",
+     "pct": 42.5
+    },
+    {
+     "name": "Felipe Camarão",
+     "party": "PT",
+     "pct": 2.9
+    }
+   ]
   }
  ],
  "president_polls": [
+  {
+   "pollster": "Poderdata",
+   "date": "13/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
+   "Lula": 41.0,
+   "Flávio": 35.0,
+   "weight": 0.19
+  },
+  {
+   "pollster": "Cnt Mda",
+   "date": "11/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
+   "Lula": 42.4,
+   "Flávio": 28.7,
+   "weight": 0.172
+  },
+  {
+   "pollster": "Gerp",
+   "date": "11/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
+   "Lula": 38.0,
+   "Flávio": 38.0,
+   "weight": 0.172
+  },
+  {
+   "pollster": "Futura Inteligencia",
+   "date": "11/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
+   "Lula": 38.8,
+   "Flávio": 34.1,
+   "weight": 0.172
+  },
   {
    "pollster": "Nexus Btg Pactual",
    "date": "10/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-2/",
    "Lula": 40.0,
    "Flávio": 35.0,
-   "weight": 0.224
+   "weight": 0.164
   },
   {
    "pollster": "Genial Quaest",
@@ -2730,39 +2984,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 30.0,
-   "weight": 0.175
-  },
-  {
-   "pollster": "Meio Ideia",
-   "date": "05/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-agosto-2026/",
-   "Lula": 43.0,
-   "Flávio": 35.0,
-   "weight": 0.175
-  },
-  {
-   "pollster": "Nexus Btg Pactual",
-   "date": "03/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026/",
-   "Lula": 41.0,
-   "Flávio": 37.0,
-   "weight": 0.159
-  },
-  {
-   "pollster": "Poderdata",
-   "date": "30/07/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-julho-2026/",
-   "Lula": 41.0,
-   "Flávio": 35.0,
-   "weight": 0.137
-  },
-  {
-   "pollster": "Atlasintel",
-   "date": "29/07/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-julho-2026-2/",
-   "Lula": 44.9,
-   "Flávio": 35.8,
-   "weight": 0.13
+   "weight": 0.128
   }
  ]
 }
