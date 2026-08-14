@@ -5,6 +5,37 @@ Site estático/PWA que projeta, por estado, o **governador** e as **2 vagas de S
 modelos e emite JSON que o site lê. Uma automação **diária** (GitHub Actions) roda até o 1º turno
 (**04/10/2026**) e republica sozinha.
 
+## Base das pesquisas: tudo em votos válidos
+
+Institutos publicam em bases diferentes — uns sobre o **total de entrevistados** (branco/nulo e indeciso
+dentro da conta), outros já sobre os **votos válidos**. Somar as duas mistura escalas: 45% de totais com
+10% de indeciso é 50% de válidos. Cada pesquisa coletada guarda a base em que foi publicada, a soma dos
+candidatos e o branco/nulo/indeciso, e o modelo trabalha sobre `pct_valid = % ÷ soma dos candidatos`.
+O site mostra os dois números (publicado e válidos) e a tabela completa da conta quando você isola um estado.
+
+No Senado a conversão vale como **share das menções válidas**: alguns institutos publicam só o "1º voto"
+(soma ~90) e outros o "1º e 2º voto" (soma ~150) — dividir pela soma põe as duas na mesma escala. O
+`sen_norm` (líder do estado = 100) é calculado sobre essa base.
+
+**Cenários não se misturam.** 1º turno, 2º turno e espontânea são perguntas diferentes; a chave da média
+móvel inclui o cenário. Listas de rejeição ("em quem não votaria") são descartadas — somam >100.
+
+**Instituto é quem fez a pesquisa, não quem publicou.** A Gazeta do Povo é veículo; creditar tudo a ela
+fundiria Datafolha e Paraná Pesquisas na mesma série. O instituto sai do slug da matéria
+(`pipeline/sources/gazeta.py: pollster_from`).
+
+## Governador: a eleição tem dois turnos
+
+Ordenar pelo 1º turno e coroar o líder é o erro clássico — quem lidera com 40% em campo dividido perde o
+2º turno com frequência. `model.governor_race` decide como a eleição decide:
+
+1. líder com **≥ 50% dos válidos** → eleito no 1º turno;
+2. senão, os dois primeiros vão ao 2º turno e, havendo **pesquisa daquele par**, é ela que decide;
+3. sem pesquisa do duelo, o índice (chapa + presidente) desempata.
+
+Na rodada de 14/08/2026: 10 estados decididos no 1º turno, 10 por pesquisa de 2º turno (em **PA e TO** o
+líder do 1º turno perde o duelo), 3 por índice sem duelo e 4 sem pesquisa comparável.
+
 ## Como funciona o modelo
 
 Índice 0-100 para **ordenar** candidatos (não é probabilidade calibrada). Componentes:
@@ -80,6 +111,21 @@ de candidatura entra no ar mesmo com os scrapers fora do ar.
 
 Limite conhecido: quem troca de cargo chega ao novo cargo **sem pesquisa** e o índice não tem prior para
 isso — fica no fim da lista até sair a primeira pesquisa do novo pleito.
+
+### Campo político (esquerda x direita)
+
+Duas populações, dois critérios:
+
+- **54 em disputa** — entram pelo **bloco declarado da candidatura** (quem o candidato apoia para
+  presidente), curado candidato a candidato em `roster.yaml`.
+- **27 que ficam** (mandato até 2031) — não têm candidatura. Classificar por partido erra: o mesmo
+  partido tem senador do campo Lula e do campo oposto. Cada um é classificado individualmente em
+  `roster.holdovers` com `criterio` + `basis`: **verificado** (cargo formal que define o campo —
+  ministro/vice de Lula ou de Bolsonaro), **atuação** (posição pública consistente, quando o partido
+  classificaria errado) ou **partido** (inferência, o elo mais fraco).
+
+Hoje são 8 verificados, 6 por atuação e 13 por partido. A tabela inteira, com o critério de cada um,
+fica aberta na aba Senado — o que é inferência aparece marcado como inferência.
 
 ### Conferência contra o TSE
 
