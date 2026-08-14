@@ -81,6 +81,23 @@ de candidatura entra no ar mesmo com os scrapers fora do ar.
 Limite conhecido: quem troca de cargo chega ao novo cargo **sem pesquisa** e o índice não tem prior para
 isso — fica no fim da lista até sair a primeira pesquisa do novo pleito.
 
+### Conferência contra o TSE
+
+`pipeline/tse_check.py` baixa os [dados abertos do TSE](https://dadosabertos.tse.jus.br/dataset/candidatos-2026)
+(`consulta_cand_2026.zip`, ~3 MB, regerado todo dia) e compara o registro **oficial** de candidatura com o
+roster. É a única fonte autoritativa de quem de fato pediu registro — imprensa e Wikipedia atrasam e
+divergem, ainda mais na semana do prazo (**15/08/2026, 19h**).
+
+```sh
+py -m pipeline.tse_check           # A) registrado no TSE e fora do roster; B) roster sem registro
+py -m pipeline.tse_check --todos   # inclui partidos fora de reference/parties.yaml
+```
+
+Ele **não aplica nada** — o roster é curado (só candidatura competitiva entra, senão o índice enche de nome
+com 0 pesquisa). Roda como passo do cron e o log da Action vira a lista do que revisar. Antes do prazo,
+"no roster e sem registro no TSE" quase sempre é registro ainda não protocolado; **depois do prazo**, é
+candidatura que não existe.
+
 ## Estrutura
 
 ```

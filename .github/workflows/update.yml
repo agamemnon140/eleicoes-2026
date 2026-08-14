@@ -36,6 +36,9 @@ jobs:
         run: python -m pipeline.roster_sync
       - name: Coleta pesquisas (agregador + portais)
         run: python -m pipeline.collect || echo "coleta falhou — seguindo com o último snapshot"
+      - name: Confere o roster contra o registro do TSE (só relatório)
+        # não aplica nada: o roster é curado. O log da Action vira a lista do que revisar.
+        run: python -m pipeline.tse_check || echo "TSE indisponível — seguindo"
       - name: Recalcula o modelo
         run: python -m pipeline.build
       - name: Testes
