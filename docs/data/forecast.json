@@ -132,6 +132,14 @@
    "holdNames": []
   },
   {
+   "party": "Novo",
+   "hold": 0,
+   "newSen": 1,
+   "sen2027": 1,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
    "party": "Rede",
    "hold": 0,
    "newSen": 1,
@@ -141,14 +149,6 @@
   },
   {
    "party": "PSOL",
-   "hold": 0,
-   "newSen": 1,
-   "sen2027": 1,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
-   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -1454,9 +1454,9 @@
       "indecisao": "Branco/nulo 2,3%; não sabe 8,6%",
       "situacao": "Sem percentual comparável",
       "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
+      "status": "Fora do roster: candidatura não confirmada",
+      "status_tipo": "alerta",
+      "active": false,
       "gov_ticket": null,
       "may_change": null,
       "source": null,
@@ -8087,9 +8087,9 @@
       "indecisao": "Segunda vaga indefinida; ver fonte",
       "situacao": "Sem percentual comparável",
       "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
+      "status": "Fora do roster: candidatura não confirmada",
+      "status_tipo": "alerta",
+      "active": false,
       "gov_ticket": null,
       "may_change": 61,
       "source": null,
@@ -12306,7 +12306,7 @@
       "Hana Ghassan": 39.9,
       "Dr. Daniel Santos": 35.6,
       "Mário Couto": 16.6,
-      "Professora Araci Lemos": 4.4
+      "Araceli Lemos": 4.4
      },
      "duelo": {
       "Hana Ghassan": 49.5,
@@ -12630,6 +12630,86 @@
      {
       "uf": "PA",
       "cargo": "Governo",
+      "name": "Araceli Lemos",
+      "party": "PSOL",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": 3.2,
+      "pct_valid": 4.4,
+      "runoff": {},
+      "pctDisplay": "3,2%",
+      "instituto": "média móvel de 2 pesquisas",
+      "campo": "04/08/2026",
+      "cenario": "Estimulado, 1º turno",
+      "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
+      "situacao": "Sem percentual comparável",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "média",
+      "polls": [
+       {
+        "pollster": "Real Time Big Data",
+        "date": "04/08/2026",
+        "pct": 4.0,
+        "pct_valid": 5.19,
+        "base": "totais",
+        "sum_cands": 77.0,
+        "undecided": 23.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
+        "weight": 0.586
+       },
+       {
+        "pollster": "Quaest",
+        "date": "27/07/2026",
+        "pct": 2.0,
+        "pct_valid": 3.28,
+        "base": "totais",
+        "sum_cands": 61.0,
+        "undecided": 39.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
+        "weight": 0.414
+       }
+      ],
+      "estimated_preview": false,
+      "certainty_preview": "",
+      "score": 13.2,
+      "components": {
+       "governo": 6.6,
+       "presidente": 6.6
+      },
+      "model": {
+       "scores": {
+        "governo": 7.333333333333334,
+        "presidente": 63.333333333333336
+       },
+       "weights": {
+        "governo": 0.896,
+        "presidente": 0.104
+       },
+       "inputs": {
+        "gov_pct": 4.4,
+        "gov_reliability": 1.0,
+        "pres_pct": 38,
+        "pres_reliability": 1.0,
+        "pres_bloc": "Lula",
+        "pres_basis": "Quaest 21–25/07"
+       }
+      },
+      "estimated": false,
+      "finalista": false
+     },
+     {
+      "uf": "PA",
+      "cargo": "Governo",
       "name": "Professora Araci Lemos",
       "party": "PSOL",
       "bloc": "Indefinido",
@@ -12645,9 +12725,9 @@
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
       "situacao": "Abaixo do grupo líder no cenário",
       "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
+      "status": "Fora do roster: candidatura não confirmada",
+      "status_tipo": "alerta",
+      "active": false,
       "gov_ticket": null,
       "may_change": null,
       "source": "média",
@@ -12701,59 +12781,6 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
-       }
-      },
-      "estimated": false,
-      "finalista": false
-     },
-     {
-      "uf": "PA",
-      "cargo": "Governo",
-      "name": "Araceli Lemos",
-      "party": "PSOL",
-      "bloc": "Lula",
-      "apoio": "Lula",
-      "apoio_verificado": false,
-      "pct": null,
-      "pct_valid": null,
-      "runoff": {},
-      "pctDisplay": "Não testado nesta rodada",
-      "instituto": "Real Time Big Data",
-      "campo": "30/07–03/08/2026",
-      "cenario": "Estimulado, 1º turno",
-      "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
-      "situacao": "Sem percentual comparável",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": null,
-      "may_change": null,
-      "source": null,
-      "polls": null,
-      "estimated_preview": false,
-      "certainty_preview": "",
-      "score": 6.6,
-      "components": {
-       "governo": 0.0,
-       "presidente": 6.6
-      },
-      "model": {
-       "scores": {
-        "governo": 0.0,
-        "presidente": 63.333333333333336
-       },
-       "weights": {
-        "governo": 0.896,
-        "presidente": 0.104
-       },
-       "inputs": {
-        "gov_pct": null,
-        "gov_reliability": 1.0,
-        "pres_pct": 38,
-        "pres_reliability": 1.0,
-        "pres_bloc": "Lula",
         "pres_basis": "Quaest 21–25/07"
        }
       },
@@ -13276,9 +13303,9 @@
       "indecisao": "Branco/nulo 3%; não sabe 5%",
       "situacao": "Sem percentual comparável",
       "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
+      "status": "Fora do roster: candidatura não confirmada",
+      "status_tipo": "alerta",
+      "active": false,
       "gov_ticket": "Hana Ghassan",
       "may_change": null,
       "source": null,
@@ -23092,9 +23119,9 @@
       "indecisao": "Branco/nulo 3%; não sabe 3%",
       "situacao": "Sem percentual comparável",
       "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
+      "status": "Fora do roster: candidatura não confirmada",
+      "status_tipo": "alerta",
+      "active": false,
       "gov_ticket": "Valmir de Francisquinho",
       "may_change": null,
       "source": null,
