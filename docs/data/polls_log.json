@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-14",
+ "generated_at": "2026-08-15",
  "state_polls": [
   {
    "uf": "CE",
@@ -13,7 +13,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 11.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -41,7 +41,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -69,7 +69,7 @@
    "base": "totais",
    "sum_cands": 85.7,
    "undecided": 14.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -121,7 +121,7 @@
    "base": "totais",
    "sum_cands": 87.7,
    "undecided": 12.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -149,7 +149,7 @@
    "base": "totais",
    "sum_cands": 80.8,
    "undecided": 19.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -177,7 +177,7 @@
    "base": "totais",
    "sum_cands": 91.1,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -211,7 +211,7 @@
    "base": "totais",
    "sum_cands": 96.0,
    "undecided": 4.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mauro Mendes",
@@ -251,7 +251,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -285,7 +285,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -319,7 +319,7 @@
    "base": "totais",
    "sum_cands": 87.1,
    "undecided": 13.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luizianne Lins",
@@ -359,7 +359,7 @@
    "base": "totais",
    "sum_cands": 97.5,
    "undecided": 2.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -387,7 +387,7 @@
    "base": "totais",
    "sum_cands": 98.2,
    "undecided": 1.8,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -415,7 +415,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -455,7 +455,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -489,7 +489,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -517,7 +517,7 @@
    "base": null,
    "sum_cands": null,
    "undecided": null,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "João Roma",
@@ -539,7 +539,7 @@
    "base": "totais",
    "sum_cands": 116.1,
    "undecided": 52.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Simone Tebet",
@@ -585,7 +585,7 @@
    "base": "totais",
    "sum_cands": 88.7,
    "undecided": 11.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -631,7 +631,7 @@
    "base": "totais",
    "sum_cands": 90.4,
    "undecided": 9.6,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -659,7 +659,7 @@
    "base": "totais",
    "sum_cands": 98.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -705,7 +705,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -751,7 +751,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -779,7 +779,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -825,7 +825,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -871,7 +871,7 @@
    "base": "totais",
    "sum_cands": 74.0,
    "undecided": 26.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -899,7 +899,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Delegado André David",
@@ -951,7 +951,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -985,7 +985,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -1013,7 +1013,7 @@
    "base": "totais",
    "sum_cands": 143.8,
    "undecided": 56.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -1053,7 +1053,7 @@
    "base": "totais",
    "sum_cands": 137.6,
    "undecided": 20.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -1093,7 +1093,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1127,7 +1127,7 @@
    "base": "totais",
    "sum_cands": 89.5,
    "undecided": 11.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1161,7 +1161,7 @@
    "base": "totais",
    "sum_cands": 95.5,
    "undecided": 4.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1189,7 +1189,7 @@
    "base": "totais",
    "sum_cands": 90.9,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1261,7 +1261,7 @@
    "base": "totais",
    "sum_cands": 97.7,
    "undecided": 2.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcio Bittar",
@@ -1307,7 +1307,7 @@
    "base": "totais",
    "sum_cands": 96.5,
    "undecided": 3.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -1347,7 +1347,7 @@
    "base": "totais",
    "sum_cands": 86.7,
    "undecided": 13.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -1387,7 +1387,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 21.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -1433,7 +1433,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 7.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1473,7 +1473,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1501,7 +1501,7 @@
    "base": "totais",
    "sum_cands": 128.0,
    "undecided": 22.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -1559,7 +1559,7 @@
    "base": "totais",
    "sum_cands": 83.5,
    "undecided": 16.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -1599,7 +1599,7 @@
    "base": "totais",
    "sum_cands": 84.4,
    "undecided": 15.6,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -1633,7 +1633,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -1673,7 +1673,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1707,7 +1707,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1735,7 +1735,7 @@
    "base": "totais",
    "sum_cands": 46.0,
    "undecided": 54.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Manuela d'Ávila",
@@ -1787,7 +1787,7 @@
    "base": "totais",
    "sum_cands": 57.0,
    "undecided": 43.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Juliana Brizola",
@@ -1821,7 +1821,7 @@
    "base": "totais",
    "sum_cands": 55.0,
    "undecided": 45.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Juliana Brizola",
@@ -1855,7 +1855,7 @@
    "base": "totais",
    "sum_cands": 85.0,
    "undecided": 15.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -1907,7 +1907,7 @@
    "base": "totais",
    "sum_cands": 74.0,
    "undecided": 26.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Aro",
@@ -1929,7 +1929,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1981,7 +1981,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -2021,7 +2021,7 @@
    "base": "totais",
    "sum_cands": 57.0,
    "undecided": 43.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -2067,7 +2067,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -2107,7 +2107,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -2141,7 +2141,7 @@
    "base": "totais",
    "sum_cands": 63.0,
    "undecided": 37.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -2187,7 +2187,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -2221,7 +2221,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -2249,7 +2249,7 @@
    "base": "totais",
    "sum_cands": 59.0,
    "undecided": 41.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marina Silva",
@@ -2319,7 +2319,7 @@
    "base": "totais",
    "sum_cands": 85.5,
    "undecided": 14.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -2353,7 +2353,7 @@
    "base": "totais",
    "sum_cands": 82.0,
    "undecided": 18.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Crivella",
@@ -2405,7 +2405,7 @@
    "base": "totais",
    "sum_cands": 74.0,
    "undecided": 26.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -2445,7 +2445,7 @@
    "base": "totais",
    "sum_cands": 70.0,
    "undecided": 30.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -2479,7 +2479,7 @@
    "base": "totais",
    "sum_cands": 57.0,
    "undecided": 33.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -2525,7 +2525,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -2565,7 +2565,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -2593,7 +2593,7 @@
    "base": "totais",
    "sum_cands": 78.0,
    "undecided": 22.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -2669,7 +2669,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 28.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -2721,7 +2721,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -2761,7 +2761,7 @@
    "base": "totais",
    "sum_cands": 89.5,
    "undecided": 10.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Carlos Bolsonaro",
@@ -2807,7 +2807,7 @@
    "base": "totais",
    "sum_cands": 41.0,
    "undecided": 59.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -2865,7 +2865,7 @@
    "base": "totais",
    "sum_cands": 65.0,
    "undecided": 35.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -2905,7 +2905,7 @@
    "base": "totais",
    "sum_cands": 64.0,
    "undecided": 32.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -2939,7 +2939,7 @@
    "base": "totais",
    "sum_cands": 62.0,
    "undecided": 38.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -2985,7 +2985,7 @@
    "base": "totais",
    "sum_cands": 61.0,
    "undecided": 39.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -3031,7 +3031,7 @@
    "base": "totais",
    "sum_cands": 71.0,
    "undecided": 29.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -3059,7 +3059,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -3105,7 +3105,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -3145,7 +3145,7 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -3179,7 +3179,7 @@
    "base": "totais",
    "sum_cands": 157.1,
    "undecided": 14.7,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -3213,7 +3213,7 @@
    "base": "totais",
    "sum_cands": 84.6,
    "undecided": 15.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -3247,7 +3247,7 @@
    "base": "totais",
    "sum_cands": 87.2,
    "undecided": 12.7,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -3275,7 +3275,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rayssa Furlan",
@@ -3315,7 +3315,7 @@
    "base": "totais",
    "sum_cands": 96.0,
    "undecided": 4.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -3343,7 +3343,7 @@
    "base": "totais",
    "sum_cands": 142.4,
    "undecided": 16.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Manuela d'Ávila",
@@ -3395,7 +3395,7 @@
    "base": "totais",
    "sum_cands": 83.8,
    "undecided": 16.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -3429,7 +3429,7 @@
    "base": "totais",
    "sum_cands": 85.0,
    "undecided": 14.9,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -3475,7 +3475,7 @@
    "base": "totais",
    "sum_cands": 94.9,
    "undecided": 5.1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -3509,7 +3509,7 @@
    "base": "totais",
    "sum_cands": 81.2,
    "undecided": 18.8,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -3543,7 +3543,7 @@
    "base": "totais",
    "sum_cands": 68.7,
    "undecided": 31.1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -3583,7 +3583,7 @@
    "base": "totais",
    "sum_cands": 90.9,
    "undecided": 8.9,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -3617,7 +3617,7 @@
    "base": "totais",
    "sum_cands": 176.8,
    "undecided": 7.9,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rayssa Furlan",
@@ -3657,7 +3657,7 @@
    "base": "totais",
    "sum_cands": 92.3,
    "undecided": 7.8,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -3685,7 +3685,7 @@
    "base": "totais",
    "sum_cands": 92.7,
    "undecided": 7.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -3713,7 +3713,7 @@
    "base": "totais",
    "sum_cands": 147.3,
    "undecided": 15.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Leila Barros",
@@ -3753,7 +3753,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fernando Máximo",
@@ -3799,7 +3799,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -3839,7 +3839,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -3879,7 +3879,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 28.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -3931,7 +3931,7 @@
    "base": "totais",
    "sum_cands": 79.0,
    "undecided": 21.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -3965,7 +3965,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -3999,7 +3999,7 @@
    "base": "totais",
    "sum_cands": 87.0,
    "undecided": 13.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -4039,7 +4039,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -4073,7 +4073,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -4101,7 +4101,7 @@
    "base": "totais",
    "sum_cands": 93.0,
    "undecided": 7.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -4159,7 +4159,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -4199,7 +4199,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -4233,7 +4233,7 @@
    "base": "totais",
    "sum_cands": 87.0,
    "undecided": 13.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Duarte Jr.",
@@ -4279,7 +4279,7 @@
    "base": "totais",
    "sum_cands": 96.0,
    "undecided": 4.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -4313,7 +4313,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -4347,7 +4347,7 @@
    "base": "totais",
    "sum_cands": 150.5,
    "undecided": 16.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -4399,7 +4399,7 @@
    "base": "totais",
    "sum_cands": 85.7,
    "undecided": 14.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -4489,7 +4489,7 @@
    "base": "totais",
    "sum_cands": 88.3,
    "undecided": 11.8,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -4517,7 +4517,7 @@
    "base": "totais",
    "sum_cands": 89.5,
    "undecided": 10.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -4539,7 +4539,7 @@
    "base": "totais",
    "sum_cands": 66.2,
    "undecided": 33.5,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -4579,7 +4579,7 @@
    "base": "totais",
    "sum_cands": 91.1,
    "undecided": 8.9,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -4613,7 +4613,7 @@
    "base": "totais",
    "sum_cands": 82.0,
    "undecided": 18.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Laurez Moreira",
@@ -4635,7 +4635,7 @@
    "base": "totais",
    "sum_cands": 60.0,
    "undecided": 40.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Maguinha Malta",
@@ -4657,7 +4657,7 @@
    "base": "totais",
    "sum_cands": 79.0,
    "undecided": 21.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jayme Campos",
@@ -4679,7 +4679,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Major Fábio",
@@ -4707,7 +4707,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -4741,7 +4741,7 @@
    "base": "totais",
    "sum_cands": 71.2,
    "undecided": 19.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marina Silva",
@@ -4769,7 +4769,7 @@
    "base": "totais",
    "sum_cands": 49.0,
    "undecided": 51.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Simone Tebet",
@@ -4803,7 +4803,7 @@
    "base": "totais",
    "sum_cands": 88.7,
    "undecided": 11.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -4831,7 +4831,7 @@
    "base": "totais",
    "sum_cands": 90.4,
    "undecided": 9.6,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -4859,7 +4859,7 @@
    "base": "totais",
    "sum_cands": 118.9,
    "undecided": 82.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcel van Hattem",
@@ -4911,7 +4911,7 @@
    "base": "totais",
    "sum_cands": 83.8,
    "undecided": 16.2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -4945,7 +4945,7 @@
    "base": "totais",
    "sum_cands": 68.6,
    "undecided": 31.4,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Maranata",
@@ -4967,7 +4967,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Moura",
@@ -4989,7 +4989,7 @@
    "base": "totais",
    "sum_cands": 79.3,
    "undecided": 0.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "André Fufuca",
@@ -5017,7 +5017,7 @@
    "base": "totais",
    "sum_cands": 94.1,
    "undecided": 5.7,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -5051,7 +5051,7 @@
    "base": "totais",
    "sum_cands": 95.4,
    "undecided": 4.8,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -5070,12 +5070,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "Quaest",
+   "date": "14/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
+   "Lula": 38.0,
+   "Flávio": 31.0,
+   "weight": 0.187
+  },
+  {
    "pollster": "PoderData",
    "date": "13/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
    "Lula": 41.0,
    "Flávio": 35.0,
-   "weight": 0.19
+   "weight": 0.178
   },
   {
    "pollster": "CNT/MDA",
@@ -5083,7 +5091,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
    "Lula": 42.4,
    "Flávio": 28.7,
-   "weight": 0.172
+   "weight": 0.161
   },
   {
    "pollster": "Gerp",
@@ -5091,7 +5099,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 38.0,
-   "weight": 0.172
+   "weight": 0.161
   },
   {
    "pollster": "Futura Inteligência",
@@ -5099,7 +5107,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
    "Lula": 38.8,
    "Flávio": 34.1,
-   "weight": 0.172
+   "weight": 0.161
   },
   {
    "pollster": "Nexus",
@@ -5107,15 +5115,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-2/",
    "Lula": 40.0,
    "Flávio": 35.0,
-   "weight": 0.164
-  },
-  {
-   "pollster": "Quaest",
-   "date": "05/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-presidente-agosto-2026/",
-   "Lula": 39.0,
-   "Flávio": 30.0,
-   "weight": 0.128
+   "weight": 0.153
   }
  ]
 }
