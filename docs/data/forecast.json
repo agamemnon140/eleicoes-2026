@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-08-15",
+ "generated_at": "2026-08-16",
  "polls_date": "2026-08-15",
  "election_date": "2026-10-04",
- "days_to_election": 50,
+ "days_to_election": 49,
  "source": "wikipedia + gazeta + base",
  "update": {
   "new_polls": 0,
@@ -140,7 +140,7 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "Avante",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -148,7 +148,7 @@
    "holdNames": []
   },
   {
-   "party": "Avante",
+   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -425,8 +425,8 @@
      "margem": 3.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -519,8 +519,8 @@
       "certainty_preview": "",
       "score": 62.8,
       "components": {
-       "governo": 56.0,
-       "presidente": 6.7
+       "governo": 56.1,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -528,8 +528,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 37.5,
@@ -633,8 +633,8 @@
       "certainty_preview": "Baixa",
       "score": 57.5,
       "components": {
-       "governo": 50.8,
-       "presidente": 6.7
+       "governo": 50.9,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -642,8 +642,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 34.0,
@@ -748,7 +748,7 @@
       "score": 35.1,
       "components": {
        "governo": 28.4,
-       "presidente": 6.7
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -756,8 +756,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 19.0,
@@ -857,8 +857,8 @@
         "presidente": 33.36666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 9.0,
@@ -885,9 +885,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -895,13 +895,13 @@
       "name": "Marcio Bittar",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 72.7
+      "score": 72.8
      },
      {
       "name": "Gladson Cameli",
       "party": "PP",
       "bloc": "Flávio",
-      "score": 69.1
+      "score": 69.2
      }
     ],
     "candidates": [
@@ -959,11 +959,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 72.7,
+      "score": 72.8,
       "components": {
-       "governo": 13.1,
-       "presidente": 16.5,
-       "senado": 33.1,
+       "governo": 13.0,
+       "presidente": 16.4,
+       "senado": 33.3,
        "apoio": 10.0
       },
       "model": {
@@ -974,9 +974,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1052,11 +1052,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 69.1,
+      "score": 69.2,
       "components": {
-       "governo": 13.1,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "governo": 13.0,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 4.5
       },
       "model": {
@@ -1067,9 +1067,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1118,11 +1118,11 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 67.1,
+      "score": 67.2,
       "components": {
-       "governo": 13.1,
-       "presidente": 16.5,
-       "senado": 27.5,
+       "governo": 13.0,
+       "presidente": 16.4,
+       "senado": 27.7,
        "apoio": 10.0
       },
       "model": {
@@ -1133,9 +1133,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1211,11 +1211,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 38.3,
+      "score": 38.4,
       "components": {
        "governo": 3.5,
-       "presidente": 8.5,
-       "senado": 21.9,
+       "presidente": 8.4,
+       "senado": 22.0,
        "apoio": 4.5
       },
       "model": {
@@ -1226,9 +1226,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1319,9 +1319,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1397,11 +1397,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 9.4,
+      "score": 9.5,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 9.4,
+       "senado": 9.5,
        "apoio": 0.0
       },
       "model": {
@@ -1412,9 +1412,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1478,9 +1478,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1516,7 +1516,7 @@
      "name": "Renan Filho",
      "party": "MDB",
      "bloc": "Lula",
-     "score": 76.0
+     "score": 76.1
     },
     "race": {
      "turno": 2,
@@ -1533,8 +1533,8 @@
      "margem": 21.4
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -1599,10 +1599,10 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 76.0,
+      "score": 76.1,
       "components": {
        "governo": 69.4,
-       "presidente": 6.7
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -1610,8 +1610,8 @@
         "presidente": 64.78333333333335
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 46.4,
@@ -1661,9 +1661,9 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 68.6,
+      "score": 68.7,
       "components": {
-       "governo": 68.6,
+       "governo": 68.7,
        "presidente": 0.0
       },
       "model": {
@@ -1672,8 +1672,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 45.9,
@@ -1731,7 +1731,7 @@
       "score": 41.9,
       "components": {
        "governo": 37.4,
-       "presidente": 4.5
+       "presidente": 4.4
       },
       "model": {
        "scores": {
@@ -1739,8 +1739,8 @@
         "presidente": 43.55000000000001
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 25.0,
@@ -1767,9 +1767,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -1777,13 +1777,13 @@
       "name": "Renan Calheiros",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 70.8
+      "score": 70.9
      },
      {
       "name": "Arthur Lira",
       "party": "PP",
       "bloc": "Flávio",
-      "score": 56.0
+      "score": 56.2
      }
     ],
     "candidates": [
@@ -1814,11 +1814,11 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 70.8,
+      "score": 70.9,
       "components": {
-       "governo": 17.9,
-       "presidente": 16.5,
-       "senado": 31.9,
+       "governo": 17.8,
+       "presidente": 16.4,
+       "senado": 32.2,
        "apoio": 4.5
       },
       "model": {
@@ -1829,9 +1829,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1889,11 +1889,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 56.0,
+      "score": 56.2,
       "components": {
        "governo": 0.0,
-       "presidente": 11.1,
-       "senado": 34.9,
+       "presidente": 11.0,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -1904,9 +1904,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -1955,10 +1955,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 21.1,
+      "score": 21.0,
       "components": {
        "governo": 0.0,
-       "presidente": 11.1,
+       "presidente": 11.0,
        "senado": 0.0,
        "apoio": 10.0
       },
@@ -1970,9 +1970,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2030,11 +2030,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 20.1,
+      "score": 20.2,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 20.1,
+       "senado": 20.2,
        "apoio": 0.0
       },
       "model": {
@@ -2045,9 +2045,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2096,10 +2096,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 15.6,
+      "score": 15.5,
       "components": {
        "governo": 0.0,
-       "presidente": 11.1,
+       "presidente": 11.0,
        "senado": 0.0,
        "apoio": 4.5
       },
@@ -2111,9 +2111,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2177,9 +2177,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2225,8 +2225,8 @@
      "pcts": {}
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -2267,8 +2267,8 @@
         "presidente": 56.55000000000001
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 27.0,
@@ -2320,8 +2320,8 @@
         "presidente": 51.78333333333334
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 23.4,
@@ -2373,8 +2373,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 17.0,
@@ -2401,9 +2401,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -2411,7 +2411,7 @@
       "name": "Eduardo Braga",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 64.2
+      "score": 64.3
      },
      {
       "name": "Capitão Alberto Neto",
@@ -2448,11 +2448,11 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 64.2,
+      "score": 64.3,
       "components": {
        "governo": 10.4,
-       "presidente": 14.4,
-       "senado": 34.9,
+       "presidente": 14.3,
+       "senado": 35.2,
        "apoio": 4.5
       },
       "model": {
@@ -2463,9 +2463,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2517,8 +2517,8 @@
       "score": 53.9,
       "components": {
        "governo": 9.0,
-       "presidente": 13.2,
-       "senado": 21.7,
+       "presidente": 13.1,
+       "senado": 21.8,
        "apoio": 10.0
       },
       "model": {
@@ -2529,9 +2529,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2580,11 +2580,11 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 47.8,
+      "score": 47.9,
       "components": {
        "governo": 9.0,
-       "presidente": 13.2,
-       "senado": 21.1,
+       "presidente": 13.1,
+       "senado": 21.3,
        "apoio": 4.5
       },
       "model": {
@@ -2595,9 +2595,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2649,8 +2649,8 @@
       "score": 40.2,
       "components": {
        "governo": 9.0,
-       "presidente": 13.2,
-       "senado": 13.5,
+       "presidente": 13.1,
+       "senado": 13.6,
        "apoio": 4.5
       },
       "model": {
@@ -2661,9 +2661,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2715,8 +2715,8 @@
       "score": 39.5,
       "components": {
        "governo": 10.4,
-       "presidente": 14.4,
-       "senado": 10.2,
+       "presidente": 14.3,
+       "senado": 10.3,
        "apoio": 4.5
       },
       "model": {
@@ -2727,9 +2727,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -2779,8 +2779,8 @@
      "margem": 39.8
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -2860,8 +2860,8 @@
       "certainty_preview": "Alta",
       "score": 95.0,
       "components": {
-       "governo": 89.7,
-       "presidente": 5.3
+       "governo": 89.8,
+       "presidente": 5.2
       },
       "model": {
        "scores": {
@@ -2869,8 +2869,8 @@
         "presidente": 51.458333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 69.8,
@@ -2961,8 +2961,8 @@
       "certainty_preview": "",
       "score": 50.7,
       "components": {
-       "governo": 44.8,
-       "presidente": 5.9
+       "governo": 44.9,
+       "presidente": 5.8
       },
       "model": {
        "scores": {
@@ -2970,8 +2970,8 @@
         "presidente": 56.875
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 30.0,
@@ -3012,10 +3012,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 5.3,
+      "score": 5.2,
       "components": {
        "governo": 0.0,
-       "presidente": 5.3
+       "presidente": 5.2
       },
       "model": {
        "scores": {
@@ -3023,8 +3023,8 @@
         "presidente": 51.458333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": null,
@@ -3051,9 +3051,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -3127,9 +3127,9 @@
       "certainty_preview": "Média",
       "score": 87.7,
       "components": {
-       "governo": 29.7,
-       "presidente": 13.1,
-       "senado": 34.9,
+       "governo": 29.5,
+       "presidente": 13.0,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -3140,9 +3140,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -3220,9 +3220,9 @@
       "certainty_preview": "Média",
       "score": 63.1,
       "components": {
-       "governo": 23.1,
-       "presidente": 13.1,
-       "senado": 16.9,
+       "governo": 23.0,
+       "presidente": 13.0,
+       "senado": 17.0,
        "apoio": 10.0
       },
       "model": {
@@ -3233,9 +3233,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -3313,9 +3313,9 @@
       "certainty_preview": "",
       "score": 50.5,
       "components": {
-       "governo": 11.6,
-       "presidente": 14.5,
-       "senado": 20.0,
+       "governo": 11.5,
+       "presidente": 14.4,
+       "senado": 20.1,
        "apoio": 4.5
       },
       "model": {
@@ -3326,9 +3326,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -3404,11 +3404,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 4.9,
+      "score": 5.0,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 4.9,
+       "senado": 5.0,
        "apoio": 0.0
       },
       "model": {
@@ -3419,9 +3419,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -3457,7 +3457,7 @@
      "name": "ACM Neto",
      "party": "União",
      "bloc": "Caiado",
-     "score": 79.6
+     "score": 79.7
     },
     "race": {
      "turno": 1,
@@ -3472,8 +3472,8 @@
      "margem": 7.9
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -3590,9 +3590,9 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 79.6,
+      "score": 79.7,
       "components": {
-       "governo": 79.1,
+       "governo": 79.2,
        "presidente": 0.5
       },
       "model": {
@@ -3601,8 +3601,8 @@
         "presidente": 5.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 52.9,
@@ -3732,8 +3732,8 @@
       "certainty_preview": "",
       "score": 76.2,
       "components": {
-       "governo": 67.3,
-       "presidente": 8.9
+       "governo": 67.4,
+       "presidente": 8.8
       },
       "model": {
        "scores": {
@@ -3741,8 +3741,8 @@
         "presidente": 86.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 45.0,
@@ -3819,8 +3819,8 @@
         "presidente": 30.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 21.0,
@@ -3912,8 +3912,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 1.6,
@@ -3940,9 +3940,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -4029,9 +4029,9 @@
       "certainty_preview": "Alta",
       "score": 88.2,
       "components": {
-       "governo": 22.2,
-       "presidente": 22.0,
-       "senado": 34.9,
+       "governo": 22.1,
+       "presidente": 21.9,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -4042,9 +4042,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -4135,9 +4135,9 @@
       "certainty_preview": "Alta",
       "score": 80.7,
       "components": {
-       "governo": 22.2,
-       "presidente": 22.0,
-       "senado": 27.4,
+       "governo": 22.1,
+       "presidente": 21.9,
+       "senado": 27.6,
        "apoio": 9.0
       },
       "model": {
@@ -4148,9 +4148,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -4241,9 +4241,9 @@
       "certainty_preview": "",
       "score": 58.0,
       "components": {
-       "governo": 20.4,
+       "governo": 20.3,
        "presidente": 7.6,
-       "senado": 20.0,
+       "senado": 20.1,
        "apoio": 10.0
       },
       "model": {
@@ -4254,9 +4254,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -4347,9 +4347,9 @@
       "certainty_preview": "",
       "score": 56.9,
       "components": {
-       "governo": 20.4,
+       "governo": 20.3,
        "presidente": 7.6,
-       "senado": 18.9,
+       "senado": 19.0,
        "apoio": 10.0
       },
       "model": {
@@ -4360,9 +4360,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -4398,7 +4398,7 @@
      "name": "Ciro Gomes",
      "party": "PSDB",
      "bloc": "Flávio",
-     "score": 85.7
+     "score": 85.8
     },
     "race": {
      "turno": 1,
@@ -4413,8 +4413,8 @@
      "margem": 13.4
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -4531,10 +4531,10 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 85.7,
+      "score": 85.8,
       "components": {
-       "governo": 81.9,
-       "presidente": 3.8
+       "governo": 82.0,
+       "presidente": 3.7
       },
       "model": {
        "scores": {
@@ -4542,8 +4542,8 @@
         "presidente": 36.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 54.8,
@@ -4673,8 +4673,8 @@
       "certainty_preview": "",
       "score": 71.3,
       "components": {
-       "governo": 61.9,
-       "presidente": 9.5
+       "governo": 62.0,
+       "presidente": 9.3
       },
       "model": {
        "scores": {
@@ -4682,8 +4682,8 @@
         "presidente": 91.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 41.4,
@@ -4749,8 +4749,8 @@
         "presidente": 3.3333333333333335
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 3.8,
@@ -4777,9 +4777,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -4853,9 +4853,9 @@
       "certainty_preview": "Média",
       "score": 87.7,
       "components": {
-       "governo": 20.5,
-       "presidente": 23.3,
-       "senado": 34.9,
+       "governo": 20.4,
+       "presidente": 23.2,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -4866,9 +4866,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -4946,9 +4946,9 @@
       "certainty_preview": "Média",
       "score": 78.9,
       "components": {
-       "governo": 20.5,
-       "presidente": 23.3,
-       "senado": 26.1,
+       "governo": 20.4,
+       "presidente": 23.2,
+       "senado": 26.3,
        "apoio": 9.0
       },
       "model": {
@@ -4959,9 +4959,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5037,11 +5037,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 75.1,
+      "score": 75.2,
       "components": {
-       "governo": 27.1,
+       "governo": 27.0,
        "presidente": 9.3,
-       "senado": 28.7,
+       "senado": 29.0,
        "apoio": 10.0
       },
       "model": {
@@ -5052,9 +5052,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5130,11 +5130,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 61.9,
+      "score": 61.8,
       "components": {
-       "governo": 27.1,
+       "governo": 27.0,
        "presidente": 9.3,
-       "senado": 15.5,
+       "senado": 15.6,
        "apoio": 10.0
       },
       "model": {
@@ -5145,9 +5145,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5210,11 +5210,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 58.3,
+      "score": 58.2,
       "components": {
-       "governo": 16.0,
-       "presidente": 23.3,
-       "senado": 14.5,
+       "governo": 15.9,
+       "presidente": 23.2,
+       "senado": 14.6,
        "apoio": 4.5
       },
       "model": {
@@ -5225,9 +5225,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5273,8 +5273,8 @@
      "pcts": {}
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -5306,8 +5306,8 @@
       "certainty_preview": "Média",
       "score": 57.5,
       "components": {
-       "governo": 51.7,
-       "presidente": 5.8
+       "governo": 51.8,
+       "presidente": 5.7
       },
       "model": {
        "scores": {
@@ -5315,8 +5315,8 @@
         "presidente": 55.833333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 34.6,
@@ -5357,9 +5357,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 42.0,
+      "score": 42.1,
       "components": {
-       "governo": 42.0,
+       "governo": 42.1,
        "presidente": 0.0
       },
       "model": {
@@ -5368,8 +5368,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 28.1,
@@ -5410,10 +5410,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 23.3,
+      "score": 23.2,
       "components": {
        "governo": 17.8,
-       "presidente": 5.5
+       "presidente": 5.4
       },
       "model": {
        "scores": {
@@ -5421,8 +5421,8 @@
         "presidente": 53.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 11.9,
@@ -5449,9 +5449,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -5459,13 +5459,13 @@
       "name": "Michelle Bolsonaro",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 69.6
+      "score": 69.7
      },
      {
       "name": "Leila Barros",
       "party": "PDT",
       "bloc": "Lula",
-      "score": 57.6
+      "score": 57.7
      }
     ],
     "candidates": [
@@ -5510,11 +5510,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 69.6,
+      "score": 69.7,
       "components": {
        "governo": 13.3,
-       "presidente": 14.2,
-       "senado": 32.0,
+       "presidente": 14.1,
+       "senado": 32.3,
        "apoio": 10.0
       },
       "model": {
@@ -5525,9 +5525,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5590,11 +5590,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 57.6,
+      "score": 57.7,
       "components": {
        "governo": 4.6,
-       "presidente": 13.6,
-       "senado": 34.9,
+       "presidente": 13.5,
+       "senado": 35.2,
        "apoio": 4.5
       },
       "model": {
@@ -5605,9 +5605,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5673,8 +5673,8 @@
       "score": 53.8,
       "components": {
        "governo": 13.3,
-       "presidente": 14.2,
-       "senado": 16.3,
+       "presidente": 14.1,
+       "senado": 16.4,
        "apoio": 10.0
       },
       "model": {
@@ -5685,9 +5685,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5750,11 +5750,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 48.0,
+      "score": 48.1,
       "components": {
        "governo": 4.6,
-       "presidente": 13.6,
-       "senado": 25.3,
+       "presidente": 13.5,
+       "senado": 25.5,
        "apoio": 4.5
       },
       "model": {
@@ -5765,9 +5765,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5816,10 +5816,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 32.0,
+      "score": 31.9,
       "components": {
        "governo": 13.3,
-       "presidente": 14.2,
+       "presidente": 14.1,
        "senado": 0.0,
        "apoio": 4.5
       },
@@ -5831,9 +5831,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -5891,8 +5891,8 @@
      "margem": 17.8
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -5968,8 +5968,8 @@
         "presidente": 46.69166666666668
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 26.6,
@@ -6047,8 +6047,8 @@
       "certainty_preview": "",
       "score": 42.4,
       "components": {
-       "governo": 36.0,
-       "presidente": 6.4
+       "governo": 36.1,
+       "presidente": 6.3
       },
       "model": {
        "scores": {
@@ -6056,8 +6056,8 @@
         "presidente": 61.641666666666666
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 24.1,
@@ -6135,7 +6135,7 @@
       "certainty_preview": "",
       "score": 36.4,
       "components": {
-       "governo": 36.0,
+       "governo": 36.1,
        "presidente": 0.3
       },
       "model": {
@@ -6144,8 +6144,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 24.1,
@@ -6172,9 +6172,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -6182,7 +6182,7 @@
       "name": "Renato Casagrande",
       "party": "PSB",
       "bloc": "Lula",
-      "score": 66.1
+      "score": 66.2
      },
      {
       "name": "Maguinha Malta",
@@ -6233,11 +6233,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 66.1,
+      "score": 66.2,
       "components": {
-       "governo": 10.3,
-       "presidente": 11.9,
-       "senado": 34.9,
+       "governo": 10.2,
+       "presidente": 11.8,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -6248,9 +6248,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6336,8 +6336,8 @@
       "certainty_preview": "",
       "score": 40.8,
       "components": {
-       "governo": 9.3,
-       "presidente": 15.7,
+       "governo": 9.2,
+       "presidente": 15.6,
        "senado": 5.9,
        "apoio": 10.0
       },
@@ -6349,9 +6349,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6416,8 +6416,8 @@
       "certainty_preview": "",
       "score": 40.8,
       "components": {
-       "governo": 9.3,
-       "presidente": 15.7,
+       "governo": 9.2,
+       "presidente": 15.6,
        "senado": 5.9,
        "apoio": 10.0
       },
@@ -6429,9 +6429,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6482,9 +6482,9 @@
       "certainty_preview": "Muito baixa",
       "score": 39.9,
       "components": {
-       "governo": 9.3,
-       "presidente": 15.7,
-       "senado": 10.5,
+       "governo": 9.2,
+       "presidente": 15.6,
+       "senado": 10.6,
        "apoio": 4.5
       },
       "model": {
@@ -6495,9 +6495,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6562,9 +6562,9 @@
       "certainty_preview": "",
       "score": 39.8,
       "components": {
-       "governo": 10.3,
-       "presidente": 11.9,
-       "senado": 8.7,
+       "governo": 10.2,
+       "presidente": 11.8,
+       "senado": 8.8,
        "apoio": 9.0
       },
       "model": {
@@ -6575,9 +6575,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6640,11 +6640,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 21.4,
+      "score": 21.5,
       "components": {
        "governo": 0.0,
        "presidente": 0.8,
-       "senado": 16.0,
+       "senado": 16.2,
        "apoio": 4.5
       },
       "model": {
@@ -6655,9 +6655,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6735,9 +6735,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -6789,8 +6789,8 @@
      "margem": 21.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -6896,8 +6896,8 @@
       "certainty_preview": "Média-alta",
       "score": 80.4,
       "components": {
-       "governo": 74.7,
-       "presidente": 5.7
+       "governo": 74.8,
+       "presidente": 5.6
       },
       "model": {
        "scores": {
@@ -6905,8 +6905,8 @@
         "presidente": 55.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 50.0,
@@ -7021,9 +7021,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 43.0,
+      "score": 43.1,
       "components": {
-       "governo": 43.0,
+       "governo": 43.1,
        "presidente": 0.0
       },
       "model": {
@@ -7032,8 +7032,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 28.8,
@@ -7159,8 +7159,8 @@
         "presidente": 45.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 15.3,
@@ -7252,8 +7252,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 4.3,
@@ -7280,9 +7280,9 @@
     "stale": false,
     "may_change": 61,
     "weights": {
-     "governo": 0.348,
-     "presidente": 0.298,
-     "senado": 0.255,
+     "governo": 0.347,
+     "presidente": 0.297,
+     "senado": 0.256,
      "apoio": 0.1
     },
     "estimate": [
@@ -7290,7 +7290,7 @@
       "name": "Gracinha Caiado",
       "party": "União",
       "bloc": "Caiado",
-      "score": 79.8
+      "score": 79.9
      },
      {
       "name": "Vanderlan Cardoso",
@@ -7367,11 +7367,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 79.8,
+      "score": 79.9,
       "components": {
-       "governo": 29.0,
-       "presidente": 16.4,
-       "senado": 25.5,
+       "governo": 28.9,
+       "presidente": 16.3,
+       "senado": 25.6,
        "apoio": 9.0
       },
       "model": {
@@ -7382,9 +7382,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7475,9 +7475,9 @@
       "certainty_preview": "Muito baixa",
       "score": 60.8,
       "components": {
-       "governo": 22.6,
-       "presidente": 16.4,
-       "senado": 12.8,
+       "governo": 22.5,
+       "presidente": 16.3,
+       "senado": 12.9,
        "apoio": 9.0
       },
       "model": {
@@ -7488,9 +7488,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7581,9 +7581,9 @@
       "certainty_preview": "",
       "score": 59.9,
       "components": {
-       "governo": 22.6,
-       "presidente": 16.4,
-       "senado": 11.9,
+       "governo": 22.5,
+       "presidente": 16.3,
+       "senado": 12.0,
        "apoio": 9.0
       },
       "model": {
@@ -7594,9 +7594,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7689,7 +7689,7 @@
       "components": {
        "governo": 6.9,
        "presidente": 13.4,
-       "senado": 12.6,
+       "senado": 12.7,
        "apoio": 10.0
       },
       "model": {
@@ -7700,9 +7700,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7778,11 +7778,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 33.2,
+      "score": 33.1,
       "components": {
        "governo": 6.9,
        "presidente": 13.4,
-       "senado": 2.8,
+       "senado": 2.9,
        "apoio": 10.0
       },
       "model": {
@@ -7793,9 +7793,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7899,9 +7899,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -7965,9 +7965,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -8045,9 +8045,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -8111,9 +8111,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.34755362510918364,
-        "presidente": 0.29790310723644314,
-        "senado": 0.25454326765437324,
+        "governo": 0.34657221806726085,
+        "presidente": 0.2970619012005093,
+        "senado": 0.2563658807322298,
         "apoio": 0.1
        },
        "momentum": {
@@ -8149,7 +8149,7 @@
      "name": "Eduardo Braide",
      "party": "PSD",
      "bloc": "Caiado",
-     "score": 68.2
+     "score": 68.3
     },
     "race": {
      "turno": 2,
@@ -8171,8 +8171,8 @@
      "margem": 0.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -8265,8 +8265,8 @@
       "certainty_preview": "",
       "score": 74.0,
       "components": {
-       "governo": 67.3,
-       "presidente": 6.7
+       "governo": 67.4,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -8274,8 +8274,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 45.0,
@@ -8377,7 +8377,7 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 68.2,
+      "score": 68.3,
       "components": {
        "governo": 67.9,
        "presidente": 0.3
@@ -8388,8 +8388,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 45.4,
@@ -8478,10 +8478,10 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 14.5,
+      "score": 14.4,
       "components": {
        "governo": 7.8,
-       "presidente": 6.7
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -8489,8 +8489,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 5.2,
@@ -8517,9 +8517,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -8527,13 +8527,13 @@
       "name": "Duarte Jr.",
       "party": "Avante",
       "bloc": "Lula",
-      "score": 77.8
+      "score": 77.9
      },
      {
       "name": "Roseana Sarney",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 75.2
+      "score": 75.3
      }
     ],
     "candidates": [
@@ -8578,11 +8578,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 77.8,
+      "score": 77.9,
       "components": {
        "governo": 17.3,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -8593,9 +8593,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -8658,11 +8658,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 75.2,
+      "score": 75.3,
       "components": {
        "governo": 17.3,
-       "presidente": 16.5,
-       "senado": 32.3,
+       "presidente": 16.4,
+       "senado": 32.6,
        "apoio": 9.0
       },
       "model": {
@@ -8673,9 +8673,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -8738,11 +8738,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 75.2,
+      "score": 75.3,
       "components": {
        "governo": 17.3,
-       "presidente": 16.5,
-       "senado": 32.3,
+       "presidente": 16.4,
+       "senado": 32.6,
        "apoio": 9.0
       },
       "model": {
@@ -8753,9 +8753,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -8842,8 +8842,8 @@
       "score": 67.8,
       "components": {
        "governo": 17.3,
-       "presidente": 16.5,
-       "senado": 24.9,
+       "presidente": 16.4,
+       "senado": 25.1,
        "apoio": 9.0
       },
       "model": {
@@ -8854,9 +8854,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -8943,8 +8943,8 @@
       "score": 67.8,
       "components": {
        "governo": 17.3,
-       "presidente": 16.5,
-       "senado": 24.9,
+       "presidente": 16.4,
+       "senado": 25.1,
        "apoio": 9.0
       },
       "model": {
@@ -8955,9 +8955,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -9006,10 +9006,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 17.7,
+      "score": 17.6,
       "components": {
        "governo": 0.0,
-       "presidente": 7.7,
+       "presidente": 7.6,
        "senado": 0.0,
        "apoio": 10.0
       },
@@ -9021,9 +9021,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -9084,8 +9084,8 @@
      "margem": 19.0
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -9178,8 +9178,8 @@
       "certainty_preview": "Média-alta",
       "score": 70.2,
       "components": {
-       "governo": 65.2,
-       "presidente": 5.0
+       "governo": 65.3,
+       "presidente": 4.9
       },
       "model": {
        "scores": {
@@ -9187,8 +9187,8 @@
         "presidente": 48.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 43.6,
@@ -9293,7 +9293,7 @@
       "score": 29.8,
       "components": {
        "governo": 24.7,
-       "presidente": 5.2
+       "presidente": 5.1
       },
       "model": {
        "scores": {
@@ -9301,8 +9301,8 @@
         "presidente": 50.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 16.5,
@@ -9404,9 +9404,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 21.8,
+      "score": 21.9,
       "components": {
-       "governo": 21.8,
+       "governo": 21.9,
        "presidente": 0.0
       },
       "model": {
@@ -9415,8 +9415,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 14.6,
@@ -9529,8 +9529,8 @@
         "presidente": 5.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 9.7,
@@ -9609,8 +9609,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 6.6,
@@ -9689,8 +9689,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 2.5,
@@ -9718,8 +9718,8 @@
     "may_change": 64,
     "weights": {
      "governo": 0.352,
-     "presidente": 0.302,
-     "senado": 0.245,
+     "presidente": 0.301,
+     "senado": 0.247,
      "apoio": 0.1
     },
     "estimate": [
@@ -9733,7 +9733,7 @@
       "name": "Marília Campos",
       "party": "PT",
       "bloc": "Lula",
-      "score": 55.3
+      "score": 55.5
      }
     ],
     "candidates": [
@@ -9793,9 +9793,9 @@
       "certainty_preview": "Muito baixa",
       "score": 55.9,
       "components": {
-       "governo": 20.0,
+       "governo": 19.9,
        "presidente": 14.6,
-       "senado": 11.3,
+       "senado": 11.4,
        "apoio": 10.0
       },
       "model": {
@@ -9806,9 +9806,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -9884,11 +9884,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.3,
+      "score": 55.5,
       "components": {
        "governo": 6.7,
        "presidente": 15.1,
-       "senado": 24.5,
+       "senado": 24.7,
        "apoio": 9.0
       },
       "model": {
@@ -9899,9 +9899,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10000,9 +10000,9 @@
       "certainty_preview": "",
       "score": 54.2,
       "components": {
-       "governo": 20.0,
+       "governo": 19.9,
        "presidente": 14.6,
-       "senado": 15.1,
+       "senado": 15.2,
        "apoio": 4.5
       },
       "model": {
@@ -10013,9 +10013,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10093,9 +10093,9 @@
       "certainty_preview": "Muito baixa",
       "score": 53.6,
       "components": {
-       "governo": 20.0,
+       "governo": 19.9,
        "presidente": 14.6,
-       "senado": 14.5,
+       "senado": 14.6,
        "apoio": 4.5
       },
       "model": {
@@ -10106,9 +10106,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10173,9 +10173,9 @@
       "certainty_preview": "",
       "score": 30.6,
       "components": {
-       "governo": 20.0,
+       "governo": 19.9,
        "presidente": 0.0,
-       "senado": 10.6,
+       "senado": 10.7,
        "apoio": 0.0
       },
       "model": {
@@ -10186,9 +10186,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10279,9 +10279,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10372,9 +10372,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10452,9 +10452,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10532,9 +10532,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10598,9 +10598,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10678,9 +10678,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3524906696196986,
-        "presidente": 0.30213485967402737,
-        "senado": 0.24537447070627405,
+        "governo": 0.351544613431773,
+        "presidente": 0.30132395437009113,
+        "senado": 0.2471314321981358,
         "apoio": 0.1
        },
        "momentum": {
@@ -10733,8 +10733,8 @@
      "margem": 21.6
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -10801,7 +10801,7 @@
       "certainty_preview": "Alta",
       "score": 81.3,
       "components": {
-       "governo": 74.7,
+       "governo": 74.8,
        "presidente": 6.5
       },
       "model": {
@@ -10810,8 +10810,8 @@
         "presidente": 63.266666666666666
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 50.0,
@@ -10889,8 +10889,8 @@
       "certainty_preview": "",
       "score": 47.1,
       "components": {
-       "governo": 42.4,
-       "presidente": 4.7
+       "governo": 42.5,
+       "presidente": 4.6
       },
       "model": {
        "scores": {
@@ -10898,8 +10898,8 @@
         "presidente": 45.06666666666668
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 28.4,
@@ -10956,7 +10956,7 @@
       "certainty_preview": "",
       "score": 20.7,
       "components": {
-       "governo": 20.3,
+       "governo": 20.4,
        "presidente": 0.3
       },
       "model": {
@@ -10965,8 +10965,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 13.6,
@@ -11032,8 +11032,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 3.4,
@@ -11099,8 +11099,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 3.4,
@@ -11127,9 +11127,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -11137,13 +11137,13 @@
       "name": "Reinaldo Azambuja",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 85.7
+      "score": 85.8
      },
      {
       "name": "Capitão Contar",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 68.3
+      "score": 68.2
      }
     ],
     "candidates": [
@@ -11188,11 +11188,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 85.7,
+      "score": 85.8,
       "components": {
-       "governo": 24.7,
-       "presidente": 16.1,
-       "senado": 34.9,
+       "governo": 24.6,
+       "presidente": 16.0,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -11203,9 +11203,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -11268,11 +11268,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 68.3,
+      "score": 68.2,
       "components": {
-       "governo": 24.7,
-       "presidente": 16.1,
-       "senado": 17.5,
+       "governo": 24.6,
+       "presidente": 16.0,
+       "senado": 17.6,
        "apoio": 10.0
       },
       "model": {
@@ -11283,9 +11283,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -11350,9 +11350,9 @@
       "certainty_preview": "",
       "score": 38.4,
       "components": {
-       "governo": 19.3,
+       "governo": 19.2,
        "presidente": 0.8,
-       "senado": 13.8,
+       "senado": 13.9,
        "apoio": 4.5
       },
       "model": {
@@ -11363,9 +11363,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -11428,10 +11428,10 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 34.3,
+      "score": 34.2,
       "components": {
        "governo": 10.9,
-       "presidente": 11.5,
+       "presidente": 11.4,
        "senado": 7.4,
        "apoio": 4.5
       },
@@ -11443,9 +11443,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -11523,9 +11523,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -11583,8 +11583,8 @@
      "margem": 16.8
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -11651,8 +11651,8 @@
       "certainty_preview": "Muito baixa",
       "score": 72.8,
       "components": {
-       "governo": 66.1,
-       "presidente": 6.7
+       "governo": 66.2,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -11660,8 +11660,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 44.2,
@@ -11739,8 +11739,8 @@
       "certainty_preview": "",
       "score": 57.2,
       "components": {
-       "governo": 50.5,
-       "presidente": 6.7
+       "governo": 50.6,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -11748,8 +11748,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 33.8,
@@ -11836,8 +11836,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 16.9,
@@ -11910,8 +11910,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": null,
@@ -11938,9 +11938,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -11948,13 +11948,13 @@
       "name": "Mauro Mendes",
       "party": "União",
       "bloc": "Flávio",
-      "score": 69.0
+      "score": 69.1
      },
      {
       "name": "José Medeiros",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 63.9
+      "score": 63.8
      }
     ],
     "candidates": [
@@ -11999,11 +11999,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 69.0,
+      "score": 69.1,
       "components": {
        "governo": 13.0,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 4.5
       },
       "model": {
@@ -12014,9 +12014,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -12079,11 +12079,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 63.9,
+      "score": 63.8,
       "components": {
-       "governo": 21.8,
-       "presidente": 16.5,
-       "senado": 15.5,
+       "governo": 21.7,
+       "presidente": 16.4,
+       "senado": 15.6,
        "apoio": 10.0
       },
       "model": {
@@ -12094,9 +12094,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -12159,11 +12159,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.3,
+      "score": 45.5,
       "components": {
        "governo": 13.0,
        "presidente": 0.0,
-       "senado": 32.3,
+       "senado": 32.5,
        "apoio": 0.0
       },
       "model": {
@@ -12174,9 +12174,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -12243,7 +12243,7 @@
       "components": {
        "governo": 13.0,
        "presidente": 9.9,
-       "senado": 16.8,
+       "senado": 16.9,
        "apoio": 4.5
       },
       "model": {
@@ -12254,9 +12254,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -12292,7 +12292,7 @@
      "name": "Dr. Daniel Santos",
      "party": "Podemos",
      "bloc": "Flávio",
-     "score": 58.5
+     "score": 58.6
     },
     "race": {
      "turno": 2,
@@ -12315,8 +12315,8 @@
      "margem": 1.0
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -12409,7 +12409,7 @@
       "certainty_preview": "Muito baixa",
       "score": 66.2,
       "components": {
-       "governo": 59.6,
+       "governo": 59.7,
        "presidente": 6.5
       },
       "model": {
@@ -12418,8 +12418,8 @@
         "presidente": 63.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 39.9,
@@ -12521,9 +12521,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 58.5,
+      "score": 58.6,
       "components": {
-       "governo": 53.2,
+       "governo": 53.3,
        "presidente": 5.3
       },
       "model": {
@@ -12532,8 +12532,8 @@
         "presidente": 51.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 35.6,
@@ -12612,8 +12612,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 16.6,
@@ -12681,7 +12681,7 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 13.1,
+      "score": 13.0,
       "components": {
        "governo": 6.6,
        "presidente": 6.5
@@ -12692,8 +12692,8 @@
         "presidente": 63.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 4.4,
@@ -12772,8 +12772,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 4.4,
@@ -12800,9 +12800,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -12810,7 +12810,7 @@
       "name": "Helder Barbalho",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 75.4
+      "score": 75.5
      },
      {
       "name": "Delegado Éder Mauro",
@@ -12874,11 +12874,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 75.4,
+      "score": 75.5,
       "components": {
-       "governo": 15.4,
-       "presidente": 16.1,
-       "senado": 34.9,
+       "governo": 15.3,
+       "presidente": 16.0,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -12889,9 +12889,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -12971,7 +12971,7 @@
       "components": {
        "governo": 13.7,
        "presidente": 13.1,
-       "senado": 17.2,
+       "senado": 17.4,
        "apoio": 10.0
       },
       "model": {
@@ -12982,9 +12982,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13060,11 +13060,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 50.2,
+      "score": 50.1,
       "components": {
-       "governo": 15.4,
-       "presidente": 16.1,
-       "senado": 9.7,
+       "governo": 15.3,
+       "presidente": 16.0,
+       "senado": 9.8,
        "apoio": 9.0
       },
       "model": {
@@ -13075,9 +13075,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13157,7 +13157,7 @@
       "components": {
        "governo": 13.7,
        "presidente": 13.1,
-       "senado": 10.3,
+       "senado": 10.4,
        "apoio": 10.0
       },
       "model": {
@@ -13168,9 +13168,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13248,9 +13248,9 @@
       "certainty_preview": "",
       "score": 22.8,
       "components": {
-       "governo": 15.4,
+       "governo": 15.3,
        "presidente": 0.0,
-       "senado": 7.4,
+       "senado": 7.5,
        "apoio": 0.0
       },
       "model": {
@@ -13261,9 +13261,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13312,9 +13312,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 15.4,
+      "score": 15.3,
       "components": {
-       "governo": 15.4,
+       "governo": 15.3,
        "presidente": 0.0,
        "senado": 0.0,
        "apoio": 0.0
@@ -13327,9 +13327,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13375,8 +13375,8 @@
      "pcts": {}
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -13430,7 +13430,7 @@
       "score": 55.6,
       "components": {
        "governo": 48.9,
-       "presidente": 6.7
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -13438,8 +13438,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 32.7,
@@ -13503,8 +13503,8 @@
       "certainty_preview": "",
       "score": 45.4,
       "components": {
-       "governo": 38.7,
-       "presidente": 6.7
+       "governo": 38.8,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -13512,8 +13512,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 25.9,
@@ -13586,8 +13586,8 @@
         "presidente": 34.99166666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 18.5,
@@ -13614,9 +13614,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -13624,13 +13624,13 @@
       "name": "João Azevêdo",
       "party": "PSB",
       "bloc": "Lula",
-      "score": 73.1
+      "score": 73.2
      },
      {
       "name": "Veneziano Vital do Rêgo",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 63.7
+      "score": 63.8
      }
     ],
     "candidates": [
@@ -13661,11 +13661,11 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 73.1,
+      "score": 73.2,
       "components": {
-       "governo": 12.6,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "governo": 12.5,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -13676,9 +13676,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13727,11 +13727,11 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 63.7,
+      "score": 63.8,
       "components": {
-       "governo": 10.0,
-       "presidente": 16.5,
-       "senado": 28.2,
+       "governo": 9.9,
+       "presidente": 16.4,
+       "senado": 28.4,
        "apoio": 9.0
       },
       "model": {
@@ -13742,9 +13742,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13793,11 +13793,11 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.5,
+      "score": 39.6,
       "components": {
        "governo": 7.1,
        "presidente": 8.9,
-       "senado": 13.5,
+       "senado": 13.6,
        "apoio": 10.0
       },
       "model": {
@@ -13808,9 +13808,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13861,9 +13861,9 @@
       "certainty_preview": "",
       "score": 25.0,
       "components": {
-       "governo": 12.6,
+       "governo": 12.5,
        "presidente": 0.0,
-       "senado": 12.4,
+       "senado": 12.5,
        "apoio": 0.0
       },
       "model": {
@@ -13874,9 +13874,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -13939,11 +13939,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 3.9,
+      "score": 4.0,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 3.9,
+       "senado": 4.0,
        "apoio": 0.0
       },
       "model": {
@@ -13954,9 +13954,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -14034,9 +14034,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -14089,8 +14089,8 @@
      "margem": 5.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -14209,8 +14209,8 @@
       "certainty_preview": "Baixa",
       "score": 85.5,
       "components": {
-       "governo": 76.1,
-       "presidente": 9.5
+       "governo": 76.2,
+       "presidente": 9.3
       },
       "model": {
        "scores": {
@@ -14218,8 +14218,8 @@
         "presidente": 91.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 50.9,
@@ -14347,10 +14347,10 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 77.8,
+      "score": 77.7,
       "components": {
-       "governo": 68.3,
-       "presidente": 9.5
+       "governo": 68.4,
+       "presidente": 9.3
       },
       "model": {
        "scores": {
@@ -14358,8 +14358,8 @@
         "presidente": 91.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 45.7,
@@ -14425,8 +14425,8 @@
         "presidente": 1.6666666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 7.5,
@@ -14518,8 +14518,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 1.9,
@@ -14598,8 +14598,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 1.1,
@@ -14626,9 +14626,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -14636,7 +14636,7 @@
       "name": "Marília Arraes",
       "party": "PDT",
       "bloc": "Lula",
-      "score": 89.8
+      "score": 89.9
      },
      {
       "name": "Humberto Costa",
@@ -14713,11 +14713,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 89.8,
+      "score": 89.9,
       "components": {
-       "governo": 22.6,
-       "presidente": 23.3,
-       "senado": 34.9,
+       "governo": 22.5,
+       "presidente": 23.2,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -14728,9 +14728,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -14821,9 +14821,9 @@
       "certainty_preview": "Média-alta",
       "score": 80.4,
       "components": {
-       "governo": 22.6,
-       "presidente": 23.3,
-       "senado": 25.5,
+       "governo": 22.5,
+       "presidente": 23.2,
+       "senado": 25.7,
        "apoio": 9.0
       },
       "model": {
@@ -14834,9 +14834,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -14914,9 +14914,9 @@
       "certainty_preview": "",
       "score": 54.8,
       "components": {
-       "governo": 19.6,
+       "governo": 19.5,
        "presidente": 8.9,
-       "senado": 16.3,
+       "senado": 16.4,
        "apoio": 10.0
       },
       "model": {
@@ -14927,9 +14927,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15018,11 +15018,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 38.4,
+      "score": 38.5,
       "components": {
-       "governo": 19.6,
+       "governo": 19.5,
        "presidente": 0.0,
-       "senado": 18.8,
+       "senado": 18.9,
        "apoio": 0.0
       },
       "model": {
@@ -15033,9 +15033,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15124,11 +15124,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 35.6,
+      "score": 35.7,
       "components": {
-       "governo": 19.6,
+       "governo": 19.5,
        "presidente": 0.0,
-       "senado": 16.0,
+       "senado": 16.1,
        "apoio": 0.0
       },
       "model": {
@@ -15139,9 +15139,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15190,9 +15190,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 33.0,
+      "score": 32.9,
       "components": {
-       "governo": 19.6,
+       "governo": 19.5,
        "presidente": 8.9,
        "senado": 0.0,
        "apoio": 4.5
@@ -15205,9 +15205,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15258,8 +15258,8 @@
      "margem": 45.7
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -15352,8 +15352,8 @@
       "certainty_preview": "Alta",
       "score": 96.4,
       "components": {
-       "governo": 89.7,
-       "presidente": 6.7
+       "governo": 89.8,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -15361,8 +15361,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 70.1,
@@ -15467,7 +15467,7 @@
       "score": 38.9,
       "components": {
        "governo": 36.5,
-       "presidente": 2.5
+       "presidente": 2.4
       },
       "model": {
        "scores": {
@@ -15475,8 +15475,8 @@
         "presidente": 23.833333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 24.4,
@@ -15560,7 +15560,7 @@
       "score": 5.6,
       "components": {
        "governo": 3.1,
-       "presidente": 2.5
+       "presidente": 2.4
       },
       "model": {
        "scores": {
@@ -15568,8 +15568,8 @@
         "presidente": 23.833333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 2.1,
@@ -15596,9 +15596,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -15685,9 +15685,9 @@
       "certainty_preview": "Média",
       "score": 90.1,
       "components": {
-       "governo": 29.7,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "governo": 29.5,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -15698,9 +15698,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15791,9 +15791,9 @@
       "certainty_preview": "Média",
       "score": 81.0,
       "components": {
-       "governo": 29.7,
-       "presidente": 16.5,
-       "senado": 25.8,
+       "governo": 29.5,
+       "presidente": 16.4,
+       "senado": 26.0,
        "apoio": 9.0
       },
       "model": {
@@ -15804,9 +15804,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -15895,11 +15895,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.6,
+      "score": 45.7,
       "components": {
        "governo": 9.4,
-       "presidente": 6.1,
-       "senado": 25.6,
+       "presidente": 6.0,
+       "senado": 25.8,
        "apoio": 4.5
       },
       "model": {
@@ -15910,9 +15910,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16004,8 +16004,8 @@
       "score": 36.2,
       "components": {
        "governo": 9.4,
-       "presidente": 6.1,
-       "senado": 10.7,
+       "presidente": 6.0,
+       "senado": 10.8,
        "apoio": 10.0
       },
       "model": {
@@ -16016,9 +16016,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16077,8 +16077,8 @@
      "margem": 5.8
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -16158,8 +16158,8 @@
       "certainty_preview": "Alta",
       "score": 78.8,
       "components": {
-       "governo": 71.6,
-       "presidente": 7.2
+       "governo": 71.7,
+       "presidente": 7.1
       },
       "model": {
        "scores": {
@@ -16167,8 +16167,8 @@
         "presidente": 70.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 47.9,
@@ -16244,9 +16244,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 42.3,
+      "score": 42.4,
       "components": {
-       "governo": 42.3,
+       "governo": 42.4,
        "presidente": 0.0
       },
       "model": {
@@ -16255,8 +16255,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 28.3,
@@ -16313,7 +16313,7 @@
       "certainty_preview": "",
       "score": 42.2,
       "components": {
-       "governo": 38.1,
+       "governo": 38.2,
        "presidente": 4.1
       },
       "model": {
@@ -16322,8 +16322,8 @@
         "presidente": 40.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 25.5,
@@ -16378,7 +16378,7 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.2,
+      "score": 30.3,
       "components": {
        "governo": 29.9,
        "presidente": 0.3
@@ -16389,8 +16389,8 @@
         "presidente": 3.3333333333333335
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 20.0,
@@ -16417,9 +16417,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -16427,7 +16427,7 @@
       "name": "Deltan Dallagnol",
       "party": "Novo",
       "bloc": "Flávio",
-      "score": 86.4
+      "score": 86.5
      },
      {
       "name": "Filipe Barros",
@@ -16478,11 +16478,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 86.4,
+      "score": 86.5,
       "components": {
-       "governo": 23.7,
-       "presidente": 17.8,
-       "senado": 34.9,
+       "governo": 23.6,
+       "presidente": 17.7,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -16493,9 +16493,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16560,9 +16560,9 @@
       "certainty_preview": "Baixa",
       "score": 81.4,
       "components": {
-       "governo": 23.7,
-       "presidente": 17.8,
-       "senado": 29.9,
+       "governo": 23.6,
+       "presidente": 17.7,
+       "senado": 30.1,
        "apoio": 10.0
       },
       "model": {
@@ -16573,9 +16573,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16638,11 +16638,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 58.8,
+      "score": 59.0,
       "components": {
        "governo": 9.8,
-       "presidente": 10.2,
-       "senado": 34.3,
+       "presidente": 10.1,
+       "senado": 34.6,
        "apoio": 4.5
       },
       "model": {
@@ -16653,9 +16653,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16718,11 +16718,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 39.7,
+      "score": 39.9,
       "components": {
        "governo": 7.7,
        "presidente": 0.0,
-       "senado": 32.0,
+       "senado": 32.3,
        "apoio": 0.0
       },
       "model": {
@@ -16733,9 +16733,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16798,11 +16798,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 14.2,
+      "score": 14.3,
       "components": {
        "governo": 0.0,
        "presidente": 6.6,
-       "senado": 7.6,
+       "senado": 7.7,
        "apoio": 0.0
       },
       "model": {
@@ -16813,9 +16813,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16878,11 +16878,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 11.0,
+      "score": 11.1,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 11.0,
+       "senado": 11.1,
        "apoio": 0.0
       },
       "model": {
@@ -16893,9 +16893,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -16959,9 +16959,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -17013,8 +17013,8 @@
      "margem": 39.0
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -17133,8 +17133,8 @@
       "certainty_preview": "Alta",
       "score": 88.3,
       "components": {
-       "governo": 83.1,
-       "presidente": 5.2
+       "governo": 83.2,
+       "presidente": 5.1
       },
       "model": {
        "scores": {
@@ -17142,8 +17142,8 @@
         "presidente": 50.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 55.6,
@@ -17274,7 +17274,7 @@
       "score": 30.3,
       "components": {
        "governo": 24.8,
-       "presidente": 5.5
+       "presidente": 5.4
       },
       "model": {
        "scores": {
@@ -17282,8 +17282,8 @@
         "presidente": 53.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 16.6,
@@ -17411,9 +17411,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 22.1,
+      "score": 22.2,
       "components": {
-       "governo": 22.1,
+       "governo": 22.2,
        "presidente": 0.0
       },
       "model": {
@@ -17422,8 +17422,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 14.8,
@@ -17515,8 +17515,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 2.9,
@@ -17543,9 +17543,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -17553,13 +17553,13 @@
       "name": "Benedita da Silva",
       "party": "PT",
       "bloc": "Lula",
-      "score": 78.1
+      "score": 78.2
      },
      {
       "name": "Pedro Paulo",
       "party": "PSD",
       "bloc": "Lula",
-      "score": 68.4
+      "score": 68.3
      }
     ],
     "candidates": [
@@ -17630,11 +17630,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 78.1,
+      "score": 78.2,
       "components": {
-       "governo": 21.4,
+       "governo": 21.3,
        "presidente": 12.7,
-       "senado": 34.9,
+       "senado": 35.2,
        "apoio": 9.0
       },
       "model": {
@@ -17645,9 +17645,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -17736,11 +17736,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 68.4,
+      "score": 68.3,
       "components": {
-       "governo": 27.5,
+       "governo": 27.4,
        "presidente": 12.7,
-       "senado": 19.2,
+       "senado": 19.3,
        "apoio": 9.0
       },
       "model": {
@@ -17751,9 +17751,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -17842,11 +17842,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.6,
+      "score": 55.8,
       "components": {
        "governo": 6.4,
-       "presidente": 13.6,
-       "senado": 31.2,
+       "presidente": 13.5,
+       "senado": 31.4,
        "apoio": 4.5
       },
       "model": {
@@ -17857,9 +17857,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -17951,8 +17951,8 @@
       "score": 46.8,
       "components": {
        "governo": 6.4,
-       "presidente": 13.6,
-       "senado": 16.8,
+       "presidente": 13.5,
+       "senado": 17.0,
        "apoio": 10.0
       },
       "model": {
@@ -17963,9 +17963,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18014,10 +18014,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.0,
+      "score": 29.9,
       "components": {
        "governo": 6.4,
-       "presidente": 13.6,
+       "presidente": 13.5,
        "senado": 0.0,
        "apoio": 10.0
       },
@@ -18029,9 +18029,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18124,7 +18124,7 @@
       "components": {
        "governo": 6.4,
        "presidente": 0.0,
-       "senado": 17.2,
+       "senado": 17.3,
        "apoio": 0.0
       },
       "model": {
@@ -18135,9 +18135,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18213,11 +18213,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 18.2,
+      "score": 18.3,
       "components": {
        "governo": 0.0,
-       "presidente": 8.3,
-       "senado": 10.0,
+       "presidente": 8.2,
+       "senado": 10.1,
        "apoio": 0.0
       },
       "model": {
@@ -18228,9 +18228,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18319,11 +18319,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 12.0,
+      "score": 12.1,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 12.0,
+       "senado": 12.1,
        "apoio": 0.0
       },
       "model": {
@@ -18334,9 +18334,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18394,8 +18394,8 @@
      "margem": 12.6
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -18462,8 +18462,8 @@
       "certainty_preview": "Muito baixa",
       "score": 63.8,
       "components": {
-       "governo": 57.1,
-       "presidente": 6.7
+       "governo": 57.2,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -18471,8 +18471,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 38.2,
@@ -18550,8 +18550,8 @@
       "certainty_preview": "",
       "score": 47.4,
       "components": {
-       "governo": 43.6,
-       "presidente": 3.8
+       "governo": 43.7,
+       "presidente": 3.7
       },
       "model": {
        "scores": {
@@ -18559,8 +18559,8 @@
         "presidente": 36.61666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 29.2,
@@ -18647,8 +18647,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 26.4,
@@ -18675,9 +18675,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -18685,13 +18685,13 @@
       "name": "Samanda Alves",
       "party": "PT",
       "bloc": "Lula",
-      "score": 69.9
+      "score": 70.0
      },
      {
       "name": "Styvenson Valentim",
       "party": "Podemos",
       "bloc": "Flávio",
-      "score": 65.5
+      "score": 65.6
      }
     ],
     "candidates": [
@@ -18736,11 +18736,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 69.9,
+      "score": 70.0,
       "components": {
        "governo": 14.7,
-       "presidente": 16.5,
-       "senado": 29.7,
+       "presidente": 16.4,
+       "senado": 29.9,
        "apoio": 9.0
       },
       "model": {
@@ -18751,9 +18751,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18816,11 +18816,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 65.5,
+      "score": 65.6,
       "components": {
-       "governo": 11.3,
+       "governo": 11.2,
        "presidente": 9.3,
-       "senado": 34.9,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -18831,9 +18831,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18899,8 +18899,8 @@
       "score": 63.7,
       "components": {
        "governo": 14.7,
-       "presidente": 16.5,
-       "senado": 23.4,
+       "presidente": 16.4,
+       "senado": 23.6,
        "apoio": 9.0
       },
       "model": {
@@ -18911,9 +18911,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -18979,8 +18979,8 @@
       "score": 58.5,
       "components": {
        "governo": 14.7,
-       "presidente": 16.5,
-       "senado": 18.3,
+       "presidente": 16.4,
+       "senado": 18.4,
        "apoio": 9.0
       },
       "model": {
@@ -18991,9 +18991,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19056,11 +19056,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.5,
+      "score": 55.6,
       "components": {
-       "governo": 11.3,
+       "governo": 11.2,
        "presidente": 9.3,
-       "senado": 24.9,
+       "senado": 25.1,
        "apoio": 10.0
       },
       "model": {
@@ -19071,9 +19071,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19132,8 +19132,8 @@
      "margem": 4.8
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -19200,8 +19200,8 @@
       "certainty_preview": "Média",
       "score": 66.5,
       "components": {
-       "governo": 59.8,
-       "presidente": 6.7
+       "governo": 59.9,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -19209,8 +19209,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 40.0,
@@ -19286,7 +19286,7 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 46.8,
+      "score": 46.9,
       "components": {
        "governo": 46.5,
        "presidente": 0.3
@@ -19297,8 +19297,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 31.1,
@@ -19374,9 +19374,9 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 21.5,
+      "score": 21.6,
       "components": {
-       "governo": 21.5,
+       "governo": 21.6,
        "presidente": 0.0
       },
       "model": {
@@ -19385,8 +19385,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 14.4,
@@ -19473,8 +19473,8 @@
         "presidente": 32.93333333333333
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 11.1,
@@ -19501,9 +19501,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -19511,13 +19511,13 @@
       "name": "Fernando Máximo",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 76.9
+      "score": 77.0
      },
      {
       "name": "Bruno Scheid",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 65.8
+      "score": 65.9
      }
     ],
     "candidates": [
@@ -19562,11 +19562,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 76.9,
+      "score": 77.0,
       "components": {
-       "governo": 15.4,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "governo": 15.3,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -19577,9 +19577,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19642,11 +19642,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 65.8,
+      "score": 65.9,
       "components": {
-       "governo": 15.4,
-       "presidente": 16.5,
-       "senado": 23.9,
+       "governo": 15.3,
+       "presidente": 16.4,
+       "senado": 24.1,
        "apoio": 10.0
       },
       "model": {
@@ -19657,9 +19657,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19724,9 +19724,9 @@
       "certainty_preview": "",
       "score": 62.2,
       "components": {
-       "governo": 15.4,
-       "presidente": 16.5,
-       "senado": 25.7,
+       "governo": 15.3,
+       "presidente": 16.4,
+       "senado": 25.9,
        "apoio": 4.5
       },
       "model": {
@@ -19737,9 +19737,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19804,9 +19804,9 @@
       "certainty_preview": "",
       "score": 48.8,
       "components": {
-       "governo": 12.0,
-       "presidente": 8.4,
-       "senado": 23.9,
+       "governo": 11.9,
+       "presidente": 8.3,
+       "senado": 24.1,
        "apoio": 4.5
       },
       "model": {
@@ -19817,9 +19817,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19882,11 +19882,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 14.7,
+      "score": 14.8,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 14.7,
+       "senado": 14.8,
        "apoio": 0.0
       },
       "model": {
@@ -19897,9 +19897,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -19945,8 +19945,8 @@
      "pcts": {}
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -19978,8 +19978,8 @@
       "certainty_preview": "Baixa",
       "score": 96.4,
       "components": {
-       "governo": 89.7,
-       "presidente": 6.7
+       "governo": 89.8,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -19987,8 +19987,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 60.0,
@@ -20029,10 +20029,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 6.7,
+      "score": 6.6,
       "components": {
        "governo": 0.0,
-       "presidente": 6.7
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -20040,8 +20040,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": null,
@@ -20093,8 +20093,8 @@
         "presidente": 27.083333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": null,
@@ -20121,9 +20121,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -20131,13 +20131,13 @@
       "name": "Hélio Lopes",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 49.7
+      "score": 49.5
      },
      {
       "name": "Nicoletti",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 49.7
+      "score": 49.5
      }
     ],
     "candidates": [
@@ -20168,10 +20168,10 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 49.7,
+      "score": 49.5,
       "components": {
-       "governo": 23.1,
-       "presidente": 16.5,
+       "governo": 23.0,
+       "presidente": 16.4,
        "senado": 0.0,
        "apoio": 10.0
       },
@@ -20183,9 +20183,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20234,10 +20234,10 @@
       "polls": null,
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 49.7,
+      "score": 49.5,
       "components": {
-       "governo": 23.1,
-       "presidente": 16.5,
+       "governo": 23.0,
+       "presidente": 16.4,
        "senado": 0.0,
        "apoio": 10.0
       },
@@ -20249,9 +20249,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20300,10 +20300,10 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 44.2,
+      "score": 44.0,
       "components": {
-       "governo": 23.1,
-       "presidente": 16.5,
+       "governo": 23.0,
+       "presidente": 16.4,
        "senado": 0.0,
        "apoio": 4.5
       },
@@ -20315,9 +20315,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20366,9 +20366,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 23.1,
+      "score": 23.0,
       "components": {
-       "governo": 23.1,
+       "governo": 23.0,
        "presidente": 0.0,
        "senado": 0.0,
        "apoio": 0.0
@@ -20381,9 +20381,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20447,9 +20447,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20513,9 +20513,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -20570,8 +20570,8 @@
      "margem": 1.1
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -20664,8 +20664,8 @@
       "certainty_preview": "",
       "score": 65.0,
       "components": {
-       "governo": 59.5,
-       "presidente": 5.5
+       "governo": 59.6,
+       "presidente": 5.4
       },
       "model": {
        "scores": {
@@ -20673,8 +20673,8 @@
         "presidente": 53.333333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 39.8,
@@ -20778,8 +20778,8 @@
       "certainty_preview": "Muito baixa",
       "score": 63.0,
       "components": {
-       "governo": 57.8,
-       "presidente": 5.2
+       "governo": 57.9,
+       "presidente": 5.1
       },
       "model": {
        "scores": {
@@ -20787,8 +20787,8 @@
         "presidente": 50.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 38.7,
@@ -20901,8 +20901,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 13.3,
@@ -20968,8 +20968,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 2.2,
@@ -20996,9 +20996,9 @@
     "stale": false,
     "may_change": 62,
     "weights": {
-     "governo": 0.349,
-     "presidente": 0.299,
-     "senado": 0.251,
+     "governo": 0.348,
+     "presidente": 0.298,
+     "senado": 0.253,
      "apoio": 0.1
     },
     "estimate": [
@@ -21006,7 +21006,7 @@
       "name": "Manuela d'Ávila",
       "party": "PSOL",
       "bloc": "Lula",
-      "score": 71.6
+      "score": 71.7
      },
      {
       "name": "Paulo Pimenta",
@@ -21083,11 +21083,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 71.6,
+      "score": 71.7,
       "components": {
        "governo": 22.5,
-       "presidente": 15.0,
-       "senado": 25.1,
+       "presidente": 14.9,
+       "senado": 25.3,
        "apoio": 9.0
       },
       "model": {
@@ -21098,9 +21098,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21192,8 +21192,8 @@
       "score": 65.5,
       "components": {
        "governo": 22.5,
-       "presidente": 15.0,
-       "senado": 19.0,
+       "presidente": 14.9,
+       "senado": 19.2,
        "apoio": 9.0
       },
       "model": {
@@ -21204,9 +21204,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21295,11 +21295,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 64.7,
+      "score": 64.8,
       "components": {
-       "governo": 18.1,
-       "presidente": 16.0,
-       "senado": 20.7,
+       "governo": 18.0,
+       "presidente": 15.9,
+       "senado": 20.8,
        "apoio": 10.0
       },
       "model": {
@@ -21310,9 +21310,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21403,9 +21403,9 @@
       "certainty_preview": "",
       "score": 59.8,
       "components": {
-       "governo": 18.1,
-       "presidente": 16.0,
-       "senado": 15.7,
+       "governo": 18.0,
+       "presidente": 15.9,
+       "senado": 15.9,
        "apoio": 10.0
       },
       "model": {
@@ -21416,9 +21416,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21507,11 +21507,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 26.6,
+      "score": 26.7,
       "components": {
        "governo": 6.0,
        "presidente": 0.0,
-       "senado": 20.6,
+       "senado": 20.7,
        "apoio": 0.0
       },
       "model": {
@@ -21522,9 +21522,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21628,9 +21628,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3491993066126886,
-        "presidente": 0.2993136913823045,
-        "senado": 0.25148700200500684,
+        "governo": 0.3482296831887649,
+        "presidente": 0.29848258559036994,
+        "senado": 0.2532877312208652,
         "apoio": 0.1
        },
        "momentum": {
@@ -21681,8 +21681,8 @@
      "margem": 38.1
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -21728,8 +21728,8 @@
       "certainty_preview": "Alta",
       "score": 96.4,
       "components": {
-       "governo": 89.7,
-       "presidente": 6.7
+       "governo": 89.8,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -21737,8 +21737,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 61.8,
@@ -21795,7 +21795,7 @@
       "certainty_preview": "",
       "score": 35.8,
       "components": {
-       "governo": 35.4,
+       "governo": 35.5,
        "presidente": 0.3
       },
       "model": {
@@ -21804,8 +21804,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 23.7,
@@ -21862,8 +21862,8 @@
       "certainty_preview": "",
       "score": 17.9,
       "components": {
-       "governo": 14.3,
-       "presidente": 3.6
+       "governo": 14.4,
+       "presidente": 3.5
       },
       "model": {
        "scores": {
@@ -21871,8 +21871,8 @@
         "presidente": 34.45
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 9.6,
@@ -21899,9 +21899,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -21962,9 +21962,9 @@
       "certainty_preview": "Média",
       "score": 91.1,
       "components": {
-       "governo": 29.7,
-       "presidente": 16.5,
-       "senado": 34.9,
+       "governo": 29.5,
+       "presidente": 16.4,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -21975,9 +21975,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22042,9 +22042,9 @@
       "certainty_preview": "Média",
       "score": 82.7,
       "components": {
-       "governo": 29.7,
-       "presidente": 16.5,
-       "senado": 26.6,
+       "governo": 29.5,
+       "presidente": 16.4,
+       "senado": 26.8,
        "apoio": 10.0
       },
       "model": {
@@ -22055,9 +22055,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22120,11 +22120,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 58.6,
+      "score": 58.5,
       "components": {
-       "governo": 23.1,
-       "presidente": 16.5,
-       "senado": 14.5,
+       "governo": 23.0,
+       "presidente": 16.4,
+       "senado": 14.6,
        "apoio": 4.5
       },
       "model": {
@@ -22135,9 +22135,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22203,8 +22203,8 @@
       "score": 34.4,
       "components": {
        "governo": 3.7,
-       "presidente": 8.8,
-       "senado": 17.4,
+       "presidente": 8.7,
+       "senado": 17.5,
        "apoio": 4.5
       },
       "model": {
@@ -22215,9 +22215,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22280,11 +22280,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 10.6,
+      "score": 10.7,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 10.6,
+       "senado": 10.7,
        "apoio": 0.0
       },
       "model": {
@@ -22295,9 +22295,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22355,8 +22355,8 @@
      "margem": 2.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -22423,8 +22423,8 @@
       "certainty_preview": "Muito baixa",
       "score": 76.5,
       "components": {
-       "governo": 69.8,
-       "presidente": 6.7
+       "governo": 69.9,
+       "presidente": 6.6
       },
       "model": {
        "scores": {
@@ -22432,8 +22432,8 @@
         "presidente": 65.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 46.7,
@@ -22511,7 +22511,7 @@
       "certainty_preview": "",
       "score": 68.6,
       "components": {
-       "governo": 65.0,
+       "governo": 65.1,
        "presidente": 3.5
       },
       "model": {
@@ -22520,8 +22520,8 @@
         "presidente": 34.34166666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 43.5,
@@ -22576,7 +22576,7 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 13.3,
+      "score": 13.2,
       "components": {
        "governo": 9.7,
        "presidente": 3.5
@@ -22587,8 +22587,8 @@
         "presidente": 34.34166666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 6.5,
@@ -22615,9 +22615,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -22631,7 +22631,7 @@
       "name": "Rodrigo Valadares",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 60.2
+      "score": 60.3
      }
     ],
     "candidates": [
@@ -22678,9 +22678,9 @@
       "certainty_preview": "Média",
       "score": 62.0,
       "components": {
-       "governo": 18.0,
-       "presidente": 16.5,
-       "senado": 18.5,
+       "governo": 17.9,
+       "presidente": 16.4,
+       "senado": 18.7,
        "apoio": 9.0
       },
       "model": {
@@ -22691,9 +22691,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22756,11 +22756,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 60.2,
+      "score": 60.3,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 8.7,
-       "senado": 24.7,
+       "senado": 24.9,
        "apoio": 10.0
       },
       "model": {
@@ -22771,9 +22771,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22836,11 +22836,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 51.7,
+      "score": 51.9,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 0.0,
-       "senado": 34.9,
+       "senado": 35.2,
        "apoio": 0.0
       },
       "model": {
@@ -22851,9 +22851,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22918,7 +22918,7 @@
       "certainty_preview": "",
       "score": 47.8,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 8.7,
        "senado": 12.4,
        "apoio": 10.0
@@ -22931,9 +22931,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -22996,11 +22996,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.5,
+      "score": 45.7,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 0.0,
-       "senado": 28.8,
+       "senado": 29.0,
        "apoio": 0.0
       },
       "model": {
@@ -23011,9 +23011,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -23062,11 +23062,11 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 41.9,
+      "score": 42.0,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 0.0,
-       "senado": 25.1,
+       "senado": 25.3,
        "apoio": 0.0
       },
       "model": {
@@ -23077,9 +23077,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -23128,9 +23128,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.0,
+      "score": 29.9,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 8.7,
        "senado": 0.0,
        "apoio": 4.5
@@ -23143,9 +23143,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -23194,9 +23194,9 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.0,
+      "score": 29.9,
       "components": {
-       "governo": 16.8,
+       "governo": 16.7,
        "presidente": 8.7,
        "senado": 0.0,
        "apoio": 4.5
@@ -23209,9 +23209,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -23274,11 +23274,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 18.5,
+      "score": 18.7,
       "components": {
        "governo": 0.0,
        "presidente": 0.0,
-       "senado": 18.5,
+       "senado": 18.7,
        "apoio": 0.0
       },
       "model": {
@@ -23289,9 +23289,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -23327,7 +23327,7 @@
      "name": "Tarcísio de Freitas",
      "party": "Republicanos",
      "bloc": "Flávio",
-     "score": 91.0
+     "score": 91.1
     },
     "race": {
      "turno": 1,
@@ -23344,8 +23344,8 @@
      "margem": 19.1
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -23436,9 +23436,9 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 91.0,
+      "score": 91.1,
       "components": {
-       "governo": 85.2,
+       "governo": 85.3,
        "presidente": 5.8
       },
       "model": {
@@ -23447,8 +23447,8 @@
         "presidente": 56.66666666666667
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 57.0,
@@ -23552,8 +23552,8 @@
       "certainty_preview": "",
       "score": 61.8,
       "components": {
-       "governo": 56.6,
-       "presidente": 5.2
+       "governo": 56.7,
+       "presidente": 5.1
       },
       "model": {
        "scores": {
@@ -23561,8 +23561,8 @@
         "presidente": 50.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 37.9,
@@ -23628,8 +23628,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 2.9,
@@ -23695,8 +23695,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 1.1,
@@ -23762,8 +23762,8 @@
         "presidente": 0.0
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 0.9,
@@ -23790,9 +23790,9 @@
     "stale": false,
     "may_change": 54,
     "weights": {
-     "governo": 0.336,
-     "presidente": 0.288,
-     "senado": 0.276,
+     "governo": 0.335,
+     "presidente": 0.287,
+     "senado": 0.278,
      "apoio": 0.1
     },
     "estimate": [
@@ -23887,9 +23887,9 @@
       "certainty_preview": "Média-alta",
       "score": 76.8,
       "components": {
-       "governo": 31.9,
+       "governo": 31.8,
        "presidente": 16.3,
-       "senado": 18.6,
+       "senado": 18.7,
        "apoio": 10.0
       },
       "model": {
@@ -23900,9 +23900,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -23980,9 +23980,9 @@
       "certainty_preview": "Média-alta",
       "score": 75.1,
       "components": {
-       "governo": 31.9,
+       "governo": 31.8,
        "presidente": 16.3,
-       "senado": 16.9,
+       "senado": 17.0,
        "apoio": 10.0
       },
       "model": {
@@ -23993,9 +23993,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24092,11 +24092,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 67.6,
+      "score": 67.7,
       "components": {
-       "governo": 16.6,
+       "governo": 16.5,
        "presidente": 14.4,
-       "senado": 27.6,
+       "senado": 27.8,
        "apoio": 9.0
       },
       "model": {
@@ -24107,9 +24107,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24206,11 +24206,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 66.7,
+      "score": 66.8,
       "components": {
-       "governo": 16.6,
+       "governo": 16.5,
        "presidente": 14.4,
-       "senado": 26.7,
+       "senado": 26.9,
        "apoio": 9.0
       },
       "model": {
@@ -24221,9 +24221,9 @@
         "apoio": 90.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24322,9 +24322,9 @@
       "certainty_preview": "",
       "score": 45.1,
       "components": {
-       "governo": 24.9,
+       "governo": 24.8,
        "presidente": 1.4,
-       "senado": 14.2,
+       "senado": 14.3,
        "apoio": 4.5
       },
       "model": {
@@ -24335,9 +24335,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24423,9 +24423,9 @@
       "certainty_preview": "",
       "score": 43.9,
       "components": {
-       "governo": 16.6,
+       "governo": 16.5,
        "presidente": 14.4,
-       "senado": 8.5,
+       "senado": 8.6,
        "apoio": 4.5
       },
       "model": {
@@ -24436,9 +24436,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24503,9 +24503,9 @@
       "certainty_preview": "",
       "score": 43.9,
       "components": {
-       "governo": 24.9,
+       "governo": 24.8,
        "presidente": 0.0,
-       "senado": 19.0,
+       "senado": 19.1,
        "apoio": 0.0
       },
       "model": {
@@ -24516,9 +24516,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24596,9 +24596,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24676,9 +24676,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.3360338545846487,
-        "presidente": 0.28802901821541316,
-        "senado": 0.27593712719993807,
+        "governo": 0.3349699622167324,
+        "presidente": 0.2871171104714849,
+        "senado": 0.27791292731178263,
         "apoio": 0.1
        },
        "momentum": {
@@ -24736,8 +24736,8 @@
      "margem": 3.2
     },
     "weights": {
-     "gov": 0.897,
-     "pres": 0.103
+     "gov": 0.898,
+     "pres": 0.102
     },
     "candidates": [
      {
@@ -24804,8 +24804,8 @@
       "certainty_preview": "",
       "score": 64.5,
       "components": {
-       "governo": 59.2,
-       "presidente": 5.3
+       "governo": 59.3,
+       "presidente": 5.2
       },
       "model": {
        "scores": {
@@ -24813,8 +24813,8 @@
         "presidente": 51.458333333333336
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 39.6,
@@ -24892,7 +24892,7 @@
       "certainty_preview": "Muito baixa",
       "score": 61.2,
       "components": {
-       "governo": 60.8,
+       "governo": 60.9,
        "presidente": 0.3
       },
       "model": {
@@ -24901,8 +24901,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 40.7,
@@ -24989,8 +24989,8 @@
         "presidente": 3.25
        },
        "weights": {
-        "governo": 0.897,
-        "presidente": 0.103
+        "governo": 0.898,
+        "presidente": 0.102
        },
        "inputs": {
         "gov_pct": 11.9,
@@ -25017,9 +25017,9 @@
     "stale": false,
     "may_change": null,
     "weights": {
-     "governo": 0.297,
-     "presidente": 0.254,
-     "senado": 0.349,
+     "governo": 0.295,
+     "presidente": 0.253,
+     "senado": 0.352,
      "apoio": 0.1
     },
     "estimate": [
@@ -25027,7 +25027,7 @@
       "name": "Eduardo Gomes",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 73.7
+      "score": 73.8
      },
      {
       "name": "Carlos Gaguim",
@@ -25078,11 +25078,11 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 73.7,
+      "score": 73.8,
       "components": {
-       "governo": 15.7,
-       "presidente": 13.1,
-       "senado": 34.9,
+       "governo": 15.6,
+       "presidente": 13.0,
+       "senado": 35.2,
        "apoio": 10.0
       },
       "model": {
@@ -25093,9 +25093,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -25160,9 +25160,9 @@
       "certainty_preview": "Média",
       "score": 57.4,
       "components": {
-       "governo": 15.7,
-       "presidente": 13.1,
-       "senado": 18.6,
+       "governo": 15.6,
+       "presidente": 13.0,
+       "senado": 18.7,
        "apoio": 10.0
       },
       "model": {
@@ -25173,9 +25173,9 @@
         "apoio": 100.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -25238,11 +25238,11 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 43.8,
+      "score": 43.9,
       "components": {
-       "governo": 15.7,
+       "governo": 15.6,
        "presidente": 0.0,
-       "senado": 28.1,
+       "senado": 28.3,
        "apoio": 0.0
       },
       "model": {
@@ -25253,9 +25253,9 @@
         "apoio": 0.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
@@ -25319,9 +25319,9 @@
         "apoio": 45.0
        },
        "weights": {
-        "governo": 0.2965374985005291,
-        "presidente": 0.2541749987147392,
-        "senado": 0.34928750278473175,
+        "governo": 0.295190799300635,
+        "presidente": 0.25302068511483,
+        "senado": 0.35178851558453494,
         "apoio": 0.1
        },
        "momentum": {
