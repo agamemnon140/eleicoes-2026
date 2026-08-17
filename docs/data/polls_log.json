@@ -1,6 +1,194 @@
 {
- "generated_at": "2026-08-16",
+ "generated_at": "2026-08-17",
  "state_polls": [
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "17/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-pernambuco-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marília Arraes",
+     "party": "PDT",
+     "pct": 29.0,
+     "pct_valid": 31.18
+    },
+    {
+     "name": "Humberto Costa",
+     "party": "PT",
+     "pct": 20.0,
+     "pct_valid": 21.51
+    },
+    {
+     "name": "Mendonça Filho",
+     "party": "PL",
+     "pct": 18.0,
+     "pct_valid": 19.35
+    },
+    {
+     "name": "Eduardo da Fonte",
+     "party": "PP",
+     "pct": 12.0,
+     "pct_valid": 12.9
+    }
+   ]
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "17/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-pernambuco-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Raquel Lyra",
+     "party": "PSD",
+     "pct": 43.0,
+     "pct_valid": 46.74
+    },
+    {
+     "name": "João Campos",
+     "party": "PSB",
+     "pct": 43.0,
+     "pct_valid": 46.74
+    },
+    {
+     "name": "Ivan Moraes",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 2.17
+    }
+   ]
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "17/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-pernambuco-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Raquel Lyra",
+     "party": "PSD",
+     "pct": 44.0,
+     "pct_valid": 50.0
+    },
+    {
+     "name": "João Campos",
+     "party": "PSB",
+     "pct": 44.0,
+     "pct_valid": 50.0
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "17/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senador-parana-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 150.7,
+   "undecided": 13.7,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 34.0,
+     "pct_valid": 22.56
+    },
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 29.6,
+     "pct_valid": 19.64
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 28.1,
+     "pct_valid": 18.65
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 26.0,
+     "pct_valid": 17.25
+    },
+    {
+     "name": "Cristina Graeml",
+     "party": "PSD",
+     "pct": 17.2,
+     "pct_valid": 11.41
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 12.3,
+     "pct_valid": 8.16
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "17/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-parana-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 46.1,
+     "pct_valid": 52.39
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 23.4,
+     "pct_valid": 26.59
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 16.5,
+     "pct_valid": 18.75
+    }
+   ]
+  },
   {
    "uf": "CE",
    "estado": "Ceará",
@@ -124,78 +312,10 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 40.2,
-     "pct_valid": 45.84
-    },
-    {
      "name": "Rafael Greca",
      "party": "MDB",
      "pct": 24.8,
      "pct_valid": 28.28
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "IRG",
-   "date": "13/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-governador-parana-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 80.8,
-   "undecided": 19.2,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 42.7,
-     "pct_valid": 52.85
-    },
-    {
-     "name": "Rafael Greca",
-     "party": "MDB",
-     "pct": 38.1,
-     "pct_valid": 47.15
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "NeoKemp",
-   "date": "12/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-parana-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 91.1,
-   "undecided": 9.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 45.7,
-     "pct_valid": 50.16
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 23.2,
-     "pct_valid": 25.47
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 18.2,
-     "pct_valid": 19.98
     }
    ]
   },
@@ -2468,120 +2588,6 @@
    ]
   },
   {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "28/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 57.0,
-   "undecided": 33.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marília Arraes",
-     "party": "PDT",
-     "pct": 19.0,
-     "pct_valid": 33.33
-    },
-    {
-     "name": "Humberto Costa",
-     "party": "PT",
-     "pct": 12.0,
-     "pct_valid": 21.05
-    },
-    {
-     "name": "Mendonça Filho",
-     "party": "PL",
-     "pct": 8.0,
-     "pct_valid": 14.04
-    },
-    {
-     "name": "Miguel Coelho",
-     "party": "União",
-     "pct": 6.0,
-     "pct_valid": 10.53
-    },
-    {
-     "name": "Eduardo da Fonte",
-     "party": "PP",
-     "pct": 6.0,
-     "pct_valid": 10.53
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "28/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 83.0,
-   "undecided": 17.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 43.0,
-     "pct_valid": 51.81
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 37.0,
-     "pct_valid": 44.58
-    },
-    {
-     "name": "Camila Falcão",
-     "party": "UP",
-     "pct": 1.0,
-     "pct_valid": 1.2
-    },
-    {
-     "name": "Ivan Moraes",
-     "party": "PSOL",
-     "pct": 1.0,
-     "pct_valid": 1.2
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "28/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-pernambuco-julho-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 84.0,
-   "undecided": 16.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 45.0,
-     "pct_valid": 53.57
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 39.0,
-     "pct_valid": 46.43
-    }
-   ]
-  },
-  {
    "uf": "MG",
    "estado": "Minas Gerais",
    "cargo": "Senado",
@@ -4696,40 +4702,6 @@
    ]
   },
   {
-   "uf": "PB",
-   "estado": "Paraíba",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "27/05/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-paraiba-maio-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 73.0,
-   "undecided": 27.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Lucas Ribeiro",
-     "party": "PP",
-     "pct": 39.0,
-     "pct_valid": 53.42
-    },
-    {
-     "name": "Cícero Lucena",
-     "party": "MDB",
-     "pct": 34.0,
-     "pct_valid": 46.58
-    },
-    {
-     "name": "Efraim Filho",
-     "party": "PL",
-     "pct": 29.0,
-     "pct_valid": 41.43
-    }
-   ]
-  },
-  {
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Senado",
@@ -5070,12 +5042,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "Nexus",
+   "date": "17/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
+   "Lula": 41.0,
+   "Flávio": 36.0,
+   "weight": 0.204
+  },
+  {
    "pollster": "Quaest",
    "date": "14/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 31.0,
-   "weight": 0.187
+   "weight": 0.176
   },
   {
    "pollster": "PoderData",
@@ -5083,7 +5063,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
    "Lula": 41.0,
    "Flávio": 35.0,
-   "weight": 0.178
+   "weight": 0.167
   },
   {
    "pollster": "CNT/MDA",
@@ -5091,7 +5071,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
    "Lula": 42.4,
    "Flávio": 28.7,
-   "weight": 0.161
+   "weight": 0.151
   },
   {
    "pollster": "Gerp",
@@ -5099,7 +5079,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 38.0,
-   "weight": 0.161
+   "weight": 0.151
   },
   {
    "pollster": "Futura Inteligência",
@@ -5107,15 +5087,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
    "Lula": 38.8,
    "Flávio": 34.1,
-   "weight": 0.161
-  },
-  {
-   "pollster": "Nexus",
-   "date": "10/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-2/",
-   "Lula": 40.0,
-   "Flávio": 35.0,
-   "weight": 0.153
+   "weight": 0.151
   }
  ]
 }
