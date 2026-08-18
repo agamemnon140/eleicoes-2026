@@ -1,6 +1,224 @@
 {
- "generated_at": "2026-08-17",
+ "generated_at": "2026-08-18",
  "state_polls": [
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "18/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 19.0,
+     "pct_valid": 21.59
+    },
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 17.0,
+     "pct_valid": 19.32
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 17.0,
+     "pct_valid": 19.32
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 15.0,
+     "pct_valid": 17.05
+    },
+    {
+     "name": "Cristina Graeml",
+     "party": "PSD",
+     "pct": 13.0,
+     "pct_valid": 14.77
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 5.0,
+     "pct_valid": 5.68
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "18/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 82.0,
+   "undecided": 18.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 37.0,
+     "pct_valid": 45.12
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 22.0,
+     "pct_valid": 26.83
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 20.0,
+     "pct_valid": 24.39
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "18/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 82.0,
+   "undecided": 18.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 55.0,
+     "pct_valid": 67.07
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 30.0,
+     "pct_valid": 40.0
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 27.0,
+     "pct_valid": 32.93
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "18/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 145.2,
+   "undecided": 15.7,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gracinha Caiado",
+     "party": "União",
+     "pct": 41.0,
+     "pct_valid": 28.24
+    },
+    {
+     "name": "Gustavo Gayer",
+     "party": "PL",
+     "pct": 27.1,
+     "pct_valid": 18.66
+    },
+    {
+     "name": "Vanderlan Cardoso",
+     "party": "PSD",
+     "pct": 21.4,
+     "pct_valid": 14.74
+    },
+    {
+     "name": "Zacarias Calil",
+     "party": "MDB",
+     "pct": 19.5,
+     "pct_valid": 13.43
+    },
+    {
+     "name": "Gustavo Mendanha",
+     "party": "PRD",
+     "pct": 16.3,
+     "pct_valid": 11.23
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
+     "pct": 5.7,
+     "pct_valid": 3.93
+    },
+    {
+     "name": "Oséias Varão",
+     "party": "PL",
+     "pct": 4.0,
+     "pct_valid": 2.75
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "18/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.3,
+   "undecided": 11.7,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 45.8,
+     "pct_valid": 51.87
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 24.9,
+     "pct_valid": 28.2
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 13.2,
+     "pct_valid": 14.95
+    },
+    {
+     "name": "Luis Cesar Bueno",
+     "party": "PT",
+     "pct": 2.3,
+     "pct_valid": 2.6
+    }
+   ]
+  },
   {
    "uf": "PE",
    "estado": "Pernambuco",
@@ -13,7 +231,7 @@
    "base": "totais",
    "sum_cands": 93.0,
    "undecided": 7.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -53,7 +271,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -87,7 +305,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -106,58 +324,6 @@
   {
    "uf": "PR",
    "estado": "Paraná",
-   "cargo": "Senado",
-   "pollster": "Paraná Pesquisas",
-   "date": "17/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senador-parana-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 150.7,
-   "undecided": 13.7,
-   "is_new": true,
-   "readings": [
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 34.0,
-     "pct_valid": 22.56
-    },
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 29.6,
-     "pct_valid": 19.64
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 28.1,
-     "pct_valid": 18.65
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 26.0,
-     "pct_valid": 17.25
-    },
-    {
-     "name": "Cristina Graeml",
-     "party": "PSD",
-     "pct": 17.2,
-     "pct_valid": 11.41
-    },
-    {
-     "name": "Dr. Rosinha",
-     "party": "PT",
-     "pct": 12.3,
-     "pct_valid": 8.16
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
    "cargo": "Governo",
    "pollster": "Paraná Pesquisas",
    "date": "17/08/2026",
@@ -167,7 +333,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -242,58 +408,6 @@
      "party": "PT",
      "pct": 37.0,
      "pct_valid": 40.22
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Senado",
-   "pollster": "IRG",
-   "date": "13/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-senador-parana-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 85.7,
-   "undecided": 14.3,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 19.6,
-     "pct_valid": 22.87
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 19.3,
-     "pct_valid": 22.52
-    },
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 18.0,
-     "pct_valid": 21.0
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 16.8,
-     "pct_valid": 19.6
-    },
-    {
-     "name": "Cristina Graeml",
-     "party": "PSD",
-     "pct": 6.2,
-     "pct_valid": 7.23
-    },
-    {
-     "name": "Dr. Rosinha",
-     "party": "PT",
-     "pct": 4.3,
-     "pct_valid": 5.02
     }
    ]
   },
@@ -4098,104 +4212,6 @@
   {
    "uf": "GO",
    "estado": "Goiás",
-   "cargo": "Senado",
-   "pollster": "Real Time Big Data",
-   "date": "09/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 93.0,
-   "undecided": 7.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Gracinha Caiado",
-     "party": "União",
-     "pct": 26.0,
-     "pct_valid": 27.96
-    },
-    {
-     "name": "Gustavo Gayer",
-     "party": "PL",
-     "pct": 15.0,
-     "pct_valid": 16.13
-    },
-    {
-     "name": "Gustavo Mendanha",
-     "party": "PRD",
-     "pct": 13.0,
-     "pct_valid": 13.98
-    },
-    {
-     "name": "Zacarias Calil",
-     "party": "MDB",
-     "pct": 12.0,
-     "pct_valid": 12.9
-    },
-    {
-     "name": "Vanderlan Cardoso",
-     "party": "PSD",
-     "pct": 9.0,
-     "pct_valid": 9.68
-    },
-    {
-     "name": "Oséias Varão",
-     "party": "PL",
-     "pct": 5.0,
-     "pct_valid": 5.38
-    },
-    {
-     "name": "Isaura Lemos",
-     "party": "PSB",
-     "pct": 5.0,
-     "pct_valid": 5.38
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "09/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 92.0,
-   "undecided": 8.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 43.0,
-     "pct_valid": 46.74
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 26.0,
-     "pct_valid": 28.26
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 16.0,
-     "pct_valid": 17.39
-    },
-    {
-     "name": "Luis Cesar Bueno",
-     "party": "PT",
-     "pct": 5.0,
-     "pct_valid": 5.43
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
    "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "09/07/2026",
@@ -4338,98 +4354,6 @@
      "party": "PT",
      "pct": 22.0,
      "pct_valid": 26.19
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Senado",
-   "pollster": "Paraná Pesquisas",
-   "date": "06/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 150.5,
-   "undecided": 16.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Gracinha Caiado",
-     "party": "União",
-     "pct": 35.1,
-     "pct_valid": 23.32
-    },
-    {
-     "name": "Vanderlan Cardoso",
-     "party": "PSD",
-     "pct": 25.8,
-     "pct_valid": 17.14
-    },
-    {
-     "name": "Gustavo Gayer",
-     "party": "PL",
-     "pct": 21.2,
-     "pct_valid": 14.09
-    },
-    {
-     "name": "Zacarias Calil",
-     "party": "MDB",
-     "pct": 19.8,
-     "pct_valid": 13.16
-    },
-    {
-     "name": "Gustavo Mendanha",
-     "party": "PRD",
-     "pct": 15.5,
-     "pct_valid": 10.3
-    },
-    {
-     "name": "Oséias Varão",
-     "party": "PL",
-     "pct": 2.1,
-     "pct_valid": 1.4
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Paraná Pesquisas",
-   "date": "06/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 85.7,
-   "undecided": 14.3,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 44.4,
-     "pct_valid": 51.81
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 25.4,
-     "pct_valid": 29.64
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 11.5,
-     "pct_valid": 13.42
-    },
-    {
-     "name": "Luis Cesar Bueno",
-     "party": "PT",
-     "pct": 3.3,
-     "pct_valid": 3.85
     }
    ]
   },
@@ -4648,28 +4572,6 @@
      "party": "PL",
      "pct": 33.0,
      "pct_valid": 55.0
-    }
-   ]
-  },
-  {
-   "uf": "MT",
-   "estado": "Mato Grosso",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "02/06/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-mato-grosso-junho-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 79.0,
-   "undecided": 21.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Jayme Campos",
-     "party": "União",
-     "pct": 28.0,
-     "pct_valid": 35.44
     }
    ]
   },
