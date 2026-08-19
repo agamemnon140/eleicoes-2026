@@ -71,7 +71,7 @@ def _ord(rec: tuple) -> int:
     return rec[0] * 365 + rec[1] * 30 + rec[2]
 
 
-from pipeline.model import MA_HALFLIFE_DAYS, MA_WINDOW_DAYS   # noqa: E402  (parâmetros do modelo)
+from pipeline.model import MA_HALFLIFE_DAYS, MA_WINDOW_DAYS, fill_pct_valid   # noqa: E402  (parâmetros do modelo)
 
 
 def _recency_weight(age_days: float) -> float:
@@ -195,6 +195,7 @@ from pipeline.model import model_pct   # noqa: E402  (qual base entra na conta �
 
 
 def recompute_derived(records: list[dict]) -> None:
+    fill_pct_valid(records)
     # sen_norm por estado (líder = 100) — sobre a base comparável, não sobre o % publicado
     by_uf = defaultdict(list)
     for r in records:

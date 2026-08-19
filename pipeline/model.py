@@ -73,6 +73,43 @@ MA_WINDOW_DAYS = 30    # janela: pesquisas até 30 dias mais velhas que a mais r
 MA_HALFLIFE_DAYS = 14  # meia-vida do peso por recência: 14 dias mais velha pesa metade
 
 
+def fill_pct_valid(records: list[dict]) -> int:
+    """Converte para válidos quem ficou sem conversão, usando a própria disputa como base.
+
+    Nem todo instituto publica branco/nulo/indeciso — sem isso não dá para converter pela
+    pesquisa. Dois estragos: (1) dentro de um estado, uns candidatos entram em válidos e
+    outros em totais, e o modelo compara escalas diferentes; (2) a regra dos 50% do 1º
+    turno nunca dispara, porque em base de totais ninguém chega lá.
+
+    Aqui o denominador sai da própria corrida: a soma dos % dos candidatos ativos. É
+    aproximação (ignora quem não acompanhamos), então o registro fica marcado.
+    """
+    n = 0
+    por_disputa: dict = {}
+    for r in records:
+        if r.get("active") and isinstance(r.get("pct"), (int, float)):
+            por_disputa.setdefault((r["uf"], r["cargo"]), []).append(r)
+    for rs in por_disputa.values():
+        com = [r for r in rs if isinstance(r.get("pct_valid"), (int, float)) and r["pct"]]
+        sem = [r for r in rs if not isinstance(r.get("pct_valid"), (int, float))]
+        if not sem:
+            continue
+        if com:                      # a disputa já tem conversão: usa o mesmo fator
+            razoes = sorted(r["pct_valid"] / r["pct"] for r in com)
+            fator = razoes[len(razoes) // 2]
+        else:                        # ninguém tem: o próprio total dos candidatos é a base
+            soma = sum(r["pct"] for r in rs)
+            if soma <= 0:
+                continue
+            fator = 100.0 / soma
+        for r in sem:
+            r["pct_valid"] = round(r["pct"] * fator, 1)
+            r["pct_valid_estimado"] = True
+            n += 1
+    return n
+
+
+
 def model_pct(r: dict) -> float | None:
     """% que o modelo usa: os válidos quando dá para converter, senão o publicado.
 

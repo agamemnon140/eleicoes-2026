@@ -172,7 +172,7 @@ def sync(records: list[dict], roster: dict) -> dict:
     idx = roster_index(roster)
     seen = set()
     for s in similar_names(roster):
-        print(f"  ⚠ possível duplicata no roster — {s}")
+        print(f"  (!) possivel duplicata no roster: {s}")
     left: set = set()    # (uf, nome) que saíram de algum cargo
     joined: dict = {}    # (uf, nome) -> cargo em que entraram
     report = {"added": [], "deactivated": [], "changed": [], "moved_office": []}
@@ -243,8 +243,11 @@ def prune_tickets(records: list[dict], report: dict | None = None) -> int:
 
 
 def print_report(rep: dict) -> None:
+    # rótulos em ASCII de propósito: o console do Windows (cp1252) não codifica "→"/"⚑"
+    # e o UnicodeEncodeError matava o sync ANTES de gravar o snapshot — em silêncio,
+    # porque no runner do GitHub (UTF-8) o mesmo código passa.
     labels = (("+ novos", "added"), ("- desativados", "deactivated"), ("~ atualizados", "changed"),
-              ("→ trocaram de cargo", "moved_office"), ("⚑ chapa limpa", "tickets_cleared"),
+              (">> trocaram de cargo", "moved_office"), ("!! chapa limpa", "tickets_cleared"),
               ("= duplicatas fundidas", "deduped"))
     for label, k in labels:
         items = rep.get(k) or []

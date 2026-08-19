@@ -158,7 +158,7 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swi
 def _public(r: dict) -> dict:
     """Campos de exibição que o front usa (sem os internos do modelo)."""
     keep = ("uf", "cargo", "name", "party", "bloc", "apoio", "apoio_verificado", "pct",
-            "pct_valid", "runoff", "pctDisplay", "instituto", "campo", "cenario", "indecisao",
+            "pct_valid", "pct_valid_estimado", "runoff", "pctDisplay", "instituto", "campo", "cenario", "indecisao",
             "situacao", "fonte", "status", "status_tipo", "active", "gov_ticket", "may_change",
             "source", "polls", "estimated_preview", "certainty_preview")
     return {k: r.get(k) for k in keep}
@@ -286,6 +286,8 @@ def main():
     days = schedule.days_until(as_of)
 
     # anexa nome do estado a cada registro e agrupa por UF/cargo
+    # põe todo mundo na mesma base ANTES de pontuar, mesmo em snapshot antigo
+    model.fill_pct_valid(polls["records"])
     estados = {uf: st["estado"] for uf, st in roster["states"].items()}
     by_uf: dict = {}
     for r in polls["records"]:

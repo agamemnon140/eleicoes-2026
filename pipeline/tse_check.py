@@ -25,6 +25,7 @@ import io
 import json
 import pathlib
 import re
+import time
 import unicodedata
 import zipfile
 
@@ -53,14 +54,27 @@ def toks(name: str) -> set:
     return {t for t in re.split(r"[^\w]+", norm(name)) if len(t) > 2 and t not in STOP}
 
 
-def download(cache: pathlib.Path | None = None) -> bytes:
+def download(cache: pathlib.Path | None = None, tentativas: int = 4) -> bytes:
+    """Baixa o zip do TSE, com retry: o CDN corta conexão SSL com alguma frequência.
+
+    Sem retry, uma falha transitória some com a conferência do dia — o passo do cron é
+    não-bloqueante de propósito, então o erro passaria despercebido.
+    """
     if cache and cache.exists():
         return cache.read_bytes()
-    r = requests.get(URL, headers=UA, timeout=180)
-    r.raise_for_status()
-    if cache:
-        cache.write_bytes(r.content)
-    return r.content
+    erro = None
+    for n in range(1, tentativas + 1):
+        try:
+            r = requests.get(URL, headers=UA, timeout=180)
+            r.raise_for_status()
+            if cache:
+                cache.write_bytes(r.content)
+            return r.content
+        except requests.RequestException as e:
+            erro = e
+            print(f"  tentativa {n}/{tentativas} falhou ({type(e).__name__}); repetindo…")
+            time.sleep(3 * n)
+    raise SystemExit(f"TSE indisponível após {tentativas} tentativas: {erro}")
 
 
 def parse(blob: bytes) -> tuple[list[dict], str]:
