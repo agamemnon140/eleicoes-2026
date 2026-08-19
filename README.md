@@ -13,6 +13,14 @@ dentro da conta), outros já sobre os **votos válidos**. Somar as duas mistura 
 candidatos e o branco/nulo/indeciso, e o modelo trabalha sobre `pct_valid = % ÷ soma dos candidatos`.
 O site mostra os dois números (publicado e válidos) e a tabela completa da conta quando você isola um estado.
 
+Quando o instituto não publica branco/nulo/indeciso, não dá para converter pela própria
+pesquisa. Aí o denominador sai da **própria disputa** (`model.fill_pct_valid`): a soma dos %
+dos candidatos ativos daquele estado/cargo, ou o fator mediano das pesquisas que já vieram
+convertidas. Sem isso, dois estragos: dentro de um estado uns candidatos entravam em válidos
+e outros em totais, e a regra dos 50% do 1º turno nunca disparava em base de totais — AM, DF
+e PB ficavam "sem pesquisa comparável". O registro convertido assim fica marcado
+(`pct_valid_estimado`), porque é aproximação: ignora candidatura que não acompanhamos.
+
 No Senado a conversão vale como **share das menções válidas**: alguns institutos publicam só o "1º voto"
 (soma ~90) e outros o "1º e 2º voto" (soma ~150) — dividir pela soma põe as duas na mesma escala. O
 `sen_norm` (líder do estado = 100) é calculado sobre essa base.
@@ -33,8 +41,9 @@ Ordenar pelo 1º turno e coroar o líder é o erro clássico — quem lidera com
 2. senão, os dois primeiros vão ao 2º turno e, havendo **pesquisa daquele par**, é ela que decide;
 3. sem pesquisa do duelo, o índice (chapa + presidente) desempata.
 
-Na rodada de 14/08/2026: 10 estados decididos no 1º turno, 10 por pesquisa de 2º turno (em **PA e TO** o
-líder do 1º turno perde o duelo), 3 por índice sem duelo e 4 sem pesquisa comparável.
+Na rodada de 18/08/2026 (roster já fechado): 9 estados decididos no 1º turno, 12 por pesquisa de 2º
+turno (em **PA e TO** o líder do 1º turno perde o duelo), 5 por índice sem duelo do par e 1 sem
+pesquisa comparável.
 
 ## Como funciona o modelo
 
@@ -126,6 +135,15 @@ Duas populações, dois critérios:
 
 Hoje são 8 verificados, 6 por atuação e 13 por partido. A tabela inteira, com o critério de cada um,
 fica aberta na aba Senado — o que é inferência aparece marcado como inferência.
+
+### Roster fechado (pós-15/08/2026)
+
+Com o prazo de registro encerrado, o roster foi fechado contra a lista oficial:
+**27 candidatos saíram** (15 trocaram de cargo — vice-presidente, vice-governador, suplente,
+deputado — e 12 não têm registro em cargo nenhum) e **133 entraram**, todos com registro no
+TSE confirmado e presença em pesquisa de algum instituto. Entrar por evidência (o instituto
+mediu) e não por julgamento evita tanto o roster inchado quanto o buraco silencioso: até
+então o Senado do Tocantins tinha quatro candidatos de 13-20% fora do modelo.
 
 ### Conferência contra o TSE
 

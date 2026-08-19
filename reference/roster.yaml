@@ -747,6 +747,15 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
+      - name: Eudo Raffael
+        party: PCB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -765,7 +774,7 @@ states:
         apoio_verificado: false
         active: true
       - name: Mara Rocha
-        party: MDB
+        party: Republicanos
         bloc: Flávio
         endorsement: explícito
         apoio: Flávio Bolsonaro — apoio explícito 06/08
@@ -792,6 +801,24 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Professor Inacio Moreira
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)
+        status_tipo: info
+      - name: Dr. Junior Feitosa
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
   AL:
     estado: Alagoas
     governor:
@@ -812,13 +839,15 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
-      - name: Alfredo Gaspar
-        party: PL
-        bloc: Flávio
+      - name: Lenilda Luna
+        party: UP
+        bloc: Indefinido
         endorsement: não verificado
-        apoio: Flávio Bolsonaro
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.4%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -867,6 +896,15 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Dr. Wanderley
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 11.1%)
         status_tipo: info
   AP:
     estado: Amapá
@@ -926,6 +964,33 @@ states:
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
         status_tipo: info
+      - name: Alliny Serrão
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 17.5%)
+        status_tipo: info
+      - name: Capi
+        party: PSB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 10.9%)
+        status_tipo: info
+      - name: Juíza Jô
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.2%)
+        status_tipo: info
   AM:
     estado: Amazonas
     governor:
@@ -982,13 +1047,6 @@ states:
         apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
-      - name: Marcelo Ramos
-        party: PT
-        bloc: Lula
-        endorsement: inferido
-        apoio: Lula
-        apoio_verificado: false
-        active: true
   BA:
     estado: Bahia
     governor:
@@ -1014,13 +1072,33 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: João Roma
-        party: PL
-        bloc: Flávio
+      - name: Estêvão
+        party: DC
+        bloc: Indefinido
         endorsement: não verificado
-        apoio: Flávio Bolsonaro
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Aroldo Felix
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
+      - name: Ariel Capistrano
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1052,6 +1130,51 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Professora Delliana
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 6.4%)
+        status_tipo: info
+      - name: Marcelo Santtana
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.5%)
+        status_tipo: info
+      - name: Marcelo Carvalho
+        party: Rede
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.8%)
+        status_tipo: info
+      - name: Gregorio Gould
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.6%)
+        status_tipo: info
+      - name: Carlos Sodré
+        party: Mobiliza
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
   CE:
     estado: Ceará
     governor:
@@ -1070,13 +1193,51 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
-      - name: Eduardo Girão
-        party: Novo
-        bloc: Zema
+      - name: Delegado Huggo
+        party: Missão
+        bloc: Indefinido
         endorsement: não verificado
-        apoio: Romeu Zema
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.8%)
+        status_tipo: info
+      - name: Pedro Brito
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Danilo Soares
+        party: Democrata
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Serley Leal
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
+      - name: Zé Batista
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1115,6 +1276,24 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Reginaldo
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Catarina Matos
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.4%)
+        status_tipo: info
   DF:
     estado: Distrito Federal
     governor:
@@ -1171,13 +1350,15 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Ibaneis Rocha
-        party: MDB
-        bloc: Flávio
-        endorsement: inferido
-        apoio: Flávio Bolsonaro (provável)
+      - name: Sebastião Coelho
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 14.1%)
+        status_tipo: info
   ES:
     estado: Espírito Santo
     governor:
@@ -1196,13 +1377,15 @@ states:
         apoio: Flávio Bolsonaro
         apoio_verificado: false
         active: true
-      - name: Paulo Hartung
-        party: PSD
-        bloc: Caiado
+      - name: Helder Salomão
+        party: PT
+        bloc: Lula
         endorsement: não verificado
-        apoio: Ronaldo Caiado (provável)
+        apoio: Lula
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 29.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1211,13 +1394,6 @@ states:
         bloc: Lula
         endorsement: chapa/aliança
         apoio: Lula
-        apoio_verificado: false
-        active: true
-      - name: Paulo Hartung
-        party: PSD
-        bloc: Caiado
-        endorsement: inferido
-        apoio: Ronaldo Caiado (provável)
         apoio_verificado: false
         active: true
       - name: Sergio Meneguelli
@@ -1257,6 +1433,42 @@ states:
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
         status_tipo: info
+      - name: Rose De Freitas
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 12.0%)
+        status_tipo: info
+      - name: Professor Fabian
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Leonardo Monjardim
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Callegari
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
   GO:
     estado: Goiás
     governor:
@@ -1289,6 +1501,24 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Luciana Amorim
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.1%)
+        status_tipo: info
+      - name: Danilo Pinheiro
+        party: PCO
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1327,13 +1557,6 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Humberto Teófilo
-        party: Novo
-        bloc: Zema
-        endorsement: inferido
-        apoio: Romeu Zema
-        apoio_verificado: false
-        active: true
       - name: Oséias Varão
         party: PL
         bloc: Flávio
@@ -1349,6 +1572,42 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Cintia Dias
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.8%)
+        status_tipo: info
+      - name: Ernesto Roller
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.3%)
+        status_tipo: info
+      - name: Guilherme Darques
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.8%)
+        status_tipo: info
+      - name: Iure Castro
+        party: Cidadania
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.3%)
         status_tipo: info
   MA:
     estado: Maranhão
@@ -1375,16 +1634,27 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
+      - name: Roberto Rocha
+        party: PRTB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 33.0%)
+        status_tipo: info
+      - name: André Luis
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
-      - name: Duarte Jr.
-        party: Avante
-        bloc: Lula
-        endorsement: chapa/aliança
-        apoio: Lula (provável)
-        apoio_verificado: false
-        active: true
       - name: Roseana Sarney
         party: MDB
         bloc: Lula
@@ -1420,6 +1690,33 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Lahesio Bonfim
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 10.0%)
+        status_tipo: info
+      - name: Enilton Rodrigues
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Dr.hilton Gonçalo
+        party: Mobiliza
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
   MT:
     estado: Mato Grosso
     governor:
@@ -1438,13 +1735,6 @@ states:
         apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
-      - name: Jayme Campos
-        party: União
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Ronaldo Caiado / indefinido
-        apoio_verificado: false
-        active: true
       - name: Doutora Natasha
         party: PSD
         bloc: Indefinido
@@ -1453,6 +1743,24 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Rafaell Milas
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.0%)
+        status_tipo: info
+      - name: Sargento Laudicério (lau)
+        party: Agir
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
         status_tipo: info
     senate:
       seats: 2
@@ -1485,6 +1793,24 @@ states:
         apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
+      - name: Pedro Taques
+        party: PSB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 11.0%)
+        status_tipo: info
+      - name: Galvan
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)
+        status_tipo: info
   MS:
     estado: Mato Grosso do Sul
     governor:
@@ -1541,13 +1867,6 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Nelsinho Trad
-        party: PSD
-        bloc: Caiado
-        endorsement: inferido
-        apoio: Ronaldo Caiado / indefinido
-        apoio_verificado: false
-        active: true
       - name: Vander Loubet
         party: PT
         bloc: Indefinido
@@ -1562,6 +1881,24 @@ states:
         apoio: Lula (provável)
         apoio_verificado: false
         active: true
+      - name: Beto Do Movimento
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 5.0%)
+        status_tipo: info
+      - name: Daniel Junior
+        party: Agir
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
   MG:
     estado: Minas Gerais
     governor:
@@ -1608,6 +1945,42 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Ben Mendes
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Indira Xavier
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Professor Túlio Lopes
+        party: PCB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Rafael Duda
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1646,22 +2019,8 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Eros Biondini
-        party: PL
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Não verificado
-        apoio_verificado: false
-        active: true
       - name: Áurea Carolina
         party: PSOL
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Não verificado
-        apoio_verificado: false
-        active: true
-      - name: Euclydes Pettersen
-        party: Republicanos
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
@@ -1681,13 +2040,15 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Vanessa Portugal
-        party: PSTU
+      - name: Marco Antônio Superman
+        party: Novo
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 5.0%)
+        status_tipo: info
   PR:
     estado: Paraná
     governor:
@@ -1713,13 +2074,51 @@ states:
         apoio: Ronaldo Caiado
         apoio_verificado: false
         active: true
-      - name: Rafael Greca
-        party: MDB
+      - name: Luiz França
+        party: Missão
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Tayná Miessa
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.6%)
+        status_tipo: info
+      - name: Alexandre Salomão
+        party: Mobiliza
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.4%)
+        status_tipo: info
+      - name: Samuel De Mattos
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
+      - name: Adriano Funileiro
+        party: PCO
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1775,6 +2174,24 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Joaquim Do Mlb
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Karen Guerreiro
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
         status_tipo: info
   PB:
     estado: Paraíba
@@ -1868,13 +2285,6 @@ states:
         apoio: Flávio Bolsonaro (provável)
         apoio_verificado: false
         active: true
-      - name: Mário Couto
-        party: DC
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Não verificado
-        apoio_verificado: false
-        active: true
       - name: Araceli Lemos
         party: PSOL
         bloc: Lula
@@ -1882,6 +2292,24 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
+      - name: Cleber Rabelo
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 5.0%)
+        status_tipo: info
+      - name: Gal Leite
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1920,6 +2348,33 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Gizelle Freitas
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)
+        status_tipo: info
+      - name: Conti
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Breno Guimarães
+        party: Mobiliza
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
   PE:
     estado: Pernambuco
     governor:
@@ -1952,13 +2407,24 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Eduardo Moura
-        party: Novo
-        bloc: Zema
+      - name: Renan
+        party: Missão
+        bloc: Indefinido
         endorsement: não verificado
-        apoio: Romeu Zema
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.0%)
+        status_tipo: info
+      - name: Guilherme Fonseca
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -1983,13 +2449,6 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Miguel Coelho
-        party: União
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Ronaldo Caiado / indefinido
-        apoio_verificado: false
-        active: true
       - name: Eduardo da Fonte
         party: PP
         bloc: Indefinido
@@ -2004,6 +2463,33 @@ states:
         apoio: Flávio Bolsonaro
         apoio_verificado: false
         active: true
+      - name: Túlio Gadêlha
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 14.0%)
+        status_tipo: info
+      - name: Paulo Rubem Santiago
+        party: Rede
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Mariano Macedo
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
   PI:
     estado: Piauí
     governor:
@@ -2029,6 +2515,87 @@ states:
         apoio: Flávio Bolsonaro
         apoio_verificado: false
         active: true
+      - name: Ravenna Da Inclusão
+        party: Democrata
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.3%)
+        status_tipo: info
+      - name: Elizeu Aguiar
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Professor Gisvaldo
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Gustavo Pelo Piauí Ou Gustavo
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.4%)
+        status_tipo: info
+      - name: Geraldo Carvalho
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.4%)
+        status_tipo: info
+      - name: Dra. Lúcia Santos
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.3%)
+        status_tipo: info
+      - name: Santiago Belizário
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.2%)
+        status_tipo: info
+      - name: Lourdes Melo
+        party: PCO
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
+      - name: Professor Jurity
+        party: DC
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2060,6 +2627,69 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Francinaldo Leão
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.1%)
+        status_tipo: info
+      - name: Antônio Barros
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.7%)
+        status_tipo: info
+      - name: Pedro Laurentino
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.4%)
+        status_tipo: info
+      - name: Jorge Lopes
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.1%)
+        status_tipo: info
+      - name: Major Paulo Roberto
+        party: Mobiliza
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Antônio José Lira
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Pastor Sena
+        party: Avante
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
   RN:
     estado: Rio Grande do Norte
     governor:
@@ -2085,6 +2715,24 @@ states:
         apoio: Flávio Bolsonaro
         apoio_verificado: false
         active: true
+      - name: Professor Roberio Paulino
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.5%)
+        status_tipo: info
+      - name: Rodrigo Bolsonaro
+        party: Agir
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.1%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2123,6 +2771,33 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Sandro Pimentel
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.1%)
+        status_tipo: info
+      - name: Tércio Tinôco
+        party: União
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.3%)
+        status_tipo: info
+      - name: Sonia Godeiro
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.1%)
+        status_tipo: info
   RS:
     estado: Rio Grande do Sul
     governor:
@@ -2155,6 +2830,33 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Cesar Pontes
+        party: PCO
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Rejane De Oliveira
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Priscila Voigt
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.9%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2202,6 +2904,60 @@ states:
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
         status_tipo: info
+      - name: Renato Jaguarão
+        party: Cidadania
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.8%)
+        status_tipo: info
+      - name: Milton Cardoso
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.6%)
+        status_tipo: info
+      - name: Luciano Do Mlb
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Tania Peres
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Daniela Mulheres Socialistas
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
+      - name: Regis Ethur
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.0%)
+        status_tipo: info
   RJ:
     estado: Rio de Janeiro
     governor:
@@ -2234,6 +2990,51 @@ states:
         apoio: Não verificado
         apoio_verificado: false
         active: true
+      - name: Coronel Busnello
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.4%)
+        status_tipo: info
+      - name: William Siri
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.0%)
+        status_tipo: info
+      - name: Cyro Garcia
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Juliete
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Luan Monteiro
+        party: PCO
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2256,13 +3057,6 @@ states:
         bloc: Lula
         endorsement: chapa/aliança
         apoio: Lula (provável)
-        apoio_verificado: false
-        active: true
-      - name: Márcio Canella
-        party: União
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Flávio Bolsonaro / indefinido
         apoio_verificado: false
         active: true
       - name: Carlos Portinho
@@ -2296,6 +3090,33 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Marcos Dias
+        party: Podemos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 5.1%)
+        status_tipo: info
+      - name: Paula Falcão
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.1%)
+        status_tipo: info
+      - name: Helio Secco
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.6%)
         status_tipo: info
   RO:
     estado: Rondônia
@@ -2331,6 +3152,24 @@ states:
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
         status_tipo: info
+      - name: Pedro Abib
+        party: MDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
+      - name: Samuel Costa
+        party: PSB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2355,13 +3194,6 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Confúcio Moura
-        party: MDB
-        bloc: Lula
-        endorsement: inferido
-        apoio: Lula (provável)
-        apoio_verificado: false
-        active: true
       - name: Acir Gurgacz
         party: PDT
         bloc: Indefinido
@@ -2370,6 +3202,33 @@ states:
         apoio_verificado: false
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
+        status_tipo: info
+      - name: Mariana Carvalho
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 12.0%)
+        status_tipo: info
+      - name: Luis Fernando
+        party: PSD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)
+        status_tipo: info
+      - name: Luciana Oliveira
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 3.0%)
         status_tipo: info
   RR:
     estado: Roraima
@@ -2380,13 +3239,6 @@ states:
         bloc: Flávio
         endorsement: não verificado
         apoio: Flávio Bolsonaro
-        apoio_verificado: false
-        active: true
-      - name: Antônia Pedrosa
-        party: PT
-        bloc: Lula
-        endorsement: não verificado
-        apoio: Lula
         apoio_verificado: false
         active: true
       - name: Soldado Sampaio
@@ -2404,13 +3256,6 @@ states:
         bloc: Lula
         endorsement: inferido
         apoio: Lula (provável)
-        apoio_verificado: false
-        active: true
-      - name: Mauro Asato
-        party: Democrata
-        bloc: Indefinido
-        endorsement: não verificado
-        apoio: Indefinido
         apoio_verificado: false
         active: true
       - name: Rogério Miranda
@@ -2466,6 +3311,24 @@ states:
         apoio: Lula
         apoio_verificado: false
         active: true
+      - name: Marcelo Brigadeiro
+        party: Missão
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.5%)
+        status_tipo: info
+      - name: Ralf Zimmer
+        party: PRD
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.7%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2506,6 +3369,15 @@ states:
         active: true
         status: Registro protocolado no TSE (13/08/2026); sem pesquisa ainda
         status_tipo: info
+      - name: Afrânio Boppré
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 20.5%)
+        status_tipo: info
   SE:
     estado: Sergipe
     governor:
@@ -2531,6 +3403,24 @@ states:
         apoio: Flávio Bolsonaro
         apoio_verificado: false
         active: true
+      - name: Emanuel Cacho
+        party: PSDB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.0%)
+        status_tipo: info
+      - name: Dr. Helton
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2590,6 +3480,24 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
+      - name: Edvaldo
+        party: PDT
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 8.0%)
+        status_tipo: info
+      - name: Iran Barbosa
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
   SP:
     estado: São Paulo
     governor:
@@ -2667,34 +3575,69 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Paulinho da Força
-        party: Solidariedade
-        bloc: Lula
-        endorsement: inferido
-        apoio: Lula (provável)
-        apoio_verificado: false
-        active: true
-      - name: Pablo Marçal
-        party: União
+      - name: Soninha Francine
+        party: Cidadania
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: Robson Tuma
-        party: Republicanos
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.9%)
+        status_tipo: info
+      - name: Geraldo Rufino
+        party: Podemos
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
         apoio_verificado: false
         active: true
-      - name: José Aníbal
-        party: PSDB
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 2.7%)
+        status_tipo: info
+      - name: Dra Eliana Ferreira
+        party: PSTU
         bloc: Indefinido
         endorsement: não verificado
         apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.7%)
+        status_tipo: info
+      - name: Weller Gonçalves
+        party: PSTU
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.3%)
+        status_tipo: info
+      - name: Maíra De Souza
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.1%)
+        status_tipo: info
+      - name: Marcio Alves
+        party: UP
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.8%)
+        status_tipo: info
+      - name: Petter Maahs
+        party: PCB
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 0.7%)
+        status_tipo: info
   TO:
     estado: Tocantins
     governor:
@@ -2720,6 +3663,24 @@ states:
         apoio: Ronaldo Caiado
         apoio_verificado: false
         active: true
+      - name: Ataides De Oliveira
+        party: Novo
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 6.9%)
+        status_tipo: info
+      - name: Prof Witer Naves
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.0%)
+        status_tipo: info
     senate:
       seats: 2
       candidates:
@@ -2744,10 +3705,57 @@ states:
         apoio: Flávio Bolsonaro — apoio explícito 06/08
         apoio_verificado: true
         active: true
-      - name: Mauro Carlesse
-        party: PSD
-        bloc: Caiado
-        endorsement: inferido
-        apoio: Ronaldo Caiado / indefinido
+      - name: Ronaldo Dimas
+        party: Podemos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
         apoio_verificado: false
         active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 20.4%)
+        status_tipo: info
+      - name: Vanderlei Luxemburgo
+        party: Podemos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 16.6%)
+        status_tipo: info
+      - name: Paulo Mourão
+        party: PT
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 13.8%)
+        status_tipo: info
+      - name: Eli Borges
+        party: Republicanos
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 13.2%)
+        status_tipo: info
+      - name: Professor Osvaldo
+        party: PSOL
+        bloc: Lula
+        endorsement: não verificado
+        apoio: Lula
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.6%)
+        status_tipo: info
+      - name: Fábio Ribeiro
+        party: Rede
+        bloc: Indefinido
+        endorsement: não verificado
+        apoio: Não verificado
+        apoio_verificado: false
+        active: true
+        status: Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 1.2%)
+        status_tipo: info
