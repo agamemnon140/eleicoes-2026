@@ -1,6 +1,258 @@
 {
- "generated_at": "2026-08-19",
+ "generated_at": "2026-08-20",
  "state_polls": [
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "cargo": "Senado",
+   "pollster": "AtlasIntel",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Helder Barbalho",
+     "party": "MDB",
+     "pct": 24.0,
+     "pct_valid": 27.59
+    },
+    {
+     "name": "Delegado Éder Mauro",
+     "party": "PL",
+     "pct": 18.4,
+     "pct_valid": 21.15
+    },
+    {
+     "name": "Zequinha Marinho",
+     "party": "Podemos",
+     "pct": 14.6,
+     "pct_valid": 16.78
+    },
+    {
+     "name": "Celso Sabino",
+     "party": "PDT",
+     "pct": 12.4,
+     "pct_valid": 14.25
+    },
+    {
+     "name": "Chicão Melo",
+     "party": "União",
+     "pct": 10.5,
+     "pct_valid": 12.07
+    },
+    {
+     "name": "Conti",
+     "party": "PSOL",
+     "pct": 3.0,
+     "pct_valid": 3.45
+    },
+    {
+     "name": "Gizelle Freitas",
+     "party": "PSOL",
+     "pct": 2.1,
+     "pct_valid": 2.41
+    },
+    {
+     "name": "Breno Guimarães",
+     "party": "Mobiliza",
+     "pct": 0.3,
+     "pct_valid": 0.34
+    }
+   ]
+  },
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.1,
+   "undecided": 8.7,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Hana Ghassan",
+     "party": "MDB",
+     "pct": 48.6,
+     "pct_valid": 53.35
+    },
+    {
+     "name": "Dr. Daniel Santos",
+     "party": "Podemos",
+     "pct": 40.5,
+     "pct_valid": 44.46
+    },
+    {
+     "name": "Araceli Lemos",
+     "party": "PSOL",
+     "pct": 1.4,
+     "pct_valid": 1.54
+    },
+    {
+     "name": "Cleber Rabelo",
+     "party": "PSTU",
+     "pct": 0.2,
+     "pct_valid": 0.22
+    },
+    {
+     "name": "Gal Leite",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.9,
+   "undecided": 9.1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Hana Ghassan",
+     "party": "MDB",
+     "pct": 49.1,
+     "pct_valid": 54.02
+    },
+    {
+     "name": "Dr. Daniel Santos",
+     "party": "Podemos",
+     "pct": 41.8,
+     "pct_valid": 45.98
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cid Gomes",
+     "party": "PSB",
+     "pct": 27.0,
+     "pct_valid": 30.68
+    },
+    {
+     "name": "Capitão Wagner",
+     "party": "União",
+     "pct": 21.0,
+     "pct_valid": 23.86
+    },
+    {
+     "name": "Luizianne Lins",
+     "party": "Rede",
+     "pct": 21.0,
+     "pct_valid": 23.86
+    },
+    {
+     "name": "Alcides Fernandes",
+     "party": "PL",
+     "pct": 14.0,
+     "pct_valid": 15.91
+    },
+    {
+     "name": "Reginaldo",
+     "party": "PSTU",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Catarina Matos",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 44.0,
+     "pct_valid": 48.35
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 44.0,
+     "pct_valid": 48.35
+    },
+    {
+     "name": "Delegado Huggo",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.1
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "20/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 46.0,
+     "pct_valid": 50.55
+    },
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 45.0,
+     "pct_valid": 49.45
+    }
+   ]
+  },
   {
    "uf": "SP",
    "estado": "São Paulo",
@@ -13,7 +265,7 @@
    "base": "totais",
    "sum_cands": 142.1,
    "undecided": 15.6,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Simone Tebet",
@@ -101,7 +353,7 @@
    "base": "totais",
    "sum_cands": 87.7,
    "undecided": 12.3,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -147,7 +399,7 @@
    "base": "totais",
    "sum_cands": 89.9,
    "undecided": 10.1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -175,7 +427,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Michelle Bolsonaro",
@@ -221,7 +473,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -255,7 +507,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 28.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -3174,40 +3426,10 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Cid Gomes",
-     "party": "PSB",
-     "pct": 23.0,
-     "pct_valid": 36.51
-    },
-    {
-     "name": "Capitão Wagner",
-     "party": "União",
-     "pct": 16.0,
-     "pct_valid": 25.4
-    },
-    {
-     "name": "Luizianne Lins",
-     "party": "Rede",
-     "pct": 9.0,
-     "pct_valid": 14.29
-    },
-    {
      "name": "Eunício Oliveira",
      "party": "MDB",
      "pct": 8.0,
      "pct_valid": 12.7
-    },
-    {
-     "name": "Alcides Fernandes",
-     "party": "PL",
-     "pct": 3.0,
-     "pct_valid": 4.76
-    },
-    {
-     "name": "Reginaldo",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
     }
    ]
   },
@@ -3226,62 +3448,10 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 43.0,
-     "pct_valid": 53.75
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 33.0,
-     "pct_valid": 41.25
-    },
-    {
      "name": "Eduardo Girão",
      "party": "Novo",
      "pct": 3.0,
      "pct_valid": 3.75
-    },
-    {
-     "name": "Serley Leal",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Zé Batista",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "30/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senado-ceara-julho-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 83.0,
-   "undecided": 17.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 48.0,
-     "pct_valid": 57.83
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 35.0,
-     "pct_valid": 42.17
     }
    ]
   },
