@@ -13833,9 +13833,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 45.0,
-     "pct_valid": 77.19,
+     "pct_valid": 52.94,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13893,7 +13893,7 @@
      ]
     }
    },
-   "pct_valid": 70.3
+   "pct_valid": 54.4
   },
   {
    "uf": "SP",
@@ -13904,8 +13904,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 11.7,
-   "pctDisplay": "11,7%",
+   "pct": 29.3,
+   "pctDisplay": "29,3%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -13930,10 +13930,10 @@
     {
      "pollster": "Datafolha",
      "date": "21/08/2026",
-     "pct": 0.27,
-     "pct_valid": 0.46,
+     "pct": 27.0,
+     "pct_valid": 31.76,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13991,7 +13991,7 @@
      ]
     }
    },
-   "pct_valid": 13.3
+   "pct_valid": 33.9
   },
   {
    "uf": "SP",
@@ -14030,9 +14030,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 3.0,
-     "pct_valid": 5.15,
+     "pct_valid": 3.53,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -14042,7 +14042,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 5.2
+   "pct_valid": 3.5
   },
   {
    "uf": "SP",
@@ -14081,9 +14081,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 4.0,
-     "pct_valid": 6.86,
+     "pct_valid": 4.71,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -14093,7 +14093,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 6.9
+   "pct_valid": 4.7
   },
   {
    "uf": "SP",
@@ -14132,9 +14132,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 2.0,
-     "pct_valid": 3.43,
+     "pct_valid": 2.35,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -14144,7 +14144,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 3.4
+   "pct_valid": 2.4
   },
   {
    "uf": "SP",
@@ -14159,7 +14159,7 @@
    "pctDisplay": "20,6%",
    "sen_norm": 98.507463,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -14244,7 +14244,7 @@
    "pctDisplay": "21,1%",
    "sen_norm": 100.0,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -14329,7 +14329,7 @@
    "pctDisplay": "12,5%",
    "sen_norm": 56.716418,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 0.78,
    "pres_pct": 3,
    "pres_reliability": 1.0,
@@ -14414,7 +14414,7 @@
    "pctDisplay": "13,2%",
    "sen_norm": 68.159204,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -14478,7 +14478,7 @@
    "pctDisplay": "17,1%",
    "sen_norm": 75.124378,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -14563,7 +14563,7 @@
    "pctDisplay": "4,0%",
    "sen_norm": 30.769231,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -15382,7 +15382,7 @@
    "pctDisplay": "9,0%",
    "sen_norm": 68.778281,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,

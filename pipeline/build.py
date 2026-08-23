@@ -13,11 +13,12 @@ from __future__ import annotations
 import datetime
 import json
 import pathlib
+import re
 import sys
 
 import yaml
 
-from pipeline import model, schedule
+from pipeline import model, schedule, validate
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEB_DATA = ROOT / "docs" / "data"         # JSONs publicados (servidos pelo site via GitHub Pages)
@@ -47,6 +48,74 @@ def swing_lean(lean: dict, swing: float) -> dict:
     return out
 
 
+# o prior (roster/2022+swing) vale ~2 pesquisas: 1 pesquisa estadual fresca entra com 1/3
+STATE_POLL_PRIOR = 2.0
+
+
+def _poll_age(date_str: str | None, as_of: datetime.date) -> float | None:
+    m = re.match(r"(\d{1,2})/(\d{1,2})/(\d{4})", date_str or "")
+    if not m:
+        return None
+    d = datetime.date(int(m.group(3)), int(m.group(2)), int(m.group(1)))
+    return max(0.0, (as_of - d).days)
+
+
+def blend_state_pres(lean: dict, polls: list, as_of: datetime.date) -> dict:
+    """Mistura pesquisas presidenciais DO ESTADO no lean, com o prior no comando.
+
+    w = n/(n+2), onde n é a soma dos pesos de recência (mesma meia-vida da média móvel):
+    uma pesquisa fresca entra com 1/3 e envelhece; mais institutos publicando fazem o lado
+    das pesquisas crescer sozinho. Matéria só com 2º turno (RJ/PE/DF na Datafolha de
+    ago/26) não é comparável ao cenário estimulado: atualiza apenas a razão Lula:Flávio,
+    preservando a soma dos dois blocos no prior. O guardrail de salto vale aqui também —
+    lixo de parser não entra no lean nem com peso 1/3.
+    """
+    if not lean or not polls:
+        return lean
+    pesos = []
+    for p in polls:
+        age = _poll_age(p.get("date"), as_of)
+        if age is None or age > model.MA_WINDOW_DAYS:
+            continue
+        pesos.append((0.5 ** (age / model.MA_HALFLIFE_DAYS), p))
+    if not pesos:
+        return lean
+    out = dict(lean)
+    changed, w_poll = False, 0.0
+    fr = [(w, p["first_round"]) for w, p in pesos if p.get("first_round")]
+    if fr:
+        n = sum(w for w, _ in fr)
+        w_poll = n / (n + STATE_POLL_PRIOR)
+        for bloc in BLOCS:
+            vals = [(w, v[bloc]) for w, v in fr if isinstance(v.get(bloc), (int, float))]
+            if not vals or not isinstance(out.get(bloc), (int, float)):
+                continue
+            media = sum(w * v for w, v in vals) / sum(w for w, _ in vals)
+            novo = round((1 - w_poll) * out[bloc] + w_poll * media, 1)
+            if validate.check(out[bloc], novo)[0]:
+                out[bloc] = novo
+                changed = True
+    else:
+        ro = [(w, p["runoff"]) for w, p in pesos if p.get("runoff")]
+        lula, flavio = out.get("Lula"), out.get("Flávio")
+        if ro and isinstance(lula, (int, float)) and isinstance(flavio, (int, float)) \
+                and lula + flavio > 0:
+            n = sum(w for w, _ in ro)
+            w_poll = n / (n + STATE_POLL_PRIOR)
+            share_p = sum(w * r["Lula"] / (r["Lula"] + r["Flávio"]) * 100 for w, r in ro) / n
+            share = (1 - w_poll) * (lula / (lula + flavio) * 100) + w_poll * share_p
+            novo_l = round((lula + flavio) * share / 100, 1)
+            novo_f = round((lula + flavio) * (100 - share) / 100, 1)
+            if validate.check(lula, novo_l)[0] and validate.check(flavio, novo_f)[0]:
+                out["Lula"], out["Flávio"] = novo_l, novo_f
+                changed = True
+    if changed:
+        insts = sorted({p["pollster"] for _, p in pesos})
+        out["basis"] = ((lean.get("basis") or "") +
+                        f" + {'/'.join(insts)} estadual (w={w_poll:.2f})").lstrip(" +")
+    return out
+
+
 def latest_polls() -> dict:
     files = sorted((ROOT / "data" / "polls").glob("*.json"))
     if not files:
@@ -65,8 +134,9 @@ def state_may_change(sen_records: list[dict]) -> float | None:
     return None
 
 
-def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf, swing=0.0):
-    lean = swing_lean(pres_lean.get(uf, {}), swing)   # combina 2022 + swing nacional
+def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
+    # lean já chega pronto: roster/2022 + swing nacional + blend das pesquisas estaduais
+    lean = pres_lean.get(uf, {})
     basis = lean.get("basis")
 
     # --- governador: pesquisa própria (confiab. 1.0) + lean presidencial do bloco ---
@@ -295,11 +365,18 @@ def main():
         by_uf.setdefault(r["uf"], {"Governo": [], "Senado": []})[r["cargo"]].append(r)
 
     swing = national_swing(polls.get("president"))   # 2022 estadual + pesquisa nacional atual
+    # lean final por estado: roster/2022 -> swing nacional (só proxy) -> blend estadual
+    pres_states = polls.get("president_states") or {}
+    final_lean = {}
+    for uf, l in roster.get("pres_lean", {}).items():
+        if isinstance(l, dict):
+            l = blend_state_pres(swing_lean(l, swing), pres_states.get(uf) or [], as_of)
+        final_lean[uf] = l
     states = {}
     for uf in sorted(by_uf):
         states[uf] = score_state(
-            uf, by_uf[uf]["Governo"], by_uf[uf]["Senado"], roster["pres_lean"],
-            days, roster["gov_confidence"], roster["sen_confidence"], swing=swing,
+            uf, by_uf[uf]["Governo"], by_uf[uf]["Senado"], final_lean,
+            days, roster["gov_confidence"], roster["sen_confidence"],
         )
 
     new_ids, prev_date, comparable = new_poll_ids(polls["records"])
@@ -330,8 +407,8 @@ def main():
         "available": bool(polls.get("president")),
         "national": polls.get("president"),
         "national_swing": swing,
-        "pres_lean": {uf: (swing_lean(l, swing) if isinstance(l, dict) else l)
-                      for uf, l in roster.get("pres_lean", {}).items()},
+        "pres_lean": final_lean,
+        "state_polls": pres_states,
     }
     (WEB_DATA / "president.json").write_text(
         json.dumps(president, ensure_ascii=False, indent=1), encoding="utf-8")

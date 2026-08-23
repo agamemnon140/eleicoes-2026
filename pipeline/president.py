@@ -105,6 +105,63 @@ def parse_poll(html: str, url: str) -> dict:
             "first_round": first, "runoff": runoff}
 
 
+def state_scoped(url: str, estados: dict) -> bool:
+    """Matéria presidencial recortada POR ESTADO (ex.: …-presidente-agosto-26-sp-mg-rj-pe-df).
+
+    Esses números medem UM eleitorado estadual: entrar no poll-of-polls nacional
+    contamina a média — a lista de SP entraria como se fosse o Brasil, e com o maior
+    peso por ser a mais recente. O slug denuncia: siglas de UF ou nome de estado.
+    """
+    slug = "-" + strip_accents(url.rstrip("/").split("/")[-1]).lower() + "-"
+    if any(f"-{gz.uf_slug(nome)}-" in slug for nome in (estados or {}).values()):
+        return True
+    toks = set(slug.strip("-").split("-"))
+    return any(uf.lower() in toks for uf in (estados or {}))
+
+
+_RUNOFF_HDR = ("segundo turno", "2o turno", "2 turno")
+
+
+def _uf_from_ctx(ctx: str, estados: dict) -> str | None:
+    """UF do cabeçalho da lista ('São Paulo - Pesquisa estimulada'). ctx já vem normalizado."""
+    for uf, nome in estados.items():
+        if ctx.startswith(strip_accents(nome).lower()):
+            return uf
+    return None
+
+
+def parse_state_poll(html: str, url: str, estados: dict) -> dict:
+    """Matéria multi-estado -> {uf: {pollster, date, url, first_round, runoff}}.
+
+    `first_round`/`runoff` são {bloco: %} — só os 4 blocos presidenciais entram, porque é
+    isso que o pres_lean acompanha. Estado pode vir só com 2º turno (RJ/PE/DF na Datafolha
+    de ago/26); quem consome decide o que fazer com cada cenário — aqui não se mistura.
+    """
+    date = gz.published_date(html, url)
+    pollster = pollster_from_url(url)
+    out: dict = {}
+    for ctx, items in _lists(html):
+        uf = _uf_from_ctx(ctx, estados)
+        if not uf or not items:
+            continue
+        by_bloc: dict = {}
+        for name, _party, pct in items:
+            b = _bloc(name)
+            if b != "Indefinido" and b not in by_bloc:
+                by_bloc[b] = pct
+        if not by_bloc:
+            continue
+        e = out.setdefault(uf, {"pollster": pollster, "date": date, "url": url,
+                                "first_round": None, "runoff": None})
+        if any(k in ctx for k in _RUNOFF_HDR):
+            if e["runoff"] is None and "Lula" in by_bloc and "Flávio" in by_bloc:
+                e["runoff"] = {"Lula": by_bloc["Lula"], "Flávio": by_bloc["Flávio"]}
+        elif "estimulad" in ctx and "espontan" not in ctx:
+            if e["first_round"] is None:
+                e["first_round"] = by_bloc
+    return {uf: e for uf, e in out.items() if e["first_round"] or e["runoff"]}
+
+
 HALFLIFE_DAYS = 14   # meia-vida do peso por recência no agregado presidencial
 
 
@@ -176,14 +233,27 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
     }
 
 
-def collect(session: requests.Session) -> dict:
-    polls = []
+def collect_all(session: requests.Session, estados: dict | None = None) -> tuple[dict, list]:
+    """Agregado nacional + leituras presidenciais POR ESTADO.
+
+    Retorna (nacional, estaduais); estaduais é uma lista de dicts com "uf" — matérias
+    recortadas por estado saem do poll-of-polls nacional e entram aqui.
+    """
+    polls, states = [], []
     for url in discover_pres(session):
         try:
             html = session.get(url, timeout=30).text
         except requests.RequestException:
             continue
+        if estados and state_scoped(url, estados):
+            for uf, e in parse_state_poll(html, url, estados).items():
+                states.append({"uf": uf, **e})
+            continue
         p = parse_poll(html, url)
         if p["first_round"]:
             polls.append(p)
-    return aggregate(polls)
+    return aggregate(polls), states
+
+
+def collect(session: requests.Session) -> dict:
+    return collect_all(session)[0]

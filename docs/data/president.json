@@ -6,39 +6,39 @@
   "polls": 6,
   "institutos": [
    "Datafolha",
-   "Datafolha",
    "Nexus",
    "Quaest",
    "PoderData",
-   "CNT/MDA"
+   "CNT/MDA",
+   "Gerp"
   ],
-  "latest_date": "23/08/2026",
+  "latest_date": "21/08/2026",
   "first_round": [
    {
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 38.8,
+    "avg": 39.8,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 33.2,
-    "n": 6
-   },
-   {
-    "name": "Renan Santos",
-    "party": "Missão",
-    "bloc": "Indefinido",
-    "avg": 4.1,
+    "avg": 33.4,
     "n": 6
    },
    {
     "name": "Ronaldo Caiado",
     "party": "PSD",
     "bloc": "Caiado",
+    "avg": 4.2,
+    "n": 6
+   },
+   {
+    "name": "Renan Santos",
+    "party": "Missão",
+    "bloc": "Indefinido",
     "avg": 4.0,
     "n": 6
    },
@@ -46,29 +46,29 @@
     "name": "Romeu Zema",
     "party": "Novo",
     "bloc": "Zema",
-    "avg": 3.1,
+    "avg": 2.9,
     "n": 6
    },
    {
     "name": "Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 2.1,
+    "avg": 1.6,
     "n": 5
    },
    {
     "name": "Samara Martins",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 1.3,
+    "avg": 0.9,
     "n": 5
    },
    {
-    "name": "Edmilson Costa",
-    "party": "PCB",
+    "name": "Rui Costa Pimenta",
+    "party": "PCO",
     "bloc": "Indefinido",
-    "avg": 0.7,
-    "n": 3
+    "avg": 0.6,
+    "n": 5
    }
   ],
   "runoff": {
@@ -76,23 +76,15 @@
    "Flávio": 42.4
   },
   "trend": {
-   "Lula": -8.4,
-   "Flávio": 6.3
+   "Lula": 1.0,
+   "Flávio": -6.0
   },
   "used": [
    {
     "pollster": "Datafolha",
-    "date": "23/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
-    "weight": 0.225,
-    "Lula": 34.0,
-    "Flávio": 35.0
-   },
-   {
-    "pollster": "Datafolha",
     "date": "21/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-2026/",
-    "weight": 0.204,
+    "weight": 0.226,
     "Lula": 39.0,
     "Flávio": 32.0
    },
@@ -100,7 +92,7 @@
     "pollster": "Nexus",
     "date": "17/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
-    "weight": 0.167,
+    "weight": 0.186,
     "Lula": 41.0,
     "Flávio": 36.0
    },
@@ -108,7 +100,7 @@
     "pollster": "Quaest",
     "date": "14/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
-    "weight": 0.144,
+    "weight": 0.16,
     "Lula": 38.0,
     "Flávio": 31.0
    },
@@ -116,7 +108,7 @@
     "pollster": "PoderData",
     "date": "13/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
-    "weight": 0.137,
+    "weight": 0.152,
     "Lula": 41.0,
     "Flávio": 35.0
    },
@@ -124,9 +116,17 @@
     "pollster": "CNT/MDA",
     "date": "11/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
-    "weight": 0.124,
+    "weight": 0.138,
     "Lula": 42.4,
     "Flávio": 28.7
+   },
+   {
+    "pollster": "Gerp",
+    "date": "11/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
+    "weight": 0.138,
+    "Lula": 38.0,
+    "Flávio": 38.0
    }
   ]
  },
@@ -175,11 +175,11 @@
    "basis": "Quaest 24–28/07"
   },
   "DF": {
-   "Lula": 32,
-   "Flávio": 33.5,
+   "Lula": 30.8,
+   "Flávio": 34.7,
    "Caiado": 5,
    "Zema": 4,
-   "basis": "Correio/Opinião 30/07–01/08"
+   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)"
   },
   "ES": {
    "Lula": 43.2,
@@ -203,11 +203,11 @@
    "basis": "proxy 2º turno 2022 + swing nac. +1.2"
   },
   "MG": {
-   "Lula": 30,
-   "Flávio": 29,
-   "Caiado": 3,
-   "Zema": 12,
-   "basis": "Quaest 22–26/07"
+   "Lula": 32.0,
+   "Flávio": 29.7,
+   "Caiado": 3.0,
+   "Zema": 10.7,
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
   },
   "MS": {
    "Lula": 41.7,
@@ -238,11 +238,11 @@
    "basis": "proxy 2º turno 2022 + swing nac. +1.2"
   },
   "PE": {
-   "Lula": 55,
-   "Flávio": 21,
+   "Lula": 53.9,
+   "Flávio": 22.1,
    "Caiado": 1,
    "Zema": 1,
-   "basis": "Quaest 22–26/07"
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
   },
   "PI": {
    "Lula": 78.1,
@@ -259,11 +259,11 @@
    "basis": "Quaest 21–25/07"
   },
   "RJ": {
-   "Lula": 30,
-   "Flávio": 32,
+   "Lula": 29.3,
+   "Flávio": 32.7,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "Quaest 21–25/07"
+   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
   },
   "RN": {
    "Lula": 66.3,
@@ -308,11 +308,11 @@
    "basis": "proxy 2º turno 2022 + swing nac. +1.2"
   },
   "SP": {
-   "Lula": 30,
-   "Flávio": 34,
-   "Caiado": 3,
-   "Zema": 3,
-   "basis": "Quaest 23–27/07"
+   "Lula": 31.3,
+   "Flávio": 34.3,
+   "Caiado": 3.0,
+   "Zema": 3.0,
+   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
   },
   "TO": {
    "Lula": 52.6,
@@ -321,5 +321,77 @@
    "Zema": 3,
    "basis": "proxy 2º turno 2022 + swing nac. +1.2"
   }
+ },
+ "state_polls": {
+  "SP": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": {
+     "Flávio": 35.0,
+     "Lula": 34.0,
+     "Zema": 3.0,
+     "Caiado": 3.0
+    },
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 47.0
+    }
+   }
+  ],
+  "MG": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": {
+     "Lula": 36.0,
+     "Flávio": 31.0,
+     "Zema": 8.0,
+     "Caiado": 3.0
+    },
+    "runoff": {
+     "Lula": 46.0,
+     "Flávio": 42.0
+    }
+   }
+  ],
+  "RJ": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 40.0,
+     "Flávio": 49.0
+    }
+   }
+  ],
+  "PE": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 62.0,
+     "Flávio": 29.0
+    }
+   }
+  ],
+  "DF": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 39.0,
+     "Flávio": 51.0
+    }
+   }
+  ]
  }
 }

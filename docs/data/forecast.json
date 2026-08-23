@@ -8,7 +8,7 @@
   "new_polls": 2,
   "prev_date": "2026-08-22",
   "comparable": true,
-  "total_polls": 150
+  "total_polls": 148
  },
  "ma": {
   "window_days": 30,
@@ -116,14 +116,6 @@
    ]
   },
   {
-   "party": "PDT",
-   "hold": 0,
-   "newSen": 2,
-   "sen2027": 2,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
    "party": "Podemos",
    "hold": 0,
    "newSen": 2,
@@ -132,7 +124,15 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "PDT",
+   "hold": 0,
+   "newSen": 2,
+   "sen2027": 2,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -148,7 +148,7 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Novo",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -7347,7 +7347,7 @@
      "name": "Celina Leão",
      "party": "PP",
      "bloc": "Flávio",
-     "score": 62.6
+     "score": 62.8
     },
     "race": {
      "turno": 2,
@@ -7449,15 +7449,15 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 62.6,
+      "score": 62.8,
       "components": {
        "governo": 57.4,
-       "presidente": 5.2
+       "presidente": 5.4
       },
       "model": {
        "scores": {
         "governo": 63.333333333333336,
-        "presidente": 55.833333333333336
+        "presidente": 57.83333333333334
        },
        "weights": {
         "governo": 0.907,
@@ -7466,10 +7466,10 @@
        "inputs": {
         "gov_pct": 38.0,
         "gov_reliability": 1.0,
-        "pres_pct": 33.5,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": true,
@@ -7571,7 +7571,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Correio/Opinião 30/07–01/08"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -7653,15 +7653,15 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.7,
+      "score": 30.5,
       "components": {
        "governo": 25.7,
-       "presidente": 5.0
+       "presidente": 4.8
       },
       "model": {
        "scores": {
         "governo": 28.333333333333336,
-        "presidente": 53.333333333333336
+        "presidente": 51.333333333333336
        },
        "weights": {
         "governo": 0.907,
@@ -7670,10 +7670,10 @@
        "inputs": {
         "gov_pct": 17.0,
         "gov_reliability": 1.0,
-        "pres_pct": 32,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -7702,13 +7702,13 @@
       "name": "Michelle Bolsonaro",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 74.7
+      "score": 75.2
      },
      {
       "name": "Bia Kicis",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 59.2
+      "score": 59.7
      }
     ],
     "candidates": [
@@ -7754,17 +7754,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 74.7,
+      "score": 75.2,
       "components": {
        "governo": 14.1,
-       "presidente": 13.7,
+       "presidente": 14.2,
        "senado": 37.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 49.400000000000006,
-        "presidente": 55.833333333333336,
+        "presidente": 57.83333333333334,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -7782,10 +7782,10 @@
        "inputs": {
         "gov_pct": 38.0,
         "gov_reliability": 0.78,
-        "pres_pct": 33.5,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 100.0,
         "gov_ticket": "Celina Leão",
         "endorsement": "explícito"
@@ -7835,17 +7835,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 59.2,
+      "score": 59.7,
       "components": {
        "governo": 14.1,
-       "presidente": 13.7,
+       "presidente": 14.2,
        "senado": 21.4,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 49.400000000000006,
-        "presidente": 55.833333333333336,
+        "presidente": 57.83333333333334,
         "senado": 57.954545,
         "apoio": 100.0
        },
@@ -7863,10 +7863,10 @@
        "inputs": {
         "gov_pct": 38.0,
         "gov_reliability": 0.78,
-        "pres_pct": 33.5,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 57.954545,
         "gov_ticket": "Celina Leão",
         "endorsement": "explícito"
@@ -7916,17 +7916,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 55.0,
+      "score": 54.5,
       "components": {
        "governo": 6.3,
-       "presidente": 13.0,
+       "presidente": 12.6,
        "senado": 31.1,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 22.1,
-        "presidente": 53.333333333333336,
+        "presidente": 51.333333333333336,
         "senado": 84.090909,
         "apoio": 45.0
        },
@@ -7944,10 +7944,10 @@
        "inputs": {
         "gov_pct": 17.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 84.090909,
         "gov_ticket": "Leandro Grass",
         "endorsement": "inferido"
@@ -7997,17 +7997,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 47.3,
+      "score": 46.8,
       "components": {
        "governo": 6.3,
-       "presidente": 13.0,
+       "presidente": 12.6,
        "senado": 23.4,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 22.1,
-        "presidente": 53.333333333333336,
+        "presidente": 51.333333333333336,
         "senado": 63.257576,
         "apoio": 45.0
        },
@@ -8025,10 +8025,10 @@
        "inputs": {
         "gov_pct": 17.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 63.257576,
         "gov_ticket": "Leandro Grass",
         "endorsement": "inferido"
@@ -8064,17 +8064,17 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 32.3,
+      "score": 32.8,
       "components": {
        "governo": 14.1,
-       "presidente": 13.7,
+       "presidente": 14.2,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 49.400000000000006,
-        "presidente": 55.833333333333336,
+        "presidente": 57.83333333333334,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -8092,10 +8092,10 @@
        "inputs": {
         "gov_pct": 38.0,
         "gov_reliability": 0.78,
-        "pres_pct": 33.5,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 0.0,
         "gov_ticket": "Celina Leão",
         "endorsement": "inferido"
@@ -8176,7 +8176,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Correio/Opinião 30/07–01/08",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.33)",
         "sen_norm": 15.909091,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -12543,7 +12543,7 @@
      "name": "Cleitinho",
      "party": "Republicanos",
      "bloc": "Flávio",
-     "score": 70.7
+     "score": 70.8
     },
     "race": {
      "turno": 2,
@@ -12678,15 +12678,15 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 70.7,
+      "score": 70.8,
       "components": {
        "governo": 66.2,
-       "presidente": 4.5
+       "presidente": 4.6
       },
       "model": {
        "scores": {
         "governo": 73.0,
-        "presidente": 48.333333333333336
+        "presidente": 49.5
        },
        "weights": {
         "governo": 0.907,
@@ -12695,10 +12695,10 @@
        "inputs": {
         "gov_pct": 43.8,
         "gov_reliability": 1.0,
-        "pres_pct": 29,
+        "pres_pct": 29.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": true,
@@ -12806,15 +12806,15 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 29.6,
+      "score": 29.9,
       "components": {
        "governo": 24.9,
-       "presidente": 4.7
+       "presidente": 5.0
       },
       "model": {
        "scores": {
         "governo": 27.5,
-        "presidente": 50.0
+        "presidente": 53.333333333333336
        },
        "weights": {
         "governo": 0.907,
@@ -12823,10 +12823,10 @@
        "inputs": {
         "gov_pct": 16.5,
         "gov_reliability": 1.0,
-        "pres_pct": 30,
+        "pres_pct": 32.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -12954,7 +12954,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13079,10 +13079,10 @@
        "inputs": {
         "gov_pct": 7.2,
         "gov_reliability": 1.0,
-        "pres_pct": 3,
+        "pres_pct": 3.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Caiado",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13176,7 +13176,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13270,7 +13270,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13364,7 +13364,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13458,7 +13458,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13539,7 +13539,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13633,7 +13633,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -13643,10 +13643,10 @@
    },
    "senate": {
     "seats": 2,
-    "bloc": "Flávio",
+    "bloc": "Lula",
     "blocs": [
-     "Flávio",
-     "Lula"
+     "Lula",
+     "Flávio"
     ],
     "certainty": "Muito baixa",
     "stale": false,
@@ -13659,126 +13659,19 @@
     },
     "estimate": [
      {
-      "name": "Domingos Sávio",
-      "party": "PL",
-      "bloc": "Flávio",
-      "score": 57.1
-     },
-     {
       "name": "Marília Campos",
       "party": "PT",
       "bloc": "Lula",
-      "score": 56.8
-     }
-    ],
-    "candidates": [
+      "score": 57.8
+     },
      {
-      "uf": "MG",
-      "cargo": "Senado",
       "name": "Domingos Sávio",
       "party": "PL",
       "bloc": "Flávio",
-      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
-      "apoio_verificado": true,
-      "pct": 7.2,
-      "pct_valid": 11.2,
-      "pct_valid_estimado": null,
-      "runoff": {},
-      "pctDisplay": "7,2%",
-      "instituto": "média móvel de 3 pesquisas",
-      "campo": "21/08/2026",
-      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
-      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
-      "situacao": "Fora do top 2 numérico",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": "Cleitinho",
-      "may_change": 64,
-      "source": "média",
-      "polls": [
-       {
-        "pollster": "Datafolha",
-        "date": "21/08/2026",
-        "pct": 6.0,
-        "pct_valid": 11.32,
-        "base": "totais",
-        "sum_cands": 53.0,
-        "undecided": 45.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-minas-gerais-agosto-2026/",
-        "weight": 0.597
-       },
-       {
-        "pollster": "Real Time Big Data",
-        "date": "30/07/2026",
-        "pct": 9.0,
-        "pct_valid": 10.59,
-        "base": "totais",
-        "sum_cands": 85.0,
-        "undecided": 15.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
-        "weight": 0.211
-       },
-       {
-        "pollster": "Quaest",
-        "date": "28/07/2026",
-        "pct": 9.0,
-        "pct_valid": 11.54,
-        "base": "totais",
-        "sum_cands": 78.0,
-        "undecided": 22.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
-        "weight": 0.191
-       }
-      ],
-      "estimated_preview": true,
-      "certainty_preview": "Muito baixa",
-      "score": 57.1,
-      "components": {
-       "governo": 19.6,
-       "presidente": 14.3,
-       "senado": 13.2,
-       "apoio": 10.0
-      },
-      "model": {
-       "scores": {
-        "governo": 56.940000000000005,
-        "presidente": 48.333333333333336,
-        "senado": 50.909091,
-        "apoio": 100.0
-       },
-       "weights": {
-        "governo": 0.3447102017214791,
-        "presidente": 0.29546588718983924,
-        "senado": 0.2598239110886816,
-        "apoio": 0.1
-       },
-       "momentum": {
-        "delta_pp": -3.8,
-        "weight": 0.0,
-        "bonus": -0.0
-       },
-       "inputs": {
-        "gov_pct": 43.8,
-        "gov_reliability": 0.78,
-        "pres_pct": 29,
-        "pres_reliability": 1.0,
-        "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
-        "sen_norm": 50.909091,
-        "gov_ticket": "Cleitinho",
-        "endorsement": "explícito"
-       }
-      },
-      "estimated": true
-     },
+      "score": 57.5
+     }
+    ],
+    "candidates": [
      {
       "uf": "MG",
       "cargo": "Senado",
@@ -13847,17 +13740,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 56.8,
+      "score": 57.8,
       "components": {
        "governo": 7.0,
-       "presidente": 14.8,
+       "presidente": 15.8,
        "senado": 26.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 20.41,
-        "presidente": 50.0,
+        "presidente": 53.333333333333336,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -13875,13 +13768,120 @@
        "inputs": {
         "gov_pct": 15.7,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 32.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 100.0,
         "gov_ticket": "Patrus Ananias",
         "endorsement": "chapa/aliança"
+       }
+      },
+      "estimated": true
+     },
+     {
+      "uf": "MG",
+      "cargo": "Senado",
+      "name": "Domingos Sávio",
+      "party": "PL",
+      "bloc": "Flávio",
+      "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
+      "apoio_verificado": true,
+      "pct": 7.2,
+      "pct_valid": 11.2,
+      "pct_valid_estimado": null,
+      "runoff": {},
+      "pctDisplay": "7,2%",
+      "instituto": "média móvel de 3 pesquisas",
+      "campo": "21/08/2026",
+      "cenario": "Cenário estimulado sem Aécio Neves; consolidado dos dois votos",
+      "indecisao": "17% indecisos; 17% branco/nulo/não vota; 64% disseram que poderiam mudar o voto ao Senado",
+      "situacao": "Fora do top 2 numérico",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": "Cleitinho",
+      "may_change": 64,
+      "source": "média",
+      "polls": [
+       {
+        "pollster": "Datafolha",
+        "date": "21/08/2026",
+        "pct": 6.0,
+        "pct_valid": 11.32,
+        "base": "totais",
+        "sum_cands": 53.0,
+        "undecided": 45.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-minas-gerais-agosto-2026/",
+        "weight": 0.597
+       },
+       {
+        "pollster": "Real Time Big Data",
+        "date": "30/07/2026",
+        "pct": 9.0,
+        "pct_valid": 10.59,
+        "base": "totais",
+        "sum_cands": 85.0,
+        "undecided": 15.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-minas-gerais-julho-2026/",
+        "weight": 0.211
+       },
+       {
+        "pollster": "Quaest",
+        "date": "28/07/2026",
+        "pct": 9.0,
+        "pct_valid": 11.54,
+        "base": "totais",
+        "sum_cands": 78.0,
+        "undecided": 22.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-minas-gerais-julho-2026/",
+        "weight": 0.191
+       }
+      ],
+      "estimated_preview": true,
+      "certainty_preview": "Muito baixa",
+      "score": 57.5,
+      "components": {
+       "governo": 19.6,
+       "presidente": 14.6,
+       "senado": 13.2,
+       "apoio": 10.0
+      },
+      "model": {
+       "scores": {
+        "governo": 56.940000000000005,
+        "presidente": 49.5,
+        "senado": 50.909091,
+        "apoio": 100.0
+       },
+       "weights": {
+        "governo": 0.3447102017214791,
+        "presidente": 0.29546588718983924,
+        "senado": 0.2598239110886816,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": -3.8,
+        "weight": 0.0,
+        "bonus": -0.0
+       },
+       "inputs": {
+        "gov_pct": 43.8,
+        "gov_reliability": 0.78,
+        "pres_pct": 29.7,
+        "pres_reliability": 1.0,
+        "pres_bloc": "Flávio",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
+        "sen_norm": 50.909091,
+        "gov_ticket": "Cleitinho",
+        "endorsement": "explícito"
        }
       },
       "estimated": true
@@ -13954,17 +13954,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 55.8,
+      "score": 56.1,
       "components": {
        "governo": 19.6,
-       "presidente": 14.3,
+       "presidente": 14.6,
        "senado": 17.4,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 56.940000000000005,
-        "presidente": 48.333333333333336,
+        "presidente": 49.5,
         "senado": 66.818182,
         "apoio": 45.0
        },
@@ -13982,10 +13982,10 @@
        "inputs": {
         "gov_pct": 43.8,
         "gov_reliability": 0.78,
-        "pres_pct": 29,
+        "pres_pct": 29.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 66.818182,
         "gov_ticket": "Cleitinho",
         "endorsement": "inferido"
@@ -14082,17 +14082,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 52.1,
+      "score": 52.5,
       "components": {
        "governo": 19.6,
-       "presidente": 14.3,
+       "presidente": 14.6,
        "senado": 13.7,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 56.940000000000005,
-        "presidente": 48.333333333333336,
+        "presidente": 49.5,
         "senado": 52.727273,
         "apoio": 45.0
        },
@@ -14110,10 +14110,10 @@
        "inputs": {
         "gov_pct": 43.8,
         "gov_reliability": 0.78,
-        "pres_pct": 29,
+        "pres_pct": 29.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 52.727273,
         "gov_ticket": "Cleitinho",
         "endorsement": "inferido"
@@ -14194,7 +14194,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 43.096234,
         "gov_ticket": "Cleitinho",
         "endorsement": "não verificado"
@@ -14288,7 +14288,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 23.181818,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14395,7 +14395,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 22.727273,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14489,7 +14489,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 15.481172,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14570,7 +14570,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 5.909091,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14651,7 +14651,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 5.909091,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14718,7 +14718,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": null,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -14799,7 +14799,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -16856,7 +16856,7 @@
      "name": "Hana Ghassan",
      "party": "MDB",
      "bloc": "Lula",
-     "score": 77.7
+     "score": 80.4
     },
     "race": {
      "turno": 2,
@@ -16867,17 +16867,17 @@
       "Dr. Daniel Santos"
      ],
      "pcts": {
-      "Hana Ghassan": 47.5,
-      "Dr. Daniel Santos": 40.6,
-      "Araceli Lemos": 2.8,
-      "Cleber Rabelo": 1.0,
+      "Hana Ghassan": 49.3,
+      "Dr. Daniel Santos": 42.3,
+      "Araceli Lemos": 2.7,
+      "Cleber Rabelo": 0.6,
       "Gal Leite": 0.0
      },
      "duelo": {
-      "Hana Ghassan": 52.0,
-      "Dr. Daniel Santos": 48.0
+      "Hana Ghassan": 52.3,
+      "Dr. Daniel Santos": 47.7
      },
-     "margem": 4.0
+     "margem": 4.6
     },
     "weights": {
      "gov": 0.907,
@@ -16892,13 +16892,13 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 39.7,
-      "pct_valid": 47.5,
+      "pct": 43.1,
+      "pct_valid": 49.3,
       "pct_valid_estimado": null,
       "runoff": {
        "Dr. Daniel Santos": {
-        "pct_valid": 52.0,
-        "pct": 43.4,
+        "pct_valid": 52.3,
+        "pct": 45.0,
         "date": "20/08/2026",
         "polls": [
          {
@@ -16912,7 +16912,7 @@
           "scenario": "2º turno",
           "source": "gazeta",
           "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-          "weight": 0.564
+          "weight": 0.688
          },
          {
           "pollster": "Real Time Big Data",
@@ -16925,26 +16925,13 @@
           "scenario": "2º turno",
           "source": "gazeta",
           "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-          "weight": 0.255
-         },
-         {
-          "pollster": "Quaest",
-          "date": "27/07/2026",
-          "pct": 36.0,
-          "pct_valid": 50.7,
-          "base": "totais",
-          "sum_cands": 71.0,
-          "undecided": 29.0,
-          "scenario": "2º turno",
-          "source": "gazeta",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-          "weight": 0.181
+          "weight": 0.312
          }
         ]
        }
       },
-      "pctDisplay": "39,7%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "43,1%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -16968,7 +16955,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -16981,32 +16968,19 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 24.0,
-        "pct_valid": 39.34,
-        "base": "totais",
-        "sum_cands": 61.0,
-        "undecided": 39.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 77.7,
+      "score": 80.4,
       "components": {
-       "governo": 71.8,
+       "governo": 74.5,
        "presidente": 5.9
       },
       "model": {
        "scores": {
-        "governo": 79.16666666666667,
+        "governo": 82.16666666666667,
         "presidente": 63.333333333333336
        },
        "weights": {
@@ -17014,7 +16988,7 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 47.5,
+        "gov_pct": 49.3,
         "gov_reliability": 1.0,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -17033,13 +17007,13 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro (provável)",
       "apoio_verificado": false,
-      "pct": 33.9,
-      "pct_valid": 40.6,
+      "pct": 36.9,
+      "pct_valid": 42.3,
       "pct_valid_estimado": null,
       "runoff": {
        "Hana Ghassan": {
-        "pct_valid": 48.0,
-        "pct": 39.6,
+        "pct_valid": 47.7,
+        "pct": 40.6,
         "date": "20/08/2026",
         "polls": [
          {
@@ -17053,7 +17027,7 @@
           "scenario": "2º turno",
           "source": "gazeta",
           "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-          "weight": 0.564
+          "weight": 0.688
          },
          {
           "pollster": "Real Time Big Data",
@@ -17066,26 +17040,13 @@
           "scenario": "2º turno",
           "source": "gazeta",
           "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-          "weight": 0.255
-         },
-         {
-          "pollster": "Quaest",
-          "date": "27/07/2026",
-          "pct": 35.0,
-          "pct_valid": 49.3,
-          "base": "totais",
-          "sum_cands": 71.0,
-          "undecided": 29.0,
-          "scenario": "2º turno",
-          "source": "gazeta",
-          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-          "weight": 0.181
+          "weight": 0.312
          }
         ]
        }
       },
-      "pctDisplay": "33,9%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "36,9%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -17109,7 +17070,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17122,32 +17083,19 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 20.0,
-        "pct_valid": 32.79,
-        "base": "totais",
-        "sum_cands": 61.0,
-        "undecided": 39.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 66.2,
+      "score": 68.7,
       "components": {
-       "governo": 61.4,
+       "governo": 63.9,
        "presidente": 4.8
       },
       "model": {
        "scores": {
-        "governo": 67.66666666666667,
+        "governo": 70.5,
         "presidente": 51.66666666666667
        },
        "weights": {
@@ -17155,7 +17103,7 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 40.6,
+        "gov_pct": 42.3,
         "gov_reliability": 1.0,
         "pres_pct": 31,
         "pres_reliability": 1.0,
@@ -17256,11 +17204,11 @@
       "apoio": "Lula",
       "apoio_verificado": false,
       "pct": 2.2,
-      "pct_valid": 2.8,
+      "pct_valid": 2.7,
       "pct_valid_estimado": null,
       "runoff": {},
       "pctDisplay": "2,2%",
-      "instituto": "média móvel de 3 pesquisas",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Estimulado, 1º turno",
       "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -17284,7 +17232,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17297,32 +17245,19 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 2.0,
-        "pct_valid": 3.28,
-        "base": "totais",
-        "sum_cands": 61.0,
-        "undecided": 39.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 10.1,
+      "score": 10.0,
       "components": {
-       "governo": 4.2,
+       "governo": 4.1,
        "presidente": 5.9
       },
       "model": {
        "scores": {
-        "governo": 4.666666666666667,
+        "governo": 4.500000000000001,
         "presidente": 63.333333333333336
        },
        "weights": {
@@ -17330,7 +17265,7 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 2.8,
+        "gov_pct": 2.7,
         "gov_reliability": 1.0,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -17430,12 +17365,12 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 0.7,
-      "pct_valid": 1.0,
+      "pct": 0.4,
+      "pct_valid": 0.6,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "0,7%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "0,4%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": null,
       "indecisao": null,
@@ -17459,7 +17394,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17472,32 +17407,19 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 2.0,
-        "pct_valid": 3.28,
-        "base": "totais",
-        "sum_cands": 61.0,
-        "undecided": 39.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 1.5,
+      "score": 0.9,
       "components": {
-       "governo": 1.5,
+       "governo": 0.9,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 1.6666666666666667,
+        "governo": 1.0,
         "presidente": 0.0
        },
        "weights": {
@@ -17505,7 +17427,7 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 1.0,
+        "gov_pct": 0.6,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
@@ -17607,13 +17529,13 @@
       "name": "Helder Barbalho",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 79.1
+      "score": 79.8
      },
      {
       "name": "Delegado Éder Mauro",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 60.7
+      "score": 61.1
      }
     ],
     "candidates": [
@@ -17625,12 +17547,12 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 27.5,
-      "pct_valid": 32.8,
+      "pct": 29.0,
+      "pct_valid": 32.5,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "27,5%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "29,0%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -17654,7 +17576,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17667,34 +17589,21 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 21.0,
-        "pct_valid": 33.87,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 79.1,
+      "score": 79.8,
       "components": {
-       "governo": 17.6,
+       "governo": 18.3,
        "presidente": 15.5,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 61.75000000000001,
+        "governo": 64.09,
         "presidente": 63.333333333333336,
         "senado": 100.0,
         "apoio": 90.0
@@ -17706,12 +17615,12 @@
         "apoio": 0.1
        },
        "momentum": {
-        "delta_pp": -12.5,
+        "delta_pp": -11.0,
         "weight": 0.0,
         "bonus": -0.0
        },
        "inputs": {
-        "gov_pct": 47.5,
+        "gov_pct": 49.3,
         "gov_reliability": 0.78,
         "pres_pct": 38,
         "pres_reliability": 1.0,
@@ -17732,12 +17641,12 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 17.0,
-      "pct_valid": 20.4,
+      "pct": 17.7,
+      "pct_valid": 20.0,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "17,0%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "17,7%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -17761,7 +17670,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17774,36 +17683,23 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 14.0,
-        "pct_valid": 22.58,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 60.7,
+      "score": 61.1,
       "components": {
-       "governo": 15.1,
+       "governo": 15.7,
        "presidente": 12.6,
-       "senado": 23.0,
+       "senado": 22.8,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 52.78000000000001,
+        "governo": 54.99,
         "presidente": 51.66666666666667,
-        "senado": 62.195122,
+        "senado": 61.538462,
         "apoio": 100.0
        },
        "weights": {
@@ -17813,18 +17709,18 @@
         "apoio": 0.1
        },
        "momentum": {
-        "delta_pp": 1.0,
+        "delta_pp": 1.7,
         "weight": 0.0,
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 40.6,
+        "gov_pct": 42.3,
         "gov_reliability": 0.78,
         "pres_pct": 31,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 62.195122,
+        "sen_norm": 61.538462,
         "gov_ticket": "Dr. Daniel Santos",
         "endorsement": "explícito"
        }
@@ -17839,12 +17735,12 @@
       "bloc": "Lula",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 11.0,
-      "pct_valid": 12.8,
+      "pct": 12.3,
+      "pct_valid": 13.9,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "11,0%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "12,3%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -17868,7 +17764,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17881,36 +17777,23 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 5.0,
-        "pct_valid": 8.06,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 56.6,
+      "score": 58.6,
       "components": {
-       "governo": 17.6,
+       "governo": 18.3,
        "presidente": 15.5,
-       "senado": 14.4,
+       "senado": 15.8,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 61.75000000000001,
+        "governo": 64.09,
         "presidente": 63.333333333333336,
-        "senado": 39.02439,
+        "senado": 42.769231,
         "apoio": 90.0
        },
        "weights": {
@@ -17920,18 +17803,18 @@
         "apoio": 0.1
        },
        "momentum": {
-        "delta_pp": -1.0,
+        "delta_pp": 0.3,
         "weight": 0.0,
-        "bonus": -0.0
+        "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 47.5,
+        "gov_pct": 49.3,
         "gov_reliability": 0.78,
         "pres_pct": 38,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 39.02439,
+        "sen_norm": 42.769231,
         "gov_ticket": "Hana Ghassan",
         "endorsement": "chapa/aliança"
        }
@@ -17946,12 +17829,12 @@
       "bloc": "Flávio",
       "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
       "apoio_verificado": true,
-      "pct": 12.3,
-      "pct_valid": 14.6,
+      "pct": 13.5,
+      "pct_valid": 15.3,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "12,3%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "13,5%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -17975,7 +17858,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -17988,36 +17871,23 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 7.0,
-        "pct_valid": 11.29,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 54.2,
+      "score": 55.8,
       "components": {
-       "governo": 15.1,
+       "governo": 15.7,
        "presidente": 12.6,
-       "senado": 16.5,
+       "senado": 17.4,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 52.78000000000001,
+        "governo": 54.99,
         "presidente": 51.66666666666667,
-        "senado": 44.512195,
+        "senado": 47.076923,
         "apoio": 100.0
        },
        "weights": {
@@ -18027,18 +17897,18 @@
         "apoio": 0.1
        },
        "momentum": {
-        "delta_pp": 1.3,
+        "delta_pp": 2.5,
         "weight": 0.0,
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 40.6,
+        "gov_pct": 42.3,
         "gov_reliability": 0.78,
         "pres_pct": 31,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 44.512195,
+        "sen_norm": 47.076923,
         "gov_ticket": "Dr. Daniel Santos",
         "endorsement": "explícito"
        }
@@ -18053,12 +17923,12 @@
       "bloc": "Indefinido",
       "apoio": "Não verificado",
       "apoio_verificado": false,
-      "pct": 9.0,
-      "pct_valid": 10.5,
+      "pct": 10.3,
+      "pct_valid": 11.7,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "9,0%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "10,3%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": "Dois votos, consolidado e reduzido a 100%",
       "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -18082,7 +17952,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -18095,36 +17965,23 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 3.0,
-        "pct_valid": 4.84,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 29.5,
+      "score": 31.6,
       "components": {
-       "governo": 17.6,
+       "governo": 18.3,
        "presidente": 0.0,
-       "senado": 11.8,
+       "senado": 13.3,
        "apoio": 0.0
       },
       "model": {
        "scores": {
-        "governo": 61.75000000000001,
+        "governo": 64.09,
         "presidente": 0.0,
-        "senado": 32.012195,
+        "senado": 36.0,
         "apoio": 0.0
        },
        "weights": {
@@ -18134,18 +17991,18 @@
         "apoio": 0.1
        },
        "momentum": {
-        "delta_pp": -1.0,
+        "delta_pp": 0.3,
         "weight": 0.0,
-        "bonus": -0.0
+        "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 47.5,
+        "gov_pct": 49.3,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 32.012195,
+        "sen_norm": 36.0,
         "gov_ticket": "Hana Ghassan",
         "endorsement": "não verificado"
        }
@@ -18180,16 +18037,16 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 17.6,
+      "score": 18.3,
       "components": {
-       "governo": 17.6,
+       "governo": 18.3,
        "presidente": 0.0,
        "senado": 0.0,
        "apoio": 0.0
       },
       "model": {
        "scores": {
-        "governo": 61.75000000000001,
+        "governo": 64.09,
         "presidente": 0.0,
         "senado": 0.0,
         "apoio": 0.0
@@ -18206,7 +18063,7 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 47.5,
+        "gov_pct": 49.3,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
@@ -18222,124 +18079,17 @@
      {
       "uf": "PA",
       "cargo": "Senado",
-      "name": "Gizelle Freitas",
-      "party": "PSOL",
-      "bloc": "Lula",
-      "apoio": "Lula",
-      "apoio_verificado": false,
-      "pct": 1.6,
-      "pct_valid": 1.9,
-      "pct_valid_estimado": null,
-      "runoff": {},
-      "pctDisplay": "1,6%",
-      "instituto": "média móvel de 3 pesquisas",
-      "campo": "20/08/2026",
-      "cenario": null,
-      "indecisao": null,
-      "situacao": "Sem percentual comparável",
-      "fonte": "roster",
-      "status": "Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)",
-      "status_tipo": "info",
-      "active": true,
-      "gov_ticket": null,
-      "may_change": null,
-      "source": "média",
-      "polls": [
-       {
-        "pollster": "AtlasIntel",
-        "date": "20/08/2026",
-        "pct": 2.1,
-        "pct_valid": 2.41,
-        "base": "totais",
-        "sum_cands": 87.0,
-        "undecided": 13.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
-       },
-       {
-        "pollster": "Real Time Big Data",
-        "date": "04/08/2026",
-        "pct": 1.0,
-        "pct_valid": 1.09,
-        "base": "totais",
-        "sum_cands": 92.0,
-        "undecided": 8.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 1.0,
-        "pct_valid": 1.61,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
-       }
-      ],
-      "estimated_preview": false,
-      "certainty_preview": null,
-      "score": 12.2,
-      "components": {
-       "governo": 0.0,
-       "presidente": 10.1,
-       "senado": 2.1,
-       "apoio": 0.0
-      },
-      "model": {
-       "scores": {
-        "governo": 0.0,
-        "presidente": 41.16666666666667,
-        "senado": 5.792683,
-        "apoio": 0.0
-       },
-       "weights": {
-        "governo": 0.28546209935715616,
-        "presidente": 0.24468179944899102,
-        "senado": 0.3698561011938528,
-        "apoio": 0.1
-       },
-       "momentum": {
-        "delta_pp": 0,
-        "weight": 0.0,
-        "bonus": 0.0
-       },
-       "inputs": {
-        "gov_pct": null,
-        "gov_reliability": 0.78,
-        "pres_pct": 38,
-        "pres_reliability": 0.65,
-        "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 5.792683,
-        "gov_ticket": null,
-        "endorsement": "não verificado"
-       }
-      },
-      "estimated": false
-     },
-     {
-      "uf": "PA",
-      "cargo": "Senado",
       "name": "Conti",
       "party": "PSOL",
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 1.7,
-      "pct_valid": 1.9,
+      "pct": 2.1,
+      "pct_valid": 2.4,
       "pct_valid_estimado": null,
       "runoff": {},
-      "pctDisplay": "1,7%",
-      "instituto": "média móvel de 3 pesquisas",
+      "pctDisplay": "2,1%",
+      "instituto": "média móvel de 2 pesquisas",
       "campo": "20/08/2026",
       "cenario": null,
       "indecisao": null,
@@ -18363,7 +18113,7 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-        "weight": 0.564
+        "weight": 0.688
        },
        {
         "pollster": "Real Time Big Data",
@@ -18376,36 +18126,23 @@
         "scenario": "1º turno",
         "source": "gazeta",
         "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-        "weight": 0.255
-       },
-       {
-        "pollster": "Quaest",
-        "date": "27/07/2026",
-        "pct": 0.0,
-        "pct_valid": 0.0,
-        "base": "totais",
-        "sum_cands": 62.0,
-        "undecided": 38.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-        "weight": 0.181
+        "weight": 0.312
        }
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 12.2,
+      "score": 12.8,
       "components": {
        "governo": 0.0,
        "presidente": 10.1,
-       "senado": 2.1,
+       "senado": 2.7,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
         "presidente": 41.16666666666667,
-        "senado": 5.792683,
+        "senado": 7.384615,
         "apoio": 0.0
        },
        "weights": {
@@ -18426,7 +18163,101 @@
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 5.792683,
+        "sen_norm": 7.384615,
+        "gov_ticket": null,
+        "endorsement": "não verificado"
+       }
+      },
+      "estimated": false
+     },
+     {
+      "uf": "PA",
+      "cargo": "Senado",
+      "name": "Gizelle Freitas",
+      "party": "PSOL",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": 1.8,
+      "pct_valid": 2.0,
+      "pct_valid_estimado": null,
+      "runoff": {},
+      "pctDisplay": "1,8%",
+      "instituto": "média móvel de 2 pesquisas",
+      "campo": "20/08/2026",
+      "cenario": null,
+      "indecisao": null,
+      "situacao": "Sem percentual comparável",
+      "fonte": "roster",
+      "status": "Registro no TSE confirmado; entrou por aparecer em pesquisa (pico 4.0%)",
+      "status_tipo": "info",
+      "active": true,
+      "gov_ticket": null,
+      "may_change": null,
+      "source": "média",
+      "polls": [
+       {
+        "pollster": "AtlasIntel",
+        "date": "20/08/2026",
+        "pct": 2.1,
+        "pct_valid": 2.41,
+        "base": "totais",
+        "sum_cands": 87.0,
+        "undecided": 13.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
+        "weight": 0.688
+       },
+       {
+        "pollster": "Real Time Big Data",
+        "date": "04/08/2026",
+        "pct": 1.0,
+        "pct_valid": 1.09,
+        "base": "totais",
+        "sum_cands": 92.0,
+        "undecided": 8.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
+        "weight": 0.312
+       }
+      ],
+      "estimated_preview": false,
+      "certainty_preview": null,
+      "score": 12.3,
+      "components": {
+       "governo": 0.0,
+       "presidente": 10.1,
+       "senado": 2.3,
+       "apoio": 0.0
+      },
+      "model": {
+       "scores": {
+        "governo": 0.0,
+        "presidente": 41.16666666666667,
+        "senado": 6.153846,
+        "apoio": 0.0
+       },
+       "weights": {
+        "governo": 0.28546209935715616,
+        "presidente": 0.24468179944899102,
+        "senado": 0.3698561011938528,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 0,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": null,
+        "gov_reliability": 0.78,
+        "pres_pct": 38,
+        "pres_reliability": 0.65,
+        "pres_bloc": "Lula",
+        "pres_basis": "Quaest 21–25/07",
+        "sen_norm": 6.153846,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -18486,7 +18317,7 @@
        "scores": {
         "governo": 0.0,
         "presidente": 0.0,
-        "senado": 0.914634,
+        "senado": 0.923077,
         "apoio": 0.0
        },
        "weights": {
@@ -18507,7 +18338,7 @@
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
         "pres_basis": "Quaest 21–25/07",
-        "sen_norm": 0.914634,
+        "sen_norm": 0.923077,
         "gov_ticket": null,
         "endorsement": "não verificado"
        }
@@ -19189,7 +19020,7 @@
      "name": "Raquel Lyra",
      "party": "PSD",
      "bloc": "Lula",
-     "score": 84.0
+     "score": 83.8
     },
     "race": {
      "turno": 2,
@@ -19320,15 +19151,15 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 84.0,
+      "score": 83.8,
       "components": {
        "governo": 75.4,
-       "presidente": 8.5
+       "presidente": 8.4
       },
       "model": {
        "scores": {
         "governo": 83.16666666666667,
-        "presidente": 91.66666666666667
+        "presidente": 89.83333333333333
        },
        "weights": {
         "governo": 0.907,
@@ -19337,10 +19168,10 @@
        "inputs": {
         "gov_pct": 49.9,
         "gov_reliability": 1.0,
-        "pres_pct": 55,
+        "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": true,
@@ -19448,15 +19279,15 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 77.0,
+      "score": 76.8,
       "components": {
        "governo": 68.5,
-       "presidente": 8.5
+       "presidente": 8.4
       },
       "model": {
        "scores": {
         "governo": 75.5,
-        "presidente": 91.66666666666667
+        "presidente": 89.83333333333333
        },
        "weights": {
         "governo": 0.907,
@@ -19465,10 +19296,10 @@
        "inputs": {
         "gov_pct": 45.3,
         "gov_reliability": 1.0,
-        "pres_pct": 55,
+        "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19536,7 +19367,7 @@
         "pres_pct": 1,
         "pres_reliability": 1.0,
         "pres_bloc": "Zema",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19617,7 +19448,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19711,7 +19542,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19792,7 +19623,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19860,7 +19691,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07"
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -19889,13 +19720,13 @@
       "name": "Marília Arraes",
       "party": "PDT",
       "bloc": "Lula",
-      "score": 90.0
+      "score": 89.5
      },
      {
       "name": "Humberto Costa",
       "party": "PT",
       "bloc": "Lula",
-      "score": 82.9
+      "score": 82.5
      }
     ],
     "candidates": [
@@ -19967,17 +19798,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 90.0,
+      "score": 89.5,
       "components": {
        "governo": 21.6,
-       "presidente": 22.4,
+       "presidente": 22.0,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 75.5,
-        "presidente": 91.66666666666667,
+        "presidente": 89.83333333333333,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -19995,10 +19826,10 @@
        "inputs": {
         "gov_pct": 45.3,
         "gov_reliability": 1.0,
-        "pres_pct": 55,
+        "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 100.0,
         "gov_ticket": "João Campos",
         "endorsement": "chapa/aliança"
@@ -20074,17 +19905,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 82.9,
+      "score": 82.5,
       "components": {
        "governo": 21.6,
-       "presidente": 22.4,
+       "presidente": 22.0,
        "senado": 30.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 75.5,
-        "presidente": 91.66666666666667,
+        "presidente": 89.83333333333333,
         "senado": 80.988593,
         "apoio": 90.0
        },
@@ -20102,10 +19933,10 @@
        "inputs": {
         "gov_pct": 45.3,
         "gov_reliability": 1.0,
-        "pres_pct": 55,
+        "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 80.988593,
         "gov_ticket": "João Campos",
         "endorsement": "chapa/aliança"
@@ -20181,17 +20012,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 62.4,
+      "score": 62.8,
       "components": {
        "governo": 18.5,
-       "presidente": 8.6,
+       "presidente": 9.0,
        "senado": 25.3,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 64.87,
-        "presidente": 35.0,
+        "presidente": 36.833333333333336,
         "senado": 68.441065,
         "apoio": 100.0
        },
@@ -20209,10 +20040,10 @@
        "inputs": {
         "gov_pct": 49.9,
         "gov_reliability": 0.78,
-        "pres_pct": 21,
+        "pres_pct": 22.1,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 68.441065,
         "gov_ticket": "Raquel Lyra",
         "endorsement": "explícito"
@@ -20306,7 +20137,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 60.958904,
         "gov_ticket": "Raquel Lyra",
         "endorsement": "não verificado"
@@ -20413,7 +20244,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 53.992395,
         "gov_ticket": "Raquel Lyra",
         "endorsement": "não verificado"
@@ -20449,17 +20280,17 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 31.6,
+      "score": 32.0,
       "components": {
        "governo": 18.5,
-       "presidente": 8.6,
+       "presidente": 9.0,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 64.87,
-        "presidente": 35.0,
+        "presidente": 36.833333333333336,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -20477,10 +20308,10 @@
        "inputs": {
         "gov_pct": 49.9,
         "gov_reliability": 0.78,
-        "pres_pct": 21,
+        "pres_pct": 22.1,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 0.0,
         "gov_ticket": "Raquel Lyra",
         "endorsement": "inferido"
@@ -20587,7 +20418,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 32.69962,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -20668,7 +20499,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 6.08365,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -20775,7 +20606,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 22–26/07",
+        "pres_basis": "Quaest 22–26/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 4.942966,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -24154,7 +23985,7 @@
      "name": "Eduardo Paes",
      "party": "PSD",
      "bloc": "Lula",
-     "score": 84.0
+     "score": 83.9
     },
     "race": {
      "turno": 1,
@@ -24281,15 +24112,15 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 84.0,
+      "score": 83.9,
       "components": {
        "governo": 79.3,
-       "presidente": 4.7
+       "presidente": 4.6
       },
       "model": {
        "scores": {
         "governo": 87.5,
-        "presidente": 50.0
+        "presidente": 48.833333333333336
        },
        "weights": {
         "governo": 0.907,
@@ -24298,10 +24129,10 @@
        "inputs": {
         "gov_pct": 52.5,
         "gov_reliability": 1.0,
-        "pres_pct": 30,
+        "pres_pct": 29.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": true,
@@ -24409,15 +24240,15 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 36.7,
+      "score": 36.8,
       "components": {
        "governo": 31.7,
-       "presidente": 5.0
+       "presidente": 5.1
       },
       "model": {
        "scores": {
         "governo": 35.0,
-        "presidente": 53.333333333333336
+        "presidente": 54.50000000000001
        },
        "weights": {
         "governo": 0.907,
@@ -24426,10 +24257,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 1.0,
-        "pres_pct": 32,
+        "pres_pct": 32.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -24557,7 +24388,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -24631,15 +24462,15 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 8.4,
+      "score": 8.3,
       "components": {
        "governo": 3.8,
-       "presidente": 4.7
+       "presidente": 4.6
       },
       "model": {
        "scores": {
         "governo": 4.166666666666667,
-        "presidente": 50.0
+        "presidente": 48.833333333333336
        },
        "weights": {
         "governo": 0.907,
@@ -24648,10 +24479,10 @@
        "inputs": {
         "gov_pct": 2.5,
         "gov_reliability": 1.0,
-        "pres_pct": 30,
+        "pres_pct": 29.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -24745,7 +24576,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -24839,7 +24670,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -24933,7 +24764,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -25027,7 +24858,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -25121,7 +24952,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07"
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -25150,13 +24981,13 @@
       "name": "Benedita da Silva",
       "party": "PT",
       "bloc": "Lula",
-      "score": 77.7
+      "score": 77.4
      },
      {
       "name": "Pedro Paulo",
       "party": "PSD",
       "bloc": "Lula",
-      "score": 65.4
+      "score": 65.1
      }
     ],
     "candidates": [
@@ -25228,17 +25059,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 77.7,
+      "score": 77.4,
       "components": {
        "governo": 19.5,
-       "presidente": 12.2,
+       "presidente": 11.9,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 68.25,
-        "presidente": 50.0,
+        "presidente": 48.833333333333336,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -25256,10 +25087,10 @@
        "inputs": {
         "gov_pct": 52.5,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 29.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 100.0,
         "gov_ticket": "Eduardo Paes",
         "endorsement": "chapa/aliança"
@@ -25335,17 +25166,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 65.4,
+      "score": 65.1,
       "components": {
        "governo": 25.0,
-       "presidente": 12.2,
+       "presidente": 11.9,
        "senado": 19.2,
        "apoio": 9.0
       },
       "model": {
        "scores": {
         "governo": 87.5,
-        "presidente": 50.0,
+        "presidente": 48.833333333333336,
         "senado": 51.785714,
         "apoio": 90.0
        },
@@ -25363,10 +25194,10 @@
        "inputs": {
         "gov_pct": 52.5,
         "gov_reliability": 1.0,
-        "pres_pct": 30,
+        "pres_pct": 29.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 51.785714,
         "gov_ticket": "Eduardo Paes",
         "endorsement": "chapa/aliança"
@@ -25442,17 +25273,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 50.8,
+      "score": 51.1,
       "components": {
        "governo": 7.8,
-       "presidente": 13.0,
+       "presidente": 13.3,
        "senado": 20.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 27.3,
-        "presidente": 53.333333333333336,
+        "presidente": 54.50000000000001,
         "senado": 54.017857,
         "apoio": 100.0
        },
@@ -25470,10 +25301,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32,
+        "pres_pct": 32.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 54.017857,
         "gov_ticket": "Douglas Ruas",
         "endorsement": "explícito"
@@ -25549,17 +25380,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 48.3,
+      "score": 48.6,
       "components": {
        "governo": 7.8,
-       "presidente": 13.0,
+       "presidente": 13.3,
        "senado": 23.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 27.3,
-        "presidente": 53.333333333333336,
+        "presidente": 54.50000000000001,
         "senado": 62.053571,
         "apoio": 45.0
        },
@@ -25577,10 +25408,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32,
+        "pres_pct": 32.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 62.053571,
         "gov_ticket": "Douglas Ruas",
         "endorsement": "inferido"
@@ -25616,17 +25447,17 @@
       "polls": null,
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 30.8,
+      "score": 31.1,
       "components": {
        "governo": 7.8,
-       "presidente": 13.0,
+       "presidente": 13.3,
        "senado": 0.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 27.3,
-        "presidente": 53.333333333333336,
+        "presidente": 54.50000000000001,
         "senado": 0.0,
         "apoio": 100.0
        },
@@ -25644,10 +25475,10 @@
        "inputs": {
         "gov_pct": 21.0,
         "gov_reliability": 0.78,
-        "pres_pct": 32,
+        "pres_pct": 32.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 0.0,
         "gov_ticket": "Douglas Ruas",
         "endorsement": "explícito"
@@ -25754,7 +25585,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 49.107143,
         "gov_ticket": "Douglas Ruas",
         "endorsement": "não verificado"
@@ -25817,17 +25648,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 22.0,
+      "score": 21.8,
       "components": {
        "governo": 0.0,
-       "presidente": 8.0,
+       "presidente": 7.8,
        "senado": 14.0,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 32.5,
+        "presidente": 31.74166666666667,
         "senado": 37.946429,
         "apoio": 0.0
        },
@@ -25845,10 +25676,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 29.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 37.946429,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -25955,7 +25786,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 26.785714,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -26049,7 +25880,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 15.178571,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -26143,7 +25974,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 8.035714,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -26237,7 +26068,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 21–25/07",
+        "pres_basis": "Quaest 21–25/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 7.589286,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -33385,7 +33216,7 @@
      "name": "Tarcísio de Freitas",
      "party": "Republicanos",
      "bloc": "Flávio",
-     "score": 96.0
+     "score": 87.5
     },
     "race": {
      "turno": 1,
@@ -33393,13 +33224,13 @@
      "decidido_por": "1º turno (maioria dos válidos)",
      "finalistas": [],
      "pcts": {
-      "Tarcísio de Freitas": 70.3,
-      "Fernando Haddad": 13.3,
-      "Vera Lúcia": 6.9,
-      "Carlos Machado": 5.2,
-      "Vivian Mendes": 3.4
+      "Tarcísio de Freitas": 54.4,
+      "Fernando Haddad": 33.9,
+      "Vera Lúcia": 4.7,
+      "Carlos Machado": 3.5,
+      "Vivian Mendes": 2.4
      },
-     "margem": 57.0
+     "margem": 20.5
     },
     "weights": {
      "gov": 0.907,
@@ -33415,7 +33246,7 @@
       "apoio": "Flávio Bolsonaro",
       "apoio_verificado": false,
       "pct": 46.9,
-      "pct_valid": 70.3,
+      "pct_valid": 54.4,
       "pct_valid_estimado": null,
       "runoff": {
        "Fernando Haddad": {
@@ -33470,9 +33301,9 @@
         "pollster": "Datafolha",
         "date": "21/08/2026",
         "pct": 45.0,
-        "pct_valid": 77.19,
+        "pct_valid": 52.94,
         "base": "totais",
-        "sum_cands": 58.3,
+        "sum_cands": 85.0,
         "undecided": 15.0,
         "scenario": "1º turno",
         "source": "gazeta",
@@ -33495,27 +33326,27 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 96.0,
+      "score": 87.5,
       "components": {
-       "governo": 90.7,
+       "governo": 82.2,
        "presidente": 5.3
       },
       "model": {
        "scores": {
-        "governo": 100.0,
-        "presidente": 56.66666666666667
+        "governo": 90.66666666666667,
+        "presidente": 57.166666666666664
        },
        "weights": {
         "governo": 0.907,
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 70.3,
+        "gov_pct": 54.4,
         "gov_reliability": 1.0,
-        "pres_pct": 34,
+        "pres_pct": 34.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 23–27/07"
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": true,
@@ -33529,8 +33360,8 @@
       "bloc": "Lula",
       "apoio": "Lula",
       "apoio_verificado": false,
-      "pct": 11.7,
-      "pct_valid": 13.3,
+      "pct": 29.3,
+      "pct_valid": 33.9,
       "pct_valid_estimado": null,
       "runoff": {
        "Tarcísio de Freitas": {
@@ -33567,7 +33398,7 @@
         ]
        }
       },
-      "pctDisplay": "11,7%",
+      "pctDisplay": "29,3%",
       "instituto": "média móvel de 2 pesquisas",
       "campo": "21/08/2026",
       "cenario": "Estimulado, 1º turno",
@@ -33584,10 +33415,10 @@
        {
         "pollster": "Datafolha",
         "date": "21/08/2026",
-        "pct": 0.27,
-        "pct_valid": 0.46,
+        "pct": 27.0,
+        "pct_valid": 31.76,
         "base": "totais",
-        "sum_cands": 58.3,
+        "sum_cands": 85.0,
         "undecided": 15.0,
         "scenario": "1º turno",
         "source": "gazeta",
@@ -33610,27 +33441,27 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 24.8,
+      "score": 56.1,
       "components": {
-       "governo": 20.1,
-       "presidente": 4.7
+       "governo": 51.2,
+       "presidente": 4.9
       },
       "model": {
        "scores": {
-        "governo": 22.166666666666668,
-        "presidente": 50.0
+        "governo": 56.5,
+        "presidente": 52.16666666666667
        },
        "weights": {
         "governo": 0.907,
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 13.3,
+        "gov_pct": 33.9,
         "gov_reliability": 1.0,
-        "pres_pct": 30,
+        "pres_pct": 31.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 23–27/07"
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -33645,7 +33476,7 @@
       "apoio": "Não verificado",
       "apoio_verificado": false,
       "pct": 4.0,
-      "pct_valid": 6.9,
+      "pct_valid": 4.7,
       "pct_valid_estimado": null,
       "runoff": {},
       "pctDisplay": "4,0%",
@@ -33666,9 +33497,9 @@
         "pollster": "Datafolha",
         "date": "21/08/2026",
         "pct": 4.0,
-        "pct_valid": 6.86,
+        "pct_valid": 4.71,
         "base": "totais",
-        "sum_cands": 58.3,
+        "sum_cands": 85.0,
         "undecided": 15.0,
         "scenario": "1º turno",
         "source": "gazeta",
@@ -33678,14 +33509,14 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 10.4,
+      "score": 7.1,
       "components": {
-       "governo": 10.4,
+       "governo": 7.1,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 11.500000000000002,
+        "governo": 7.833333333333334,
         "presidente": 0.0
        },
        "weights": {
@@ -33693,12 +33524,12 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 6.9,
+        "gov_pct": 4.7,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07"
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -33713,7 +33544,7 @@
       "apoio": "Não verificado",
       "apoio_verificado": false,
       "pct": 3.0,
-      "pct_valid": 5.2,
+      "pct_valid": 3.5,
       "pct_valid_estimado": null,
       "runoff": {},
       "pctDisplay": "3,0%",
@@ -33734,9 +33565,9 @@
         "pollster": "Datafolha",
         "date": "21/08/2026",
         "pct": 3.0,
-        "pct_valid": 5.15,
+        "pct_valid": 3.53,
         "base": "totais",
-        "sum_cands": 58.3,
+        "sum_cands": 85.0,
         "undecided": 15.0,
         "scenario": "1º turno",
         "source": "gazeta",
@@ -33746,14 +33577,14 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 7.9,
+      "score": 5.3,
       "components": {
-       "governo": 7.9,
+       "governo": 5.3,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 8.666666666666668,
+        "governo": 5.833333333333334,
         "presidente": 0.0
        },
        "weights": {
@@ -33761,12 +33592,12 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 5.2,
+        "gov_pct": 3.5,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07"
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -33781,7 +33612,7 @@
       "apoio": "Não verificado",
       "apoio_verificado": false,
       "pct": 2.0,
-      "pct_valid": 3.4,
+      "pct_valid": 2.4,
       "pct_valid_estimado": null,
       "runoff": {},
       "pctDisplay": "2,0%",
@@ -33802,9 +33633,9 @@
         "pollster": "Datafolha",
         "date": "21/08/2026",
         "pct": 2.0,
-        "pct_valid": 3.43,
+        "pct_valid": 2.35,
         "base": "totais",
-        "sum_cands": 58.3,
+        "sum_cands": 85.0,
         "undecided": 15.0,
         "scenario": "1º turno",
         "source": "gazeta",
@@ -33814,14 +33645,14 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 5.1,
+      "score": 3.6,
       "components": {
-       "governo": 5.1,
+       "governo": 3.6,
        "presidente": 0.0
       },
       "model": {
        "scores": {
-        "governo": 5.666666666666667,
+        "governo": 4.0,
         "presidente": 0.0
        },
        "weights": {
@@ -33829,12 +33660,12 @@
         "presidente": 0.093
        },
        "inputs": {
-        "gov_pct": 3.4,
+        "gov_pct": 2.4,
         "gov_reliability": 1.0,
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07"
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)"
        }
       },
       "estimated": false,
@@ -33863,13 +33694,13 @@
       "name": "Guilherme Derrite",
       "party": "PP",
       "bloc": "Flávio",
-      "score": 80.6
+      "score": 77.7
      },
      {
       "name": "André do Prado",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 78.5
+      "score": 75.6
      }
     ],
     "candidates": [
@@ -33949,17 +33780,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 80.6,
+      "score": 77.7,
       "components": {
-       "governo": 32.7,
-       "presidente": 15.9,
+       "governo": 29.7,
+       "presidente": 16.0,
        "senado": 22.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
-        "presidente": 56.66666666666667,
+        "governo": 90.66666666666667,
+        "presidente": 57.166666666666664,
         "senado": 75.124378,
         "apoio": 100.0
        },
@@ -33975,12 +33806,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 70.3,
+        "gov_pct": 54.4,
         "gov_reliability": 1.0,
-        "pres_pct": 34,
+        "pres_pct": 34.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 75.124378,
         "gov_ticket": "Tarcísio de Freitas",
         "endorsement": "explícito"
@@ -34043,17 +33874,17 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 78.5,
+      "score": 75.6,
       "components": {
-       "governo": 32.7,
-       "presidente": 15.9,
+       "governo": 29.7,
+       "presidente": 16.0,
        "senado": 19.9,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
-        "presidente": 56.66666666666667,
+        "governo": 90.66666666666667,
+        "presidente": 57.166666666666664,
         "senado": 68.159204,
         "apoio": 100.0
        },
@@ -34069,12 +33900,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 70.3,
+        "gov_pct": 54.4,
         "gov_reliability": 1.0,
-        "pres_pct": 34,
+        "pres_pct": 34.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 68.159204,
         "gov_ticket": "Tarcísio de Freitas",
         "endorsement": "explícito"
@@ -34158,17 +33989,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 57.9,
+      "score": 67.3,
       "components": {
-       "governo": 5.7,
-       "presidente": 14.0,
+       "governo": 14.4,
+       "presidente": 14.6,
        "senado": 29.2,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 17.290000000000003,
-        "presidente": 50.0,
+        "governo": 44.07,
+        "presidente": 52.16666666666667,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -34184,12 +34015,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 13.3,
+        "gov_pct": 33.9,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 31.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 100.0,
         "gov_ticket": "Fernando Haddad",
         "endorsement": "chapa/aliança"
@@ -34273,17 +34104,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 57.5,
+      "score": 66.8,
       "components": {
-       "governo": 5.7,
-       "presidente": 14.0,
+       "governo": 14.4,
+       "presidente": 14.6,
        "senado": 28.8,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 17.290000000000003,
-        "presidente": 50.0,
+        "governo": 44.07,
+        "presidente": 52.16666666666667,
         "senado": 98.507463,
         "apoio": 90.0
        },
@@ -34299,12 +34130,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 13.3,
+        "gov_pct": 33.9,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 31.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 98.507463,
         "gov_ticket": "Fernando Haddad",
         "endorsement": "chapa/aliança"
@@ -34388,16 +34219,16 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 48.0,
+      "score": 45.6,
       "components": {
-       "governo": 25.5,
+       "governo": 23.1,
        "presidente": 1.4,
        "senado": 16.6,
        "apoio": 4.5
       },
       "model": {
        "scores": {
-        "governo": 78.0,
+        "governo": 70.72000000000001,
         "presidente": 5.0,
         "senado": 56.716418,
         "apoio": 45.0
@@ -34414,12 +34245,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 70.3,
+        "gov_pct": 54.4,
         "gov_reliability": 0.78,
-        "pres_pct": 3,
+        "pres_pct": 3.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Zema",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 56.716418,
         "gov_ticket": "Tarcísio de Freitas",
         "endorsement": "inferido"
@@ -34469,16 +34300,16 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.6,
+      "score": 43.2,
       "components": {
-       "governo": 25.5,
+       "governo": 23.1,
        "presidente": 0.0,
        "senado": 20.1,
        "apoio": 0.0
       },
       "model": {
        "scores": {
-        "governo": 78.0,
+        "governo": 70.72000000000001,
         "presidente": 0.0,
         "senado": 68.778281,
         "apoio": 0.0
@@ -34495,12 +34326,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 70.3,
+        "gov_pct": 54.4,
         "gov_reliability": 0.78,
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 68.778281,
         "gov_ticket": "Tarcísio de Freitas",
         "endorsement": "não verificado"
@@ -34571,17 +34402,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 33.2,
+      "score": 42.5,
       "components": {
-       "governo": 5.7,
-       "presidente": 14.0,
+       "governo": 14.4,
+       "presidente": 14.6,
        "senado": 9.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
-        "governo": 17.290000000000003,
-        "presidente": 50.0,
+        "governo": 44.07,
+        "presidente": 52.16666666666667,
         "senado": 30.769231,
         "apoio": 45.0
        },
@@ -34597,12 +34428,12 @@
         "bonus": 0.0
        },
        "inputs": {
-        "gov_pct": 13.3,
+        "gov_pct": 33.9,
         "gov_reliability": 0.78,
-        "pres_pct": 30,
+        "pres_pct": 31.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 30.769231,
         "gov_ticket": "Fernando Haddad",
         "endorsement": "inferido"
@@ -34683,7 +34514,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 23.076923,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -34777,7 +34608,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 21.890547,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -34871,7 +34702,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 20.895522,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -34965,7 +34796,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 14.427861,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -35059,7 +34890,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 13.930348,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -35153,7 +34984,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 10.945274,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -35234,7 +35065,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 7.692308,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -35328,7 +35159,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 5.970149,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -35422,7 +35253,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Quaest 23–27/07",
+        "pres_basis": "Quaest 23–27/07 + Datafolha estadual (w=0.33)",
         "sen_norm": 1.99005,
         "gov_ticket": null,
         "endorsement": "não verificado"

@@ -8029,8 +8029,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 39.7,
-   "pctDisplay": "39,7%",
+   "pct": 43.1,
+   "pctDisplay": "43,1%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -8039,7 +8039,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -8063,7 +8063,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8076,28 +8076,15 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 24.0,
-     "pct_valid": 39.34,
-     "base": "totais",
-     "sum_cands": 61.0,
-     "undecided": 39.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": 8.7,
+   "mom": 12.1,
    "runoff": {
     "Dr. Daniel Santos": {
-     "pct_valid": 52.0,
-     "pct": 43.4,
+     "pct_valid": 52.3,
+     "pct": 45.0,
      "date": "20/08/2026",
      "polls": [
       {
@@ -8111,7 +8098,7 @@
        "scenario": "2º turno",
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-       "weight": 0.564
+       "weight": 0.688
       },
       {
        "pollster": "Real Time Big Data",
@@ -8124,25 +8111,12 @@
        "scenario": "2º turno",
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-       "weight": 0.255
-      },
-      {
-       "pollster": "Quaest",
-       "date": "27/07/2026",
-       "pct": 36.0,
-       "pct_valid": 50.7,
-       "base": "totais",
-       "sum_cands": 71.0,
-       "undecided": 29.0,
-       "scenario": "2º turno",
-       "source": "gazeta",
-       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-       "weight": 0.181
+       "weight": 0.312
       }
      ]
     }
    },
-   "pct_valid": 47.5
+   "pct_valid": 49.3
   },
   {
    "uf": "PA",
@@ -8153,8 +8127,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 33.9,
-   "pctDisplay": "33,9%",
+   "pct": 36.9,
+   "pctDisplay": "36,9%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -8163,7 +8137,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -8187,7 +8161,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8200,28 +8174,15 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 20.0,
-     "pct_valid": 32.79,
-     "base": "totais",
-     "sum_cands": 61.0,
-     "undecided": 39.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": 4.9,
+   "mom": 7.9,
    "runoff": {
     "Hana Ghassan": {
-     "pct_valid": 48.0,
-     "pct": 39.6,
+     "pct_valid": 47.7,
+     "pct": 40.6,
      "date": "20/08/2026",
      "polls": [
       {
@@ -8235,7 +8196,7 @@
        "scenario": "2º turno",
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-       "weight": 0.564
+       "weight": 0.688
       },
       {
        "pollster": "Real Time Big Data",
@@ -8248,25 +8209,12 @@
        "scenario": "2º turno",
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-       "weight": 0.255
-      },
-      {
-       "pollster": "Quaest",
-       "date": "27/07/2026",
-       "pct": 35.0,
-       "pct_valid": 49.3,
-       "base": "totais",
-       "sum_cands": 71.0,
-       "undecided": 29.0,
-       "scenario": "2º turno",
-       "source": "gazeta",
-       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-       "weight": 0.181
+       "weight": 0.312
       }
      ]
     }
    },
-   "pct_valid": 40.6
+   "pct_valid": 42.3
   },
   {
    "uf": "PA",
@@ -8415,7 +8363,7 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Espontânea: 60% não sabem; estimulado: 16%",
@@ -8428,7 +8376,7 @@
    "certainty_preview": "",
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 2.8,
+   "pct_valid": 2.7,
    "source": "média",
    "polls": [
     {
@@ -8442,7 +8390,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8455,20 +8403,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 2.0,
-     "pct_valid": 3.28,
-     "base": "totais",
-     "sum_cands": 61.0,
-     "undecided": 39.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false
@@ -8482,17 +8417,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 27.5,
-   "pctDisplay": "27,5%",
+   "pct": 29.0,
+   "pctDisplay": "29,0%",
    "sen_norm": 100.0,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 47.5,
+   "gov_pct": 49.3,
    "gov_reliability": 0.78,
    "pres_pct": 38,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -8516,7 +8451,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8529,26 +8464,13 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 21.0,
-     "pct_valid": 33.87,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": -12.5,
+   "mom": -11.0,
    "runoff": {},
-   "pct_valid": 32.8
+   "pct_valid": 32.5
   },
   {
    "uf": "PA",
@@ -8559,17 +8481,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 17.0,
-   "pctDisplay": "17,0%",
-   "sen_norm": 62.195122,
+   "pct": 17.7,
+   "pctDisplay": "17,7%",
+   "sen_norm": 61.538462,
    "gov_ticket": "Dr. Daniel Santos",
-   "gov_pct": 40.6,
+   "gov_pct": 42.3,
    "gov_reliability": 0.78,
    "pres_pct": 31,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -8593,7 +8515,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8606,26 +8528,13 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 14.0,
-     "pct_valid": 22.58,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": 1.0,
+   "mom": 1.7,
    "runoff": {},
-   "pct_valid": 20.4
+   "pct_valid": 20.0
   },
   {
    "uf": "PA",
@@ -8636,17 +8545,17 @@
    "endorsement": "chapa/aliança",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 11.0,
-   "pctDisplay": "11,0%",
-   "sen_norm": 39.02439,
+   "pct": 12.3,
+   "pctDisplay": "12,3%",
+   "sen_norm": 42.769231,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 47.5,
+   "gov_pct": 49.3,
    "gov_reliability": 0.78,
    "pres_pct": 38,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -8670,7 +8579,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8683,26 +8592,13 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 5.0,
-     "pct_valid": 8.06,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": -1.0,
+   "mom": 0.3,
    "runoff": {},
-   "pct_valid": 12.8
+   "pct_valid": 13.9
   },
   {
    "uf": "PA",
@@ -8713,17 +8609,17 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 12.3,
-   "pctDisplay": "12,3%",
-   "sen_norm": 44.512195,
+   "pct": 13.5,
+   "pctDisplay": "13,5%",
+   "sen_norm": 47.076923,
    "gov_ticket": "Dr. Daniel Santos",
-   "gov_pct": 40.6,
+   "gov_pct": 42.3,
    "gov_reliability": 0.78,
    "pres_pct": 31,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -8747,7 +8643,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8760,26 +8656,13 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 7.0,
-     "pct_valid": 11.29,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": 1.3,
+   "mom": 2.5,
    "runoff": {},
-   "pct_valid": 14.6
+   "pct_valid": 15.3
   },
   {
    "uf": "PA",
@@ -8790,17 +8673,17 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
-   "sen_norm": 32.012195,
+   "pct": 10.3,
+   "pctDisplay": "10,3%",
+   "sen_norm": 36.0,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 47.5,
+   "gov_pct": 49.3,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
    "pres_basis": "Quaest 21–25/07",
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": "Dois votos, consolidado e reduzido a 100%",
    "indecisao": "Branco/nulo 3%; não sabe 5%",
@@ -8824,7 +8707,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -8837,26 +8720,13 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 3.0,
-     "pct_valid": 4.84,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ],
    "stale": false,
-   "mom": -1.0,
+   "mom": 0.3,
    "runoff": {},
-   "pct_valid": 10.5
+   "pct_valid": 11.7
   },
   {
    "uf": "PA",
@@ -8871,7 +8741,7 @@
    "pctDisplay": "Não testado nesta rodada",
    "sen_norm": 0.0,
    "gov_ticket": "Hana Ghassan",
-   "gov_pct": 47.5,
+   "gov_pct": 49.3,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -13664,9 +13534,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 45.0,
-     "pct_valid": 77.19,
+     "pct_valid": 52.94,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13724,7 +13594,7 @@
      ]
     }
    },
-   "pct_valid": 70.3
+   "pct_valid": 54.4
   },
   {
    "uf": "SP",
@@ -13735,8 +13605,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 11.7,
-   "pctDisplay": "11,7%",
+   "pct": 29.3,
+   "pctDisplay": "29,3%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -13761,10 +13631,10 @@
     {
      "pollster": "Datafolha",
      "date": "21/08/2026",
-     "pct": 0.27,
-     "pct_valid": 0.46,
+     "pct": 27.0,
+     "pct_valid": 31.76,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13786,7 +13656,7 @@
     }
    ],
    "stale": false,
-   "mom": -22.6,
+   "mom": -5.0,
    "runoff": {
     "Tarcísio de Freitas": {
      "pct_valid": 39.9,
@@ -13822,7 +13692,7 @@
      ]
     }
    },
-   "pct_valid": 13.3
+   "pct_valid": 33.9
   },
   {
    "uf": "SP",
@@ -13861,9 +13731,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 3.0,
-     "pct_valid": 5.15,
+     "pct_valid": 3.53,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13873,7 +13743,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 5.2
+   "pct_valid": 3.5
   },
   {
    "uf": "SP",
@@ -13912,9 +13782,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 4.0,
-     "pct_valid": 6.86,
+     "pct_valid": 4.71,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13924,7 +13794,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 6.9
+   "pct_valid": 4.7
   },
   {
    "uf": "SP",
@@ -13963,9 +13833,9 @@
      "pollster": "Datafolha",
      "date": "21/08/2026",
      "pct": 2.0,
-     "pct_valid": 3.43,
+     "pct_valid": 2.35,
      "base": "totais",
-     "sum_cands": 58.3,
+     "sum_cands": 85.0,
      "undecided": 15.0,
      "scenario": "1º turno",
      "source": "gazeta",
@@ -13975,7 +13845,7 @@
    ],
    "stale": false,
    "runoff": {},
-   "pct_valid": 3.4
+   "pct_valid": 2.4
   },
   {
    "uf": "SP",
@@ -13990,7 +13860,7 @@
    "pctDisplay": "20,6%",
    "sen_norm": 98.507463,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -14075,7 +13945,7 @@
    "pctDisplay": "21,1%",
    "sen_norm": 100.0,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -14160,7 +14030,7 @@
    "pctDisplay": "12,5%",
    "sen_norm": 56.716418,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 0.78,
    "pres_pct": 3,
    "pres_reliability": 1.0,
@@ -14245,7 +14115,7 @@
    "pctDisplay": "13,2%",
    "sen_norm": 68.159204,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -14309,7 +14179,7 @@
    "pctDisplay": "17,1%",
    "sen_norm": 75.124378,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 1.0,
    "pres_pct": 34,
    "pres_reliability": 1.0,
@@ -14394,7 +14264,7 @@
    "pctDisplay": "4,0%",
    "sen_norm": 30.769231,
    "gov_ticket": "Fernando Haddad",
-   "gov_pct": 13.3,
+   "gov_pct": 33.9,
    "gov_reliability": 0.78,
    "pres_pct": 30,
    "pres_reliability": 1.0,
@@ -15213,7 +15083,7 @@
    "pctDisplay": "9,0%",
    "sen_norm": 68.778281,
    "gov_ticket": "Tarcísio de Freitas",
-   "gov_pct": 70.3,
+   "gov_pct": 54.4,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 1.0,
@@ -19993,8 +19863,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 0.7,
-   "pctDisplay": "0,7%",
+   "pct": 0.4,
+   "pctDisplay": "0,4%",
    "sen_norm": 0.0,
    "gov_ticket": null,
    "gov_pct": null,
@@ -20003,7 +19873,7 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": null,
    "indecisao": null,
@@ -20018,7 +19888,7 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 1.0,
+   "pct_valid": 0.6,
    "polls": [
     {
      "pollster": "AtlasIntel",
@@ -20031,7 +19901,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -20044,20 +19914,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 2.0,
-     "pct_valid": 3.28,
-     "base": "totais",
-     "sum_cands": 61.0,
-     "undecided": 39.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ]
   },
@@ -20121,9 +19978,9 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 1.6,
-   "pctDisplay": "1,6%",
-   "sen_norm": 5.792683,
+   "pct": 1.8,
+   "pctDisplay": "1,8%",
+   "sen_norm": 6.153846,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -20131,7 +19988,7 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": null,
    "indecisao": null,
@@ -20146,7 +20003,7 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 1.9,
+   "pct_valid": 2.0,
    "polls": [
     {
      "pollster": "AtlasIntel",
@@ -20159,7 +20016,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -20172,20 +20029,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 1.0,
-     "pct_valid": 1.61,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ]
   },
@@ -20198,9 +20042,9 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 1.7,
-   "pctDisplay": "1,7%",
-   "sen_norm": 5.792683,
+   "pct": 2.1,
+   "pctDisplay": "2,1%",
+   "sen_norm": 7.384615,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -20208,7 +20052,7 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 3 pesquisas",
+   "instituto": "média móvel de 2 pesquisas",
    "campo": "20/08/2026",
    "cenario": null,
    "indecisao": null,
@@ -20223,7 +20067,7 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 1.9,
+   "pct_valid": 2.4,
    "polls": [
     {
      "pollster": "AtlasIntel",
@@ -20236,7 +20080,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-para-agosto-2026/",
-     "weight": 0.564
+     "weight": 0.688
     },
     {
      "pollster": "Real Time Big Data",
@@ -20249,20 +20093,7 @@
      "scenario": "1º turno",
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-para-agosto-2026/",
-     "weight": 0.255
-    },
-    {
-     "pollster": "Quaest",
-     "date": "27/07/2026",
-     "pct": 0.0,
-     "pct_valid": 0.0,
-     "base": "totais",
-     "sum_cands": 62.0,
-     "undecided": 38.0,
-     "scenario": "1º turno",
-     "source": "gazeta",
-     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-     "weight": 0.181
+     "weight": 0.312
     }
    ]
   },
@@ -20277,7 +20108,7 @@
    "apoio_verificado": false,
    "pct": 0.3,
    "pctDisplay": "0,3%",
-   "sen_norm": 0.914634,
+   "sen_norm": 0.923077,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -24357,39 +24188,39 @@
   "polls": 6,
   "institutos": [
    "Datafolha",
-   "Datafolha",
    "Nexus",
    "Quaest",
    "PoderData",
-   "CNT/MDA"
+   "CNT/MDA",
+   "Gerp"
   ],
-  "latest_date": "23/08/2026",
+  "latest_date": "21/08/2026",
   "first_round": [
    {
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 38.8,
+    "avg": 39.8,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 33.2,
-    "n": 6
-   },
-   {
-    "name": "Renan Santos",
-    "party": "Missão",
-    "bloc": "Indefinido",
-    "avg": 4.1,
+    "avg": 33.4,
     "n": 6
    },
    {
     "name": "Ronaldo Caiado",
     "party": "PSD",
     "bloc": "Caiado",
+    "avg": 4.2,
+    "n": 6
+   },
+   {
+    "name": "Renan Santos",
+    "party": "Missão",
+    "bloc": "Indefinido",
     "avg": 4.0,
     "n": 6
    },
@@ -24397,29 +24228,29 @@
     "name": "Romeu Zema",
     "party": "Novo",
     "bloc": "Zema",
-    "avg": 3.1,
+    "avg": 2.9,
     "n": 6
    },
    {
     "name": "Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 2.1,
+    "avg": 1.6,
     "n": 5
    },
    {
     "name": "Samara Martins",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 1.3,
+    "avg": 0.9,
     "n": 5
    },
    {
-    "name": "Edmilson Costa",
-    "party": "PCB",
+    "name": "Rui Costa Pimenta",
+    "party": "PCO",
     "bloc": "Indefinido",
-    "avg": 0.7,
-    "n": 3
+    "avg": 0.6,
+    "n": 5
    }
   ],
   "runoff": {
@@ -24427,23 +24258,15 @@
    "Flávio": 42.4
   },
   "trend": {
-   "Lula": -8.4,
-   "Flávio": 6.3
+   "Lula": 1.0,
+   "Flávio": -6.0
   },
   "used": [
    {
     "pollster": "Datafolha",
-    "date": "23/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
-    "weight": 0.225,
-    "Lula": 34.0,
-    "Flávio": 35.0
-   },
-   {
-    "pollster": "Datafolha",
     "date": "21/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-2026/",
-    "weight": 0.204,
+    "weight": 0.226,
     "Lula": 39.0,
     "Flávio": 32.0
    },
@@ -24451,7 +24274,7 @@
     "pollster": "Nexus",
     "date": "17/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
-    "weight": 0.167,
+    "weight": 0.186,
     "Lula": 41.0,
     "Flávio": 36.0
    },
@@ -24459,7 +24282,7 @@
     "pollster": "Quaest",
     "date": "14/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
-    "weight": 0.144,
+    "weight": 0.16,
     "Lula": 38.0,
     "Flávio": 31.0
    },
@@ -24467,7 +24290,7 @@
     "pollster": "PoderData",
     "date": "13/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
-    "weight": 0.137,
+    "weight": 0.152,
     "Lula": 41.0,
     "Flávio": 35.0
    },
@@ -24475,9 +24298,89 @@
     "pollster": "CNT/MDA",
     "date": "11/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
-    "weight": 0.124,
+    "weight": 0.138,
     "Lula": 42.4,
     "Flávio": 28.7
+   },
+   {
+    "pollster": "Gerp",
+    "date": "11/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
+    "weight": 0.138,
+    "Lula": 38.0,
+    "Flávio": 38.0
+   }
+  ]
+ },
+ "president_states": {
+  "SP": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": {
+     "Flávio": 35.0,
+     "Lula": 34.0,
+     "Zema": 3.0,
+     "Caiado": 3.0
+    },
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 47.0
+    }
+   }
+  ],
+  "MG": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": {
+     "Lula": 36.0,
+     "Flávio": 31.0,
+     "Zema": 8.0,
+     "Caiado": 3.0
+    },
+    "runoff": {
+     "Lula": 46.0,
+     "Flávio": 42.0
+    }
+   }
+  ],
+  "RJ": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 40.0,
+     "Flávio": 49.0
+    }
+   }
+  ],
+  "PE": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 62.0,
+     "Flávio": 29.0
+    }
+   }
+  ],
+  "DF": [
+   {
+    "pollster": "Datafolha",
+    "date": "23/08/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 39.0,
+     "Flávio": 51.0
+    }
    }
   ]
  }
