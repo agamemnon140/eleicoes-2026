@@ -251,7 +251,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-sao-paulo-agosto-2026/",
    "scenario": "1º turno",
    "base": "totais",
-   "sum_cands": 58.3,
+   "sum_cands": 85.0,
    "undecided": 15.0,
    "is_new": false,
    "readings": [
@@ -259,31 +259,31 @@
      "name": "Tarcísio de Freitas",
      "party": "Republicanos",
      "pct": 45.0,
-     "pct_valid": 77.19
+     "pct_valid": 52.94
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 27.0,
+     "pct_valid": 31.76
     },
     {
      "name": "Vera Lúcia",
      "party": "PSTU",
      "pct": 4.0,
-     "pct_valid": 6.86
+     "pct_valid": 4.71
     },
     {
      "name": "Carlos Machado",
      "party": "PCB",
      "pct": 3.0,
-     "pct_valid": 5.15
+     "pct_valid": 3.53
     },
     {
      "name": "Vivian Mendes",
      "party": "UP",
      "pct": 2.0,
-     "pct_valid": 3.43
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 0.27,
-     "pct_valid": 0.46
+     "pct_valid": 2.35
     }
    ]
   },
@@ -4548,64 +4548,6 @@
   {
    "uf": "PA",
    "estado": "Pará",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "27/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 62.0,
-   "undecided": 38.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Helder Barbalho",
-     "party": "MDB",
-     "pct": 21.0,
-     "pct_valid": 33.87
-    },
-    {
-     "name": "Delegado Éder Mauro",
-     "party": "PL",
-     "pct": 14.0,
-     "pct_valid": 22.58
-    },
-    {
-     "name": "Zequinha Marinho",
-     "party": "Podemos",
-     "pct": 7.0,
-     "pct_valid": 11.29
-    },
-    {
-     "name": "Celso Sabino",
-     "party": "PDT",
-     "pct": 5.0,
-     "pct_valid": 8.06
-    },
-    {
-     "name": "Chicão Melo",
-     "party": "União",
-     "pct": 3.0,
-     "pct_valid": 4.84
-    },
-    {
-     "name": "Gizelle Freitas",
-     "party": "PSOL",
-     "pct": 1.0,
-     "pct_valid": 1.61
-    },
-    {
-     "name": "Conti",
-     "party": "PSOL",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "PA",
-   "estado": "Pará",
    "cargo": "Governo",
    "pollster": "Quaest",
    "date": "27/07/2026",
@@ -4618,18 +4560,6 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Hana Ghassan",
-     "party": "MDB",
-     "pct": 24.0,
-     "pct_valid": 39.34
-    },
-    {
-     "name": "Dr. Daniel Santos",
-     "party": "Podemos",
-     "pct": 20.0,
-     "pct_valid": 32.79
-    },
-    {
      "name": "Mário Couto",
      "party": "DC",
      "pct": 11.0,
@@ -4640,46 +4570,6 @@
      "party": "PSOL",
      "pct": 2.0,
      "pct_valid": 3.28
-    },
-    {
-     "name": "Araceli Lemos",
-     "party": "PSOL",
-     "pct": 2.0,
-     "pct_valid": 3.28
-    },
-    {
-     "name": "Cleber Rabelo",
-     "party": "PSTU",
-     "pct": 2.0,
-     "pct_valid": 3.28
-    }
-   ]
-  },
-  {
-   "uf": "PA",
-   "estado": "Pará",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "27/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-para-julho-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 71.0,
-   "undecided": 29.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Hana Ghassan",
-     "party": "MDB",
-     "pct": 36.0,
-     "pct_valid": 50.7
-    },
-    {
-     "name": "Dr. Daniel Santos",
-     "party": "Podemos",
-     "pct": 35.0,
-     "pct_valid": 49.3
     }
    ]
   },
@@ -6425,19 +6315,11 @@
  "president_polls": [
   {
    "pollster": "Datafolha",
-   "date": "23/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
-   "Lula": 34.0,
-   "Flávio": 35.0,
-   "weight": 0.225
-  },
-  {
-   "pollster": "Datafolha",
    "date": "21/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 32.0,
-   "weight": 0.204
+   "weight": 0.226
   },
   {
    "pollster": "Nexus",
@@ -6445,7 +6327,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
    "Lula": 41.0,
    "Flávio": 36.0,
-   "weight": 0.167
+   "weight": 0.186
   },
   {
    "pollster": "Quaest",
@@ -6453,7 +6335,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 31.0,
-   "weight": 0.144
+   "weight": 0.16
   },
   {
    "pollster": "PoderData",
@@ -6461,7 +6343,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
    "Lula": 41.0,
    "Flávio": 35.0,
-   "weight": 0.137
+   "weight": 0.152
   },
   {
    "pollster": "CNT/MDA",
@@ -6469,7 +6351,15 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
    "Lula": 42.4,
    "Flávio": 28.7,
-   "weight": 0.124
+   "weight": 0.138
+  },
+  {
+   "pollster": "Gerp",
+   "date": "11/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
+   "Lula": 38.0,
+   "Flávio": 38.0,
+   "weight": 0.138
   }
  ]
 }

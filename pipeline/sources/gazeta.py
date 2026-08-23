@@ -69,6 +69,8 @@ def discover(session: requests.Session, estados: dict, max_pages: int = 6, per_u
 
 
 def _pct(s: str) -> float | None:
+    # separador órfão colado no número é typo da fonte ("Haddad (PT):,27%" = 27, não 0,27)
+    s = s.strip(",.")
     try:
         return float(s.replace(".", "").replace(",", "."))
     except ValueError:

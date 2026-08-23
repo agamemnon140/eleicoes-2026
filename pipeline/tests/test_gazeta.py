@@ -47,6 +47,31 @@ def test_separa_turno_e_calcula_base():
     assert r1.pct_valid > r1.pct, "em base de totais, o % dos válidos é maior"
 
 
+def test_pct_tolera_separador_orfao():
+    # regressão: "Fernando Haddad (PT):,27%" (typo da Gazeta na Datafolha SP de 21/08)
+    # virava 0,27% — e os 45% do Tarcísio viravam 77% dos válidos
+    assert gz._pct(",27") == 27.0
+    assert gz._pct("48,9") == 48.9
+    assert gz._pct("27") == 27.0
+    assert gz._pct("27.") == 27.0
+
+
+def test_typo_da_fonte_nao_derruba_candidato():
+    html = """
+    <p>Tarcísio lidera intenções de voto na simulação de primeiro turno</p>
+    <ul>
+     <li class="postListItem">Tarcísio de Freitas (Republicanos): 45%</li>
+     <li class="postListItem">Fernando Haddad (PT):,27%</li>
+     <li class="postListItem">Em branco/nulo/nenhum: 11%</li>
+    </ul>"""
+    recs = gz.parse_html("SP", ROSTER["states"]["SP"], html,
+                         ".../datafolha-governador-sao-paulo-agosto-2026/")
+    por_nome = {r.name: r for r in recs}
+    assert por_nome["Fernando Haddad"].pct == 27.0
+    # com o Haddad no denominador certo, os válidos do líder voltam ao chão
+    assert por_nome["Tarcísio de Freitas"].pct_valid == round(45 / 72 * 100, 2)
+
+
 def test_match_candidate_por_partido_e_nome():
     rs = ROSTER["states"]["CE"]
     hit = base.match_candidate("Ciro Gomes", "PSDB", rs)

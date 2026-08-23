@@ -247,11 +247,31 @@ MATERIAL_FIELDS = ("uf", "cargo", "name", "party", "bloc", "endorsement", "apoio
                    "gov_ticket", "status", "stale")
 
 
-def fingerprint(records: list[dict], pres: dict | None) -> str:
+def fingerprint(records: list[dict], pres: dict | None, pres_states: dict | None = None) -> str:
     """Assinatura do conteúdo coletado, insensível à ordem e aos campos derivados."""
     recs = sorted(({k: r.get(k) for k in MATERIAL_FIELDS} for r in records),
                   key=lambda d: (d["uf"], d["cargo"], str(d["name"])))
-    return json.dumps({"records": recs, "president": pres}, ensure_ascii=False, sort_keys=True)
+    return json.dumps({"records": recs, "president": pres, "president_states": pres_states},
+                      ensure_ascii=False, sort_keys=True)
+
+
+def merge_president_states(prev: dict | None, novas: list) -> dict:
+    """Acumula leituras presidenciais por estado; (instituto, data) identifica cada uma.
+
+    Coleta vazia não apaga o histórico (mesma regra do agregado nacional): a série
+    acumulada é o que dá peso crescente às pesquisas estaduais no blend do build.
+    """
+    out = {uf: list(ps) for uf, ps in (prev or {}).items()}
+    for e in novas:
+        entry = {k: v for k, v in e.items() if k != "uf"}
+        lst = out.setdefault(e["uf"], [])
+        for i, old in enumerate(lst):
+            if (old.get("pollster"), old.get("date")) == (entry["pollster"], entry["date"]):
+                lst[i] = entry
+                break
+        else:
+            lst.append(entry)
+    return out
 
 
 def main():
@@ -263,9 +283,10 @@ def main():
     date_str = args.date
 
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
+    estados = {uf: st["estado"] for uf, st in roster["states"].items()}
     snap = latest_snapshot()
     records = snap["records"]
-    before = fingerprint(records, snap.get("president"))
+    before = fingerprint(records, snap.get("president"), snap.get("president_states"))
 
     print("Sincronizando candidaturas com o roster…")
     roster_sync.print_report(roster_sync.sync(records, roster))
@@ -278,7 +299,7 @@ def main():
 
     print("Agregando pesquisas presidenciais (poll-of-polls)…")
     psx = requests.Session(); psx.headers.update(gz.UA)
-    pres_agg = president.collect(psx)
+    pres_agg, pres_states_new = president.collect_all(psx, estados)
     if pres_agg:
         print(f"  presidencial: {pres_agg['polls']} pesquisas, "
               f"Lula {pres_agg['first_round'][0]['avg']}% x "
@@ -287,16 +308,20 @@ def main():
         # numa rodada diária, uma falha do agregador não pode apagar o último bom
         pres_agg = snap["president"]
         print("  presidencial: coleta vazia — mantendo o agregado anterior.")
+    pres_states = merge_president_states(snap.get("president_states"), pres_states_new)
+    if pres_states_new:
+        print(f"  presidencial por estado: {len(pres_states_new)} leituras "
+              f"({', '.join(sorted({e['uf'] for e in pres_states_new}))})")
 
     print(f"OK: {updated} atualizadas, {skipped_old} ignoradas por serem mais antigas, "
           f"{flagged} descartadas pelos guardrails.")
 
-    if fingerprint(records, pres_agg) == before and not args.force:
+    if fingerprint(records, pres_agg, pres_states) == before and not args.force:
         print("Nada mudou desde o último snapshot — nenhum arquivo novo (use --force para gravar).")
         return
 
     out = {"date": date_str, "source": "wikipedia + gazeta + base",
-           "records": records, "president": pres_agg}
+           "records": records, "president": pres_agg, "president_states": pres_states}
     (ROOT / "data" / "polls" / f"{date_str}.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"  -> data/polls/{date_str}.json")
