@@ -1,6 +1,158 @@
 {
- "generated_at": "2026-08-22",
+ "generated_at": "2026-08-23",
  "state_polls": [
+  {
+   "uf": "PI",
+   "estado": "Piauí",
+   "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "22/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-piaui-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 65.0,
+   "undecided": 34.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcelo Castro",
+     "party": "MDB",
+     "pct": 16.0,
+     "pct_valid": 24.62
+    },
+    {
+     "name": "Ciro Nogueira",
+     "party": "PP",
+     "pct": 16.0,
+     "pct_valid": 24.62
+    },
+    {
+     "name": "Júlio César",
+     "party": "PSD",
+     "pct": 14.0,
+     "pct_valid": 21.54
+    },
+    {
+     "name": "Thiago Junqueira",
+     "party": "PL",
+     "pct": 4.0,
+     "pct_valid": 6.15
+    },
+    {
+     "name": "Jorge Lopes",
+     "party": "PSDB",
+     "pct": 2.0,
+     "pct_valid": 3.08
+    },
+    {
+     "name": "Francinaldo Leão",
+     "party": "PSOL",
+     "pct": 1.0,
+     "pct_valid": 1.54
+    },
+    {
+     "name": "Antônio Barros",
+     "party": "Novo",
+     "pct": 1.0,
+     "pct_valid": 1.54
+    },
+    {
+     "name": "Pedro Laurentino",
+     "party": "UP",
+     "pct": 1.0,
+     "pct_valid": 1.54
+    },
+    {
+     "name": "Major Paulo Roberto",
+     "party": "Mobiliza",
+     "pct": 1.0,
+     "pct_valid": 1.54
+    },
+    {
+     "name": "Antônio José Lira",
+     "party": "Avante",
+     "pct": 1.0,
+     "pct_valid": 1.54
+    }
+   ]
+  },
+  {
+   "uf": "PI",
+   "estado": "Piauí",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "22/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-piaui-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 86.0,
+   "undecided": 15.0,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rafael Fonteles",
+     "party": "PT",
+     "pct": 56.0,
+     "pct_valid": 65.12
+    },
+    {
+     "name": "Joel Rodrigues",
+     "party": "PP",
+     "pct": 21.0,
+     "pct_valid": 24.42
+    },
+    {
+     "name": "Geraldo Carvalho",
+     "party": "PSTU",
+     "pct": 2.0,
+     "pct_valid": 2.33
+    },
+    {
+     "name": "Dra. Lúcia Santos",
+     "party": "PSDB",
+     "pct": 2.0,
+     "pct_valid": 2.33
+    },
+    {
+     "name": "Elizeu Aguiar",
+     "party": "Novo",
+     "pct": 1.0,
+     "pct_valid": 1.16
+    },
+    {
+     "name": "Professor Gisvaldo",
+     "party": "PSOL",
+     "pct": 1.0,
+     "pct_valid": 1.16
+    },
+    {
+     "name": "Santiago Belizário",
+     "party": "UP",
+     "pct": 1.0,
+     "pct_valid": 1.16
+    },
+    {
+     "name": "Lourdes Melo",
+     "party": "PCO",
+     "pct": 1.0,
+     "pct_valid": 1.16
+    },
+    {
+     "name": "Professor Jurity",
+     "party": "DC",
+     "pct": 1.0,
+     "pct_valid": 1.16
+    },
+    {
+     "name": "Ravenna Da Inclusão",
+     "party": "Democrata",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
   {
    "uf": "SP",
    "estado": "São Paulo",
@@ -13,7 +165,7 @@
    "base": "totais",
    "sum_cands": 65.0,
    "undecided": 35.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marina Silva",
@@ -101,7 +253,7 @@
    "base": "totais",
    "sum_cands": 58.3,
    "undecided": 15.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -147,7 +299,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -175,7 +327,7 @@
    "base": "totais",
    "sum_cands": 63.0,
    "undecided": 35.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -245,7 +397,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -449,7 +601,7 @@
    "base": "totais",
    "sum_cands": 64.0,
    "undecided": 37.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -507,7 +659,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -559,7 +711,7 @@
    "base": "totais",
    "sum_cands": 53.0,
    "undecided": 45.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -611,7 +763,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -687,7 +839,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 30.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Michelle Bolsonaro",
@@ -733,7 +885,7 @@
    "base": "totais",
    "sum_cands": 82.0,
    "undecided": 19.0,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -5156,60 +5308,6 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Marcelo Castro",
-     "party": "MDB",
-     "pct": 20.4,
-     "pct_valid": 29.69
-    },
-    {
-     "name": "Ciro Nogueira",
-     "party": "PP",
-     "pct": 15.3,
-     "pct_valid": 22.27
-    },
-    {
-     "name": "Júlio César",
-     "party": "PSD",
-     "pct": 14.7,
-     "pct_valid": 21.4
-    },
-    {
-     "name": "Thiago Junqueira",
-     "party": "PL",
-     "pct": 6.9,
-     "pct_valid": 10.04
-    },
-    {
-     "name": "Antônio Barros",
-     "party": "Novo",
-     "pct": 2.7,
-     "pct_valid": 3.93
-    },
-    {
-     "name": "Pedro Laurentino",
-     "party": "UP",
-     "pct": 1.4,
-     "pct_valid": 2.04
-    },
-    {
-     "name": "Francinaldo Leão",
-     "party": "PSOL",
-     "pct": 1.3,
-     "pct_valid": 1.89
-    },
-    {
-     "name": "Jorge Lopes",
-     "party": "PSDB",
-     "pct": 0.8,
-     "pct_valid": 1.16
-    },
-    {
-     "name": "Major Paulo Roberto",
-     "party": "Mobiliza",
-     "pct": 0.7,
-     "pct_valid": 1.02
-    },
-    {
      "name": "Pastor Sena",
      "party": "Avante",
      "pct": 0.1,
@@ -5232,70 +5330,16 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Rafael Fonteles",
-     "party": "PT",
-     "pct": 64.2,
-     "pct_valid": 70.63
-    },
-    {
-     "name": "Joel Rodrigues",
-     "party": "PP",
-     "pct": 21.7,
-     "pct_valid": 23.87
-    },
-    {
      "name": "Toni Rodrigues",
      "party": "PL",
      "pct": 2.6,
      "pct_valid": 2.86
     },
     {
-     "name": "Elizeu Aguiar",
-     "party": "Novo",
-     "pct": 0.8,
-     "pct_valid": 0.88
-    },
-    {
-     "name": "Professor Gisvaldo",
-     "party": "PSOL",
-     "pct": 0.5,
-     "pct_valid": 0.55
-    },
-    {
      "name": "Gustavo Pelo Piauí Ou Gustavo",
      "party": "Avante",
      "pct": 0.4,
      "pct_valid": 0.44
-    },
-    {
-     "name": "Dra. Lúcia Santos",
-     "party": "PSDB",
-     "pct": 0.3,
-     "pct_valid": 0.33
-    },
-    {
-     "name": "Santiago Belizário",
-     "party": "UP",
-     "pct": 0.2,
-     "pct_valid": 0.22
-    },
-    {
-     "name": "Lourdes Melo",
-     "party": "PCO",
-     "pct": 0.1,
-     "pct_valid": 0.11
-    },
-    {
-     "name": "Professor Jurity",
-     "party": "DC",
-     "pct": 0.1,
-     "pct_valid": 0.11
-    },
-    {
-     "name": "Geraldo Carvalho",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
     }
    ]
   },
@@ -5710,110 +5754,6 @@
   {
    "uf": "PI",
    "estado": "Piauí",
-   "cargo": "Senado",
-   "pollster": "Real Time Big Data",
-   "date": "14/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 87.0,
-   "undecided": 13.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marcelo Castro",
-     "party": "MDB",
-     "pct": 28.0,
-     "pct_valid": 32.18
-    },
-    {
-     "name": "Ciro Nogueira",
-     "party": "PP",
-     "pct": 21.0,
-     "pct_valid": 24.14
-    },
-    {
-     "name": "Júlio César",
-     "party": "PSD",
-     "pct": 21.0,
-     "pct_valid": 24.14
-    },
-    {
-     "name": "Thiago Junqueira",
-     "party": "PL",
-     "pct": 7.0,
-     "pct_valid": 8.05
-    },
-    {
-     "name": "Francinaldo Leão",
-     "party": "PSOL",
-     "pct": 3.0,
-     "pct_valid": 3.45
-    },
-    {
-     "name": "Antônio Barros",
-     "party": "Novo",
-     "pct": 2.0,
-     "pct_valid": 2.3
-    },
-    {
-     "name": "Jorge Lopes",
-     "party": "PSDB",
-     "pct": 1.0,
-     "pct_valid": 1.15
-    },
-    {
-     "name": "Major Paulo Roberto",
-     "party": "Mobiliza",
-     "pct": 1.0,
-     "pct_valid": 1.15
-    },
-    {
-     "name": "Antônio José Lira",
-     "party": "Avante",
-     "pct": 1.0,
-     "pct_valid": 1.15
-    }
-   ]
-  },
-  {
-   "uf": "PI",
-   "estado": "Piauí",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "14/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 92.0,
-   "undecided": 8.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Rafael Fonteles",
-     "party": "PT",
-     "pct": 64.0,
-     "pct_valid": 69.57
-    },
-    {
-     "name": "Joel Rodrigues",
-     "party": "PP",
-     "pct": 23.0,
-     "pct_valid": 25.0
-    },
-    {
-     "name": "Toni Rodrigues",
-     "party": "PL",
-     "pct": 1.0,
-     "pct_valid": 1.09
-    }
-   ]
-  },
-  {
-   "uf": "PI",
-   "estado": "Piauí",
    "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "14/07/2026",
@@ -5836,6 +5776,28 @@
      "party": "PP",
      "pct": 25.0,
      "pct_valid": 27.78
+    }
+   ]
+  },
+  {
+   "uf": "PI",
+   "estado": "Piauí",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "14/07/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-piaui-julho-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "is_new": false,
+   "readings": [
+    {
+     "name": "Toni Rodrigues",
+     "party": "PL",
+     "pct": 1.0,
+     "pct_valid": 1.09
     }
    ]
   },
@@ -6126,164 +6088,6 @@
      "party": "MDB",
      "pct": 42.0,
      "pct_valid": 46.93
-    }
-   ]
-  },
-  {
-   "uf": "PI",
-   "estado": "Piauí",
-   "cargo": "Senado",
-   "pollster": "AtlasIntel",
-   "date": "23/06/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 66.2,
-   "undecided": 33.5,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marcelo Castro",
-     "party": "MDB",
-     "pct": 20.1,
-     "pct_valid": 30.36
-    },
-    {
-     "name": "Júlio César",
-     "party": "PSD",
-     "pct": 15.8,
-     "pct_valid": 23.87
-    },
-    {
-     "name": "Ciro Nogueira",
-     "party": "PP",
-     "pct": 12.6,
-     "pct_valid": 19.03
-    },
-    {
-     "name": "Thiago Junqueira",
-     "party": "PL",
-     "pct": 7.0,
-     "pct_valid": 10.57
-    },
-    {
-     "name": "Francinaldo Leão",
-     "party": "PSOL",
-     "pct": 3.1,
-     "pct_valid": 4.68
-    },
-    {
-     "name": "Antônio Barros",
-     "party": "Novo",
-     "pct": 2.2,
-     "pct_valid": 3.32
-    },
-    {
-     "name": "Pedro Laurentino",
-     "party": "UP",
-     "pct": 1.2,
-     "pct_valid": 1.81
-    },
-    {
-     "name": "Jorge Lopes",
-     "party": "PSDB",
-     "pct": 1.1,
-     "pct_valid": 1.66
-    },
-    {
-     "name": "Antônio José Lira",
-     "party": "Avante",
-     "pct": 0.6,
-     "pct_valid": 0.91
-    },
-    {
-     "name": "Major Paulo Roberto",
-     "party": "Mobiliza",
-     "pct": 0.5,
-     "pct_valid": 0.76
-    }
-   ]
-  },
-  {
-   "uf": "PI",
-   "estado": "Piauí",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "23/06/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-piaui-junho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 91.1,
-   "undecided": 8.9,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Rafael Fonteles",
-     "party": "PT",
-     "pct": 63.5,
-     "pct_valid": 69.7
-    },
-    {
-     "name": "Joel Rodrigues",
-     "party": "PP",
-     "pct": 22.9,
-     "pct_valid": 25.14
-    },
-    {
-     "name": "Toni Rodrigues",
-     "party": "PL",
-     "pct": 1.5,
-     "pct_valid": 1.65
-    },
-    {
-     "name": "Elizeu Aguiar",
-     "party": "Novo",
-     "pct": 1.0,
-     "pct_valid": 1.1
-    },
-    {
-     "name": "Professor Gisvaldo",
-     "party": "PSOL",
-     "pct": 1.0,
-     "pct_valid": 1.1
-    },
-    {
-     "name": "Geraldo Carvalho",
-     "party": "PSTU",
-     "pct": 0.4,
-     "pct_valid": 0.44
-    },
-    {
-     "name": "Ravenna Da Inclusão",
-     "party": "Democrata",
-     "pct": 0.2,
-     "pct_valid": 0.22
-    },
-    {
-     "name": "Lourdes Melo",
-     "party": "PCO",
-     "pct": 0.1,
-     "pct_valid": 0.11
-    },
-    {
-     "name": "Dra. Lúcia Santos",
-     "party": "PSDB",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Santiago Belizário",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Professor Jurity",
-     "party": "DC",
-     "pct": 0.0,
-     "pct_valid": 0.0
     }
    ]
   },
@@ -6621,11 +6425,19 @@
  "president_polls": [
   {
    "pollster": "Datafolha",
+   "date": "23/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-26-sp-mg-rj-pe-df/",
+   "Lula": 34.0,
+   "Flávio": 35.0,
+   "weight": 0.225
+  },
+  {
+   "pollster": "Datafolha",
    "date": "21/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 32.0,
-   "weight": 0.226
+   "weight": 0.204
   },
   {
    "pollster": "Nexus",
@@ -6633,7 +6445,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
    "Lula": 41.0,
    "Flávio": 36.0,
-   "weight": 0.186
+   "weight": 0.167
   },
   {
    "pollster": "Quaest",
@@ -6641,7 +6453,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-pesquisa-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 31.0,
-   "weight": 0.16
+   "weight": 0.144
   },
   {
    "pollster": "PoderData",
@@ -6649,7 +6461,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-pesquisa-agosto-2026/",
    "Lula": 41.0,
    "Flávio": 35.0,
-   "weight": 0.152
+   "weight": 0.137
   },
   {
    "pollster": "CNT/MDA",
@@ -6657,15 +6469,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-agosto-2026/",
    "Lula": 42.4,
    "Flávio": 28.7,
-   "weight": 0.138
-  },
-  {
-   "pollster": "Gerp",
-   "date": "11/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026/",
-   "Lula": 38.0,
-   "Flávio": 38.0,
-   "weight": 0.138
+   "weight": 0.124
   }
  ]
 }
