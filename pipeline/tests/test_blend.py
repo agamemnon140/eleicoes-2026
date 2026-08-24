@@ -48,3 +48,17 @@ def test_guardrail_barra_salto_absurdo():
     out = blend_state_pres(lean, [_poll(first_round={"Lula": 99.0, "Flávio": 35.0})], AS_OF)
     assert out["Lula"] == 5, "salto de +31 p.p. no blend tem de ser barrado"
     assert out["Flávio"] == 34.3
+
+
+def test_tailwind_do_governador_ignora_reliability_fossil():
+    """O gov_reliability por registro veio do preview e ninguém o mantém: apoios
+    explícitos verificados depois ficaram em 0,78 e chapas não verificadas em 1,0.
+    O status do apoio já pontua no componente `apoio` — no tailwind, todos iguais."""
+    from pipeline.build import score_state
+    rec = {"uf": "SP", "cargo": "Senado", "name": "X", "party": "P", "bloc": "Flávio",
+           "active": True, "gov_ticket": "G", "gov_pct": 54.4, "gov_reliability": 1.0,
+           "sen_norm": 0.0, "endorsement": "explícito", "_estado": "São Paulo"}
+    st = score_state("SP", [], [rec], {"SP": {"Lula": 30, "Flávio": 34}}, 60, {}, {})
+    c = st["senate"]["candidates"][0]
+    assert c["model"]["inputs"]["gov_reliability"] == 0.78
+    assert round(c["model"]["scores"]["governo"], 1) == round(0.78 * 54.4 / 0.6, 1)
