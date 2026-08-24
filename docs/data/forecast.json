@@ -38,8 +38,8 @@
   {
    "party": "PT",
    "hold": 3,
-   "newSen": 8,
-   "sen2027": 11,
+   "newSen": 7,
+   "sen2027": 10,
    "gov": 2,
    "holdNames": [
     "Camilo Santana (CE)",
@@ -116,14 +116,6 @@
    ]
   },
   {
-   "party": "Podemos",
-   "hold": 0,
-   "newSen": 2,
-   "sen2027": 2,
-   "gov": 0,
-   "holdNames": []
-  },
-  {
    "party": "PDT",
    "hold": 0,
    "newSen": 2,
@@ -132,10 +124,18 @@
    "holdNames": []
   },
   {
-   "party": "PSOL",
+   "party": "Novo",
    "hold": 0,
-   "newSen": 1,
-   "sen2027": 1,
+   "newSen": 2,
+   "sen2027": 2,
+   "gov": 0,
+   "holdNames": []
+  },
+  {
+   "party": "Podemos",
+   "hold": 0,
+   "newSen": 2,
+   "sen2027": 2,
    "gov": 0,
    "holdNames": []
   },
@@ -148,7 +148,7 @@
    "holdNames": []
   },
   {
-   "party": "Novo",
+   "party": "PSOL",
    "hold": 0,
    "newSen": 1,
    "sen2027": 1,
@@ -2303,7 +2303,7 @@
        },
        "inputs": {
         "gov_pct": null,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 40.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -3571,7 +3571,7 @@
       "name": "Rayssa Furlan",
       "party": "Podemos",
       "bloc": "Flávio",
-      "score": 88.1
+      "score": 81.8
      },
      {
       "name": "Lucas Barreto",
@@ -3636,16 +3636,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 88.1,
+      "score": 81.8,
       "components": {
-       "governo": 28.5,
+       "governo": 22.3,
        "presidente": 12.6,
        "senado": 37.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
+        "governo": 78.0,
         "presidente": 51.35,
         "senado": 100.0,
         "apoio": 100.0
@@ -3663,7 +3663,7 @@
        },
        "inputs": {
         "gov_pct": 69.8,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 47.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -4929,13 +4929,13 @@
       "name": "Rui Costa",
       "party": "PT",
       "bloc": "Lula",
-      "score": 88.6
+      "score": 83.9
      },
      {
       "name": "Jaques Wagner",
       "party": "PT",
       "bloc": "Lula",
-      "score": 80.6
+      "score": 75.9
      }
     ],
     "candidates": [
@@ -5007,16 +5007,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 88.6,
+      "score": 83.9,
       "components": {
-       "governo": 21.4,
+       "governo": 16.7,
        "presidente": 21.2,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 75.0,
+        "governo": 58.5,
         "presidente": 86.66666666666667,
         "senado": 100.0,
         "apoio": 90.0
@@ -5034,7 +5034,7 @@
        },
        "inputs": {
         "gov_pct": 45.0,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 52,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -5114,16 +5114,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Alta",
-      "score": 80.6,
+      "score": 75.9,
       "components": {
-       "governo": 21.4,
+       "governo": 16.7,
        "presidente": 21.2,
        "senado": 29.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 75.0,
+        "governo": 58.5,
         "presidente": 86.66666666666667,
         "senado": 78.481013,
         "apoio": 90.0
@@ -5141,7 +5141,7 @@
        },
        "inputs": {
         "gov_pct": 45.0,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 52,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -6678,13 +6678,13 @@
       "name": "Cid Gomes",
       "party": "PSB",
       "bloc": "Lula",
-      "score": 89.5
+      "score": 84.9
      },
      {
       "name": "Luizianne Lins",
       "party": "Rede",
       "bloc": "Lula",
-      "score": 84.4
+      "score": 79.8
      }
     ],
     "candidates": [
@@ -6743,16 +6743,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 89.5,
+      "score": 84.9,
       "components": {
-       "governo": 21.1,
+       "governo": 16.4,
        "presidente": 22.4,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 73.83333333333333,
+        "governo": 57.589999999999996,
         "presidente": 91.66666666666667,
         "senado": 100.0,
         "apoio": 90.0
@@ -6770,7 +6770,7 @@
        },
        "inputs": {
         "gov_pct": 44.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 55,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -6837,16 +6837,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 84.4,
+      "score": 79.8,
       "components": {
-       "governo": 21.1,
+       "governo": 16.4,
        "presidente": 22.4,
        "senado": 31.9,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 73.83333333333333,
+        "governo": 57.589999999999996,
         "presidente": 91.66666666666667,
         "senado": 86.348123,
         "apoio": 90.0
@@ -6864,7 +6864,7 @@
        },
        "inputs": {
         "gov_pct": 44.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 55,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -6931,16 +6931,16 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 74.5,
+      "score": 69.1,
       "components": {
-       "governo": 24.9,
+       "governo": 19.4,
        "presidente": 9.0,
        "senado": 30.7,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 87.16666666666667,
+        "governo": 67.99000000000001,
         "presidente": 36.66666666666667,
         "senado": 82.935154,
         "apoio": 100.0
@@ -6958,7 +6958,7 @@
        },
        "inputs": {
         "gov_pct": 52.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 22,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
@@ -7025,16 +7025,16 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 65.2,
+      "score": 59.7,
       "components": {
-       "governo": 24.9,
+       "governo": 19.4,
        "presidente": 9.0,
        "senado": 21.3,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 87.16666666666667,
+        "governo": 67.99000000000001,
         "presidente": 36.66666666666667,
         "senado": 57.679181,
         "apoio": 100.0
@@ -7052,7 +7052,7 @@
        },
        "inputs": {
         "gov_pct": 52.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 22,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
@@ -10124,7 +10124,7 @@
       "name": "Gracinha Caiado",
       "party": "União",
       "bloc": "Caiado",
-      "score": 81.1
+      "score": 74.7
      },
      {
       "name": "Vanderlan Cardoso",
@@ -10189,16 +10189,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 81.1,
+      "score": 74.7,
       "components": {
-       "governo": 29.1,
+       "governo": 22.7,
        "presidente": 16.0,
        "senado": 27.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 85.83333333333334,
+        "governo": 66.95,
         "presidente": 55.0,
         "senado": 100.0,
         "apoio": 90.0
@@ -10216,7 +10216,7 @@
        },
        "inputs": {
         "gov_pct": 51.5,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 33,
         "pres_reliability": 1.0,
         "pres_bloc": "Caiado",
@@ -15247,13 +15247,13 @@
       "name": "Reinaldo Azambuja",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 86.2
+      "score": 81.0
      },
      {
       "name": "Capitão Contar",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 67.7
+      "score": 62.5
      }
     ],
     "candidates": [
@@ -15299,16 +15299,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 86.2,
+      "score": 81.0,
       "components": {
-       "governo": 23.8,
+       "governo": 18.6,
        "presidente": 15.5,
        "senado": 37.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 83.33333333333334,
+        "governo": 65.00000000000001,
         "presidente": 63.15833333333334,
         "senado": 100.0,
         "apoio": 100.0
@@ -15326,7 +15326,7 @@
        },
        "inputs": {
         "gov_pct": 50.0,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 58.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -15380,16 +15380,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 67.7,
+      "score": 62.5,
       "components": {
-       "governo": 23.8,
+       "governo": 18.6,
        "presidente": 15.5,
        "senado": 18.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 83.33333333333334,
+        "governo": 65.00000000000001,
         "presidente": 63.15833333333334,
         "senado": 50.0,
         "apoio": 100.0
@@ -15407,7 +15407,7 @@
        },
        "inputs": {
         "gov_pct": 50.0,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 58.3,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -16352,7 +16352,7 @@
       "name": "José Medeiros",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 63.4
+      "score": 58.8
      }
     ],
     "candidates": [
@@ -16479,16 +16479,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Muito baixa",
-      "score": 63.4,
+      "score": 58.8,
       "components": {
-       "governo": 21.0,
+       "governo": 16.4,
        "presidente": 15.9,
        "senado": 16.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 73.66666666666667,
+        "governo": 57.46000000000001,
         "presidente": 65.0,
         "senado": 44.483986,
         "apoio": 100.0
@@ -16506,7 +16506,7 @@
        },
        "inputs": {
         "gov_pct": 44.2,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 63.9,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -19720,13 +19720,13 @@
       "name": "Marília Arraes",
       "party": "PDT",
       "bloc": "Lula",
-      "score": 89.5
+      "score": 84.8
      },
      {
       "name": "Humberto Costa",
       "party": "PT",
       "bloc": "Lula",
-      "score": 82.5
+      "score": 77.7
      }
     ],
     "candidates": [
@@ -19798,16 +19798,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 89.5,
+      "score": 84.8,
       "components": {
-       "governo": 21.6,
+       "governo": 16.8,
        "presidente": 22.0,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 75.5,
+        "governo": 58.89,
         "presidente": 89.83333333333333,
         "senado": 100.0,
         "apoio": 90.0
@@ -19825,7 +19825,7 @@
        },
        "inputs": {
         "gov_pct": 45.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -19905,16 +19905,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 82.5,
+      "score": 77.7,
       "components": {
-       "governo": 21.6,
+       "governo": 16.8,
        "presidente": 22.0,
        "senado": 30.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 75.5,
+        "governo": 58.89,
         "presidente": 89.83333333333333,
         "senado": 80.988593,
         "apoio": 90.0
@@ -19932,7 +19932,7 @@
        },
        "inputs": {
         "gov_pct": 45.3,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 53.9,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -21550,13 +21550,13 @@
       "name": "Marcelo Castro",
       "party": "MDB",
       "bloc": "Lula",
-      "score": 90.4
+      "score": 84.2
      },
      {
       "name": "Júlio César",
       "party": "PSD",
       "bloc": "Lula",
-      "score": 85.8
+      "score": 79.5
      }
     ],
     "candidates": [
@@ -21602,16 +21602,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 90.4,
+      "score": 84.2,
       "components": {
-       "governo": 28.5,
+       "governo": 22.3,
        "presidente": 15.9,
        "senado": 37.0,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
+        "governo": 78.0,
         "presidente": 65.0,
         "senado": 100.0,
         "apoio": 90.0
@@ -21629,7 +21629,7 @@
        },
        "inputs": {
         "gov_pct": 65.1,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 78.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
@@ -21683,16 +21683,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 85.8,
+      "score": 79.5,
       "components": {
-       "governo": 28.5,
+       "governo": 22.3,
        "presidente": 15.9,
        "senado": 32.3,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
+        "governo": 78.0,
         "presidente": 65.0,
         "senado": 87.398374,
         "apoio": 90.0
@@ -21710,7 +21710,7 @@
        },
        "inputs": {
         "gov_pct": 65.1,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 78.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
@@ -23246,13 +23246,13 @@
       "name": "Deltan Dallagnol",
       "party": "Novo",
       "bloc": "Flávio",
-      "score": 87.3
+      "score": 82.2
      },
      {
       "name": "Filipe Barros",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 83.3
+      "score": 78.2
      }
     ],
     "candidates": [
@@ -23298,16 +23298,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 87.3,
+      "score": 82.2,
       "components": {
-       "governo": 23.2,
+       "governo": 18.1,
        "presidente": 17.1,
        "senado": 37.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 81.16666666666667,
+        "governo": 63.31000000000001,
         "presidente": 70.0,
         "senado": 100.0,
         "apoio": 100.0
@@ -23325,7 +23325,7 @@
        },
        "inputs": {
         "gov_pct": 48.7,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 42,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
@@ -23379,16 +23379,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Baixa",
-      "score": 83.3,
+      "score": 78.2,
       "components": {
-       "governo": 23.2,
+       "governo": 18.1,
        "presidente": 17.1,
        "senado": 33.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 81.16666666666667,
+        "governo": 63.31000000000001,
         "presidente": 70.0,
         "senado": 89.351852,
         "apoio": 100.0
@@ -23406,7 +23406,7 @@
        },
        "inputs": {
         "gov_pct": 48.7,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 42,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
@@ -24987,7 +24987,7 @@
       "name": "Pedro Paulo",
       "party": "PSD",
       "bloc": "Lula",
-      "score": 65.1
+      "score": 59.6
      }
     ],
     "candidates": [
@@ -25166,16 +25166,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 65.1,
+      "score": 59.6,
       "components": {
-       "governo": 25.0,
+       "governo": 19.5,
        "presidente": 11.9,
        "senado": 19.2,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 87.5,
+        "governo": 68.25,
         "presidente": 48.833333333333336,
         "senado": 51.785714,
         "apoio": 90.0
@@ -25193,7 +25193,7 @@
        },
        "inputs": {
         "gov_pct": 52.5,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 29.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
@@ -29744,7 +29744,7 @@
     "bloc": "Lula",
     "blocs": [
      "Lula",
-     "Lula"
+     "Flávio"
     ],
     "certainty": "Média",
     "stale": false,
@@ -29760,13 +29760,13 @@
       "name": "Manuela d'Ávila",
       "party": "PSOL",
       "bloc": "Lula",
-      "score": 71.9
+      "score": 67.1
      },
      {
-      "name": "Paulo Pimenta",
-      "party": "PT",
-      "bloc": "Lula",
-      "score": 64.0
+      "name": "Marcel van Hattem",
+      "party": "Novo",
+      "bloc": "Flávio",
+      "score": 63.8
      }
     ],
     "candidates": [
@@ -29838,16 +29838,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 71.9,
+      "score": 67.1,
       "components": {
-       "governo": 21.6,
+       "governo": 16.9,
        "presidente": 14.6,
        "senado": 26.6,
        "apoio": 9.0
       },
       "model": {
        "scores": {
-        "governo": 63.333333333333336,
+        "governo": 49.400000000000006,
         "presidente": 50.0,
         "senado": 100.0,
         "apoio": 90.0
@@ -29865,119 +29865,12 @@
        },
        "inputs": {
         "gov_pct": 38.0,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 30,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
         "pres_basis": "Quaest 24–28/07",
         "sen_norm": 100.0,
-        "gov_ticket": "Juliana Brizola",
-        "endorsement": "chapa/aliança"
-       }
-      },
-      "estimated": true
-     },
-     {
-      "uf": "RS",
-      "cargo": "Senado",
-      "name": "Paulo Pimenta",
-      "party": "PT",
-      "bloc": "Lula",
-      "apoio": "Lula",
-      "apoio_verificado": false,
-      "pct": 19.7,
-      "pct_valid": 16.5,
-      "pct_valid_estimado": null,
-      "runoff": {},
-      "pctDisplay": "19,7%",
-      "instituto": "média móvel de 3 pesquisas",
-      "campo": "21/08/2026",
-      "cenario": "Dois votos, consolidado e reduzido a 100%",
-      "indecisao": "Branco/nulo 15%; indecisos 39%",
-      "situacao": "Dentro da margem do 2º colocado",
-      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
-      "status": "Homologação pós-convenção não verificada individualmente",
-      "status_tipo": "pendente",
-      "active": true,
-      "gov_ticket": "Juliana Brizola",
-      "may_change": 62,
-      "source": "média",
-      "polls": [
-       {
-        "pollster": "Paraná Pesquisas",
-        "date": "21/08/2026",
-        "pct": 22.5,
-        "pct_valid": 15.32,
-        "base": "totais",
-        "sum_cands": 146.9,
-        "undecided": 16.8,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governo-senador-rio-grande-do-sul-agosto-2026/",
-        "weight": 0.628
-       },
-       {
-        "pollster": "Quaest",
-        "date": "30/07/2026",
-        "pct": 9.0,
-        "pct_valid": 19.57,
-        "base": "totais",
-        "sum_cands": 46.0,
-        "undecided": 54.0,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
-        "weight": 0.222
-       },
-       {
-        "pollster": "Paraná Pesquisas",
-        "date": "22/07/2026",
-        "pct": 23.7,
-        "pct_valid": 16.64,
-        "base": "totais",
-        "sum_cands": 142.4,
-        "undecided": 16.3,
-        "scenario": "1º turno",
-        "source": "gazeta",
-        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
-        "weight": 0.149
-       }
-      ],
-      "estimated_preview": true,
-      "certainty_preview": "Média",
-      "score": 64.0,
-      "components": {
-       "governo": 21.6,
-       "presidente": 14.6,
-       "senado": 18.8,
-       "apoio": 9.0
-      },
-      "model": {
-       "scores": {
-        "governo": 63.333333333333336,
-        "presidente": 50.0,
-        "senado": 70.512821,
-        "apoio": 90.0
-       },
-       "weights": {
-        "governo": 0.3412250192294602,
-        "presidente": 0.29247858791096587,
-        "senado": 0.266296392859574,
-        "apoio": 0.1
-       },
-       "momentum": {
-        "delta_pp": 10.7,
-        "weight": 0.0,
-        "bonus": 0.0
-       },
-       "inputs": {
-        "gov_pct": 38.0,
-        "gov_reliability": 1.0,
-        "pres_pct": 30,
-        "pres_reliability": 1.0,
-        "pres_bloc": "Lula",
-        "pres_basis": "Quaest 24–28/07",
-        "sen_norm": 70.512821,
         "gov_ticket": "Juliana Brizola",
         "endorsement": "chapa/aliança"
        }
@@ -30087,6 +29980,113 @@
         "sen_norm": 76.495726,
         "gov_ticket": "Luciano Zucco",
         "endorsement": "explícito"
+       }
+      },
+      "estimated": true
+     },
+     {
+      "uf": "RS",
+      "cargo": "Senado",
+      "name": "Paulo Pimenta",
+      "party": "PT",
+      "bloc": "Lula",
+      "apoio": "Lula",
+      "apoio_verificado": false,
+      "pct": 19.7,
+      "pct_valid": 16.5,
+      "pct_valid_estimado": null,
+      "runoff": {},
+      "pctDisplay": "19,7%",
+      "instituto": "média móvel de 3 pesquisas",
+      "campo": "21/08/2026",
+      "cenario": "Dois votos, consolidado e reduzido a 100%",
+      "indecisao": "Branco/nulo 15%; indecisos 39%",
+      "situacao": "Dentro da margem do 2º colocado",
+      "fonte": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
+      "status": "Homologação pós-convenção não verificada individualmente",
+      "status_tipo": "pendente",
+      "active": true,
+      "gov_ticket": "Juliana Brizola",
+      "may_change": 62,
+      "source": "média",
+      "polls": [
+       {
+        "pollster": "Paraná Pesquisas",
+        "date": "21/08/2026",
+        "pct": 22.5,
+        "pct_valid": 15.32,
+        "base": "totais",
+        "sum_cands": 146.9,
+        "undecided": 16.8,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governo-senador-rio-grande-do-sul-agosto-2026/",
+        "weight": 0.628
+       },
+       {
+        "pollster": "Quaest",
+        "date": "30/07/2026",
+        "pct": 9.0,
+        "pct_valid": 19.57,
+        "base": "totais",
+        "sum_cands": 46.0,
+        "undecided": 54.0,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-rio-grande-do-sul-julho-2026/",
+        "weight": 0.222
+       },
+       {
+        "pollster": "Paraná Pesquisas",
+        "date": "22/07/2026",
+        "pct": 23.7,
+        "pct_valid": 16.64,
+        "base": "totais",
+        "sum_cands": 142.4,
+        "undecided": 16.3,
+        "scenario": "1º turno",
+        "source": "gazeta",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-julho-2026/",
+        "weight": 0.149
+       }
+      ],
+      "estimated_preview": true,
+      "certainty_preview": "Média",
+      "score": 59.3,
+      "components": {
+       "governo": 16.9,
+       "presidente": 14.6,
+       "senado": 18.8,
+       "apoio": 9.0
+      },
+      "model": {
+       "scores": {
+        "governo": 49.400000000000006,
+        "presidente": 50.0,
+        "senado": 70.512821,
+        "apoio": 90.0
+       },
+       "weights": {
+        "governo": 0.3412250192294602,
+        "presidente": 0.29247858791096587,
+        "senado": 0.266296392859574,
+        "apoio": 0.1
+       },
+       "momentum": {
+        "delta_pp": 10.7,
+        "weight": 0.0,
+        "bonus": 0.0
+       },
+       "inputs": {
+        "gov_pct": 38.0,
+        "gov_reliability": 0.78,
+        "pres_pct": 30,
+        "pres_reliability": 1.0,
+        "pres_bloc": "Lula",
+        "pres_basis": "Quaest 24–28/07",
+        "sen_norm": 70.512821,
+        "gov_ticket": "Juliana Brizola",
+        "endorsement": "chapa/aliança"
        }
       },
       "estimated": false
@@ -31400,13 +31400,13 @@
       "name": "Carlos Bolsonaro",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 91.4
+      "score": 85.2
      },
      {
       "name": "Caroline de Toni",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 82.6
+      "score": 76.3
      }
     ],
     "candidates": [
@@ -31452,16 +31452,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 91.4,
+      "score": 85.2,
       "components": {
-       "governo": 28.5,
+       "governo": 22.3,
        "presidente": 15.9,
        "senado": 37.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
+        "governo": 78.0,
         "presidente": 65.0,
         "senado": 100.0,
         "apoio": 100.0
@@ -31479,7 +31479,7 @@
        },
        "inputs": {
         "gov_pct": 61.8,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 68.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -31533,16 +31533,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média",
-      "score": 82.6,
+      "score": 76.3,
       "components": {
-       "governo": 28.5,
+       "governo": 22.3,
        "presidente": 15.9,
        "senado": 28.1,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 100.0,
+        "governo": 78.0,
         "presidente": 65.0,
         "senado": 76.05178,
         "apoio": 100.0
@@ -31560,7 +31560,7 @@
        },
        "inputs": {
         "gov_pct": 61.8,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 68.1,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
@@ -33694,13 +33694,13 @@
       "name": "Guilherme Derrite",
       "party": "PP",
       "bloc": "Flávio",
-      "score": 77.7
+      "score": 71.1
      },
      {
       "name": "André do Prado",
       "party": "PL",
       "bloc": "Flávio",
-      "score": 75.6
+      "score": 69.1
      }
     ],
     "candidates": [
@@ -33780,16 +33780,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 77.7,
+      "score": 71.1,
       "components": {
-       "governo": 29.7,
+       "governo": 23.1,
        "presidente": 16.0,
        "senado": 22.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 90.66666666666667,
+        "governo": 70.72000000000001,
         "presidente": 57.166666666666664,
         "senado": 75.124378,
         "apoio": 100.0
@@ -33807,7 +33807,7 @@
        },
        "inputs": {
         "gov_pct": 54.4,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 34.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
@@ -33874,16 +33874,16 @@
       ],
       "estimated_preview": true,
       "certainty_preview": "Média-alta",
-      "score": 75.6,
+      "score": 69.1,
       "components": {
-       "governo": 29.7,
+       "governo": 23.1,
        "presidente": 16.0,
        "senado": 19.9,
        "apoio": 10.0
       },
       "model": {
        "scores": {
-        "governo": 90.66666666666667,
+        "governo": 70.72000000000001,
         "presidente": 57.166666666666664,
         "senado": 68.159204,
         "apoio": 100.0
@@ -33901,7 +33901,7 @@
        },
        "inputs": {
         "gov_pct": 54.4,
-        "gov_reliability": 1.0,
+        "gov_reliability": 0.78,
         "pres_pct": 34.3,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",

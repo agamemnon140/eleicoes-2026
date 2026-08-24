@@ -127,6 +127,16 @@ def pres_reliability(basis: str | None) -> float:
     return 0.65 if (basis and "proxy" in basis.lower()) else 1.0
 
 
+# Confiabilidade do tailwind de chapa (governador -> Senado), IGUAL para todos.
+# O snapshot ainda carrega um gov_reliability por registro herdado do preview (1,0 para
+# quem tinha apoio explícito verificado NA ÉPOCA), mas nenhum código o mantém desde então:
+# a curadoria posterior deixou 32 apoios explícitos verificados em 0,78 e 12 chapas não
+# verificadas em 1,0. Além do drift, o status do apoio já pontua no componente `apoio` —
+# usá-lo de novo como multiplicador do tailwind é dupla contagem. Por isso o valor
+# armazenado é ignorado aqui.
+GOV_TAILWIND_RELIABILITY = 0.78
+
+
 def state_may_change(sen_records: list[dict]) -> float | None:
     for r in sen_records:
         if r.get("may_change") is not None:
@@ -174,7 +184,7 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
     for r in sen_recs:
         sen_pres = lean.get(r["bloc"]) if r["bloc"] in BLOCS else r.get("pres_pct")
         res = model.score_senate(
-            gov_pct=r.get("gov_pct"), gov_reliability=r.get("gov_reliability") or 0.78,
+            gov_pct=r.get("gov_pct"), gov_reliability=GOV_TAILWIND_RELIABILITY,
             pres_pct=sen_pres, pres_reliability=r.get("pres_reliability") or 0.65,
             sen_norm=r.get("sen_norm") or 0.0, endorsement=r.get("endorsement"),
             weights=weights,
@@ -187,7 +197,7 @@ def score_state(uf, gov_recs, sen_recs, pres_lean, days, gov_conf, sen_conf):
                          "weights": weights,
                          "momentum": {"delta_pp": r.get("mom") or 0, "weight": round(schedule.momentum_weight(days), 2),
                                       "bonus": mom_bonus},
-                         "inputs": {"gov_pct": r.get("gov_pct"), "gov_reliability": r.get("gov_reliability") or 0.78,
+                         "inputs": {"gov_pct": r.get("gov_pct"), "gov_reliability": GOV_TAILWIND_RELIABILITY,
                                     "pres_pct": sen_pres, "pres_reliability": r.get("pres_reliability") or 0.65,
                                     "pres_bloc": r["bloc"], "pres_basis": basis,
                                     "sen_norm": r.get("sen_norm"), "gov_ticket": r.get("gov_ticket"),
