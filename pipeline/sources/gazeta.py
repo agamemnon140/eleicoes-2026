@@ -11,7 +11,8 @@ import re
 import requests
 
 from pipeline.sources.base import (BASE_TOTAL, BASE_VALID, FIRST_ROUND, RUNOFF, PollRecord,
-                                   canon_pollster, match_candidate, option_kind, strip_accents)
+                                   canon_pollster, match_candidate, option_kind, strip_accents,
+                                   votos_por_pessoa)
 
 UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                     "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"}
@@ -196,5 +197,6 @@ def parse_html(uf: str, roster_state: dict, html: str, url: str) -> list[PollRec
                 uf, cargo, cand["name"], cand["party"], pct, pollster, date, "gazeta", url,
                 scenario=cenario, base=base, sum_cands=round(soma_cands, 1),
                 undecided=round(brancos, 1),
-                opponents=tuple(nomes) if cenario == RUNOFF else ()))
+                opponents=tuple(nomes) if cenario == RUNOFF else (),
+                votos=votos_por_pessoa(soma_cands, brancos)))
     return records

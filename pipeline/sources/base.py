@@ -29,6 +29,7 @@ class PollRecord:
     sum_cands: float | None = None  # soma dos % de TODOS os candidatos do cenário
     undecided: float | None = None  # branco/nulo/indeciso (fora dos válidos)
     opponents: tuple = ()           # no 2º turno, quem estava no cenário
+    votos: int = 1                  # votos por pessoa implícitos na soma (Senado: 2 quando soma ~200%)
 
     @property
     def pct_valid(self) -> float | None:
@@ -45,6 +46,17 @@ class PollRecord:
         if not self.sum_cands or self.sum_cands <= 0:
             return None
         return round(self.pct / self.sum_cands * 100, 2)
+
+
+# Senado tem 2 votos por eleitor e os institutos publicam de dois jeitos: % de ENTREVISTADOS
+# que citam o nome (a soma dos candidatos passa de 100 — chega a ~200) ou % dos VOTOS (cada
+# menção vale meio eleitor; soma ~100 com branco/indeciso). Sem separar, a média mistura
+# 30% (Paraná Pesquisas, 2 votos) com 15% (Datafolha, normalizado) do MESMO candidato.
+VOTOS_2_LIMIAR = 110.0   # soma candidatos + branco/indeciso acima disso = 2 votos por pessoa
+
+
+def votos_por_pessoa(soma_cands: float, brancos: float) -> int:
+    return 2 if (soma_cands or 0) + (brancos or 0) > VOTOS_2_LIMIAR else 1
 
 
 def strip_accents(s: str) -> str:

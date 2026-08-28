@@ -21,6 +21,7 @@ let RAW = null, PRES_RAW = null, LOG = null;  // dados crus + registro de pesqui
 const sim = {pres:0, gov:0, sen:0};           // erro simulado nas pesquisas (pp; + = Lula, − = Bolsonaro)
 let simOpen = false;                          // painel do simulador começa fechado (é ferramenta, não manchete)
 const logFilter = {uf:'ALL', cargo:'ALL'};    // filtros da aba Pesquisas
+const maFilter = {uf:'SP', cargo:'Governo'};   // disputa aberta na aba Médias
 let tab = 'gov';
 let colorMode = 'bloco';               // 'bloco' | 'partido'
 let fieldFocus = null;                 // {field, grupo} — campo aberto na composição do Senado
@@ -94,9 +95,10 @@ function selectTab(t){
 function render(){
   applySim();
   updateSimLabels();
-  const sh = $('#sim'); if(sh) sh.style.display = (tab==='log') ? 'none' : '';
+  const sh = $('#sim'); if(sh) sh.style.display = (tab==='log' || tab==='ma') ? 'none' : '';
   const v = $('#view');
   if(tab==='log'){ v.innerHTML = renderPollsLog(); wireLog(); return; }
+  if(tab==='ma'){ v.innerHTML = renderMedias(); wireMedias(); return; }
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
   const off = office();
   v.innerHTML =
@@ -375,11 +377,13 @@ function maPanel(uf, off, aberto){
   });
   if(!linhas.length) return '';
   const num = v => v==null ? '—' : String(r1(v)).replace('.',',')+'%';
+  const sen = off==='senate';
   const body = linhas.map(l=>`<tr${l.cand?' class="first"':''}>
     <td>${l.cand?`<b>${esc(l.cand)}</b> <span class="badge sm" style="background:${partyColor(l.party)}">${esc(l.party)}</span>`:''}</td>
     <td>${esc(l.pollster||'')}</td><td class="nw">${esc(l.date||'')}</td>
     <td class="r">${num(l.pct)}</td>
     <td><span class="basetag ${l.base==='válidos'?'v':'t'}">${esc(l.base||'?')}</span></td>
+    ${sen?`<td>${votosTag({cargo:'Senado', votos:l.votos})}</td>`:''}
     <td class="r">${num(l.undecided)}</td>
     <td class="r"><b>${num(l.pct_valid)}</b></td>
     <td class="r">${l.weight!=null?Math.round(l.weight*100)+'%':'—'}</td>
@@ -390,13 +394,18 @@ function maPanel(uf, off, aberto){
     (indeciso e branco/nulo entram na conta), outros já sobre os <b>votos válidos</b>. Comparar sem
     converter mistura escalas, então a média é feita sobre os <b>válidos</b>
     (<code>% ÷ soma dos candidatos</code>) e é esse número que alimenta o modelo.</p>
+    ${sen?`<p class="desc"><b>Senado tem 2 votos por eleitor</b>, e os institutos publicam de dois jeitos:
+    % de <b>entrevistados que citam o nome</b> (a soma dos candidatos passa de 100%, chega a ~200%) ou
+    % dos <b>votos</b> (cada menção vale meio eleitor; soma ~100% com branco/indeciso). Na média do
+    % publicado, a pesquisa de 2 votos por pessoa entra <b>pela metade</b> ("por voto"), para não somar
+    30% de um formato com 15% do outro para o mesmo candidato. A fatia dos válidos já é comparável nos dois.</p>`:''}
     <p class="formula"><b>Média móvel</b> = Σ(pesoᵢ × %válidoᵢ) ÷ Σpesoᵢ, sobre as pesquisas até
     <b>${ma.window_days} dias</b> mais velhas que a mais recente, com
     <b>peso = 0,5<sup>(idade em dias ÷ ${ma.halflife_days})</sup></b> — uma pesquisa
     ${ma.halflife_days} dias mais velha pesa metade. 1º e 2º turno são séries separadas.</p>
     <div class="tblwrap"><table class="matbl">
       <thead><tr><th>Candidato</th><th>Instituto</th><th>Campo</th><th class="r">% publicado</th>
-        <th>Base</th><th class="r">Br/nulo/ind.</th><th class="r">% válidos</th><th class="r">Peso</th>
+        <th>Base</th>${sen?'<th>Votos</th>':''}<th class="r">Br/nulo/ind.</th><th class="r">% válidos</th><th class="r">Peso</th>
         <th class="r">Média</th></tr></thead>
       <tbody>${body}</tbody></table></div></details>`;
 }
@@ -922,6 +931,7 @@ function renderPollsLog(){
       <td><span class="turnotag ${t2?'t2':'t1'}">${esc(p.scenario||'1º turno')}</span></td>
       <td><span class="basetag ${p.base==='válidos'?'v':'t'}">${esc(p.base||'?')}</span>${
         p.undecided!=null?`<span class="muted sm"> br/ind. ${fpct(p.undecided)}</span>`:''}</td>
+      <td>${votosTag(p)}</td>
       <td>${esc(p.pollster)}</td><td class="rd">${rd}</td>
       <td>${pollLink(p.url, srcName(p.source))}</td></tr>`;
   }).join('');
@@ -948,8 +958,8 @@ function renderPollsLog(){
         <option value="Senado" ${logFilter.cargo==='Senado'?'selected':''}>Só Senado</option>
       </select></div>
     <div class="logwrap"><table class="logtbl">
-      <thead><tr><th>Data</th><th>Estado</th><th>Cargo</th><th>Turno</th><th>Base</th><th>Instituto</th><th>Leituras</th><th>Fonte</th></tr></thead>
-      <tbody>${body || `<tr><td colspan="8" class="muted">Nenhuma pesquisa com esse filtro.</td></tr>`}</tbody>
+      <thead><tr><th>Data</th><th>Estado</th><th>Cargo</th><th>Turno</th><th>Base</th><th>Votos</th><th>Instituto</th><th>Leituras</th><th>Fonte</th></tr></thead>
+      <tbody>${body || `<tr><td colspan="9" class="muted">Nenhuma pesquisa com esse filtro.</td></tr>`}</tbody>
     </table></div>
   </section>
   ${card}
@@ -961,6 +971,48 @@ function renderPollsLog(){
       <tbody>${presBody || `<tr><td colspan="6" class="muted">Sem pesquisas presidenciais.</td></tr>`}</tbody>
     </table></div>
   </section>`;
+}
+// Senado: 2 votos por pessoa (soma ~200%) x normalizado (soma ~100%). Governador não tem isso.
+function votosTag(p){
+  if(p.cargo !== 'Senado') return '<span class="muted">—</span>';
+  if(p.votos === 2) return '<span class="basetag v2" title="soma dos candidatos ~200%: % de entrevistados que citam o nome. Na média do % publicado entra pela metade (por voto).">2 por pessoa</span>';
+  if(p.votos === 1) return '<span class="basetag t" title="soma ~100%: cada menção vale meio eleitor (ou o instituto pediu um voto só)">soma 100%</span>';
+  return '<span class="muted" title="pesquisa coletada antes da classificação por formato">?</span>';
+}
+function renderMedias(){
+  const ufs = Object.keys(FC.states).sort((a,b)=>FC.states[a].estado.localeCompare(FC.states[b].estado,'pt-BR'));
+  if(!FC.states[maFilter.uf]) maFilter.uf = ufs[0];
+  const off = maFilter.cargo==='Senado' ? 'senate' : 'governor';
+  const st = FC.states[maFilter.uf], o = st[off];
+  const optUf = ufs.map(uf=>`<option value="${uf}" ${maFilter.uf===uf?'selected':''}>${esc(FC.states[uf].estado)}</option>`).join('');
+  const cands = o.candidates.filter(c=>c.active && num(c.pct)).sort((a,b)=>(b.pct_valid??b.pct)-(a.pct_valid??a.pct));
+  const resumo = cands.length ? `<div class="tblwrap"><table class="matbl">
+      <thead><tr><th>Candidato</th><th class="r">Média % publicado${off==='senate'?' (por voto)':''}</th>
+        <th class="r">Média % válidos</th><th class="r">Pesquisas</th><th>Mais recente</th></tr></thead>
+      <tbody>${cands.map(c=>`<tr class="first"><td><b>${esc(c.name)}</b> <span class="badge sm" style="background:${partyColor(c.party)}">${esc(c.party)}</span></td>
+        <td class="r">${fpct(c.pct)}</td>
+        <td class="r"><b>${fpct(c.pct_valid)}</b>${c.pct_valid_estimado?' <span class="muted sm" title="sem conversão na pesquisa; estimado pela soma da disputa">est.</span>':''}</td>
+        <td class="r">${(c.polls||[]).length||'—'}</td>
+        <td class="nw">${esc(c.instituto||'')} ${esc(c.campo||'')}</td></tr>`).join('')}</tbody></table></div>`
+    : '<p class="muted">Sem pesquisa nesta disputa.</p>';
+  return `<section class="panel">
+    <div class="panel-top"><h2 style="margin:0">Médias por disputa</h2>
+      <span class="muted">${esc(st.estado)} · ${cargoShort(maFilter.cargo)}</span></div>
+    <p class="desc">Para cada candidato: a média móvel em uso, as pesquisas que entram nela e o peso de cada uma.
+      A média sobre os <b>válidos</b> é a que alimenta o modelo; o % publicado é só leitura.</p>
+    <div class="controls">
+      <select id="ma-uf">${optUf}</select>
+      <select id="ma-cargo">
+        <option value="Governo" ${maFilter.cargo==='Governo'?'selected':''}>Governador</option>
+        <option value="Senado" ${maFilter.cargo==='Senado'?'selected':''}>Senado</option>
+      </select></div>
+    ${resumo}
+    ${maPanel(maFilter.uf, off, true) || '<p class="muted">Sem detalhamento das pesquisas nesta disputa.</p>'}
+  </section>`;
+}
+function wireMedias(){
+  const su = $('#ma-uf'); if(su) su.onchange = e=>{ maFilter.uf = e.target.value; render(); };
+  const sc = $('#ma-cargo'); if(sc) sc.onchange = e=>{ maFilter.cargo = e.target.value; render(); };
 }
 function wireLog(){
   const su = $('#log-uf'); if(su) su.onchange = e=>{ logFilter.uf = e.target.value; render(); };

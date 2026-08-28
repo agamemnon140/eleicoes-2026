@@ -33,7 +33,7 @@ def _recency(d: str | None) -> tuple[int, int, int]:
     return (int(m.group(2)), int(m.group(1)), 0) if m else (0, 0, 0)
 
 
-def discover_pres(session: requests.Session, max_pages: int = 2, limit: int = 8) -> list[str]:
+def discover_pres(session: requests.Session, max_pages: int = 4, limit: int = 12) -> list[str]:
     from bs4 import BeautifulSoup
     urls, seen = [], set()
     for page in range(1, max_pages + 1):
@@ -93,16 +93,28 @@ def pollster_from_url(url: str) -> str:
     return slug.split("-presidente")[0].replace("-", " ").title()
 
 
+def _looks_first_round(ctx: str, items: list) -> bool:
+    """Lista de 1º turno sem a palavra 'estimulada' no cabeçalho (PoderData 27/08 veio como
+    'Lula e Flávio estão tecnicamente empatados'): 4+ nomes, Lula E Flávio presentes, e o
+    cabeçalho não denuncia espontânea nem duelo."""
+    if len(items) < 4 or "espontan" in ctx or " x " in ctx or "segundo turno" in ctx:
+        return False
+    blocs = {_bloc(name) for name, _p, _v in items}
+    return "Lula" in blocs and "Flávio" in blocs
+
+
 def parse_poll(html: str, url: str) -> dict:
     date = gz.published_date(html, url)
-    first, runoff = [], []
+    first, runoff, fallback = [], [], []
     for ctx, items in _lists(html):
         if not first and "estimulad" in ctx and "espontan" not in ctx and " x " not in ctx:
             first = items
+        elif not first and not fallback and _looks_first_round(ctx, items):
+            fallback = items
         if not runoff and "lula x flavio" in ctx:
             runoff = items
     return {"pollster": pollster_from_url(url), "date": date, "url": url,
-            "first_round": first, "runoff": runoff}
+            "first_round": first or fallback, "runoff": runoff}
 
 
 def state_scoped(url: str, estados: dict) -> bool:
@@ -233,11 +245,14 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
     }
 
 
-def collect_all(session: requests.Session, estados: dict | None = None) -> tuple[dict, list]:
-    """Agregado nacional + leituras presidenciais POR ESTADO.
+def collect_all(session: requests.Session, estados: dict | None = None) -> tuple[list, list]:
+    """Pesquisas nacionais BRUTAS + leituras presidenciais POR ESTADO.
 
-    Retorna (nacional, estaduais); estaduais é uma lista de dicts com "uf" — matérias
-    recortadas por estado saem do poll-of-polls nacional e entram aqui.
+    Retorna (nacionais, estaduais). Quem agrega é o coletor, DEPOIS de mesclar com as
+    pesquisas dos snapshots anteriores: o índice da Gazeta muda de paginação e uma
+    varredura que só enxerga as 3 mais novas não pode apagar as outras da média.
+    Estaduais é uma lista de dicts com "uf" — matérias recortadas por estado saem do
+    poll-of-polls nacional e entram aqui.
     """
     polls, states = [], []
     for url in discover_pres(session):
@@ -252,8 +267,21 @@ def collect_all(session: requests.Session, estados: dict | None = None) -> tuple
         p = parse_poll(html, url)
         if p["first_round"]:
             polls.append(p)
-    return aggregate(polls), states
+    return polls, states
+
+
+def merge_polls(prev: list | None, novas: list, max_age_days: int = 60) -> list:
+    """Mescla as pesquisas nacionais desta varredura com as já conhecidas (uma por URL),
+    descartando as mais velhas que `max_age_days` em relação à mais recente."""
+    by_url = {p["url"]: p for p in (prev or []) if p.get("url")}
+    for p in novas:
+        by_url[p["url"]] = p            # a versão recém-lida vence (matéria pode ter sido corrigida)
+    polls = sorted(by_url.values(), key=lambda p: _recency(p["date"]), reverse=True)
+    if not polls:
+        return []
+    top = _pord(polls[0]["date"])
+    return [p for p in polls if top - _pord(p["date"]) <= max_age_days]
 
 
 def collect(session: requests.Session) -> dict:
-    return collect_all(session)[0]
+    return aggregate(collect_all(session)[0])

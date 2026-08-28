@@ -128,7 +128,10 @@ def collect_fresh(roster: dict) -> dict:
             window = [newest]
         weights = [_recency_weight(top - _ord(parse_recency(r.date))) for r in window]
         wsum = sum(weights) or 1.0
-        avg = round(sum(w * r.pct for w, r in zip(weights, window)) / wsum, 1)
+        # % publicado em escala POR VOTO: pesquisa de Senado com 2 votos por pessoa (soma
+        # ~200%) entra pela metade, para não somar 30% (2 votos) com 15% (normalizado) do
+        # mesmo candidato. Os válidos já são comparáveis (fatia das menções válidas).
+        avg = round(sum(w * r.pct / (r.votos or 1) for w, r in zip(weights, window)) / wsum, 1)
         # média dos válidos só entre as pesquisas em que deu para converter
         vw = [(w, r) for w, r in zip(weights, window) if r.pct_valid is not None]
         avg_valid = (round(sum(w * r.pct_valid for w, r in vw) / sum(w for w, _ in vw), 1)
@@ -142,7 +145,7 @@ def collect_fresh(roster: dict) -> dict:
             "opponents": list(newest.opponents),
             "sources": [{"pollster": r.pollster, "date": r.date, "pct": r.pct,
                          "pct_valid": r.pct_valid, "base": r.base, "sum_cands": r.sum_cands,
-                         "undecided": r.undecided, "scenario": r.scenario,
+                         "undecided": r.undecided, "scenario": r.scenario, "votos": r.votos,
                          "source": r.source, "url": r.url, "weight": round(w / wsum, 3)}
                         for w, r in zip(weights, window)],
         }
@@ -299,7 +302,12 @@ def main():
 
     print("Agregando pesquisas presidenciais (poll-of-polls)…")
     psx = requests.Session(); psx.headers.update(gz.UA)
-    pres_agg, pres_states_new = president.collect_all(psx, estados)
+    pres_raw_new, pres_states_new = president.collect_all(psx, estados)
+    # o agregado sai do HISTÓRICO mesclado, não só do que o índice mostrou hoje
+    pres_polls = president.merge_polls(snap.get("president_polls"), pres_raw_new)
+    pres_agg = president.aggregate(pres_polls)
+    if pres_raw_new:
+        print(f"  presidencial: {len(pres_raw_new)} lidas hoje, {len(pres_polls)} no histórico")
     if pres_agg:
         print(f"  presidencial: {pres_agg['polls']} pesquisas, "
               f"Lula {pres_agg['first_round'][0]['avg']}% x "
@@ -321,7 +329,8 @@ def main():
         return
 
     out = {"date": date_str, "source": "wikipedia + gazeta + base",
-           "records": records, "president": pres_agg, "president_states": pres_states}
+           "records": records, "president": pres_agg, "president_polls": pres_polls,
+           "president_states": pres_states}
     (ROOT / "data" / "polls" / f"{date_str}.json").write_text(
         json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"  -> data/polls/{date_str}.json")

@@ -232,6 +232,7 @@ button.ppbar.on{background:#eef6f4;border-color:var(--teal);border-radius:8px}
 .basetag{font-size:10px;font-weight:800;border-radius:999px;padding:1px 7px;white-space:nowrap}
 .basetag.t{background:#eef2f7;color:#475569}
 .basetag.v{background:#e0f2fe;color:#075985}
+.basetag.v2{background:#fef3c7;color:#92400e}
 
 /* aviso no card: troca de cargo / desistência (por que o índice está estranho) */
 .cand-note{margin-top:5px;font-size:11.5px;font-weight:700;line-height:1.35;border-radius:8px;
