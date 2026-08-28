@@ -2,6 +2,159 @@
  "generated_at": "2026-08-28",
  "state_polls": [
   {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 149.8,
+   "undecided": 13.2,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Gomes",
+     "party": "PL",
+     "pct": 35.1,
+     "pct_valid": 23.43
+    },
+    {
+     "name": "Alexandre Guimarães",
+     "party": "MDB",
+     "pct": 21.6,
+     "pct_valid": 14.42
+    },
+    {
+     "name": "Carlos Gaguim",
+     "party": "União",
+     "pct": 20.8,
+     "pct_valid": 13.89
+    },
+    {
+     "name": "Ronaldo Dimas",
+     "party": "Podemos",
+     "pct": 16.0,
+     "pct_valid": 10.68
+    },
+    {
+     "name": "Vanderlei Luxemburgo",
+     "party": "Podemos",
+     "pct": 15.0,
+     "pct_valid": 10.01
+    },
+    {
+     "name": "Eli Borges",
+     "party": "Republicanos",
+     "pct": 14.2,
+     "pct_valid": 9.48
+    },
+    {
+     "name": "Paulo Mourão",
+     "party": "PT",
+     "pct": 14.0,
+     "pct_valid": 9.35
+    },
+    {
+     "name": "Fábio Ribeiro",
+     "party": "Rede",
+     "pct": 2.8,
+     "pct_valid": 1.87
+    },
+    {
+     "name": "Professor Osvaldo",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 1.34
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.5,
+   "undecided": 11.5,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 37.3,
+     "pct_valid": 42.15
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 35.5,
+     "pct_valid": 40.11
+    },
+    {
+     "name": "Laurez Moreira",
+     "party": "PSD",
+     "pct": 7.6,
+     "pct_valid": 8.59
+    },
+    {
+     "name": "Ataides De Oliveira",
+     "party": "Novo",
+     "pct": 5.1,
+     "pct_valid": 5.76
+    },
+    {
+     "name": "Prof Witer Naves",
+     "party": "PSOL",
+     "pct": 0.2,
+     "pct_valid": 0.23
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.3,
+   "undecided": 10.7,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 44.9,
+     "pct_valid": 50.28
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 44.4,
+     "pct_valid": 49.72
+    },
+    {
+     "name": "Laurez Moreira",
+     "party": "PSD",
+     "pct": 30.9,
+     "pct_valid": 36.83
+    }
+   ]
+  },
+  {
    "uf": "SE",
    "estado": "Sergipe",
    "cargo": "Senado",
