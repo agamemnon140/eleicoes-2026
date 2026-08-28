@@ -16071,8 +16071,8 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado (provável)",
    "apoio_verificado": false,
-   "pct": 35.0,
-   "pctDisplay": "35,0%",
+   "pct": 35.8,
+   "pctDisplay": "35,8%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -16081,8 +16081,8 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "Maior percentual no cenário",
@@ -16095,6 +16095,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 37.3,
+     "pct_valid": 42.15,
+     "base": "totais",
+     "sum_cands": 88.5,
+     "undecided": 11.5,
+     "scenario": "1º turno",
+     "votos": 1,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 33.0,
@@ -16106,7 +16120,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16120,17 +16134,31 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": -1.0,
+   "mom": -0.2,
    "runoff": {
     "Vicentinho Júnior": {
-     "pct_valid": 61.9,
-     "pct": 48.3,
-     "date": "26/08/2026",
+     "pct_valid": 57.5,
+     "pct": 46.9,
+     "date": "28/08/2026",
      "polls": [
+      {
+       "pollster": "Paraná Pesquisas",
+       "date": "28/08/2026",
+       "pct": 44.4,
+       "pct_valid": 49.72,
+       "base": "totais",
+       "sum_cands": 89.3,
+       "undecided": 10.7,
+       "scenario": "2º turno",
+       "votos": 1,
+       "source": "gazeta",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+       "weight": 0.361
+      },
       {
        "pollster": "Real Time Big Data",
        "date": "26/08/2026",
@@ -16143,7 +16171,7 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.512
+       "weight": 0.327
       },
       {
        "pollster": "Quaest",
@@ -16157,12 +16185,12 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.488
+       "weight": 0.311
       }
      ]
     }
    },
-   "pct_valid": 43.1
+   "pct_valid": 42.8
   },
   {
    "uf": "TO",
@@ -16173,8 +16201,8 @@
    "endorsement": "não verificado",
    "apoio": "Flávio Bolsonaro (provável)",
    "apoio_verificado": false,
-   "pct": 29.0,
-   "pctDisplay": "29,0%",
+   "pct": 31.4,
+   "pctDisplay": "31,4%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -16183,8 +16211,8 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "Abaixo do grupo líder no cenário",
@@ -16197,6 +16225,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 35.5,
+     "pct_valid": 40.11,
+     "base": "totais",
+     "sum_cands": 88.5,
+     "undecided": 11.5,
+     "scenario": "1º turno",
+     "votos": 1,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 30.0,
@@ -16208,7 +16250,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16222,17 +16264,31 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": -4.0,
+   "mom": -1.6,
    "runoff": {
     "Professora Dorinha": {
-     "pct_valid": 63.0,
-     "pct": 47.3,
-     "date": "26/08/2026",
+     "pct_valid": 58.4,
+     "pct": 46.5,
+     "date": "28/08/2026",
      "polls": [
+      {
+       "pollster": "Paraná Pesquisas",
+       "date": "28/08/2026",
+       "pct": 44.9,
+       "pct_valid": 50.28,
+       "base": "totais",
+       "sum_cands": 89.3,
+       "undecided": 10.7,
+       "scenario": "2º turno",
+       "votos": 1,
+       "source": "gazeta",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+       "weight": 0.361
+      },
       {
        "pollster": "Real Time Big Data",
        "date": "26/08/2026",
@@ -16245,7 +16301,7 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.512
+       "weight": 0.327
       },
       {
        "pollster": "Quaest",
@@ -16259,12 +16315,12 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.488
+       "weight": 0.311
       }
      ]
     }
    },
-   "pct_valid": 35.6
+   "pct_valid": 37.2
   },
   {
    "uf": "TO",
@@ -16275,8 +16331,8 @@
    "endorsement": "não verificado",
    "apoio": "Ronaldo Caiado",
    "apoio_verificado": false,
-   "pct": 9.0,
-   "pctDisplay": "9,0%",
+   "pct": 8.5,
+   "pctDisplay": "8,5%",
    "sen_norm": null,
    "gov_ticket": null,
    "gov_pct": null,
@@ -16285,8 +16341,8 @@
    "pres_reliability": null,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "Abaixo do grupo líder no cenário",
@@ -16299,6 +16355,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 7.6,
+     "pct_valid": 8.59,
+     "base": "totais",
+     "sum_cands": 88.5,
+     "undecided": 11.5,
+     "scenario": "1º turno",
+     "votos": 1,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 11.0,
@@ -16310,7 +16380,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16324,17 +16394,31 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": 0.0,
+   "mom": -0.5,
    "runoff": {
     "Professora Dorinha": {
-     "pct_valid": 47.2,
-     "pct": 31.5,
-     "date": "26/08/2026",
+     "pct_valid": 43.5,
+     "pct": 31.3,
+     "date": "28/08/2026",
      "polls": [
+      {
+       "pollster": "Paraná Pesquisas",
+       "date": "28/08/2026",
+       "pct": 30.9,
+       "pct_valid": 36.83,
+       "base": "totais",
+       "sum_cands": 83.9,
+       "undecided": 16.0,
+       "scenario": "2º turno",
+       "votos": 1,
+       "source": "gazeta",
+       "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+       "weight": 0.361
+      },
       {
        "pollster": "Real Time Big Data",
        "date": "26/08/2026",
@@ -16347,7 +16431,7 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.512
+       "weight": 0.327
       },
       {
        "pollster": "Quaest",
@@ -16361,12 +16445,12 @@
        "votos": 1,
        "source": "gazeta",
        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-       "weight": 0.488
+       "weight": 0.311
       }
      ]
     }
    },
-   "pct_valid": 11.0
+   "pct_valid": 10.1
   },
   {
    "uf": "TO",
@@ -16377,18 +16461,18 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 20.1,
-   "pctDisplay": "20,1%",
+   "pct": 19.2,
+   "pctDisplay": "19,2%",
    "sen_norm": 100.0,
    "gov_ticket": "Professora Dorinha",
-   "gov_pct": 43.1,
+   "gov_pct": 42.8,
    "gov_reliability": 0.78,
    "pres_pct": 48.6,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "No top 2 numérico da pesquisa",
@@ -16401,6 +16485,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 35.1,
+     "pct_valid": 23.43,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 26.0,
@@ -16412,7 +16510,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16426,13 +16524,13 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": -15.9,
+   "mom": -16.8,
    "runoff": {},
-   "pct_valid": 25.1
+   "pct_valid": 24.5
   },
   {
    "uf": "TO",
@@ -16443,18 +16541,18 @@
    "endorsement": "não verificado",
    "apoio": "Indefinido",
    "apoio_verificado": false,
-   "pct": 13.1,
-   "pctDisplay": "13,1%",
-   "sen_norm": 64.541833,
+   "pct": 12.3,
+   "pctDisplay": "12,3%",
+   "sen_norm": 63.265306,
    "gov_ticket": "Professora Dorinha",
-   "gov_pct": 43.1,
+   "gov_pct": 42.8,
    "gov_reliability": 0.78,
    "pres_pct": 0.0,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "No top 2 numérico da pesquisa",
@@ -16467,6 +16565,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 21.6,
+     "pct_valid": 14.42,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 18.0,
@@ -16478,7 +16590,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16492,13 +16604,13 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": -11.9,
+   "mom": -12.7,
    "runoff": {},
-   "pct_valid": 16.2
+   "pct_valid": 15.5
   },
   {
    "uf": "TO",
@@ -16509,18 +16621,18 @@
    "endorsement": "explícito",
    "apoio": "Flávio Bolsonaro — apoio explícito 06/08",
    "apoio_verificado": true,
-   "pct": 11.5,
-   "pctDisplay": "11,5%",
-   "sen_norm": 60.956175,
+   "pct": 11.1,
+   "pctDisplay": "11,1%",
+   "sen_norm": 60.408163,
    "gov_ticket": "Professora Dorinha",
-   "gov_pct": 43.1,
+   "gov_pct": 42.8,
    "gov_reliability": 0.78,
    "pres_pct": 48.6,
    "pres_reliability": 0.65,
    "pres_basis": "proxy 2º turno 2022",
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": "Estimulado, 1º turno",
    "indecisao": "Dorinha e Vicentinho próximos",
    "situacao": "Fora do top 2 numérico",
@@ -16533,6 +16645,20 @@
    "source": "média",
    "polls": [
     {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 20.8,
+     "pct_valid": 13.89,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
+    {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
      "pct": 10.0,
@@ -16544,7 +16670,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -16558,13 +16684,13 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ],
    "stale": false,
-   "mom": -8.5,
+   "mom": -8.9,
    "runoff": {},
-   "pct_valid": 15.3
+   "pct_valid": 14.8
   },
   {
    "uf": "TO",
@@ -16579,7 +16705,7 @@
    "pctDisplay": "Não testado / sem percentual localizado",
    "sen_norm": 0.0,
    "gov_ticket": "Laurez Moreira",
-   "gov_pct": 11.0,
+   "gov_pct": 10.1,
    "gov_reliability": 0.78,
    "pres_pct": 3,
    "pres_reliability": 0.65,
@@ -26484,8 +26610,8 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 5.0,
-   "pctDisplay": "5,0%",
+   "pct": 5.1,
+   "pctDisplay": "5,1%",
    "sen_norm": 0.0,
    "gov_ticket": null,
    "gov_pct": null,
@@ -26494,8 +26620,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26531,8 +26657,22 @@
      ]
     }
    },
-   "pct_valid": 6.1,
+   "pct_valid": 6.0,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 5.1,
+     "pct_valid": 5.76,
+     "base": "totais",
+     "sum_cands": 88.5,
+     "undecided": 11.5,
+     "scenario": "1º turno",
+     "votos": 1,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26545,7 +26685,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26559,7 +26699,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26572,8 +26712,8 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 2.0,
-   "pctDisplay": "2,0%",
+   "pct": 1.4,
+   "pctDisplay": "1,4%",
    "sen_norm": 0.0,
    "gov_ticket": null,
    "gov_pct": null,
@@ -26582,8 +26722,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26597,8 +26737,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 2.4,
+   "pct_valid": 1.6,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 0.2,
+     "pct_valid": 0.23,
+     "base": "totais",
+     "sum_cands": 88.5,
+     "undecided": 11.5,
+     "scenario": "1º turno",
+     "votos": 1,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26611,7 +26765,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26625,7 +26779,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26638,9 +26792,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 7.0,
-   "pctDisplay": "7,0%",
-   "sen_norm": 35.856574,
+   "pct": 7.4,
+   "pctDisplay": "7,4%",
+   "sen_norm": 39.183673,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26648,8 +26802,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26663,8 +26817,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 9.0,
+   "pct_valid": 9.6,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 16.0,
+     "pct_valid": 10.68,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26677,7 +26845,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26691,7 +26859,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26704,9 +26872,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 7.0,
-   "pctDisplay": "7,0%",
-   "sen_norm": 35.059761,
+   "pct": 7.2,
+   "pctDisplay": "7,2%",
+   "sen_norm": 37.55102,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26714,8 +26882,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26729,8 +26897,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 8.8,
+   "pct_valid": 9.2,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 15.0,
+     "pct_valid": 10.01,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26743,7 +26925,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26757,7 +26939,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26770,9 +26952,9 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 7.5,
-   "pctDisplay": "7,5%",
-   "sen_norm": 40.239044,
+   "pct": 7.3,
+   "pctDisplay": "7,3%",
+   "sen_norm": 40.0,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26780,8 +26962,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26795,8 +26977,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 10.1,
+   "pct_valid": 9.8,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 14.0,
+     "pct_valid": 9.35,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26809,7 +27005,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26823,7 +27019,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26836,9 +27032,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 5.5,
-   "pctDisplay": "5,5%",
-   "sen_norm": 27.49004,
+   "pct": 6.1,
+   "pctDisplay": "6,1%",
+   "sen_norm": 32.244898,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26846,8 +27042,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26861,8 +27057,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 6.9,
+   "pct_valid": 7.9,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 14.2,
+     "pct_valid": 9.48,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26875,7 +27085,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26889,7 +27099,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26902,9 +27112,9 @@
    "endorsement": "não verificado",
    "apoio": "Lula",
    "apoio_verificado": false,
-   "pct": 2.5,
-   "pctDisplay": "2,5%",
-   "sen_norm": 12.749004,
+   "pct": 2.0,
+   "pctDisplay": "2,0%",
+   "sen_norm": 10.204082,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26912,8 +27122,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26927,8 +27137,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 3.2,
+   "pct_valid": 2.5,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 2.0,
+     "pct_valid": 1.34,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -26941,7 +27165,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -26955,7 +27179,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   },
@@ -26968,9 +27192,9 @@
    "endorsement": "não verificado",
    "apoio": "Não verificado",
    "apoio_verificado": false,
-   "pct": 1.0,
-   "pctDisplay": "1,0%",
-   "sen_norm": 5.179283,
+   "pct": 1.1,
+   "pctDisplay": "1,1%",
+   "sen_norm": 6.122449,
    "gov_ticket": null,
    "gov_pct": null,
    "gov_reliability": 0.78,
@@ -26978,8 +27202,8 @@
    "pres_reliability": 0.65,
    "pres_basis": null,
    "may_change": null,
-   "instituto": "média móvel de 2 pesquisas",
-   "campo": "26/08/2026",
+   "instituto": "média móvel de 3 pesquisas",
+   "campo": "28/08/2026",
    "cenario": null,
    "indecisao": null,
    "situacao": "Sem percentual comparável",
@@ -26993,8 +27217,22 @@
    "stale": false,
    "mom": 0.0,
    "runoff": {},
-   "pct_valid": 1.3,
+   "pct_valid": 1.5,
    "polls": [
+    {
+     "pollster": "Paraná Pesquisas",
+     "date": "28/08/2026",
+     "pct": 2.8,
+     "pct_valid": 1.87,
+     "base": "totais",
+     "sum_cands": 149.8,
+     "undecided": 13.2,
+     "scenario": "1º turno",
+     "votos": 2,
+     "source": "gazeta",
+     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-agosto-2026/",
+     "weight": 0.361
+    },
     {
      "pollster": "Real Time Big Data",
      "date": "26/08/2026",
@@ -27007,7 +27245,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.512
+     "weight": 0.327
     },
     {
      "pollster": "Quaest",
@@ -27021,7 +27259,7 @@
      "votos": 1,
      "source": "gazeta",
      "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-     "weight": 0.488
+     "weight": 0.311
     }
    ]
   }
