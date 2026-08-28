@@ -53,6 +53,35 @@ def test_parse_state_poll_separa_estados_e_cenarios():
     assert all(e["pollster"] == "Datafolha" and e["date"] for e in d.values())
 
 
+FIX_PODERDATA = pathlib.Path(__file__).parent / "fixtures" / "gazeta_pres_poderdata.html"
+URL_PODERDATA = "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/"
+
+
+def test_primeiro_turno_sem_a_palavra_estimulada():
+    """Regressão: PoderData 27/08 veio com o cabeçalho 'Lula e Flávio estão tecnicamente
+    empatados' e ficava fora do agregado (SEM LISTA)."""
+    p = pr.parse_poll(FIX_PODERDATA.read_text(encoding="utf-8"), URL_PODERDATA)
+    fr = {name: pct for name, _party, pct in p["first_round"]}
+    assert fr["Lula"] == 38.0 and fr["Flávio Bolsonaro"] == 35.0
+    ro = {name: pct for name, _party, pct in p["runoff"]}
+    assert ro["Lula"] == 45.0 and ro["Flávio Bolsonaro"] == 44.0
+    assert p["pollster"] == "PoderData"
+
+
+def test_merge_polls_nao_encolhe_o_agregado():
+    """Regressão: em 27/08 a página 2 do índice ficou sem link presidencial e o agregado
+    do site caiu de 6 para 3 pesquisas. O histórico mesclado segura as antigas."""
+    antigas = [{"url": "u1", "date": "21/08/2026", "pollster": "Datafolha", "first_round": [["Lula", "PT", 39.0]], "runoff": []},
+               {"url": "u2", "date": "14/08/2026", "pollster": "Quaest", "first_round": [["Lula", "PT", 38.0]], "runoff": []},
+               {"url": "u0", "date": "01/06/2026", "pollster": "Velha", "first_round": [["Lula", "PT", 30.0]], "runoff": []}]
+    novas = [{"url": "u3", "date": "26/08/2026", "pollster": "Gerp", "first_round": [["Lula", "PT", 37.0]], "runoff": []},
+             {"url": "u1", "date": "21/08/2026", "pollster": "Datafolha", "first_round": [["Lula", "PT", 40.0]], "runoff": []}]
+    m = pr.merge_polls(antigas, novas)
+    assert [p["url"] for p in m] == ["u3", "u1", "u2"]      # mais recente primeiro; u0 (>60 dias) sai
+    assert m[1]["first_round"][0][2] == 40.0                  # a leitura nova da mesma URL vence
+    assert pr.merge_polls(antigas, [])[0]["url"] == "u1"      # varredura vazia não apaga nada
+
+
 def test_aggregate_filtra_ruido():
     p = pr.parse_poll(FIX.read_text(encoding="utf-8"), URL)
     agg = pr.aggregate([p, p, p])   # 3 cópias -> n=3 para todos

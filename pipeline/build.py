@@ -337,6 +337,7 @@ def build_polls_log(records: list[dict], president: dict | None, estados: dict, 
                 # turno e base ficam por pesquisa: são o que torna (ou não) duas comparáveis
                 "scenario": s.get("scenario"), "base": s.get("base"),
                 "sum_cands": s.get("sum_cands"), "undecided": s.get("undecided"),
+                "votos": s.get("votos"),
                 "is_new": (r["uf"], r["cargo"], s.get("pollster"), s.get("date"),
                            s.get("scenario")) in new_ids,
                 "readings": []})

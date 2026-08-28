@@ -1,6 +1,652 @@
 {
- "generated_at": "2026-08-27",
+ "generated_at": "2026-08-28",
  "state_polls": [
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-sergipe-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 65.0,
+   "undecided": 35.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Delegado André David",
+     "party": "Republicanos",
+     "pct": 11.0,
+     "pct_valid": 16.92
+    },
+    {
+     "name": "Rogério Carvalho",
+     "party": "PT",
+     "pct": 11.0,
+     "pct_valid": 16.92
+    },
+    {
+     "name": "André Moura",
+     "party": "União",
+     "pct": 9.0,
+     "pct_valid": 13.85
+    },
+    {
+     "name": "Delegado Alessandro Vieira",
+     "party": "MDB",
+     "pct": 8.0,
+     "pct_valid": 12.31
+    },
+    {
+     "name": "Dr. Eduardo Amorim",
+     "party": "Republicanos",
+     "pct": 7.0,
+     "pct_valid": 10.77
+    },
+    {
+     "name": "Rodrigo Valadares",
+     "party": "PL",
+     "pct": 7.0,
+     "pct_valid": 10.77
+    },
+    {
+     "name": "Edvaldo",
+     "party": "PDT",
+     "pct": 6.0,
+     "pct_valid": 9.23
+    },
+    {
+     "name": "Coronel Rocha",
+     "party": "PL",
+     "pct": 2.0,
+     "pct_valid": 3.08
+    },
+    {
+     "name": "Iran Barbosa",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 3.08
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-sergipe-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 76.0,
+   "undecided": 24.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 40.0,
+     "pct_valid": 52.63
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 28.0,
+     "pct_valid": 36.84
+    },
+    {
+     "name": "Ricardo Marques",
+     "party": "PL",
+     "pct": 5.0,
+     "pct_valid": 6.58
+    },
+    {
+     "name": "Emanuel Cacho",
+     "party": "PSDB",
+     "pct": 1.0,
+     "pct_valid": 1.32
+    },
+    {
+     "name": "Dr. Helton",
+     "party": "PSOL",
+     "pct": 1.0,
+     "pct_valid": 1.32
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-sergipe-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 47.0,
+     "pct_valid": 58.02
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 34.0,
+     "pct_valid": 41.98
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-agosto-2026-2/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 20.0,
+     "pct_valid": 22.22
+    },
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 18.0,
+     "pct_valid": 20.0
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 17.0,
+     "pct_valid": 18.89
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 15.0,
+     "pct_valid": 16.67
+    },
+    {
+     "name": "Cristina Graeml",
+     "party": "PSD",
+     "pct": 14.0,
+     "pct_valid": 15.56
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 5.0,
+     "pct_valid": 5.56
+    },
+    {
+     "name": "Karen Guerreiro",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.11
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-agosto-2026-2/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 35.0,
+     "pct_valid": 43.21
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 23.0,
+     "pct_valid": 28.4
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 20.0,
+     "pct_valid": 24.69
+    },
+    {
+     "name": "Luiz França",
+     "party": "Missão",
+     "pct": 2.0,
+     "pct_valid": 2.47
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-agosto-2026-2/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 54.0,
+     "pct_valid": 66.67
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 32.0,
+     "pct_valid": 42.11
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 27.0,
+     "pct_valid": 33.33
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gracinha Caiado",
+     "party": "União",
+     "pct": 27.0,
+     "pct_valid": 29.03
+    },
+    {
+     "name": "Gustavo Gayer",
+     "party": "PL",
+     "pct": 17.0,
+     "pct_valid": 18.28
+    },
+    {
+     "name": "Zacarias Calil",
+     "party": "MDB",
+     "pct": 12.0,
+     "pct_valid": 12.9
+    },
+    {
+     "name": "Gustavo Mendanha",
+     "party": "PRD",
+     "pct": 12.0,
+     "pct_valid": 12.9
+    },
+    {
+     "name": "Vanderlan Cardoso",
+     "party": "PSD",
+     "pct": 10.0,
+     "pct_valid": 10.75
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
+     "pct": 5.0,
+     "pct_valid": 5.38
+    },
+    {
+     "name": "Oséias Varão",
+     "party": "PL",
+     "pct": 4.0,
+     "pct_valid": 4.3
+    },
+    {
+     "name": "Cintia Dias",
+     "party": "PSOL",
+     "pct": 3.0,
+     "pct_valid": 3.23
+    },
+    {
+     "name": "Iure Castro",
+     "party": "Cidadania",
+     "pct": 2.0,
+     "pct_valid": 2.15
+    },
+    {
+     "name": "Ernesto Roller",
+     "party": "PSDB",
+     "pct": 1.0,
+     "pct_valid": 1.08
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 45.0,
+     "pct_valid": 50.0
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 22.0,
+     "pct_valid": 24.44
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 17.0,
+     "pct_valid": 18.89
+    },
+    {
+     "name": "Luis Cesar Bueno",
+     "party": "PT",
+     "pct": 6.0,
+     "pct_valid": 6.67
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 57.0,
+     "pct_valid": 67.06
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 30.0,
+     "pct_valid": 34.88
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 28.0,
+     "pct_valid": 32.94
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-espirito-santo-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 154.3,
+   "undecided": 13.0,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Renato Casagrande",
+     "party": "PSB",
+     "pct": 52.3,
+     "pct_valid": 33.9
+    },
+    {
+     "name": "Fabiano Contarato",
+     "party": "PT",
+     "pct": 25.4,
+     "pct_valid": 16.46
+    },
+    {
+     "name": "Maguinha Malta",
+     "party": "PL",
+     "pct": 14.1,
+     "pct_valid": 9.14
+    },
+    {
+     "name": "Rose De Freitas",
+     "party": "MDB",
+     "pct": 12.9,
+     "pct_valid": 8.36
+    },
+    {
+     "name": "Evair Melo",
+     "party": "Republicanos",
+     "pct": 12.0,
+     "pct_valid": 7.78
+    },
+    {
+     "name": "Marcos do Val",
+     "party": "Avante",
+     "pct": 10.2,
+     "pct_valid": 6.61
+    },
+    {
+     "name": "Callegari",
+     "party": "DC",
+     "pct": 2.7,
+     "pct_valid": 1.75
+    },
+    {
+     "name": "Professor Fabian",
+     "party": "PSOL",
+     "pct": 2.5,
+     "pct_valid": 1.62
+    },
+    {
+     "name": "Leonardo Monjardim",
+     "party": "Novo",
+     "pct": 1.5,
+     "pct_valid": 0.97
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "28/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-espirito-santo-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 86.9,
+   "undecided": 13.2,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 39.0,
+     "pct_valid": 44.88
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 38.2,
+     "pct_valid": 43.96
+    },
+    {
+     "name": "Helder Salomão",
+     "party": "PT",
+     "pct": 7.5,
+     "pct_valid": 8.63
+    }
+   ]
+  },
+  {
+   "uf": "RR",
+   "estado": "Roraima",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-roraima-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 76.0,
+   "undecided": 24.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Teresa Surita",
+     "party": "MDB",
+     "pct": 19.0,
+     "pct_valid": 25.0
+    },
+    {
+     "name": "Nicoletti",
+     "party": "PL",
+     "pct": 17.0,
+     "pct_valid": 22.37
+    },
+    {
+     "name": "Chico Rodrigues",
+     "party": "PSB",
+     "pct": 11.0,
+     "pct_valid": 14.47
+    },
+    {
+     "name": "Hélio Lopes",
+     "party": "PL",
+     "pct": 5.0,
+     "pct_valid": 6.58
+    },
+    {
+     "name": "Rogério Miranda",
+     "party": "DC",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "RR",
+   "estado": "Roraima",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-roraima-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Arthur Henrique",
+     "party": "PL",
+     "pct": 60.0,
+     "pct_valid": 68.18
+    },
+    {
+     "name": "Soldado Sampaio",
+     "party": "Republicanos",
+     "pct": 27.0,
+     "pct_valid": 30.68
+    }
+   ]
+  },
+  {
+   "uf": "RR",
+   "estado": "Roraima",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-roraima-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Arthur Henrique",
+     "party": "PL",
+     "pct": 60.0,
+     "pct_valid": 68.18
+    },
+    {
+     "name": "Soldado Sampaio",
+     "party": "Republicanos",
+     "pct": 28.0,
+     "pct_valid": 31.82
+    }
+   ]
+  },
   {
    "uf": "PR",
    "estado": "Paraná",
@@ -13,7 +659,8 @@
    "base": "totais",
    "sum_cands": 166.0,
    "undecided": 32.9,
-   "is_new": true,
+   "votos": 2,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -71,32 +718,9 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.1,
-   "is_new": true,
+   "votos": null,
+   "is_new": false,
    "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 46.9,
-     "pct_valid": 52.11
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 23.3,
-     "pct_valid": 25.89
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 17.7,
-     "pct_valid": 19.67
-    },
-    {
-     "name": "Luiz França",
-     "party": "Missão",
-     "pct": 1.4,
-     "pct_valid": 1.56
-    },
     {
      "name": "Tayná Miessa",
      "party": "UP",
@@ -135,7 +759,8 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -187,7 +812,8 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 10.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -251,7 +877,8 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -280,6 +907,248 @@
    ]
   },
   {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 66.0,
+   "undecided": 34.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gracinha Caiado",
+     "party": "União",
+     "pct": 21.0,
+     "pct_valid": 31.82
+    },
+    {
+     "name": "Gustavo Gayer",
+     "party": "PL",
+     "pct": 12.0,
+     "pct_valid": 18.18
+    },
+    {
+     "name": "Vanderlan Cardoso",
+     "party": "PSD",
+     "pct": 9.0,
+     "pct_valid": 13.64
+    },
+    {
+     "name": "Zacarias Calil",
+     "party": "MDB",
+     "pct": 9.0,
+     "pct_valid": 13.64
+    },
+    {
+     "name": "Gustavo Mendanha",
+     "party": "PRD",
+     "pct": 6.0,
+     "pct_valid": 9.09
+    },
+    {
+     "name": "Oséias Varão",
+     "party": "PL",
+     "pct": 3.0,
+     "pct_valid": 4.55
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
+     "pct": 3.0,
+     "pct_valid": 4.55
+    },
+    {
+     "name": "Cintia Dias",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 3.03
+    },
+    {
+     "name": "Ernesto Roller",
+     "party": "PSDB",
+     "pct": 1.0,
+     "pct_valid": 1.52
+    },
+    {
+     "name": "Guilherme Darques",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Iure Castro",
+     "party": "Cidadania",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 73.0,
+   "undecided": 27.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 37.0,
+     "pct_valid": 50.68
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 20.0,
+     "pct_valid": 27.4
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 12.0,
+     "pct_valid": 16.44
+    },
+    {
+     "name": "Luis Cesar Bueno",
+     "party": "PT",
+     "pct": 4.0,
+     "pct_valid": 5.48
+    },
+    {
+     "name": "Luciana Amorim",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Danilo Pinheiro",
+     "party": "PCO",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 53.0,
+     "pct_valid": 65.43
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 28.0,
+     "pct_valid": 34.57
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 18.0,
+     "pct_valid": 24.32
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 77.0,
+   "undecided": 23.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Renato Casagrande",
+     "party": "PSB",
+     "pct": 28.0,
+     "pct_valid": 36.36
+    },
+    {
+     "name": "Fabiano Contarato",
+     "party": "PT",
+     "pct": 9.0,
+     "pct_valid": 11.69
+    },
+    {
+     "name": "Rose De Freitas",
+     "party": "MDB",
+     "pct": 9.0,
+     "pct_valid": 11.69
+    },
+    {
+     "name": "Maguinha Malta",
+     "party": "PL",
+     "pct": 6.0,
+     "pct_valid": 7.79
+    },
+    {
+     "name": "Evair Melo",
+     "party": "Republicanos",
+     "pct": 5.0,
+     "pct_valid": 6.49
+    },
+    {
+     "name": "Marcos do Val",
+     "party": "Avante",
+     "pct": 4.0,
+     "pct_valid": 5.19
+    },
+    {
+     "name": "Professor Fabian",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 2.6
+    },
+    {
+     "name": "Leonardo Monjardim",
+     "party": "Novo",
+     "pct": 1.0,
+     "pct_valid": 1.3
+    },
+    {
+     "name": "Callegari",
+     "party": "DC",
+     "pct": 1.0,
+     "pct_valid": 1.3
+    }
+   ]
+  },
+  {
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Senado",
@@ -291,7 +1160,8 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -353,6 +1223,41 @@
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 76.0,
+   "undecided": 24.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 35.0,
+     "pct_valid": 46.05
+    },
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 28.0,
+     "pct_valid": 36.84
+    },
+    {
+     "name": "Helder Salomão",
+     "party": "PT",
+     "pct": 10.0,
+     "pct_valid": 13.16
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "27/08/2026",
    "source": "gazeta",
@@ -361,7 +1266,8 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -387,6 +1293,41 @@
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-espirito-santo-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 45.0,
+     "pct_valid": 56.25
+    },
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 35.0,
+     "pct_valid": 43.75
+    },
+    {
+     "name": "Helder Salomão",
+     "party": "PT",
+     "pct": 17.0,
+     "pct_valid": 23.61
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "27/08/2026",
    "source": "gazeta",
@@ -395,7 +1336,8 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -421,6 +1363,65 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-bahia-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 55.0,
+   "undecided": 42.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rui Costa",
+     "party": "PT",
+     "pct": 23.0,
+     "pct_valid": 41.82
+    },
+    {
+     "name": "Jaques Wagner",
+     "party": "PT",
+     "pct": 17.0,
+     "pct_valid": 30.91
+    },
+    {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 7.0,
+     "pct_valid": 12.73
+    },
+    {
+     "name": "Angelo Coronel",
+     "party": "Republicanos",
+     "pct": 5.0,
+     "pct_valid": 9.09
+    },
+    {
+     "name": "Professora Delliana",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 3.64
+    },
+    {
+     "name": "Marcelo Santtana",
+     "party": "DC",
+     "pct": 1.0,
+     "pct_valid": 1.82
+    },
+    {
+     "name": "Gregorio Gould",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Senado",
    "pollster": "Paraná Pesquisas",
    "date": "27/08/2026",
    "source": "gazeta",
@@ -429,7 +1430,8 @@
    "base": "totais",
    "sum_cands": 136.2,
    "undecided": 19.0,
-   "is_new": true,
+   "votos": 2,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -491,6 +1493,53 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-bahia-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 40.0,
+     "pct_valid": 50.0
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 37.0,
+     "pct_valid": 46.25
+    },
+    {
+     "name": "Ronaldo Mansur",
+     "party": "PSOL",
+     "pct": 1.0,
+     "pct_valid": 1.25
+    },
+    {
+     "name": "Aroldo Felix",
+     "party": "UP",
+     "pct": 1.0,
+     "pct_valid": 1.25
+    },
+    {
+     "name": "Ariel Capistrano",
+     "party": "DC",
+     "pct": 1.0,
+     "pct_valid": 1.25
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
    "pollster": "Paraná Pesquisas",
    "date": "27/08/2026",
    "source": "gazeta",
@@ -499,7 +1548,8 @@
    "base": "totais",
    "sum_cands": 90.3,
    "undecided": 9.6,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -543,6 +1593,35 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-bahia-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 44.0,
+     "pct_valid": 51.76
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 41.0,
+     "pct_valid": 48.24
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
    "pollster": "Paraná Pesquisas",
    "date": "27/08/2026",
    "source": "gazeta",
@@ -551,7 +1630,8 @@
    "base": "totais",
    "sum_cands": 90.3,
    "undecided": 9.7,
-   "is_new": true,
+   "votos": 1,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -568,6 +1648,159 @@
    ]
   },
   {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-acre-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 72.0,
+   "undecided": 28.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gladson Cameli",
+     "party": "PP",
+     "pct": 19.0,
+     "pct_valid": 26.39
+    },
+    {
+     "name": "Marcio Bittar",
+     "party": "PL",
+     "pct": 14.0,
+     "pct_valid": 19.44
+    },
+    {
+     "name": "Mara Rocha",
+     "party": "Republicanos",
+     "pct": 12.0,
+     "pct_valid": 16.67
+    },
+    {
+     "name": "Jorge Viana",
+     "party": "PT",
+     "pct": 12.0,
+     "pct_valid": 16.67
+    },
+    {
+     "name": "Sérgio Petecão",
+     "party": "PSD",
+     "pct": 8.0,
+     "pct_valid": 11.11
+    },
+    {
+     "name": "Eduardo Velloso",
+     "party": "Solidariedade",
+     "pct": 5.0,
+     "pct_valid": 6.94
+    },
+    {
+     "name": "Professor Inacio Moreira",
+     "party": "PSOL",
+     "pct": 1.0,
+     "pct_valid": 1.39
+    },
+    {
+     "name": "Dr. Junior Feitosa",
+     "party": "DC",
+     "pct": 1.0,
+     "pct_valid": 1.39
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-acre-agosto-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 75.0,
+   "undecided": 25.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 33.0,
+     "pct_valid": 44.0
+    },
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 24.0,
+     "pct_valid": 32.0
+    },
+    {
+     "name": "Tião Bocalom",
+     "party": "PSDB",
+     "pct": 15.0,
+     "pct_valid": 20.0
+    },
+    {
+     "name": "Thor Dantas",
+     "party": "PSB",
+     "pct": 2.0,
+     "pct_valid": 2.67
+    },
+    {
+     "name": "Eudo Raffael",
+     "party": "PCB",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "27/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-acre-agosto-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 77.0,
+   "undecided": 23.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 42.0,
+     "pct_valid": 54.55
+    },
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 35.0,
+     "pct_valid": 45.45
+    },
+    {
+     "name": "Tião Bocalom",
+     "party": "PSDB",
+     "pct": 27.0,
+     "pct_valid": 36.0
+    },
+    {
+     "name": "Thor Dantas",
+     "party": "PSB",
+     "pct": 10.0,
+     "pct_valid": 14.29
+    }
+   ]
+  },
+  {
    "uf": "TO",
    "estado": "Tocantins",
    "cargo": "Senado",
@@ -579,6 +1812,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -649,6 +1883,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -695,6 +1930,7 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -729,6 +1965,7 @@
    "base": "totais",
    "sum_cands": 92.1,
    "undecided": 8.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -781,6 +2018,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -827,6 +2065,7 @@
    "base": "totais",
    "sum_cands": 87.0,
    "undecided": 13.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -867,6 +2106,7 @@
    "base": "totais",
    "sum_cands": 96.0,
    "undecided": 4.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -901,6 +2141,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -935,6 +2176,7 @@
    "base": "totais",
    "sum_cands": 66.0,
    "undecided": 34.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1005,6 +2247,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1051,6 +2294,7 @@
    "base": "totais",
    "sum_cands": 76.0,
    "undecided": 24.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1091,6 +2335,7 @@
    "base": "totais",
    "sum_cands": 56.0,
    "undecided": 45.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1179,6 +2424,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1225,6 +2471,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1271,6 +2518,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1299,6 +2547,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1327,6 +2576,7 @@
    "base": "totais",
    "sum_cands": 61.0,
    "undecided": 39.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1385,6 +2635,7 @@
    "base": "totais",
    "sum_cands": 68.0,
    "undecided": 32.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1431,6 +2682,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1471,6 +2723,7 @@
    "base": "totais",
    "sum_cands": 43.0,
    "undecided": 57.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1541,6 +2794,7 @@
    "base": "totais",
    "sum_cands": 125.7,
    "undecided": 22.4,
+   "votos": 2,
    "is_new": false,
    "readings": [
     {
@@ -1611,6 +2865,7 @@
    "base": "totais",
    "sum_cands": 64.0,
    "undecided": 36.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1681,6 +2936,7 @@
    "base": "totais",
    "sum_cands": 82.9,
    "undecided": 17.2,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1751,6 +3007,7 @@
    "base": "totais",
    "sum_cands": 70.0,
    "undecided": 30.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1785,6 +3042,7 @@
    "base": "totais",
    "sum_cands": 93.0,
    "undecided": 7.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1849,6 +3107,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1883,6 +3142,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1917,6 +3177,7 @@
    "base": "totais",
    "sum_cands": 50.0,
    "undecided": 50.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -1969,6 +3230,7 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2003,6 +3265,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2031,6 +3294,7 @@
    "base": "totais",
    "sum_cands": 68.0,
    "undecided": 32.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2083,6 +3347,7 @@
    "base": "totais",
    "sum_cands": 78.0,
    "undecided": 22.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2117,6 +3382,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2151,6 +3417,7 @@
    "base": "totais",
    "sum_cands": 48.0,
    "undecided": 52.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2203,6 +3470,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2273,6 +3541,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2313,6 +3582,7 @@
    "base": "totais",
    "sum_cands": 68.0,
    "undecided": 32.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2365,6 +3635,7 @@
    "base": "totais",
    "sum_cands": 63.0,
    "undecided": 37.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2411,6 +3682,7 @@
    "base": "totais",
    "sum_cands": 67.0,
    "undecided": 33.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2445,6 +3717,7 @@
    "base": "totais",
    "sum_cands": 70.0,
    "undecided": 30.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2491,6 +3764,7 @@
    "base": "totais",
    "sum_cands": 75.0,
    "undecided": 24.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2525,6 +3799,7 @@
    "base": "totais",
    "sum_cands": 71.0,
    "undecided": 29.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2565,6 +3840,7 @@
    "base": "totais",
    "sum_cands": 78.0,
    "undecided": 22.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2599,6 +3875,7 @@
    "base": "totais",
    "sum_cands": 95.0,
    "undecided": 15.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2633,6 +3910,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2685,6 +3963,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2719,6 +3998,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2747,6 +4027,7 @@
    "base": "totais",
    "sum_cands": 66.0,
    "undecided": 34.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2799,6 +4080,7 @@
    "base": "totais",
    "sum_cands": 49.0,
    "undecided": 51.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2863,6 +4145,7 @@
    "base": "totais",
    "sum_cands": 61.0,
    "undecided": 39.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2903,6 +4186,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -2937,6 +4221,7 @@
    "base": "totais",
    "sum_cands": 53.0,
    "undecided": 47.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3001,6 +4286,7 @@
    "base": "totais",
    "sum_cands": 70.0,
    "undecided": 30.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3047,6 +4333,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3081,6 +4368,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3133,6 +4421,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3167,6 +4456,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3193,64 +4483,6 @@
    "uf": "PR",
    "estado": "Paraná",
    "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-senador-parana-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 59.0,
-   "undecided": 41.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 15.0,
-     "pct_valid": 25.42
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 11.0,
-     "pct_valid": 18.64
-    },
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 9.0,
-     "pct_valid": 15.25
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 9.0,
-     "pct_valid": 15.25
-    },
-    {
-     "name": "Cristina Graeml",
-     "party": "PSD",
-     "pct": 8.0,
-     "pct_valid": 13.56
-    },
-    {
-     "name": "Dr. Rosinha",
-     "party": "PT",
-     "pct": 6.0,
-     "pct_valid": 10.17
-    },
-    {
-     "name": "Karen Guerreiro",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.69
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Senado",
    "pollster": "instituto não identificado",
    "date": "24/08/2026",
    "source": "gazeta",
@@ -3259,6 +4491,7 @@
    "base": "totais",
    "sum_cands": 146.0,
    "undecided": 53.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -3281,6 +4514,7 @@
    "base": "totais",
    "sum_cands": 151.6,
    "undecided": 11.1,
+   "votos": 2,
    "is_new": false,
    "readings": [
     {
@@ -3333,6 +4567,7 @@
    "base": "totais",
    "sum_cands": 85.6,
    "undecided": 14.4,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3379,6 +4614,7 @@
    "base": "totais",
    "sum_cands": 85.1,
    "undecided": 14.9,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3407,6 +4643,7 @@
    "base": "totais",
    "sum_cands": 64.0,
    "undecided": 36.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3465,6 +4702,7 @@
    "base": "totais",
    "sum_cands": 79.0,
    "undecided": 21.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3511,6 +4749,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3557,6 +4796,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3585,6 +4825,7 @@
    "base": "totais",
    "sum_cands": 84.0,
    "undecided": 16.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3607,6 +4848,7 @@
    "base": "totais",
    "sum_cands": 65.0,
    "undecided": 34.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3683,6 +4925,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 15.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3759,6 +5002,7 @@
    "base": "totais",
    "sum_cands": 63.0,
    "undecided": 35.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3829,6 +5073,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -3899,6 +5144,7 @@
    "base": "totais",
    "sum_cands": 146.9,
    "undecided": 16.8,
+   "votos": 2,
    "is_new": false,
    "readings": [
     {
@@ -3987,6 +5233,7 @@
    "base": "totais",
    "sum_cands": 84.8,
    "undecided": 14.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4033,6 +5280,7 @@
    "base": "totais",
    "sum_cands": 64.0,
    "undecided": 37.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4091,6 +5339,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4143,6 +5392,7 @@
    "base": "totais",
    "sum_cands": 53.0,
    "undecided": 45.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4195,6 +5445,7 @@
    "base": "totais",
    "sum_cands": 73.0,
    "undecided": 27.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4271,6 +5522,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 30.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4317,6 +5569,7 @@
    "base": "totais",
    "sum_cands": 87.0,
    "undecided": 13.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4381,6 +5634,7 @@
    "base": "totais",
    "sum_cands": 91.1,
    "undecided": 8.7,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4427,6 +5681,7 @@
    "base": "totais",
    "sum_cands": 90.9,
    "undecided": 9.1,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4455,6 +5710,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4507,6 +5763,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4541,6 +5798,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4569,6 +5827,7 @@
    "base": "totais",
    "sum_cands": 145.2,
    "undecided": 15.7,
+   "votos": 2,
    "is_new": false,
    "readings": [
     {
@@ -4651,6 +5910,7 @@
    "base": "totais",
    "sum_cands": 88.3,
    "undecided": 11.7,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4703,6 +5963,7 @@
    "base": "totais",
    "sum_cands": 93.0,
    "undecided": 7.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4755,6 +6016,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4795,6 +6057,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4823,6 +6086,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 11.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4875,6 +6139,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4903,6 +6168,7 @@
    "base": "totais",
    "sum_cands": 87.7,
    "undecided": 12.3,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -4925,6 +6191,7 @@
    "base": "totais",
    "sum_cands": 87.1,
    "undecided": 13.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -4977,6 +6244,7 @@
    "base": "totais",
    "sum_cands": 97.5,
    "undecided": 2.5,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5035,6 +6303,7 @@
    "base": "totais",
    "sum_cands": 98.2,
    "undecided": 1.8,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5063,6 +6332,7 @@
    "base": "totais",
    "sum_cands": 83.0,
    "undecided": 17.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5133,6 +6403,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5185,6 +6456,7 @@
    "base": "totais",
    "sum_cands": 89.0,
    "undecided": 11.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5213,6 +6485,7 @@
    "base": null,
    "sum_cands": null,
    "undecided": null,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -5235,6 +6508,7 @@
    "base": "totais",
    "sum_cands": 98.0,
    "undecided": 10.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5293,6 +6567,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5339,6 +6614,7 @@
    "base": "totais",
    "sum_cands": 86.0,
    "undecided": 14.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5367,6 +6643,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5425,6 +6702,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 23.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5477,6 +6755,7 @@
    "base": "totais",
    "sum_cands": 74.0,
    "undecided": 26.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5505,6 +6784,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5569,6 +6849,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5615,6 +6896,7 @@
    "base": "totais",
    "sum_cands": 90.0,
    "undecided": 10.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5634,126 +6916,6 @@
   {
    "uf": "BA",
    "estado": "Bahia",
-   "cargo": "Senado",
-   "pollster": "Futura Inteligência",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 143.8,
-   "undecided": 56.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Rui Costa",
-     "party": "PT",
-     "pct": 47.5,
-     "pct_valid": 33.03
-    },
-    {
-     "name": "Jaques Wagner",
-     "party": "PT",
-     "pct": 36.0,
-     "pct_valid": 25.03
-    },
-    {
-     "name": "João Roma",
-     "party": "PL",
-     "pct": 26.7,
-     "pct_valid": 18.57
-    },
-    {
-     "name": "Angelo Coronel",
-     "party": "Republicanos",
-     "pct": 24.0,
-     "pct_valid": 16.69
-    },
-    {
-     "name": "Professora Delliana",
-     "party": "PSOL",
-     "pct": 5.6,
-     "pct_valid": 3.89
-    },
-    {
-     "name": "Marcelo Santtana",
-     "party": "DC",
-     "pct": 2.5,
-     "pct_valid": 1.74
-    },
-    {
-     "name": "Gregorio Gould",
-     "party": "UP",
-     "pct": 1.5,
-     "pct_valid": 1.04
-    }
-   ]
-  },
-  {
-   "uf": "BA",
-   "estado": "Bahia",
-   "cargo": "Governo",
-   "pollster": "Futura Inteligência",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 94.0,
-   "undecided": 6.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "ACM Neto",
-     "party": "União",
-     "pct": 53.0,
-     "pct_valid": 56.38
-    },
-    {
-     "name": "Jerônimo Rodrigues",
-     "party": "PT",
-     "pct": 39.8,
-     "pct_valid": 42.34
-    },
-    {
-     "name": "Ronaldo Mansur",
-     "party": "PSOL",
-     "pct": 1.2,
-     "pct_valid": 1.28
-    }
-   ]
-  },
-  {
-   "uf": "BA",
-   "estado": "Bahia",
-   "cargo": "Governo",
-   "pollster": "Futura Inteligência",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-governador-senador-bahia-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 95.5,
-   "undecided": 4.5,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "ACM Neto",
-     "party": "União",
-     "pct": 54.1,
-     "pct_valid": 56.65
-    },
-    {
-     "name": "Jerônimo Rodrigues",
-     "party": "PT",
-     "pct": 41.4,
-     "pct_valid": 43.35
-    }
-   ]
-  },
-  {
-   "uf": "BA",
-   "estado": "Bahia",
    "cargo": "Governo",
    "pollster": "Gazeta do Povo",
    "date": "03/08/2026",
@@ -5763,6 +6925,7 @@
    "base": null,
    "sum_cands": null,
    "undecided": null,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -5785,6 +6948,7 @@
    "base": null,
    "sum_cands": null,
    "undecided": null,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -5807,6 +6971,7 @@
    "base": "totais",
    "sum_cands": 97.7,
    "undecided": 2.3,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5871,6 +7036,7 @@
    "base": "totais",
    "sum_cands": 96.5,
    "undecided": 3.5,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5911,6 +7077,7 @@
    "base": "totais",
    "sum_cands": 86.7,
    "undecided": 13.4,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -5951,6 +7118,7 @@
    "base": "totais",
    "sum_cands": 77.0,
    "undecided": 21.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -5973,6 +7141,7 @@
    "base": "totais",
    "sum_cands": 128.0,
    "undecided": 22.2,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -5995,6 +7164,7 @@
    "base": "totais",
    "sum_cands": 92.0,
    "undecided": 8.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6017,6 +7187,7 @@
    "base": "totais",
    "sum_cands": 85.0,
    "undecided": 15.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6024,138 +7195,6 @@
      "party": "Republicanos",
      "pct": 5.0,
      "pct_valid": 5.88
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "30/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 57.0,
-   "undecided": 43.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Gracinha Caiado",
-     "party": "União",
-     "pct": 20.0,
-     "pct_valid": 35.09
-    },
-    {
-     "name": "Vanderlan Cardoso",
-     "party": "PSD",
-     "pct": 10.0,
-     "pct_valid": 17.54
-    },
-    {
-     "name": "Gustavo Gayer",
-     "party": "PL",
-     "pct": 9.0,
-     "pct_valid": 15.79
-    },
-    {
-     "name": "Zacarias Calil",
-     "party": "MDB",
-     "pct": 9.0,
-     "pct_valid": 15.79
-    },
-    {
-     "name": "Gustavo Mendanha",
-     "party": "PRD",
-     "pct": 6.0,
-     "pct_valid": 10.53
-    },
-    {
-     "name": "Iure Castro",
-     "party": "Cidadania",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "30/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 73.0,
-   "undecided": 27.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 37.0,
-     "pct_valid": 50.68
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 21.0,
-     "pct_valid": 28.77
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 11.0,
-     "pct_valid": 15.07
-    },
-    {
-     "name": "Luis Cesar Bueno",
-     "party": "PT",
-     "pct": 3.0,
-     "pct_valid": 4.11
-    },
-    {
-     "name": "Luciana Amorim",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "30/07/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/genial-quaest-governador-senador-goias-julho-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 80.0,
-   "undecided": 20.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 52.0,
-     "pct_valid": 65.0
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 28.0,
-     "pct_valid": 35.0
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 16.0,
-     "pct_valid": 22.86
     }
    ]
   },
@@ -6171,6 +7210,7 @@
    "base": "totais",
    "sum_cands": 63.0,
    "undecided": 37.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6193,6 +7233,7 @@
    "base": "totais",
    "sum_cands": 80.0,
    "undecided": 20.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6215,6 +7256,7 @@
    "base": "totais",
    "sum_cands": 59.0,
    "undecided": 41.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6255,6 +7297,7 @@
    "base": "totais",
    "sum_cands": 82.0,
    "undecided": 18.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6277,6 +7320,7 @@
    "base": "totais",
    "sum_cands": 78.0,
    "undecided": 22.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6323,6 +7367,7 @@
    "base": "totais",
    "sum_cands": 41.0,
    "undecided": 59.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6345,6 +7390,7 @@
    "base": "totais",
    "sum_cands": 61.0,
    "undecided": 39.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6373,6 +7419,7 @@
    "base": "totais",
    "sum_cands": 88.0,
    "undecided": 12.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6437,6 +7484,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6477,6 +7525,7 @@
    "base": "totais",
    "sum_cands": 81.0,
    "undecided": 19.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6511,6 +7560,7 @@
    "base": "totais",
    "sum_cands": 68.7,
    "undecided": 31.1,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6533,6 +7583,7 @@
    "base": "totais",
    "sum_cands": 90.9,
    "undecided": 8.9,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6561,6 +7612,7 @@
    "base": "totais",
    "sum_cands": 91.0,
    "undecided": 9.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6583,6 +7635,7 @@
    "base": "totais",
    "sum_cands": 72.0,
    "undecided": 28.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6605,6 +7658,7 @@
    "base": "totais",
    "sum_cands": 79.0,
    "undecided": 21.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6627,6 +7681,7 @@
    "base": "totais",
    "sum_cands": 69.0,
    "undecided": 31.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6649,6 +7704,7 @@
    "base": "totais",
    "sum_cands": 87.0,
    "undecided": 13.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6671,6 +7727,7 @@
    "base": null,
    "sum_cands": null,
    "undecided": null,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6693,6 +7750,7 @@
    "base": "totais",
    "sum_cands": 161.4,
    "undecided": 11.7,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6700,28 +7758,6 @@
      "party": "PL",
      "pct": 40.4,
      "pct_valid": 25.03
-    }
-   ]
-  },
-  {
-   "uf": "AC",
-   "estado": "Acre",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "18/06/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-acre-junho-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 88.0,
-   "undecided": 12.0,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eudo Raffael",
-     "party": "PCB",
-     "pct": 0.0,
-     "pct_valid": 0.0
     }
    ]
   },
@@ -6737,6 +7773,7 @@
    "base": "totais",
    "sum_cands": 71.2,
    "undecided": 19.4,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6765,6 +7802,7 @@
    "base": "totais",
    "sum_cands": 49.0,
    "undecided": 51.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6799,6 +7837,7 @@
    "base": "totais",
    "sum_cands": 88.7,
    "undecided": 11.4,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6827,6 +7866,7 @@
    "base": "totais",
    "sum_cands": 90.4,
    "undecided": 9.6,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6855,6 +7895,7 @@
    "base": "totais",
    "sum_cands": 68.6,
    "undecided": 31.4,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6877,6 +7918,7 @@
    "base": "totais",
    "sum_cands": 94.0,
    "undecided": 6.0,
+   "votos": null,
    "is_new": false,
    "readings": [
     {
@@ -6899,6 +7941,7 @@
    "base": "totais",
    "sum_cands": 79.3,
    "undecided": 0.0,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6933,6 +7976,7 @@
    "base": "totais",
    "sum_cands": 95.4,
    "undecided": 4.8,
+   "votos": 1,
    "is_new": false,
    "readings": [
     {
@@ -6952,12 +7996,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "PoderData",
+   "date": "27/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
+   "Lula": 38.0,
+   "Flávio": 35.0,
+   "weight": 0.195
+  },
+  {
    "pollster": "Indexa Broadcast",
    "date": "26/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 33.0,
-   "weight": 0.344
+   "weight": 0.186
   },
   {
    "pollster": "Gerp",
@@ -6965,7 +8017,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
    "Lula": 37.0,
    "Flávio": 38.0,
-   "weight": 0.344
+   "weight": 0.186
   },
   {
    "pollster": "Nexus",
@@ -6973,7 +8025,23 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-4/",
    "Lula": 41.0,
    "Flávio": 37.0,
-   "weight": 0.312
+   "weight": 0.168
+  },
+  {
+   "pollster": "Datafolha",
+   "date": "21/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-agosto-2026/",
+   "Lula": 39.0,
+   "Flávio": 32.0,
+   "weight": 0.145
+  },
+  {
+   "pollster": "Nexus",
+   "date": "17/08/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-3/",
+   "Lula": 41.0,
+   "Flávio": 36.0,
+   "weight": 0.119
   }
  ]
 }

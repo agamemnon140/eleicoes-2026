@@ -72,6 +72,23 @@ def test_typo_da_fonte_nao_derruba_candidato():
     assert por_nome["Tarcísio de Freitas"].pct_valid == round(45 / 72 * 100, 2)
 
 
+def test_senado_2_votos_por_pessoa_e_classificado():
+    """Senado: soma ~200% = % de entrevistados que citam (2 votos); soma ~100% = normalizado.
+    Sem separar, a média soma 30% de um formato com 15% do outro para o mesmo candidato."""
+    assert base.votos_por_pessoa(142.1, 15.6) == 2      # Paraná Pesquisas SP 19/08
+    assert base.votos_por_pessoa(53.0, 45.0) == 1       # Datafolha MG 21/08
+    assert base.votos_por_pessoa(128.0, 22.2) == 2      # Paraná RJ: soma sozinha já passa de 100
+    assert base.votos_por_pessoa(95.0, 0.0) == 1        # governador, sem branco listado
+    sen = ROSTER["states"]["SP"]["senate"]["candidates"][:3]
+    lis = "".join(f'<li class="postListItem">{c["name"]} ({c["party"]}): {p}%</li>'
+                  for c, p in zip(sen, (61, 58, 40)))
+    html = f"<p>Senado - estimulada</p><ul>{lis}<li class='postListItem'>Indecisos: 20%</li></ul>"
+    recs = gz.parse_html("SP", ROSTER["states"]["SP"], html, ".../x-senador-sao-paulo-agosto-2026/")
+    assert recs and all(r.votos == 2 for r in recs)
+    # a fatia dos válidos independe do formato: 61 / (61+58+40)
+    assert recs[0].pct_valid == round(61 / 159 * 100, 2)
+
+
 def test_match_candidate_por_partido_e_nome():
     rs = ROSTER["states"]["CE"]
     hit = base.match_candidate("Ciro Gomes", "PSDB", rs)
