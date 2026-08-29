@@ -1,6 +1,123 @@
 {
- "generated_at": "2026-08-28",
+ "generated_at": "2026-08-29",
  "state_polls": [
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "29/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 174.4,
+   "undecided": 8.3,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rayssa Furlan",
+     "party": "Podemos",
+     "pct": 56.0,
+     "pct_valid": 32.11
+    },
+    {
+     "name": "Lucas Barreto",
+     "party": "PSD",
+     "pct": 38.1,
+     "pct_valid": 21.85
+    },
+    {
+     "name": "Randolfe Rodrigues",
+     "party": "PT",
+     "pct": 36.6,
+     "pct_valid": 20.99
+    },
+    {
+     "name": "Alliny Serrão",
+     "party": "União",
+     "pct": 18.4,
+     "pct_valid": 10.55
+    },
+    {
+     "name": "Acácio Favacho",
+     "party": "MDB",
+     "pct": 16.2,
+     "pct_valid": 9.29
+    },
+    {
+     "name": "Juíza Jô",
+     "party": "DC",
+     "pct": 1.4,
+     "pct_valid": 0.8
+    }
+   ]
+  },
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "29/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 92.6,
+   "undecided": 7.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Dr. Furlan",
+     "party": "PSD",
+     "pct": 59.4,
+     "pct_valid": 64.15
+    },
+    {
+     "name": "Clécio Luís",
+     "party": "União",
+     "pct": 32.1,
+     "pct_valid": 34.67
+    },
+    {
+     "name": "Marcos Reategui",
+     "party": "DC",
+     "pct": 0.6,
+     "pct_valid": 0.65
+    }
+   ]
+  },
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "29/08/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amapa-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 93.4,
+   "undecided": 6.7,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Dr. Furlan",
+     "party": "PSD",
+     "pct": 60.3,
+     "pct_valid": 64.56
+    },
+    {
+     "name": "Clécio Luís",
+     "party": "União",
+     "pct": 33.1,
+     "pct_valid": 35.44
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -14,7 +131,7 @@
    "sum_cands": 149.8,
    "undecided": 13.2,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -85,7 +202,7 @@
    "sum_cands": 88.5,
    "undecided": 11.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -132,7 +249,7 @@
    "sum_cands": 89.3,
    "undecided": 10.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -167,7 +284,7 @@
    "sum_cands": 65.0,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Delegado André David",
@@ -238,7 +355,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -285,7 +402,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -314,7 +431,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -373,7 +490,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -414,7 +531,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -449,7 +566,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -526,7 +643,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -567,7 +684,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -602,7 +719,7 @@
    "sum_cands": 154.3,
    "undecided": 13.0,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -673,7 +790,7 @@
    "sum_cands": 86.9,
    "undecided": 13.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -708,7 +825,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Teresa Surita",
@@ -755,7 +872,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -784,7 +901,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -1072,7 +1189,7 @@
    "sum_cands": 66.0,
    "undecided": 34.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gracinha Caiado",
@@ -1155,7 +1272,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1208,7 +1325,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1243,7 +1360,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -1385,7 +1502,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -1455,7 +1572,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -1525,7 +1642,7 @@
    "sum_cands": 55.0,
    "undecided": 42.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -1655,7 +1772,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1755,7 +1872,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -1813,7 +1930,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -1878,7 +1995,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -1925,7 +2042,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
