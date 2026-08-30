@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-29",
- "polls_date": "2026-08-29",
+ "generated_at": "2026-08-30",
+ "polls_date": "2026-08-30",
  "available": true,
  "national": {
   "polls": 6,
@@ -175,11 +175,11 @@
    "basis": "Quaest 24–28/07"
   },
   "DF": {
-   "Lula": 31.0,
-   "Flávio": 34.5,
+   "Lula": 31.1,
+   "Flávio": 34.4,
    "Caiado": 5,
    "Zema": 4,
-   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.27)"
+   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.26)"
   },
   "ES": {
    "Lula": 41.8,
@@ -206,8 +206,8 @@
    "Lula": 31.6,
    "Flávio": 29.5,
    "Caiado": 3.0,
-   "Zema": 10.9,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.27)"
+   "Zema": 11.0,
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.26)"
   },
   "MS": {
    "Lula": 40.3,
@@ -238,11 +238,11 @@
    "basis": "proxy 2º turno 2022 + swing nac. -0.2"
   },
   "PE": {
-   "Lula": 54.1,
-   "Flávio": 21.9,
+   "Lula": 54.2,
+   "Flávio": 21.8,
    "Caiado": 1,
    "Zema": 1,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.27)"
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.26)"
   },
   "PI": {
    "Lula": 76.7,
@@ -263,7 +263,7 @@
    "Flávio": 32.6,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.27)"
+   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.26)"
   },
   "RN": {
    "Lula": 64.9,
@@ -308,11 +308,11 @@
    "basis": "proxy 2º turno 2022 + swing nac. -0.2"
   },
   "SP": {
-   "Lula": 31.1,
+   "Lula": 31.0,
    "Flávio": 34.3,
    "Caiado": 3.0,
    "Zema": 3.0,
-   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.27)"
+   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.26)"
   },
   "TO": {
    "Lula": 51.2,
