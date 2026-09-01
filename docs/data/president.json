@@ -1,90 +1,98 @@
 {
- "generated_at": "2026-08-31",
- "polls_date": "2026-08-31",
+ "generated_at": "2026-09-01",
+ "polls_date": "2026-09-01",
  "available": true,
  "national": {
   "polls": 6,
   "institutos": [
+   "Real Time Big Data",
    "AtlasIntel",
    "Nexus",
    "PoderData",
    "Indexa Broadcast",
-   "Gerp",
-   "Nexus"
+   "Gerp"
   ],
-  "latest_date": "31/08/2026",
+  "latest_date": "01/09/2026",
   "first_round": [
    {
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 39.7,
+    "avg": 39.2,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 34.8,
+    "avg": 33.4,
     "n": 6
    },
    {
     "name": "Escritor Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 4.8,
+    "avg": 6.1,
     "n": 6
    },
    {
     "name": "Renan Santos",
     "party": "Missão",
     "bloc": "Indefinido",
-    "avg": 4.2,
+    "avg": 4.7,
     "n": 6
    },
    {
     "name": "Ronaldo Caiado",
     "party": "PSD",
     "bloc": "Caiado",
-    "avg": 4.2,
+    "avg": 4.1,
     "n": 6
    },
    {
     "name": "Pablo Marçal",
     "party": "PRTB",
     "bloc": "Indefinido",
-    "avg": 2.6,
-    "n": 3
+    "avg": 2.7,
+    "n": 4
    },
    {
     "name": "Zema",
     "party": "Novo",
     "bloc": "Zema",
-    "avg": 1.4,
+    "avg": 1.3,
     "n": 6
    },
    {
     "name": "Samara",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 0.7,
-    "n": 6
+    "avg": 0.6,
+    "n": 5
    }
   ],
   "runoff": {
-   "Lula": 45.4,
-   "Flávio": 44.1
+   "Lula": 45.1,
+   "Flávio": 43.9
   },
   "trend": {
-   "Lula": 2.4,
-   "Flávio": -3.3
+   "Lula": 1.0,
+   "Flávio": -9.0
   },
   "used": [
+   {
+    "pollster": "Real Time Big Data",
+    "date": "01/09/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
+    "weight": 0.186,
+    "Lula": 38.0,
+    "Flávio": 29.0
+   },
    {
     "pollster": "AtlasIntel",
     "date": "31/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
-    "weight": 0.197,
+    "weight": 0.186,
     "Lula": 43.4,
     "Flávio": 33.7
    },
@@ -92,7 +100,7 @@
     "pollster": "Nexus",
     "date": "31/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
-    "weight": 0.197,
+    "weight": 0.186,
     "Lula": 39.0,
     "Flávio": 33.0
    },
@@ -100,7 +108,7 @@
     "pollster": "PoderData",
     "date": "27/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
-    "weight": 0.161,
+    "weight": 0.152,
     "Lula": 38.0,
     "Flávio": 35.0
    },
@@ -108,7 +116,7 @@
     "pollster": "Indexa Broadcast",
     "date": "26/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-agosto-2026/",
-    "weight": 0.153,
+    "weight": 0.145,
     "Lula": 39.0,
     "Flávio": 33.0
    },
@@ -116,17 +124,9 @@
     "pollster": "Gerp",
     "date": "26/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
-    "weight": 0.153,
+    "weight": 0.145,
     "Lula": 37.0,
     "Flávio": 38.0
-   },
-   {
-    "pollster": "Nexus",
-    "date": "24/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-4/",
-    "weight": 0.139,
-    "Lula": 41.0,
-    "Flávio": 37.0
    }
   ]
  },
@@ -179,7 +179,7 @@
    "Flávio": 34.4,
    "Caiado": 5,
    "Zema": 4,
-   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.25)"
+   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.24)"
   },
   "ES": {
    "Lula": 41.8,
@@ -207,7 +207,7 @@
    "Flávio": 29.5,
    "Caiado": 3.0,
    "Zema": 11.0,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.25)"
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.24)"
   },
   "MS": {
    "Lula": 40.3,
@@ -242,7 +242,7 @@
    "Flávio": 21.8,
    "Caiado": 1,
    "Zema": 1,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.25)"
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.24)"
   },
   "PI": {
    "Lula": 76.7,
@@ -263,7 +263,7 @@
    "Flávio": 32.5,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.25)"
+   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.24)"
   },
   "RN": {
    "Lula": 64.9,
@@ -309,10 +309,10 @@
   },
   "SP": {
    "Lula": 31.0,
-   "Flávio": 34.3,
+   "Flávio": 34.2,
    "Caiado": 3.0,
    "Zema": 3.0,
-   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.25)"
+   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.24)"
   },
   "TO": {
    "Lula": 51.2,
