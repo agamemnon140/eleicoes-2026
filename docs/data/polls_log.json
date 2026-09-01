@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-31",
+ "generated_at": "2026-09-01",
  "state_polls": [
   {
    "uf": "AL",
@@ -14,7 +14,7 @@
    "sum_cands": 143.6,
    "undecided": 13.6,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Lira",
@@ -61,7 +61,7 @@
    "sum_cands": 89.9,
    "undecided": 10.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -90,7 +90,7 @@
    "sum_cands": 91.5,
    "undecided": 8.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -113,7 +113,7 @@
    "sum_cands": 65.0,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -178,7 +178,7 @@
    "sum_cands": 62.0,
    "undecided": 38.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -219,7 +219,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -8129,12 +8129,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "Real Time Big Data",
+   "date": "01/09/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
+   "Lula": 38.0,
+   "Flávio": 29.0,
+   "weight": 0.186
+  },
+  {
    "pollster": "AtlasIntel",
    "date": "31/08/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
    "Lula": 43.4,
    "Flávio": 33.7,
-   "weight": 0.197
+   "weight": 0.186
   },
   {
    "pollster": "Nexus",
@@ -8142,7 +8150,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
    "Lula": 39.0,
    "Flávio": 33.0,
-   "weight": 0.197
+   "weight": 0.186
   },
   {
    "pollster": "PoderData",
@@ -8150,7 +8158,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 35.0,
-   "weight": 0.161
+   "weight": 0.152
   },
   {
    "pollster": "Indexa Broadcast",
@@ -8158,7 +8166,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 33.0,
-   "weight": 0.153
+   "weight": 0.145
   },
   {
    "pollster": "Gerp",
@@ -8166,15 +8174,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
    "Lula": 37.0,
    "Flávio": 38.0,
-   "weight": 0.153
-  },
-  {
-   "pollster": "Nexus",
-   "date": "24/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-4/",
-   "Lula": 41.0,
-   "Flávio": 37.0,
-   "weight": 0.139
+   "weight": 0.145
   }
  ]
 }
