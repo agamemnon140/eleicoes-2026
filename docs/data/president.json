@@ -1,90 +1,98 @@
 {
- "generated_at": "2026-09-01",
- "polls_date": "2026-09-01",
+ "generated_at": "2026-09-02",
+ "polls_date": "2026-09-02",
  "available": true,
  "national": {
   "polls": 6,
   "institutos": [
+   "Quaest",
    "Real Time Big Data",
    "AtlasIntel",
    "Nexus",
    "PoderData",
-   "Indexa Broadcast",
-   "Gerp"
+   "Indexa Broadcast"
   ],
-  "latest_date": "01/09/2026",
+  "latest_date": "02/09/2026",
   "first_round": [
    {
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 39.2,
+    "avg": 39.1,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 33.4,
+    "avg": 32.1,
     "n": 6
    },
    {
     "name": "Escritor Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 6.1,
+    "avg": 7.5,
     "n": 6
    },
    {
     "name": "Renan Santos",
     "party": "Missão",
     "bloc": "Indefinido",
-    "avg": 4.7,
+    "avg": 4.6,
     "n": 6
    },
    {
     "name": "Ronaldo Caiado",
     "party": "PSD",
     "bloc": "Caiado",
-    "avg": 4.1,
+    "avg": 3.6,
     "n": 6
    },
    {
     "name": "Pablo Marçal",
     "party": "PRTB",
     "bloc": "Indefinido",
-    "avg": 2.7,
+    "avg": 2.0,
     "n": 4
    },
    {
     "name": "Zema",
     "party": "Novo",
     "bloc": "Zema",
-    "avg": 1.3,
-    "n": 6
+    "avg": 1.4,
+    "n": 5
    },
    {
     "name": "Samara",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 0.6,
-    "n": 5
+    "avg": 0.8,
+    "n": 4
    }
   ],
   "runoff": {
-   "Lula": 45.1,
-   "Flávio": 43.9
+   "Lula": 45.0,
+   "Flávio": 43.0
   },
   "trend": {
-   "Lula": 1.0,
-   "Flávio": -9.0
+   "Lula": -2.0,
+   "Flávio": -3.0
   },
   "used": [
+   {
+    "pollster": "Quaest",
+    "date": "02/09/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026/",
+    "weight": 0.186,
+    "Lula": 37.0,
+    "Flávio": 30.0
+   },
    {
     "pollster": "Real Time Big Data",
     "date": "01/09/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
-    "weight": 0.186,
+    "weight": 0.177,
     "Lula": 38.0,
     "Flávio": 29.0
    },
@@ -92,7 +100,7 @@
     "pollster": "AtlasIntel",
     "date": "31/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
-    "weight": 0.186,
+    "weight": 0.177,
     "Lula": 43.4,
     "Flávio": 33.7
    },
@@ -100,7 +108,7 @@
     "pollster": "Nexus",
     "date": "31/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
-    "weight": 0.186,
+    "weight": 0.177,
     "Lula": 39.0,
     "Flávio": 33.0
    },
@@ -108,7 +116,7 @@
     "pollster": "PoderData",
     "date": "27/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
-    "weight": 0.152,
+    "weight": 0.145,
     "Lula": 38.0,
     "Flávio": 35.0
    },
@@ -116,49 +124,41 @@
     "pollster": "Indexa Broadcast",
     "date": "26/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-agosto-2026/",
-    "weight": 0.145,
+    "weight": 0.138,
     "Lula": 39.0,
     "Flávio": 33.0
-   },
-   {
-    "pollster": "Gerp",
-    "date": "26/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
-    "weight": 0.145,
-    "Lula": 37.0,
-    "Flávio": 38.0
    }
   ]
  },
- "national_swing": -0.2,
+ "national_swing": 0.2,
  "pres_lean": {
   "AC": {
-   "Lula": 29.5,
-   "Flávio": 70.5,
+   "Lula": 29.9,
+   "Flávio": 70.1,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "AL": {
-   "Lula": 58.5,
-   "Flávio": 41.5,
+   "Lula": 58.9,
+   "Flávio": 41.1,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "AM": {
-   "Lula": 50.9,
-   "Flávio": 49.1,
+   "Lula": 51.3,
+   "Flávio": 48.7,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "AP": {
-   "Lula": 51.2,
-   "Flávio": 48.8,
+   "Lula": 51.6,
+   "Flávio": 48.4,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "BA": {
    "Lula": 52,
@@ -175,18 +175,18 @@
    "basis": "Quaest 24–28/07"
   },
   "DF": {
-   "Lula": 31.1,
-   "Flávio": 34.4,
+   "Lula": 31.2,
+   "Flávio": 34.3,
    "Caiado": 5,
    "Zema": 4,
-   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.24)"
+   "basis": "Correio/Opinião 30/07–01/08 + Datafolha estadual (w=0.23)"
   },
   "ES": {
-   "Lula": 41.8,
-   "Flávio": 58.2,
+   "Lula": 42.2,
+   "Flávio": 57.8,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "GO": {
    "Lula": 23,
@@ -196,32 +196,32 @@
    "basis": "Quaest 24–28/07"
   },
   "MA": {
-   "Lula": 70.9,
-   "Flávio": 29.1,
+   "Lula": 71.3,
+   "Flávio": 28.7,
    "Caiado": 3,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "MG": {
-   "Lula": 31.5,
+   "Lula": 31.4,
    "Flávio": 29.5,
    "Caiado": 3.0,
-   "Zema": 11.0,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.24)"
+   "Zema": 11.1,
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.23)"
   },
   "MS": {
-   "Lula": 40.3,
-   "Flávio": 59.7,
+   "Lula": 40.7,
+   "Flávio": 59.3,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "MT": {
-   "Lula": 34.7,
-   "Flávio": 65.3,
+   "Lula": 35.1,
+   "Flávio": 64.9,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "PA": {
    "Lula": 38,
@@ -231,25 +231,25 @@
    "basis": "Quaest 21–25/07"
   },
   "PB": {
-   "Lula": 66.4,
-   "Flávio": 33.6,
+   "Lula": 66.8,
+   "Flávio": 33.2,
    "Caiado": 3,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "PE": {
    "Lula": 54.2,
    "Flávio": 21.8,
    "Caiado": 1,
    "Zema": 1,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.24)"
+   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.23)"
   },
   "PI": {
-   "Lula": 76.7,
-   "Flávio": 23.3,
+   "Lula": 77.1,
+   "Flávio": 22.9,
    "Caiado": 2,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "PR": {
    "Lula": 24,
@@ -263,28 +263,28 @@
    "Flávio": 32.5,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.24)"
+   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.23)"
   },
   "RN": {
-   "Lula": 64.9,
-   "Flávio": 35.1,
+   "Lula": 65.3,
+   "Flávio": 34.7,
    "Caiado": 3,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "RO": {
-   "Lula": 29.1,
-   "Flávio": 70.9,
+   "Lula": 29.5,
+   "Flávio": 70.5,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "RR": {
-   "Lula": 23.7,
-   "Flávio": 76.3,
+   "Lula": 24.1,
+   "Flávio": 75.9,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "RS": {
    "Lula": 30,
@@ -294,32 +294,32 @@
    "basis": "Quaest 24–28/07"
   },
   "SC": {
-   "Lula": 30.5,
-   "Flávio": 69.5,
+   "Lula": 30.9,
+   "Flávio": 69.1,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "SE": {
-   "Lula": 67.0,
-   "Flávio": 33.0,
+   "Lula": 67.4,
+   "Flávio": 32.6,
    "Caiado": 3,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   },
   "SP": {
-   "Lula": 31.0,
+   "Lula": 30.9,
    "Flávio": 34.2,
    "Caiado": 3.0,
    "Zema": 3.0,
-   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.24)"
+   "basis": "Quaest 23–27/07 + Datafolha estadual (w=0.23)"
   },
   "TO": {
-   "Lula": 51.2,
-   "Flávio": 48.8,
+   "Lula": 51.6,
+   "Flávio": 48.4,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -0.2"
+   "basis": "proxy 2º turno 2022 + swing nac. +0.2"
   }
  },
  "state_polls": {

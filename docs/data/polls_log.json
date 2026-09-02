@@ -1,6 +1,165 @@
 {
- "generated_at": "2026-09-01",
+ "generated_at": "2026-09-02",
  "state_polls": [
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "02/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Benedita da Silva",
+     "party": "PT",
+     "pct": 14.0,
+     "pct_valid": 16.87
+    },
+    {
+     "name": "Marcelo Crivella",
+     "party": "Republicanos",
+     "pct": 14.0,
+     "pct_valid": 16.87
+    },
+    {
+     "name": "Pedro Paulo",
+     "party": "PSD",
+     "pct": 13.0,
+     "pct_valid": 15.66
+    },
+    {
+     "name": "Carlos Portinho",
+     "party": "PL",
+     "pct": 11.0,
+     "pct_valid": 13.25
+    },
+    {
+     "name": "Monica Benicio",
+     "party": "PSOL",
+     "pct": 9.0,
+     "pct_valid": 10.84
+    },
+    {
+     "name": "Waguinho",
+     "party": "Republicanos",
+     "pct": 8.0,
+     "pct_valid": 9.64
+    },
+    {
+     "name": "Marcos Dias",
+     "party": "Podemos",
+     "pct": 3.0,
+     "pct_valid": 3.61
+    }
+   ]
+  },
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "02/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 77.0,
+   "undecided": 23.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Paes",
+     "party": "PSD",
+     "pct": 35.0,
+     "pct_valid": 45.45
+    },
+    {
+     "name": "Douglas Ruas",
+     "party": "PL",
+     "pct": 21.0,
+     "pct_valid": 27.27
+    },
+    {
+     "name": "Anthony Garotinho",
+     "party": "Republicanos",
+     "pct": 7.0,
+     "pct_valid": 9.09
+    },
+    {
+     "name": "William Siri",
+     "party": "PSOL",
+     "pct": 5.0,
+     "pct_valid": 6.49
+    },
+    {
+     "name": "Coronel Busnello",
+     "party": "Missão",
+     "pct": 4.0,
+     "pct_valid": 5.19
+    },
+    {
+     "name": "André Marinho",
+     "party": "Novo",
+     "pct": 3.0,
+     "pct_valid": 3.9
+    },
+    {
+     "name": "Cyro Garcia",
+     "party": "PSTU",
+     "pct": 1.0,
+     "pct_valid": 1.3
+    },
+    {
+     "name": "Juliete",
+     "party": "UP",
+     "pct": 1.0,
+     "pct_valid": 1.3
+    }
+   ]
+  },
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "02/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-rio-de-janeiro-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 71.0,
+   "undecided": 29.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Paes",
+     "party": "PSD",
+     "pct": 41.0,
+     "pct_valid": 57.75
+    },
+    {
+     "name": "Douglas Ruas",
+     "party": "PL",
+     "pct": 30.0,
+     "pct_valid": 42.25
+    },
+    {
+     "name": "Anthony Garotinho",
+     "party": "Republicanos",
+     "pct": 25.0,
+     "pct_valid": 35.71
+    }
+   ]
+  },
   {
    "uf": "AL",
    "estado": "Alagoas",
@@ -5495,148 +5654,6 @@
    ]
   },
   {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Senado",
-   "pollster": "Datafolha",
-   "date": "21/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-rio-de-janeiro-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 63.0,
-   "undecided": 35.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Benedita da Silva",
-     "party": "PT",
-     "pct": 15.0,
-     "pct_valid": 23.81
-    },
-    {
-     "name": "Carlos Portinho",
-     "party": "PL",
-     "pct": 8.0,
-     "pct_valid": 12.7
-    },
-    {
-     "name": "Marcelo Crivella",
-     "party": "Republicanos",
-     "pct": 6.0,
-     "pct_valid": 9.52
-    },
-    {
-     "name": "Pedro Paulo",
-     "party": "PSD",
-     "pct": 6.0,
-     "pct_valid": 9.52
-    },
-    {
-     "name": "Monica Benicio",
-     "party": "PSOL",
-     "pct": 6.0,
-     "pct_valid": 9.52
-    },
-    {
-     "name": "Waguinho",
-     "party": "Republicanos",
-     "pct": 3.0,
-     "pct_valid": 4.76
-    },
-    {
-     "name": "Marcos Dias",
-     "party": "Podemos",
-     "pct": 2.0,
-     "pct_valid": 3.17
-    },
-    {
-     "name": "Paula Falcão",
-     "party": "PSTU",
-     "pct": 1.0,
-     "pct_valid": 1.59
-    },
-    {
-     "name": "Helio Secco",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.59
-    }
-   ]
-  },
-  {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Governo",
-   "pollster": "Datafolha",
-   "date": "21/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-rio-de-janeiro-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 80.0,
-   "undecided": 20.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Paes",
-     "party": "PSD",
-     "pct": 41.0,
-     "pct_valid": 51.25
-    },
-    {
-     "name": "Douglas Ruas",
-     "party": "PL",
-     "pct": 19.0,
-     "pct_valid": 23.75
-    },
-    {
-     "name": "Anthony Garotinho",
-     "party": "Republicanos",
-     "pct": 9.0,
-     "pct_valid": 11.25
-    },
-    {
-     "name": "André Marinho",
-     "party": "Novo",
-     "pct": 2.0,
-     "pct_valid": 2.5
-    },
-    {
-     "name": "Coronel Busnello",
-     "party": "Missão",
-     "pct": 2.0,
-     "pct_valid": 2.5
-    },
-    {
-     "name": "William Siri",
-     "party": "PSOL",
-     "pct": 2.0,
-     "pct_valid": 2.5
-    },
-    {
-     "name": "Cyro Garcia",
-     "party": "PSTU",
-     "pct": 2.0,
-     "pct_valid": 2.5
-    },
-    {
-     "name": "Juliete",
-     "party": "UP",
-     "pct": 2.0,
-     "pct_valid": 2.5
-    },
-    {
-     "name": "Luan Monteiro",
-     "party": "PCO",
-     "pct": 1.0,
-     "pct_valid": 1.25
-    }
-   ]
-  },
-  {
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Senado",
@@ -8129,12 +8146,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "Quaest",
+   "date": "02/09/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026/",
+   "Lula": 37.0,
+   "Flávio": 30.0,
+   "weight": 0.186
+  },
+  {
    "pollster": "Real Time Big Data",
    "date": "01/09/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
    "Lula": 38.0,
    "Flávio": 29.0,
-   "weight": 0.186
+   "weight": 0.177
   },
   {
    "pollster": "AtlasIntel",
@@ -8142,7 +8167,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
    "Lula": 43.4,
    "Flávio": 33.7,
-   "weight": 0.186
+   "weight": 0.177
   },
   {
    "pollster": "Nexus",
@@ -8150,7 +8175,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
    "Lula": 39.0,
    "Flávio": 33.0,
-   "weight": 0.186
+   "weight": 0.177
   },
   {
    "pollster": "PoderData",
@@ -8158,7 +8183,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
    "Lula": 38.0,
    "Flávio": 35.0,
-   "weight": 0.152
+   "weight": 0.145
   },
   {
    "pollster": "Indexa Broadcast",
@@ -8166,15 +8191,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-agosto-2026/",
    "Lula": 39.0,
    "Flávio": 33.0,
-   "weight": 0.145
-  },
-  {
-   "pollster": "Gerp",
-   "date": "26/08/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
-   "Lula": 37.0,
-   "Flávio": 38.0,
-   "weight": 0.145
+   "weight": 0.138
   }
  ]
 }
