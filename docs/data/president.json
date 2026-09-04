@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-03",
- "polls_date": "2026-09-03",
+ "generated_at": "2026-09-04",
+ "polls_date": "2026-09-04",
  "available": true,
  "national": {
   "polls": 6,
   "institutos": [
    "PoderData",
+   "Datafolha",
+   "Futura Inteligência",
    "Quaest",
    "Real Time Big Data",
-   "AtlasIntel",
-   "Nexus",
-   "PoderData"
+   "AtlasIntel"
   ],
   "latest_date": "03/09/2026",
   "first_round": [
@@ -18,81 +18,97 @@
     "name": "Lula",
     "party": "PT",
     "bloc": "Lula",
-    "avg": 38.7,
+    "avg": 38.8,
     "n": 6
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 32.4,
+    "avg": 32.1,
     "n": 6
    },
    {
     "name": "Escritor Augusto Cury",
     "party": "Avante",
     "bloc": "Indefinido",
-    "avg": 9.0,
+    "avg": 9.1,
     "n": 6
    },
    {
     "name": "Renan Santos",
     "party": "Missão",
     "bloc": "Indefinido",
-    "avg": 4.4,
+    "avg": 4.3,
     "n": 6
    },
    {
     "name": "Ronaldo Caiado",
     "party": "PSD",
     "bloc": "Caiado",
-    "avg": 3.2,
+    "avg": 3.0,
     "n": 6
    },
    {
     "name": "Pablo Marçal",
     "party": "PRTB",
     "bloc": "Indefinido",
-    "avg": 2.0,
-    "n": 3
+    "avg": 2.1,
+    "n": 5
    },
    {
     "name": "Zema",
     "party": "Novo",
     "bloc": "Zema",
-    "avg": 1.4,
+    "avg": 1.5,
     "n": 5
    },
    {
     "name": "Samara",
     "party": "UP",
     "bloc": "Indefinido",
-    "avg": 1.0,
-    "n": 4
+    "avg": 0.8,
+    "n": 3
    }
   ],
   "runoff": {
-   "Flávio": 43.6,
-   "Lula": 44.6
+   "Flávio": 43.7,
+   "Lula": 44.8
   },
   "trend": {
-   "Lula": -1.0,
-   "Flávio": -1.0
+   "Lula": -6.4,
+   "Flávio": 0.3
   },
   "used": [
    {
     "pollster": "PoderData",
     "date": "03/09/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026/",
-    "weight": 0.185,
+    "weight": 0.174,
     "Lula": 37.0,
     "Flávio": 34.0
+   },
+   {
+    "pollster": "Datafolha",
+    "date": "03/09/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026/",
+    "weight": 0.174,
+    "Lula": 39.0,
+    "Flávio": 32.0
+   },
+   {
+    "pollster": "Futura Inteligência",
+    "date": "03/09/2026",
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-setembro-2026/",
+    "weight": 0.174,
+    "Lula": 38.7,
+    "Flávio": 33.6
    },
    {
     "pollster": "Quaest",
     "date": "02/09/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026/",
-    "weight": 0.176,
+    "weight": 0.165,
     "Lula": 37.0,
     "Flávio": 30.0
    },
@@ -100,7 +116,7 @@
     "pollster": "Real Time Big Data",
     "date": "01/09/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
-    "weight": 0.167,
+    "weight": 0.157,
     "Lula": 38.0,
     "Flávio": 29.0
    },
@@ -108,25 +124,9 @@
     "pollster": "AtlasIntel",
     "date": "31/08/2026",
     "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
-    "weight": 0.167,
+    "weight": 0.157,
     "Lula": 43.4,
     "Flávio": 33.7
-   },
-   {
-    "pollster": "Nexus",
-    "date": "31/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
-    "weight": 0.167,
-    "Lula": 39.0,
-    "Flávio": 33.0
-   },
-   {
-    "pollster": "PoderData",
-    "date": "27/08/2026",
-    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-agosto-2026/",
-    "weight": 0.137,
-    "Lula": 38.0,
-    "Flávio": 35.0
    }
   ]
  },
