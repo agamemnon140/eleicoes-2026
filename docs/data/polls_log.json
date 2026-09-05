@@ -1,6 +1,364 @@
 {
- "generated_at": "2026-09-04",
+ "generated_at": "2026-09-05",
  "state_polls": [
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "05/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amazonas-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 155.0,
+   "undecided": 9.4,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Braga",
+     "party": "MDB",
+     "pct": 50.0,
+     "pct_valid": 32.26
+    },
+    {
+     "name": "Capitão Alberto Neto",
+     "party": "PL",
+     "pct": 39.3,
+     "pct_valid": 25.35
+    },
+    {
+     "name": "Plínio Valério",
+     "party": "PSDB",
+     "pct": 28.9,
+     "pct_valid": 18.65
+    },
+    {
+     "name": "Wilson Lima",
+     "party": "União",
+     "pct": 25.6,
+     "pct_valid": 16.52
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "05/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amazonas-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 29.6,
+     "pct_valid": 32.53
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 21.5,
+     "pct_valid": 23.63
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 16.8,
+     "pct_valid": 18.46
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "05/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-amazonas-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 83.9,
+   "undecided": 16.1,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 50.2,
+     "pct_valid": 59.83
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 39.3,
+     "pct_valid": 46.62
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 33.7,
+     "pct_valid": 40.17
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-sergipe-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Delegado André David",
+     "party": "Republicanos",
+     "pct": 18.0,
+     "pct_valid": 20.45
+    },
+    {
+     "name": "André Moura",
+     "party": "União",
+     "pct": 12.0,
+     "pct_valid": 13.64
+    },
+    {
+     "name": "Dr. Eduardo Amorim",
+     "party": "Republicanos",
+     "pct": 10.0,
+     "pct_valid": 11.36
+    },
+    {
+     "name": "Delegado Alessandro Vieira",
+     "party": "MDB",
+     "pct": 10.0,
+     "pct_valid": 11.36
+    },
+    {
+     "name": "Edvaldo",
+     "party": "PDT",
+     "pct": 10.0,
+     "pct_valid": 11.36
+    },
+    {
+     "name": "Rodrigo Valadares",
+     "party": "PL",
+     "pct": 9.0,
+     "pct_valid": 10.23
+    },
+    {
+     "name": "Rogério Carvalho",
+     "party": "PT",
+     "pct": 9.0,
+     "pct_valid": 10.23
+    },
+    {
+     "name": "Coronel Rocha",
+     "party": "PL",
+     "pct": 7.0,
+     "pct_valid": 7.95
+    },
+    {
+     "name": "Iran Barbosa",
+     "party": "PSOL",
+     "pct": 2.0,
+     "pct_valid": 2.27
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-sergipe-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 45.0,
+     "pct_valid": 48.39
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 37.0,
+     "pct_valid": 39.78
+    },
+    {
+     "name": "Ricardo Marques",
+     "party": "PL",
+     "pct": 9.0,
+     "pct_valid": 9.68
+    },
+    {
+     "name": "Emanuel Cacho",
+     "party": "PSDB",
+     "pct": 2.0,
+     "pct_valid": 2.15
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-sergipe-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 47.0,
+     "pct_valid": 52.22
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 43.0,
+     "pct_valid": 47.78
+    }
+   ]
+  },
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "cargo": "Senado",
+   "pollster": "instituto não identificado",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-governador-senador-para-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 143.3,
+   "undecided": 56.8,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Helder Barbalho",
+     "party": "MDB",
+     "pct": 45.8,
+     "pct_valid": 31.96
+    },
+    {
+     "name": "Delegado Éder Mauro",
+     "party": "PL",
+     "pct": 34.8,
+     "pct_valid": 24.28
+    },
+    {
+     "name": "Zequinha Marinho",
+     "party": "Podemos",
+     "pct": 21.0,
+     "pct_valid": 14.65
+    },
+    {
+     "name": "Chicão Melo",
+     "party": "União",
+     "pct": 18.9,
+     "pct_valid": 13.19
+    },
+    {
+     "name": "Celso Sabino",
+     "party": "PDT",
+     "pct": 9.4,
+     "pct_valid": 6.56
+    },
+    {
+     "name": "Gizelle Freitas",
+     "party": "PSOL",
+     "pct": 1.5,
+     "pct_valid": 1.05
+    },
+    {
+     "name": "Breno Guimarães",
+     "party": "Mobiliza",
+     "pct": 0.9,
+     "pct_valid": 0.63
+    },
+    {
+     "name": "Conti",
+     "party": "PSOL",
+     "pct": 0.1,
+     "pct_valid": 0.07
+    }
+   ]
+  },
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "cargo": "Governo",
+   "pollster": "instituto não identificado",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-governador-senador-para-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 77.9,
+   "undecided": 22.2,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Dr. Daniel Santos",
+     "party": "Podemos",
+     "pct": 38.0,
+     "pct_valid": 48.78
+    },
+    {
+     "name": "Hana Ghassan",
+     "party": "MDB",
+     "pct": 35.7,
+     "pct_valid": 45.83
+    },
+    {
+     "name": "Araceli Lemos",
+     "party": "PSOL",
+     "pct": 0.7,
+     "pct_valid": 0.9
+    },
+    {
+     "name": "Gal Leite",
+     "party": "UP",
+     "pct": 0.1,
+     "pct_valid": 0.13
+    }
+   ]
+  },
   {
    "uf": "PR",
    "estado": "Paraná",
@@ -14,7 +372,7 @@
    "sum_cands": 85.5,
    "undecided": 14.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -79,7 +437,7 @@
    "sum_cands": 88.8,
    "undecided": 11.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -126,13 +484,189 @@
    "sum_cands": 85.3,
    "undecided": 14.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
      "party": "PL",
      "pct": 44.8,
      "pct_valid": 52.52
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Senado",
+   "pollster": "AtlasIntel",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 95.0,
+   "undecided": 4.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cid Gomes",
+     "party": "PSB",
+     "pct": 24.4,
+     "pct_valid": 25.68
+    },
+    {
+     "name": "Luizianne Lins",
+     "party": "Rede",
+     "pct": 24.2,
+     "pct_valid": 25.47
+    },
+    {
+     "name": "Capitão Wagner",
+     "party": "União",
+     "pct": 19.1,
+     "pct_valid": 20.11
+    },
+    {
+     "name": "Alcides Fernandes",
+     "party": "PL",
+     "pct": 15.7,
+     "pct_valid": 16.53
+    },
+    {
+     "name": "Catarina Matos",
+     "party": "UP",
+     "pct": 2.3,
+     "pct_valid": 2.42
+    },
+    {
+     "name": "Reginaldo",
+     "party": "PSTU",
+     "pct": 0.2,
+     "pct_valid": 0.21
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 64.0,
+   "undecided": 36.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cid Gomes",
+     "party": "PSB",
+     "pct": 23.0,
+     "pct_valid": 35.94
+    },
+    {
+     "name": "Capitão Wagner",
+     "party": "União",
+     "pct": 20.0,
+     "pct_valid": 31.25
+    },
+    {
+     "name": "Luizianne Lins",
+     "party": "Rede",
+     "pct": 13.0,
+     "pct_valid": 20.31
+    },
+    {
+     "name": "Alcides Fernandes",
+     "party": "PL",
+     "pct": 5.0,
+     "pct_valid": 7.81
+    },
+    {
+     "name": "Reginaldo",
+     "party": "PSTU",
+     "pct": 1.0,
+     "pct_valid": 1.56
+    },
+    {
+     "name": "Catarina Matos",
+     "party": "UP",
+     "pct": 1.0,
+     "pct_valid": 1.56
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 95.2,
+   "undecided": 4.2,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 48.4,
+     "pct_valid": 50.84
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 45.8,
+     "pct_valid": 48.11
+    },
+    {
+     "name": "Delegado Huggo",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.05
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 45.0,
+     "pct_valid": 56.25
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 34.0,
+     "pct_valid": 42.5
+    },
+    {
+     "name": "Delegado Huggo",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.25
     }
    ]
   },
@@ -149,7 +683,7 @@
    "sum_cands": 86.0,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -193,6 +727,64 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 96.1,
+   "undecided": 3.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 50.0,
+     "pct_valid": 52.03
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 46.1,
+     "pct_valid": 47.97
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-ceara-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 49.0,
+     "pct_valid": 57.65
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 36.0,
+     "pct_valid": 42.35
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
    "pollster": "Datafolha",
    "date": "04/09/2026",
    "source": "gazeta",
@@ -202,7 +794,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -215,6 +807,76 @@
      "party": "PT",
      "pct": 42.0,
      "pct_valid": 45.65
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-amazonas-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.5,
+   "undecided": 6.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 31.0,
+     "pct_valid": 33.16
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 18.8,
+     "pct_valid": 20.11
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 8.7,
+     "pct_valid": 9.3
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "04/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-amazonas-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.4,
+   "undecided": 12.6,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 40.8,
+     "pct_valid": 46.68
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 33.4,
+     "pct_valid": 47.31
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 25.6,
+     "pct_valid": 35.12
     }
    ]
   },
@@ -401,7 +1063,7 @@
    "sum_cands": 94.5,
    "undecided": 5.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -448,7 +1110,7 @@
    "sum_cands": 92.4,
    "undecided": 7.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -483,7 +1145,7 @@
    "sum_cands": 69.9,
    "undecided": 30.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -560,7 +1222,7 @@
    "sum_cands": 87.9,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -760,7 +1422,7 @@
    "sum_cands": 94.3,
    "undecided": 5.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -779,6 +1441,41 @@
      "party": "MDB",
      "pct": 19.8,
      "pct_valid": 21.0
+    }
+   ]
+  },
+  {
+   "uf": "PB",
+   "estado": "Paraíba",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "03/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-paraiba-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.9,
+   "undecided": 12.1,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lucas Ribeiro",
+     "party": "PP",
+     "pct": 47.5,
+     "pct_valid": 54.04
+    },
+    {
+     "name": "Efraim Filho",
+     "party": "PL",
+     "pct": 40.4,
+     "pct_valid": 45.96
+    },
+    {
+     "name": "Cícero Lucena",
+     "party": "MDB",
+     "pct": 29.6,
+     "pct_valid": 39.36
     }
    ]
   },
@@ -895,7 +1592,7 @@
    "sum_cands": 88.5,
    "undecided": 11.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -942,7 +1639,7 @@
    "sum_cands": 88.1,
    "undecided": 11.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -1106,7 +1803,7 @@
    "sum_cands": 90.5,
    "undecided": 9.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1153,7 +1850,7 @@
    "sum_cands": 82.6,
    "undecided": 17.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1258,7 +1955,7 @@
    "sum_cands": 93.5,
    "undecided": 6.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -1293,7 +1990,7 @@
    "sum_cands": 76.7,
    "undecided": 23.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Leandro Grass",
@@ -5324,117 +6021,6 @@
    ]
   },
   {
-   "uf": "AM",
-   "estado": "Amazonas",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-amazonas-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 71.0,
-   "undecided": 29.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Braga",
-     "party": "MDB",
-     "pct": 25.0,
-     "pct_valid": 35.21
-    },
-    {
-     "name": "Capitão Alberto Neto",
-     "party": "PL",
-     "pct": 16.0,
-     "pct_valid": 22.54
-    },
-    {
-     "name": "Plínio Valério",
-     "party": "PSDB",
-     "pct": 13.0,
-     "pct_valid": 18.31
-    },
-    {
-     "name": "Wilson Lima",
-     "party": "União",
-     "pct": 12.0,
-     "pct_valid": 16.9
-    }
-   ]
-  },
-  {
-   "uf": "AM",
-   "estado": "Amazonas",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-amazonas-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 78.0,
-   "undecided": 22.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Omar Aziz",
-     "party": "PSD",
-     "pct": 26.0,
-     "pct_valid": 33.33
-    },
-    {
-     "name": "Roberto Cidade",
-     "party": "União",
-     "pct": 18.0,
-     "pct_valid": 23.08
-    },
-    {
-     "name": "David Almeida",
-     "party": "Avante",
-     "pct": 15.0,
-     "pct_valid": 19.23
-    }
-   ]
-  },
-  {
-   "uf": "AM",
-   "estado": "Amazonas",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-amazonas-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 95.0,
-   "undecided": 15.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Omar Aziz",
-     "party": "PSD",
-     "pct": 49.0,
-     "pct_valid": 51.58
-    },
-    {
-     "name": "David Almeida",
-     "party": "Avante",
-     "pct": 46.0,
-     "pct_valid": 48.42
-    },
-    {
-     "name": "Roberto Cidade",
-     "party": "União",
-     "pct": 41.0,
-     "pct_valid": 51.25
-    }
-   ]
-  },
-  {
    "uf": "AP",
    "estado": "Amapá",
    "cargo": "Senado",
@@ -6700,123 +7286,6 @@
   {
    "uf": "CE",
    "estado": "Ceará",
-   "cargo": "Senado",
-   "pollster": "Real Time Big Data",
-   "date": "20/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 88.0,
-   "undecided": 12.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cid Gomes",
-     "party": "PSB",
-     "pct": 27.0,
-     "pct_valid": 30.68
-    },
-    {
-     "name": "Capitão Wagner",
-     "party": "União",
-     "pct": 21.0,
-     "pct_valid": 23.86
-    },
-    {
-     "name": "Luizianne Lins",
-     "party": "Rede",
-     "pct": 21.0,
-     "pct_valid": 23.86
-    },
-    {
-     "name": "Alcides Fernandes",
-     "party": "PL",
-     "pct": 14.0,
-     "pct_valid": 15.91
-    },
-    {
-     "name": "Reginaldo",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Catarina Matos",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "20/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 91.0,
-   "undecided": 9.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 44.0,
-     "pct_valid": 48.35
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 44.0,
-     "pct_valid": 48.35
-    },
-    {
-     "name": "Delegado Huggo",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.1
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "20/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-ceara-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 91.0,
-   "undecided": 9.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 46.0,
-     "pct_valid": 50.55
-    },
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 45.0,
-     "pct_valid": 49.45
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
    "cargo": "Governo",
    "pollster": "Datafolha",
    "date": "14/08/2026",
@@ -6830,69 +7299,10 @@
    "is_new": false,
    "readings": [
     {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 52.0,
-     "pct_valid": 59.09
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 33.0,
-     "pct_valid": 37.5
-    },
-    {
-     "name": "Delegado Huggo",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.14
-    },
-    {
      "name": "Pedro Brito",
      "party": "Novo",
      "pct": 1.0,
      "pct_valid": 1.14
-    },
-    {
-     "name": "Serley Leal",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Zé Batista",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "Datafolha",
-   "date": "14/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-ceara-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 92.0,
-   "undecided": 8.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 55.0,
-     "pct_valid": 59.78
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 37.0,
-     "pct_valid": 40.22
     }
    ]
   },
@@ -7103,147 +7513,6 @@
      "party": "PSOL",
      "pct": 4.0,
      "pct_valid": 5.19
-    }
-   ]
-  },
-  {
-   "uf": "SE",
-   "estado": "Sergipe",
-   "cargo": "Senado",
-   "pollster": "Real Time Big Data",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 94.0,
-   "undecided": 6.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Delegado André David",
-     "party": "Republicanos",
-     "pct": 17.0,
-     "pct_valid": 18.09
-    },
-    {
-     "name": "André Moura",
-     "party": "União",
-     "pct": 14.0,
-     "pct_valid": 14.89
-    },
-    {
-     "name": "Rodrigo Valadares",
-     "party": "PL",
-     "pct": 12.0,
-     "pct_valid": 12.77
-    },
-    {
-     "name": "Delegado Alessandro Vieira",
-     "party": "MDB",
-     "pct": 9.0,
-     "pct_valid": 9.57
-    },
-    {
-     "name": "Rogério Carvalho",
-     "party": "PT",
-     "pct": 9.0,
-     "pct_valid": 9.57
-    },
-    {
-     "name": "Edvaldo",
-     "party": "PDT",
-     "pct": 8.0,
-     "pct_valid": 8.51
-    },
-    {
-     "name": "Coronel Rocha",
-     "party": "PL",
-     "pct": 6.0,
-     "pct_valid": 6.38
-    },
-    {
-     "name": "Iran Barbosa",
-     "party": "PSOL",
-     "pct": 1.0,
-     "pct_valid": 1.06
-    }
-   ]
-  },
-  {
-   "uf": "SE",
-   "estado": "Sergipe",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 92.0,
-   "undecided": 8.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Fábio Mitidieri",
-     "party": "PSD",
-     "pct": 43.0,
-     "pct_valid": 46.74
-    },
-    {
-     "name": "Valmir de Francisquinho",
-     "party": "Republicanos",
-     "pct": 40.0,
-     "pct_valid": 43.48
-    },
-    {
-     "name": "Ricardo Marques",
-     "party": "PL",
-     "pct": 6.0,
-     "pct_valid": 6.52
-    },
-    {
-     "name": "Emanuel Cacho",
-     "party": "PSDB",
-     "pct": 2.0,
-     "pct_valid": 2.17
-    },
-    {
-     "name": "Dr. Helton",
-     "party": "PSOL",
-     "pct": 1.0,
-     "pct_valid": 1.09
-    }
-   ]
-  },
-  {
-   "uf": "SE",
-   "estado": "Sergipe",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-sergipe-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 90.0,
-   "undecided": 10.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Fábio Mitidieri",
-     "party": "PSD",
-     "pct": 46.0,
-     "pct_valid": 51.11
-    },
-    {
-     "name": "Valmir de Francisquinho",
-     "party": "Republicanos",
-     "pct": 44.0,
-     "pct_valid": 48.89
     }
    ]
   },
