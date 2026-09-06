@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-05",
+ "generated_at": "2026-09-06",
  "state_polls": [
   {
    "uf": "AM",
@@ -14,7 +14,7 @@
    "sum_cands": 155.0,
    "undecided": 9.4,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braga",
@@ -55,7 +55,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -90,7 +90,7 @@
    "sum_cands": 83.9,
    "undecided": 16.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -125,7 +125,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Delegado André David",
@@ -196,7 +196,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -237,7 +237,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -266,7 +266,7 @@
    "sum_cands": 143.3,
    "undecided": 56.8,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -331,7 +331,7 @@
    "sum_cands": 77.9,
    "undecided": 22.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -507,7 +507,7 @@
    "sum_cands": 95.0,
    "undecided": 4.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -560,7 +560,7 @@
    "sum_cands": 64.0,
    "undecided": 36.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -613,7 +613,7 @@
    "sum_cands": 95.2,
    "undecided": 4.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -648,7 +648,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -736,7 +736,7 @@
    "sum_cands": 96.1,
    "undecided": 3.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -765,7 +765,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -823,7 +823,7 @@
    "sum_cands": 93.5,
    "undecided": 6.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -858,7 +858,7 @@
    "sum_cands": 87.4,
    "undecided": 12.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -1457,7 +1457,7 @@
    "sum_cands": 87.9,
    "undecided": 12.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -7559,153 +7559,6 @@
      "party": "PL",
      "pct": 24.1,
      "pct_valid": null
-    }
-   ]
-  },
-  {
-   "uf": "AC",
-   "estado": "Acre",
-   "cargo": "Senado",
-   "pollster": "AtlasIntel",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 97.7,
-   "undecided": 2.3,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marcio Bittar",
-     "party": "PL",
-     "pct": 20.6,
-     "pct_valid": 21.08
-    },
-    {
-     "name": "Gladson Cameli",
-     "party": "PP",
-     "pct": 18.5,
-     "pct_valid": 18.94
-    },
-    {
-     "name": "Mara Rocha",
-     "party": "Republicanos",
-     "pct": 18.1,
-     "pct_valid": 18.53
-    },
-    {
-     "name": "Jorge Viana",
-     "party": "PT",
-     "pct": 11.4,
-     "pct_valid": 11.67
-    },
-    {
-     "name": "Sérgio Petecão",
-     "party": "PSD",
-     "pct": 9.9,
-     "pct_valid": 10.13
-    },
-    {
-     "name": "Eduardo Velloso",
-     "party": "Solidariedade",
-     "pct": 6.4,
-     "pct_valid": 6.55
-    },
-    {
-     "name": "Professor Inacio Moreira",
-     "party": "PSOL",
-     "pct": 3.5,
-     "pct_valid": 3.58
-    },
-    {
-     "name": "Dr. Junior Feitosa",
-     "party": "DC",
-     "pct": 0.7,
-     "pct_valid": 0.72
-    }
-   ]
-  },
-  {
-   "uf": "AC",
-   "estado": "Acre",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 96.5,
-   "undecided": 3.5,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Mailza Assis",
-     "party": "PP",
-     "pct": 35.2,
-     "pct_valid": 36.48
-    },
-    {
-     "name": "Alan Rick",
-     "party": "Republicanos",
-     "pct": 33.1,
-     "pct_valid": 34.3
-    },
-    {
-     "name": "Tião Bocalom",
-     "party": "PSDB",
-     "pct": 18.5,
-     "pct_valid": 19.17
-    },
-    {
-     "name": "Thor Dantas",
-     "party": "PSB",
-     "pct": 9.7,
-     "pct_valid": 10.05
-    }
-   ]
-  },
-  {
-   "uf": "AC",
-   "estado": "Acre",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "03/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-acre-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 86.7,
-   "undecided": 13.4,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Mailza Assis",
-     "party": "PP",
-     "pct": 44.5,
-     "pct_valid": 51.33
-    },
-    {
-     "name": "Alan Rick",
-     "party": "Republicanos",
-     "pct": 42.2,
-     "pct_valid": 48.67
-    },
-    {
-     "name": "Tião Bocalom",
-     "party": "PSDB",
-     "pct": 36.9,
-     "pct_valid": 46.42
-    },
-    {
-     "name": "Thor Dantas",
-     "party": "PSB",
-     "pct": 17.6,
-     "pct_valid": 25.51
     }
    ]
   },
