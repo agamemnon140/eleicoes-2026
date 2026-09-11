@@ -1,6 +1,583 @@
 {
- "generated_at": "2026-09-10",
+ "generated_at": "2026-09-11",
  "state_polls": [
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-sao-paulo-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 140.6,
+   "undecided": 16.9,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marina Silva",
+     "party": "Rede",
+     "pct": 30.4,
+     "pct_valid": 21.62
+    },
+    {
+     "name": "Simone Tebet",
+     "party": "PSB",
+     "pct": 29.5,
+     "pct_valid": 20.98
+    },
+    {
+     "name": "Guilherme Derrite",
+     "party": "PP",
+     "pct": 28.9,
+     "pct_valid": 20.55
+    },
+    {
+     "name": "André do Prado",
+     "party": "PL",
+     "pct": 19.3,
+     "pct_valid": 13.73
+    },
+    {
+     "name": "Ricardo Salles",
+     "party": "Novo",
+     "pct": 16.4,
+     "pct_valid": 11.66
+    },
+    {
+     "name": "Soninha Francine",
+     "party": "Cidadania",
+     "pct": 5.4,
+     "pct_valid": 3.84
+    },
+    {
+     "name": "Geraldo Rufino",
+     "party": "Podemos",
+     "pct": 3.2,
+     "pct_valid": 2.28
+    },
+    {
+     "name": "Maíra De Souza",
+     "party": "UP",
+     "pct": 1.5,
+     "pct_valid": 1.07
+    },
+    {
+     "name": "Dra Eliana Ferreira",
+     "party": "PSTU",
+     "pct": 1.3,
+     "pct_valid": 0.92
+    },
+    {
+     "name": "Marcio Alves",
+     "party": "UP",
+     "pct": 1.3,
+     "pct_valid": 0.92
+    },
+    {
+     "name": "Weller Gonçalves",
+     "party": "PSTU",
+     "pct": 1.1,
+     "pct_valid": 0.78
+    },
+    {
+     "name": "Petter Maahs",
+     "party": "PCB",
+     "pct": 1.0,
+     "pct_valid": 0.71
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-sao-paulo-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 88.7,
+   "undecided": 11.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 49.7,
+     "pct_valid": 56.03
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 34.5,
+     "pct_valid": 38.9
+    },
+    {
+     "name": "Vera Lúcia",
+     "party": "PSTU",
+     "pct": 1.8,
+     "pct_valid": 2.03
+    },
+    {
+     "name": "Carlos Machado",
+     "party": "PCB",
+     "pct": 0.7,
+     "pct_valid": 0.79
+    },
+    {
+     "name": "Vivian Mendes",
+     "party": "UP",
+     "pct": 0.7,
+     "pct_valid": 0.79
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-sao-paulo-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.4,
+   "undecided": 9.7,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 52.9,
+     "pct_valid": 58.52
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 37.5,
+     "pct_valid": 41.48
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Senado",
+   "pollster": "AtlasIntel",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-senador-santa-catarina-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.7,
+   "undecided": 6.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Caroline de Toni",
+     "party": "PL",
+     "pct": 28.4,
+     "pct_valid": 30.31
+    },
+    {
+     "name": "Esperidião Amin",
+     "party": "PP",
+     "pct": 20.2,
+     "pct_valid": 21.56
+    },
+    {
+     "name": "Carlos Bolsonaro",
+     "party": "PL",
+     "pct": 14.9,
+     "pct_valid": 15.9
+    },
+    {
+     "name": "Décio Lima",
+     "party": "PT",
+     "pct": 11.9,
+     "pct_valid": 12.7
+    },
+    {
+     "name": "Afrânio Boppré",
+     "party": "PSOL",
+     "pct": 9.3,
+     "pct_valid": 9.93
+    },
+    {
+     "name": "Lunelli",
+     "party": "MDB",
+     "pct": 4.8,
+     "pct_valid": 5.12
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-santa-catarina-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 92.9,
+   "undecided": 7.1,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Jorginho Mello",
+     "party": "PL",
+     "pct": 51.6,
+     "pct_valid": 55.54
+    },
+    {
+     "name": "João Rodrigues",
+     "party": "PSD",
+     "pct": 18.5,
+     "pct_valid": 19.91
+    },
+    {
+     "name": "Gelson Merísio",
+     "party": "PSB",
+     "pct": 17.6,
+     "pct_valid": 18.95
+    },
+    {
+     "name": "Marcelo Brigadeiro",
+     "party": "Missão",
+     "pct": 2.9,
+     "pct_valid": 3.12
+    },
+    {
+     "name": "Ralf Zimmer",
+     "party": "PRD",
+     "pct": 0.4,
+     "pct_valid": 0.43
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-santa-catarina-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.5,
+   "undecided": 12.5,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Jorginho Mello",
+     "party": "PL",
+     "pct": 55.1,
+     "pct_valid": 62.97
+    },
+    {
+     "name": "João Rodrigues",
+     "party": "PSD",
+     "pct": 32.4,
+     "pct_valid": 37.03
+    },
+    {
+     "name": "Gelson Merísio",
+     "party": "PSB",
+     "pct": 24.2,
+     "pct_valid": 27.88
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 19.0,
+     "pct_valid": 20.88
+    },
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 18.0,
+     "pct_valid": 19.78
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 18.0,
+     "pct_valid": 19.78
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 16.0,
+     "pct_valid": 17.58
+    },
+    {
+     "name": "Cristina Graeml",
+     "party": "PSD",
+     "pct": 14.0,
+     "pct_valid": 15.38
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 5.0,
+     "pct_valid": 5.49
+    },
+    {
+     "name": "Karen Guerreiro",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.1
+    },
+    {
+     "name": "Joaquim Do Mlb",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 16.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 35.0,
+     "pct_valid": 42.17
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 25.0,
+     "pct_valid": 30.12
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 21.0,
+     "pct_valid": 25.3
+    },
+    {
+     "name": "Luiz França",
+     "party": "Missão",
+     "pct": 2.0,
+     "pct_valid": 2.41
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-parana-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 82.0,
+   "undecided": 18.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 53.0,
+     "pct_valid": 64.63
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 36.0,
+     "pct_valid": 45.57
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 29.0,
+     "pct_valid": 35.37
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-goias-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 155.2,
+   "undecided": 12.7,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gracinha Caiado",
+     "party": "União",
+     "pct": 42.7,
+     "pct_valid": 27.51
+    },
+    {
+     "name": "Gustavo Gayer",
+     "party": "PL",
+     "pct": 27.6,
+     "pct_valid": 17.78
+    },
+    {
+     "name": "Zacarias Calil",
+     "party": "MDB",
+     "pct": 22.0,
+     "pct_valid": 14.18
+    },
+    {
+     "name": "Vanderlan Cardoso",
+     "party": "PSD",
+     "pct": 21.6,
+     "pct_valid": 13.92
+    },
+    {
+     "name": "Gustavo Mendanha",
+     "party": "PRD",
+     "pct": 18.3,
+     "pct_valid": 11.79
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
+     "pct": 6.9,
+     "pct_valid": 4.45
+    },
+    {
+     "name": "Cintia Dias",
+     "party": "PSOL",
+     "pct": 5.6,
+     "pct_valid": 3.61
+    },
+    {
+     "name": "Oséias Varão",
+     "party": "PL",
+     "pct": 4.1,
+     "pct_valid": 2.64
+    },
+    {
+     "name": "Guilherme Darques",
+     "party": "UP",
+     "pct": 2.5,
+     "pct_valid": 1.61
+    },
+    {
+     "name": "Ernesto Roller",
+     "party": "PSDB",
+     "pct": 2.1,
+     "pct_valid": 1.35
+    },
+    {
+     "name": "Iure Castro",
+     "party": "Cidadania",
+     "pct": 1.8,
+     "pct_valid": 1.16
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "11/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-goias-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 89.8,
+   "undecided": 10.2,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 45.1,
+     "pct_valid": 50.22
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 23.2,
+     "pct_valid": 25.84
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 15.0,
+     "pct_valid": 16.7
+    },
+    {
+     "name": "Luis Cesar Bueno",
+     "party": "PT",
+     "pct": 3.4,
+     "pct_valid": 3.79
+    },
+    {
+     "name": "Luciana Amorim",
+     "party": "UP",
+     "pct": 1.6,
+     "pct_valid": 1.78
+    },
+    {
+     "name": "Danilo Pinheiro",
+     "party": "PCO",
+     "pct": 1.5,
+     "pct_valid": 1.67
+    }
+   ]
+  },
   {
    "uf": "SE",
    "estado": "Sergipe",
@@ -14,7 +591,7 @@
    "sum_cands": 96.9,
    "undecided": 3.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -61,7 +638,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -96,7 +673,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Teresa Surita",
@@ -137,7 +714,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -166,7 +743,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -195,7 +772,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcel van Hattem",
@@ -260,7 +837,7 @@
    "sum_cands": 97.0,
    "undecided": 3.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -295,7 +872,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Juliana Brizola",
@@ -330,7 +907,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -389,7 +966,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -436,7 +1013,7 @@
    "sum_cands": 82.0,
    "undecided": 18.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -471,7 +1048,7 @@
    "sum_cands": 184.7,
    "undecided": 15.4,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -536,32 +1113,8 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 48.8,
-     "pct_valid": 51.91
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 23.3,
-     "pct_valid": 24.79
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 20.4,
-     "pct_valid": 21.7
-    },
-    {
-     "name": "Luiz França",
-     "party": "Missão",
-     "pct": 0.9,
-     "pct_valid": 0.96
-    },
     {
      "name": "Alexandre Salomão",
      "party": "Mobiliza",
@@ -589,7 +1142,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -642,7 +1195,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -689,7 +1242,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -718,7 +1271,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roseana Sarney",
@@ -783,7 +1336,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -830,7 +1383,7 @@
    "sum_cands": 97.1,
    "undecided": 2.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -859,7 +1412,7 @@
    "sum_cands": 96.6,
    "undecided": 3.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -1483,82 +2036,6 @@
      "party": "PCB",
      "pct": 0.0,
      "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "08/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-sao-paulo-setembro-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 73.0,
-   "undecided": 27.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 42.0,
-     "pct_valid": 57.53
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 27.0,
-     "pct_valid": 36.99
-    },
-    {
-     "name": "Carlos Machado",
-     "party": "PCB",
-     "pct": 1.0,
-     "pct_valid": 1.37
-    },
-    {
-     "name": "Vera Lúcia",
-     "party": "PSTU",
-     "pct": 1.0,
-     "pct_valid": 1.37
-    },
-    {
-     "name": "Vivian Mendes",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "08/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-sao-paulo-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 79.0,
-   "undecided": 21.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 48.0,
-     "pct_valid": 60.76
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 31.0,
-     "pct_valid": 39.24
     }
    ]
   },
@@ -3673,82 +4150,6 @@
      "party": "Avante",
      "pct": 25.6,
      "pct_valid": 35.12
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "03/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-sao-paulo-setembro-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 94.5,
-   "undecided": 5.5,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 51.1,
-     "pct_valid": 54.07
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 39.9,
-     "pct_valid": 42.22
-    },
-    {
-     "name": "Carlos Machado",
-     "party": "PCB",
-     "pct": 1.3,
-     "pct_valid": 1.38
-    },
-    {
-     "name": "Vera Lúcia",
-     "party": "PSTU",
-     "pct": 1.0,
-     "pct_valid": 1.06
-    },
-    {
-     "name": "Vivian Mendes",
-     "party": "UP",
-     "pct": 1.0,
-     "pct_valid": 1.06
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "03/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-sao-paulo-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 95.8,
-   "undecided": 4.2,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 53.2,
-     "pct_valid": 55.53
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 42.6,
-     "pct_valid": 44.47
     }
    ]
   },
@@ -5877,177 +6278,6 @@
    ]
   },
   {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "27/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 66.0,
-   "undecided": 34.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Gracinha Caiado",
-     "party": "União",
-     "pct": 21.0,
-     "pct_valid": 31.82
-    },
-    {
-     "name": "Gustavo Gayer",
-     "party": "PL",
-     "pct": 12.0,
-     "pct_valid": 18.18
-    },
-    {
-     "name": "Vanderlan Cardoso",
-     "party": "PSD",
-     "pct": 9.0,
-     "pct_valid": 13.64
-    },
-    {
-     "name": "Zacarias Calil",
-     "party": "MDB",
-     "pct": 9.0,
-     "pct_valid": 13.64
-    },
-    {
-     "name": "Gustavo Mendanha",
-     "party": "PRD",
-     "pct": 6.0,
-     "pct_valid": 9.09
-    },
-    {
-     "name": "Oséias Varão",
-     "party": "PL",
-     "pct": 3.0,
-     "pct_valid": 4.55
-    },
-    {
-     "name": "Isaura Lemos",
-     "party": "PSB",
-     "pct": 3.0,
-     "pct_valid": 4.55
-    },
-    {
-     "name": "Cintia Dias",
-     "party": "PSOL",
-     "pct": 2.0,
-     "pct_valid": 3.03
-    },
-    {
-     "name": "Ernesto Roller",
-     "party": "PSDB",
-     "pct": 1.0,
-     "pct_valid": 1.52
-    },
-    {
-     "name": "Guilherme Darques",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Iure Castro",
-     "party": "Cidadania",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "27/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 73.0,
-   "undecided": 27.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 37.0,
-     "pct_valid": 50.68
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 20.0,
-     "pct_valid": 27.4
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 12.0,
-     "pct_valid": 16.44
-    },
-    {
-     "name": "Luis Cesar Bueno",
-     "party": "PT",
-     "pct": 4.0,
-     "pct_valid": 5.48
-    },
-    {
-     "name": "Luciana Amorim",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Danilo Pinheiro",
-     "party": "PCO",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "GO",
-   "estado": "Goiás",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "27/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-goias-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 81.0,
-   "undecided": 19.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniel Vilela",
-     "party": "MDB",
-     "pct": 53.0,
-     "pct_valid": 65.43
-    },
-    {
-     "name": "Marconi Perillo",
-     "party": "PSDB",
-     "pct": 28.0,
-     "pct_valid": 34.57
-    },
-    {
-     "name": "Wilder Morais",
-     "party": "PL",
-     "pct": 18.0,
-     "pct_valid": 24.32
-    }
-   ]
-  },
-  {
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
@@ -6538,53 +6768,6 @@
      "party": "PSOL",
      "pct": 3.5,
      "pct_valid": 3.8
-    }
-   ]
-  },
-  {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Governo",
-   "pollster": "NeoKemp",
-   "date": "26/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-governador-santa-catarina-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 89.0,
-   "undecided": 11.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Jorginho Mello",
-     "party": "PL",
-     "pct": 51.6,
-     "pct_valid": 57.98
-    },
-    {
-     "name": "João Rodrigues",
-     "party": "PSD",
-     "pct": 22.4,
-     "pct_valid": 25.17
-    },
-    {
-     "name": "Gelson Merísio",
-     "party": "PSB",
-     "pct": 12.3,
-     "pct_valid": 13.82
-    },
-    {
-     "name": "Marcelo Brigadeiro",
-     "party": "Missão",
-     "pct": 1.4,
-     "pct_valid": 1.57
-    },
-    {
-     "name": "Ralf Zimmer",
-     "party": "PRD",
-     "pct": 0.8,
-     "pct_valid": 0.9
     }
    ]
   },
@@ -7629,59 +7812,6 @@
      "party": "União",
      "pct": 36.0,
      "pct_valid": 40.0
-    }
-   ]
-  },
-  {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-senador-santa-catarina-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 66.0,
-   "undecided": 34.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Esperidião Amin",
-     "party": "PP",
-     "pct": 19.0,
-     "pct_valid": 28.79
-    },
-    {
-     "name": "Carlos Bolsonaro",
-     "party": "PL",
-     "pct": 16.0,
-     "pct_valid": 24.24
-    },
-    {
-     "name": "Caroline de Toni",
-     "party": "PL",
-     "pct": 12.0,
-     "pct_valid": 18.18
-    },
-    {
-     "name": "Décio Lima",
-     "party": "PT",
-     "pct": 9.0,
-     "pct_valid": 13.64
-    },
-    {
-     "name": "Lunelli",
-     "party": "MDB",
-     "pct": 2.0,
-     "pct_valid": 3.03
-    },
-    {
-     "name": "Afrânio Boppré",
-     "party": "PSOL",
-     "pct": 2.0,
-     "pct_valid": 3.03
     }
    ]
   },
@@ -9135,64 +9265,6 @@
    ]
   },
   {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Ideia",
-   "date": "5–8 Aug",
-   "source": "wikipedia",
-   "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 88.7,
-   "undecided": 11.4,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 50.6,
-     "pct_valid": 57.05
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 33.6,
-     "pct_valid": 37.88
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Ideia",
-   "date": "5–8 Aug",
-   "source": "wikipedia",
-   "url": "https://en.wikipedia.org/wiki/2026_São_Paulo_gubernatorial_election",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 90.4,
-   "undecided": 9.6,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 53.4,
-     "pct_valid": 59.07
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 37.0,
-     "pct_valid": 40.93
-    }
-   ]
-  },
-  {
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Governo",
@@ -9305,12 +9377,20 @@
  ],
  "president_polls": [
   {
+   "pollster": "AtlasIntel",
+   "date": "10/09/2026",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026/",
+   "Lula": 43.0,
+   "Flávio": 37.4,
+   "weight": 0.186
+  },
+  {
    "pollster": "Gerp",
    "date": "09/09/2026",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026/",
    "Lula": 34.0,
    "Flávio": 37.0,
-   "weight": 0.187
+   "weight": 0.177
   },
   {
    "pollster": "Ideia",
@@ -9318,7 +9398,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-setembro-2026/",
    "Lula": 38.4,
    "Flávio": 37.3,
-   "weight": 0.187
+   "weight": 0.177
   },
   {
    "pollster": "Nexus",
@@ -9326,7 +9406,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026/",
    "Lula": 39.0,
    "Flávio": 35.0,
-   "weight": 0.178
+   "weight": 0.168
   },
   {
    "pollster": "Quaest",
@@ -9334,7 +9414,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-setembro-2026-2/",
    "Lula": 36.0,
    "Flávio": 29.0,
-   "weight": 0.17
+   "weight": 0.16
   },
   {
    "pollster": "PoderData",
@@ -9342,15 +9422,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026/",
    "Lula": 37.0,
    "Flávio": 34.0,
-   "weight": 0.139
-  },
-  {
-   "pollster": "Datafolha",
-   "date": "03/09/2026",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026/",
-   "Lula": 39.0,
-   "Flávio": 32.0,
-   "weight": 0.139
+   "weight": 0.131
   }
  ]
 }
