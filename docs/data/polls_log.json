@@ -1,6 +1,159 @@
 {
- "generated_at": "2026-09-15",
+ "generated_at": "2026-09-16",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "15/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 149.6,
+   "undecided": 13.9,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Gomes",
+     "party": "PL",
+     "pct": 36.0,
+     "pct_valid": 24.06
+    },
+    {
+     "name": "Alexandre Guimarães",
+     "party": "MDB",
+     "pct": 24.5,
+     "pct_valid": 16.38
+    },
+    {
+     "name": "Carlos Gaguim",
+     "party": "União",
+     "pct": 22.7,
+     "pct_valid": 15.17
+    },
+    {
+     "name": "Eli Borges",
+     "party": "Republicanos",
+     "pct": 14.9,
+     "pct_valid": 9.96
+    },
+    {
+     "name": "Paulo Mourão",
+     "party": "PT",
+     "pct": 14.1,
+     "pct_valid": 9.43
+    },
+    {
+     "name": "Vanderlei Luxemburgo",
+     "party": "Podemos",
+     "pct": 13.4,
+     "pct_valid": 8.96
+    },
+    {
+     "name": "Ronaldo Dimas",
+     "party": "Podemos",
+     "pct": 11.2,
+     "pct_valid": 7.49
+    },
+    {
+     "name": "Professor Osvaldo",
+     "party": "PSOL",
+     "pct": 2.9,
+     "pct_valid": 1.94
+    },
+    {
+     "name": "Fábio Ribeiro",
+     "party": "Rede",
+     "pct": 2.3,
+     "pct_valid": 1.54
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "15/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 0.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 45.3,
+     "pct_valid": 45.3
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 38.1,
+     "pct_valid": 38.1
+    },
+    {
+     "name": "Laurez Moreira",
+     "party": "PSD",
+     "pct": 7.3,
+     "pct_valid": 7.3
+    },
+    {
+     "name": "Ataides De Oliveira",
+     "party": "Novo",
+     "pct": 3.1,
+     "pct_valid": 3.1
+    },
+    {
+     "name": "Prof Witer Naves",
+     "party": "PSOL",
+     "pct": 0.3,
+     "pct_valid": 0.3
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "15/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-tocantins-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 0.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 52.5,
+     "pct_valid": 52.5
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 47.5,
+     "pct_valid": 47.5
+    },
+    {
+     "name": "Laurez Moreira",
+     "party": "PSD",
+     "pct": 30.8,
+     "pct_valid": 30.8
+    }
+   ]
+  },
   {
    "uf": "PE",
    "estado": "Pernambuco",
@@ -14,7 +167,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -67,7 +220,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "João Campos",
@@ -108,7 +261,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -137,7 +290,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -196,7 +349,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -231,7 +384,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -260,7 +413,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Calheiros",
@@ -307,7 +460,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -336,7 +489,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -7385,165 +7538,6 @@
    ]
   },
   {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 66.0,
-   "undecided": 34.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Gomes",
-     "party": "PL",
-     "pct": 14.0,
-     "pct_valid": 21.21
-    },
-    {
-     "name": "Carlos Gaguim",
-     "party": "União",
-     "pct": 13.0,
-     "pct_valid": 19.7
-    },
-    {
-     "name": "Paulo Mourão",
-     "party": "PT",
-     "pct": 9.0,
-     "pct_valid": 13.64
-    },
-    {
-     "name": "Alexandre Guimarães",
-     "party": "MDB",
-     "pct": 8.0,
-     "pct_valid": 12.12
-    },
-    {
-     "name": "Ronaldo Dimas",
-     "party": "Podemos",
-     "pct": 6.0,
-     "pct_valid": 9.09
-    },
-    {
-     "name": "Vanderlei Luxemburgo",
-     "party": "Podemos",
-     "pct": 5.0,
-     "pct_valid": 7.58
-    },
-    {
-     "name": "Eli Borges",
-     "party": "Republicanos",
-     "pct": 4.0,
-     "pct_valid": 6.06
-    },
-    {
-     "name": "Professor Osvaldo",
-     "party": "PSOL",
-     "pct": 2.0,
-     "pct_valid": 3.03
-    },
-    {
-     "name": "Fábio Ribeiro",
-     "party": "Rede",
-     "pct": 1.0,
-     "pct_valid": 1.52
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 77.0,
-   "undecided": 23.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 37.0,
-     "pct_valid": 48.05
-    },
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 28.0,
-     "pct_valid": 36.36
-    },
-    {
-     "name": "Laurez Moreira",
-     "party": "PSD",
-     "pct": 7.0,
-     "pct_valid": 9.09
-    },
-    {
-     "name": "Ataides De Oliveira",
-     "party": "Novo",
-     "pct": 3.0,
-     "pct_valid": 3.9
-    },
-    {
-     "name": "Prof Witer Naves",
-     "party": "PSOL",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "25/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 76.0,
-   "undecided": 24.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 57.0,
-     "pct_valid": 75.0
-    },
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 54.0,
-     "pct_valid": 76.06
-    },
-    {
-     "name": "Laurez Moreira",
-     "party": "PSD",
-     "pct": 30.0,
-     "pct_valid": 54.55
-    },
-    {
-     "name": "Ataides De Oliveira",
-     "party": "Novo",
-     "pct": 25.0,
-     "pct_valid": 45.45
-    }
-   ]
-  },
-  {
    "uf": "RO",
    "estado": "Rondônia",
    "cargo": "Senado",
@@ -8108,112 +8102,6 @@
      "party": "PSOL",
      "pct": 1.0,
      "pct_valid": 1.89
-    }
-   ]
-  },
-  {
-   "uf": "MA",
-   "estado": "Maranhão",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-maranhao-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 64.0,
-   "undecided": 36.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Roseana Sarney",
-     "party": "MDB",
-     "pct": 16.0,
-     "pct_valid": 25.0
-    },
-    {
-     "name": "Weverton Rocha",
-     "party": "PDT",
-     "pct": 11.0,
-     "pct_valid": 17.19
-    },
-    {
-     "name": "Lahesio Bonfim",
-     "party": "Novo",
-     "pct": 10.0,
-     "pct_valid": 15.62
-    },
-    {
-     "name": "André Fufuca",
-     "party": "PP",
-     "pct": 9.0,
-     "pct_valid": 14.06
-    },
-    {
-     "name": "Eliziane Gama",
-     "party": "PT",
-     "pct": 9.0,
-     "pct_valid": 14.06
-    },
-    {
-     "name": "Dr.hilton Gonçalo",
-     "party": "Mobiliza",
-     "pct": 5.0,
-     "pct_valid": 7.81
-    },
-    {
-     "name": "Cidônio Gonçalves",
-     "party": "PL",
-     "pct": 1.0,
-     "pct_valid": 1.56
-    }
-   ]
-  },
-  {
-   "uf": "MA",
-   "estado": "Maranhão",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-maranhao-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 79.0,
-   "undecided": 21.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Braide",
-     "party": "PSD",
-     "pct": 44.0,
-     "pct_valid": 55.7
-    },
-    {
-     "name": "Orleans Brandão",
-     "party": "MDB",
-     "pct": 25.0,
-     "pct_valid": 31.65
-    },
-    {
-     "name": "Felipe Camarão",
-     "party": "PT",
-     "pct": 6.0,
-     "pct_valid": 7.59
-    },
-    {
-     "name": "Roberto Rocha",
-     "party": "PRTB",
-     "pct": 3.0,
-     "pct_valid": 3.8
-    },
-    {
-     "name": "André Luis",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.27
     }
    ]
   },
