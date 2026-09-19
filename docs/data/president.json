@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-18",
- "polls_date": "2026-09-18",
+ "generated_at": "2026-09-19",
+ "polls_date": "2026-09-19",
  "available": true,
  "national": {
   "polls": 6,
@@ -259,8 +259,8 @@
    "basis": "Quaest 21–25/07"
   },
   "RJ": {
-   "Lula": 29.7,
-   "Flávio": 32.3,
+   "Lula": 29.8,
+   "Flávio": 32.2,
    "Caiado": 3,
    "Zema": 3,
    "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.12)"

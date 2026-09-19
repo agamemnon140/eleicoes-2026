@@ -1,6 +1,148 @@
 {
- "generated_at": "2026-09-18",
+ "generated_at": "2026-09-19",
  "state_polls": [
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Senado",
+   "pollster": "Paraná Pesquisas",
+   "date": "19/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 146.9,
+   "undecided": 16.2,
+   "votos": 2,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Manuela d'Ávila",
+     "party": "PSOL",
+     "pct": 32.2,
+     "pct_valid": 21.92
+    },
+    {
+     "name": "Marcel van Hattem",
+     "party": "Novo",
+     "pct": 29.5,
+     "pct_valid": 20.08
+    },
+    {
+     "name": "Paulo Pimenta",
+     "party": "PT",
+     "pct": 25.4,
+     "pct_valid": 17.29
+    },
+    {
+     "name": "Ubiratan Sanderson",
+     "party": "PL",
+     "pct": 21.2,
+     "pct_valid": 14.43
+    },
+    {
+     "name": "Germano Rigotto",
+     "party": "MDB",
+     "pct": 20.6,
+     "pct_valid": 14.02
+    },
+    {
+     "name": "Daniela Mulheres Socialistas",
+     "party": "PSTU",
+     "pct": 4.1,
+     "pct_valid": 2.79
+    },
+    {
+     "name": "Frederico Antunes",
+     "party": "PSD",
+     "pct": 3.5,
+     "pct_valid": 2.38
+    },
+    {
+     "name": "Tania Peres",
+     "party": "UP",
+     "pct": 3.0,
+     "pct_valid": 2.04
+    },
+    {
+     "name": "Milton Cardoso",
+     "party": "PSDB",
+     "pct": 2.1,
+     "pct_valid": 1.43
+    },
+    {
+     "name": "Luciano Do Mlb",
+     "party": "UP",
+     "pct": 2.1,
+     "pct_valid": 1.43
+    },
+    {
+     "name": "Renato Jaguarão",
+     "party": "Cidadania",
+     "pct": 1.8,
+     "pct_valid": 1.23
+    },
+    {
+     "name": "Regis Ethur",
+     "party": "PSTU",
+     "pct": 1.0,
+     "pct_valid": 0.68
+    }
+   ]
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "19/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senador-rio-grande-do-sul-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 87.5,
+   "undecided": 12.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Luciano Zucco",
+     "party": "PL",
+     "pct": 36.4,
+     "pct_valid": 41.6
+    },
+    {
+     "name": "Juliana Brizola",
+     "party": "PDT",
+     "pct": 31.3,
+     "pct_valid": 35.77
+    },
+    {
+     "name": "Gabriel Souza",
+     "party": "MDB",
+     "pct": 12.9,
+     "pct_valid": 14.74
+    },
+    {
+     "name": "Cesar Pontes",
+     "party": "PCO",
+     "pct": 2.0,
+     "pct_valid": 2.29
+    },
+    {
+     "name": "Rejane De Oliveira",
+     "party": "PSTU",
+     "pct": 1.0,
+     "pct_valid": 1.14
+    },
+    {
+     "name": "Priscila Voigt",
+     "party": "UP",
+     "pct": 0.8,
+     "pct_valid": 0.91
+    }
+   ]
+  },
   {
    "uf": "PR",
    "estado": "Paraná",
@@ -14,7 +156,7 @@
    "sum_cands": 144.6,
    "undecided": 13.5,
    "votos": 2,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -79,7 +221,7 @@
    "sum_cands": 89.5,
    "undecided": 10.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -135,6 +277,59 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "18/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 78.0,
+   "undecided": 22.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cid Gomes",
+     "party": "PSB",
+     "pct": 24.0,
+     "pct_valid": 30.77
+    },
+    {
+     "name": "Capitão Wagner",
+     "party": "União",
+     "pct": 21.0,
+     "pct_valid": 26.92
+    },
+    {
+     "name": "Luizianne Lins",
+     "party": "Rede",
+     "pct": 18.0,
+     "pct_valid": 23.08
+    },
+    {
+     "name": "Alcides Fernandes",
+     "party": "PL",
+     "pct": 9.0,
+     "pct_valid": 11.54
+    },
+    {
+     "name": "Catarina Matos",
+     "party": "UP",
+     "pct": 2.0,
+     "pct_valid": 2.56
+    },
+    {
+     "name": "Reginaldo",
+     "party": "PSTU",
+     "pct": 1.0,
+     "pct_valid": 1.28
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Senado",
    "pollster": "Real Time Big Data",
    "date": "18/09/2026",
    "source": "gazeta",
@@ -144,7 +339,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -182,6 +377,47 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "18/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-ceara-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 47.0,
+     "pct_valid": 51.65
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 40.0,
+     "pct_valid": 43.96
+    },
+    {
+     "name": "Delegado Huggo",
+     "party": "Missão",
+     "pct": 1.0,
+     "pct_valid": 1.1
+    },
+    {
+     "name": "Danilo Soares",
+     "party": "Democrata",
+     "pct": 1.0,
+     "pct_valid": 1.1
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "18/09/2026",
    "source": "gazeta",
@@ -191,7 +427,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -217,6 +453,35 @@
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "18/09/2026",
+   "source": "gazeta",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-governador-senador-ceara-setembro-2026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 94.0,
+   "undecided": 5.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Ciro Gomes",
+     "party": "PSDB",
+     "pct": 51.0,
+     "pct_valid": 54.26
+    },
+    {
+     "name": "Elmano de Freitas",
+     "party": "PT",
+     "pct": 43.0,
+     "pct_valid": 45.74
+    }
+   ]
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "cargo": "Governo",
    "pollster": "Real Time Big Data",
    "date": "18/09/2026",
    "source": "gazeta",
@@ -226,7 +491,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -537,7 +802,7 @@
    "sum_cands": 64.0,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcelo Castro",
@@ -614,7 +879,7 @@
    "sum_cands": 86.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -5283,123 +5548,6 @@
   {
    "uf": "CE",
    "estado": "Ceará",
-   "cargo": "Senado",
-   "pollster": "AtlasIntel",
-   "date": "04/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 95.0,
-   "undecided": 4.9,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cid Gomes",
-     "party": "PSB",
-     "pct": 24.4,
-     "pct_valid": 25.68
-    },
-    {
-     "name": "Luizianne Lins",
-     "party": "Rede",
-     "pct": 24.2,
-     "pct_valid": 25.47
-    },
-    {
-     "name": "Capitão Wagner",
-     "party": "União",
-     "pct": 19.1,
-     "pct_valid": 20.11
-    },
-    {
-     "name": "Alcides Fernandes",
-     "party": "PL",
-     "pct": 15.7,
-     "pct_valid": 16.53
-    },
-    {
-     "name": "Catarina Matos",
-     "party": "UP",
-     "pct": 2.3,
-     "pct_valid": 2.42
-    },
-    {
-     "name": "Reginaldo",
-     "party": "PSTU",
-     "pct": 0.2,
-     "pct_valid": 0.21
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "04/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 95.2,
-   "undecided": 4.2,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 48.4,
-     "pct_valid": 50.84
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 45.8,
-     "pct_valid": 48.11
-    },
-    {
-     "name": "Delegado Huggo",
-     "party": "Missão",
-     "pct": 1.0,
-     "pct_valid": 1.05
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
-   "cargo": "Governo",
-   "pollster": "AtlasIntel",
-   "date": "04/09/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-governador-senador-ceara-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 96.1,
-   "undecided": 3.9,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Ciro Gomes",
-     "party": "PSDB",
-     "pct": 50.0,
-     "pct_valid": 52.03
-    },
-    {
-     "name": "Elmano de Freitas",
-     "party": "PT",
-     "pct": 46.1,
-     "pct_valid": 47.97
-    }
-   ]
-  },
-  {
-   "uf": "CE",
-   "estado": "Ceará",
    "cargo": "Governo",
    "pollster": "Datafolha",
    "date": "04/09/2026",
@@ -5412,12 +5560,6 @@
    "votos": 1,
    "is_new": false,
    "readings": [
-    {
-     "name": "Danilo Soares",
-     "party": "Democrata",
-     "pct": 1.0,
-     "pct_valid": 1.16
-    },
     {
      "name": "Serley Leal",
      "party": "UP",
@@ -7652,29 +7794,6 @@
    ]
   },
   {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-rio-grande-do-sul-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 49.0,
-   "undecided": 51.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Daniela Mulheres Socialistas",
-     "party": "PSTU",
-     "pct": 1.0,
-     "pct_valid": 2.04
-    }
-   ]
-  },
-  {
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Senado",
@@ -7694,64 +7813,6 @@
      "party": "PSOL",
      "pct": 1.0,
      "pct_valid": 1.89
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Senado",
-   "pollster": "Paraná Pesquisas",
-   "date": "21/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governo-senador-rio-grande-do-sul-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 146.9,
-   "undecided": 16.8,
-   "votos": 2,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tania Peres",
-     "party": "UP",
-     "pct": 3.1,
-     "pct_valid": 2.11
-    },
-    {
-     "name": "Renato Jaguarão",
-     "party": "Cidadania",
-     "pct": 2.3,
-     "pct_valid": 1.57
-    },
-    {
-     "name": "Regis Ethur",
-     "party": "PSTU",
-     "pct": 1.5,
-     "pct_valid": 1.02
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Governo",
-   "pollster": "Paraná Pesquisas",
-   "date": "21/08/2026",
-   "source": "gazeta",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governo-senador-rio-grande-do-sul-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 84.8,
-   "undecided": 14.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cesar Pontes",
-     "party": "PCO",
-     "pct": 2.3,
-     "pct_valid": 2.71
     }
    ]
   },
