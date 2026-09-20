@@ -1,5 +1,75 @@
 # Eleições 2026 — previsão (presidente · governadores · senadores)
 
+## Base de pesquisas atual — pesquisas-2 (20/09/2026)
+
+A coleta diária usa como fonte principal o [Plano Político](https://planopolitico.com.br/agregador/).
+O adaptador lê o JSON público `agg-data` das páginas de presidente, governadores e Senado,
+importando apenas `recent_polls`, com atribuição ao agregador e links originais. Não importa
+projeções, probabilidades ou médias do Plano Político como se fossem pesquisas.
+
+O catálogo preserva registro TSE, instituto, abrangência, cargo, turno, candidatos,
+início/fim de campo, divulgação, amostra, método e percentuais disponibilizados pela fonte.
+O registro, abrangência, cargo, turno e cenário identificam a observação; republicações não
+ganham peso extra. A cobertura se limita aos dados que a fonte efetivamente disponibiliza.
+
+**Formato dos dados:** presidente e governador são convertidos por pesquisa, incluindo
+“Outros” no denominador. No Senado, o Plano Político disponibiliza percentuais normalizados
+de voto único: são preservados como tal, sem confundi-los com porcentagem de entrevistados
+que citam até dois nomes. Somas incompatíveis ficam consultáveis, com motivo, fora do modelo.
+Na primeira importação foram 885 registros TSE, 1.862 cenários e 185 cenários inconsistentes.
+Esses números são um retrato da importação, não constantes esperadas nos testes.
+
+**Agregação própria:** usa o cenário comparável mais recente (mesmo conjunto de candidatos,
+turno e formato de voto), janela de 30 dias e meia-vida de 14 dias. O peso somado de um
+instituto é limitado ao de sua pesquisa mais recente. Não há correção histórica de viés ou
+nota de qualidade inferida. Pesquisas estaduais para presidente alimentam a informação
+estadual existente, mas não entram como pesquisas nacionais. As médias não reproduzem a
+metodologia proprietária do Plano Político.
+
+**Tendência:** variação das médias de um painel comum de institutos em 7/14 dias, mantendo
+o cenário. Exige novas observações em pelo menos dois institutos, com peso igual por
+instituto na variação. Entrada de um instituto com nível sistematicamente diferente não
+produz, sozinha, crescimento eleitoral. O gráfico histórico mostra as médias disponíveis
+em cada data; sua composição de institutos pode variar. As faixas descritivas de 90% usam
+200 reamostragens por instituto (mínimo de três institutos), com semente fixa. Não são
+intervalos de previsão eleitoral e não capturam erro sistemático compartilhado.
+
+**Cobertura:** cada disputa informa último campo, idade, pesquisas/institutos, ausência de
+duelo de segundo turno e nomes sem correspondência com o roster. Mais de 14 dias sem campo
+novo aciona o aviso; atualização do site não rejuvenesce a pesquisa. Se um nome sai do
+cenário selecionado, sua medida antiga não é reaproveitada como se fosse atual. Não se
+converte para válidos pela soma de candidatos de pesquisas diferentes. O roster continua
+curado: nomes sem correspondência ficam no catálogo e são indicados como lacuna.
+
+**Continuidade:** falha de uma página preserva o catálogo anterior daquela seção e informa
+o erro. Registros que desaparecem de uma consulta bem-sucedida permanecem arquivados, fora
+do cálculo. Os snapshots históricos da Gazeta/Wikipedia são mantidos; os coletores antigos
+continuam acessíveis por `--legacy`, sem mistura automática de bases. Na transição para
+a nova base, o momentum do índice de Senado é zerado: não se compara a nova escala com
+snapshots antigos para inferir movimento. A calibração do índice de chapa não foi alterada.
+
+```sh
+python -m pipeline.collect              # fonte principal: Plano Político
+python -m pipeline.build
+python -m pytest -q
+python -m pipeline.collect --legacy     # manutenção explícita do coletor anterior
+```
+
+Arquivos: `data/research/catalog.json` guarda a base auditável e o estado da coleta;
+`docs/data/research.json` publica catálogo, cobertura e séries; `pipeline/research.py`
+calcula os agregados. O workflow inclui o catálogo no commit diário. O Pages oferece
+filtros por cargo, abrangência, situação e texto; gráficos acessíveis e comparação entre
+pesquisas, estimativa do modelo e cenário simulado. A URL preserva aba, estado, filtros
+da base e os três deslocamentos do simulador.
+
+Verificação de interface: com `python -m http.server 8767 --directory docs` em execução,
+rode `npm ci` e `node tools/check-research.cjs`. O teste usa Chrome local (ou Chromium do
+Playwright), visita todas as abas em 390 px, verifica gráficos, pontos, faixas, filtros
+e restauração de links compartilháveis. `CHROME_PATH` permite escolher o navegador.
+
+As seções abaixo registram a evolução do modelo e detalhes da base anterior. As regras
+de coleta e conversão descritas acima prevalecem na fonte principal atual.
+
 Site estático/PWA que projeta, por estado, o **governador** e as **2 vagas de Senado**, além de um
 **agregado nacional presidencial**. Um pipeline em Python coleta as pesquisas mais recentes, recalcula os
 modelos e emite JSON que o site lê. Uma automação **diária** (GitHub Actions) roda até o 1º turno

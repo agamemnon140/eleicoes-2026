@@ -282,8 +282,14 @@ def main():
     ap.add_argument("date", nargs="?", default=datetime.date.today().isoformat())
     ap.add_argument("--force", action="store_true",
                     help="grava o snapshot mesmo sem mudança material")
+    ap.add_argument("--legacy", action="store_true", help="executa os coletores antigos Gazeta/Wikipedia")
+    ap.add_argument("--source-cache", help="diretório com páginas públicas salvas, para reprodução offline")
     args = ap.parse_args()
     date_str = args.date
+    if not args.legacy:
+        from pipeline.research_collect import run
+        run(date_str, args.source_cache)
+        return
 
     roster = yaml.safe_load((ROOT / "reference" / "roster.yaml").read_text(encoding="utf-8"))
     estados = {uf: st["estado"] for uf, st in roster["states"].items()}

@@ -20,6 +20,8 @@ h1{margin:0;font-size:22px;font-weight:800}
 h1 .tag{font-size:11px;font-weight:700;background:var(--teal);padding:3px 8px;border-radius:999px;vertical-align:middle;margin-left:6px}
 .subtitle{margin:3px 0 0;color:#cbd5e1;font-size:13px;max-width:760px}
 .tabs{display:flex;gap:4px;margin-top:16px}
+.tabs{overflow-x:auto;max-width:100%;scrollbar-width:thin}
+.tabs button{flex-shrink:0}
 .tabs button{flex:1;max-width:200px;border:0;background:transparent;color:#cbd5e1;
   font:inherit;font-weight:700;padding:11px 10px;border-radius:10px 10px 0 0;cursor:pointer;font-size:14px}
 .tabs button:hover{color:#fff;background:rgba(255,255,255,.06)}
@@ -36,6 +38,7 @@ main{padding:18px 16px 10px;min-height:60vh}
 /* mapa tile-grid */
 .mapwrap{display:flex;flex-wrap:wrap;gap:18px;align-items:flex-start}
 .tilemap{display:grid;grid-template-columns:repeat(7,1fr);gap:6px;flex:1;min-width:300px;max-width:560px}
+.tilemap{min-width:min(100%,300px)}
 .tile{position:relative;aspect-ratio:1/1;border:none;border-radius:9px;cursor:pointer;color:#fff;
   font-weight:800;font-size:13px;display:flex;align-items:center;justify-content:center;
   box-shadow:inset 0 0 0 1px rgba(255,255,255,.15);transition:transform .08s}
@@ -321,4 +324,25 @@ footer p{margin:6px 0}
   .ppbar{grid-template-columns:110px 1fr 24px}
   .focusgrid{grid-template-columns:1fr}
   h1{font-size:19px}
+}
+/* Research catalog, comparison and accessible charts */
+.research-health{display:flex;flex-direction:column;gap:3px;background:#edf7f6;border:1px solid #c5e5e1;border-radius:10px;margin:10px 0;padding:10px 12px;font-size:13px}
+.research-health details{font-size:12px}.research-health p{margin:6px 0}
+.research-warning{background:#fff7e5;color:#7c4a03;border-radius:8px;padding:8px}
+.research-comparison{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0}
+.research-comparison>div{display:flex;flex-direction:column;background:var(--soft);padding:12px;border:1px solid var(--line);border-radius:8px;font-size:13px;gap:6px}
+.research-chart{min-width:0;margin:18px 0}.research-chart svg{display:block;width:100%;height:auto;overflow:visible}.research-chart svg text{font:11px system-ui;fill:#64748b}
+.research-chart h3{font-size:15px}.research-chart details{font-size:12px}.research-chart circle:focus{stroke:#0f172a;stroke-width:2;opacity:1}
+.research-legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;margin-bottom:12px}.research-legend span{display:inline-flex;gap:5px;align-items:center}.research-legend i{width:10px;height:10px;border-radius:50%;flex:none}
+.research-trends{display:grid;grid-template-columns:1fr 1fr;gap:20px;font-size:13px}.research-trends ul{padding-left:18px}
+.research-filters{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0}.research-filters label{display:flex;flex-direction:column;font-size:12px;gap:5px;min-width:0}
+.research-filters select,.research-filters input{padding:9px;border:1px solid var(--line);border-radius:7px;font:inherit;max-width:100%;background:white;color:var(--ink)}
+.research-poll{border-top:1px solid var(--line);padding:14px 0;font-size:13px;overflow-wrap:anywhere}.research-poll summary{cursor:pointer;line-height:1.8}.research-poll p{margin:10px 0}
+.panel,.state,.cards,.cand,.research-catalog,.logwrap,.tblwrap{min-width:0;max-width:100%}
+@media(max-width:720px){
+ .tabs button{flex:0 0 auto;padding:11px 12px;font-size:13px}.tabs{padding-bottom:2px}
+ .research-comparison,.research-trends{grid-template-columns:1fr}.research-filters label{flex:1 1 140px}
+ .panel{padding:12px}.prow{grid-template-columns:minmax(0,110px) minmax(20px,1fr) 70px}.pname{overflow-wrap:anywhere}
+ .estimate{flex-wrap:wrap}.estimate>div{min-width:0;max-width:100%}.tilemap{gap:4px}
+ .controls select,.controls input{min-width:0;max-width:100%}
 }

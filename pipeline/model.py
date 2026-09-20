@@ -87,6 +87,8 @@ def fill_pct_valid(records: list[dict]) -> int:
     n = 0
     por_disputa: dict = {}
     for r in records:
+        if r.get("research_managed"):
+            continue  # the denominator must come from this poll, never other candidates
         if r.get("active") and isinstance(r.get("pct"), (int, float)):
             por_disputa.setdefault((r["uf"], r["cargo"]), []).append(r)
     for rs in por_disputa.values():
