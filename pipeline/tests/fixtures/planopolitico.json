@@ -1,0 +1,273 @@
+{
+  "generated_at": "2026-09-19",
+  "presidente_t1": {
+    "recent_polls": {
+      "t1": [
+        {
+          "registro": "BR-00768/2026",
+          "instituto": "NEOKEMP PESQUISAS",
+          "dt_inicio": "2026-09-15",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 2016,
+          "scope": "PR",
+          "method": "Telefone",
+          "shares": {
+            "Lula": 28.0,
+            "Flávio Bolsonaro": 53.7,
+            "Romeu Zema": 0.8,
+            "Ronaldo Caiado": 4.0,
+            "Renan Santos": 2.8,
+            "Augusto Cury": 6.9,
+            "Outros": 1.8,
+            "Indecisos": 1.8
+          },
+          "url": "https://ocp.news/cotidiano/pesquisa-neokemp-ocp-news-revela-intencao-de-voto-e-rejeicao-presidencial-no-parana"
+        },
+        {
+          "registro": "BR-04029/2026",
+          "instituto": "Datafolha",
+          "dt_inicio": "2026-09-15",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 2002,
+          "scope": "BR",
+          "method": "Presencial",
+          "shares": {
+            "Lula": 39.0,
+            "Flávio Bolsonaro": 36.0,
+            "Romeu Zema": 2.0,
+            "Ronaldo Caiado": 4.0,
+            "Renan Santos": 3.0,
+            "Augusto Cury": 6.0,
+            "Outros": 2.0,
+            "Indecisos": 9.0
+          },
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026-3/"
+        },
+        {
+          "registro": "BR-00749/2026",
+          "instituto": "Futura",
+          "dt_inicio": "2026-09-11",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 2000,
+          "scope": "BR",
+          "method": "Telefone",
+          "shares": {
+            "Lula": 38.3,
+            "Flávio Bolsonaro": 37.7,
+            "Romeu Zema": 1.0,
+            "Ronaldo Caiado": 4.5,
+            "Renan Santos": 3.4,
+            "Augusto Cury": 6.5,
+            "Outros": 2.4,
+            "Indecisos": 6.1
+          },
+          "url": "https://revistaoeste.com/politica/flavio-tem-481-contra-437-de-lula-no-2-turno-mostra-pesquisa/"
+        }
+      ],
+      "t2": [
+        {
+          "registro": "BR-04029/2026",
+          "instituto": "Datafolha",
+          "dt_inicio": "2026-09-15",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 2002,
+          "scope": "BR",
+          "method": "Presencial",
+          "shares": {
+            "Lula": 46.0,
+            "Flávio Bolsonaro": 44.0,
+            "Indecisos": 9.0
+          },
+          "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026-3/"
+        },
+        {
+          "registro": "BR-00749/2026",
+          "instituto": "Futura",
+          "dt_inicio": "2026-09-11",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 2000,
+          "scope": "BR",
+          "method": "Telefone",
+          "shares": {
+            "Lula": 43.7,
+            "Flávio Bolsonaro": 48.1,
+            "Indecisos": 8.2
+          },
+          "url": "https://revistaoeste.com/politica/flavio-tem-481-contra-437-de-lula-no-2-turno-mostra-pesquisa/"
+        },
+        {
+          "registro": "BR-09377/2026",
+          "instituto": "Datafolha",
+          "dt_inicio": "2026-09-14",
+          "dt_fim": "2026-09-17",
+          "dt_divulgacao": "2026-09-17",
+          "n": 826,
+          "scope": "PI",
+          "method": "Presencial",
+          "shares": {
+            "Lula": 67.0,
+            "Flávio Bolsonaro": 27.0,
+            "Indecisos": 6.0
+          },
+          "url": "https://www.cnnbrasil.com.br/eleicoes/datafolha-no-piaui-lula-lidera-cenarios-de-1o-e-2o-turno/"
+        }
+      ]
+    }
+  },
+  "governador": {
+    "states": {
+      "SP": {
+        "recent_polls": {
+          "t1": [
+            {
+              "registro": "SP-00142/2026",
+              "instituto": "Vox Brasil",
+              "dt_inicio": "2026-07-29",
+              "dt_fim": "2026-07-31",
+              "dt_divulgacao": "2026-08-02",
+              "n": 1480,
+              "scope": "SP",
+              "method": "Presencial",
+              "shares": {
+                "Tarcísio de Freitas": 52.9,
+                "Fernando Haddad": 34.3,
+                "Outros": 3.6,
+                "Indecisos": 9.2
+              },
+              "url": "https://www.metropoles.com/sao-paulo/tarcisio-marca-529-e-venceria-haddad-no-1o-turno-aponta-vox-brasil"
+            },
+            {
+              "registro": "SP-00152/2026",
+              "instituto": "Futura",
+              "dt_inicio": "2026-09-01",
+              "dt_fim": "2026-09-03",
+              "dt_divulgacao": "2026-09-04",
+              "n": 1600,
+              "scope": "SP",
+              "method": "Telefone",
+              "shares": {
+                "Tarcísio de Freitas": 54.0,
+                "Fernando Haddad": 31.5,
+                "Outros": 3.3,
+                "Indecisos": 11.2
+              },
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-de-freitas-vence-no-1o-turno-em-sp-diz-pesquisa/"
+            }
+          ],
+          "t2": [
+            {
+              "registro": "SP-00142/2026",
+              "instituto": "Vox Brasil",
+              "dt_inicio": "2026-07-29",
+              "dt_fim": "2026-07-31",
+              "dt_divulgacao": "2026-08-02",
+              "n": 1480,
+              "scope": "SP",
+              "method": "Presencial",
+              "pair": [
+                "Tarcísio de Freitas",
+                "Fernando Haddad"
+              ],
+              "shares": {
+                "Tarcísio de Freitas": 53.5,
+                "Fernando Haddad": 35.8,
+                "Indecisos": 10.7
+              },
+              "url": "https://www.metropoles.com/sao-paulo/tarcisio-marca-529-e-venceria-haddad-no-1o-turno-aponta-vox-brasil"
+            },
+            {
+              "registro": "SP-00152/2026",
+              "instituto": "Futura",
+              "dt_inicio": "2026-09-01",
+              "dt_fim": "2026-09-03",
+              "dt_divulgacao": "2026-09-04",
+              "n": 1600,
+              "scope": "SP",
+              "method": "Telefone",
+              "pair": [
+                "Tarcísio de Freitas",
+                "Fernando Haddad"
+              ],
+              "shares": {
+                "Tarcísio de Freitas": 57.1,
+                "Fernando Haddad": 34.5,
+                "Indecisos": 8.3
+              },
+              "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-de-freitas-vence-no-1o-turno-em-sp-diz-pesquisa/"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "senado": {
+    "states": {
+      "SP": {
+        "recent_polls": {
+          "t1": [
+            {
+              "registro": "SP-02794/2026",
+              "instituto": "Real Time Big Data",
+              "dt_fim": "2026-09-12",
+              "dt_inicio": "2026-09-09",
+              "dt_divulgacao": "2026-09-14",
+              "n": 2000,
+              "method": "Misto",
+              "shares": {
+                "Simone Tebet": 20.481927710843372,
+                "Marina Silva": 15.66265060240964,
+                "Guilherme Derrite": 22.89156626506024,
+                "Salles": 12.048192771084338,
+                "André do Prado": 20.481927710843372,
+                "Soninha Francine": 3.614457831325301,
+                "Geraldo Rufino": 2.4096385542168677,
+                "Dra Eliana Ferreira": 1.4129828276778615,
+                "Marcio Alves": 0.9171891282130566,
+                "Maíra de Souza": 1.3184959594428634,
+                "Weller Gonçalves": 0.6693257258900518,
+                "Ednelson Cesaretti": 0.6063754435177623,
+                "Petter Maahs": 0.7198849811596594,
+                "William Teixeira": 0.6737816676341266,
+                "Outros": 2.41
+              },
+              "indecisos": 15.0,
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senador-sao-paulo-setembro-2026/"
+            }
+          ]
+        }
+      },
+      "AL": {
+        "recent_polls": {
+          "t1": [
+            {
+              "registro": "AL-09248/2026",
+              "instituto": "Real Time Big Data",
+              "dt_fim": "2026-09-14",
+              "dt_inicio": "2026-09-10",
+              "dt_divulgacao": "2026-09-15",
+              "n": 1600,
+              "method": "Misto",
+              "shares": {
+                "Marina JHC": 24.418604651162788,
+                "Renan": 25.581395348837212,
+                "Arthur Lira": 22.093023255813954,
+                "Davi Davino Filho": 19.767441860465116,
+                "Dr. Wanderley": 6.976744186046512,
+                "Alexandre Fleming": 1.1627906976744187,
+                "Mariedson": 0.0,
+                "Outros": 0.0
+              },
+              "indecisos": 14.0,
+              "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-alagoas-setembro-2026/"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

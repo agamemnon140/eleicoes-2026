@@ -18,7 +18,7 @@ import sys
 
 import yaml
 
-from pipeline import model, schedule, validate
+from pipeline import model, schedule, validate, research
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 WEB_DATA = ROOT / "docs" / "data"         # JSONs publicados (servidos pelo site via GitHub Pages)
@@ -329,7 +329,7 @@ def build_polls_log(records: list[dict], president: dict | None, estados: dict, 
             # uma linha por matéria E POR TURNO (a mesma matéria traz 1º e 2º turno, que não
             # se somam); a URL entra na chave para 2 matérias do mesmo dia não se fundirem
             key = (r["uf"], r["cargo"], s.get("pollster"), s.get("date"), s.get("url", ""),
-                   s.get("scenario"))
+                   s.get("scenario"), s.get("id"), s.get("scenario_key"))
             e = polls.setdefault(key, {
                 "uf": r["uf"], "estado": estados.get(r["uf"], r["uf"]), "cargo": r["cargo"],
                 "pollster": s.get("pollster"), "date": s.get("date"), "source": s.get("source", ""),
@@ -362,9 +362,18 @@ def main():
     # quando as pesquisas vão. Com cadência diária as duas se descolam quando não há
     # pesquisa nova, e o site precisa mostrar as duas.
     date_str = sys.argv[1] if len(sys.argv) > 1 else datetime.date.today().isoformat()
-    polls_date = polls.get("date") or date_str
+    polls_date = polls.get("polls_date") or polls.get("date") or date_str
     as_of = datetime.date.fromisoformat(date_str)
     days = schedule.days_until(as_of)
+    from pipeline.research_collect import load_catalog
+    catalog = load_catalog()
+    if catalog['polls']:
+        research.apply_catalog(polls['records'], catalog['polls'], as_of)
+        from pipeline.collect import recompute_derived
+        recompute_derived(polls['records'])
+        current_pres = research.presidential(catalog['polls'], as_of)
+        if current_pres['polls']:
+            polls['president'] = current_pres
 
     # anexa nome do estado a cada registro e agrupa por UF/cargo
     # põe todo mundo na mesma base ANTES de pontuar, mesmo em snapshot antigo
@@ -390,10 +399,14 @@ def main():
             days, roster["gov_confidence"], roster["sen_confidence"],
         )
 
+    if catalog['polls']:
+        research_data = research.export(catalog, states, as_of)
+        (WEB_DATA / 'research.json').write_text(json.dumps(research_data, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     new_ids, prev_date, comparable = new_poll_ids(polls["records"])
     state_polls, pres_polls = build_polls_log(polls["records"], polls.get("president"), estados, new_ids)
 
     forecast = {
+        "research_version": research.VERSION,
         "generated_at": date_str,
         "polls_date": polls_date,
         "election_date": roster.get("election_date", "2026-10-04"),

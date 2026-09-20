@@ -218,16 +218,10 @@ def aggregate(polls: list[dict], window: int = 6) -> dict:
                 ro[b] += w * pct
                 row[b] += w
     runoff = {b: round(ro[b] / row[b], 1) for b in ro if row[b]}
-    # tendência (mais antigo -> mais novo na janela) para Lula e Flávio no 1º turno
+    # Legacy observations have no comparable scenario panel. Never describe a
+    # difference between unrelated institutes as movement in the electorate.
+    # The primary collector computes 7/14-day trends in research.matched_trend.
     trend = {}
-    for b in ("Lula", "Flávio"):
-        series = []
-        for p in reversed(win):
-            for name, _pty, pct in p["first_round"]:
-                if _bloc(name) == b:
-                    series.append(pct)
-        if len(series) >= 2:
-            trend[b] = round(series[-1] - series[0], 1)
     wsum = sum(wof(p) for p in win) or 1.0
     used = [{"pollster": p["pollster"], "date": p["date"], "url": p.get("url", ""),
              "weight": round(wof(p) / wsum, 3),

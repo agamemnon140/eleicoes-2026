@@ -59,14 +59,15 @@ if ('serviceWorker' in navigator) {
 init();
 async function init(){
   try{
-    [RAW, PARTIES, PRES_RAW, LOG] = await Promise.all([
+    [RAW, PARTIES, PRES_RAW, LOG, RESEARCH] = await Promise.all([
       fetch('data/forecast.json').then(r=>r.json()),
       fetch('data/parties.json').then(r=>r.json()),
       fetch('data/president.json').then(r=>r.json()).catch(()=>null),
       fetch('data/polls_log.json').then(r=>r.json()).catch(()=>null),
+      fetch('data/research.json').then(r=>r.json()).catch(()=>null),
     ]);
     FC = RAW; PRES = PRES_RAW;
-  }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Rode <code>py -m pipeline.build</code>.</p>`; return; }
+  }catch(e){ $('#view').innerHTML = `<p class="loading">Não consegui carregar a previsão. Tente atualizar a página em instantes.</p>`; return; }
 
   const d = new Date(FC.generated_at + 'T00:00:00');
   // rodada e pesquisas se descolam: a rodada é diária, mas nem todo dia sai pesquisa nova
@@ -76,6 +77,7 @@ async function init(){
   $('#meta').textContent = `Atualizado em ${d.toLocaleDateString('pt-BR')}${pd} · fonte: ${FC.source} · os pesos do modelo refletem ${FC.days_to_election} dias até a eleição.`;
 
   try{ selfCheckSim(); }catch(e){ console.error(e); }
+  restoreResearchLocation();
   renderSimPanel(); wireSim();
   renderTopbar();
 
@@ -88,16 +90,17 @@ async function init(){
 
 function selectTab(t){
   tab = t;
-  document.querySelectorAll('#tabs button').forEach(x=>x.classList.toggle('active', x.dataset.tab===t));
+  document.querySelectorAll('#tabs button').forEach(x=>{x.classList.toggle('active', x.dataset.tab===t);x.setAttribute('aria-selected',String(x.dataset.tab===t));});
   filters.uf='ALL'; filters.bloc='ALL'; filters.q=''; filters.showOut=false; openCards.clear(); partyFocus=null;
   render();
 }
 function render(){
   applySim();
+  saveResearchLocation();
   updateSimLabels();
   const sh = $('#sim'); if(sh) sh.style.display = (tab==='log' || tab==='ma') ? 'none' : '';
   const v = $('#view');
-  if(tab==='log'){ v.innerHTML = renderPollsLog(); wireLog(); return; }
+  if(tab==='log'){ v.innerHTML = RESEARCH ? researchCatalog() : renderPollsLog(); RESEARCH ? wireResearchCatalog() : wireLog(); return; }
   if(tab==='ma'){ v.innerHTML = renderMedias(); wireMedias(); return; }
   if(tab==='pres'){ v.innerHTML = renderPresident(); return; }
   const off = office();
@@ -126,6 +129,7 @@ function renderTopbar(){
     h.innerHTML = `<div class="upbanner">Atualizado em ${d} · nenhuma pesquisa nova desde a rodada anterior. ${link}</div>`;
   else
     h.innerHTML = `<div class="upbanner">Atualizado em ${d} · ${u.total_polls} pesquisas no registro. ${link}</div>`;
+  if(RESEARCH) h.innerHTML = `<div class="upbanner">Base consultada em ${d}: ${RESEARCH.counts.registrations} registros TSE · ${RESEARCH.counts.scenarios} cenários. <button class="linklike" id="goLog">explorar pesquisas →</button></div>` + researchChanges();
   const gl = $('#goLog'); if(gl) gl.onclick = ()=>selectTab('log');
 }
 function partyFocusPanel(){
@@ -304,7 +308,7 @@ function wireControls(){
   $('#f-q').oninput = e=>{ filters.q=e.target.value.toLowerCase(); refresh(); };
   $('#f-out').onchange = e=>{ filters.showOut=e.target.checked; refresh(); };
 }
-function refresh(){ $('#states').innerHTML = statesList(office()); wireDetails(); }
+function refresh(){ $('#states').innerHTML = statesList(office()); wireDetails(); saveResearchLocation(); }
 
 /* ---------- estados ---------- */
 function candMatch(c){
@@ -327,9 +331,11 @@ function stateCard(uf, off){
   return `<section class="state" id="state-${uf}">
     <div class="state-head"><h2>${esc(st.estado)} · ${label}</h2></div>
     ${estimateBox(uf, off)}
+    ${researchHealth(o)}
+    ${filters.uf!=='ALL' ? researchComparison(uf, off) : ''}
     ${off==='senate' ? competeBand(o) : ''}
     <div class="cards">${cands.map(c=>candRow(c, off)).join('')}</div>
-    ${filters.uf!=='ALL' ? maPanel(uf, off) : ''}
+    ${filters.uf!=='ALL' ? researchStateChart(uf, off) + maPanel(uf, off) : ''}
   </section>`;
 }
 function estimateBox(uf, off){
@@ -390,11 +396,11 @@ function maPanel(uf, off, aberto){
     <td class="r">${l.media_val!=null?`<b>${num(l.media_val)}</b>`:''}</td>
   </tr>`).join('');
   return `<details class="mapanel"${aberto?' open':''}><summary>Média móvel usada neste estado — como foi calculada</summary>
-    <p class="desc">Cada instituto publica numa base diferente: uns sobre o <b>total de entrevistados</b>
+    <p class="desc">Cada fonte disponibiliza numa base diferente: uns sobre o <b>total de entrevistados</b>
     (indeciso e branco/nulo entram na conta), outros já sobre os <b>votos válidos</b>. Comparar sem
     converter mistura escalas, então a média é feita sobre os <b>válidos</b>
     (<code>% ÷ soma dos candidatos</code>) e é esse número que alimenta o modelo.</p>
-    ${sen?`<p class="desc"><b>Senado tem 2 votos por eleitor</b>, e os institutos publicam de dois jeitos:
+    ${sen&&o.research?`<p class="desc">O Plano Político disponibiliza o cenário de voto único já normalizado em votos válidos. Preservamos esse formato e separamos cenários incompatíveis. Os percentuais da tabela são os disponibilizados pelo agregador, não necessariamente o percentual original de entrevistados do instituto.</p>`:sen?`<p class="desc"><b>Senado tem 2 votos por eleitor</b>, e os institutos publicam de dois jeitos:
     % de <b>entrevistados que citam o nome</b> (a soma dos candidatos passa de 100%, chega a ~200%) ou
     % dos <b>votos</b> (cada menção vale meio eleitor; soma ~100% com branco/indeciso). Na média do
     % publicado, a pesquisa de 2 votos por pessoa entra <b>pela metade</b> ("por voto"), para não somar
@@ -402,9 +408,9 @@ function maPanel(uf, off, aberto){
     <p class="formula"><b>Média móvel</b> = Σ(pesoᵢ × %válidoᵢ) ÷ Σpesoᵢ, sobre as pesquisas até
     <b>${ma.window_days} dias</b> mais velhas que a mais recente, com
     <b>peso = 0,5<sup>(idade em dias ÷ ${ma.halflife_days})</sup></b> — uma pesquisa
-    ${ma.halflife_days} dias mais velha pesa metade. 1º e 2º turno são séries separadas.</p>
+    ${ma.halflife_days} dias mais velha pesa metade. ${o.research?'O peso total por instituto é limitado ao peso de sua pesquisa mais recente, repartido entre as suas observações. Cenários com conjuntos diferentes de candidatos são separados.':''} 1º e 2º turno são séries separadas.</p>
     <div class="tblwrap"><table class="matbl">
-      <thead><tr><th>Candidato</th><th>Instituto</th><th>Campo</th><th class="r">% publicado</th>
+      <thead><tr><th>Candidato</th><th>Instituto</th><th>Campo</th><th class="r">% na fonte</th>
         <th>Base</th>${sen?'<th>Votos</th>':''}<th class="r">Br/nulo/ind.</th><th class="r">% válidos</th><th class="r">Peso</th>
         <th class="r">Média</th></tr></thead>
       <tbody>${body}</tbody></table></div></details>`;
@@ -495,23 +501,24 @@ function renderPresident(){
   if(nat && nat.first_round && nat.first_round.length){
     const fr = nat.first_round, max = Math.max(...fr.map(c=>c.avg), 1);
     const bars = fr.map(c=>`<div class="prow">
-      <span class="pname"><span class="badge" style="background:${partyColor(c.party)}">${esc(c.party)}</span> ${esc(c.name)}</span>
+      <span class="pname">${c.party?`<span class="badge" style="background:${partyColor(c.party)}">${esc(c.party)}</span> `:''}${esc(c.name)}</span>
       <div class="bar"><i style="width:${100*c.avg/max}%;background:${blocColor(c.bloc)}"></i></div>
-      <b>${c.avg}%${trendArrow(nat.trend, c.bloc)}</b></div>`).join('');
+      <b>${researchNumber(c.avg)}%${trendArrow(nat.trend, c.bloc)}</b></div>`).join('');
     const ro = nat.runoff || {};
     const roHtml = (ro['Lula']!=null && ro['Flávio']!=null) ? `
-      <div class="runoff"><div class="rlabel">2º turno (média): <b>${ro['Lula']>=ro['Flávio']?'Lula':'Flávio'} lidera por ${Math.abs(ro['Lula']-ro['Flávio']).toFixed(1)} pp</b></div>
+      <div class="runoff"><div class="rlabel">2º turno (média): <b>${ro['Lula']===ro['Flávio']?'Mesma média arredondada':`${ro['Lula']>ro['Flávio']?'Lula':'Flávio'} lidera por ${researchNumber(Math.abs(ro['Lula']-ro['Flávio']))} p.p.`}</b></div>
         <div class="rbar"><span style="flex:${ro['Lula']};background:${blocColor('Lula')}">Lula ${ro['Lula']}%</span><span style="flex:${ro['Flávio']};background:${blocColor('Flávio')}">${ro['Flávio']}% Flávio</span></div></div>` : '';
     const used = nat.used || [];
     const usedHtml = used.length ? `<details class="usedd"><summary>Ver as ${used.length} pesquisas do agregado</summary>
       <div class="usedtbl"><div class="ur uh"><span>Instituto</span><span>Data</span><span>Peso</span><span>Lula</span><span>Flávio</span></div>
-      ${used.map(u=>`<div class="ur"><span>${esc(u.pollster)}</span><span>${esc(u.date)}</span><span>${u.weight!=null?Math.round(u.weight*100)+'%':'—'}</span><span>${u.Lula??'—'}%</span><span>${u['Flávio']??'—'}%</span></div>`).join('')}</div></details>` : '';
-    head = `<section class="panel"><h2 style="margin:0 0 4px">Presidente — agregado nacional (poll-of-polls)</h2>
-      <p class="desc">Média <b>ponderada por recência</b> de ${nat.polls} pesquisas (${esc((nat.institutos||[]).join(', '))}). Mais recente: ${esc(nat.latest_date||'—')}. Setas = tendência na janela.</p>
+      ${used.map(u=>`<div class="ur"><span>${researchLink(u.url,u.pollster)}</span><span>${esc(u.date)}</span><span>${u.weight!=null?researchNumber(u.weight*100)+'%':'—'}</span><span>${researchNumber(u.Lula)}%</span><span>${researchNumber(u['Flávio'])}%</span></div>`).join('')}</div></details>` : '';
+    head = `<section class="panel"><h2 style="margin:0 0 4px">Presidente — ${simActive()?'cenário simulado':'agregado nacional de pesquisas'}</h2>
+      <p class="desc">Média <b>ponderada por recência</b> de ${nat.polls} pesquisas (${esc((nat.institutos||[]).join(', '))}). Último campo: ${researchDate(nat.latest_date)}. ${nat.research?'Votos válidos. Janela de 30 dias, com limite de peso por instituto; veja a tendência comparável abaixo.':'Setas = tendência na janela.'}</p>
+      ${nat.research?`<p class="desc ${nat.research.stale?'research-warning':''}">Idade do último campo: ${nat.research.age_days??'não informada'} dias${nat.research.stale?' · dados antigos ou insuficientes':''}. ${nat.runoff_poll_count||0} pesquisas no agregado de segundo turno.</p>`:''}
       <div class="pres1t">${bars}</div>${roHtml}${usedHtml}</section>`;
   } else {
     head = `<section class="panel note"><h2 style="margin-top:0">Presidente — agregado nacional</h2>
-      <p class="desc" style="margin:0">Nenhuma pesquisa presidencial coletada nesta rodada (rode <code>py -m pipeline.collect</code>).</p></section>`;
+      <p class="desc" style="margin:0">Nenhuma pesquisa presidencial disponível nesta rodada.</p></section>`;
   }
   const lean = (PRES && PRES.pres_lean) || {};
   const ufs = Object.keys(lean).sort((a,b)=>(FC.states[a]?.estado||a).localeCompare(FC.states[b]?.estado||b,'pt-BR'));
@@ -525,7 +532,7 @@ function renderPresident(){
   const sw = PRES && PRES.national_swing;
   const swNote = (typeof sw === 'number' && sw)
     ? ` Estados sem pesquisa estadual usam o resultado de 2022 <b>+ o swing nacional atual (Lula ${sw>0?'+':''}${sw} pp)</b>.` : '';
-  return head + `<section class="panel"><h2>Inclinação presidencial por estado</h2>
+  return head + researchPresPanel() + `<section class="panel"><h2>Inclinação presidencial por estado</h2>
     <p class="desc">Alimenta os modelos de governador e senado (sempre com o % real).${swNote}</p>
     <div class="pres-lean">${cards}</div></section>`;
 }
@@ -987,7 +994,7 @@ function renderMedias(){
   const optUf = ufs.map(uf=>`<option value="${uf}" ${maFilter.uf===uf?'selected':''}>${esc(FC.states[uf].estado)}</option>`).join('');
   const cands = o.candidates.filter(c=>c.active && num(c.pct)).sort((a,b)=>(b.pct_valid??b.pct)-(a.pct_valid??a.pct));
   const resumo = cands.length ? `<div class="tblwrap"><table class="matbl">
-      <thead><tr><th>Candidato</th><th class="r">Média % publicado${off==='senate'?' (por voto)':''}</th>
+      <thead><tr><th>Candidato</th><th class="r">Média % na fonte${off==='senate'?' (por voto)':''}</th>
         <th class="r">Média % válidos</th><th class="r">Pesquisas</th><th>Mais recente</th></tr></thead>
       <tbody>${cands.map(c=>`<tr class="first"><td><b>${esc(c.name)}</b> <span class="badge sm" style="background:${partyColor(c.party)}">${esc(c.party)}</span></td>
         <td class="r">${fpct(c.pct)}</td>
@@ -999,13 +1006,15 @@ function renderMedias(){
     <div class="panel-top"><h2 style="margin:0">Médias por disputa</h2>
       <span class="muted">${esc(st.estado)} · ${cargoShort(maFilter.cargo)}</span></div>
     <p class="desc">Para cada candidato: a média móvel em uso, as pesquisas que entram nela e o peso de cada uma.
-      A média sobre os <b>válidos</b> é a que alimenta o modelo; o % publicado é só leitura.</p>
+      A média sobre os <b>válidos</b> é a que alimenta o modelo; o % disponibilizado pela fonte é só leitura.</p>
     <div class="controls">
       <select id="ma-uf">${optUf}</select>
       <select id="ma-cargo">
         <option value="Governo" ${maFilter.cargo==='Governo'?'selected':''}>Governador</option>
         <option value="Senado" ${maFilter.cargo==='Senado'?'selected':''}>Senado</option>
       </select></div>
+    ${researchHealth(o)}
+    ${researchStateChart(maFilter.uf, off)}
     ${resumo}
     ${maPanel(maFilter.uf, off, true) || '<p class="muted">Sem detalhamento das pesquisas nesta disputa.</p>'}
   </section>`;
