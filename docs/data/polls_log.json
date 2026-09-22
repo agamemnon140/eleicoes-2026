@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21",
+ "generated_at": "2026-09-22",
  "state_polls": [
   {
    "uf": "AL",
@@ -14,7 +14,7 @@
    "sum_cands": 100.0,
    "undecided": 12.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Lira",
@@ -55,7 +55,7 @@
    "sum_cands": 91.4,
    "undecided": 8.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -78,7 +78,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -107,7 +107,7 @@
    "sum_cands": 96.0,
    "undecided": 4.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -136,7 +136,7 @@
    "sum_cands": 78.01,
    "undecided": 20.52,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -165,7 +165,7 @@
    "sum_cands": 80.42999999999999,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -194,7 +194,7 @@
    "sum_cands": 100.0,
    "undecided": 14.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Teresa Surita",
@@ -235,7 +235,7 @@
    "sum_cands": 88.3,
    "undecided": 11.700000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -264,7 +264,7 @@
    "sum_cands": 82.17,
    "undecided": 13.92,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -293,7 +293,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -334,7 +334,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -363,7 +363,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -392,7 +392,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -421,7 +421,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mateus Simões",
@@ -450,7 +450,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alexandre Kalil",
@@ -479,7 +479,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mateus Simões",
@@ -508,7 +508,7 @@
    "sum_cands": 88.9,
    "undecided": 11.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -543,7 +543,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -572,7 +572,7 @@
    "sum_cands": 94.9,
    "undecided": 4.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -601,7 +601,7 @@
    "sum_cands": 96.6,
    "undecided": 3.4000000000000004,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -630,7 +630,7 @@
    "sum_cands": 100.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -695,7 +695,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -730,7 +730,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -759,7 +759,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -788,7 +788,7 @@
    "sum_cands": 83.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -900,7 +900,7 @@
    "sum_cands": 83.74000000000001,
    "undecided": 16.27,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -964,7 +964,7 @@
    "sum_cands": 100.00000000000001,
    "undecided": 10.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roseana Sarney",
@@ -1023,7 +1023,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -1058,7 +1058,7 @@
    "sum_cands": 84.91,
    "undecided": 15.09,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -1093,7 +1093,7 @@
    "sum_cands": 82.94,
    "undecided": 17.06,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -1122,7 +1122,7 @@
    "sum_cands": 88.66,
    "undecided": 11.34,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roberto Cidade",
@@ -1151,7 +1151,7 @@
    "sum_cands": 82.92,
    "undecided": 17.080000000000002,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roberto Cidade",
@@ -1880,7 +1880,7 @@
    "sum_cands": 101.32972127480045,
    "undecided": 65.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -1939,7 +1939,7 @@
    "sum_cands": 84.94,
    "undecided": 15.059999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -2571,7 +2571,7 @@
    "sum_cands": 100.0,
    "undecided": 44.84,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -2630,7 +2630,7 @@
    "sum_cands": 80.92999999999999,
    "undecided": 19.07,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -2777,7 +2777,7 @@
    "sum_cands": 100.0,
    "undecided": 33.48,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -2977,7 +2977,7 @@
    "sum_cands": 101.60524292745693,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -3083,7 +3083,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -3415,7 +3415,7 @@
    "sum_cands": 101.27499956113705,
    "undecided": 31.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rayssa Furlan",
@@ -3474,7 +3474,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -3567,7 +3567,7 @@
    "sum_cands": 88.88,
    "undecided": 11.120000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Valmir de Francisquinho",
@@ -3596,7 +3596,7 @@
    "sum_cands": 88.97,
    "undecided": 11.04,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -3625,7 +3625,7 @@
    "sum_cands": 99.99848761408083,
    "undecided": 23.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -3678,7 +3678,7 @@
    "sum_cands": 79.9,
    "undecided": 20.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -3825,7 +3825,7 @@
    "sum_cands": 88.4,
    "undecided": 11.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -3860,7 +3860,7 @@
    "sum_cands": 74.3,
    "undecided": 25.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -3889,7 +3889,7 @@
    "sum_cands": 83.19999999999999,
    "undecided": 16.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -3918,7 +3918,7 @@
    "sum_cands": 75.9,
    "undecided": 24.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roberto Cidade",
@@ -4005,7 +4005,7 @@
    "sum_cands": 88.1,
    "undecided": 11.899999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Valmir de Francisquinho",
@@ -4174,7 +4174,7 @@
    "sum_cands": 100.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -4233,7 +4233,7 @@
    "sum_cands": 90.5,
    "undecided": 9.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -4303,7 +4303,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -4361,7 +4361,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Álvaro Dias",
@@ -4390,7 +4390,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -4419,7 +4419,7 @@
    "sum_cands": 99.9982686253935,
    "undecided": 4.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Helder Barbalho",
@@ -4484,7 +4484,7 @@
    "sum_cands": 73.5,
    "undecided": 26.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -4513,7 +4513,7 @@
    "sum_cands": 100.00458684654299,
    "undecided": 38.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -4566,7 +4566,7 @@
    "sum_cands": 77.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -4607,7 +4607,7 @@
    "sum_cands": 72.10000000000001,
    "undecided": 27.799999999999997,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -4648,7 +4648,7 @@
    "sum_cands": 74.7,
    "undecided": 24.799999999999997,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -4677,7 +4677,7 @@
    "sum_cands": 74.6,
    "undecided": 24.700000000000003,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -4706,7 +4706,7 @@
    "sum_cands": 61.5,
    "undecided": 37.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alexandre Kalil",
@@ -5319,7 +5319,7 @@
    "sum_cands": 100.0,
    "undecided": 32.599999999999994,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Delegado André David",
@@ -5390,7 +5390,7 @@
    "sum_cands": 73.7,
    "undecided": 26.299999999999997,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -5419,7 +5419,7 @@
    "sum_cands": 77.38,
    "undecided": 22.62,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -5998,7 +5998,7 @@
    "sum_cands": 92.8,
    "undecided": 7.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -6180,7 +6180,7 @@
    "sum_cands": 84.5,
    "undecided": 15.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -6459,7 +6459,7 @@
    "sum_cands": 100.18056288000096,
    "undecided": 76.15,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -6553,7 +6553,7 @@
    "sum_cands": 83.33,
    "undecided": 16.67,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -6675,7 +6675,7 @@
    "sum_cands": 100.0,
    "undecided": 52.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alexandre Curi",
@@ -6734,7 +6734,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -6769,7 +6769,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -6798,7 +6798,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -6880,7 +6880,7 @@
    "sum_cands": 99.99995616705225,
    "undecided": 17.87,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -7003,7 +7003,7 @@
    "sum_cands": 83.29,
    "undecided": 16.71,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -7067,7 +7067,7 @@
    "sum_cands": 93.9,
    "undecided": 6.199999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -7102,7 +7102,7 @@
    "sum_cands": 79.8,
    "undecided": 20.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -7131,7 +7131,7 @@
    "sum_cands": 77.3,
    "undecided": 22.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -7160,7 +7160,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -7335,7 +7335,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -7364,7 +7364,7 @@
    "sum_cands": 99.99876684707631,
    "undecided": 5.76,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rogério Carvalho",
@@ -7529,7 +7529,7 @@
    "sum_cands": 101.30116565703385,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -7588,7 +7588,7 @@
    "sum_cands": 83.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -7623,7 +7623,7 @@
    "sum_cands": 82.0,
    "undecided": 18.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -7652,7 +7652,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -9739,7 +9739,7 @@
    "sum_cands": 100.0,
    "undecided": 83.04,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Teresa Surita",
@@ -9780,7 +9780,7 @@
    "sum_cands": 85.85000000000001,
    "undecided": 14.15,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -9809,7 +9809,7 @@
    "sum_cands": 100.00000000000001,
    "undecided": 68.33,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -9880,7 +9880,7 @@
    "sum_cands": 101.63934426229508,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Silvia Cristina",
@@ -9927,7 +9927,7 @@
    "sum_cands": 82.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -10090,7 +10090,7 @@
    "sum_cands": 99.99573849878934,
    "undecided": 76.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "João Azevêdo",
@@ -10137,7 +10137,7 @@
    "sum_cands": 74.5,
    "undecided": 25.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -10172,7 +10172,7 @@
    "sum_cands": 89.8,
    "undecided": 10.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -10207,7 +10207,7 @@
    "sum_cands": 82.4,
    "undecided": 17.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -10347,7 +10347,7 @@
    "sum_cands": 100.00000000000001,
    "undecided": 71.89,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Lira",
@@ -10388,7 +10388,7 @@
    "sum_cands": 84.4,
    "undecided": 15.600000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -10511,7 +10511,7 @@
    "sum_cands": 81.12,
    "undecided": 18.880000000000003,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Valmir de Francisquinho",
@@ -10540,7 +10540,7 @@
    "sum_cands": 79.3,
    "undecided": 18.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -10569,7 +10569,7 @@
    "sum_cands": 100.0,
    "undecided": 43.900000000000006,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alexandre Curi",
@@ -10628,7 +10628,7 @@
    "sum_cands": 87.5,
    "undecided": 12.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -10663,7 +10663,7 @@
    "sum_cands": 85.9,
    "undecided": 14.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -10692,7 +10692,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -11384,7 +11384,7 @@
    "sum_cands": 75.56,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -11529,7 +11529,7 @@
    "sum_cands": 101.63934426229508,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Silvia Cristina",
@@ -11576,7 +11576,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -11950,7 +11950,7 @@
    "sum_cands": 100.0,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rogério Carvalho",
@@ -12021,7 +12021,7 @@
    "sum_cands": 84.07000000000001,
    "undecided": 15.94,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -12079,7 +12079,7 @@
    "sum_cands": 92.7,
    "undecided": 7.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "João Campos",
@@ -12511,7 +12511,7 @@
    "sum_cands": 100.00421052631579,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -12803,7 +12803,7 @@
    "sum_cands": 78.1,
    "undecided": 21.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -13676,7 +13676,7 @@
    "sum_cands": 99.99808612440192,
    "undecided": 95.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -13892,7 +13892,7 @@
    "sum_cands": 84.69,
    "undecided": 15.299999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -13956,7 +13956,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -13985,7 +13985,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -14049,7 +14049,7 @@
    "sum_cands": 100.0,
    "undecided": 10.899999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roseana Sarney",
@@ -14758,7 +14758,7 @@
    "sum_cands": 67.3,
    "undecided": 32.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -14793,7 +14793,7 @@
    "sum_cands": 59.1,
    "undecided": 40.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -14822,7 +14822,7 @@
    "sum_cands": 41.3,
    "undecided": 58.800000000000004,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Álvaro Dias",
@@ -14851,7 +14851,7 @@
    "sum_cands": 61.099999999999994,
    "undecided": 38.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -15505,7 +15505,7 @@
    "sum_cands": 100.0,
    "undecided": 12.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -15570,7 +15570,7 @@
    "sum_cands": 89.4,
    "undecided": 10.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -16034,7 +16034,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -16366,7 +16366,7 @@
    "sum_cands": 94.19,
    "undecided": 5.81,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -16907,7 +16907,7 @@
    "sum_cands": 79.18,
    "undecided": 20.82,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -16971,7 +16971,7 @@
    "sum_cands": 62.44,
    "undecided": 37.56,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -17058,7 +17058,7 @@
    "sum_cands": 80.32,
    "undecided": 19.68,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -17174,7 +17174,7 @@
    "sum_cands": 70.13,
    "undecided": 29.869999999999997,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -21487,7 +21487,7 @@
    "sum_cands": 73.60000000000001,
    "undecided": 26.299999999999997,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -21516,7 +21516,7 @@
    "sum_cands": 84.0,
    "undecided": 15.899999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -22088,7 +22088,7 @@
    "sum_cands": 100.66932572589006,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marina Silva",
@@ -22393,7 +22393,7 @@
    "sum_cands": 75.39999999999999,
    "undecided": 24.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -22422,7 +22422,7 @@
    "sum_cands": 75.61,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -22451,7 +22451,7 @@
    "sum_cands": 100.0041935483871,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -22833,7 +22833,7 @@
    "sum_cands": 82.8,
    "undecided": 17.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -23378,7 +23378,7 @@
    "sum_cands": 80.89999999999999,
    "undecided": 19.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -23436,7 +23436,7 @@
    "sum_cands": 89.1,
    "undecided": 10.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -23964,7 +23964,7 @@
    "sum_cands": 100.47445500041307,
    "undecided": 63.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -24205,7 +24205,7 @@
    "sum_cands": 100.86311197126106,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -24276,7 +24276,7 @@
    "sum_cands": 100.00485921889192,
    "undecided": 44.95,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Delegado André David",
@@ -25291,7 +25291,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
    "Lula": 40.4255,
    "Flávio": 31.9149,
-   "weight": 0.041
+   "weight": 0.03972
   },
   {
    "pollster": "Futura",
@@ -25299,7 +25299,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-392-das-intencoes-de-voto-no-1o-turno-flavio-336/",
    "Lula": 42.7948,
    "Flávio": 36.6812,
-   "weight": 0.03012
+   "weight": 0.02917
   },
   {
    "pollster": "Quaest",
@@ -25307,7 +25307,7 @@
    "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/lula-lidera-pesquisa-quaest-no-1o-turno-com-37percent-contra-30percent-de-flavio-cury-vai-a-10percent.ghtml",
    "Lula": 44.5783,
    "Flávio": 36.1446,
-   "weight": 0.01907
+   "weight": 0.01607
   },
   {
    "pollster": "PALVER",
@@ -25315,7 +25315,7 @@
    "url": "https://noticias.uol.com.br/eleicoes/2026/09/09/pesquisa-do-instituto-palver---presidente---99.ghtm",
    "Lula": 41.2371,
    "Flávio": 40.2062,
-   "weight": 0.06093
+   "weight": 0.05902
   },
   {
    "pollster": "CNT/MDA",
@@ -25323,7 +25323,7 @@
    "url": "https://www.metropoles.com/brasil/pesquisa-cnt-mda-lula-lidera-disputa-contra-flavio-no-1o-e-2o-turnos",
    "Lula": 47.8158,
    "Flávio": 35.8914,
-   "weight": 0.07805
+   "weight": 0.0756
   },
   {
    "pollster": "AtlasIntel",
@@ -25331,7 +25331,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026-2/",
    "Lula": 45.046,
    "Flávio": 42.5945,
-   "weight": 0.04235
+   "weight": 0.04102
   },
   {
    "pollster": "Nexus",
@@ -25339,7 +25339,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026/",
    "Lula": 41.4894,
    "Flávio": 37.234,
-   "weight": 0.02045
+   "weight": 0.01981
   },
   {
    "pollster": "Datafolha",
@@ -25347,7 +25347,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026-3/",
    "Lula": 42.3913,
    "Flávio": 39.1304,
-   "weight": 0.06343
+   "weight": 0.06144
   },
   {
    "pollster": "PoderData",
@@ -25355,7 +25355,7 @@
    "url": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
    "Lula": 38.9474,
    "Flávio": 35.7895,
-   "weight": 0.01768
+   "weight": 0.01713
   },
   {
    "pollster": "Nexus",
@@ -25363,7 +25363,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-4/",
    "Lula": 44.5652,
    "Flávio": 40.2174,
-   "weight": 0.00973
+   "weight": 0.00943
   },
   {
    "pollster": "PoderData",
@@ -25371,7 +25371,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026-2/",
    "Lula": 39.3617,
    "Flávio": 38.2979,
-   "weight": 0.03536
+   "weight": 0.03425
   },
   {
    "pollster": "AtlasIntel",
@@ -25379,7 +25379,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
    "Lula": 43.487,
    "Flávio": 33.7675,
-   "weight": 0.01825
+   "weight": 0.01768
   },
   {
    "pollster": "Gerp",
@@ -25387,7 +25387,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-agosto-2026-2/",
    "Lula": 42.5287,
    "Flávio": 43.6782,
-   "weight": 0.01395
+   "weight": 0.01352
   },
   {
    "pollster": "Nexus",
@@ -25395,7 +25395,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026-2/",
    "Lula": 43.0108,
    "Flávio": 39.7849,
-   "weight": 0.03892
+   "weight": 0.0377
   },
   {
    "pollster": "INDEXA PESQUISAS",
@@ -25403,7 +25403,7 @@
    "url": "https://www.estadao.com.br/politica/eleicoes/indexabroadcast-no-2-turno-lula-lidera-com-46-ante-41-de-flavio-bolsonaro/",
    "Lula": 46.4286,
    "Flávio": 40.4762,
-   "weight": 0.02039
+   "weight": 0.01975
   },
   {
    "pollster": "Nexus",
@@ -25411,7 +25411,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
    "Lula": 41.9355,
    "Flávio": 35.4839,
-   "weight": 0.01376
+   "weight": 0.01333
   },
   {
    "pollster": "PoderData",
@@ -25419,7 +25419,7 @@
    "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-38-contra-36-de-flavio-no-1o-turno/",
    "Lula": 40.0,
    "Flávio": 37.8947,
-   "weight": 0.025
+   "weight": 0.02422
   },
   {
    "pollster": "Datafolha",
@@ -25427,7 +25427,7 @@
    "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-38-e-flavio-bolsonaro-33-no-1o-turno-cury-vai-a-8.shtml",
    "Lula": 43.1818,
    "Flávio": 37.5,
-   "weight": 0.03171
+   "weight": 0.03072
   },
   {
    "pollster": "INDEXA PESQUISAS",
@@ -25435,7 +25435,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-setembro-2026/",
    "Lula": 44.186,
    "Flávio": 39.5349,
-   "weight": 0.05766
+   "weight": 0.05586
   },
   {
    "pollster": "Gerp",
@@ -25443,7 +25443,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026/",
    "Lula": 38.2022,
    "Flávio": 41.573,
-   "weight": 0.03081
+   "weight": 0.02984
   },
   {
    "pollster": "Vox Populi",
@@ -25451,7 +25451,7 @@
    "url": "https://exame.com/brasil/pesquisa-vox-brasil-diferenca-entre-lula-e-flavio-bolsonaro-cai-7-pontos-no-1o-turno/",
    "Lula": 42.3516,
    "Flávio": 39.726,
-   "weight": 0.03364
+   "weight": 0.03258
   },
   {
    "pollster": "Nexus",
@@ -25459,7 +25459,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-presidente-setembro-2026/",
    "Lula": 44.6809,
    "Flávio": 39.3617,
-   "weight": 0.02752
+   "weight": 0.02666
   },
   {
    "pollster": "Futura",
@@ -25467,7 +25467,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-setembro-2026/",
    "Lula": 41.2141,
    "Flávio": 35.7827,
-   "weight": 0.02027
+   "weight": 0.01963
   },
   {
    "pollster": "PoderData",
@@ -25475,7 +25475,7 @@
    "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-38-contra-35-de-flavio-no-1o-turno/",
    "Lula": 40.4255,
    "Flávio": 37.234,
-   "weight": 0.0125
+   "weight": 0.01211
   },
   {
    "pollster": "Quaest",
@@ -25483,7 +25483,15 @@
    "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/pesquisa-quaest-flavio-aparece-numericamente-a-frente-de-lula-no-2o-turno-pela-primeira-vez-na-campanha.ghtml",
    "Lula": 43.3735,
    "Flávio": 37.3494,
-   "weight": 0.03455
+   "weight": 0.02911
+  },
+  {
+   "pollster": "Quaest",
+   "date": "20/09/2026",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
+   "Lula": 43.5294,
+   "Flávio": 38.8235,
+   "weight": 0.04116
   },
   {
    "pollster": "Quaest",
@@ -25491,7 +25499,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml",
    "Lula": 43.9024,
    "Flávio": 35.3659,
-   "weight": 0.02443
+   "weight": 0.02058
   },
   {
    "pollster": "Gerp",
@@ -25499,7 +25507,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026-2/",
    "Lula": 40.6593,
    "Flávio": 43.956,
-   "weight": 0.04578
+   "weight": 0.04435
   },
   {
    "pollster": "Ideia",
@@ -25507,7 +25515,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-setembro-2026/",
    "Lula": 40.4636,
    "Flávio": 39.3045,
-   "weight": 0.05799
+   "weight": 0.05617
   },
   {
    "pollster": "Futura",
@@ -25515,7 +25523,7 @@
    "url": "https://revistaoeste.com/politica/flavio-tem-481-contra-437-de-lula-no-2-turno-mostra-pesquisa/",
    "Lula": 40.8316,
    "Flávio": 40.1919,
-   "weight": 0.04476
+   "weight": 0.04335
   },
   {
    "pollster": "AtlasIntel",
@@ -25523,7 +25531,7 @@
    "url": "https://www.estadao.com.br/politica/eleicoes/pesquisa-atlas-flavio-bolsonaro-tem-464-e-lula-462-no-segundo-turno/",
    "Lula": 43.4343,
    "Flávio": 37.7778,
-   "weight": 0.02994
+   "weight": 0.02901
   }
  ]
 }
