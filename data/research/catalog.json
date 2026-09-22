@@ -15189,7 +15189,7 @@
    "published_at": "2026-09-20",
    "sample_size": 5000,
    "method": "Internet",
-   "url": "https://www.jota.info/eleicoes/eleicoes-2026/palver-mostra-flavio-bolsonaro-numericamente-a-frente-de-lula-no-1o-turno-em-empate-tecnico",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/palver-presidente-setembro-2026/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/presidente/",
    "base": "totais",
@@ -17296,6 +17296,48 @@
    "eligible": true,
    "issues": [],
    "date": "05/03/2026"
+  },
+  {
+   "id": "3599bd8713d75d279a84",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "1º turno",
+   "scenario_key": "augusto cury|flavio bolsonaro|lula|renan santos|ronaldo caiado",
+   "registro": "BR-00860/2026",
+   "pollster": "PALVER",
+   "field_start": "2026-09-15",
+   "field_end": "2026-09-20",
+   "published_at": "2026-09-20",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/palver-presidente-setembro-2026/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 40.0,
+    "Flávio Bolsonaro": 42.0,
+    "Romeu Zema": null,
+    "Ronaldo Caiado": 1.0,
+    "Renan Santos": 11.0,
+    "Augusto Cury": 2.0,
+    "Outros": 1.0,
+    "Indecisos": 1.0
+   },
+   "sum_cands": 97.0,
+   "undecided": 1.0,
+   "valid_shares": {
+    "Lula": 41.2371,
+    "Flávio Bolsonaro": 43.299,
+    "Ronaldo Caiado": 1.0309,
+    "Renan Santos": 11.3402,
+    "Augusto Cury": 2.0619,
+    "Outros": 1.0309
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/09/2026"
   },
   {
    "id": "35d073f1f002b8c4b9ca",
@@ -50676,6 +50718,39 @@
    "date": "21/03/2026"
   },
   {
+   "id": "a26dfd9942ebf03c8ef3",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-06004/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-09-17",
+   "field_end": "2026-09-20",
+   "published_at": "2026-09-21",
+   "sample_size": 2004,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 41.0,
+    "Flávio Bolsonaro": 42.0,
+    "Indecisos": 17.0
+   },
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "valid_shares": {
+    "Lula": 49.3976,
+    "Flávio Bolsonaro": 50.6024
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/09/2026"
+  },
+  {
    "id": "a2ca1f3ed5e4b3b134e3",
    "uf": "TO",
    "cargo": "Senado",
@@ -65601,6 +65676,49 @@
    "date": "28/04/2026"
   },
   {
+   "id": "d52569171622e9605cc7",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "1º turno",
+   "scenario_key": "augusto cury|flavio bolsonaro|lula|renan santos|romeu zema|ronaldo caiado",
+   "registro": "BR-06004/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-09-17",
+   "field_end": "2026-09-20",
+   "published_at": "2026-09-21",
+   "sample_size": 2004,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 37.0,
+    "Flávio Bolsonaro": 33.0,
+    "Romeu Zema": 1.0,
+    "Ronaldo Caiado": 4.0,
+    "Renan Santos": 3.0,
+    "Augusto Cury": 6.0,
+    "Outros": 1.0,
+    "Indecisos": 15.0
+   },
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "valid_shares": {
+    "Lula": 43.5294,
+    "Flávio Bolsonaro": 38.8235,
+    "Romeu Zema": 1.1765,
+    "Ronaldo Caiado": 4.7059,
+    "Renan Santos": 3.5294,
+    "Augusto Cury": 7.0588,
+    "Outros": 1.1765
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/09/2026"
+  },
+  {
    "id": "d52adb65eeee73cc5766",
    "uf": "DF",
    "cargo": "Governo",
@@ -77965,9 +78083,12 @@
     "Renan Santos": 11.4583,
     "Augusto Cury": 2.0833
    },
-   "eligible": true,
-   "issues": [],
-   "date": "20/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "20/09/2026",
+   "withdrawn": true
   },
   {
    "id": "fdd9e1ad84e663793026",
@@ -78663,32 +78784,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-09-21",
+   "checked_at": "2026-09-22",
    "updated_at": "2026-09-21",
-   "count": 738,
+   "count": 740,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-09-21",
+   "checked_at": "2026-09-22",
    "updated_at": "2026-09-21",
    "count": 997,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-09-21",
+   "checked_at": "2026-09-22",
    "updated_at": "2026-09-21",
    "count": 346,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-09-21",
+ "checked_at": "2026-09-22",
  "changes": {
-  "date": "2026-09-21",
-  "added": 219,
-  "revised": 146,
+  "date": "2026-09-22",
+  "added": 3,
+  "revised": 2,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
