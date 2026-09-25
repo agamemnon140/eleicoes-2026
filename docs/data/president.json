@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-09-24",
+ "generated_at": "2026-09-25",
  "polls_date": "2026-09-24",
  "available": true,
  "national": {
-  "polls": 34,
+  "polls": 35,
   "institutos": [
    "ALFA INTELIGENCIA",
    "AtlasIntel",
@@ -30,34 +30,34 @@
     "avg": 43.0,
     "raw_avg": 39.5,
     "interval": [
-     42.1,
-     43.7
+     42.2,
+     43.8
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Flávio Bolsonaro",
     "party": "PL",
     "bloc": "Flávio",
-    "avg": 39.2,
+    "avg": 39.3,
     "raw_avg": 36.1,
     "interval": [
-     38.4,
+     38.5,
      40.2
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Augusto Cury",
     "party": "",
     "bloc": "Indefinido",
     "avg": 6.6,
-    "raw_avg": 6.1,
+    "raw_avg": 6.0,
     "interval": [
      5.6,
-     7.3
+     7.2
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Renan Santos",
@@ -69,7 +69,7 @@
      3.5,
      5.4
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Ronaldo Caiado",
@@ -81,19 +81,19 @@
      3.1,
      4.4
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Outros",
     "party": "",
     "bloc": "Indefinido",
-    "avg": 2.0,
+    "avg": 1.9,
     "raw_avg": 1.8,
     "interval": [
      1.4,
-     2.6
+     2.5
     ],
-    "n": 34
+    "n": 35
    },
    {
     "name": "Romeu Zema",
@@ -103,29 +103,29 @@
     "raw_avg": 1.2,
     "interval": [
      1.2,
-     1.5
+     1.4
     ],
-    "n": 34
+    "n": 35
    }
   ],
   "runoff": {
    "Flávio": 50.3,
    "Lula": 49.7
   },
-  "runoff_poll_count": 35,
+  "runoff_poll_count": 36,
   "trend": {},
   "research": {
    "shares": {
     "Augusto Cury": 6.6,
-    "Flávio Bolsonaro": 39.2,
+    "Flávio Bolsonaro": 39.3,
     "Lula": 43.0,
-    "Outros": 2.0,
+    "Outros": 1.9,
     "Renan Santos": 4.4,
     "Romeu Zema": 1.3,
     "Ronaldo Caiado": 3.7
    },
    "raw_shares": {
-    "Augusto Cury": 6.1,
+    "Augusto Cury": 6.0,
     "Flávio Bolsonaro": 36.1,
     "Indecisos": 7.7,
     "Lula": 39.5,
@@ -137,19 +137,19 @@
    "intervals": {
     "Augusto Cury": [
      5.6,
-     7.3
+     7.2
     ],
     "Flávio Bolsonaro": [
-     38.4,
+     38.5,
      40.2
     ],
     "Lula": [
-     42.1,
-     43.7
+     42.2,
+     43.8
     ],
     "Outros": [
      1.4,
-     2.6
+     2.5
     ],
     "Renan Santos": [
      3.5,
@@ -157,7 +157,7 @@
     ],
     "Romeu Zema": [
      1.2,
-     1.5
+     1.4
     ],
     "Ronaldo Caiado": [
      3.1,
@@ -165,42 +165,43 @@
     ]
    },
    "weights": [
-    0.021829718535483822,
-    0.06817064681810767,
-    0.017977234575231253,
-    0.011658643932092604,
-    0.029018210565828626,
-    0.032021076847792554,
-    0.054855837124709705,
-    0.02458469406362163,
-    0.015760682018748494,
-    0.04458000964522527,
-    0.011321160289984837,
-    0.022642320579969673,
-    0.01059566905075688,
-    0.09000036535359147,
-    0.02999872937076914,
-    0.010606152482525453,
-    0.03777939714910086,
-    0.016010538423896277,
-    0.033088544476035896,
-    0.022290004822612636,
-    0.054855837124709705,
-    0.0255993623673548,
-    0.023642120344125363,
-    0.021212304965050905,
-    0.0120977817389004,
-    0.008005269211948138,
-    0.021119019405046145,
-    0.06098215478776285,
-    0.02986680366663684,
-    0.014933401833318417,
-    0.03804050628343655,
-    0.04075773034657262,
-    0.02671406791326894,
-    0.01738400388578351
+    0.021241365282122126,
+    0.06633331566910503,
+    0.01749271323650712,
+    0.011344420866134039,
+    0.02823611351013878,
+    0.031158046721732068,
+    0.053377365921073235,
+    0.023922088876490062,
+    0.04465543549956656,
+    0.015335901070434527,
+    0.031576161258582,
+    0.01101603306273201,
+    0.02203206612546402,
+    0.01031009521949454,
+    0.08757468095122714,
+    0.029190205431565825,
+    0.01032029610244429,
+    0.03676116912263381,
+    0.015579023360866034,
+    0.032196744027036324,
+    0.015788080629291,
+    0.053377365921073235,
+    0.024909409901484204,
+    0.02300491934685989,
+    0.02064059220488858,
+    0.01177172305733875,
+    0.007789511680433016,
+    0.020549820871653683,
+    0.05933856744108837,
+    0.029061835381030344,
+    0.01453091769051517,
+    0.03701524085937689,
+    0.039659230463944005,
+    0.02599407197095989,
+    0.0169154712647134
    ],
-   "polls": 34,
+   "polls": 35,
    "institutes": [
     "ALFA INTELIGENCIA",
     "AtlasIntel",
@@ -227,6 +228,7 @@
     "2d7950a31e60e2395cc3",
     "2ea8e9127b53a015b4e2",
     "33d7696d4f6abb9f47d5",
+    "34c3ac6ca5a6ccf6575a",
     "39249fe57616ce3f98bc",
     "41be95a5e7252f49cc91",
     "4452e8748349edf1a0f9",
@@ -259,19 +261,19 @@
    "trends": {
     "7": {
      "Augusto Cury": {
-      "delta": -0.6,
+      "delta": -0.7,
       "institutes": 10
      },
      "Flávio Bolsonaro": {
-      "delta": 1.4,
+      "delta": 1.5,
       "institutes": 10
      },
      "Lula": {
-      "delta": 0.4,
+      "delta": 0.5,
       "institutes": 10
      },
      "Outros": {
-      "delta": -0.4,
+      "delta": -0.5,
       "institutes": 9
      },
      "Renan Santos": {
@@ -289,7 +291,7 @@
     },
     "14": {
      "Augusto Cury": {
-      "delta": -0.2,
+      "delta": -0.3,
       "institutes": 10
      },
      "Flávio Bolsonaro": {
@@ -297,11 +299,11 @@
       "institutes": 10
      },
      "Lula": {
-      "delta": 0.2,
+      "delta": 0.3,
       "institutes": 10
      },
      "Outros": {
-      "delta": -0.9,
+      "delta": -1.0,
       "institutes": 9
      },
      "Renan Santos": {
@@ -309,7 +311,7 @@
       "institutes": 10
      },
      "Romeu Zema": {
-      "delta": -0.3,
+      "delta": -0.4,
       "institutes": 10
      },
      "Ronaldo Caiado": {
@@ -320,15 +322,15 @@
    },
    "history": [
     {
-     "date": "2026-07-26",
+     "date": "2026-07-27",
      "shares": {
-      "Augusto Cury": 1.5,
-      "Flávio Bolsonaro": 36.5,
-      "Lula": 45.8,
-      "Outros": 2.7,
-      "Renan Santos": 4.7,
-      "Romeu Zema": 3.2,
-      "Ronaldo Caiado": 5.6
+      "Augusto Cury": 1.6,
+      "Flávio Bolsonaro": 36.4,
+      "Lula": 45.9,
+      "Outros": 2.5,
+      "Renan Santos": 4.8,
+      "Romeu Zema": 3.1,
+      "Ronaldo Caiado": 5.7
      },
      "intervals": {
       "Augusto Cury": [
@@ -337,74 +339,74 @@
       ],
       "Flávio Bolsonaro": [
        35.6,
-       37.7
+       37.4
       ],
       "Lula": [
-       44.5,
-       47.3
+       44.7,
+       47.2
       ],
       "Outros": [
-       2.0,
-       3.2
+       1.8,
+       3.1
       ],
       "Renan Santos": [
        3.5,
-       6.6
+       6.5
       ],
       "Romeu Zema": [
        2.7,
-       3.6
+       3.5
       ],
       "Ronaldo Caiado": [
-       4.8,
-       6.4
+       5.0,
+       6.5
       ]
      }
     },
     {
-     "date": "2026-07-29",
+     "date": "2026-07-30",
      "shares": {
-      "Augusto Cury": 1.6,
-      "Flávio Bolsonaro": 36.4,
-      "Lula": 45.8,
+      "Augusto Cury": 1.9,
+      "Flávio Bolsonaro": 36.7,
+      "Lula": 45.7,
       "Outros": 2.5,
-      "Renan Santos": 5.2,
+      "Renan Santos": 5.1,
       "Romeu Zema": 3.1,
       "Ronaldo Caiado": 5.4
      },
      "intervals": {
       "Augusto Cury": [
-       1.3,
-       1.8
+       1.5,
+       2.4
       ],
       "Flávio Bolsonaro": [
-       35.6,
-       37.3
+       35.9,
+       37.5
       ],
       "Lula": [
-       44.7,
-       47.0
+       44.8,
+       46.8
       ],
       "Outros": [
        1.9,
        3.0
       ],
       "Renan Santos": [
-       3.8,
-       6.9
+       3.9,
+       6.5
       ],
       "Romeu Zema": [
-       2.7,
+       2.8,
        3.4
       ],
       "Ronaldo Caiado": [
-       4.3,
-       6.4
+       4.5,
+       6.2
       ]
      }
     },
     {
-     "date": "2026-08-01",
+     "date": "2026-08-02",
      "shares": {
       "Augusto Cury": 1.7,
       "Flávio Bolsonaro": 36.0,
@@ -446,15 +448,15 @@
      }
     },
     {
-     "date": "2026-08-04",
+     "date": "2026-08-05",
      "shares": {
       "Augusto Cury": 1.7,
-      "Flávio Bolsonaro": 36.3,
-      "Lula": 45.9,
-      "Outros": 2.7,
+      "Flávio Bolsonaro": 36.4,
+      "Lula": 46.0,
+      "Outros": 2.5,
       "Renan Santos": 4.7,
-      "Romeu Zema": 3.6,
-      "Ronaldo Caiado": 5.8
+      "Romeu Zema": 3.4,
+      "Ronaldo Caiado": 5.7
      },
      "intervals": {
       "Augusto Cury": [
@@ -462,33 +464,33 @@
        2.0
       ],
       "Flávio Bolsonaro": [
-       35.3,
-       37.3
+       35.6,
+       37.2
       ],
       "Lula": [
-       45.2,
+       45.3,
        46.8
       ],
       "Outros": [
        2.1,
-       3.3
+       3.0
       ],
       "Renan Santos": [
-       3.7,
-       5.6
+       4.0,
+       5.5
       ],
       "Romeu Zema": [
-       3.1,
-       4.3
+       3.0,
+       4.0
       ],
       "Ronaldo Caiado": [
-       5.0,
-       6.4
+       5.1,
+       6.3
       ]
      }
     },
     {
-     "date": "2026-08-07",
+     "date": "2026-08-08",
      "shares": {
       "Augusto Cury": 1.7,
       "Flávio Bolsonaro": 36.5,
@@ -530,15 +532,15 @@
      }
     },
     {
-     "date": "2026-08-10",
+     "date": "2026-08-11",
      "shares": {
       "Augusto Cury": 1.5,
-      "Flávio Bolsonaro": 37.5,
-      "Lula": 45.4,
-      "Outros": 2.2,
-      "Renan Santos": 4.9,
+      "Flávio Bolsonaro": 36.9,
+      "Lula": 46.0,
+      "Outros": 2.5,
+      "Renan Santos": 4.8,
       "Romeu Zema": 3.3,
-      "Ronaldo Caiado": 5.6
+      "Ronaldo Caiado": 5.4
      },
      "intervals": {
       "Augusto Cury": [
@@ -546,75 +548,33 @@
        1.9
       ],
       "Flávio Bolsonaro": [
-       36.0,
-       39.0
-      ],
-      "Lula": [
-       44.5,
-       46.4
-      ],
-      "Outros": [
-       1.7,
-       2.8
-      ],
-      "Renan Santos": [
-       4.2,
-       5.5
-      ],
-      "Romeu Zema": [
-       2.8,
-       3.8
-      ],
-      "Ronaldo Caiado": [
-       5.0,
-       6.1
-      ]
-     }
-    },
-    {
-     "date": "2026-08-13",
-     "shares": {
-      "Augusto Cury": 1.6,
-      "Flávio Bolsonaro": 37.0,
-      "Lula": 45.8,
-      "Outros": 2.5,
-      "Renan Santos": 4.8,
-      "Romeu Zema": 3.3,
-      "Ronaldo Caiado": 5.3
-     },
-     "intervals": {
-      "Augusto Cury": [
-       1.3,
-       2.1
-      ],
-      "Flávio Bolsonaro": [
-       35.4,
+       35.3,
        38.5
       ],
       "Lula": [
-       44.7,
-       46.9
+       44.8,
+       47.1
       ],
       "Outros": [
-       2.0,
+       1.9,
        3.1
       ],
       "Renan Santos": [
        4.1,
-       5.4
+       5.5
       ],
       "Romeu Zema": [
        2.8,
-       3.8
+       3.9
       ],
       "Ronaldo Caiado": [
-       4.9,
-       5.9
+       5.0,
+       6.0
       ]
      }
     },
     {
-     "date": "2026-08-16",
+     "date": "2026-08-14",
      "shares": {
       "Augusto Cury": 1.7,
       "Flávio Bolsonaro": 37.0,
@@ -656,36 +616,36 @@
      }
     },
     {
-     "date": "2026-08-19",
+     "date": "2026-08-17",
      "shares": {
       "Augusto Cury": 1.7,
       "Flávio Bolsonaro": 37.2,
-      "Lula": 45.6,
-      "Outros": 2.4,
-      "Renan Santos": 4.8,
+      "Lula": 45.7,
+      "Outros": 2.3,
+      "Renan Santos": 4.7,
       "Romeu Zema": 3.3,
-      "Ronaldo Caiado": 5.2
+      "Ronaldo Caiado": 5.3
      },
      "intervals": {
       "Augusto Cury": [
-       1.4,
-       2.0
+       1.3,
+       2.1
       ],
       "Flávio Bolsonaro": [
-       35.9,
-       38.8
+       35.6,
+       38.6
       ],
       "Lula": [
-       44.6,
-       46.6
+       44.7,
+       46.8
       ],
       "Outros": [
-       1.9,
-       3.0
+       1.8,
+       2.9
       ],
       "Renan Santos": [
        4.2,
-       5.4
+       5.3
       ],
       "Romeu Zema": [
        2.9,
@@ -693,12 +653,54 @@
       ],
       "Ronaldo Caiado": [
        4.8,
-       5.8
+       5.7
       ]
      }
     },
     {
-     "date": "2026-08-22",
+     "date": "2026-08-20",
+     "shares": {
+      "Augusto Cury": 1.7,
+      "Flávio Bolsonaro": 37.3,
+      "Lula": 45.8,
+      "Outros": 2.4,
+      "Renan Santos": 4.6,
+      "Romeu Zema": 3.3,
+      "Ronaldo Caiado": 5.1
+     },
+     "intervals": {
+      "Augusto Cury": [
+       1.4,
+       2.1
+      ],
+      "Flávio Bolsonaro": [
+       36.0,
+       38.8
+      ],
+      "Lula": [
+       44.7,
+       46.8
+      ],
+      "Outros": [
+       1.9,
+       3.0
+      ],
+      "Renan Santos": [
+       4.1,
+       5.1
+      ],
+      "Romeu Zema": [
+       2.9,
+       3.9
+      ],
+      "Ronaldo Caiado": [
+       4.7,
+       5.6
+      ]
+     }
+    },
+    {
+     "date": "2026-08-23",
      "shares": {
       "Augusto Cury": 1.8,
       "Flávio Bolsonaro": 37.2,
@@ -740,133 +742,133 @@
      }
     },
     {
-     "date": "2026-08-25",
+     "date": "2026-08-26",
      "shares": {
-      "Augusto Cury": 1.8,
-      "Flávio Bolsonaro": 38.0,
-      "Lula": 45.1,
+      "Augusto Cury": 1.7,
+      "Flávio Bolsonaro": 38.4,
+      "Lula": 45.3,
       "Outros": 2.9,
       "Renan Santos": 4.4,
-      "Romeu Zema": 3.1,
-      "Ronaldo Caiado": 5.0
+      "Romeu Zema": 2.8,
+      "Ronaldo Caiado": 5.2
      },
      "intervals": {
       "Augusto Cury": [
        1.4,
-       2.1
+       2.0
       ],
       "Flávio Bolsonaro": [
-       36.2,
-       39.8
+       36.7,
+       39.9
       ],
       "Lula": [
-       44.0,
-       46.3
+       44.2,
+       46.2
       ],
       "Outros": [
        2.3,
-       3.5
+       3.6
       ],
       "Renan Santos": [
-       4.0,
-       4.8
+       4.1,
+       4.9
       ],
       "Romeu Zema": [
-       2.5,
-       3.7
+       2.2,
+       3.5
       ],
       "Ronaldo Caiado": [
-       4.5,
-       5.5
+       4.6,
+       5.6
       ]
      }
     },
     {
-     "date": "2026-08-28",
+     "date": "2026-08-29",
      "shares": {
-      "Augusto Cury": 2.0,
-      "Flávio Bolsonaro": 38.7,
-      "Lula": 44.6,
-      "Outros": 3.5,
-      "Renan Santos": 4.3,
+      "Augusto Cury": 2.1,
+      "Flávio Bolsonaro": 38.9,
+      "Lula": 44.2,
+      "Outros": 3.3,
+      "Renan Santos": 4.2,
       "Romeu Zema": 2.6,
-      "Ronaldo Caiado": 5.0
+      "Ronaldo Caiado": 5.1
      },
      "intervals": {
       "Augusto Cury": [
-       1.4,
-       2.5
+       1.6,
+       2.7
       ],
       "Flávio Bolsonaro": [
-       37.2,
-       40.5
+       37.4,
+       40.0
       ],
       "Lula": [
-       43.5,
-       46.3
+       43.1,
+       45.4
       ],
       "Outros": [
-       2.3,
-       4.4
+       2.2,
+       4.3
       ],
       "Renan Santos": [
        4.0,
-       4.6
+       4.5
       ],
       "Romeu Zema": [
-       1.9,
+       2.1,
        3.1
       ],
       "Ronaldo Caiado": [
-       4.5,
+       4.6,
        5.5
       ]
      }
     },
     {
-     "date": "2026-08-31",
+     "date": "2026-09-01",
      "shares": {
-      "Augusto Cury": 3.5,
-      "Flávio Bolsonaro": 37.9,
-      "Lula": 43.9,
-      "Outros": 3.1,
-      "Renan Santos": 4.7,
+      "Augusto Cury": 4.6,
+      "Flávio Bolsonaro": 37.1,
+      "Lula": 43.5,
+      "Outros": 3.0,
+      "Renan Santos": 5.1,
       "Romeu Zema": 2.3,
-      "Ronaldo Caiado": 4.8
+      "Ronaldo Caiado": 4.7
      },
      "intervals": {
       "Augusto Cury": [
-       2.1,
-       4.8
+       2.5,
+       6.1
       ],
       "Flávio Bolsonaro": [
-       36.3,
-       39.5
+       35.5,
+       39.0
       ],
       "Lula": [
-       43.2,
-       45.0
+       42.4,
+       44.7
       ],
       "Outros": [
        2.3,
-       3.9
+       3.8
       ],
       "Renan Santos": [
-       4.0,
-       5.6
+       4.1,
+       5.9
       ],
       "Romeu Zema": [
-       1.7,
-       2.8
+       1.8,
+       2.7
       ],
       "Ronaldo Caiado": [
        4.3,
-       5.4
+       5.3
       ]
      }
     },
     {
-     "date": "2026-09-03",
+     "date": "2026-09-04",
      "shares": {
       "Augusto Cury": 6.7,
       "Flávio Bolsonaro": 36.9,
@@ -908,28 +910,28 @@
      }
     },
     {
-     "date": "2026-09-06",
+     "date": "2026-09-07",
      "shares": {
-      "Augusto Cury": 6.7,
-      "Flávio Bolsonaro": 36.9,
+      "Augusto Cury": 6.8,
+      "Flávio Bolsonaro": 36.8,
       "Lula": 43.0,
       "Outros": 3.2,
       "Renan Santos": 4.5,
-      "Romeu Zema": 2.0,
+      "Romeu Zema": 2.1,
       "Ronaldo Caiado": 4.2
      },
      "intervals": {
       "Augusto Cury": [
        4.8,
-       8.0
+       8.1
       ],
       "Flávio Bolsonaro": [
        35.7,
-       38.4
+       38.3
       ],
       "Lula": [
        41.9,
-       44.3
+       44.2
       ],
       "Outros": [
        2.2,
@@ -937,36 +939,36 @@
       ],
       "Renan Santos": [
        3.7,
-       5.3
+       5.2
       ],
       "Romeu Zema": [
        1.7,
        2.4
       ],
       "Ronaldo Caiado": [
-       3.6,
+       3.7,
        4.8
       ]
      }
     },
     {
-     "date": "2026-09-09",
+     "date": "2026-09-10",
      "shares": {
       "Augusto Cury": 6.9,
       "Flávio Bolsonaro": 37.8,
       "Lula": 42.0,
       "Outros": 2.8,
       "Renan Santos": 5.2,
-      "Romeu Zema": 1.8,
-      "Ronaldo Caiado": 3.9
+      "Romeu Zema": 1.7,
+      "Ronaldo Caiado": 3.8
      },
      "intervals": {
       "Augusto Cury": [
-       5.5,
-       8.0
+       5.8,
+       7.9
       ],
       "Flávio Bolsonaro": [
-       36.6,
+       36.8,
        39.1
       ],
       "Lula": [
@@ -978,34 +980,34 @@
        3.7
       ],
       "Renan Santos": [
-       4.2,
-       6.5
+       4.1,
+       6.4
       ],
       "Romeu Zema": [
        1.5,
-       2.1
+       2.0
       ],
       "Ronaldo Caiado": [
-       3.3,
-       4.6
+       3.1,
+       4.5
       ]
      }
     },
     {
-     "date": "2026-09-12",
+     "date": "2026-09-13",
      "shares": {
-      "Augusto Cury": 7.0,
+      "Augusto Cury": 7.1,
       "Flávio Bolsonaro": 37.8,
-      "Lula": 42.0,
+      "Lula": 41.9,
       "Outros": 2.9,
       "Renan Santos": 5.2,
       "Romeu Zema": 1.7,
-      "Ronaldo Caiado": 3.8
+      "Ronaldo Caiado": 3.7
      },
      "intervals": {
       "Augusto Cury": [
        5.8,
-       7.9
+       8.2
       ],
       "Flávio Bolsonaro": [
        36.8,
@@ -1034,9 +1036,9 @@
      }
     },
     {
-     "date": "2026-09-15",
+     "date": "2026-09-16",
      "shares": {
-      "Augusto Cury": 7.1,
+      "Augusto Cury": 7.2,
       "Flávio Bolsonaro": 37.8,
       "Lula": 42.7,
       "Outros": 2.7,
@@ -1059,10 +1061,10 @@
       ],
       "Outros": [
        1.9,
-       3.4
+       3.5
       ],
       "Renan Santos": [
-       3.8,
+       3.7,
        5.7
       ],
       "Romeu Zema": [
@@ -1076,7 +1078,7 @@
      }
     },
     {
-     "date": "2026-09-18",
+     "date": "2026-09-19",
      "shares": {
       "Augusto Cury": 7.0,
       "Flávio Bolsonaro": 38.5,
@@ -1118,7 +1120,7 @@
      }
     },
     {
-     "date": "2026-09-21",
+     "date": "2026-09-22",
      "shares": {
       "Augusto Cury": 7.1,
       "Flávio Bolsonaro": 38.6,
@@ -1160,12 +1162,12 @@
      }
     },
     {
-     "date": "2026-09-24",
+     "date": "2026-09-25",
      "shares": {
       "Augusto Cury": 6.6,
-      "Flávio Bolsonaro": 39.2,
+      "Flávio Bolsonaro": 39.3,
       "Lula": 43.0,
-      "Outros": 2.0,
+      "Outros": 1.9,
       "Renan Santos": 4.4,
       "Romeu Zema": 1.3,
       "Ronaldo Caiado": 3.7
@@ -1173,19 +1175,19 @@
      "intervals": {
       "Augusto Cury": [
        5.6,
-       7.3
+       7.2
       ],
       "Flávio Bolsonaro": [
-       38.4,
+       38.5,
        40.2
       ],
       "Lula": [
-       42.1,
-       43.7
+       42.2,
+       43.8
       ],
       "Outros": [
        1.4,
-       2.6
+       2.5
       ],
       "Renan Santos": [
        3.5,
@@ -1193,7 +1195,7 @@
       ],
       "Romeu Zema": [
        1.2,
-       1.5
+       1.4
       ],
       "Ronaldo Caiado": [
        3.1,
@@ -1202,7 +1204,7 @@
      }
     }
    ],
-   "age_days": 0,
+   "age_days": 1,
    "stale": false
   },
   "used": [
@@ -1228,7 +1230,7 @@
     "pct": 38.0,
     "pct_valid": 40.4255,
     "votos": 1,
-    "weight": 0.02183,
+    "weight": 0.02124,
     "Lula": 40.4255,
     "Flávio": 31.9149
    },
@@ -1254,7 +1256,7 @@
     "pct": 41.0,
     "pct_valid": 43.617,
     "votos": 1,
-    "weight": 0.06817,
+    "weight": 0.06633,
     "Lula": 43.617,
     "Flávio": 39.3617
    },
@@ -1280,7 +1282,7 @@
     "pct": 39.2,
     "pct_valid": 42.7948,
     "votos": 1,
-    "weight": 0.01798,
+    "weight": 0.01749,
     "Lula": 42.7948,
     "Flávio": 36.6812
    },
@@ -1306,7 +1308,7 @@
     "pct": 37.0,
     "pct_valid": 44.5783,
     "votos": 1,
-    "weight": 0.01166,
+    "weight": 0.01134,
     "Lula": 44.5783,
     "Flávio": 36.1446
    },
@@ -1332,7 +1334,7 @@
     "pct": 40.0,
     "pct_valid": 41.2371,
     "votos": 1,
-    "weight": 0.02902,
+    "weight": 0.02824,
     "Lula": 41.2371,
     "Flávio": 40.2062
    },
@@ -1358,7 +1360,7 @@
     "pct": 41.0,
     "pct_valid": 43.1579,
     "votos": 1,
-    "weight": 0.03202,
+    "weight": 0.03116,
     "Lula": 43.1579,
     "Flávio": 41.0526
    },
@@ -1384,7 +1386,7 @@
     "pct": 40.5,
     "pct_valid": 47.8158,
     "votos": 1,
-    "weight": 0.05486,
+    "weight": 0.05338,
     "Lula": 47.8158,
     "Flávio": 35.8914
    },
@@ -1410,9 +1412,35 @@
     "pct": 44.1,
     "pct_valid": 45.046,
     "votos": 1,
-    "weight": 0.02458,
+    "weight": 0.02392,
     "Lula": 45.046,
     "Flávio": 42.5945
+   },
+   {
+    "id": "34c3ac6ca5a6ccf6575a",
+    "registro": "BR-00304/2026",
+    "pollster": "Datafolha",
+    "date": "24/09/2026",
+    "field_start": "2026-09-22",
+    "field_end": "2026-09-24",
+    "published_at": "2026-09-24",
+    "sample_size": 2002,
+    "method": "Presencial",
+    "source": "Plano Político",
+    "source_url": "https://planopolitico.com.br/agregador/presidente/",
+    "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
+    "base": "totais",
+    "scenario": "1º turno",
+    "scenario_key": "augusto cury|flavio bolsonaro|lula|renan santos|romeu zema|ronaldo caiado",
+    "vote_format": "voto único",
+    "sum_cands": 90.0,
+    "undecided": 7.0,
+    "pct": 40.0,
+    "pct_valid": 44.4444,
+    "votos": 1,
+    "weight": 0.04466,
+    "Lula": 44.4444,
+    "Flávio": 40.0
    },
    {
     "id": "39249fe57616ce3f98bc",
@@ -1436,7 +1464,7 @@
     "pct": 39.0,
     "pct_valid": 41.4894,
     "votos": 1,
-    "weight": 0.01576,
+    "weight": 0.01534,
     "Lula": 41.4894,
     "Flávio": 37.234
    },
@@ -1462,7 +1490,7 @@
     "pct": 39.0,
     "pct_valid": 42.3913,
     "votos": 1,
-    "weight": 0.04458,
+    "weight": 0.03158,
     "Lula": 42.3913,
     "Flávio": 39.1304
    },
@@ -1488,7 +1516,7 @@
     "pct": 37.0,
     "pct_valid": 38.9474,
     "votos": 1,
-    "weight": 0.01132,
+    "weight": 0.01102,
     "Lula": 38.9474,
     "Flávio": 35.7895
    },
@@ -1514,7 +1542,7 @@
     "pct": 37.0,
     "pct_valid": 39.3617,
     "votos": 1,
-    "weight": 0.02264,
+    "weight": 0.02203,
     "Lula": 39.3617,
     "Flávio": 38.2979
    },
@@ -1540,7 +1568,7 @@
     "pct": 43.4,
     "pct_valid": 43.487,
     "votos": 1,
-    "weight": 0.0106,
+    "weight": 0.01031,
     "Lula": 43.487,
     "Flávio": 33.7675
    },
@@ -1566,7 +1594,7 @@
     "pct": 40.0,
     "pct_valid": 44.9438,
     "votos": 1,
-    "weight": 0.09,
+    "weight": 0.08757,
     "Lula": 44.9438,
     "Flávio": 37.0787
    },
@@ -1592,7 +1620,7 @@
     "pct": 40.0,
     "pct_valid": 43.0108,
     "votos": 1,
-    "weight": 0.03,
+    "weight": 0.02919,
     "Lula": 43.0108,
     "Flávio": 39.7849
    },
@@ -1618,7 +1646,7 @@
     "pct": 39.0,
     "pct_valid": 41.9355,
     "votos": 1,
-    "weight": 0.01061,
+    "weight": 0.01032,
     "Lula": 41.9355,
     "Flávio": 35.4839
    },
@@ -1644,7 +1672,7 @@
     "pct": 38.4,
     "pct_valid": 40.592,
     "votos": 1,
-    "weight": 0.03778,
+    "weight": 0.03676,
     "Lula": 40.592,
     "Flávio": 42.7061
    },
@@ -1670,7 +1698,7 @@
     "pct": 38.0,
     "pct_valid": 40.0,
     "votos": 1,
-    "weight": 0.01601,
+    "weight": 0.01558,
     "Lula": 40.0,
     "Flávio": 37.8947
    },
@@ -1696,7 +1724,7 @@
     "pct": 45.8,
     "pct_valid": 46.3563,
     "votos": 1,
-    "weight": 0.03309,
+    "weight": 0.0322,
     "Lula": 46.3563,
     "Flávio": 43.9271
    },
@@ -1722,7 +1750,7 @@
     "pct": 38.0,
     "pct_valid": 43.1818,
     "votos": 1,
-    "weight": 0.02229,
+    "weight": 0.01579,
     "Lula": 43.1818,
     "Flávio": 37.5
    },
@@ -1748,7 +1776,7 @@
     "pct": 38.0,
     "pct_valid": 44.186,
     "votos": 1,
-    "weight": 0.05486,
+    "weight": 0.05338,
     "Lula": 44.186,
     "Flávio": 39.5349
    },
@@ -1774,7 +1802,7 @@
     "pct": 34.0,
     "pct_valid": 38.2022,
     "votos": 1,
-    "weight": 0.0256,
+    "weight": 0.02491,
     "Lula": 38.2022,
     "Flávio": 41.573
    },
@@ -1800,7 +1828,7 @@
     "pct": 37.1,
     "pct_valid": 42.3516,
     "votos": 1,
-    "weight": 0.02364,
+    "weight": 0.023,
     "Lula": 42.3516,
     "Flávio": 39.726
    },
@@ -1826,7 +1854,7 @@
     "pct": 42.0,
     "pct_valid": 44.6809,
     "votos": 1,
-    "weight": 0.02121,
+    "weight": 0.02064,
     "Lula": 44.6809,
     "Flávio": 39.3617
    },
@@ -1852,7 +1880,7 @@
     "pct": 38.7,
     "pct_valid": 41.2141,
     "votos": 1,
-    "weight": 0.0121,
+    "weight": 0.01177,
     "Lula": 41.2141,
     "Flávio": 35.7827
    },
@@ -1878,7 +1906,7 @@
     "pct": 38.0,
     "pct_valid": 40.4255,
     "votos": 1,
-    "weight": 0.00801,
+    "weight": 0.00779,
     "Lula": 40.4255,
     "Flávio": 37.234
    },
@@ -1904,7 +1932,7 @@
     "pct": 36.0,
     "pct_valid": 43.3735,
     "votos": 1,
-    "weight": 0.02112,
+    "weight": 0.02055,
     "Lula": 43.3735,
     "Flávio": 37.3494
    },
@@ -1930,7 +1958,7 @@
     "pct": 43.0,
     "pct_valid": 43.4343,
     "votos": 1,
-    "weight": 0.06098,
+    "weight": 0.05934,
     "Lula": 43.4343,
     "Flávio": 43.4343
    },
@@ -1956,7 +1984,7 @@
     "pct": 37.0,
     "pct_valid": 43.5294,
     "votos": 1,
-    "weight": 0.02987,
+    "weight": 0.02906,
     "Lula": 43.5294,
     "Flávio": 38.8235
    },
@@ -1982,7 +2010,7 @@
     "pct": 36.0,
     "pct_valid": 43.9024,
     "votos": 1,
-    "weight": 0.01493,
+    "weight": 0.01453,
     "Lula": 43.9024,
     "Flávio": 35.3659
    },
@@ -2008,7 +2036,7 @@
     "pct": 37.0,
     "pct_valid": 40.6593,
     "votos": 1,
-    "weight": 0.03804,
+    "weight": 0.03702,
     "Lula": 40.6593,
     "Flávio": 43.956
    },
@@ -2034,7 +2062,7 @@
     "pct": 38.4,
     "pct_valid": 40.4636,
     "votos": 1,
-    "weight": 0.04076,
+    "weight": 0.03966,
     "Lula": 40.4636,
     "Flávio": 39.3045
    },
@@ -2060,7 +2088,7 @@
     "pct": 38.3,
     "pct_valid": 40.8316,
     "votos": 1,
-    "weight": 0.02671,
+    "weight": 0.02599,
     "Lula": 40.8316,
     "Flávio": 40.1919
    },
@@ -2086,7 +2114,7 @@
     "pct": 43.0,
     "pct_valid": 43.4343,
     "votos": 1,
-    "weight": 0.01738,
+    "weight": 0.01692,
     "Lula": 43.4343,
     "Flávio": 37.7778
    }
@@ -2096,192 +2124,192 @@
  "pres_lean": {
   "AC": {
    "Lula": 27.5,
-   "Flávio": 60.2,
+   "Flávio": 60.5,
    "Caiado": 3.1,
    "Zema": 1.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + DATA CONTROL INSTITUTO DE PESQUISA/INSTITUTO TRAVESSIA DIAGNOSTICO LTDA/PERFIL PESQUISAS/Quaest/Real Time Big Data estadual (w=0.54)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + DATA CONTROL INSTITUTO DE PESQUISA/INSTITUTO TRAVESSIA DIAGNOSTICO LTDA/PERFIL PESQUISAS/Quaest/Real Time Big Data estadual (w=0.53)"
   },
   "AL": {
-   "Lula": 54.1,
-   "Flávio": 38.7,
-   "Caiado": 2.6,
-   "Zema": 2.0,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/DataTrends/Real Time Big Data estadual (w=0.42)"
+   "Lula": 53.5,
+   "Flávio": 37.5,
+   "Caiado": 2.5,
+   "Zema": 1.8,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/DataTrends/Real Time Big Data estadual (w=0.54)"
   },
   "AM": {
-   "Lula": 47.6,
-   "Flávio": 47.9,
-   "Caiado": 2.8,
-   "Zema": 2.5,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/Real Time Big Data estadual (w=0.22)"
+   "Lula": 45.1,
+   "Flávio": 43.7,
+   "Caiado": 2.2,
+   "Zema": 1.5,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/PoderData/Quaest estadual (w=0.52)"
   },
   "AP": {
-   "Lula": 47.3,
-   "Flávio": 43.5,
+   "Lula": 46.1,
+   "Flávio": 41.6,
    "Caiado": 3.0,
-   "Zema": 2.7,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Doxa/Real Time Big Data estadual (w=0.31)"
+   "Zema": 1.9,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Doxa/Quaest/Real Time Big Data estadual (w=0.47)"
   },
   "BA": {
-   "Lula": 51.6,
-   "Flávio": 22.1,
-   "Caiado": 3.6,
-   "Zema": 1.2,
-   "basis": "Quaest 23–27/07 + AtlasIntel/Futura/Quaest/Real Time Big Data estadual (w=0.45)"
+   "Lula": 53.0,
+   "Flávio": 21.8,
+   "Caiado": 3.3,
+   "Zema": 1.0,
+   "basis": "Quaest 23–27/07 + AtlasIntel/Futura/Quaest/Real Time Big Data estadual (w=0.53)"
   },
   "CE": {
    "Lula": 55.5,
-   "Flávio": 23.8,
+   "Flávio": 23.7,
    "Caiado": 1.7,
-   "Zema": 1.1,
-   "basis": "Quaest 24–28/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.70)"
+   "Zema": 1.2,
+   "basis": "Quaest 24–28/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.69)"
   },
   "DF": {
    "Lula": 31.2,
    "Flávio": 33.8,
    "Caiado": 6.5,
    "Zema": 2.7,
-   "basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Igape/Quaest estadual (w=0.49)"
+   "basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Igape/Quaest estadual (w=0.48)"
   },
   "ES": {
    "Lula": 37.3,
-   "Flávio": 48.5,
-   "Caiado": 2.8,
-   "Zema": 2.6,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/Franca/INSTITUTO DE PESQUISAS PERFIL LTDA/Quaest/Real Time Big Data estadual (w=0.47)"
+   "Flávio": 46.8,
+   "Caiado": 3.1,
+   "Zema": 2.5,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/Franca/INSTITUTO DE PESQUISAS PERFIL LTDA/Quaest/Real Time Big Data estadual (w=0.57)"
   },
   "GO": {
-   "Lula": 23.6,
-   "Flávio": 30.5,
-   "Caiado": 26.4,
-   "Zema": 1.6,
-   "basis": "Quaest 24–28/07 + AtlasIntel/Igape/Quaest/Real Time Big Data estadual (w=0.62)"
+   "Lula": 24.1,
+   "Flávio": 30.9,
+   "Caiado": 26.0,
+   "Zema": 1.4,
+   "basis": "Quaest 24–28/07 + AtlasIntel/Igape/Quaest/Real Time Big Data estadual (w=0.66)"
   },
   "MA": {
    "Lula": 68.4,
-   "Flávio": 29.1,
+   "Flávio": 29.2,
    "Caiado": 2.6,
    "Zema": 1.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Real Time Big Data estadual (w=0.19)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Real Time Big Data estadual (w=0.18)"
   },
   "MG": {
    "Lula": 34.4,
-   "Flávio": 30.9,
+   "Flávio": 30.8,
    "Caiado": 2.7,
-   "Zema": 7.8,
-   "basis": "Quaest 22–26/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.61)"
+   "Zema": 7.9,
+   "basis": "Quaest 22–26/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.60)"
   },
   "MS": {
-   "Lula": 33.3,
-   "Flávio": 48.5,
+   "Lula": 33.4,
+   "Flávio": 48.7,
    "Caiado": 3.1,
-   "Zema": 1.5,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/INSTITUTO DE PESQUISA RESULTADO IPR/IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA/NOVO IBRAPE/Ranking Pesquisas/Real Time Big Data estadual (w=0.67)"
+   "Zema": 1.6,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/INSTITUTO DE PESQUISA RESULTADO IPR/IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA/NOVO IBRAPE/Ranking Pesquisas/Real Time Big Data estadual (w=0.66)"
   },
   "MT": {
    "Lula": 33.1,
-   "Flávio": 61.2,
-   "Caiado": 2.7,
+   "Flávio": 61.3,
+   "Caiado": 2.8,
    "Zema": 2.4,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/Real Time Big Data estadual (w=0.29)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/Real Time Big Data estadual (w=0.28)"
   },
   "PA": {
    "Lula": 39.4,
    "Flávio": 32.0,
-   "Caiado": 2.0,
+   "Caiado": 2.1,
    "Zema": 1.4,
-   "basis": "Quaest 21–25/07 + AtlasIntel/Doxa/Quaest/Real Time Big Data estadual (w=0.54)"
+   "basis": "Quaest 21–25/07 + AtlasIntel/Doxa/Quaest/Real Time Big Data estadual (w=0.53)"
   },
   "PB": {
-   "Lula": 60.4,
-   "Flávio": 29.6,
+   "Lula": 60.5,
+   "Flávio": 29.7,
    "Caiado": 2.4,
-   "Zema": 1.1,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + ANOVA INSTITUTO DE PESQUISA/AtlasIntel/Quaest estadual (w=0.44)"
+   "Zema": 1.2,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + ANOVA INSTITUTO DE PESQUISA/AtlasIntel/Quaest estadual (w=0.43)"
   },
   "PE": {
    "Lula": 55.3,
-   "Flávio": 24.1,
+   "Flávio": 24.0,
    "Caiado": 1.3,
    "Zema": 0.7,
-   "basis": "Quaest 22–26/07 + AtlasIntel/DataTrends/Datafolha/Quaest/Real Time Big Data estadual (w=0.72)"
+   "basis": "Quaest 22–26/07 + AtlasIntel/DataTrends/Datafolha/Quaest/Real Time Big Data estadual (w=0.71)"
   },
   "PI": {
-   "Lula": 69.3,
+   "Lula": 69.5,
    "Flávio": 22.5,
    "Caiado": 2.2,
    "Zema": 1.6,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/DataTrends/Datafolha estadual (w=0.39)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/DataTrends/Datafolha estadual (w=0.38)"
   },
   "PR": {
-   "Lula": 28.0,
-   "Flávio": 48.7,
-   "Caiado": 3.2,
+   "Lula": 27.7,
+   "Flávio": 47.4,
+   "Caiado": 3.3,
    "Zema": 1.6,
-   "basis": "Quaest 21–25/07 + AtlasIntel/NeoKemp/Real Time Big Data estadual (w=0.66)"
+   "basis": "Quaest 21–25/07 + AtlasIntel/NeoKemp/Quaest/Real Time Big Data estadual (w=0.69)"
   },
   "RJ": {
    "Lula": 31.4,
-   "Flávio": 34.1,
+   "Flávio": 34.0,
    "Caiado": 2.7,
    "Zema": 2.1,
-   "basis": "Quaest 21–25/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.50)"
+   "basis": "Quaest 21–25/07 + AtlasIntel/Datafolha/Quaest/Real Time Big Data estadual (w=0.48)"
   },
   "RN": {
-   "Lula": 57.4,
-   "Flávio": 28.9,
-   "Caiado": 1.8,
+   "Lula": 57.0,
+   "Flávio": 29.5,
+   "Caiado": 1.7,
    "Zema": 0.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/METADATA/PARLA MENTORS CONSULTORIA/PERFIL PESQUISAS TECNICAS/Real Time Big Data estadual (w=0.70)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/METADATA/PARLA MENTORS CONSULTORIA/PERFIL PESQUISAS TECNICAS/Real Time Big Data estadual (w=0.73)"
   },
   "RO": {
-   "Lula": 28.1,
-   "Flávio": 71.9,
-   "Caiado": 3,
-   "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2"
+   "Lula": 25.3,
+   "Flávio": 66.0,
+   "Caiado": 3.0,
+   "Zema": 2.1,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Quaest estadual (w=0.31)"
   },
   "RR": {
    "Lula": 21.4,
-   "Flávio": 72.4,
+   "Flávio": 72.6,
    "Caiado": 3.0,
    "Zema": 2.5,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Quaest/Real Time Big Data estadual (w=0.26)"
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Quaest/Real Time Big Data estadual (w=0.25)"
   },
   "RS": {
-   "Lula": 32.6,
+   "Lula": 32.2,
    "Flávio": 34.8,
-   "Caiado": 2.7,
-   "Zema": 2.4,
-   "basis": "Quaest 24–28/07 + AtlasIntel/Real Time Big Data estadual (w=0.28)"
+   "Caiado": 2.8,
+   "Zema": 2.1,
+   "basis": "Quaest 24–28/07 + AtlasIntel/Quaest/Real Time Big Data estadual (w=0.45)"
   },
   "SC": {
-   "Lula": 27.6,
-   "Flávio": 61.4,
-   "Caiado": 3.1,
-   "Zema": 3.1,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/NeoKemp/Real Time Big Data estadual (w=0.49)"
+   "Lula": 26.8,
+   "Flávio": 59.4,
+   "Caiado": 3.0,
+   "Zema": 2.6,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + AtlasIntel/NeoKemp/Quaest/Real Time Big Data estadual (w=0.58)"
   },
   "SE": {
-   "Lula": 61.3,
-   "Flávio": 28.6,
-   "Caiado": 2.4,
-   "Zema": 1.3,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Franca/Quaest/Real Time Big Data estadual (w=0.49)"
+   "Lula": 60.0,
+   "Flávio": 28.2,
+   "Caiado": 2.1,
+   "Zema": 1.1,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Franca/Quaest/Real Time Big Data estadual (w=0.58)"
   },
   "SP": {
    "Lula": 31.6,
    "Flávio": 35.5,
    "Caiado": 3.5,
    "Zema": 2.3,
-   "basis": "Quaest 23–27/07 + AtlasIntel/Datafolha/Futura/Quaest/Real Time Big Data estadual (w=0.58)"
+   "basis": "Quaest 23–27/07 + AtlasIntel/Datafolha/Futura/Quaest/Real Time Big Data estadual (w=0.57)"
   },
   "TO": {
-   "Lula": 42.7,
-   "Flávio": 42.9,
-   "Caiado": 4.7,
-   "Zema": 1.7,
-   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Paraná Pesquisas/Quaest/Real Time Big Data estadual (w=0.54)"
+   "Lula": 43.2,
+   "Flávio": 43.4,
+   "Caiado": 4.6,
+   "Zema": 1.8,
+   "basis": "proxy 2º turno 2022 + swing nac. -1.2 + Paraná Pesquisas/Quaest/Real Time Big Data estadual (w=0.50)"
   }
  },
  "state_polls": {
@@ -2868,6 +2896,28 @@
    },
    {
     "pollster": "Real Time Big Data",
+    "date": "24/09/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-em-alagoas-lula-tem-53-no-2o-turno-flavio-38/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 53.0,
+     "Flávio": 38.0
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "24/09/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-em-alagoas-lula-tem-53-no-2o-turno-flavio-38/",
+    "first_round": {
+     "Lula": 51.0,
+     "Flávio": 33.0,
+     "Zema": 1.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
     "date": "30/06/2026",
     "url": "https://static.poder360.com.br/uploads/2026/07/pesquisa-realtimebigdata-presidencial-alagoas-1jun26.pdf",
     "first_round": null,
@@ -2966,6 +3016,18 @@
      "Flávio": 49.1,
      "Zema": 3.8,
      "Caiado": 6.9
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/09/24/quaest-parana-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 26.0,
+     "Flávio": 40.0,
+     "Zema": 2.0,
+     "Caiado": 4.0
     },
     "runoff": null
    },
@@ -4176,6 +4238,253 @@
     }
    }
   ],
+  "ES": [
+   {
+    "pollster": "Real Time Big Data",
+    "date": "24/09/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-no-espirito-santo-flavio-tem-48-no-2o-turno-lula-41/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 41.0,
+     "Flávio": 48.0
+    }
+   },
+   {
+    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
+    "date": "16/07/2026",
+    "url": "https://eshoje.com.br/politica/2026/07/pesquisa-eleitoral-espirito-santo-lula-flavio-bolsonaro-perfil-2026/",
+    "first_round": {
+     "Lula": 41.94,
+     "Flávio": 26.11,
+     "Zema": 3.56,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Franca",
+    "date": "07/07/2026",
+    "url": "https://vixfeed.com/pesquisa-lula-encurta-distancia-e-vantagem-de-flavio-bolsonaro-cai-pela-metade-no-es/",
+    "first_round": {
+     "Lula": 30.82,
+     "Flávio": 35.03,
+     "Zema": 1.77,
+     "Caiado": 4.21
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "24/09/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-no-espirito-santo-flavio-tem-48-no-2o-turno-lula-41/",
+    "first_round": {
+     "Lula": 37.0,
+     "Flávio": 39.0,
+     "Zema": 2.0,
+     "Caiado": 4.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "08/09/2026",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-eventual-2o-turno-no-es-diz-pesquisa/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 47.0
+    }
+   },
+   {
+    "pollster": "Franca",
+    "date": "07/07/2026",
+    "url": "https://vixfeed.com/pesquisa-lula-encurta-distancia-e-vantagem-de-flavio-bolsonaro-cai-pela-metade-no-es/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 37.03,
+     "Flávio": 44.79
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "08/06/2026",
+    "url": "https://static.poder360.com.br/2026/06/Presidente-ES-BR-03811-Jun-26.pdf",
+    "first_round": null,
+    "runoff": {
+     "Lula": 43.0,
+     "Flávio": 48.0
+    }
+   },
+   {
+    "pollster": "Franca",
+    "date": "26/08/2026",
+    "url": "https://vixfeed.com/pesquisa-flavio-bolsonaro-amplia-vantagem-sobre-lula-no-es/",
+    "first_round": {
+     "Lula": 31.22,
+     "Flávio": 38.24,
+     "Zema": 2.26,
+     "Caiado": 4.52
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Franca",
+    "date": "26/08/2026",
+    "url": "https://vixfeed.com/pesquisa-flavio-bolsonaro-amplia-vantagem-sobre-lula-no-es/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 35.97,
+     "Flávio": 45.93
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "08/06/2026",
+    "url": "https://static.poder360.com.br/2026/06/Presidente-ES-BR-03811-Jun-26.pdf",
+    "first_round": {
+     "Lula": 34.0,
+     "Flávio": 35.0,
+     "Zema": 8.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "25/03/2026",
+    "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/03/30/quaest-flavio-bolsonaro-lidera-sobre-lula-no-1-turno-no-es.ghtm",
+    "first_round": {
+     "Lula": 26.0,
+     "Flávio": 37.0,
+     "Zema": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "08/09/2026",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-eventual-2o-turno-no-es-diz-pesquisa/",
+    "first_round": {
+     "Lula": 35.0,
+     "Flávio": 35.0,
+     "Zema": 2.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
+    "date": "30/08/2026",
+    "url": "https://eshoje.com.br/politica/2026/08/pesquisa-lula-bolsonaro-es/",
+    "first_round": {
+     "Lula": 34.39,
+     "Flávio": 29.28,
+     "Zema": 2.0,
+     "Caiado": 1.5
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "26/08/2026",
+    "url": "https://www.moneytimes.com.br/flavio-bolsonaro-e-lula-empatam-e-governador-lidera-a-reeleicao-no-espirito-santo-mostra-real-time-big-data-gaep/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 48.0
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "21/07/2026",
+    "url": "https://www.cartacapital.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-espirito-santo-segundo-nova-pesquisa-real-time-big-data/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 43.0,
+     "Flávio": 49.0
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "21/07/2026",
+    "url": "https://www.cartacapital.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-espirito-santo-segundo-nova-pesquisa-real-time-big-data/",
+    "first_round": {
+     "Lula": 34.0,
+     "Flávio": 36.0,
+     "Zema": 6.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
+    "date": "30/08/2026",
+    "url": "https://eshoje.com.br/politica/2026/08/pesquisa-lula-bolsonaro-es/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 41.78,
+     "Flávio": 40.61
+    }
+   },
+   {
+    "pollster": "AtlasIntel",
+    "date": "31/08/2026",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-54-contra-36-de-lula-no-2o-turno-no-es-diz-pesquisa/",
+    "first_round": {
+     "Lula": 33.6,
+     "Flávio": 44.5,
+     "Zema": 1.5,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "AtlasIntel",
+    "date": "31/08/2026",
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-54-contra-36-de-lula-no-2o-turno-no-es-diz-pesquisa/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 36.7,
+     "Flávio": 53.5
+    }
+   },
+   {
+    "pollster": "Quaest",
+    "date": "26/08/2026",
+    "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/08/27/quaest-espirito-santo-presidente-27-agosto.ghtml",
+    "first_round": {
+     "Lula": 30.0,
+     "Flávio": 37.0,
+     "Zema": 2.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "26/08/2026",
+    "url": "https://www.moneytimes.com.br/flavio-bolsonaro-e-lula-empatam-e-governador-lidera-a-reeleicao-no-espirito-santo-mostra-real-time-big-data-gaep/",
+    "first_round": {
+     "Lula": 34.0,
+     "Flávio": 35.0,
+     "Zema": 4.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "14/03/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-lidera-cenarios-de-1o-turno-no-espirito-santo/",
+    "first_round": {
+     "Lula": 34.0,
+     "Flávio": 40.0,
+     "Zema": 6.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   }
+  ],
   "MG": [
    {
     "pollster": "AtlasIntel",
@@ -4964,6 +5273,200 @@
     }
    }
   ],
+  "RS": [
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/24/quaest-rs-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 31.0,
+     "Flávio": 35.0,
+     "Zema": 1.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "24/08/2026",
+    "url": "https://www.clmbrasil.com.br/flavio-lidera-com-dez-pontos-de-frente-sobre-lula-entre-eleitores-gauchos-no-segundo-turno",
+    "first_round": null,
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 52.0
+    }
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "24/08/2026",
+    "url": "https://www.clmbrasil.com.br/flavio-lidera-com-dez-pontos-de-frente-sobre-lula-entre-eleitores-gauchos-no-segundo-turno",
+    "first_round": {
+     "Lula": 39.0,
+     "Flávio": 40.0,
+     "Zema": 2.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "09/09/2026",
+    "url": "https://www.metropoles.com/brasil/rs-flavio-tem-53-e-lula-42-no-2o-turno-diz-real-time-big-data",
+    "first_round": null,
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 53.0
+    }
+   },
+   {
+    "pollster": "Brasmarket",
+    "date": "03/06/2026",
+    "url": "https://www.aplateia.com.br/wp-content/uploads/2026/06/Brasmarket_Pesquisa_Eleitoral_-_RS_-_JUNHO-compactado.pdf",
+    "first_round": {
+     "Lula": 26.2,
+     "Flávio": 43.3,
+     "Zema": 4.4,
+     "Caiado": 4.8
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "28/04/2026",
+    "url": "",
+    "first_round": null,
+    "runoff": {
+     "Lula": 31.0,
+     "Flávio": 57.0
+    }
+   },
+   {
+    "pollster": "Quaest",
+    "date": "28/07/2026",
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/07/30/quaest-rs-presidente-julho.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 35.0,
+     "Flávio": 40.0
+    }
+   },
+   {
+    "pollster": "AtlasIntel",
+    "date": "01/09/2026",
+    "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-504-contra-42-de-lula-no-2o-turno-no-rs-diz-pesquisa/",
+    "first_round": {
+     "Lula": 39.7,
+     "Flávio": 41.3,
+     "Zema": 0.7,
+     "Caiado": 2.2
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/08/2026",
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-presidente-24-agosto.ghtml",
+    "first_round": {
+     "Lula": 28.0,
+     "Flávio": 34.0,
+     "Zema": 2.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "28/07/2026",
+    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/07/30/quaest-rs-presidente-julho.ghtml",
+    "first_round": {
+     "Lula": 30.0,
+     "Flávio": 32.0,
+     "Zema": 1.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "22/06/2026",
+    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-42-e-lula-39-no-1o-turno-no-rs/",
+    "first_round": {
+     "Lula": 39.0,
+     "Flávio": 42.0,
+     "Zema": 2.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Futura",
+    "date": "06/04/2026",
+    "url": "https://static.poder360.com.br/2026/04/pesquisa-futuraapex-abril-2026.pdf",
+    "first_round": {
+     "Lula": 34.1,
+     "Flávio": 40.9,
+     "Zema": 3.3,
+     "Caiado": 4.7
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "09/09/2026",
+    "url": "https://www.metropoles.com/brasil/rs-flavio-tem-53-e-lula-42-no-2o-turno-diz-real-time-big-data",
+    "first_round": {
+     "Lula": 39.0,
+     "Flávio": 42.0,
+     "Zema": 1.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Futura",
+    "date": "06/04/2026",
+    "url": "https://static.poder360.com.br/2026/04/pesquisa-futuraapex-abril-2026.pdf",
+    "first_round": null,
+    "runoff": {
+     "Lula": 39.3,
+     "Flávio": 50.1
+    }
+   },
+   {
+    "pollster": "AtlasIntel",
+    "date": "01/09/2026",
+    "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-504-contra-42-de-lula-no-2o-turno-no-rs-diz-pesquisa/",
+    "first_round": null,
+    "runoff": {
+     "Lula": 42.0,
+     "Flávio": 50.4
+    }
+   },
+   {
+    "pollster": "Brasmarket",
+    "date": "03/07/2026",
+    "url": "https://www.gninoticias.com.br/post/no-rs-fl%C3%A1vio-lidera-inten%C3%A7%C3%B5es-de-voto-para-presidente-com-44-lula-tem-25-2",
+    "first_round": {
+     "Lula": 25.2,
+     "Flávio": 44.0,
+     "Zema": 7.8,
+     "Caiado": 4.4
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Real Time Big Data",
+    "date": "16/03/2026",
+    "url": "https://static.poder360.com.br/2026/03/pesquisa-realtime-bigdata-presidencia-rs-17-mar-2026.pdf",
+    "first_round": {
+     "Lula": 40.0,
+     "Flávio": 42.0,
+     "Zema": 3.0,
+     "Caiado": 4.0
+    },
+    "runoff": null
+   }
+  ],
   "PI": [
    {
     "pollster": "Datafolha",
@@ -5544,6 +6047,18 @@
     "runoff": null
    },
    {
+    "pollster": "EXATUS CONSULTORIA E PESQUISA",
+    "date": "23/09/2026",
+    "url": "https://agorarn.com.br/politica/exatus-lula-flavio-pesquisa-rn/",
+    "first_round": {
+     "Lula": 53.75,
+     "Flávio": 32.49,
+     "Zema": 0.14,
+     "Caiado": 1.07
+    },
+    "runoff": null
+   },
+   {
     "pollster": "CONSULT PESQUISA",
     "date": "05/07/2026",
     "url": "https://www.carloscosta.com.br/2026/07/pesquisa-tribuna-do-norteinstituto.html",
@@ -5747,6 +6262,16 @@
    },
    {
     "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/24/quaest-bahia-presidente-24-setembro.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 62.0,
+     "Flávio": 27.0
+    }
+   },
+   {
+    "pollster": "Quaest",
     "date": "26/08/2026",
     "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/08/27/quaest-ba-presidente-27-agosto.ghtml",
     "first_round": {
@@ -5754,6 +6279,18 @@
      "Flávio": 17.0,
      "Zema": 1.0,
      "Caiado": 4.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/24/quaest-bahia-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 58.0,
+     "Flávio": 23.0,
+     "Zema": 0.0,
+     "Caiado": 2.0
     },
     "runoff": null
    },
@@ -6553,231 +7090,6 @@
     "runoff": null
    }
   ],
-  "ES": [
-   {
-    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
-    "date": "16/07/2026",
-    "url": "https://eshoje.com.br/politica/2026/07/pesquisa-eleitoral-espirito-santo-lula-flavio-bolsonaro-perfil-2026/",
-    "first_round": {
-     "Lula": 41.94,
-     "Flávio": 26.11,
-     "Zema": 3.56,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Franca",
-    "date": "07/07/2026",
-    "url": "https://vixfeed.com/pesquisa-lula-encurta-distancia-e-vantagem-de-flavio-bolsonaro-cai-pela-metade-no-es/",
-    "first_round": {
-     "Lula": 30.82,
-     "Flávio": 35.03,
-     "Zema": 1.77,
-     "Caiado": 4.21
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "08/09/2026",
-    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-eventual-2o-turno-no-es-diz-pesquisa/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 42.0,
-     "Flávio": 47.0
-    }
-   },
-   {
-    "pollster": "Franca",
-    "date": "07/07/2026",
-    "url": "https://vixfeed.com/pesquisa-lula-encurta-distancia-e-vantagem-de-flavio-bolsonaro-cai-pela-metade-no-es/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 37.03,
-     "Flávio": 44.79
-    }
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "08/06/2026",
-    "url": "https://static.poder360.com.br/2026/06/Presidente-ES-BR-03811-Jun-26.pdf",
-    "first_round": null,
-    "runoff": {
-     "Lula": 43.0,
-     "Flávio": 48.0
-    }
-   },
-   {
-    "pollster": "Franca",
-    "date": "26/08/2026",
-    "url": "https://vixfeed.com/pesquisa-flavio-bolsonaro-amplia-vantagem-sobre-lula-no-es/",
-    "first_round": {
-     "Lula": 31.22,
-     "Flávio": 38.24,
-     "Zema": 2.26,
-     "Caiado": 4.52
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Franca",
-    "date": "26/08/2026",
-    "url": "https://vixfeed.com/pesquisa-flavio-bolsonaro-amplia-vantagem-sobre-lula-no-es/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 35.97,
-     "Flávio": 45.93
-    }
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "08/06/2026",
-    "url": "https://static.poder360.com.br/2026/06/Presidente-ES-BR-03811-Jun-26.pdf",
-    "first_round": {
-     "Lula": 34.0,
-     "Flávio": 35.0,
-     "Zema": 8.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Quaest",
-    "date": "25/03/2026",
-    "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2026/03/30/quaest-flavio-bolsonaro-lidera-sobre-lula-no-1-turno-no-es.ghtm",
-    "first_round": {
-     "Lula": 26.0,
-     "Flávio": 37.0,
-     "Zema": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "08/09/2026",
-    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-eventual-2o-turno-no-es-diz-pesquisa/",
-    "first_round": {
-     "Lula": 35.0,
-     "Flávio": 35.0,
-     "Zema": 2.0,
-     "Caiado": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
-    "date": "30/08/2026",
-    "url": "https://eshoje.com.br/politica/2026/08/pesquisa-lula-bolsonaro-es/",
-    "first_round": {
-     "Lula": 34.39,
-     "Flávio": 29.28,
-     "Zema": 2.0,
-     "Caiado": 1.5
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "26/08/2026",
-    "url": "https://www.moneytimes.com.br/flavio-bolsonaro-e-lula-empatam-e-governador-lidera-a-reeleicao-no-espirito-santo-mostra-real-time-big-data-gaep/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 42.0,
-     "Flávio": 48.0
-    }
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "21/07/2026",
-    "url": "https://www.cartacapital.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-espirito-santo-segundo-nova-pesquisa-real-time-big-data/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 43.0,
-     "Flávio": 49.0
-    }
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "21/07/2026",
-    "url": "https://www.cartacapital.com.br/politica/a-disputa-entre-lula-e-flavio-bolsonaro-no-espirito-santo-segundo-nova-pesquisa-real-time-big-data/",
-    "first_round": {
-     "Lula": 34.0,
-     "Flávio": 36.0,
-     "Zema": 6.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
-    "date": "30/08/2026",
-    "url": "https://eshoje.com.br/politica/2026/08/pesquisa-lula-bolsonaro-es/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 41.78,
-     "Flávio": 40.61
-    }
-   },
-   {
-    "pollster": "AtlasIntel",
-    "date": "31/08/2026",
-    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-54-contra-36-de-lula-no-2o-turno-no-es-diz-pesquisa/",
-    "first_round": {
-     "Lula": 33.6,
-     "Flávio": 44.5,
-     "Zema": 1.5,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "AtlasIntel",
-    "date": "31/08/2026",
-    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-54-contra-36-de-lula-no-2o-turno-no-es-diz-pesquisa/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 36.7,
-     "Flávio": 53.5
-    }
-   },
-   {
-    "pollster": "Quaest",
-    "date": "26/08/2026",
-    "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/08/27/quaest-espirito-santo-presidente-27-agosto.ghtml",
-    "first_round": {
-     "Lula": 30.0,
-     "Flávio": 37.0,
-     "Zema": 2.0,
-     "Caiado": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "26/08/2026",
-    "url": "https://www.moneytimes.com.br/flavio-bolsonaro-e-lula-empatam-e-governador-lidera-a-reeleicao-no-espirito-santo-mostra-real-time-big-data-gaep/",
-    "first_round": {
-     "Lula": 34.0,
-     "Flávio": 35.0,
-     "Zema": 4.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "14/03/2026",
-    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-lidera-cenarios-de-1o-turno-no-espirito-santo/",
-    "first_round": {
-     "Lula": 34.0,
-     "Flávio": 40.0,
-     "Zema": 6.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   }
-  ],
   "SC": [
    {
     "pollster": "NeoKemp",
@@ -6858,6 +7170,18 @@
      "Flávio": 48.0,
      "Zema": 4.3,
      "Caiado": 3.2
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/09/24/quaest-santa-catarina-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 23.0,
+     "Flávio": 50.0,
+     "Zema": 1.0,
+     "Caiado": 3.0
     },
     "runoff": null
    },
@@ -6966,6 +7290,28 @@
      "Flávio": 33.0,
      "Zema": 1.0,
      "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ap/amapa/eleicoes/2026/noticia/2026/09/24/quaest-no-amapa-lula-42percent-flavio-bolsonaro-35percent.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 47.0,
+     "Flávio": 48.0
+    }
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ap/amapa/eleicoes/2026/noticia/2026/09/24/quaest-no-amapa-lula-42percent-flavio-bolsonaro-35percent.ghtml",
+    "first_round": {
+     "Lula": 42.0,
+     "Flávio": 35.0,
+     "Zema": 0.0,
+     "Caiado": 3.0
     },
     "runoff": null
    },
@@ -7104,6 +7450,28 @@
     }
    },
    {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/09/24/quaest-se-presidente-24-setembro.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 56.0,
+     "Flávio": 30.0
+    }
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/09/24/quaest-se-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 54.0,
+     "Flávio": 26.0,
+     "Zema": 0.0,
+     "Caiado": 1.0
+    },
+    "runoff": null
+   },
+   {
     "pollster": "Franca",
     "date": "10/09/2026",
     "url": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-Franca-no-Sergipe-15-set-2026.pdf",
@@ -7223,188 +7591,6 @@
      "Lula": 57.6,
      "Flávio": 24.8
     }
-   }
-  ],
-  "RS": [
-   {
-    "pollster": "Real Time Big Data",
-    "date": "24/08/2026",
-    "url": "https://www.clmbrasil.com.br/flavio-lidera-com-dez-pontos-de-frente-sobre-lula-entre-eleitores-gauchos-no-segundo-turno",
-    "first_round": null,
-    "runoff": {
-     "Lula": 42.0,
-     "Flávio": 52.0
-    }
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "24/08/2026",
-    "url": "https://www.clmbrasil.com.br/flavio-lidera-com-dez-pontos-de-frente-sobre-lula-entre-eleitores-gauchos-no-segundo-turno",
-    "first_round": {
-     "Lula": 39.0,
-     "Flávio": 40.0,
-     "Zema": 2.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "09/09/2026",
-    "url": "https://www.metropoles.com/brasil/rs-flavio-tem-53-e-lula-42-no-2o-turno-diz-real-time-big-data",
-    "first_round": null,
-    "runoff": {
-     "Lula": 42.0,
-     "Flávio": 53.0
-    }
-   },
-   {
-    "pollster": "Brasmarket",
-    "date": "03/06/2026",
-    "url": "https://www.aplateia.com.br/wp-content/uploads/2026/06/Brasmarket_Pesquisa_Eleitoral_-_RS_-_JUNHO-compactado.pdf",
-    "first_round": {
-     "Lula": 26.2,
-     "Flávio": 43.3,
-     "Zema": 4.4,
-     "Caiado": 4.8
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Quaest",
-    "date": "28/04/2026",
-    "url": "",
-    "first_round": null,
-    "runoff": {
-     "Lula": 31.0,
-     "Flávio": 57.0
-    }
-   },
-   {
-    "pollster": "Quaest",
-    "date": "28/07/2026",
-    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/07/30/quaest-rs-presidente-julho.ghtml",
-    "first_round": null,
-    "runoff": {
-     "Lula": 35.0,
-     "Flávio": 40.0
-    }
-   },
-   {
-    "pollster": "AtlasIntel",
-    "date": "01/09/2026",
-    "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-504-contra-42-de-lula-no-2o-turno-no-rs-diz-pesquisa/",
-    "first_round": {
-     "Lula": 39.7,
-     "Flávio": 41.3,
-     "Zema": 0.7,
-     "Caiado": 2.2
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Quaest",
-    "date": "23/08/2026",
-    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-presidente-24-agosto.ghtml",
-    "first_round": {
-     "Lula": 28.0,
-     "Flávio": 34.0,
-     "Zema": 2.0,
-     "Caiado": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Quaest",
-    "date": "28/07/2026",
-    "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/07/30/quaest-rs-presidente-julho.ghtml",
-    "first_round": {
-     "Lula": 30.0,
-     "Flávio": 32.0,
-     "Zema": 1.0,
-     "Caiado": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "22/06/2026",
-    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-42-e-lula-39-no-1o-turno-no-rs/",
-    "first_round": {
-     "Lula": 39.0,
-     "Flávio": 42.0,
-     "Zema": 2.0,
-     "Caiado": 3.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Futura",
-    "date": "06/04/2026",
-    "url": "https://static.poder360.com.br/2026/04/pesquisa-futuraapex-abril-2026.pdf",
-    "first_round": {
-     "Lula": 34.1,
-     "Flávio": 40.9,
-     "Zema": 3.3,
-     "Caiado": 4.7
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "09/09/2026",
-    "url": "https://www.metropoles.com/brasil/rs-flavio-tem-53-e-lula-42-no-2o-turno-diz-real-time-big-data",
-    "first_round": {
-     "Lula": 39.0,
-     "Flávio": 42.0,
-     "Zema": 1.0,
-     "Caiado": 2.0
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Futura",
-    "date": "06/04/2026",
-    "url": "https://static.poder360.com.br/2026/04/pesquisa-futuraapex-abril-2026.pdf",
-    "first_round": null,
-    "runoff": {
-     "Lula": 39.3,
-     "Flávio": 50.1
-    }
-   },
-   {
-    "pollster": "AtlasIntel",
-    "date": "01/09/2026",
-    "url": "https://www.poder360.com.br/poder-pesquisas/flavio-tem-504-contra-42-de-lula-no-2o-turno-no-rs-diz-pesquisa/",
-    "first_round": null,
-    "runoff": {
-     "Lula": 42.0,
-     "Flávio": 50.4
-    }
-   },
-   {
-    "pollster": "Brasmarket",
-    "date": "03/07/2026",
-    "url": "https://www.gninoticias.com.br/post/no-rs-fl%C3%A1vio-lidera-inten%C3%A7%C3%B5es-de-voto-para-presidente-com-44-lula-tem-25-2",
-    "first_round": {
-     "Lula": 25.2,
-     "Flávio": 44.0,
-     "Zema": 7.8,
-     "Caiado": 4.4
-    },
-    "runoff": null
-   },
-   {
-    "pollster": "Real Time Big Data",
-    "date": "16/03/2026",
-    "url": "https://static.poder360.com.br/2026/03/pesquisa-realtime-bigdata-presidencia-rs-17-mar-2026.pdf",
-    "first_round": {
-     "Lula": 40.0,
-     "Flávio": 42.0,
-     "Zema": 3.0,
-     "Caiado": 4.0
-    },
-    "runoff": null
    }
   ],
   "TO": [
@@ -7782,6 +7968,18 @@
     "runoff": null
    },
    {
+    "pollster": "PoderData",
+    "date": "23/09/2026",
+    "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+    "first_round": {
+     "Lula": 44.0,
+     "Flávio": 42.0,
+     "Zema": 0.0,
+     "Caiado": 1.0
+    },
+    "runoff": null
+   },
+   {
     "pollster": "Real Time Big Data",
     "date": "18/03/2026",
     "url": "https://www.pollingdata.com.br/links/relatorio_BR-04103-2026_Real-Time-Big-Data.pdf",
@@ -7886,6 +8084,28 @@
    },
    {
     "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-presidente-24-setembro.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 45.0,
+     "Flávio": 40.0
+    }
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 38.0,
+     "Flávio": 32.0,
+     "Zema": 0.0,
+     "Caiado": 2.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
     "date": "24/08/2026",
     "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/08/25/quaest-am-presidente-25-agosto.ghtml",
     "first_round": {
@@ -7900,6 +8120,18 @@
   "RO": [
    {
     "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-presidente-24-de-setembro.ghtml",
+    "first_round": {
+     "Lula": 19.0,
+     "Flávio": 53.0,
+     "Zema": 0.0,
+     "Caiado": 3.0
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
     "date": "24/08/2026",
     "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/08/25/quaest-ro-presidente-25-de-agosto.ghtml",
     "first_round": {
@@ -7909,6 +8141,16 @@
      "Caiado": 3.0
     },
     "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-presidente-24-de-setembro.ghtml",
+    "first_round": null,
+    "runoff": {
+     "Lula": 23.0,
+     "Flávio": 62.0
+    }
    },
    {
     "pollster": "Real Time Big Data",
@@ -8109,6 +8351,18 @@
      "Flávio": 31.2,
      "Zema": 1.1,
      "Caiado": 18.4
+    },
+    "runoff": null
+   },
+   {
+    "pollster": "Quaest",
+    "date": "23/09/2026",
+    "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/09/24/quaest-em-go-presidente-24-setembro.ghtml",
+    "first_round": {
+     "Lula": 27.0,
+     "Flávio": 33.0,
+     "Zema": 0.0,
+     "Caiado": 23.0
     },
     "runoff": null
    },
