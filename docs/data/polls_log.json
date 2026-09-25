@@ -1,6 +1,1668 @@
 {
- "generated_at": "2026-09-24",
+ "generated_at": "2026-09-25",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 5.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Gomes",
+     "party": "PL",
+     "pct": 26.31578947368421,
+     "pct_valid": 26.3158
+    },
+    {
+     "name": "Alexandre Guimarães",
+     "party": "MDB",
+     "pct": 16.842105263157894,
+     "pct_valid": 16.8421
+    },
+    {
+     "name": "Carlos Gaguim",
+     "party": "União",
+     "pct": 16.842105263157894,
+     "pct_valid": 16.8421
+    },
+    {
+     "name": "Paulo Mourão",
+     "party": "PT",
+     "pct": 11.578947368421053,
+     "pct_valid": 11.5789
+    },
+    {
+     "name": "Vanderlei Luxemburgo",
+     "party": "Podemos",
+     "pct": 10.526315789473683,
+     "pct_valid": 10.5263
+    },
+    {
+     "name": "Ronaldo Dimas",
+     "party": "Podemos",
+     "pct": 9.473684210526317,
+     "pct_valid": 9.4737
+    },
+    {
+     "name": "Eli Borges",
+     "party": "Republicanos",
+     "pct": 6.315789473684211,
+     "pct_valid": 6.3158
+    },
+    {
+     "name": "Professor Osvaldo",
+     "party": "PSOL",
+     "pct": 1.0526315789473684,
+     "pct_valid": 1.0526
+    },
+    {
+     "name": "Fábio Ribeiro",
+     "party": "Rede",
+     "pct": 1.0526315789473684,
+     "pct_valid": 1.0526
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.cartacapital.com.br/politica/real-time-em-tocantins-dorinha-lidera-em-1o-turno-e-empata-com-vicentinho-no-2o/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 45.0,
+     "pct_valid": 51.7241
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 42.0,
+     "pct_valid": 48.2759
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/24/senado-sp-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.66577683772132,
+   "undecided": 29.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marina Silva",
+     "party": "Rede",
+     "pct": 21.12676056338028,
+     "pct_valid": 21.1268
+    },
+    {
+     "name": "Simone Tebet",
+     "party": "PSB",
+     "pct": 19.718309859154928,
+     "pct_valid": 19.7183
+    },
+    {
+     "name": "André do Prado",
+     "party": "PL",
+     "pct": 16.901408450704224,
+     "pct_valid": 16.9014
+    },
+    {
+     "name": "Guilherme Derrite",
+     "party": "PP",
+     "pct": 16.901408450704224,
+     "pct_valid": 16.9014
+    },
+    {
+     "name": "Ricardo Salles",
+     "party": "Novo",
+     "pct": 5.633802816901409,
+     "pct_valid": 5.6338
+    },
+    {
+     "name": "Geraldo Rufino",
+     "party": "Podemos",
+     "pct": 4.225352112676056,
+     "pct_valid": 4.2254
+    },
+    {
+     "name": "Soninha Francine",
+     "party": "Cidadania",
+     "pct": 2.8169014084507045,
+     "pct_valid": 2.8169
+    },
+    {
+     "name": "Dra Eliana Ferreira",
+     "party": "PSTU",
+     "pct": 2.8169014084507045,
+     "pct_valid": 2.8169
+    },
+    {
+     "name": "Maíra De Souza",
+     "party": "UP",
+     "pct": 2.8169014084507045,
+     "pct_valid": 2.8169
+    },
+    {
+     "name": "Marcio Alves",
+     "party": "UP",
+     "pct": 2.8169014084507045,
+     "pct_valid": 2.8169
+    },
+    {
+     "name": "Weller Gonçalves",
+     "party": "PSTU",
+     "pct": 0.6626782461720333,
+     "pct_valid": 0.6627
+    },
+    {
+     "name": "Petter Maahs",
+     "party": "PCB",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/24/datafolha-sp-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 50.0,
+     "pct_valid": 56.1798
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 30.0,
+     "pct_valid": 33.7079
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-tarcisio-tem-50-contra-30-de-haddad-e-poderia-vencer-em-1o-turno-em-sp.shtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 0.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 55.0,
+     "pct_valid": 60.4396
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 36.0,
+     "pct_valid": 39.5604
+    }
+   ]
+  },
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/24/datafolha-no-rj-governo-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Paes",
+     "party": "PSD",
+     "pct": 43.0,
+     "pct_valid": 47.7778
+    },
+    {
+     "name": "Douglas Ruas",
+     "party": "PL",
+     "pct": 30.0,
+     "pct_valid": 33.3333
+    },
+    {
+     "name": "Anthony Garotinho",
+     "party": "Republicanos",
+     "pct": 8.0,
+     "pct_valid": 8.8889
+    }
+   ]
+  },
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rj/rio-de-janeiro/eleicoes/2026/noticia/2026/09/24/datafolha-no-rj-governo-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Paes",
+     "party": "PSD",
+     "pct": 54.0,
+     "pct_valid": 58.6957
+    },
+    {
+     "name": "Douglas Ruas",
+     "party": "PL",
+     "pct": 38.0,
+     "pct_valid": 41.3043
+    }
+   ]
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/24/datafolha-senado-pe-24-de-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 29.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marília Arraes",
+     "party": "PDT",
+     "pct": 26.76056338028169,
+     "pct_valid": 26.7606
+    },
+    {
+     "name": "Humberto Costa",
+     "party": "PT",
+     "pct": 23.943661971830984,
+     "pct_valid": 23.9437
+    },
+    {
+     "name": "Mendonça Filho",
+     "party": "PL",
+     "pct": 18.30985915492958,
+     "pct_valid": 18.3099
+    },
+    {
+     "name": "Eduardo da Fonte",
+     "party": "PP",
+     "pct": 14.084507042253522,
+     "pct_valid": 14.0845
+    },
+    {
+     "name": "Túlio Gadêlha",
+     "party": "PSD",
+     "pct": 8.450704225352112,
+     "pct_valid": 8.4507
+    },
+    {
+     "name": "Paulo Rubem Santiago",
+     "party": "Rede",
+     "pct": 1.4084507042253522,
+     "pct_valid": 1.4085
+    },
+    {
+     "name": "Mariano Macedo",
+     "party": "PSTU",
+     "pct": 1.4084507042253522,
+     "pct_valid": 1.4085
+    }
+   ]
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/24/datafolha-governo-pe-24-de-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 95.0,
+   "undecided": 6.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Raquel Lyra",
+     "party": "PSD",
+     "pct": 48.0,
+     "pct_valid": 50.5263
+    },
+    {
+     "name": "João Campos",
+     "party": "PSB",
+     "pct": 44.0,
+     "pct_valid": 46.3158
+    }
+   ]
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/09/24/datafolha-governo-pe-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 96.0,
+   "undecided": 4.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Raquel Lyra",
+     "party": "PSD",
+     "pct": 51.0,
+     "pct_valid": 53.125
+    },
+    {
+     "name": "João Campos",
+     "party": "PSB",
+     "pct": 45.0,
+     "pct_valid": 46.875
+    }
+   ]
+  },
+  {
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/24/datafolha-senado-mg-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.00307692307693,
+   "undecided": 35.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marília Campos",
+     "party": "PT",
+     "pct": 20.0,
+     "pct_valid": 20.0
+    },
+    {
+     "name": "Carlos Viana",
+     "party": "PSD",
+     "pct": 16.923076923076923,
+     "pct_valid": 16.9231
+    },
+    {
+     "name": "Domingos Sávio",
+     "party": "PL",
+     "pct": 13.846153846153847,
+     "pct_valid": 13.8462
+    },
+    {
+     "name": "Marcelo Aro",
+     "party": "PP",
+     "pct": 9.230769230769232,
+     "pct_valid": 9.2308
+    },
+    {
+     "name": "Áurea Carolina",
+     "party": "PSOL",
+     "pct": 7.6923076923076925,
+     "pct_valid": 7.6923
+    },
+    {
+     "name": "Marco Antônio Superman",
+     "party": "Novo",
+     "pct": 3.076923076923077,
+     "pct_valid": 3.0769
+    }
+   ]
+  },
+  {
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/24/datafolha-mg-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cleitinho",
+     "party": "Republicanos",
+     "pct": 40.0,
+     "pct_valid": 48.1928
+    },
+    {
+     "name": "Patrus Ananias",
+     "party": "PT",
+     "pct": 15.0,
+     "pct_valid": 18.0723
+    },
+    {
+     "name": "Alexandre Kalil",
+     "party": "PDT",
+     "pct": 9.0,
+     "pct_valid": 10.8434
+    },
+    {
+     "name": "Mateus Simões",
+     "party": "PSD",
+     "pct": 5.0,
+     "pct_valid": 6.0241
+    }
+   ]
+  },
+  {
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/24/datafolha-governo-mg-segundo-turno-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cleitinho",
+     "party": "Republicanos",
+     "pct": 57.0,
+     "pct_valid": 68.6747
+    },
+    {
+     "name": "Alexandre Kalil",
+     "party": "PDT",
+     "pct": 26.0,
+     "pct_valid": 31.3253
+    }
+   ]
+  },
+  {
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/24/datafolha-governo-mg-segundo-turno-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cleitinho",
+     "party": "Republicanos",
+     "pct": 60.0,
+     "pct_valid": 72.2892
+    },
+    {
+     "name": "Patrus Ananias",
+     "party": "PT",
+     "pct": 23.0,
+     "pct_valid": 27.7108
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-espirito-santo-setembro-2026/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Renato Casagrande",
+     "party": "PSB",
+     "pct": 31.521739130434785,
+     "pct_valid": 31.5217
+    },
+    {
+     "name": "Sergio Meneguelli",
+     "party": "Republicanos",
+     "pct": 14.130434782608695,
+     "pct_valid": 14.1304
+    },
+    {
+     "name": "Fabiano Contarato",
+     "party": "PT",
+     "pct": 11.956521739130435,
+     "pct_valid": 11.9565
+    },
+    {
+     "name": "Maguinha Malta",
+     "party": "PL",
+     "pct": 10.869565217391305,
+     "pct_valid": 10.8696
+    },
+    {
+     "name": "Evair Melo",
+     "party": "Republicanos",
+     "pct": 10.869565217391305,
+     "pct_valid": 10.8696
+    },
+    {
+     "name": "Rose De Freitas",
+     "party": "MDB",
+     "pct": 9.782608695652174,
+     "pct_valid": 9.7826
+    },
+    {
+     "name": "Marcos do Val",
+     "party": "Avante",
+     "pct": 4.3478260869565215,
+     "pct_valid": 4.3478
+    },
+    {
+     "name": "Professor Fabian",
+     "party": "PSOL",
+     "pct": 2.1739130434782608,
+     "pct_valid": 2.1739
+    },
+    {
+     "name": "Leonardo Monjardim",
+     "party": "Novo",
+     "pct": 2.1739130434782608,
+     "pct_valid": 2.1739
+    },
+    {
+     "name": "Callegari",
+     "party": "DC",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Senado",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/24/datafolha-df-senador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.00417721518988,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Michelle Bolsonaro",
+     "party": "PL",
+     "pct": 27.848101265822784,
+     "pct_valid": 27.8481
+    },
+    {
+     "name": "Erika Kokay",
+     "party": "PT",
+     "pct": 18.9873417721519,
+     "pct_valid": 18.9873
+    },
+    {
+     "name": "Bia Kicis",
+     "party": "PL",
+     "pct": 18.9873417721519,
+     "pct_valid": 18.9873
+    },
+    {
+     "name": "Sebastião Coelho",
+     "party": "Novo",
+     "pct": 2.5316455696202533,
+     "pct_valid": 2.5316
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/24/datafolha-df-governador-25-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 37.0,
+     "pct_valid": 41.573
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 21.0,
+     "pct_valid": 23.5955
+    },
+    {
+     "name": "José Roberto Arruda",
+     "party": "PSD",
+     "pct": 18.0,
+     "pct_valid": 20.2247
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/24/datafolha-df-governador-segundo-turno-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 48.0,
+     "pct_valid": 57.8313
+    },
+    {
+     "name": "José Roberto Arruda",
+     "party": "PSD",
+     "pct": 35.0,
+     "pct_valid": 42.1687
+    }
+   ]
+  },
+  {
+   "uf": "AL",
+   "estado": "Alagoas",
+   "cargo": "Senado",
+   "pollster": "Real Time Big Data",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-alagoas-setembro-2026-2/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Renan Calheiros",
+     "party": "MDB",
+     "pct": 24.719101123595504,
+     "pct_valid": 24.7191
+    },
+    {
+     "name": "Arthur Lira",
+     "party": "PP",
+     "pct": 22.47191011235955,
+     "pct_valid": 22.4719
+    },
+    {
+     "name": "Davi Davino Filho",
+     "party": "Republicanos",
+     "pct": 19.101123595505616,
+     "pct_valid": 19.1011
+    },
+    {
+     "name": "Dr. Wanderley",
+     "party": "MDB",
+     "pct": 6.741573033707865,
+     "pct_valid": 6.7416
+    }
+   ]
+  },
+  {
+   "uf": "AL",
+   "estado": "Alagoas",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "24/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.bnews.com.br/noticias/nordeste/real-time-big-data-renan-filho-abre-so-3-pontos-sobre-jhc-em-nova-pesquisa-para-o-governo-de-alagoas.html",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Renan Filho",
+     "party": "MDB",
+     "pct": 47.0,
+     "pct_valid": 51.6484
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/09/24/quaest-se-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 35.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "André Moura",
+     "party": "União",
+     "pct": 18.461538461538463,
+     "pct_valid": 18.4615
+    },
+    {
+     "name": "Delegado André David",
+     "party": "Republicanos",
+     "pct": 16.923076923076923,
+     "pct_valid": 16.9231
+    },
+    {
+     "name": "Delegado Alessandro Vieira",
+     "party": "MDB",
+     "pct": 15.384615384615385,
+     "pct_valid": 15.3846
+    },
+    {
+     "name": "Rogério Carvalho",
+     "party": "PT",
+     "pct": 15.384615384615385,
+     "pct_valid": 15.3846
+    },
+    {
+     "name": "Eduardo Amorim",
+     "party": "PSDB",
+     "pct": 12.307692307692308,
+     "pct_valid": 12.3077
+    },
+    {
+     "name": "Rodrigo Valadares",
+     "party": "PL",
+     "pct": 7.6923076923076925,
+     "pct_valid": 7.6923
+    },
+    {
+     "name": "Edvaldo",
+     "party": "PDT",
+     "pct": 7.6923076923076925,
+     "pct_valid": 7.6923
+    },
+    {
+     "name": "Coronel Rocha",
+     "party": "PL",
+     "pct": 3.076923076923077,
+     "pct_valid": 3.0769
+    },
+    {
+     "name": "Iran Barbosa",
+     "party": "PSOL",
+     "pct": 1.5384615384615385,
+     "pct_valid": 1.5385
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "POSITIVA PESQUISAS",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://portaljornalse.com.br/positiva-pesquisas-valmir-lidera-pesquisa-ao-governo-de-sergipe/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 90.1,
+   "undecided": 9.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 44.8,
+     "pct_valid": 49.7225
+    },
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 38.1,
+     "pct_valid": 42.2863
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/09/24/quaest-se-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 43.0,
+     "pct_valid": 51.8072
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 34.0,
+     "pct_valid": 40.9639
+    }
+   ]
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/se/sergipe/eleicoes/2026/noticia/2026/09/24/quaest-se-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Fábio Mitidieri",
+     "party": "PSD",
+     "pct": 48.0,
+     "pct_valid": 53.9326
+    },
+    {
+     "name": "Valmir de Francisquinho",
+     "party": "Republicanos",
+     "pct": 41.0,
+     "pct_valid": 46.0674
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/09/24/quaest-santa-catarina-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 31.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Carlos Bolsonaro",
+     "party": "PL",
+     "pct": 23.18840579710145,
+     "pct_valid": 23.1884
+    },
+    {
+     "name": "Esperidião Amin",
+     "party": "PP",
+     "pct": 21.73913043478261,
+     "pct_valid": 21.7391
+    },
+    {
+     "name": "Décio Lima",
+     "party": "PT",
+     "pct": 14.492753623188406,
+     "pct_valid": 14.4928
+    },
+    {
+     "name": "Afrânio Boppré",
+     "party": "PSOL",
+     "pct": 5.797101449275362,
+     "pct_valid": 5.7971
+    },
+    {
+     "name": "Lunelli",
+     "party": "MDB",
+     "pct": 4.3478260869565215,
+     "pct_valid": 4.3478
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/09/24/quaest-santa-catarina-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Jorginho Mello",
+     "party": "PL",
+     "pct": 54.0,
+     "pct_valid": 67.5
+    },
+    {
+     "name": "João Rodrigues",
+     "party": "PSD",
+     "pct": 13.0,
+     "pct_valid": 16.25
+    },
+    {
+     "name": "Gelson Merísio",
+     "party": "PSB",
+     "pct": 10.0,
+     "pct_valid": 12.5
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/09/24/quaest-santa-catarina-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Jorginho Mello",
+     "party": "PL",
+     "pct": 66.0,
+     "pct_valid": 81.4815
+    },
+    {
+     "name": "Gelson Merísio",
+     "party": "PSB",
+     "pct": 15.0,
+     "pct_valid": 18.5185
+    }
+   ]
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/09/24/quaest-santa-catarina-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Jorginho Mello",
+     "party": "PL",
+     "pct": 58.0,
+     "pct_valid": 71.6049
+    },
+    {
+     "name": "João Rodrigues",
+     "party": "PSD",
+     "pct": 23.0,
+     "pct_valid": 28.3951
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 75.0,
+   "undecided": 25.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcos Rogério",
+     "party": "PL",
+     "pct": 37.0,
+     "pct_valid": 49.3333
+    },
+    {
+     "name": "Adailton Fúria",
+     "party": "PSD",
+     "pct": 21.0,
+     "pct_valid": 28.0
+    },
+    {
+     "name": "Hildon Chaves",
+     "party": "União",
+     "pct": 9.0,
+     "pct_valid": 12.0
+    },
+    {
+     "name": "Expedito Netto",
+     "party": "PT",
+     "pct": 6.0,
+     "pct_valid": 8.0
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 72.0,
+   "undecided": 28.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcos Rogério",
+     "party": "PL",
+     "pct": 45.0,
+     "pct_valid": 62.5
+    },
+    {
+     "name": "Adailton Fúria",
+     "party": "PSD",
+     "pct": 27.0,
+     "pct_valid": 37.5
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 67.0,
+   "undecided": 33.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcos Rogério",
+     "party": "PL",
+     "pct": 53.0,
+     "pct_valid": 79.1045
+    },
+    {
+     "name": "Expedito Netto",
+     "party": "PT",
+     "pct": 14.0,
+     "pct_valid": 20.8955
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 67.0,
+   "undecided": 33.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcos Rogério",
+     "party": "PL",
+     "pct": 50.0,
+     "pct_valid": 74.6269
+    },
+    {
+     "name": "Hildon Chaves",
+     "party": "União",
+     "pct": 17.0,
+     "pct_valid": 25.3731
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 57.0,
+   "undecided": 43.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Adailton Fúria",
+     "party": "PSD",
+     "pct": 45.0,
+     "pct_valid": 78.9474
+    },
+    {
+     "name": "Expedito Netto",
+     "party": "PT",
+     "pct": 12.0,
+     "pct_valid": 21.0526
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 61.0,
+   "undecided": 39.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Adailton Fúria",
+     "party": "PSD",
+     "pct": 38.0,
+     "pct_valid": 62.2951
+    },
+    {
+     "name": "Hildon Chaves",
+     "party": "União",
+     "pct": 23.0,
+     "pct_valid": 37.7049
+    }
+   ]
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ro/rondonia/eleicoes/2026/noticia/2026/09/24/quaest-rondonia-governador-24-de-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 51.0,
+   "undecided": 49.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Hildon Chaves",
+     "party": "União",
+     "pct": 35.0,
+     "pct_valid": 68.6275
+    },
+    {
+     "name": "Expedito Netto",
+     "party": "PT",
+     "pct": 16.0,
+     "pct_valid": 31.3725
+    }
+   ]
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/24/quaest-rs-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 41.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Marcel van Hattem",
+     "party": "Novo",
+     "pct": 18.64406779661017,
+     "pct_valid": 18.6441
+    },
+    {
+     "name": "Paulo Pimenta",
+     "party": "PT",
+     "pct": 16.94915254237288,
+     "pct_valid": 16.9492
+    },
+    {
+     "name": "Ubiratan Sanderson",
+     "party": "PL",
+     "pct": 16.94915254237288,
+     "pct_valid": 16.9492
+    },
+    {
+     "name": "Germano Rigotto",
+     "party": "MDB",
+     "pct": 15.254237288135593,
+     "pct_valid": 15.2542
+    },
+    {
+     "name": "Frederico Antunes",
+     "party": "PSD",
+     "pct": 3.389830508474576,
+     "pct_valid": 3.3898
+    },
+    {
+     "name": "Milton Cardoso",
+     "party": "PSDB",
+     "pct": 1.694915254237288,
+     "pct_valid": 1.6949
+    },
+    {
+     "name": "Tania Peres",
+     "party": "UP",
+     "pct": 1.694915254237288,
+     "pct_valid": 1.6949
+    },
+    {
+     "name": "Daniela Mulheres Socialistas",
+     "party": "PSTU",
+     "pct": 1.694915254237288,
+     "pct_valid": 1.6949
+    },
+    {
+     "name": "Renato Jaguarão",
+     "party": "Cidadania",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Luciano Do Mlb",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Regis Ethur",
+     "party": "PSTU",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/24/quaest-rs-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 61.0,
+   "undecided": 39.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Juliana Brizola",
+     "party": "PDT",
+     "pct": 34.0,
+     "pct_valid": 55.7377
+    },
+    {
+     "name": "Gabriel Souza",
+     "party": "MDB",
+     "pct": 27.0,
+     "pct_valid": 44.2623
+    }
+   ]
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/24/quaest-rs-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 74.0,
+   "undecided": 26.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Luciano Zucco",
+     "party": "PL",
+     "pct": 40.0,
+     "pct_valid": 54.0541
+    },
+    {
+     "name": "Juliana Brizola",
+     "party": "PDT",
+     "pct": 34.0,
+     "pct_valid": 45.9459
+    }
+   ]
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/09/24/quaest-rs-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 68.0,
+   "undecided": 32.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Luciano Zucco",
+     "party": "PL",
+     "pct": 42.0,
+     "pct_valid": 61.7647
+    },
+    {
+     "name": "Gabriel Souza",
+     "party": "MDB",
+     "pct": 26.0,
+     "pct_valid": 38.2353
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Senado",
+   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://agorarn.com.br/politica/exatus-styvenson-senado-rn/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.18056288000098,
+   "undecided": 69.57,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Styvenson Valentim",
+     "party": "Podemos",
+     "pct": 39.165772120840366,
+     "pct_valid": 39.1658
+    },
+    {
+     "name": "Zenaide Maia",
+     "party": "PSD",
+     "pct": 24.49777641466033,
+     "pct_valid": 24.4978
+    },
+    {
+     "name": "Rafael Motta",
+     "party": "PDT",
+     "pct": 10.995246127894495,
+     "pct_valid": 10.9952
+    },
+    {
+     "name": "Coronel Hélio Oliveira",
+     "party": "PL",
+     "pct": 10.144149670295969,
+     "pct_valid": 10.1441
+    },
+    {
+     "name": "Tércio Tinôco",
+     "party": "União",
+     "pct": 2.0318969483208096,
+     "pct_valid": 2.0319
+    },
+    {
+     "name": "Sandro Pimentel",
+     "party": "PSOL",
+     "pct": 0.29903389050759094,
+     "pct_valid": 0.299
+    },
+    {
+     "name": "Sonia Godeiro",
+     "party": "PSOL",
+     "pct": 0.11501303481061187,
+     "pct_valid": 0.115
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://agorarn.com.br/politica/exatus-allyson-governo-rn/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 87.87,
+   "undecided": 12.129999999999999,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 44.11,
+     "pct_valid": 50.1992
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 22.52,
+     "pct_valid": 25.6288
+    },
+    {
+     "name": "Álvaro Dias",
+     "party": "PL",
+     "pct": 20.6,
+     "pct_valid": 23.4437
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/09/24/quaest-parana-senador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 42.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Alexandre Curi",
+     "party": "Republicanos",
+     "pct": 24.137931034482758,
+     "pct_valid": 24.1379
+    },
+    {
+     "name": "Deltan Dallagnol",
+     "party": "Novo",
+     "pct": 18.96551724137931,
+     "pct_valid": 18.9655
+    },
+    {
+     "name": "Filipe Barros",
+     "party": "PL",
+     "pct": 18.96551724137931,
+     "pct_valid": 18.9655
+    },
+    {
+     "name": "Gleisi Hoffmann",
+     "party": "PT",
+     "pct": 17.24137931034483,
+     "pct_valid": 17.2414
+    },
+    {
+     "name": "Dr. Rosinha",
+     "party": "PT",
+     "pct": 8.620689655172415,
+     "pct_valid": 8.6207
+    },
+    {
+     "name": "Karen Guerreiro",
+     "party": "Missão",
+     "pct": 1.7241379310344827,
+     "pct_valid": 1.7241
+    },
+    {
+     "name": "Joaquim Do Mlb",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
   {
    "uf": "PR",
    "estado": "Paraná",
@@ -14,7 +1676,7 @@
    "sum_cands": 99.99999999999999,
    "undecided": 12.600000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -73,7 +1735,7 @@
    "sum_cands": 96.7,
    "undecided": 3.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -96,6 +1758,269 @@
    ]
   },
   {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/09/24/quaest-no-parana-pesquisa-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 79.0,
+   "undecided": 21.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 36.0,
+     "pct_valid": 45.5696
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 20.0,
+     "pct_valid": 25.3165
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 20.0,
+     "pct_valid": 25.3165
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/09/24/quaest-no-parana-pesquisa-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 48.0,
+     "pct_valid": 60.0
+    },
+    {
+     "name": "Requião Filho",
+     "party": "PDT",
+     "pct": 32.0,
+     "pct_valid": 40.0
+    }
+   ]
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/09/24/quaest-no-parana-pesquisa-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 72.0,
+   "undecided": 28.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Sergio Moro",
+     "party": "PL",
+     "pct": 43.0,
+     "pct_valid": 59.7222
+    },
+    {
+     "name": "Sandro Alex",
+     "party": "PSD",
+     "pct": 29.0,
+     "pct_valid": 40.2778
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/09/24/quaest-go-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 30.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Gracinha Caiado",
+     "party": "União",
+     "pct": 30.0,
+     "pct_valid": 30.0
+    },
+    {
+     "name": "Gustavo Gayer",
+     "party": "PL",
+     "pct": 18.571428571428573,
+     "pct_valid": 18.5714
+    },
+    {
+     "name": "Vanderlan Cardoso",
+     "party": "PSD",
+     "pct": 11.428571428571429,
+     "pct_valid": 11.4286
+    },
+    {
+     "name": "Gustavo Mendanha",
+     "party": "PRD",
+     "pct": 11.428571428571429,
+     "pct_valid": 11.4286
+    },
+    {
+     "name": "Oséias Varão",
+     "party": "PL",
+     "pct": 4.285714285714286,
+     "pct_valid": 4.2857
+    },
+    {
+     "name": "Isaura Lemos",
+     "party": "PSB",
+     "pct": 4.285714285714286,
+     "pct_valid": 4.2857
+    },
+    {
+     "name": "Cintia Dias",
+     "party": "PSOL",
+     "pct": 2.857142857142857,
+     "pct_valid": 2.8571
+    },
+    {
+     "name": "Ernesto Roller",
+     "party": "PSDB",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Guilherme Darques",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    },
+    {
+     "name": "Iure Castro",
+     "party": "Cidadania",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/09/24/quaest-em-go-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 84.0,
+   "undecided": 16.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 42.0,
+     "pct_valid": 50.0
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 19.0,
+     "pct_valid": 22.619
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 15.0,
+     "pct_valid": 17.8571
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/09/24/quaest-em-go-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 53.0,
+     "pct_valid": 66.25
+    },
+    {
+     "name": "Marconi Perillo",
+     "party": "PSDB",
+     "pct": 27.0,
+     "pct_valid": 33.75
+    }
+   ]
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/go/goias/eleicoes/2026/noticia/2026/09/24/quaest-em-go-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 75.0,
+   "undecided": 25.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Daniel Vilela",
+     "party": "MDB",
+     "pct": 61.0,
+     "pct_valid": 81.3333
+    },
+    {
+     "name": "Wilder Morais",
+     "party": "PL",
+     "pct": 14.0,
+     "pct_valid": 18.6667
+    }
+   ]
+  },
+  {
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Senado",
@@ -108,7 +2033,7 @@
    "sum_cands": 100.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rui Costa",
@@ -169,6 +2094,77 @@
   {
    "uf": "BA",
    "estado": "Bahia",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/24/quaest-bahia-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 35.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rui Costa",
+     "party": "PT",
+     "pct": 35.38461538461539,
+     "pct_valid": 35.3846
+    },
+    {
+     "name": "Jaques Wagner",
+     "party": "PT",
+     "pct": 26.153846153846157,
+     "pct_valid": 26.1538
+    },
+    {
+     "name": "João Roma",
+     "party": "PL",
+     "pct": 16.923076923076923,
+     "pct_valid": 16.9231
+    },
+    {
+     "name": "Angelo Coronel",
+     "party": "Republicanos",
+     "pct": 13.846153846153847,
+     "pct_valid": 13.8462
+    },
+    {
+     "name": "Professora Delliana",
+     "party": "PSOL",
+     "pct": 3.076923076923077,
+     "pct_valid": 3.0769
+    },
+    {
+     "name": "Marcelo Santtana",
+     "party": "DC",
+     "pct": 1.5384615384615385,
+     "pct_valid": 1.5385
+    },
+    {
+     "name": "Marcelo Carvalho",
+     "party": "Rede",
+     "pct": 1.5384615384615385,
+     "pct_valid": 1.5385
+    },
+    {
+     "name": "Carlos Sodré",
+     "party": "Mobiliza",
+     "pct": 1.5384615384615385,
+     "pct_valid": 1.5385
+    },
+    {
+     "name": "Gregorio Gould",
+     "party": "UP",
+     "pct": 0.0,
+     "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
    "cargo": "Governo",
    "pollster": "Paraná Pesquisas",
    "date": "23/09/2026",
@@ -179,7 +2175,7 @@
    "sum_cands": 90.7,
    "undecided": 9.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -199,6 +2195,64 @@
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/24/quaest-ba-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 42.0,
+     "pct_valid": 50.6024
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 40.0,
+     "pct_valid": 48.1928
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ba/bahia/eleicoes/2026/noticia/2026/09/24/quaest-ba-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "ACM Neto",
+     "party": "União",
+     "pct": 45.0,
+     "pct_valid": 51.1364
+    },
+    {
+     "name": "Jerônimo Rodrigues",
+     "party": "PT",
+     "pct": 43.0,
+     "pct_valid": 48.8636
+    }
+   ]
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "cargo": "Governo",
    "pollster": "Paraná Pesquisas",
    "date": "23/09/2026",
    "source": "Plano Político",
@@ -208,7 +2262,7 @@
    "sum_cands": 92.6,
    "undecided": 7.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "ACM Neto",
@@ -225,6 +2279,420 @@
    ]
   },
   {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Senado",
+   "pollster": "PoderData",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0021978021978,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Braga",
+     "party": "MDB",
+     "pct": 46.15384615384615,
+     "pct_valid": 46.1538
+    },
+    {
+     "name": "Capitão Alberto Neto",
+     "party": "PL",
+     "pct": 31.868131868131865,
+     "pct_valid": 31.8681
+    },
+    {
+     "name": "Wilson Lima",
+     "party": "União",
+     "pct": 10.989010989010989,
+     "pct_valid": 10.989
+    },
+    {
+     "name": "Plínio Valério",
+     "party": "PSDB",
+     "pct": 6.593406593406594,
+     "pct_valid": 6.5934
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.00333333333333,
+   "undecided": 25.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Braga",
+     "party": "MDB",
+     "pct": 36.0,
+     "pct_valid": 36.0
+    },
+    {
+     "name": "Capitão Alberto Neto",
+     "party": "PL",
+     "pct": 22.666666666666664,
+     "pct_valid": 22.6667
+    },
+    {
+     "name": "Plínio Valério",
+     "party": "PSDB",
+     "pct": 18.666666666666668,
+     "pct_valid": 18.6667
+    },
+    {
+     "name": "Wilson Lima",
+     "party": "União",
+     "pct": 17.333333333333336,
+     "pct_valid": 17.3333
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "PoderData",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 94.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 32.0,
+     "pct_valid": 34.0426
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 20.0,
+     "pct_valid": 21.2766
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 11.0,
+     "pct_valid": 11.7021
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-governador-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 29.0,
+     "pct_valid": 36.25
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 18.0,
+     "pct_valid": 22.5
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 11.0,
+     "pct_valid": 13.75
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "PoderData",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 80.0,
+   "undecided": 20.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 51.0,
+     "pct_valid": 63.75
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 29.0,
+     "pct_valid": 36.25
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 83.0,
+   "undecided": 17.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 48.0,
+     "pct_valid": 57.8313
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 35.0,
+     "pct_valid": 42.1687
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "PoderData",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 46.0,
+     "pct_valid": 53.4884
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 40.0,
+     "pct_valid": 46.5116
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 82.0,
+   "undecided": 18.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Omar Aziz",
+     "party": "PSD",
+     "pct": 44.0,
+     "pct_valid": 53.6585
+    },
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 38.0,
+     "pct_valid": 46.3415
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/09/24/quaest-am-governador-24-setembro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 77.0,
+   "undecided": 23.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 40.0,
+     "pct_valid": 51.9481
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 37.0,
+     "pct_valid": 48.0519
+    }
+   ]
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "cargo": "Governo",
+   "pollster": "PoderData",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/09/Relatorio-PoderData-Eleitoral-Amazonas-24set26-completo.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 76.0,
+   "undecided": 25.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Roberto Cidade",
+     "party": "União",
+     "pct": 47.0,
+     "pct_valid": 61.8421
+    },
+    {
+     "name": "David Almeida",
+     "party": "Avante",
+     "pct": 29.0,
+     "pct_valid": 38.1579
+    }
+   ]
+  },
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "cargo": "Senado",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ap/amapa/eleicoes/2026/noticia/2026/09/24/quaest-ap-senado-24-setembro.ghtml",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0041935483871,
+   "undecided": 38.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Rayssa Furlan",
+     "party": "Podemos",
+     "pct": 32.25806451612903,
+     "pct_valid": 32.2581
+    },
+    {
+     "name": "Lucas Barreto",
+     "party": "PSD",
+     "pct": 22.58064516129032,
+     "pct_valid": 22.5806
+    },
+    {
+     "name": "Randolfe Rodrigues",
+     "party": "PT",
+     "pct": 19.35483870967742,
+     "pct_valid": 19.3548
+    },
+    {
+     "name": "Acácio Favacho",
+     "party": "MDB",
+     "pct": 9.67741935483871,
+     "pct_valid": 9.6774
+    },
+    {
+     "name": "Alliny Serrão",
+     "party": "União",
+     "pct": 9.67741935483871,
+     "pct_valid": 9.6774
+    },
+    {
+     "name": "Capi",
+     "party": "PSB",
+     "pct": 1.6129032258064515,
+     "pct_valid": 1.6129
+    },
+    {
+     "name": "Juíza Jô",
+     "party": "DC",
+     "pct": 1.6129032258064515,
+     "pct_valid": 1.6129
+    }
+   ]
+  },
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "23/09/2026",
+   "source": "Plano Político",
+   "url": "https://selesnafes.com/2026/09/quaest-furlan-cai-2-pontos-e-clecio-sobe-5-na-disputa-pelo-governo/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 0.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Dr. Furlan",
+     "party": "PSD",
+     "pct": 54.0,
+     "pct_valid": 58.0645
+    },
+    {
+     "name": "Clécio Luís",
+     "party": "União",
+     "pct": 39.0,
+     "pct_valid": 41.9355
+    }
+   ]
+  },
+  {
    "uf": "TO",
    "estado": "Tocantins",
    "cargo": "Senado",
@@ -237,7 +2705,7 @@
    "sum_cands": 100.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Gomes",
@@ -308,7 +2776,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -343,7 +2811,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -369,10 +2837,10 @@
    "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/23/quaest-sp-senado-23-setembro.ghtml",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 100.92039118945064,
+   "sum_cands": 100.65052899220082,
    "undecided": 42.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Guilherme Derrite",
@@ -437,14 +2905,132 @@
     {
      "name": "Petter Maahs",
      "party": "PCB",
-     "pct": 0.9245291204851293,
-     "pct_valid": 0.9245
+     "pct": 0.6546669232352968,
+     "pct_valid": 0.6547
     },
     {
      "name": "Weller Gonçalves",
      "party": "PSTU",
      "pct": 0.0,
      "pct_valid": 0.0
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Senado",
+   "pollster": "Vox Populi",
+   "date": "22/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/vox-senado-sp-derrite-tem-282-andre-266-marina-259-tebet-231/",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.54799327571308,
+   "undecided": 59.3,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Guilherme Derrite",
+     "party": "PP",
+     "pct": 21.60919540229885,
+     "pct_valid": 21.6092
+    },
+    {
+     "name": "André do Prado",
+     "party": "PL",
+     "pct": 20.38314176245211,
+     "pct_valid": 20.3831
+    },
+    {
+     "name": "Marina Silva",
+     "party": "Rede",
+     "pct": 19.846743295019156,
+     "pct_valid": 19.8467
+    },
+    {
+     "name": "Simone Tebet",
+     "party": "PSB",
+     "pct": 17.70114942528736,
+     "pct_valid": 17.7011
+    },
+    {
+     "name": "Ricardo Salles",
+     "party": "Novo",
+     "pct": 8.812260536398467,
+     "pct_valid": 8.8123
+    },
+    {
+     "name": "Soninha Francine",
+     "party": "Cidadania",
+     "pct": 3.9080459770114944,
+     "pct_valid": 3.908
+    },
+    {
+     "name": "Maíra De Souza",
+     "party": "UP",
+     "pct": 1.9157088122605364,
+     "pct_valid": 1.9157
+    },
+    {
+     "name": "Weller Gonçalves",
+     "party": "PSTU",
+     "pct": 1.532567049808429,
+     "pct_valid": 1.5326
+    },
+    {
+     "name": "Geraldo Rufino",
+     "party": "Podemos",
+     "pct": 1.3026819923371646,
+     "pct_valid": 1.3027
+    },
+    {
+     "name": "Dra Eliana Ferreira",
+     "party": "PSTU",
+     "pct": 1.1494252873563218,
+     "pct_valid": 1.1494
+    },
+    {
+     "name": "Marcio Alves",
+     "party": "UP",
+     "pct": 0.996168582375479,
+     "pct_valid": 0.9962
+    },
+    {
+     "name": "Petter Maahs",
+     "party": "PCB",
+     "pct": 0.22988505747126436,
+     "pct_valid": 0.2299
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
+   "pollster": "Vox Populi",
+   "date": "22/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-tem-565-e-haddad-334-no-1o-turno-em-sp-diz-pesquisa/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 56.5,
+     "pct_valid": 60.7527
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 33.4,
+     "pct_valid": 35.914
     }
    ]
   },
@@ -461,7 +3047,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -481,6 +3067,35 @@
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Governo",
+   "pollster": "Vox Populi",
+   "date": "22/09/2026",
+   "source": "Plano Político",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-tem-565-e-haddad-334-no-1o-turno-em-sp-diz-pesquisa/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 93.30000000000001,
+   "undecided": 6.7,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Tarcísio de Freitas",
+     "party": "Republicanos",
+     "pct": 58.2,
+     "pct_valid": 62.3794
+    },
+    {
+     "name": "Fernando Haddad",
+     "party": "PT",
+     "pct": 35.1,
+     "pct_valid": 37.6206
+    }
+   ]
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "cargo": "Governo",
    "pollster": "Quaest",
    "date": "22/09/2026",
    "source": "Plano Político",
@@ -490,7 +3105,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -601,7 +3216,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -636,7 +3251,7 @@
    "sum_cands": 76.2,
    "undecided": 23.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -706,7 +3321,7 @@
    "sum_cands": 67.0,
    "undecided": 33.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -735,7 +3350,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -752,6 +3367,41 @@
    ]
   },
   {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Item",
+   "date": "22/09/2026",
+   "source": "Plano Político",
+   "url": "https://portalgazetarn.com/difusora-item-allyson-aparece-com-42-e-abre-vantagem-sobre-alvaro-e-cadu/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 42.0,
+     "pct_valid": 44.6809
+    },
+    {
+     "name": "Álvaro Dias",
+     "party": "PL",
+     "pct": 26.0,
+     "pct_valid": 27.6596
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 23.4,
+     "pct_valid": 24.8936
+    }
+   ]
+  },
+  {
    "uf": "PE",
    "estado": "Pernambuco",
    "cargo": "Senado",
@@ -764,7 +3414,7 @@
    "sum_cands": 100.0,
    "undecided": 42.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -823,7 +3473,7 @@
    "sum_cands": 82.0,
    "undecided": 18.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -852,7 +3502,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -881,7 +3531,7 @@
    "sum_cands": 100.00428571428571,
    "undecided": 44.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Campos",
@@ -934,7 +3584,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -975,7 +3625,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1004,7 +3654,7 @@
    "sum_cands": 68.0,
    "undecided": 32.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1033,7 +3683,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1062,7 +3712,7 @@
    "sum_cands": 100.0,
    "undecided": 11.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -1139,7 +3789,7 @@
    "sum_cands": 88.89999999999999,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -1174,7 +3824,7 @@
    "sum_cands": 100.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Michelle Bolsonaro",
@@ -1215,7 +3865,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -1250,7 +3900,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -1279,7 +3929,7 @@
    "sum_cands": 100.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -1332,7 +3982,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -1361,7 +4011,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -1378,6 +4028,47 @@
    ]
   },
   {
+   "uf": "AL",
+   "estado": "Alagoas",
+   "cargo": "Senado",
+   "pollster": "TDL PESQUISA",
+   "date": "22/09/2026",
+   "source": "Plano Político",
+   "url": "https://emtemponoticias.com.br/noticias/politica/pesquisa-tdl-aponta-jhc-com-533-e-lideranca-de-lira-e-marina-na-disputa-pelo-senado",
+   "scenario": "1º turno",
+   "base": "válidos",
+   "sum_cands": 100.0,
+   "undecided": 48.599999999999994,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Arthur Lira",
+     "party": "PP",
+     "pct": 28.797886393659184,
+     "pct_valid": 28.7979
+    },
+    {
+     "name": "Renan Calheiros",
+     "party": "MDB",
+     "pct": 23.05151915455746,
+     "pct_valid": 23.0515
+    },
+    {
+     "name": "Davi Davino Filho",
+     "party": "Republicanos",
+     "pct": 10.56803170409511,
+     "pct_valid": 10.568
+    },
+    {
+     "name": "Dr. Wanderley",
+     "party": "MDB",
+     "pct": 8.058124174372521,
+     "pct_valid": 8.0581
+    }
+   ]
+  },
+  {
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Senado",
@@ -1387,7 +4078,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-senado-sao-paulo-setembro-2026-2/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 100.92677358081393,
+   "sum_cands": 100.65691138356411,
    "undecided": 17.0,
    "votos": 1,
    "is_new": false,
@@ -1447,16 +4138,16 @@
      "pct_valid": 1.2866
     },
     {
-     "name": "Petter Maahs",
-     "party": "PCB",
-     "pct": 0.9245291204851293,
-     "pct_valid": 0.9245
-    },
-    {
      "name": "Marcio Alves",
      "party": "UP",
      "pct": 0.7862759113652609,
      "pct_valid": 0.7863
+    },
+    {
+     "name": "Petter Maahs",
+     "party": "PCB",
+     "pct": 0.6546669232352968,
+     "pct_valid": 0.6547
     },
     {
      "name": "Weller Gonçalves",
@@ -1534,7 +4225,7 @@
    "url": "https://www.brasil247.com/nordeste/real-time-em-sergipe-fabio-mitidieri-lidera-1o-turno-com-43-e-andre-david-marca-18-para-o-senado/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.1535019739984,
+   "sum_cands": 101.18558193770366,
    "undecided": 9.0,
    "votos": 1,
    "is_new": false,
@@ -1835,7 +4526,7 @@
    "sum_cands": 100.0,
    "undecided": 44.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alexandre Curi",
@@ -1894,7 +4585,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1929,7 +4620,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1958,7 +4649,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1971,6 +4662,41 @@
      "party": "PSD",
      "pct": 41.0,
      "pct_valid": 48.2353
+    }
+   ]
+  },
+  {
+   "uf": "MA",
+   "estado": "Maranhão",
+   "cargo": "Governo",
+   "pollster": "Ranking Pesquisas",
+   "date": "21/09/2026",
+   "source": "Plano Político",
+   "url": "https://horaextra.slz.br/2026/09/24/numeros-primos-pesquisa-ranking-educadora-aponta-empate-tecnico-entre-orleans-e-braide-para-governo-do-maranhao/",
+   "scenario": "1º turno",
+   "base": "totais",
+   "sum_cands": 92.9,
+   "undecided": 5.6,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Eduardo Braide",
+     "party": "PSD",
+     "pct": 40.8,
+     "pct_valid": 43.9182
+    },
+    {
+     "name": "Orleans Brandão",
+     "party": "MDB",
+     "pct": 37.2,
+     "pct_valid": 40.0431
+    },
+    {
+     "name": "Felipe Camarão",
+     "party": "PT",
+     "pct": 8.7,
+     "pct_valid": 9.3649
     }
    ]
   },
@@ -2206,7 +4932,7 @@
    "url": "https://jamildo.com/politica/pesquisa-simplexcbn-marilia-arraes-lidera-com-empate-tecnico-contra-humberto-que-divide-margem-com-mendonca.html",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.44756280955859,
+   "sum_cands": 101.44231524910472,
    "undecided": 46.2,
    "votos": 1,
    "is_new": false,
@@ -3834,7 +6560,7 @@
    "url": "https://www.tribunadenoticias.com.br/2026/09/pesquisa-via-certapitagoras-senado.html",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 100.46641088222239,
+   "sum_cands": 100.45469466043913,
    "undecided": 0.0,
    "votos": 1,
    "is_new": false,
@@ -5043,7 +7769,7 @@
    "url": "https://agorarn.com.br/politica/styvenson-5062-zenaide-3215-soma-votos-senado-exatus/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.29178041556861,
+   "sum_cands": 101.24222136565535,
    "undecided": 65.0,
    "votos": 1,
    "is_new": false,
@@ -6140,7 +8866,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-tocantins-setembro-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.34117324552534,
+   "sum_cands": 101.22629701886059,
    "undecided": 5.0,
    "votos": 1,
    "is_new": false,
@@ -6578,7 +9304,7 @@
    "url": "https://pontodapauta.com.br/noticia_view.php?id_noticia=129881",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.27499956113705,
+   "sum_cands": 101.33131683858196,
    "undecided": 31.2,
    "votos": 1,
    "is_new": false,
@@ -6622,8 +9348,8 @@
     {
      "name": "Juíza Jô",
      "party": "DC",
-     "pct": 1.2749995611370641,
-     "pct_valid": 1.275
+     "pct": 1.331316838581962,
+     "pct_valid": 1.3313
     }
    ]
   },
@@ -9829,65 +12555,6 @@
    ]
   },
   {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Senado",
-   "pollster": "DataTrends",
-   "date": "09/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.edmarlyra.com/datatrends-marilia-lidera-disputa-pelo-senado-em-pernambuco-humberto-mendonca-e-eduardo-disputam-segunda-vaga/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 101.93921166897428,
-   "undecided": 43.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marília Arraes",
-     "party": "PDT",
-     "pct": 26.31578947368421,
-     "pct_valid": 26.3158
-    },
-    {
-     "name": "Humberto Costa",
-     "party": "PT",
-     "pct": 22.807017543859647,
-     "pct_valid": 22.807
-    },
-    {
-     "name": "Mendonça Filho",
-     "party": "PL",
-     "pct": 19.298245614035086,
-     "pct_valid": 19.2982
-    },
-    {
-     "name": "Eduardo da Fonte",
-     "party": "PP",
-     "pct": 17.543859649122805,
-     "pct_valid": 17.5439
-    },
-    {
-     "name": "Túlio Gadêlha",
-     "party": "PSD",
-     "pct": 8.771929824561402,
-     "pct_valid": 8.7719
-    },
-    {
-     "name": "Paulo Rubem Santiago",
-     "party": "Rede",
-     "pct": 1.7543859649122806,
-     "pct_valid": 1.7544
-    },
-    {
-     "name": "Mariano Macedo",
-     "party": "PSTU",
-     "pct": 0.49402804157183405,
-     "pct_valid": 0.494
-    }
-   ]
-  },
-  {
    "uf": "PR",
    "estado": "Paraná",
    "cargo": "Senado",
@@ -10657,7 +13324,7 @@
    "url": "https://diariodorn.com.br/styvenson-cai-samanda-cresce-quase-40-em-um-mes-e-se-aproxima-de-zenaide/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.22137341648848,
+   "sum_cands": 101.13719505033252,
    "undecided": 38.5,
    "votos": 1,
    "is_new": false,
@@ -10751,7 +13418,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-setembro-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.22954004667005,
+   "sum_cands": 101.25736885958813,
    "undecided": 9.0,
    "votos": 1,
    "is_new": false,
@@ -10795,8 +13462,8 @@
     {
      "name": "Joaquim Do Mlb",
      "party": "UP",
-     "pct": 0.6829912215794978,
-     "pct_valid": 0.683
+     "pct": 0.6488416605005229,
+     "pct_valid": 0.6488
     }
    ]
   },
@@ -11530,7 +14197,7 @@
    "url": "https://g1.globo.com/sp/sao-paulo/eleicoes/2026/noticia/2026/09/08/quaest-sp-senado-8-setembro.ghtml",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.5693381801627,
+   "sum_cands": 101.20762014321866,
    "undecided": 45.0,
    "votos": 1,
    "is_new": false,
@@ -11592,8 +14259,8 @@
     {
      "name": "Petter Maahs",
      "party": "PCB",
-     "pct": 0.9245291204851293,
-     "pct_valid": 0.9245
+     "pct": 0.6546669232352968,
+     "pct_valid": 0.6547
     },
     {
      "name": "Weller Gonçalves",
@@ -12127,7 +14794,7 @@
    "url": "https://g1.globo.com/mg/minas-gerais/eleicoes/2026/noticia/2026/09/08/quaest-mg-senado-8-setembro.ghtml",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.40879343283746,
+   "sum_cands": 101.17399452736454,
    "undecided": 50.0,
    "votos": 1,
    "is_new": false,
@@ -14317,7 +16984,7 @@
    "url": "https://www.poder360.com.br/poder-eleicoes-2026/marina-e-tebet-lideram-disputa-pelo-senado-em-sp-diz-pesquisa/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.44126571203081,
+   "sum_cands": 101.3163849820537,
    "undecided": 71.2,
    "votos": 1,
    "is_new": false,
@@ -14365,12 +17032,6 @@
      "pct_valid": 1.6393
     },
     {
-     "name": "Petter Maahs",
-     "party": "PCB",
-     "pct": 0.9245291204851293,
-     "pct_valid": 0.9245
-    },
-    {
      "name": "Soninha Francine",
      "party": "Cidadania",
      "pct": 0.858704137392662,
@@ -14391,8 +17052,14 @@
     {
      "name": "Weller Gonçalves",
      "party": "PSTU",
-     "pct": 0.5176967788993007,
-     "pct_valid": 0.5177
+     "pct": 0.6626782461720333,
+     "pct_valid": 0.6627
+    },
+    {
+     "name": "Petter Maahs",
+     "party": "PCB",
+     "pct": 0.6546669232352968,
+     "pct_valid": 0.6547
     }
    ]
   },
@@ -17330,7 +19997,7 @@
    "url": "https://jornaldebrasilia.com.br/brasilia/michelle-dispara-na-corrida-pelo-senado-e-chega-a-271-no-df/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 100.53803728662032,
+   "sum_cands": 100.61073913600515,
    "undecided": 0.0,
    "votos": 1,
    "is_new": false,
@@ -18218,7 +20885,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-agosto-2026-2/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.22954004667005,
+   "sum_cands": 101.25736885958813,
    "undecided": 10.0,
    "votos": 1,
    "is_new": false,
@@ -18262,8 +20929,8 @@
     {
      "name": "Joaquim Do Mlb",
      "party": "UP",
-     "pct": 0.6829912215794978,
-     "pct_valid": 0.683
+     "pct": 0.6488416605005229,
+     "pct_valid": 0.6488
     }
    ]
   },
@@ -18493,7 +21160,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-goias-agosto-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 100.76978440901705,
+   "sum_cands": 100.69280596811535,
    "undecided": 7.0,
    "votos": 1,
    "is_new": false,
@@ -18555,8 +21222,8 @@
     {
      "name": "Guilherme Darques",
      "party": "UP",
-     "pct": 0.7697844090170486,
-     "pct_valid": 0.7698
+     "pct": 0.6928059681153437,
+     "pct_valid": 0.6928
     }
    ]
   },
@@ -19133,7 +21800,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/neokemp-senador-santa-catarina-agosto-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.17678907063063,
+   "sum_cands": 101.23157080236675,
    "undecided": 8.0,
    "votos": 1,
    "is_new": false,
@@ -19947,10 +22614,10 @@
    "url": "https://vixfeed.com/pesquisa-casagrande-mantem-lideranca-ao-senado-no-es-e-segunda-vaga-segue-em-aberto/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.8991389862624,
+   "sum_cands": 101.93348574341438,
    "undecided": 22.17,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -19997,8 +22664,8 @@
     {
      "name": "Leonardo Monjardim",
      "party": "Novo",
-     "pct": 1.8991389862623933,
-     "pct_valid": 1.8991
+     "pct": 1.9334857434143766,
+     "pct_valid": 1.9335
     },
     {
      "name": "Callegari",
@@ -20818,7 +23485,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-tocantins-agosto-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.34117324552534,
+   "sum_cands": 101.22629701886059,
    "undecided": 10.0,
    "votos": 1,
    "is_new": false,
@@ -21500,164 +24167,6 @@
    ]
   },
   {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 34.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Gomes",
-     "party": "PL",
-     "pct": 21.21212121212121,
-     "pct_valid": 21.2121
-    },
-    {
-     "name": "Carlos Gaguim",
-     "party": "União",
-     "pct": 19.696969696969695,
-     "pct_valid": 19.697
-    },
-    {
-     "name": "Paulo Mourão",
-     "party": "PT",
-     "pct": 13.636363636363635,
-     "pct_valid": 13.6364
-    },
-    {
-     "name": "Alexandre Guimarães",
-     "party": "MDB",
-     "pct": 12.121212121212121,
-     "pct_valid": 12.1212
-    },
-    {
-     "name": "Ronaldo Dimas",
-     "party": "Podemos",
-     "pct": 9.090909090909092,
-     "pct_valid": 9.0909
-    },
-    {
-     "name": "Vanderlei Luxemburgo",
-     "party": "Podemos",
-     "pct": 7.575757575757576,
-     "pct_valid": 7.5758
-    },
-    {
-     "name": "Eli Borges",
-     "party": "Republicanos",
-     "pct": 6.0606060606060606,
-     "pct_valid": 6.0606
-    },
-    {
-     "name": "Professor Osvaldo",
-     "party": "PSOL",
-     "pct": 3.0303030303030303,
-     "pct_valid": 3.0303
-    },
-    {
-     "name": "Fábio Ribeiro",
-     "party": "Rede",
-     "pct": 1.5151515151515151,
-     "pct_valid": 1.5152
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-tocantins-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 84.0,
-   "undecided": 16.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 46.0,
-     "pct_valid": 54.7619
-    },
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 38.0,
-     "pct_valid": 45.2381
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-sao-paulo-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 73.0,
-   "undecided": 27.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 40.0,
-     "pct_valid": 54.7945
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 27.0,
-     "pct_valid": 36.9863
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-sao-paulo-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 77.0,
-   "undecided": 23.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 47.0,
-     "pct_valid": 61.039
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 30.0,
-     "pct_valid": 38.961
-    }
-   ]
-  },
-  {
    "uf": "RO",
    "estado": "Rondônia",
    "cargo": "Senado",
@@ -22004,76 +24513,6 @@
    "date": "24/08/2026",
    "source": "Plano Político",
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-rio-de-janeiro-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 64.0,
-   "undecided": 36.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Paes",
-     "party": "PSD",
-     "pct": 37.0,
-     "pct_valid": 57.8125
-    },
-    {
-     "name": "Douglas Ruas",
-     "party": "PL",
-     "pct": 14.0,
-     "pct_valid": 21.875
-    },
-    {
-     "name": "Anthony Garotinho",
-     "party": "Republicanos",
-     "pct": 7.0,
-     "pct_valid": 10.9375
-    }
-   ]
-  },
-  {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Governo",
-   "pollster": "Paraná Pesquisas",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/parana-pesquisas-governador-senado-rio-de-janeiro-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 82.9,
-   "undecided": 17.2,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Paes",
-     "party": "PSD",
-     "pct": 44.5,
-     "pct_valid": 53.6791
-    },
-    {
-     "name": "Douglas Ruas",
-     "party": "PL",
-     "pct": 15.5,
-     "pct_valid": 18.6972
-    },
-    {
-     "name": "Anthony Garotinho",
-     "party": "Republicanos",
-     "pct": 11.6,
-     "pct_valid": 13.9928
-    }
-   ]
-  },
-  {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-rio-de-janeiro-agosto-2026/",
    "scenario": "2º turno",
    "base": "totais",
    "sum_cands": 65.0,
@@ -22092,35 +24531,6 @@
      "party": "Republicanos",
      "pct": 12.0,
      "pct_valid": 18.4615
-    }
-   ]
-  },
-  {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-rio-de-janeiro-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 70.0,
-   "undecided": 30.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Paes",
-     "party": "PSD",
-     "pct": 50.0,
-     "pct_valid": 71.4286
-    },
-    {
-     "name": "Douglas Ruas",
-     "party": "PL",
-     "pct": 20.0,
-     "pct_valid": 28.5714
     }
    ]
   },
@@ -22208,181 +24618,6 @@
      "party": "MDB",
      "pct": 38.0,
      "pct_valid": 46.9136
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/pe/pernambuco/eleicoes/2026/noticia/2026/08/25/quaest-pe-senado-25-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 101.9392116689743,
-   "undecided": 50.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marília Arraes",
-     "party": "PDT",
-     "pct": 32.0,
-     "pct_valid": 32.0
-    },
-    {
-     "name": "Humberto Costa",
-     "party": "PT",
-     "pct": 26.0,
-     "pct_valid": 26.0
-    },
-    {
-     "name": "Mendonça Filho",
-     "party": "PL",
-     "pct": 18.0,
-     "pct_valid": 18.0
-    },
-    {
-     "name": "Eduardo da Fonte",
-     "party": "PP",
-     "pct": 12.0,
-     "pct_valid": 12.0
-    },
-    {
-     "name": "Túlio Gadêlha",
-     "party": "PSD",
-     "pct": 6.0,
-     "pct_valid": 6.0
-    },
-    {
-     "name": "Paulo Rubem Santiago",
-     "party": "Rede",
-     "pct": 2.0,
-     "pct_valid": 2.0
-    },
-    {
-     "name": "Mariano Macedo",
-     "party": "PSTU",
-     "pct": 0.49402804157183405,
-     "pct_valid": 0.494
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "INSTITUTO DE PESQUISA MULTIPLA",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.falanews.com.br/2026/08/pesquisa-multipla-raquel-lyra-joao-campos-pernambuco.html",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 81.0,
-   "undecided": 18.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 43.0,
-     "pct_valid": 53.0864
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 37.0,
-     "pct_valid": 45.679
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-pernambuco-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 81.0,
-   "undecided": 19.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 44.0,
-     "pct_valid": 54.321
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 36.0,
-     "pct_valid": 44.4444
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "INSTITUTO DE PESQUISA MULTIPLA",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.falanews.com.br/2026/08/pesquisa-multipla-raquel-lyra-joao-campos-pernambuco.html",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 88.0,
-   "undecided": 12.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 47.0,
-     "pct_valid": 53.4091
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 41.0,
-     "pct_valid": 46.5909
-    }
-   ]
-  },
-  {
-   "uf": "PE",
-   "estado": "Pernambuco",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-pernambuco-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 84.0,
-   "undecided": 16.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Raquel Lyra",
-     "party": "PSD",
-     "pct": 47.0,
-     "pct_valid": 55.9524
-    },
-    {
-     "name": "João Campos",
-     "party": "PSB",
-     "pct": 37.0,
-     "pct_valid": 44.0476
     }
    ]
   },
@@ -22552,105 +24787,6 @@
      "party": "PL",
      "pct": 32.0,
      "pct_valid": 45.0704
-    }
-   ]
-  },
-  {
-   "uf": "MG",
-   "estado": "Minas Gerais",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-minas-gerais-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 69.0,
-   "undecided": 31.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cleitinho",
-     "party": "Republicanos",
-     "pct": 29.0,
-     "pct_valid": 42.029
-    },
-    {
-     "name": "Patrus Ananias",
-     "party": "PT",
-     "pct": 11.0,
-     "pct_valid": 15.942
-    },
-    {
-     "name": "Alexandre Kalil",
-     "party": "PDT",
-     "pct": 10.0,
-     "pct_valid": 14.4928
-    },
-    {
-     "name": "Mateus Simões",
-     "party": "PSD",
-     "pct": 7.0,
-     "pct_valid": 10.1449
-    }
-   ]
-  },
-  {
-   "uf": "MG",
-   "estado": "Minas Gerais",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-minas-gerais-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 75.0,
-   "undecided": 25.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cleitinho",
-     "party": "Republicanos",
-     "pct": 48.0,
-     "pct_valid": 64.0
-    },
-    {
-     "name": "Alexandre Kalil",
-     "party": "PDT",
-     "pct": 27.0,
-     "pct_valid": 36.0
-    }
-   ]
-  },
-  {
-   "uf": "MG",
-   "estado": "Minas Gerais",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-minas-gerais-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 77.0,
-   "undecided": 23.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cleitinho",
-     "party": "Republicanos",
-     "pct": 51.0,
-     "pct_valid": 66.2338
-    },
-    {
-     "name": "Patrus Ananias",
-     "party": "PT",
-     "pct": 26.0,
-     "pct_valid": 33.7662
     }
    ]
   },
@@ -22976,82 +25112,6 @@
    ]
   },
   {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-senador-distrito-federal-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 30.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Michelle Bolsonaro",
-     "party": "PL",
-     "pct": 35.714285714285715,
-     "pct_valid": 35.7143
-    },
-    {
-     "name": "Erika Kokay",
-     "party": "PT",
-     "pct": 17.142857142857142,
-     "pct_valid": 17.1429
-    },
-    {
-     "name": "Bia Kicis",
-     "party": "PL",
-     "pct": 12.857142857142856,
-     "pct_valid": 12.8571
-    },
-    {
-     "name": "Sebastião Coelho",
-     "party": "Novo",
-     "pct": 2.857142857142857,
-     "pct_valid": 2.8571
-    }
-   ]
-  },
-  {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "24/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-distrito-federal-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 75.0,
-   "undecided": 24.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 34.0,
-     "pct_valid": 45.3333
-    },
-    {
-     "name": "José Roberto Arruda",
-     "party": "PSD",
-     "pct": 20.0,
-     "pct_valid": 26.6667
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 13.0,
-     "pct_valid": 17.3333
-    }
-   ]
-  },
-  {
    "uf": "AM",
    "estado": "Amazonas",
    "cargo": "Senado",
@@ -23061,7 +25121,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governador-senador-amazonas-agosto-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.82839393796968,
+   "sum_cands": 101.18969689159744,
    "undecided": 29.0,
    "votos": 1,
    "is_new": false,
@@ -23230,7 +25290,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-governo-senado-amapa-agosto-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.27499956113707,
+   "sum_cands": 101.33131683858196,
    "undecided": 60.0,
    "votos": 1,
    "is_new": false,
@@ -23274,8 +25334,8 @@
     {
      "name": "Juíza Jô",
      "party": "DC",
-     "pct": 1.2749995611370641,
-     "pct_valid": 1.275
+     "pct": 1.331316838581962,
+     "pct_valid": 1.3313
     }
    ]
   },
@@ -23373,264 +25433,6 @@
    ]
   },
   {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/08/24/quaest-sc-senado-24-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 34.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Esperidião Amin",
-     "party": "PP",
-     "pct": 28.78787878787879,
-     "pct_valid": 28.7879
-    },
-    {
-     "name": "Carlos Bolsonaro",
-     "party": "PL",
-     "pct": 24.242424242424242,
-     "pct_valid": 24.2424
-    },
-    {
-     "name": "Décio Lima",
-     "party": "PT",
-     "pct": 13.636363636363635,
-     "pct_valid": 13.6364
-    },
-    {
-     "name": "Lunelli",
-     "party": "MDB",
-     "pct": 3.0303030303030303,
-     "pct_valid": 3.0303
-    },
-    {
-     "name": "Afrânio Boppré",
-     "party": "PSOL",
-     "pct": 3.0303030303030303,
-     "pct_valid": 3.0303
-    }
-   ]
-  },
-  {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/08/24/quaest-sc-governador-24-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 76.0,
-   "undecided": 24.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Jorginho Mello",
-     "party": "PL",
-     "pct": 50.0,
-     "pct_valid": 65.7895
-    },
-    {
-     "name": "João Rodrigues",
-     "party": "PSD",
-     "pct": 17.0,
-     "pct_valid": 22.3684
-    },
-    {
-     "name": "Gelson Merísio",
-     "party": "PSB",
-     "pct": 4.0,
-     "pct_valid": 5.2632
-    }
-   ]
-  },
-  {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/08/24/quaest-sc-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 79.0,
-   "undecided": 21.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Jorginho Mello",
-     "party": "PL",
-     "pct": 63.0,
-     "pct_valid": 79.7468
-    },
-    {
-     "name": "Gelson Merísio",
-     "party": "PSB",
-     "pct": 16.0,
-     "pct_valid": 20.2532
-    }
-   ]
-  },
-  {
-   "uf": "SC",
-   "estado": "Santa Catarina",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/sc/santa-catarina/eleicoes/2026/noticia/2026/08/24/quaest-sc-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 80.0,
-   "undecided": 20.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Jorginho Mello",
-     "party": "PL",
-     "pct": 56.0,
-     "pct_valid": 70.0
-    },
-    {
-     "name": "João Rodrigues",
-     "party": "PSD",
-     "pct": 24.0,
-     "pct_valid": 30.0
-    }
-   ]
-  },
-  {
-   "uf": "RJ",
-   "estado": "Rio de Janeiro",
-   "cargo": "Governo",
-   "pollster": "PREFAB FUTURE",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.zmnoticias.com.br/paes-lidera-com-349-douglas-ruas-tem-147-e-garotinho-95-aponta-pesquisa-prefab-future/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 71.2,
-   "undecided": 28.799999999999997,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Eduardo Paes",
-     "party": "PSD",
-     "pct": 34.9,
-     "pct_valid": 49.0169
-    },
-    {
-     "name": "Douglas Ruas",
-     "party": "PL",
-     "pct": 14.7,
-     "pct_valid": 20.6461
-    },
-    {
-     "name": "Anthony Garotinho",
-     "party": "Republicanos",
-     "pct": 9.5,
-     "pct_valid": 13.3427
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-senado-24-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 51.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Paulo Pimenta",
-     "party": "PT",
-     "pct": 18.367346938775512,
-     "pct_valid": 18.3673
-    },
-    {
-     "name": "Marcel van Hattem",
-     "party": "Novo",
-     "pct": 18.367346938775512,
-     "pct_valid": 18.3673
-    },
-    {
-     "name": "Germano Rigotto",
-     "party": "MDB",
-     "pct": 16.3265306122449,
-     "pct_valid": 16.3265
-    },
-    {
-     "name": "Ubiratan Sanderson",
-     "party": "PL",
-     "pct": 16.3265306122449,
-     "pct_valid": 16.3265
-    },
-    {
-     "name": "Frederico Antunes",
-     "party": "PSD",
-     "pct": 2.0408163265306123,
-     "pct_valid": 2.0408
-    },
-    {
-     "name": "Milton Cardoso",
-     "party": "PSDB",
-     "pct": 2.0408163265306123,
-     "pct_valid": 2.0408
-    },
-    {
-     "name": "Daniela Mulheres Socialistas",
-     "party": "PSTU",
-     "pct": 2.0408163265306123,
-     "pct_valid": 2.0408
-    },
-    {
-     "name": "Renato Jaguarão",
-     "party": "Cidadania",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Luciano Do Mlb",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Tania Peres",
-     "party": "UP",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    },
-    {
-     "name": "Regis Ethur",
-     "party": "PSTU",
-     "pct": 0.0,
-     "pct_valid": 0.0
-    }
-   ]
-  },
-  {
    "uf": "RS",
    "estado": "Rio Grande do Sul",
    "cargo": "Governo",
@@ -23668,375 +25470,6 @@
      "party": "PSDB",
      "pct": 2.0,
      "pct_valid": 3.1746
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 56.0,
-   "undecided": 44.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Juliana Brizola",
-     "party": "PDT",
-     "pct": 32.0,
-     "pct_valid": 57.1429
-    },
-    {
-     "name": "Gabriel Souza",
-     "party": "MDB",
-     "pct": 24.0,
-     "pct_valid": 42.8571
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 69.0,
-   "undecided": 31.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Juliana Brizola",
-     "party": "PDT",
-     "pct": 36.0,
-     "pct_valid": 52.1739
-    },
-    {
-     "name": "Luciano Zucco",
-     "party": "PL",
-     "pct": 33.0,
-     "pct_valid": 47.8261
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rs/rio-grande-do-sul/eleicoes/2026/noticia/2026/08/24/quaest-rs-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 55.0,
-   "undecided": 45.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Luciano Zucco",
-     "party": "PL",
-     "pct": 33.0,
-     "pct_valid": 60.0
-    },
-    {
-     "name": "Gabriel Souza",
-     "party": "MDB",
-     "pct": 22.0,
-     "pct_valid": 40.0
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Senado",
-   "pollster": "CONSULT PESQUISA",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://tribunadonorte.com.br/tn-nas-eleicoes-2026/styvenson-lidera-disputa-ao-senado-coronel-helio-avanca-no-segundo-voto/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 99.99999999999999,
-   "undecided": 45.95,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Styvenson Valentim",
-     "party": "Podemos",
-     "pct": 39.00722355991849,
-     "pct_valid": 39.0072
-    },
-    {
-     "name": "Zenaide Maia",
-     "party": "PSD",
-     "pct": 21.07797740322282,
-     "pct_valid": 21.078
-    },
-    {
-     "name": "Coronel Hélio Oliveira",
-     "party": "PL",
-     "pct": 15.632524541581775,
-     "pct_valid": 15.6325
-    },
-    {
-     "name": "Rafael Motta",
-     "party": "PDT",
-     "pct": 10.409335062048527,
-     "pct_valid": 10.4093
-    },
-    {
-     "name": "Tércio Tinôco",
-     "party": "União",
-     "pct": 1.3521022411557695,
-     "pct_valid": 1.3521
-    },
-    {
-     "name": "Sandro Pimentel",
-     "party": "PSOL",
-     "pct": 0.9816632709761066,
-     "pct_valid": 0.9817
-    },
-    {
-     "name": "Sonia Godeiro",
-     "party": "PSOL",
-     "pct": 0.22226338210779772,
-     "pct_valid": 0.2223
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Senado",
-   "pollster": "PERFIL PESQUISAS TECNICAS",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.viacertanatal.com.br/2026/08/pesquisa-via-certaperfil-styvenson.html",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.28584800222143,
-   "undecided": 48.99,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Styvenson Valentim",
-     "party": "Podemos",
-     "pct": 33.738482650460696,
-     "pct_valid": 33.7385
-    },
-    {
-     "name": "Zenaide Maia",
-     "party": "PSD",
-     "pct": 16.526171338953148,
-     "pct_valid": 16.5262
-    },
-    {
-     "name": "Coronel Hélio Oliveira",
-     "party": "PL",
-     "pct": 13.311115467555382,
-     "pct_valid": 13.3111
-    },
-    {
-     "name": "Rafael Motta",
-     "party": "PDT",
-     "pct": 12.03685551852578,
-     "pct_valid": 12.0369
-    },
-    {
-     "name": "Sandro Pimentel",
-     "party": "PSOL",
-     "pct": 2.9602038815918448,
-     "pct_valid": 2.9602
-    },
-    {
-     "name": "Sonia Godeiro",
-     "party": "PSOL",
-     "pct": 2.372083905116644,
-     "pct_valid": 2.3721
-    },
-    {
-     "name": "Tércio Tinôco",
-     "party": "União",
-     "pct": 1.1174279553028819,
-     "pct_valid": 1.1174
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/08/24/quaest-rn-senado-24-de-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 47.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Styvenson Valentim",
-     "party": "Podemos",
-     "pct": 30.18867924528302,
-     "pct_valid": 30.1887
-    },
-    {
-     "name": "Zenaide Maia",
-     "party": "PSD",
-     "pct": 18.867924528301888,
-     "pct_valid": 18.8679
-    },
-    {
-     "name": "Rafael Motta",
-     "party": "PDT",
-     "pct": 15.09433962264151,
-     "pct_valid": 15.0943
-    },
-    {
-     "name": "Coronel Hélio Oliveira",
-     "party": "PL",
-     "pct": 9.433962264150944,
-     "pct_valid": 9.434
-    },
-    {
-     "name": "Sandro Pimentel",
-     "party": "PSOL",
-     "pct": 1.8867924528301887,
-     "pct_valid": 1.8868
-    },
-    {
-     "name": "Tércio Tinôco",
-     "party": "União",
-     "pct": 1.8867924528301887,
-     "pct_valid": 1.8868
-    },
-    {
-     "name": "Sonia Godeiro",
-     "party": "PSOL",
-     "pct": 1.8867924528301887,
-     "pct_valid": 1.8868
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "PERFIL PESQUISAS TECNICAS",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.viacertanatal.com.br/2026/08/pesquisa-via-certaperfil-allyson-lidera.html",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 64.72,
-   "undecided": 35.14,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 27.72,
-     "pct_valid": 42.8307
-    },
-    {
-     "name": "Álvaro Dias",
-     "party": "PL",
-     "pct": 18.71,
-     "pct_valid": 28.9091
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 13.14,
-     "pct_valid": 20.3028
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "CONSULT PESQUISA",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://tribunadonorte.com.br/politica/pesquisa-consult-allyson-bezerra-lidera-corrida-ao-governo-do-rn-seguido-por-alvaro-dias-e-cadu-de-lula/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 73.77,
-   "undecided": 26.240000000000002,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 30.0,
-     "pct_valid": 40.6669
-    },
-    {
-     "name": "Álvaro Dias",
-     "party": "PL",
-     "pct": 26.41,
-     "pct_valid": 35.8005
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 16.06,
-     "pct_valid": 21.7704
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/08/24/quaest-rn-governador-24-de-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 70.0,
-   "undecided": 30.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 25.0,
-     "pct_valid": 35.7143
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 21.0,
-     "pct_valid": 30.0
-    },
-    {
-     "name": "Álvaro Dias",
-     "party": "PL",
-     "pct": 19.0,
-     "pct_valid": 27.1429
     }
    ]
   },
@@ -24153,64 +25586,6 @@
      "party": "Podemos",
      "pct": 31.3,
      "pct_valid": 45.6934
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/08/24/quaest-pr-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 78.0,
-   "undecided": 22.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 51.0,
-     "pct_valid": 65.3846
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 27.0,
-     "pct_valid": 34.6154
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/pr/parana/eleicoes/2026/noticia/2026/08/24/quaest-pr-governador-24-agosto.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 67.0,
-   "undecided": 33.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 48.0,
-     "pct_valid": 71.6418
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 19.0,
-     "pct_valid": 28.3582
     }
    ]
   },
@@ -24479,211 +25854,6 @@
    ]
   },
   {
-   "uf": "AL",
-   "estado": "Alagoas",
-   "cargo": "Senado",
-   "pollster": "TDL PESQUISA",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.alagoas24horas.com.br/1758272/apos-quaest-confirmar-1o-lugar-nova-pesquisa-tdl-comprova-lideranca-absoluta-de-arthur-lira-na-corrida-para-o-senado",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 0.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Arthur Lira",
-     "party": "PP",
-     "pct": 34.34163701067616,
-     "pct_valid": 34.3416
-    },
-    {
-     "name": "Renan Calheiros",
-     "party": "MDB",
-     "pct": 28.825622775800706,
-     "pct_valid": 28.8256
-    },
-    {
-     "name": "Davi Davino Filho",
-     "party": "Republicanos",
-     "pct": 8.89679715302491,
-     "pct_valid": 8.8968
-    },
-    {
-     "name": "Dr. Wanderley",
-     "party": "MDB",
-     "pct": 4.448398576512455,
-     "pct_valid": 4.4484
-    }
-   ]
-  },
-  {
-   "uf": "AL",
-   "estado": "Alagoas",
-   "cargo": "Senado",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/al/alagoas/eleicoes/2026/noticia/2026/08/24/quaest-al-senado-24-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 31.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Arthur Lira",
-     "party": "PP",
-     "pct": 28.985507246376812,
-     "pct_valid": 28.9855
-    },
-    {
-     "name": "Renan Calheiros",
-     "party": "MDB",
-     "pct": 26.08695652173913,
-     "pct_valid": 26.087
-    },
-    {
-     "name": "Davi Davino Filho",
-     "party": "Republicanos",
-     "pct": 14.492753623188406,
-     "pct_valid": 14.4928
-    },
-    {
-     "name": "Dr. Wanderley",
-     "party": "MDB",
-     "pct": 7.246376811594203,
-     "pct_valid": 7.2464
-    }
-   ]
-  },
-  {
-   "uf": "AL",
-   "estado": "Alagoas",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "23/08/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/al/alagoas/eleicoes/2026/noticia/2026/08/24/quaest-al-governador-24-agosto.ghtml",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 83.0,
-   "undecided": 17.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Renan Filho",
-     "party": "MDB",
-     "pct": 42.0,
-     "pct_valid": 50.6024
-    }
-   ]
-  },
-  {
-   "uf": "SE",
-   "estado": "Sergipe",
-   "cargo": "Senado",
-   "pollster": "POSITIVA PESQUISAS",
-   "date": "22/08/2026",
-   "source": "Plano Político",
-   "url": "https://fanf1.com.br/2026/08/24/positiva-pesquisas-andre-david-eduardo-amorim-e-andre-moura-lideram-corrida-para-o-senado/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 99.9979355783309,
-   "undecided": 32.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Delegado André David",
-     "party": "Republicanos",
-     "pct": 19.619326500732065,
-     "pct_valid": 19.6193
-    },
-    {
-     "name": "Eduardo Amorim",
-     "party": "PSDB",
-     "pct": 19.03367496339678,
-     "pct_valid": 19.0337
-    },
-    {
-     "name": "André Moura",
-     "party": "União",
-     "pct": 16.83748169838946,
-     "pct_valid": 16.8375
-    },
-    {
-     "name": "Delegado Alessandro Vieira",
-     "party": "MDB",
-     "pct": 13.323572474377746,
-     "pct_valid": 13.3236
-    },
-    {
-     "name": "Edvaldo",
-     "party": "PDT",
-     "pct": 10.68814055636896,
-     "pct_valid": 10.6881
-    },
-    {
-     "name": "Rogério Carvalho",
-     "party": "PT",
-     "pct": 9.370424597364568,
-     "pct_valid": 9.3704
-    },
-    {
-     "name": "Rodrigo Valadares",
-     "party": "PL",
-     "pct": 6.295754026354319,
-     "pct_valid": 6.2958
-    },
-    {
-     "name": "Iran Barbosa",
-     "party": "PSOL",
-     "pct": 2.049780380673499,
-     "pct_valid": 2.0498
-    },
-    {
-     "name": "Coronel Rocha",
-     "party": "PL",
-     "pct": 0.8784773060029283,
-     "pct_valid": 0.8785
-    }
-   ]
-  },
-  {
-   "uf": "SE",
-   "estado": "Sergipe",
-   "cargo": "Governo",
-   "pollster": "POSITIVA PESQUISAS",
-   "date": "22/08/2026",
-   "source": "Plano Político",
-   "url": "https://universopolitico.com.br/valmir-lidera-com-43-na-induzida-segundo-positiva-pesquisas/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 89.2,
-   "undecided": 10.8,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Valmir de Francisquinho",
-     "party": "Republicanos",
-     "pct": 43.6,
-     "pct_valid": 48.8789
-    },
-    {
-     "name": "Fábio Mitidieri",
-     "party": "PSD",
-     "pct": 36.5,
-     "pct_valid": 40.9193
-    }
-   ]
-  },
-  {
    "uf": "PA",
    "estado": "Pará",
    "cargo": "Governo",
@@ -24895,64 +26065,6 @@
      "party": "PL",
      "pct": 31.0,
      "pct_valid": 42.4658
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "ALFA INTELIGENCIA",
-   "date": "22/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/alfa-inteligencia-governador-parana-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 86.0,
-   "undecided": 14.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 55.0,
-     "pct_valid": 63.9535
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 31.0,
-     "pct_valid": 36.0465
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "ALFA INTELIGENCIA",
-   "date": "22/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/alfa-inteligencia-governador-parana-agosto-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 87.0,
-   "undecided": 13.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 46.0,
-     "pct_valid": 52.8736
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 41.0,
-     "pct_valid": 47.1264
     }
    ]
   },
@@ -25236,124 +26348,6 @@
      "party": "PP",
      "pct": 21.0,
      "pct_valid": 24.4186
-    }
-   ]
-  },
-  {
-   "uf": "AM",
-   "estado": "Amazonas",
-   "cargo": "Governo",
-   "pollster": "PROJETA PESQUISA DE MERCADO OPNIAO PUBLICA",
-   "date": "21/08/2026",
-   "source": "Plano Político",
-   "url": "https://portalzonafranca.com/2026/08/pesquisa-projeta-aponta-omar-aziz-e-roberto-cidade-em-empate-tecnico-na-corrida-ao-governo-do-amazonas/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 85.1,
-   "undecided": 14.91,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Omar Aziz",
-     "party": "PSD",
-     "pct": 25.72,
-     "pct_valid": 30.2233
-    },
-    {
-     "name": "Roberto Cidade",
-     "party": "União",
-     "pct": 24.0,
-     "pct_valid": 28.2021
-    },
-    {
-     "name": "David Almeida",
-     "party": "Avante",
-     "pct": 15.46,
-     "pct_valid": 18.1669
-    }
-   ]
-  },
-  {
-   "uf": "RS",
-   "estado": "Rio Grande do Sul",
-   "cargo": "Senado",
-   "pollster": "Paraná Pesquisas",
-   "date": "20/08/2026",
-   "source": "Plano Político",
-   "url": "https://paranapesquisas.com.br/pesquisas/parana-pesquisas-registra-pesquisa-no-estado-do-rio-grande-do-sul-para-os-cargos-de-governador-e-senador-registro-tse-n-o-rs-03898-2026-agosto-2026/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 99.99999999999999,
-   "undecided": 16.8,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marcel van Hattem",
-     "party": "Novo",
-     "pct": 18.31177671885636,
-     "pct_valid": 18.3118
-    },
-    {
-     "name": "Germano Rigotto",
-     "party": "MDB",
-     "pct": 16.541865214431585,
-     "pct_valid": 16.5419
-    },
-    {
-     "name": "Paulo Pimenta",
-     "party": "PT",
-     "pct": 15.31654186521443,
-     "pct_valid": 15.3165
-    },
-    {
-     "name": "Ubiratan Sanderson",
-     "party": "PL",
-     "pct": 10.891763104152483,
-     "pct_valid": 10.8918
-    },
-    {
-     "name": "Daniela Mulheres Socialistas",
-     "party": "PSTU",
-     "pct": 3.675970047651464,
-     "pct_valid": 3.676
-    },
-    {
-     "name": "Frederico Antunes",
-     "party": "PSD",
-     "pct": 3.403675970047651,
-     "pct_valid": 3.4037
-    },
-    {
-     "name": "Milton Cardoso",
-     "party": "PSDB",
-     "pct": 2.382573179033356,
-     "pct_valid": 2.3826
-    },
-    {
-     "name": "Tania Peres",
-     "party": "UP",
-     "pct": 2.110279101429544,
-     "pct_valid": 2.1103
-    },
-    {
-     "name": "Luciano Do Mlb",
-     "party": "UP",
-     "pct": 1.7018379850238254,
-     "pct_valid": 1.7018
-    },
-    {
-     "name": "Renato Jaguarão",
-     "party": "Cidadania",
-     "pct": 1.5656909462219193,
-     "pct_valid": 1.5657
-    },
-    {
-     "name": "Regis Ethur",
-     "party": "PSTU",
-     "pct": 1.0211027910142954,
-     "pct_valid": 1.0211
     }
    ]
   },
@@ -25657,76 +26651,6 @@
      "party": "Podemos",
      "pct": 41.8,
      "pct_valid": 45.9846
-    }
-   ]
-  },
-  {
-   "uf": "RO",
-   "estado": "Rondônia",
-   "cargo": "Governo",
-   "pollster": "Phoenix",
-   "date": "18/08/2026",
-   "source": "Plano Político",
-   "url": "https://www.rolnews.com.br/noticia/phoenix-nova-pesquisa-mostra-marcos-rogerio-na-lideranca-em-rondonia-com-furia-em-segundo-e-hildon-em-terceiro",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 75.75,
-   "undecided": 24.240000000000002,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Marcos Rogério",
-     "party": "PL",
-     "pct": 28.2,
-     "pct_valid": 37.2277
-    },
-    {
-     "name": "Adailton Fúria",
-     "party": "PSD",
-     "pct": 19.35,
-     "pct_valid": 25.5446
-    },
-    {
-     "name": "Hildon Chaves",
-     "party": "União",
-     "pct": 16.65,
-     "pct_valid": 21.9802
-    },
-    {
-     "name": "Expedito Netto",
-     "party": "PT",
-     "pct": 6.66,
-     "pct_valid": 8.7921
-    }
-   ]
-  },
-  {
-   "uf": "AP",
-   "estado": "Amapá",
-   "cargo": "Governo",
-   "pollster": "AMERICAN ANALYTICS",
-   "date": "14/08/2026",
-   "source": "Plano Político",
-   "url": "https://timesbrasil.com.br/brasil/decisao-2026-pesquisa-american-analytics-times-brasil-cnbc-dr-furlan-tem-60-contra-34-de-clecio-luis-em-disputa-para-o-governo-do-amapa/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 96.0,
-   "undecided": 4.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Dr. Furlan",
-     "party": "PSD",
-     "pct": 61.0,
-     "pct_valid": 63.5417
-    },
-    {
-     "name": "Clécio Luís",
-     "party": "União",
-     "pct": 35.0,
-     "pct_valid": 36.4583
     }
    ]
   },
@@ -26500,7 +27424,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026/",
    "Lula": 40.4255,
    "Flávio": 31.9149,
-   "weight": 0.02183
+   "weight": 0.02124
   },
   {
    "pollster": "Real Time Big Data",
@@ -26508,7 +27432,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026-2/",
    "Lula": 43.617,
    "Flávio": 39.3617,
-   "weight": 0.06817
+   "weight": 0.06633
   },
   {
    "pollster": "Futura",
@@ -26516,7 +27440,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-392-das-intencoes-de-voto-no-1o-turno-flavio-336/",
    "Lula": 42.7948,
    "Flávio": 36.6812,
-   "weight": 0.01798
+   "weight": 0.01749
   },
   {
    "pollster": "Quaest",
@@ -26524,7 +27448,7 @@
    "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/lula-lidera-pesquisa-quaest-no-1o-turno-com-37percent-contra-30percent-de-flavio-cury-vai-a-10percent.ghtml",
    "Lula": 44.5783,
    "Flávio": 36.1446,
-   "weight": 0.01166
+   "weight": 0.01134
   },
   {
    "pollster": "PALVER",
@@ -26532,7 +27456,7 @@
    "url": "https://noticias.uol.com.br/eleicoes/2026/09/09/pesquisa-do-instituto-palver---presidente---99.ghtm",
    "Lula": 41.2371,
    "Flávio": 40.2062,
-   "weight": 0.02902
+   "weight": 0.02824
   },
   {
    "pollster": "PoderData",
@@ -26540,7 +27464,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026-3/",
    "Lula": 43.1579,
    "Flávio": 41.0526,
-   "weight": 0.03202
+   "weight": 0.03116
   },
   {
    "pollster": "CNT/MDA",
@@ -26548,7 +27472,7 @@
    "url": "https://www.metropoles.com/brasil/pesquisa-cnt-mda-lula-lidera-disputa-contra-flavio-no-1o-e-2o-turnos",
    "Lula": 47.8158,
    "Flávio": 35.8914,
-   "weight": 0.05486
+   "weight": 0.05338
   },
   {
    "pollster": "AtlasIntel",
@@ -26556,7 +27480,15 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026-2/",
    "Lula": 45.046,
    "Flávio": 42.5945,
-   "weight": 0.02458
+   "weight": 0.02392
+  },
+  {
+   "pollster": "Datafolha",
+   "date": "24/09/2026",
+   "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
+   "Lula": 44.4444,
+   "Flávio": 40.0,
+   "weight": 0.04466
   },
   {
    "pollster": "Nexus",
@@ -26564,7 +27496,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026/",
    "Lula": 41.4894,
    "Flávio": 37.234,
-   "weight": 0.01576
+   "weight": 0.01534
   },
   {
    "pollster": "Datafolha",
@@ -26572,7 +27504,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026-3/",
    "Lula": 42.3913,
    "Flávio": 39.1304,
-   "weight": 0.04458
+   "weight": 0.03158
   },
   {
    "pollster": "PoderData",
@@ -26580,7 +27512,7 @@
    "url": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
    "Lula": 38.9474,
    "Flávio": 35.7895,
-   "weight": 0.01132
+   "weight": 0.01102
   },
   {
    "pollster": "PoderData",
@@ -26588,7 +27520,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026-2/",
    "Lula": 39.3617,
    "Flávio": 38.2979,
-   "weight": 0.02264
+   "weight": 0.02203
   },
   {
    "pollster": "AtlasIntel",
@@ -26596,7 +27528,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-agosto-2026/",
    "Lula": 43.487,
    "Flávio": 33.7675,
-   "weight": 0.0106
+   "weight": 0.01031
   },
   {
    "pollster": "ALFA INTELIGENCIA",
@@ -26604,7 +27536,7 @@
    "url": "https://revistaoeste.com/politica/alfa-inteligencia-lula-e-flavio-empatam-no-2o-turno/",
    "Lula": 44.9438,
    "Flávio": 37.0787,
-   "weight": 0.09
+   "weight": 0.08757
   },
   {
    "pollster": "Nexus",
@@ -26612,7 +27544,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026-2/",
    "Lula": 43.0108,
    "Flávio": 39.7849,
-   "weight": 0.03
+   "weight": 0.02919
   },
   {
    "pollster": "Nexus",
@@ -26620,7 +27552,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-agosto-2026-5/",
    "Lula": 41.9355,
    "Flávio": 35.4839,
-   "weight": 0.01061
+   "weight": 0.01032
   },
   {
    "pollster": "Futura",
@@ -26628,7 +27560,7 @@
    "url": "https://exame.com/brasil/futura-flavio-bolsonaro-cresce-chega-a-404-e-ultrapassa-lula-no-1o-turno/",
    "Lula": 40.592,
    "Flávio": 42.7061,
-   "weight": 0.03778
+   "weight": 0.03676
   },
   {
    "pollster": "PoderData",
@@ -26636,7 +27568,7 @@
    "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-38-contra-36-de-flavio-no-1o-turno/",
    "Lula": 40.0,
    "Flávio": 37.8947,
-   "weight": 0.01601
+   "weight": 0.01558
   },
   {
    "pollster": "AtlasIntel",
@@ -26644,7 +27576,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026-3/",
    "Lula": 46.3563,
    "Flávio": 43.9271,
-   "weight": 0.03309
+   "weight": 0.0322
   },
   {
    "pollster": "Datafolha",
@@ -26652,7 +27584,7 @@
    "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-38-e-flavio-bolsonaro-33-no-1o-turno-cury-vai-a-8.shtml",
    "Lula": 43.1818,
    "Flávio": 37.5,
-   "weight": 0.02229
+   "weight": 0.01579
   },
   {
    "pollster": "INDEXA PESQUISAS",
@@ -26660,7 +27592,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-setembro-2026/",
    "Lula": 44.186,
    "Flávio": 39.5349,
-   "weight": 0.05486
+   "weight": 0.05338
   },
   {
    "pollster": "Gerp",
@@ -26668,7 +27600,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026/",
    "Lula": 38.2022,
    "Flávio": 41.573,
-   "weight": 0.0256
+   "weight": 0.02491
   },
   {
    "pollster": "Vox Populi",
@@ -26676,7 +27608,7 @@
    "url": "https://exame.com/brasil/pesquisa-vox-brasil-diferenca-entre-lula-e-flavio-bolsonaro-cai-7-pontos-no-1o-turno/",
    "Lula": 42.3516,
    "Flávio": 39.726,
-   "weight": 0.02364
+   "weight": 0.023
   },
   {
    "pollster": "Nexus",
@@ -26684,7 +27616,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-presidente-setembro-2026/",
    "Lula": 44.6809,
    "Flávio": 39.3617,
-   "weight": 0.02121
+   "weight": 0.02064
   },
   {
    "pollster": "Futura",
@@ -26692,7 +27624,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-setembro-2026/",
    "Lula": 41.2141,
    "Flávio": 35.7827,
-   "weight": 0.0121
+   "weight": 0.01177
   },
   {
    "pollster": "PoderData",
@@ -26700,7 +27632,7 @@
    "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-38-contra-35-de-flavio-no-1o-turno/",
    "Lula": 40.4255,
    "Flávio": 37.234,
-   "weight": 0.00801
+   "weight": 0.00779
   },
   {
    "pollster": "Quaest",
@@ -26708,7 +27640,7 @@
    "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/pesquisa-quaest-flavio-aparece-numericamente-a-frente-de-lula-no-2o-turno-pela-primeira-vez-na-campanha.ghtml",
    "Lula": 43.3735,
    "Flávio": 37.3494,
-   "weight": 0.02112
+   "weight": 0.02055
   },
   {
    "pollster": "PALVER",
@@ -26716,7 +27648,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-e-lula-empatam-no-1o-turno-em-43/",
    "Lula": 43.4343,
    "Flávio": 43.4343,
-   "weight": 0.06098
+   "weight": 0.05934
   },
   {
    "pollster": "Quaest",
@@ -26724,7 +27656,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
    "Lula": 43.5294,
    "Flávio": 38.8235,
-   "weight": 0.02987
+   "weight": 0.02906
   },
   {
    "pollster": "Quaest",
@@ -26732,7 +27664,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml",
    "Lula": 43.9024,
    "Flávio": 35.3659,
-   "weight": 0.01493
+   "weight": 0.01453
   },
   {
    "pollster": "Gerp",
@@ -26740,7 +27672,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026-2/",
    "Lula": 40.6593,
    "Flávio": 43.956,
-   "weight": 0.03804
+   "weight": 0.03702
   },
   {
    "pollster": "Ideia",
@@ -26748,7 +27680,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-setembro-2026/",
    "Lula": 40.4636,
    "Flávio": 39.3045,
-   "weight": 0.04076
+   "weight": 0.03966
   },
   {
    "pollster": "Futura",
@@ -26756,7 +27688,7 @@
    "url": "https://revistaoeste.com/politica/flavio-tem-481-contra-437-de-lula-no-2-turno-mostra-pesquisa/",
    "Lula": 40.8316,
    "Flávio": 40.1919,
-   "weight": 0.02671
+   "weight": 0.02599
   },
   {
    "pollster": "AtlasIntel",
@@ -26764,7 +27696,7 @@
    "url": "https://www.estadao.com.br/politica/eleicoes/pesquisa-atlas-flavio-bolsonaro-tem-464-e-lula-462-no-segundo-turno/",
    "Lula": 43.4343,
    "Flávio": 37.7778,
-   "weight": 0.01738
+   "weight": 0.01692
   }
  ]
 }
