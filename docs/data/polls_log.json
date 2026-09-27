@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26",
+ "generated_at": "2026-09-27",
  "state_polls": [
   {
    "uf": "MS",
@@ -14,7 +14,7 @@
    "sum_cands": 99.99689976689977,
    "undecided": 14.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Reinaldo Azambuja",
@@ -67,7 +67,7 @@
    "sum_cands": 86.5,
    "undecided": 13.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -102,7 +102,7 @@
    "sum_cands": 100.00351316634554,
    "undecided": 12.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -155,7 +155,7 @@
    "sum_cands": 90.60000000000001,
    "undecided": 9.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -184,7 +184,7 @@
    "sum_cands": 93.0,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -460,7 +460,7 @@
    "sum_cands": 100.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Teresa Surita",
@@ -501,7 +501,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -594,7 +594,7 @@
    "sum_cands": 100.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcel van Hattem",
@@ -677,7 +677,7 @@
    "sum_cands": 100.18056288000098,
    "undecided": 57.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -736,7 +736,7 @@
    "sum_cands": 100.18056288000096,
    "undecided": 40.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Styvenson Valentim",
@@ -795,7 +795,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -830,7 +830,7 @@
    "sum_cands": 86.1,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -865,7 +865,7 @@
    "sum_cands": 65.2,
    "undecided": 34.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -894,7 +894,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -923,7 +923,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -952,7 +952,7 @@
    "sum_cands": 54.4,
    "undecided": 45.7,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -981,7 +981,7 @@
    "sum_cands": 63.5,
    "undecided": 36.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -1010,7 +1010,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -1098,7 +1098,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1337,7 +1337,7 @@
    "sum_cands": 100.00142857142856,
    "undecided": 30.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Capitão Contar",
@@ -1390,7 +1390,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -1425,7 +1425,7 @@
    "sum_cands": 83.0,
    "undecided": 17.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -1454,7 +1454,7 @@
    "sum_cands": 100.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mauro Mendes",
@@ -1507,7 +1507,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -1542,7 +1542,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -1571,7 +1571,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -1600,7 +1600,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -1629,7 +1629,7 @@
    "sum_cands": 100.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Roseana Sarney",
@@ -1688,7 +1688,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -1723,7 +1723,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -1752,7 +1752,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -1781,7 +1781,7 @@
    "sum_cands": 74.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Orleans Brandão",
@@ -1887,7 +1887,7 @@
    "sum_cands": 101.10033665480651,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -1964,7 +1964,7 @@
    "sum_cands": 100.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renato Casagrande",
@@ -2041,7 +2041,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2076,7 +2076,7 @@
    "sum_cands": 78.99,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -2111,7 +2111,7 @@
    "sum_cands": 72.0,
    "undecided": 28.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2140,7 +2140,7 @@
    "sum_cands": 71.11,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2169,7 +2169,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2198,7 +2198,7 @@
    "sum_cands": 84.17,
    "undecided": 15.83,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -2227,7 +2227,7 @@
    "sum_cands": 74.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -2256,7 +2256,7 @@
    "sum_cands": 75.16,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -2390,7 +2390,7 @@
    "sum_cands": 100.00421052631579,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -2443,7 +2443,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -2472,7 +2472,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -2542,7 +2542,7 @@
    "sum_cands": 100.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Lira",
@@ -2606,7 +2606,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -2629,7 +2629,7 @@
    "sum_cands": 100.00000000000001,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Gladson Cameli",
@@ -2694,7 +2694,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2729,7 +2729,7 @@
    "sum_cands": 83.5,
    "undecided": 16.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -2764,7 +2764,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2793,7 +2793,7 @@
    "sum_cands": 84.69999999999999,
    "undecided": 15.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -2822,7 +2822,7 @@
    "sum_cands": 60.2,
    "undecided": 39.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2851,7 +2851,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -2880,7 +2880,7 @@
    "sum_cands": 64.80000000000001,
    "undecided": 35.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -3651,7 +3651,7 @@
    "sum_cands": 82.9,
    "undecided": 15.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -3721,7 +3721,7 @@
    "sum_cands": 86.07,
    "undecided": 13.93,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -3750,7 +3750,7 @@
    "sum_cands": 78.61,
    "undecided": 21.380000000000003,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -3779,7 +3779,7 @@
    "sum_cands": 84.6,
    "undecided": 15.399999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -5209,7 +5209,7 @@
    "sum_cands": 72.1,
    "undecided": 0.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -7155,7 +7155,7 @@
    "sum_cands": 93.6,
    "undecided": 6.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -7349,158 +7349,6 @@
      "party": "PSB",
      "pct": 48.5,
      "pct_valid": 49.6418
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Senado",
-   "pollster": "IRG",
-   "date": "20/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-senado-parana-setembro-2026-2/",
-   "scenario": "1º turno",
-   "base": "válidos",
-   "sum_cands": 100.0,
-   "undecided": 11.600000000000001,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Deltan Dallagnol",
-     "party": "Novo",
-     "pct": 27.149321266968325,
-     "pct_valid": 27.1493
-    },
-    {
-     "name": "Gleisi Hoffmann",
-     "party": "PT",
-     "pct": 23.868778280542987,
-     "pct_valid": 23.8688
-    },
-    {
-     "name": "Alexandre Curi",
-     "party": "Republicanos",
-     "pct": 23.076923076923073,
-     "pct_valid": 23.0769
-    },
-    {
-     "name": "Filipe Barros",
-     "party": "PL",
-     "pct": 14.479638009049772,
-     "pct_valid": 14.4796
-    },
-    {
-     "name": "Dr. Rosinha",
-     "party": "PT",
-     "pct": 2.48868778280543,
-     "pct_valid": 2.4887
-    },
-    {
-     "name": "Karen Guerreiro",
-     "party": "Missão",
-     "pct": 1.3574660633484161,
-     "pct_valid": 1.3575
-    },
-    {
-     "name": "Joaquim Do Mlb",
-     "party": "UP",
-     "pct": 0.33936651583710403,
-     "pct_valid": 0.3394
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "IRG",
-   "date": "20/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-setembro-2026-2/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 90.7,
-   "undecided": 9.3,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 39.7,
-     "pct_valid": 43.7707
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 27.8,
-     "pct_valid": 30.6505
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 21.3,
-     "pct_valid": 23.484
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "IRG",
-   "date": "20/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-setembro-2026-2/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 83.5,
-   "undecided": 16.5,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 55.3,
-     "pct_valid": 66.2275
-    },
-    {
-     "name": "Requião Filho",
-     "party": "PDT",
-     "pct": 28.2,
-     "pct_valid": 33.7725
-    }
-   ]
-  },
-  {
-   "uf": "PR",
-   "estado": "Paraná",
-   "cargo": "Governo",
-   "pollster": "IRG",
-   "date": "20/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/irg-pesquisas-governador-parana-setembro-2026-2/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 83.1,
-   "undecided": 16.9,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Sergio Moro",
-     "party": "PL",
-     "pct": 43.3,
-     "pct_valid": 52.1059
-    },
-    {
-     "name": "Sandro Alex",
-     "party": "PSD",
-     "pct": 39.8,
-     "pct_valid": 47.8941
     }
    ]
   },
@@ -15673,7 +15521,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-setembro-2026/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.25736885958813,
+   "sum_cands": 101.28232583128033,
    "undecided": 9.0,
    "votos": 1,
    "is_new": false,
@@ -15717,8 +15565,8 @@
     {
      "name": "Joaquim Do Mlb",
      "party": "UP",
-     "pct": 0.6488416605005229,
-     "pct_valid": 0.6488
+     "pct": 0.6651298260091238,
+     "pct_valid": 0.6651
     }
    ]
   },
@@ -23140,7 +22988,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-senado-parana-agosto-2026-2/",
    "scenario": "1º turno",
    "base": "válidos",
-   "sum_cands": 101.25736885958813,
+   "sum_cands": 101.28232583128032,
    "undecided": 10.0,
    "votos": 1,
    "is_new": false,
@@ -23184,8 +23032,8 @@
     {
      "name": "Joaquim Do Mlb",
      "party": "UP",
-     "pct": 0.6488416605005229,
-     "pct_valid": 0.6488
+     "pct": 0.6651298260091238,
+     "pct_valid": 0.6651
     }
    ]
   },
