@@ -26513,12 +26513,12 @@
    "scenario": "1º turno",
    "scenario_key": "allyson bezerra|alvaro dias|cadu xavier",
    "registro": "RN-07539/2026",
-   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "pollster": "Exatus",
    "field_start": "2026-09-07",
    "field_end": "2026-09-09",
    "published_at": "2026-09-09",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://agorarn.com.br/politica/pesquisa-exatus-allyson-alvaro-governo-rn/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -28776,12 +28776,12 @@
    "scenario": "1º turno",
    "scenario_key": "clovis costa do coletivo nos|coronel helio|gari wendell batista|luciana mandu|professor guilherme|rafael motta|rosalia fernandes|samanda de lula|sandro pimentel|sonia godeiro|styvenson valentim|tercio tinoco|zenaide maia",
    "registro": "RN-07539/2026",
-   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "pollster": "Exatus",
    "field_start": "2026-09-07",
    "field_end": "2026-09-09",
    "published_at": "2026-09-09",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://agorarn.com.br/politica/pesquisa-exatus-soma-votos-senado-rn/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/senado/",
@@ -122921,32 +122921,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-04",
-   "updated_at": "2026-10-03",
+   "checked_at": "2026-10-05",
+   "updated_at": "2026-10-05",
    "count": 971,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-04",
-   "updated_at": "2026-10-03",
+   "checked_at": "2026-10-05",
+   "updated_at": "2026-10-05",
    "count": 1486,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-04",
-   "updated_at": "2026-10-03",
+   "checked_at": "2026-10-05",
+   "updated_at": "2026-10-05",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-04",
+ "checked_at": "2026-10-05",
  "changes": {
-  "date": "2026-10-04",
-  "added": 204,
-  "revised": 1,
+  "date": "2026-10-05",
+  "added": 0,
+  "revised": 2,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }

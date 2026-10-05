@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04",
+ "generated_at": "2026-10-05",
  "state_polls": [
   {
    "uf": "TO",
@@ -14,7 +14,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -55,7 +55,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -84,7 +84,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -113,7 +113,7 @@
    "sum_cands": 92.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -142,7 +142,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -171,7 +171,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -200,7 +200,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -235,7 +235,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -264,7 +264,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -293,7 +293,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -322,7 +322,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Arthur Henrique",
@@ -351,7 +351,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -392,7 +392,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -421,7 +421,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marcos Rogério",
@@ -450,7 +450,7 @@
    "sum_cands": 62.0,
    "undecided": 38.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Adailton Fúria",
@@ -479,7 +479,7 @@
    "sum_cands": 100.0,
    "undecided": null,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Benedita da Silva",
@@ -556,7 +556,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -591,7 +591,7 @@
    "sum_cands": 65.0,
    "undecided": 35.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -620,7 +620,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -649,7 +649,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -678,7 +678,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -719,7 +719,7 @@
    "sum_cands": 67.0,
    "undecided": 33.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Juliana Brizola",
@@ -748,7 +748,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -777,7 +777,7 @@
    "sum_cands": 74.0,
    "undecided": 26.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -806,7 +806,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -841,7 +841,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -870,7 +870,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -899,7 +899,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -928,7 +928,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -957,7 +957,7 @@
    "sum_cands": 101.0,
    "undecided": null,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marília Arraes",
@@ -1016,7 +1016,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1045,7 +1045,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1074,7 +1074,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1103,7 +1103,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Raquel Lyra",
@@ -1132,7 +1132,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -1161,7 +1161,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Daniel Santos",
@@ -1190,7 +1190,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -1219,7 +1219,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -1248,7 +1248,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1283,7 +1283,7 @@
    "sum_cands": 83.0,
    "undecided": 17.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1312,7 +1312,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -1341,7 +1341,7 @@
    "sum_cands": 84.0,
    "undecided": 17.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1382,7 +1382,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1423,7 +1423,7 @@
    "sum_cands": 70.0,
    "undecided": 30.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1452,7 +1452,7 @@
    "sum_cands": 64.0,
    "undecided": 36.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1481,7 +1481,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cleitinho",
@@ -1510,7 +1510,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -1545,7 +1545,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -1574,7 +1574,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -1609,7 +1609,7 @@
    "sum_cands": 71.0,
    "undecided": 29.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Wellington Fagundes",
@@ -1638,7 +1638,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -1667,7 +1667,7 @@
    "sum_cands": 78.0,
    "undecided": 22.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -1696,7 +1696,7 @@
    "sum_cands": 83.0,
    "undecided": 17.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -1731,7 +1731,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braide",
@@ -1760,7 +1760,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1795,7 +1795,7 @@
    "sum_cands": 82.0,
    "undecided": 18.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1824,7 +1824,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Daniel Vilela",
@@ -1853,7 +1853,7 @@
    "sum_cands": 68.0,
    "undecided": 32.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Marconi Perillo",
@@ -1882,7 +1882,7 @@
    "sum_cands": 76.0,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -1917,7 +1917,7 @@
    "sum_cands": 73.0,
    "undecided": 27.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ricardo Ferraço",
@@ -1946,7 +1946,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -1975,7 +1975,7 @@
    "sum_cands": 75.0,
    "undecided": 25.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -2004,7 +2004,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -2033,7 +2033,7 @@
    "sum_cands": 88.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -2062,7 +2062,7 @@
    "sum_cands": 83.0,
    "undecided": 17.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -2091,7 +2091,7 @@
    "sum_cands": 100.0,
    "undecided": null,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cid Gomes",
@@ -2144,7 +2144,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -2173,7 +2173,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -2202,7 +2202,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -2231,7 +2231,7 @@
    "sum_cands": 97.0,
    "undecided": 3.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -2260,7 +2260,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jerônimo Rodrigues",
@@ -2289,7 +2289,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jerônimo Rodrigues",
@@ -2318,7 +2318,7 @@
    "sum_cands": 100.0,
    "undecided": null,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Braga",
@@ -2359,7 +2359,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -2394,7 +2394,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -2423,7 +2423,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Omar Aziz",
@@ -2452,7 +2452,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -2481,7 +2481,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Dr. Furlan",
@@ -2510,7 +2510,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -2533,7 +2533,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2568,7 +2568,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2597,7 +2597,7 @@
    "sum_cands": 71.0,
    "undecided": 29.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -2626,7 +2626,7 @@
    "sum_cands": 71.0,
    "undecided": 29.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -2655,7 +2655,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -2696,7 +2696,7 @@
    "sum_cands": 85.37,
    "undecided": 14.629999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -2725,7 +2725,7 @@
    "sum_cands": 96.8,
    "undecided": 3.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -2754,7 +2754,7 @@
    "sum_cands": 97.0,
    "undecided": 3.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Tarcísio de Freitas",
@@ -2783,7 +2783,7 @@
    "sum_cands": 81.42,
    "undecided": 18.58,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -2812,7 +2812,7 @@
    "sum_cands": 97.4,
    "undecided": 2.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Fábio Mitidieri",
@@ -2841,7 +2841,7 @@
    "sum_cands": 96.1,
    "undecided": 3.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jorginho Mello",
@@ -2876,7 +2876,7 @@
    "sum_cands": 95.4,
    "undecided": 4.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -2911,7 +2911,7 @@
    "sum_cands": 97.4,
    "undecided": 2.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Luciano Zucco",
@@ -3116,7 +3116,7 @@
    "sum_cands": 95.0,
    "undecided": 4.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Rafael Fonteles",
@@ -3145,7 +3145,7 @@
    "sum_cands": 95.89999999999999,
    "undecided": 4.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -3174,7 +3174,7 @@
    "sum_cands": 96.19999999999999,
    "undecided": 3.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -3203,7 +3203,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -3238,7 +3238,7 @@
    "sum_cands": 100.0,
    "undecided": null,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Deltan Dallagnol",
@@ -3326,7 +3326,7 @@
    "sum_cands": 99.7,
    "undecided": 0.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -3361,7 +3361,7 @@
    "sum_cands": 89.7,
    "undecided": 10.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -3437,7 +3437,7 @@
    "sum_cands": 92.45,
    "undecided": 7.550000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -3472,7 +3472,7 @@
    "sum_cands": 93.5,
    "undecided": 6.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -3507,7 +3507,7 @@
    "sum_cands": 83.5,
    "undecided": 16.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Riedel",
@@ -3542,7 +3542,7 @@
    "sum_cands": 96.2,
    "undecided": 3.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Otaviano Pivetta",
@@ -3647,7 +3647,7 @@
    "sum_cands": 94.4,
    "undecided": 5.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -3740,7 +3740,7 @@
    "sum_cands": 87.9,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -3856,7 +3856,7 @@
    "sum_cands": 97.6,
    "undecided": 2.3,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Elmano de Freitas",
@@ -3885,7 +3885,7 @@
    "sum_cands": 97.9,
    "undecided": 2.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Ciro Gomes",
@@ -3914,7 +3914,7 @@
    "sum_cands": 99.1,
    "undecided": 1.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jerônimo Rodrigues",
@@ -4001,7 +4001,7 @@
    "sum_cands": 98.2,
    "undecided": 1.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Jerônimo Rodrigues",
@@ -4071,7 +4071,7 @@
    "sum_cands": 96.3,
    "undecided": 3.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -4106,7 +4106,7 @@
    "sum_cands": 89.8,
    "undecided": 10.2,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -4141,7 +4141,7 @@
    "sum_cands": 86.4,
    "undecided": 13.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -4176,7 +4176,7 @@
    "sum_cands": 87.4,
    "undecided": 12.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -4211,7 +4211,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -4240,7 +4240,7 @@
    "sum_cands": 77.0,
    "undecided": 23.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Alan Rick",
@@ -5827,7 +5827,7 @@
    "sum_cands": 89.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Eduardo Paes",
@@ -5955,7 +5955,7 @@
    "sum_cands": 84.9,
    "undecided": 15.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -5984,7 +5984,7 @@
    "sum_cands": 87.5,
    "undecided": 12.5,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Hana Ghassan",
@@ -6118,7 +6118,7 @@
    "sum_cands": 94.0,
    "undecided": 6.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Renan Filho",
@@ -6509,7 +6509,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -6544,7 +6544,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -6573,7 +6573,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -7029,7 +7029,7 @@
    "sum_cands": 76.07,
    "undecided": 23.93,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -7058,7 +7058,7 @@
    "sum_cands": 76.93,
    "undecided": 23.060000000000002,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -9215,7 +9215,7 @@
    "sum_cands": 79.0,
    "undecided": 21.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lucas Ribeiro",
@@ -10236,7 +10236,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -10271,7 +10271,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -10300,7 +10300,7 @@
    "sum_cands": 84.0,
    "undecided": 16.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Sergio Moro",
@@ -11141,7 +11141,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -11182,7 +11182,7 @@
    "sum_cands": 90.0,
    "undecided": 10.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -18597,7 +18597,7 @@
    "sum_cands": 98.08,
    "undecided": 1.92,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -19651,7 +19651,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -19897,7 +19897,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -23044,7 +23044,7 @@
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Governo",
-   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "pollster": "Exatus",
    "date": "09/09/2026",
    "source": "Plano Político",
    "url": "https://agorarn.com.br/politica/pesquisa-exatus-allyson-alvaro-governo-rn/",
@@ -23053,7 +23053,7 @@
    "sum_cands": 83.33,
    "undecided": 16.67,
    "votos": 1,
-   "is_new": false,
+   "is_new": true,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -23670,7 +23670,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -25713,7 +25713,7 @@
    "sum_cands": 80.0,
    "undecided": 20.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -25783,7 +25783,7 @@
    "sum_cands": 89.25,
    "undecided": 10.75,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
