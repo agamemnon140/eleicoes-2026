@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05",
+ "generated_at": "2026-10-06",
  "state_polls": [
   {
    "uf": "TO",
@@ -23053,7 +23053,7 @@
    "sum_cands": 83.33,
    "undecided": 16.67,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
