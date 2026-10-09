@@ -122921,28 +122921,28 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-08",
+   "checked_at": "2026-10-09",
    "updated_at": "2026-10-08",
    "count": 971,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-08",
+   "checked_at": "2026-10-09",
    "updated_at": "2026-10-08",
    "count": 1486,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-08",
+   "checked_at": "2026-10-09",
    "updated_at": "2026-10-08",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-08",
+ "checked_at": "2026-10-09",
  "changes": {
   "date": "2026-10-05",
   "added": 0,
