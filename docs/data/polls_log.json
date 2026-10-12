@@ -1,6 +1,93 @@
 {
- "generated_at": "2026-10-11",
+ "generated_at": "2026-10-12",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Direct Pesquisas",
+   "date": "09/10/2026",
+   "source": "Plano Político",
+   "url": "https://tocantins.jornalopcao.com.br/noticias/pesquisa-directa-aponta-dorinha-com-528-dos-votos-validos-e-vicentinho-junior-com-472-no-segundo-turno-601973/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 84.9,
+   "undecided": 15.1,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 44.8,
+     "pct_valid": 52.768
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 40.1,
+     "pct_valid": 47.232
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Igape",
+   "date": "07/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.conexaorecord.com.br/celina-leao-dispara-no-2-turno-e-chega-a-607-dos-votos-validos-no-df-aponta-igape/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 55.8,
+     "pct_valid": 60.6522
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 36.2,
+     "pct_valid": 39.3478
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "07/10/2026",
+   "source": "Plano Político",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/datafolha-celina-leao-tem-55-e-grass-37-no-2-turno",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 55.0,
+     "pct_valid": 59.7826
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 37.0,
+     "pct_valid": 40.2174
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -23695,35 +23782,6 @@
      "party": "Novo",
      "pct": 3.0,
      "pct_valid": 3.4884
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "CORREIO DO POVO TOCANTINENSE",
-   "date": "08/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.portalbenicio.com.br/eleicoes-2026-vicentinho-junior-lidera-corrida-ao-governo-do-tocantins-com-dorinha-em-segundo/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 84.0,
-   "undecided": 16.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 46.0,
-     "pct_valid": 54.7619
-    },
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 38.0,
-     "pct_valid": 45.2381
     }
    ]
   },
