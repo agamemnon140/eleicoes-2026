@@ -4936,9 +4936,9 @@
    "pollster": "Seta",
    "field_start": "2026-09-03",
    "field_end": "2026-09-05",
-   "published_at": "2026-09-10",
+   "published_at": "2026-09-05",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://www.tribunadenoticias.com.br/2026/09/zenaide-chega-414-e-aparece-novamente.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/senado/",
@@ -8109,6 +8109,39 @@
    "date": "22/09/2026"
   },
   {
+   "id": "11e6d0eccda3bf5bf7ea",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03576/2026",
+   "pollster": "DataTrends",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-09",
+   "published_at": "2026-10-11",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.edmarlyra.com/datatrends-flavio-bolsonaro-lidera-com-531-dos-votos-validos-contra-469-de-lula-no-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 46.8085,
+    "Flávio Bolsonaro": 53.1915
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "09/10/2026"
+  },
+  {
    "id": "11f2368a6978dab3172c",
    "uf": "PR",
    "cargo": "Governo",
@@ -11271,6 +11304,39 @@
    "date": "17/08/2026"
   },
   {
+   "id": "177d149eb4a44fc4624d",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00933/2026",
+   "pollster": "Ipespe",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-08",
+   "published_at": "2026-10-10",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://static.poder360.com.br/uploads/2026/10/pesquisa-ipespe-abrapel-10out2026.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 93.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Lula": 47.3118,
+    "Flávio Bolsonaro": 52.6882
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "08/10/2026"
+  },
+  {
    "id": "1788b477424ebbe7b7ef",
    "uf": "BR",
    "cargo": "Presidente",
@@ -11911,9 +11977,9 @@
    "pollster": "Seta",
    "field_start": "2026-09-03",
    "field_end": "2026-09-05",
-   "published_at": "2026-09-10",
+   "published_at": "2026-09-05",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://www.blogdojoaomarcolino.com/2026/09/seta-allyson-vence-de-forma.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -21161,6 +21227,39 @@
    "date": "21/08/2026"
   },
   {
+   "id": "29f694a911ffdc22de5c",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-00054/2026",
+   "pollster": "Igape",
+   "field_start": "2026-10-05",
+   "field_end": "2026-10-07",
+   "published_at": "2026-10-09",
+   "sample_size": 1200,
+   "method": "Telefone",
+   "url": "https://www.conexaorecord.com.br/celina-leao-dispara-no-2-turno-e-chega-a-607-dos-votos-validos-no-df-aponta-igape/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 55.8,
+    "Leandro Grass": 36.2,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Celina Leão": 60.6522,
+    "Leandro Grass": 39.3478
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "07/10/2026"
+  },
+  {
    "id": "2a0566a6f406c5637c78",
    "uf": "SE",
    "cargo": "Governo",
@@ -21350,6 +21449,39 @@
    ],
    "date": "21/07/2026",
    "withdrawn": true
+  },
+  {
+   "id": "2a55a93adfe1cd4bedd6",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-03365/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-07",
+   "published_at": "2026-10-08",
+   "sample_size": 910,
+   "method": "Presencial",
+   "url": "https://sbtnews.sbt.com.br/noticia/politica/datafolha-celina-leao-tem-55-e-grass-37-no-2-turno",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 55.0,
+    "Leandro Grass": 37.0,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Celina Leão": 59.7826,
+    "Leandro Grass": 40.2174
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "07/10/2026"
   },
   {
    "id": "2a61858293fa1179cef7",
@@ -27824,6 +27956,39 @@
    "eligible": true,
    "issues": [],
    "date": "20/08/2026"
+  },
+  {
+   "id": "377bc2352e4dea28566b",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08134/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-05",
+   "field_end": "2026-10-07",
+   "published_at": "2026-10-08",
+   "sample_size": 3000,
+   "method": "Misto",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-8out26-final.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 7.0
+   },
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "valid_shares": {
+    "Lula": 47.3118,
+    "Flávio Bolsonaro": 52.6882
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "07/10/2026"
   },
   {
    "id": "378e0a6e62a7b5782ff9",
@@ -36709,9 +36874,9 @@
    "pollster": "Seta",
    "field_start": "2026-09-03",
    "field_end": "2026-09-05",
-   "published_at": "2026-09-10",
+   "published_at": "2026-09-05",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://www.blogdojoaomarcolino.com/2026/09/seta-allyson-vence-de-forma.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -38439,9 +38604,9 @@
    "pollster": "Seta",
    "field_start": "2026-09-03",
    "field_end": "2026-09-05",
-   "published_at": "2026-09-10",
+   "published_at": "2026-09-05",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://www.blogdojoaomarcolino.com/2026/09/seta-allyson-vence-de-forma.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -38815,6 +38980,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "26/07/2026"
+  },
+  {
+   "id": "500be8a1b40c73a262be",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-03128/2026",
+   "pollster": "Direct Pesquisas",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-09",
+   "published_at": "2026-10-10",
+   "sample_size": 1200,
+   "method": "Presencial",
+   "url": "https://tocantins.jornalopcao.com.br/noticias/pesquisa-directa-aponta-dorinha-com-528-dos-votos-validos-e-vicentinho-junior-com-472-no-segundo-turno-601973/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Professora Dorinha": 44.8,
+    "Vicentinho Junior": 40.1,
+    "Indecisos": 15.1
+   },
+   "sum_cands": 84.9,
+   "undecided": 15.1,
+   "valid_shares": {
+    "Professora Dorinha": 52.768,
+    "Vicentinho Junior": 47.232
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "09/10/2026"
   },
   {
    "id": "5012463cb23a89f2bb04",
@@ -46150,6 +46348,39 @@
    "eligible": true,
    "issues": [],
    "date": "18/09/2026"
+  },
+  {
+   "id": "5f1ccbd69c03220c0a7c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09623/2026",
+   "pollster": "Vox Populi",
+   "field_start": "2026-10-05",
+   "field_end": "2026-10-07",
+   "published_at": "2026-10-09",
+   "sample_size": 2100,
+   "method": "Presencial",
+   "url": "https://static.poder360.com.br/uploads/2026/10/pesquisa-vox-brasil-9out2026.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.2,
+    "Flávio Bolsonaro": 42.7,
+    "Indecisos": 13.1
+   },
+   "sum_cands": 86.9,
+   "undecided": 13.1,
+   "valid_shares": {
+    "Lula": 50.8631,
+    "Flávio Bolsonaro": 49.1369
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "07/10/2026"
   },
   {
    "id": "5f2db3e7a53c502299a0",
@@ -74772,7 +75003,7 @@
    "field_end": "2026-06-24",
    "published_at": "2026-07-06",
    "sample_size": 3197,
-   "method": "—",
+   "method": "Telefone",
    "url": "https://www.rondoniaovivo.com/noticia/eleicoes2026/2026/07/06/empate-tecnico-pesquisa-do-ihpec-aponta-disputa-acirrada-ao-governo-de-rondonia.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -89814,6 +90045,39 @@
    "date": "03/10/2026"
   },
   {
+   "id": "bac46fc58642d9cbaff1",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02949/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-08",
+   "published_at": "2026-10-08",
+   "sample_size": 2520,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 47.8723,
+    "Flávio Bolsonaro": 52.1277
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "08/10/2026"
+  },
+  {
    "id": "bad1e37f26cd8c6af120",
    "uf": "TO",
    "cargo": "Senado",
@@ -98930,6 +99194,39 @@
    "eligible": true,
    "issues": [],
    "date": "23/01/2026"
+  },
+  {
+   "id": "cc9fc410c5607763b012",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03663/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-03",
+   "field_end": "2026-10-08",
+   "published_at": "2026-10-09",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.7,
+    "Flávio Bolsonaro": 51.1,
+    "Indecisos": 3.2
+   },
+   "sum_cands": 96.80000000000001,
+   "undecided": 3.2,
+   "valid_shares": {
+    "Lula": 47.2107,
+    "Flávio Bolsonaro": 52.7893
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "08/10/2026"
   },
   {
    "id": "cccb984607200607a51e",
@@ -108215,9 +108512,9 @@
    "pollster": "Seta",
    "field_start": "2026-09-03",
    "field_end": "2026-09-05",
-   "published_at": "2026-09-10",
+   "published_at": "2026-09-05",
    "sample_size": 1500,
-   "method": "Presencial",
+   "method": "—",
    "url": "https://www.blogdojoaomarcolino.com/2026/09/seta-allyson-vence-de-forma.html",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -122921,32 +123218,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-11",
-   "updated_at": "2026-10-08",
-   "count": 971,
+   "checked_at": "2026-10-12",
+   "updated_at": "2026-10-11",
+   "count": 977,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-11",
-   "updated_at": "2026-10-08",
-   "count": 1486,
+   "checked_at": "2026-10-12",
+   "updated_at": "2026-10-11",
+   "count": 1489,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-11",
-   "updated_at": "2026-10-08",
+   "checked_at": "2026-10-12",
+   "updated_at": "2026-10-11",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-11",
+ "checked_at": "2026-10-12",
  "changes": {
-  "date": "2026-10-05",
-  "added": 0,
-  "revised": 2,
+  "date": "2026-10-12",
+  "added": 9,
+  "revised": 6,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
