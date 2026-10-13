@@ -1,6 +1,35 @@
 {
- "generated_at": "2026-10-12",
+ "generated_at": "2026-10-13",
  "state_polls": [
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "11/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/12/quaest-df-governador-segundo-turno-12-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 53.0,
+     "pct_valid": 61.6279
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 33.0,
+     "pct_valid": 38.3721
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -14,7 +43,7 @@
    "sum_cands": 84.9,
    "undecided": 15.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -43,7 +72,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -72,7 +101,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -24377,35 +24406,6 @@
    ]
   },
   {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "08/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senador-distrito-federal-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 82.0,
-   "undecided": 18.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 50.0,
-     "pct_valid": 60.9756
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 32.0,
-     "pct_valid": 39.0244
-    }
-   ]
-  },
-  {
    "uf": "BA",
    "estado": "Bahia",
    "cargo": "Governo",
@@ -25551,35 +25551,6 @@
      "party": "PSD",
      "pct": 30.0,
      "pct_valid": 38.961
-    }
-   ]
-  },
-  {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "07/09/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/08/quaest-df-governador-8-setembro.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 81.0,
-   "undecided": 19.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 52.0,
-     "pct_valid": 64.1975
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 29.0,
-     "pct_valid": 35.8025
     }
    ]
   },
