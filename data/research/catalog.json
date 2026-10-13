@@ -7667,6 +7667,39 @@
    "withdrawn": true
   },
   {
+   "id": "111a6c89a449d315429b",
+   "uf": "AM",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-07193/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-11",
+   "published_at": "2026-10-12",
+   "sample_size": 1200,
+   "method": "Misto",
+   "url": "https://www.poder360.com.br/poderdata/lula-e-flavio-tem-49-no-2o-turno-no-amazonas-diz-poderdata/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 49.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 3.0
+   },
+   "sum_cands": 98.0,
+   "undecided": 3.0,
+   "valid_shares": {
+    "Lula": 50.0,
+    "Flávio Bolsonaro": 50.0
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "11/10/2026"
+  },
+  {
    "id": "111c45462dc4d9517597",
    "uf": "PR",
    "cargo": "Governo",
@@ -18986,6 +19019,39 @@
    "eligible": true,
    "issues": [],
    "date": "01/10/2026"
+  },
+  {
+   "id": "2622bd74ab13bb27ca65",
+   "uf": "DF",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09856/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-06",
+   "field_end": "2026-10-08",
+   "published_at": "2026-10-08",
+   "sample_size": 910,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/09/datafolha-df-presidente-segundo-turno-8-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 43.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Lula": 46.7391,
+    "Flávio Bolsonaro": 53.2609
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "08/10/2026"
   },
   {
    "id": "2622ff0ad9b21189158f",
@@ -37612,6 +37678,39 @@
    "date": "01/10/2026"
   },
   {
+   "id": "4d3010b2e702c530c5d8",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-07997/2026",
+   "pollster": "Nexus",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-13",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.cnnbrasil.com.br/eleicoes/nexus-btg-flavio-tem-52-dos-votos-validos-no-2o-turno-lula-48/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 7.0
+   },
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "valid_shares": {
+    "Lula": 48.3871,
+    "Flávio Bolsonaro": 51.6129
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
+  },
+  {
    "id": "4d47a517061a46dd8c9b",
    "uf": "RN",
    "cargo": "Senado",
@@ -43828,6 +43927,39 @@
    "date": "09/09/2026"
   },
   {
+   "id": "59e881dfc31452cf9fec",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-07877/2026",
+   "pollster": "Gerp",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-13",
+   "sample_size": 2400,
+   "method": "Telefone",
+   "url": "https://timesbrasil.com.br/eleicoes-2026/decisao-2026-flavio-bolsonaro-tem-55-dos-votos-validos-contra-45-de-lula-aponta-pesquisa-gerp/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 53.0,
+    "Indecisos": 4.0
+   },
+   "sum_cands": 97.0,
+   "undecided": 4.0,
+   "valid_shares": {
+    "Lula": 45.3608,
+    "Flávio Bolsonaro": 54.6392
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
+  },
+  {
    "id": "5a0b517563f0c67e68d5",
    "uf": "SP",
    "cargo": "Senado",
@@ -46348,6 +46480,39 @@
    "eligible": true,
    "issues": [],
    "date": "18/09/2026"
+  },
+  {
+   "id": "5ed2eb277f48c6df64fc",
+   "uf": "AM",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "maria do carmo|omar aziz",
+   "registro": "AM-08245/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-11",
+   "published_at": "2026-10-12",
+   "sample_size": 1200,
+   "method": "Misto",
+   "url": "https://www.poder360.com.br/poderdata/omar-aziz-tem-56-e-maria-do-carmo-tem-44-no-am-diz-poderdata/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Omar Aziz": 52.0,
+    "Maria do Carmo": 42.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Omar Aziz": 55.3191,
+    "Maria do Carmo": 44.6809
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "11/10/2026"
   },
   {
    "id": "5f1ccbd69c03220c0a7c",
@@ -89890,6 +90055,39 @@
    "date": "05/09/2026"
   },
   {
+   "id": "b9db49f00b6d6fe9339b",
+   "uf": "DF",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-06799/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-11",
+   "published_at": "2026-10-12",
+   "sample_size": 1104,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/12/quaest-df-presidente-segundo-turno-12-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 40.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 10.0
+   },
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "valid_shares": {
+    "Lula": 44.4444,
+    "Flávio Bolsonaro": 55.5556
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "11/10/2026"
+  },
+  {
    "id": "ba191602acc007465af5",
    "uf": "PA",
    "cargo": "Senado",
@@ -93961,6 +94159,39 @@
    "eligible": true,
    "issues": [],
    "date": "23/01/2026"
+  },
+  {
+   "id": "c20026fb50897efad54b",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-08737/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-08",
+   "field_end": "2026-10-11",
+   "published_at": "2026-10-12",
+   "sample_size": 1104,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/12/quaest-df-governador-segundo-turno-12-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 53.0,
+    "Leandro Grass": 33.0,
+    "Indecisos": 14.0
+   },
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "valid_shares": {
+    "Celina Leão": 61.6279,
+    "Leandro Grass": 38.3721
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "11/10/2026"
   },
   {
    "id": "c2098a2a883ba39ee86e",
@@ -102990,6 +103221,39 @@
    "eligible": true,
    "issues": [],
    "date": "09/09/2026"
+  },
+  {
+   "id": "d5b4e860cefa499b9524",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00650/2026",
+   "pollster": "Futura",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-10",
+   "published_at": "2026-10-13",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.futurainteligencia.com.br/pesquisas",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.6,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 3.4
+   },
+   "sum_cands": 96.6,
+   "undecided": 3.4,
+   "valid_shares": {
+    "Lula": 48.2402,
+    "Flávio Bolsonaro": 51.7598
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "10/10/2026"
   },
   {
    "id": "d5b8dd29e96e343c2e39",
@@ -112398,6 +112662,39 @@
    "eligible": true,
    "issues": [],
    "date": "24/08/2026"
+  },
+  {
+   "id": "e9e459204c7ea9b188c8",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-01209/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-13",
+   "sample_size": 3000,
+   "method": "Misto",
+   "url": "https://www.poder360.com.br/poder-governo/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 7.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 7.0,
+   "valid_shares": {
+    "Lula": 48.9362,
+    "Flávio Bolsonaro": 51.0638
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
   },
   {
    "id": "e9fa919e0e9c4c33873c",
@@ -123218,32 +123515,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-12",
-   "updated_at": "2026-10-11",
-   "count": 977,
+   "checked_at": "2026-10-13",
+   "updated_at": "2026-10-13",
+   "count": 984,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-12",
-   "updated_at": "2026-10-11",
-   "count": 1489,
+   "checked_at": "2026-10-13",
+   "updated_at": "2026-10-13",
+   "count": 1491,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-12",
-   "updated_at": "2026-10-11",
+   "checked_at": "2026-10-13",
+   "updated_at": "2026-10-13",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-12",
+ "checked_at": "2026-10-13",
  "changes": {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "added": 9,
-  "revised": 6,
+  "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
