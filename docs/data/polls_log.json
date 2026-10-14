@@ -1,6 +1,93 @@
 {
- "generated_at": "2026-10-13",
+ "generated_at": "2026-10-14",
  "state_polls": [
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "13/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-distrito-federal-outubro-2026-segundo-turno/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 53.0,
+     "pct_valid": 59.5506
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 36.0,
+     "pct_valid": 40.4494
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "12/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/13/quaest-rn-governador-segundo-turno-13-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 45.0,
+     "pct_valid": 51.7241
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 42.0,
+     "pct_valid": 48.2759
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "12/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ac/acre/eleicoes/2026/noticia/2026/10/13/quaest-ac-governador-segundo-turno-13-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 49.0,
+     "pct_valid": 60.4938
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 32.0,
+     "pct_valid": 39.5062
+    }
+   ]
+  },
   {
    "uf": "DF",
    "estado": "Distrito Federal",
@@ -14,7 +101,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -21611,35 +21698,6 @@
    ]
   },
   {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Igape",
-   "date": "12/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.metropoles.com/colunas/grande-angular/igape-celina-lidera-com-411-arruda-tem-157-e-grass-soma-14",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 80.4,
-   "undecided": 17.6,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 53.1,
-     "pct_valid": 66.0448
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 27.3,
-     "pct_valid": 33.9552
-    }
-   ]
-  },
-  {
    "uf": "SC",
    "estado": "Santa Catarina",
    "cargo": "Governo",
@@ -21834,35 +21892,6 @@
      "party": "PSD",
      "pct": 34.0,
      "pct_valid": 40.0
-    }
-   ]
-  },
-  {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Datafolha",
-   "date": "11/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.poder360.com.br/poder-eleicoes-2026/celina-lidera-todos-os-cenarios-de-1o-e-2o-turno-no-df-diz-datafolha/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 86.0,
-   "undecided": 15.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 56.0,
-     "pct_valid": 65.1163
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 30.0,
-     "pct_valid": 34.8837
     }
    ]
   },
@@ -23188,35 +23217,6 @@
      "party": "PT",
      "pct": 17.59,
      "pct_valid": 21.1088
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "09/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-rio-grande-do-norte-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 82.0,
-   "undecided": 18.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 50.0,
-     "pct_valid": 60.9756
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 32.0,
-     "pct_valid": 39.0244
     }
    ]
   },
@@ -25960,35 +25960,6 @@
      "party": "PT",
      "pct": 20.7,
      "pct_valid": 24.6722
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "Seta",
-   "date": "05/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.blogdojoaomarcolino.com/2026/09/seta-allyson-vence-de-forma.html",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 65.2,
-   "undecided": 34.8,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 43.5,
-     "pct_valid": 66.7178
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 21.7,
-     "pct_valid": 33.2822
     }
    ]
   },
