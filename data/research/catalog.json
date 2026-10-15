@@ -4725,6 +4725,39 @@
    "date": "09/09/2026"
   },
   {
+   "id": "0aae4665fce89799d64a",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08028/2026",
+   "pollster": "PALVER",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-14",
+   "published_at": "2026-10-15",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://exame.com/brasil/pesquisa-que-acertou-tendencia-do-1o-turno-mostra-flavio-bolsonaro-com-50-e-lula-com-49-no-2o/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 49.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 1.0
+   },
+   "sum_cands": 99.0,
+   "undecided": 1.0,
+   "valid_shares": {
+    "Lula": 49.4949,
+    "Flávio Bolsonaro": 50.5051
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "14/10/2026"
+  },
+  {
    "id": "0abab07ebb92ed5b14c2",
    "uf": "AL",
    "cargo": "Presidente",
@@ -17014,9 +17047,9 @@
    "pollster": "INDICE INTELIGENCIA",
    "field_start": "2026-09-19",
    "field_end": "2026-09-21",
-   "published_at": "2026-09-21",
+   "published_at": "2026-09-24",
    "sample_size": 1200,
-   "method": "—",
+   "method": "Presencial",
    "url": "https://impactopr.com.br/pesquisa-indice-ao-governo-e-senado-sandro-alex-cresce-e-reduz-a-distancia-para-sergio-moro/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/senado/",
@@ -37139,6 +37172,39 @@
    "date": "30/03/2026"
   },
   {
+   "id": "4bf2fea848dcef17dd92",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-04629/2026",
+   "pollster": "INDEXA PESQUISAS",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-14",
+   "published_at": "2026-10-15",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-outubro-2026-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 42.0,
+    "Flávio Bolsonaro": 44.0,
+    "Indecisos": 14.0
+   },
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "valid_shares": {
+    "Lula": 48.8372,
+    "Flávio Bolsonaro": 51.1628
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "14/10/2026"
+  },
+  {
    "id": "4c1922d9ffc8cbc9d59b",
    "uf": "DF",
    "cargo": "Presidente",
@@ -55483,6 +55549,39 @@
    "date": "02/09/2026"
   },
   {
+   "id": "72780cae5c1bc3914872",
+   "uf": "TO",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-07337/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-13",
+   "published_at": "2026-10-14",
+   "sample_size": 1098,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/to/tocantins/eleicoes/2026/noticia/2026/10/14/quaest-to-presidente-segundo-turno-14-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 42.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 10.0
+   },
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "valid_shares": {
+    "Lula": 46.6667,
+    "Flávio Bolsonaro": 53.3333
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "13/10/2026"
+  },
+  {
    "id": "727c453c0e79cfaf0de2",
    "uf": "TO",
    "cargo": "Senado",
@@ -61128,9 +61227,9 @@
    "pollster": "INDICE INTELIGENCIA",
    "field_start": "2026-09-19",
    "field_end": "2026-09-21",
-   "published_at": "2026-09-21",
+   "published_at": "2026-09-24",
    "sample_size": 1200,
-   "method": "—",
+   "method": "Presencial",
    "url": "https://impactopr.com.br/pesquisa-indice-ao-governo-e-senado-sandro-alex-cresce-e-reduz-a-distancia-para-sergio-moro/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -61559,6 +61658,39 @@
    ],
    "date": "22/08/2026",
    "withdrawn": true
+  },
+  {
+   "id": "7f4aaf96c470254e7f3c",
+   "uf": "ES",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "lorenzo pazolini|ricardo ferraco",
+   "registro": "ES-00468/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-13",
+   "published_at": "2026-10-14",
+   "sample_size": 1098,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/10/14/quaest-espirito-santo-governador-segundo-turno-14-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lorenzo Pazolini": 47.0,
+    "Ricardo Ferraço": 38.0,
+    "Indecisos": 15.0
+   },
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "valid_shares": {
+    "Lorenzo Pazolini": 55.2941,
+    "Ricardo Ferraço": 44.7059
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "13/10/2026"
   },
   {
    "id": "7f5a023d98aa83519e42",
@@ -76870,6 +77002,39 @@
    "date": "04/03/2026"
   },
   {
+   "id": "9d0b513901dafe3c3e4b",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-03829/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-13",
+   "published_at": "2026-10-14",
+   "sample_size": 1098,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/to/tocantins/eleicoes/2026/noticia/2026/10/14/quaest-to-governador-segundo-turno-14-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Vicentinho Junior": 49.0,
+    "Professora Dorinha": 42.0,
+    "Indecisos": 9.0
+   },
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "valid_shares": {
+    "Vicentinho Junior": 53.8462,
+    "Professora Dorinha": 46.1538
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "13/10/2026"
+  },
+  {
    "id": "9d452206d321f14473a4",
    "uf": "RS",
    "cargo": "Senado",
@@ -77353,6 +77518,39 @@
    "eligible": true,
    "issues": [],
    "date": "29/07/2026"
+  },
+  {
+   "id": "9e52e8d470a3e7bfcadf",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08729/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-13",
+   "published_at": "2026-10-14",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/14/quaest-presidente-14-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 46.0,
+    "Indecisos": 10.0
+   },
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "valid_shares": {
+    "Lula": 48.8889,
+    "Flávio Bolsonaro": 51.1111
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "13/10/2026"
   },
   {
    "id": "9e642094c6e1c0807797",
@@ -99054,9 +99252,9 @@
    "pollster": "INDICE INTELIGENCIA",
    "field_start": "2026-09-19",
    "field_end": "2026-09-21",
-   "published_at": "2026-09-21",
+   "published_at": "2026-09-24",
    "sample_size": 1200,
-   "method": "—",
+   "method": "Presencial",
    "url": "https://impactopr.com.br/pesquisa-indice-ao-governo-e-senado-sandro-alex-cresce-e-reduz-a-distancia-para-sergio-moro/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -99520,9 +99718,9 @@
    "pollster": "INDICE INTELIGENCIA",
    "field_start": "2026-09-19",
    "field_end": "2026-09-21",
-   "published_at": "2026-09-21",
+   "published_at": "2026-09-24",
    "sample_size": 1200,
-   "method": "—",
+   "method": "Presencial",
    "url": "https://impactopr.com.br/pesquisa-indice-ao-governo-e-senado-sandro-alex-cresce-e-reduz-a-distancia-para-sergio-moro/",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/governadores/",
@@ -118387,6 +118585,39 @@
    "date": "02/10/2026"
   },
   {
+   "id": "f48d707fa15cd03e675d",
+   "uf": "ES",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-01973/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-13",
+   "published_at": "2026-10-14",
+   "sample_size": 1098,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/10/14/quaest-espirito-santo-presidente-segundo-turno-14-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 38.0,
+    "Flávio Bolsonaro": 51.0,
+    "Indecisos": 11.0
+   },
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "valid_shares": {
+    "Lula": 42.6966,
+    "Flávio Bolsonaro": 57.3034
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "13/10/2026"
+  },
+  {
    "id": "f4a85e0e639b3a3a536b",
    "uf": "PB",
    "cargo": "Governo",
@@ -123746,32 +123977,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-14",
-   "updated_at": "2026-10-14",
-   "count": 987,
+   "checked_at": "2026-10-15",
+   "updated_at": "2026-10-15",
+   "count": 992,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-14",
-   "updated_at": "2026-10-14",
-   "count": 1495,
+   "checked_at": "2026-10-15",
+   "updated_at": "2026-10-15",
+   "count": 1497,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-14",
-   "updated_at": "2026-10-14",
+   "checked_at": "2026-10-15",
+   "updated_at": "2026-10-15",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-14",
+ "checked_at": "2026-10-15",
  "changes": {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "added": 7,
-  "revised": 0,
+  "revised": 4,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
