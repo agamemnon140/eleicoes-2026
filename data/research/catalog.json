@@ -6678,6 +6678,39 @@
    "date": "23/08/2026"
   },
   {
+   "id": "0e6eb091c013bbdf7972",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00652/2026",
+   "pollster": "CNT/MDA",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-16",
+   "sample_size": 2002,
+   "method": "Presencial",
+   "url": "https://cnt.org.br/agencia-cnt/pesquisa-cnt-mda-retrata-disputa-acirrada-no-2-turno",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.9,
+    "Flávio Bolsonaro": 46.8,
+    "Indecisos": 7.300000000000001
+   },
+   "sum_cands": 92.69999999999999,
+   "undecided": 7.300000000000001,
+   "valid_shares": {
+    "Lula": 49.5146,
+    "Flávio Bolsonaro": 50.4854
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "0e7c23becedb2c7e3f6b",
    "uf": "AC",
    "cargo": "Presidente",
@@ -44158,6 +44191,39 @@
    "date": "12/10/2026"
   },
   {
+   "id": "5a09660eafeb6fc50c2c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03764/2026",
+   "pollster": "Futura",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-16",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.futurainteligencia.com.br/pesquisas",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.5,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 3.6
+   },
+   "sum_cands": 96.5,
+   "undecided": 3.6,
+   "valid_shares": {
+    "Lula": 49.2228,
+    "Flávio Bolsonaro": 50.7772
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "5a0b517563f0c67e68d5",
    "uf": "SP",
    "cargo": "Senado",
@@ -53127,6 +53193,39 @@
    "eligible": true,
    "issues": [],
    "date": "08/09/2026"
+  },
+  {
+   "id": "6d13512d2ad4fbc86b07",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00466/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-15",
+   "sample_size": 2520,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/15/datafolha-presidente-segundo-turno-15-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 47.0,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Lula": 48.913,
+    "Flávio Bolsonaro": 51.087
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
   },
   {
    "id": "6d39a8648dde50c1737d",
@@ -69134,6 +69233,39 @@
    "eligible": true,
    "issues": [],
    "date": "09/09/2026"
+  },
+  {
+   "id": "8e734c4cb008704bf98c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-04258/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-16",
+   "sample_size": 3000,
+   "method": "Misto",
+   "url": "https://www.poder360.com.br/poderdata/flavio-e-lula-empatam-em-50-dos-votos-validos-diz-poderdata-aya/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 50.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": null
+   },
+   "sum_cands": 100.0,
+   "undecided": 0,
+   "valid_shares": {
+    "Lula": 50.0,
+    "Flávio Bolsonaro": 50.0
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
   },
   {
    "id": "8e7b84179005f60dcb1d",
@@ -123977,32 +124109,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-15",
-   "updated_at": "2026-10-15",
-   "count": 992,
+   "checked_at": "2026-10-16",
+   "updated_at": "2026-10-16",
+   "count": 996,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-15",
-   "updated_at": "2026-10-15",
+   "checked_at": "2026-10-16",
+   "updated_at": "2026-10-16",
    "count": 1497,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-15",
-   "updated_at": "2026-10-15",
+   "checked_at": "2026-10-16",
+   "updated_at": "2026-10-16",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-15",
+ "checked_at": "2026-10-16",
  "changes": {
-  "date": "2026-10-15",
-  "added": 7,
-  "revised": 4,
+  "date": "2026-10-16",
+  "added": 4,
+  "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }

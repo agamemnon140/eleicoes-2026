@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-15",
+ "generated_at": "2026-10-16",
  "state_polls": [
   {
    "uf": "TO",
@@ -14,7 +14,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -43,7 +43,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
