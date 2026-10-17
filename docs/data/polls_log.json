@@ -1,6 +1,93 @@
 {
- "generated_at": "2026-10-16",
+ "generated_at": "2026-10-17",
  "state_polls": [
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "DATAVERO INSTITUTO DE PESQUISAS",
+   "date": "15/10/2026",
+   "source": "Plano Político",
+   "url": "https://diariodorn.com.br/cadu-de-lula-vira-sobre-allyson-e-chega-a-5053-dos-votos-validos-contra-4947/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.44,
+   "undecided": 7.5600000000000005,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 46.71,
+     "pct_valid": 50.5301
+    },
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 45.73,
+     "pct_valid": 49.4699
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "DATA POP PESQUISA",
+   "date": "14/10/2026",
+   "source": "Plano Político",
+   "url": "https://bico24horas.com.br/tocantins/nova-pesquisa-mostra-professora-dorinha-com-541-dos-votos-validos-contra-459-de-vicentinho-junior/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 49.7,
+     "pct_valid": 54.0217
+    },
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 42.3,
+     "pct_valid": 45.9783
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Igape",
+   "date": "14/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.conexaorecord.com.br/celina-leao-lidera-para-o-2-turno-na-pesquisa-estimulada-para-o-governo-do-df-aponta-igape/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.6,
+   "undecided": 8.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 55.8,
+     "pct_valid": 60.917
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 35.8,
+     "pct_valid": 39.083
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -92,6 +179,35 @@
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Governo",
+   "pollster": "Affare",
+   "date": "12/10/2026",
+   "source": "Plano Político",
+   "url": "https://robsonpiresxerife.com/pesquisa-affare-governador-cadu-lidera-com-526-dos-votos-validos-seguindo-de-allyson-com-474/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 93.30000000000001,
+   "undecided": 0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 49.1,
+     "pct_valid": 52.6259
+    },
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 44.2,
+     "pct_valid": 47.3741
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
    "pollster": "Quaest",
    "date": "12/10/2026",
    "source": "Plano Político",
@@ -147,6 +263,35 @@
    ]
   },
   {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "DATA CONTROL INSTITUTO DE PESQUISA",
+   "date": "12/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.juruainformativo.com.br/2026/10/mailza-tem-6205-e-alan-rick-307-no-segundo-turno-aponta-data-control/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.78,
+   "undecided": 7.22,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 62.05,
+     "pct_valid": 66.8786
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 30.73,
+     "pct_valid": 33.1214
+    }
+   ]
+  },
+  {
    "uf": "DF",
    "estado": "Distrito Federal",
    "cargo": "Governo",
@@ -172,6 +317,64 @@
      "party": "PT",
      "pct": 33.0,
      "pct_valid": 38.3721
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "DATA CAPITAL PESQUISAS E CONSULTORIA",
+   "date": "10/10/2026",
+   "source": "Plano Político",
+   "url": "https://robsonpiresxerife.com/pesquisa-data-capital-allyson-bezerra-tem-4953-e-cadu-xavier-aparece-com-4167/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.2,
+   "undecided": 8.8,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 49.53,
+     "pct_valid": 54.3092
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 41.67,
+     "pct_valid": 45.6908
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Seta",
+   "date": "10/10/2026",
+   "source": "Plano Político",
+   "url": "https://difusoramossoro.com.br/pesquisa-seta-aponta-allyson-com-572-e-cadu-com-428-dos-votos-validos-no-2o-turno-no-rn/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 75.9,
+   "undecided": 24.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 43.5,
+     "pct_valid": 57.3123
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 32.4,
+     "pct_valid": 42.6877
     }
    ]
   },
@@ -21250,35 +21453,6 @@
      "party": "PL",
      "pct": 17.5,
      "pct_valid": 20.9581
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "DATA CAPITAL PESQUISAS E CONSULTORIA",
-   "date": "12/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.blogdojoaomarcolino.com/2026/09/pesquisa-data-capital-mostra-allyson.html",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 86.0,
-   "undecided": 14.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 56.0,
-     "pct_valid": 65.1163
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 30.0,
-     "pct_valid": 34.8837
     }
    ]
   },

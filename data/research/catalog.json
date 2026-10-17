@@ -6502,6 +6502,39 @@
    "withdrawn": true
   },
   {
+   "id": "0dfdad3566f7b43c716d",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-04617/2026",
+   "pollster": "DATA CAPITAL PESQUISAS E CONSULTORIA",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-10",
+   "published_at": "2026-10-13",
+   "sample_size": 1500,
+   "method": "Presencial",
+   "url": "https://robsonpiresxerife.com/pesquisa-data-capital-allyson-bezerra-tem-4953-e-cadu-xavier-aparece-com-4167/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 49.53,
+    "Cadu Xavier": 41.67,
+    "Indecisos": 8.8
+   },
+   "sum_cands": 91.2,
+   "undecided": 8.8,
+   "valid_shares": {
+    "Allyson Bezerra": 54.3092,
+    "Cadu Xavier": 45.6908
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "10/10/2026"
+  },
+  {
    "id": "0e342ce7783af93cb9c0",
    "uf": "MS",
    "cargo": "Presidente",
@@ -19112,6 +19145,39 @@
    "date": "19/09/2026"
   },
   {
+   "id": "25e89b233dc49e1bd221",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00223/2026",
+   "pollster": "Ipespe",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-17",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://ipespe.org.br/wp-content/uploads/2026/10/TRK-CAMPANHA-02_-IPESPE-ABRAPEL_2T_-13-a-15-OUT-2026.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 48.9362,
+    "Flávio Bolsonaro": 51.0638
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "260e419755f827c5f55a",
    "uf": "SC",
    "cargo": "Governo",
@@ -24867,6 +24933,39 @@
    "eligible": true,
    "issues": [],
    "date": "26/09/2026"
+  },
+  {
+   "id": "30240e839e868f89c408",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-09294/2026",
+   "pollster": "DATA POP PESQUISA",
+   "field_start": "2026-10-10",
+   "field_end": "2026-10-14",
+   "published_at": "2026-10-15",
+   "sample_size": 1000,
+   "method": "Presencial",
+   "url": "https://bico24horas.com.br/tocantins/nova-pesquisa-mostra-professora-dorinha-com-541-dos-votos-validos-contra-459-de-vicentinho-junior/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Professora Dorinha": 49.7,
+    "Vicentinho Junior": 42.3,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Professora Dorinha": 54.0217,
+    "Vicentinho Junior": 45.9783
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "14/10/2026"
   },
   {
    "id": "309ea053f7ea1f80120d",
@@ -35831,6 +35930,39 @@
    "date": "06/06/2026"
   },
   {
+   "id": "47d002bb9f74aa839854",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-08411/2026",
+   "pollster": "Affare",
+   "field_start": "2026-10-09",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-14",
+   "sample_size": 1366,
+   "method": "Misto",
+   "url": "https://robsonpiresxerife.com/pesquisa-affare-governador-cadu-lidera-com-526-dos-votos-validos-seguindo-de-allyson-com-474/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Cadu Xavier": 49.1,
+    "Allyson Bezerra": 44.2,
+    "Indecisos": null
+   },
+   "sum_cands": 93.30000000000001,
+   "undecided": 0,
+   "valid_shares": {
+    "Cadu Xavier": 52.6259,
+    "Allyson Bezerra": 47.3741
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
+  },
+  {
    "id": "47dbdc693f170b7df932",
    "uf": "PA",
    "cargo": "Governo",
@@ -40259,6 +40391,39 @@
    "date": "27/07/2026"
   },
   {
+   "id": "5211378821acf095a0cd",
+   "uf": "RN",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02367/2026",
+   "pollster": "DATAVERO INSTITUTO DE PESQUISAS",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-16",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://portaln10.com.br/politica/eleicoes/pesquisa-datavero-mostra-lula-com-6248-e-flavio-com-3326-no-rn-355350/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 62.48,
+    "Flávio Bolsonaro": 33.26,
+    "Indecisos": 4.27
+   },
+   "sum_cands": 95.74,
+   "undecided": 4.27,
+   "valid_shares": {
+    "Lula": 65.2601,
+    "Flávio Bolsonaro": 34.7399
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "525dbe7d26269d08214e",
    "uf": "SC",
    "cargo": "Presidente",
@@ -42053,6 +42218,39 @@
    "date": "23/07/2026"
   },
   {
+   "id": "5617c57b363a27bc35d7",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-01514/2026",
+   "pollster": "DATAVERO INSTITUTO DE PESQUISAS",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-16",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://diariodorn.com.br/cadu-de-lula-vira-sobre-allyson-e-chega-a-5053-dos-votos-validos-contra-4947/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Cadu Xavier": 46.71,
+    "Allyson Bezerra": 45.73,
+    "Indecisos": 7.5600000000000005
+   },
+   "sum_cands": 92.44,
+   "undecided": 7.5600000000000005,
+   "valid_shares": {
+    "Cadu Xavier": 50.5301,
+    "Allyson Bezerra": 49.4699
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "5643e8c4e99116edf271",
    "uf": "PE",
    "cargo": "Governo",
@@ -42547,6 +42745,39 @@
    "withdrawn": true
   },
   {
+   "id": "572f3425a7fd4f939b53",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-02733/2026",
+   "pollster": "Igape",
+   "field_start": "2026-10-12",
+   "field_end": "2026-10-14",
+   "published_at": "2026-10-14",
+   "sample_size": 1200,
+   "method": "Telefone",
+   "url": "https://www.conexaorecord.com.br/celina-leao-lidera-para-o-2-turno-na-pesquisa-estimulada-para-o-governo-do-df-aponta-igape/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 55.8,
+    "Leandro Grass": 35.8,
+    "Indecisos": 8.4
+   },
+   "sum_cands": 91.6,
+   "undecided": 8.4,
+   "valid_shares": {
+    "Celina Leão": 60.917,
+    "Leandro Grass": 39.083
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "14/10/2026"
+  },
+  {
    "id": "573ba0ad8e987e65fcc9",
    "uf": "SC",
    "cargo": "Senado",
@@ -42797,6 +43028,39 @@
    "eligible": true,
    "issues": [],
    "date": "14/09/2026"
+  },
+  {
+   "id": "579b937ca8c862606c8c",
+   "uf": "RN",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-05784/2026",
+   "pollster": "Affare",
+   "field_start": "2026-10-09",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-14",
+   "sample_size": 1350,
+   "method": "Misto",
+   "url": "https://www.blogdobg.com.br/pesquisa-bg-affare-presidente-nos-votos-totais-lula-tem-598-e-flavio-bolsonaro-388-entre-eleitores-do-rn/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 59.8,
+    "Flávio Bolsonaro": 38.8,
+    "Indecisos": null
+   },
+   "sum_cands": 98.6,
+   "undecided": 0,
+   "valid_shares": {
+    "Lula": 60.6491,
+    "Flávio Bolsonaro": 39.3509
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
   },
   {
    "id": "57af1042709778f52d42",
@@ -60195,6 +60459,39 @@
    "date": "30/09/2026"
   },
   {
+   "id": "7bc6b5ae7d97f9d5dd30",
+   "uf": "AC",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "alan rick|mailza assis",
+   "registro": "AC-04381/2026",
+   "pollster": "DATA CONTROL INSTITUTO DE PESQUISA",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-12",
+   "published_at": "2026-10-13",
+   "sample_size": 1344,
+   "method": "Presencial",
+   "url": "https://www.juruainformativo.com.br/2026/10/mailza-tem-6205-e-alan-rick-307-no-segundo-turno-aponta-data-control/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Mailza Assis": 62.05,
+    "Alan Rick": 30.73,
+    "Indecisos": 7.22
+   },
+   "sum_cands": 92.78,
+   "undecided": 7.22,
+   "valid_shares": {
+    "Mailza Assis": 66.8786,
+    "Alan Rick": 33.1214
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "12/10/2026"
+  },
+  {
    "id": "7bc9ab6969a43d840a20",
    "uf": "BR",
    "cargo": "Presidente",
@@ -63841,6 +64138,39 @@
    "eligible": true,
    "issues": [],
    "date": "10/09/2026"
+  },
+  {
+   "id": "83cbaeedfe1365cf6800",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-05187/2026",
+   "pollster": "Gerp",
+   "field_start": "2026-10-14",
+   "field_end": "2026-10-16",
+   "published_at": "2026-10-13",
+   "sample_size": 2400,
+   "method": "Telefone",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-e-lula-48-dos-votos-validos-no-2o-turno-diz-gerp/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 5.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 5.0,
+   "valid_shares": {
+    "Lula": 47.3684,
+    "Flávio Bolsonaro": 52.6316
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "16/10/2026"
   },
   {
    "id": "83ed276af569e41113a5",
@@ -69247,18 +69577,18 @@
    "published_at": "2026-10-16",
    "sample_size": 3000,
    "method": "Misto",
-   "url": "https://www.poder360.com.br/poderdata/flavio-e-lula-empatam-em-50-dos-votos-validos-diz-poderdata-aya/",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-15out26.pdf",
    "source": "Plano Político",
    "source_url": "https://planopolitico.com.br/agregador/presidente/",
    "base": "totais",
    "vote_format": "voto único",
    "shares": {
-    "Lula": 50.0,
-    "Flávio Bolsonaro": 50.0,
-    "Indecisos": null
+    "Lula": 47.0,
+    "Flávio Bolsonaro": 47.0,
+    "Indecisos": 6.0
    },
-   "sum_cands": 100.0,
-   "undecided": 0,
+   "sum_cands": 94.0,
+   "undecided": 6.0,
    "valid_shares": {
     "Lula": 50.0,
     "Flávio Bolsonaro": 50.0
@@ -124073,6 +124403,39 @@
    "date": "28/09/2026"
   },
   {
+   "id": "ffe9fd6e71a73893bd77",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-09503/2026",
+   "pollster": "Seta",
+   "field_start": "2026-10-07",
+   "field_end": "2026-10-10",
+   "published_at": "2026-10-11",
+   "sample_size": 1500,
+   "method": "Presencial",
+   "url": "https://difusoramossoro.com.br/pesquisa-seta-aponta-allyson-com-572-e-cadu-com-428-dos-votos-validos-no-2o-turno-no-rn/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 43.5,
+    "Cadu Xavier": 32.4,
+    "Indecisos": 24.0
+   },
+   "sum_cands": 75.9,
+   "undecided": 24.0,
+   "valid_shares": {
+    "Allyson Bezerra": 57.3123,
+    "Cadu Xavier": 42.6877
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "10/10/2026"
+  },
+  {
    "id": "fffafdb4e9f8e2c53639",
    "uf": "RO",
    "cargo": "Presidente",
@@ -124109,32 +124472,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-16",
-   "updated_at": "2026-10-16",
-   "count": 996,
+   "checked_at": "2026-10-17",
+   "updated_at": "2026-10-17",
+   "count": 1000,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-16",
-   "updated_at": "2026-10-16",
-   "count": 1497,
+   "checked_at": "2026-10-17",
+   "updated_at": "2026-10-17",
+   "count": 1504,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-16",
-   "updated_at": "2026-10-16",
+   "checked_at": "2026-10-17",
+   "updated_at": "2026-10-17",
    "count": 540,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-16",
+ "checked_at": "2026-10-17",
  "changes": {
-  "date": "2026-10-16",
-  "added": 4,
-  "revised": 0,
+  "date": "2026-10-17",
+  "added": 11,
+  "revised": 1,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
