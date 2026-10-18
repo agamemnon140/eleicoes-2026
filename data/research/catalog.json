@@ -3311,9 +3311,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "01/07/2026"
+   "date": "01/07/2026",
+   "withdrawn": true
   },
   {
    "id": "0841c02e6c0675d9908a",
@@ -3735,9 +3736,12 @@
     "Sergio Moro": 65.8163,
     "Requião Filho": 34.1837
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/07/2026",
+   "withdrawn": true
   },
   {
    "id": "08eff971bbe25a716e2f",
@@ -3807,9 +3811,12 @@
     "Sandro Alex": 6.0759,
     "Outros": 3.7975
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/07/2026",
+   "withdrawn": true
   },
   {
    "id": "08fc06c6cb005c94eb1d",
@@ -7087,9 +7094,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "31/08/2026"
+   "date": "31/08/2026",
+   "withdrawn": true
   },
   {
    "id": "0f3837f6028580a0689b",
@@ -8577,9 +8585,12 @@
     "Augusto Cury": 1.3953,
     "Outros": 6.6279
    },
-   "eligible": true,
-   "issues": [],
-   "date": "12/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "12/05/2026",
+   "withdrawn": true
   },
   {
    "id": "12334234387d099a7f6a",
@@ -11219,9 +11230,12 @@
     "Fernando Haddad": 38.1998,
     "Outros": 11.5258
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/05/2026",
+   "withdrawn": true
   },
   {
    "id": "170b27003b95953cd613",
@@ -14449,9 +14463,12 @@
     "Lula": 48.394,
     "Flávio Bolsonaro": 51.606
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/10/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/10/2026",
+   "withdrawn": true
   },
   {
    "id": "1d3f60d53d523ea007eb",
@@ -15865,9 +15882,12 @@
     "Augusto Cury": 0.2361,
     "Outros": 1.4168
    },
-   "eligible": true,
-   "issues": [],
-   "date": "08/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "08/07/2026",
+   "withdrawn": true
   },
   {
    "id": "1fac9dc7452738c57eb2",
@@ -19618,9 +19638,12 @@
     "Tarcísio de Freitas": 61.1349,
     "Fernando Haddad": 38.8651
    },
-   "eligible": true,
-   "issues": [],
-   "date": "31/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "31/08/2026",
+   "withdrawn": true
   },
   {
    "id": "26d13446e5cbd120f4fe",
@@ -20095,9 +20118,12 @@
     "Lula": 53.6117,
     "Flávio Bolsonaro": 46.3883
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/07/2026",
+   "withdrawn": true
   },
   {
    "id": "2771f56e2f48c68b83af",
@@ -22862,9 +22888,12 @@
     "Fernando Haddad": 37.7358,
     "Outros": 2.6637
    },
-   "eligible": true,
-   "issues": [],
-   "date": "13/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "13/08/2026",
+   "withdrawn": true
   },
   {
    "id": "2cbff7fec852934b9abf",
@@ -24383,9 +24412,12 @@
     "Tarcísio de Freitas": 56.9575,
     "Fernando Haddad": 43.0425
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/05/2026",
+   "withdrawn": true
   },
   {
    "id": "2f11ce88f8f26307dfd4",
@@ -25314,9 +25346,12 @@
     "Lula": 51.4188,
     "Flávio Bolsonaro": 48.5812
    },
-   "eligible": true,
-   "issues": [],
-   "date": "25/06/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "25/06/2026",
+   "withdrawn": true
   },
   {
    "id": "3123956d68e81fd2f491",
@@ -28211,9 +28246,12 @@
     "Augusto Cury": 1.3363,
     "Outros": 0.2227
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/10/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/10/2026",
+   "withdrawn": true
   },
   {
    "id": "3715870cb73d7ab576b9",
@@ -30775,9 +30813,12 @@
     "Tarcísio de Freitas": 61.483,
     "Fernando Haddad": 38.517
    },
-   "eligible": true,
-   "issues": [],
-   "date": "29/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "29/09/2026",
+   "withdrawn": true
   },
   {
    "id": "3eb62ea972b9851d0af7",
@@ -30808,9 +30849,12 @@
     "Sergio Moro": 78.5075,
     "Sandro Alex": 21.4925
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/07/2026",
+   "withdrawn": true
   },
   {
    "id": "3ebea9d203659322f16b",
@@ -31014,9 +31058,12 @@
     "Lula": 53.6476,
     "Flávio Bolsonaro": 46.3524
    },
-   "eligible": true,
-   "issues": [],
-   "date": "03/06/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "03/06/2026",
+   "withdrawn": true
   },
   {
    "id": "3f29717d2a7bde35ecfb",
@@ -36417,9 +36464,12 @@
     "Augusto Cury": 2.4526,
     "Outros": 0.3344
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/09/2026",
+   "withdrawn": true
   },
   {
    "id": "48fabd53785091886aa3",
@@ -47104,9 +47154,12 @@
     "Lula": 50.8631,
     "Flávio Bolsonaro": 49.1369
    },
-   "eligible": true,
-   "issues": [],
-   "date": "07/10/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "07/10/2026",
+   "withdrawn": true
   },
   {
    "id": "5f2db3e7a53c502299a0",
@@ -47432,9 +47485,12 @@
     "Lula": 49.6652,
     "Flávio Bolsonaro": 50.3348
    },
-   "eligible": true,
-   "issues": [],
-   "date": "27/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "27/08/2026",
+   "withdrawn": true
   },
   {
    "id": "60045f58f6673ab27df5",
@@ -50443,9 +50499,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "08/07/2026"
+   "date": "08/07/2026",
+   "withdrawn": true
   },
   {
    "id": "66a6d6b79b6f113a7209",
@@ -61419,9 +61476,12 @@
     "Lula": 49.7219,
     "Flávio Bolsonaro": 50.2781
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/09/2026",
+   "withdrawn": true
   },
   {
    "id": "7e26480029571e6054d7",
@@ -63918,9 +63978,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "29/09/2026"
+   "date": "29/09/2026",
+   "withdrawn": true
   },
   {
    "id": "837bf5bd54dff25e4200",
@@ -65741,9 +65802,12 @@
     "Fernando Haddad": 37.6206,
     "Outros": 3.1083
    },
-   "eligible": true,
-   "issues": [],
-   "date": "31/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "31/08/2026",
+   "withdrawn": true
   },
   {
    "id": "8760d72f0e56a779c4ff",
@@ -66131,9 +66195,12 @@
     "Lula": 43.0508,
     "Flávio Bolsonaro": 56.9492
    },
-   "eligible": true,
-   "issues": [],
-   "date": "25/04/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "25/04/2026",
+   "withdrawn": true
   },
   {
    "id": "884e3773f1eaa1a1fe3b",
@@ -67165,9 +67232,12 @@
     "Augusto Cury": 0.3501,
     "Outros": 0.3501
    },
-   "eligible": true,
-   "issues": [],
-   "date": "19/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "19/05/2026",
+   "withdrawn": true
   },
   {
    "id": "89fde064131c78622112",
@@ -67231,9 +67301,12 @@
     "Tarcísio de Freitas": 62.3794,
     "Fernando Haddad": 37.6206
    },
-   "eligible": true,
-   "issues": [],
-   "date": "22/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "22/09/2026",
+   "withdrawn": true
   },
   {
    "id": "8a3df400f05e87fdde3d",
@@ -67297,9 +67370,12 @@
     "Tarcísio de Freitas": 60.6704,
     "Fernando Haddad": 39.3296
    },
-   "eligible": true,
-   "issues": [],
-   "date": "13/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "13/08/2026",
+   "withdrawn": true
   },
   {
    "id": "8a5ae52d54ba8ab6510f",
@@ -73463,9 +73539,12 @@
     "Fernando Haddad": 35.4555,
     "Outros": 11.6356
    },
-   "eligible": true,
-   "issues": [],
-   "date": "27/06/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "27/06/2026",
+   "withdrawn": true
   },
   {
    "id": "96b1c39cb3d3a21e59e4",
@@ -73687,9 +73766,12 @@
     "Renan Santos": 1.3544,
     "Outros": 1.2415
    },
-   "eligible": true,
-   "issues": [],
-   "date": "25/04/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "25/04/2026",
+   "withdrawn": true
   },
   {
    "id": "973918a3ffcb74388f77",
@@ -76026,9 +76108,12 @@
     "Augusto Cury": 1.2486,
     "Outros": 4.0863
    },
-   "eligible": true,
-   "issues": [],
-   "date": "28/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "28/07/2026",
+   "withdrawn": true
   },
   {
    "id": "9ac9587cbd416ac6117a",
@@ -76842,9 +76927,12 @@
     "Tarcísio de Freitas": 59.9104,
     "Fernando Haddad": 40.0896
    },
-   "eligible": true,
-   "issues": [],
-   "date": "31/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "31/07/2026",
+   "withdrawn": true
   },
   {
    "id": "9c25f20058f9c878ae3c",
@@ -83029,9 +83117,12 @@
     "Fernando Haddad": 37.5909,
     "Outros": 1.6615
    },
-   "eligible": true,
-   "issues": [],
-   "date": "29/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "29/09/2026",
+   "withdrawn": true
   },
   {
    "id": "a9a0517f9fc7fc4d12f6",
@@ -83103,9 +83194,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "13/08/2026"
+   "date": "13/08/2026",
+   "withdrawn": true
   },
   {
    "id": "a9c82f30a7532595ad73",
@@ -84270,9 +84362,12 @@
     "Augusto Cury": 2.968,
     "Outros": 2.2831
    },
-   "eligible": true,
-   "issues": [],
-   "date": "27/08/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "27/08/2026",
+   "withdrawn": true
   },
   {
    "id": "abaf75cc58a9a68590ec",
@@ -88572,9 +88667,12 @@
     "Fernando Haddad": 35.914,
     "Outros": 3.3333
    },
-   "eligible": true,
-   "issues": [],
-   "date": "22/09/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "22/09/2026",
+   "withdrawn": true
   },
   {
    "id": "b5db13c64f31808076aa",
@@ -89155,9 +89253,12 @@
     "Fernando Haddad": 37.7753,
     "Outros": 3.9648
    },
-   "eligible": true,
-   "issues": [],
-   "date": "31/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "31/07/2026",
+   "withdrawn": true
   },
   {
    "id": "b72c41866f0b852d4fb1",
@@ -90269,9 +90370,12 @@
     "Renan Santos": 2.9172,
     "Outros": 4.4341
    },
-   "eligible": true,
-   "issues": [],
-   "date": "25/06/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "25/06/2026",
+   "withdrawn": true
   },
   {
    "id": "b92a3877daa94c0c7490",
@@ -95579,9 +95683,12 @@
     "Renan Filho": 53.1476,
     "JHC": 46.8524
    },
-   "eligible": true,
-   "issues": [],
-   "date": "08/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "08/07/2026",
+   "withdrawn": true
   },
   {
    "id": "c301e18d0b1d86006195",
@@ -99846,9 +99953,12 @@
     "Sandro Alex": 5.8275,
     "Outros": 23.7762
    },
-   "eligible": true,
-   "issues": [],
-   "date": "01/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "01/07/2026",
+   "withdrawn": true
   },
   {
    "id": "cbefd6cee27634e72bc2",
@@ -101219,9 +101329,12 @@
     "Lula": 47.8571,
     "Flávio Bolsonaro": 52.1429
    },
-   "eligible": true,
-   "issues": [],
-   "date": "12/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "12/05/2026",
+   "withdrawn": true
   },
   {
    "id": "cf61a6ac6c63f74136f9",
@@ -101456,9 +101569,12 @@
     "Lula": 55.1237,
     "Flávio Bolsonaro": 44.8763
    },
-   "eligible": true,
-   "issues": [],
-   "date": "19/05/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "19/05/2026",
+   "withdrawn": true
   },
   {
    "id": "cf81d46f5854d128c786",
@@ -105674,9 +105790,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "31/07/2026"
+   "date": "31/07/2026",
+   "withdrawn": true
   },
   {
    "id": "d989ae38a5d3bcef029c",
@@ -116950,9 +117067,12 @@
     "Augusto Cury": 0.5274,
     "Outros": 3.692
    },
-   "eligible": true,
-   "issues": [],
-   "date": "03/06/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "03/06/2026",
+   "withdrawn": true
   },
   {
    "id": "f0e326aabfa6f9fe8d99",
@@ -117888,9 +118008,10 @@
    "valid_shares": {},
    "eligible": false,
    "issues": [
-    "Soma dos votos válidos incompatível com 100%"
+    "Não consta na versão atual da fonte"
    ],
-   "date": "22/09/2026"
+   "date": "22/09/2026",
+   "withdrawn": true
   },
   {
    "id": "f229ac326c0359ab81d0",
@@ -123514,9 +123635,12 @@
     "JHC": 45.5975,
     "Outros": 2.7254
    },
-   "eligible": true,
-   "issues": [],
-   "date": "08/07/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "08/07/2026",
+   "withdrawn": true
   },
   {
    "id": "fdf51a7e3651626010b3",
@@ -124472,32 +124596,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-17",
-   "updated_at": "2026-10-17",
-   "count": 1000,
+   "checked_at": "2026-10-18",
+   "updated_at": "2026-10-18",
+   "count": 980,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-17",
-   "updated_at": "2026-10-17",
-   "count": 1504,
+   "checked_at": "2026-10-18",
+   "updated_at": "2026-10-18",
+   "count": 1485,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-17",
-   "updated_at": "2026-10-17",
-   "count": 540,
+   "checked_at": "2026-10-18",
+   "updated_at": "2026-10-18",
+   "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-17",
+ "checked_at": "2026-10-18",
  "changes": {
-  "date": "2026-10-17",
-  "added": 11,
-  "revised": 1,
+  "date": "2026-10-18",
+  "added": 0,
+  "revised": 46,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }

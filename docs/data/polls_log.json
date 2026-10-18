@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17",
+ "generated_at": "2026-10-18",
  "state_polls": [
   {
    "uf": "RN",
@@ -14,7 +14,7 @@
    "sum_cands": 92.44,
    "undecided": 7.5600000000000005,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -43,7 +43,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Professora Dorinha",
@@ -72,7 +72,7 @@
    "sum_cands": 91.6,
    "undecided": 8.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -188,7 +188,7 @@
    "sum_cands": 93.30000000000001,
    "undecided": 0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -275,7 +275,7 @@
    "sum_cands": 92.78,
    "undecided": 7.22,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -333,7 +333,7 @@
    "sum_cands": 91.2,
    "undecided": 8.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -362,7 +362,7 @@
    "sum_cands": 75.9,
    "undecided": 24.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -6678,64 +6678,6 @@
      "party": "PCB",
      "pct": 0.40387722132471726,
      "pct_valid": 0.4039
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Vox Populi",
-   "date": "29/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.metropoles.com/sao-paulo/vox-brasil-com-585-tarcisio-venceria-haddad-no-1o-turno-em-sp",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 96.3,
-   "undecided": 3.7,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 58.5,
-     "pct_valid": 60.7477
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 36.2,
-     "pct_valid": 37.5909
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Vox Populi",
-   "date": "29/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.metropoles.com/sao-paulo/vox-brasil-com-585-tarcisio-venceria-haddad-no-1o-turno-em-sp",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 97.1,
-   "undecided": 2.9000000000000004,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 59.7,
-     "pct_valid": 61.483
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 37.4,
-     "pct_valid": 38.517
     }
    ]
   },
@@ -15787,35 +15729,6 @@
    "uf": "SP",
    "estado": "São Paulo",
    "cargo": "Governo",
-   "pollster": "Vox Populi",
-   "date": "22/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-tem-565-e-haddad-334-no-1o-turno-em-sp-diz-pesquisa/",
-   "scenario": "1º turno",
-   "base": "totais",
-   "sum_cands": 93.0,
-   "undecided": 7.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 56.5,
-     "pct_valid": 60.7527
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 33.4,
-     "pct_valid": 35.914
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
    "pollster": "Quaest",
    "date": "22/09/2026",
    "source": "Plano Político",
@@ -15838,35 +15751,6 @@
      "party": "PT",
      "pct": 27.0,
      "pct_valid": 36.0
-    }
-   ]
-  },
-  {
-   "uf": "SP",
-   "estado": "São Paulo",
-   "cargo": "Governo",
-   "pollster": "Vox Populi",
-   "date": "22/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.poder360.com.br/poder-eleicoes-2026/tarcisio-tem-565-e-haddad-334-no-1o-turno-em-sp-diz-pesquisa/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 93.30000000000001,
-   "undecided": 6.7,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Tarcísio de Freitas",
-     "party": "Republicanos",
-     "pct": 58.2,
-     "pct_valid": 62.3794
-    },
-    {
-     "name": "Fernando Haddad",
-     "party": "PT",
-     "pct": 35.1,
-     "pct_valid": 37.6206
     }
    ]
   },
@@ -28970,7 +28854,7 @@
    "url": "https://www.palver.com.br/survey",
    "Lula": 43.4343,
    "Flávio": 47.4747,
-   "weight": 0.02633
+   "weight": 0.02813
   },
   {
    "pollster": "Real Time Big Data",
@@ -28978,7 +28862,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-setembro-2026-2/",
    "Lula": 43.617,
    "Flávio": 39.3617,
-   "weight": 0.0252
+   "weight": 0.02692
   },
   {
    "pollster": "Futura",
@@ -28986,7 +28870,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/futura-lula-tem-392-das-intencoes-de-voto-no-1o-turno-flavio-336/",
    "Lula": 42.7948,
    "Flávio": 36.6812,
-   "weight": 0.00668
+   "weight": 0.00714
   },
   {
    "pollster": "Futura",
@@ -28994,7 +28878,7 @@
    "url": "https://exame.com/brasil/pesquisa-para-presidente-futura-flavio-tem-448-e-lula-426-dos-votos-validos-no-1o-turno/",
    "Lula": 42.6316,
    "Flávio": 44.7368,
-   "weight": 0.02193
+   "weight": 0.02342
   },
   {
    "pollster": "PALVER",
@@ -29002,7 +28886,7 @@
    "url": "https://noticias.uol.com.br/eleicoes/2026/09/09/pesquisa-do-instituto-palver---presidente---99.ghtm",
    "Lula": 41.2371,
    "Flávio": 40.2062,
-   "weight": 0.00764
+   "weight": 0.00816
   },
   {
    "pollster": "INDEXA PESQUISAS",
@@ -29010,7 +28894,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-setembro-2026-2/",
    "Lula": 45.8824,
    "Flávio": 40.0,
-   "weight": 0.03985
+   "weight": 0.04257
   },
   {
    "pollster": "PoderData",
@@ -29018,7 +28902,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026-3/",
    "Lula": 43.1579,
    "Flávio": 41.0526,
-   "weight": 0.01782
+   "weight": 0.01904
   },
   {
    "pollster": "CNT/MDA",
@@ -29026,7 +28910,7 @@
    "url": "https://www.metropoles.com/brasil/pesquisa-cnt-mda-lula-lidera-disputa-contra-flavio-no-1o-e-2o-turnos",
    "Lula": 47.8158,
    "Flávio": 35.8914,
-   "weight": 0.01886
+   "weight": 0.02014
   },
   {
    "pollster": "AtlasIntel",
@@ -29034,7 +28918,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026-2/",
    "Lula": 45.046,
    "Flávio": 42.5945,
-   "weight": 0.01133
+   "weight": 0.0121
   },
   {
    "pollster": "Datafolha",
@@ -29042,15 +28926,7 @@
    "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
    "Lula": 44.4444,
    "Flávio": 40.0,
-   "weight": 0.01401
-  },
-  {
-   "pollster": "Vox Populi",
-   "date": "01/10/2026",
-   "url": "https://revistaoeste.com/politica/vox-brasil-flavio-tem-482-contra-452-de-lula-no-2o-turno/",
-   "Lula": 44.9889,
-   "Flávio": 45.8797,
-   "weight": 0.03433
+   "weight": 0.01497
   },
   {
    "pollster": "Gerp",
@@ -29058,7 +28934,7 @@
    "url": "https://www.gerp.com.br/relatorios/20260929%20Relat%C3%B3rio%20Presid%C3%AAncia%202026%20-%20DIVULGA%C3%87%C3%83O.pdf",
    "Lula": 42.1053,
    "Flávio": 44.2105,
-   "weight": 0.01995
+   "weight": 0.02132
   },
   {
    "pollster": "Nexus",
@@ -29066,7 +28942,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026/",
    "Lula": 41.4894,
    "Flávio": 37.234,
-   "weight": 0.00755
+   "weight": 0.00807
   },
   {
    "pollster": "Datafolha",
@@ -29074,15 +28950,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-setembro-2026-3/",
    "Lula": 42.3913,
    "Flávio": 39.1304,
-   "weight": 0.00991
-  },
-  {
-   "pollster": "Vox Populi",
-   "date": "28/09/2026",
-   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-452-contra-447-de-lula-no-2o-turno-diz-pesquisa/",
-   "Lula": 45.8194,
-   "Flávio": 42.1405,
-   "weight": 0.02959
+   "weight": 0.01058
   },
   {
    "pollster": "PoderData",
@@ -29090,7 +28958,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/poderdata-presidente-setembro-2026-2/",
    "Lula": 39.3617,
    "Flávio": 38.2979,
-   "weight": 0.0126
+   "weight": 0.01346
   },
   {
    "pollster": "Real Time Big Data",
@@ -29098,7 +28966,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/",
    "Lula": 45.7447,
    "Flávio": 41.4894,
-   "weight": 0.03563
+   "weight": 0.03807
   },
   {
    "pollster": "ALFA INTELIGENCIA",
@@ -29106,7 +28974,7 @@
    "url": "https://revistaoeste.com/politica/alfa-inteligencia-lula-e-flavio-empatam-no-2o-turno/",
    "Lula": 44.9438,
    "Flávio": 37.0787,
-   "weight": 0.04301
+   "weight": 0.04595
   },
   {
    "pollster": "Nexus",
@@ -29114,7 +28982,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026-2/",
    "Lula": 43.0108,
    "Flávio": 39.7849,
-   "weight": 0.01438
+   "weight": 0.01536
   },
   {
    "pollster": "Futura",
@@ -29122,7 +28990,7 @@
    "url": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-sobe-a-422-e-lula-aparece-com-394-no-1o-turno/",
    "Lula": 41.4737,
    "Flávio": 44.4211,
-   "weight": 0.01799
+   "weight": 0.01922
   },
   {
    "pollster": "DataTrends",
@@ -29130,7 +28998,7 @@
    "url": "https://www.edmarlyra.com/datatrends-lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial/",
    "Lula": 44.5652,
    "Flávio": 42.3913,
-   "weight": 0.06083
+   "weight": 0.06498
   },
   {
    "pollster": "Futura",
@@ -29138,7 +29006,7 @@
    "url": "https://exame.com/brasil/futura-flavio-bolsonaro-cresce-chega-a-404-e-ultrapassa-lula-no-1o-turno/",
    "Lula": 40.592,
    "Flávio": 42.7061,
-   "weight": 0.01404
+   "weight": 0.015
   },
   {
    "pollster": "Datafolha",
@@ -29146,7 +29014,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/01/datafolha-presidente-1-outubro.ghtml",
    "Lula": 45.1613,
    "Flávio": 40.8602,
-   "weight": 0.01982
+   "weight": 0.02117
   },
   {
    "pollster": "PoderData",
@@ -29154,7 +29022,7 @@
    "url": "https://www.poder360.com.br/poderdata/poderdata-aya-lula-tem-38-contra-36-de-flavio-no-1o-turno/",
    "Lula": 40.0,
    "Flávio": 37.8947,
-   "weight": 0.00891
+   "weight": 0.00952
   },
   {
    "pollster": "AtlasIntel",
@@ -29162,7 +29030,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-setembro-2026-3/",
    "Lula": 46.3563,
    "Flávio": 43.9271,
-   "weight": 0.01524
+   "weight": 0.01628
   },
   {
    "pollster": "PALVER",
@@ -29170,7 +29038,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/palver-presidente-setembro-2026-3/",
    "Lula": 44.4444,
    "Flávio": 44.4444,
-   "weight": 0.02056
+   "weight": 0.02196
   },
   {
    "pollster": "Franca",
@@ -29178,7 +29046,7 @@
    "url": "https://www.poder360.com.br/poder-eleicoes/lula-tem-4588-contra-4501-de-flavio-no-2o-turno-diz-pesquisa/",
    "Lula": 43.885,
    "Flávio": 40.5035,
-   "weight": 0.06716
+   "weight": 0.07174
   },
   {
    "pollster": "Datafolha",
@@ -29186,7 +29054,7 @@
    "url": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-38-e-flavio-bolsonaro-33-no-1o-turno-cury-vai-a-8.shtml",
    "Lula": 43.1818,
    "Flávio": 37.5,
-   "weight": 0.00495
+   "weight": 0.00529
   },
   {
    "pollster": "INDEXA PESQUISAS",
@@ -29194,7 +29062,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/indexa-broadcast-presidente-setembro-2026/",
    "Lula": 44.186,
    "Flávio": 39.5349,
-   "weight": 0.01804
+   "weight": 0.01928
   },
   {
    "pollster": "PoderData",
@@ -29202,7 +29070,7 @@
    "url": "https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/",
    "Lula": 45.1613,
    "Flávio": 44.086,
-   "weight": 0.02783
+   "weight": 0.02973
   },
   {
    "pollster": "Gerp",
@@ -29210,7 +29078,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026/",
    "Lula": 38.2022,
    "Flávio": 41.573,
-   "weight": 0.00818
+   "weight": 0.00874
   },
   {
    "pollster": "Nexus",
@@ -29218,7 +29086,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-presidente-setembro-2026/",
    "Lula": 44.6809,
    "Flávio": 39.3617,
-   "weight": 0.01017
+   "weight": 0.01086
   },
   {
    "pollster": "Nexus",
@@ -29226,7 +29094,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-setembro-2026-3/",
    "Lula": 44.2105,
    "Flávio": 38.9474,
-   "weight": 0.02033
+   "weight": 0.02172
   },
   {
    "pollster": "CNT/MDA",
@@ -29234,7 +29102,7 @@
    "url": "https://www.metropoles.com/brasil/cnt-mda-no-1-turno-lula-chega-a-431-e-flavio-bolsonaro-38",
    "Lula": 47.8357,
    "Flávio": 42.1754,
-   "weight": 0.0483
+   "weight": 0.0516
   },
   {
    "pollster": "Quaest",
@@ -29242,7 +29110,7 @@
    "url": "https://oglobo.globo.com/blogs/pulso/post/2026/09/pesquisa-quaest-flavio-aparece-numericamente-a-frente-de-lula-no-2o-turno-pela-primeira-vez-na-campanha.ghtml",
    "Lula": 43.3735,
    "Flávio": 37.3494,
-   "weight": 0.00903
+   "weight": 0.00965
   },
   {
    "pollster": "PALVER",
@@ -29250,7 +29118,7 @@
    "url": "https://www.cnnbrasil.com.br/eleicoes/palver-flavio-e-lula-empatam-no-1o-turno-em-43/",
    "Lula": 43.4343,
    "Flávio": 43.4343,
-   "weight": 0.01605
+   "weight": 0.01714
   },
   {
    "pollster": "Gerp",
@@ -29258,7 +29126,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-vespera-1-turno/",
    "Lula": 43.617,
    "Flávio": 45.7447,
-   "weight": 0.02686
+   "weight": 0.02869
   },
   {
    "pollster": "Quaest",
@@ -29266,7 +29134,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/21/quaest-presidente-1o-turno-21-setembro.ghtml",
    "Lula": 43.5294,
    "Flávio": 38.8235,
-   "weight": 0.01277
+   "weight": 0.01365
   },
   {
    "pollster": "Ideia",
@@ -29274,7 +29142,7 @@
    "url": "https://www.metropoles.com/brasil/lula-e-flavio-tem-empate-tecnico-nos-dois-turnos-aponta-meio-ideia",
    "Lula": 40.0814,
    "Flávio": 39.0641,
-   "weight": 0.0407
+   "weight": 0.04348
   },
   {
    "pollster": "Quaest",
@@ -29282,7 +29150,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/28/quaest-presidente-1o-turno-28-setembro.ghtml",
    "Lula": 45.8824,
    "Flávio": 40.0,
-   "weight": 0.01806
+   "weight": 0.0193
   },
   {
    "pollster": "Quaest",
@@ -29290,7 +29158,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/09/07/quaest-presidente-7-setembro.ghtml",
    "Lula": 43.9024,
    "Flávio": 35.3659,
-   "weight": 0.00639
+   "weight": 0.00682
   },
   {
    "pollster": "Gerp",
@@ -29298,7 +29166,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-setembro-2026-2/",
    "Lula": 40.6593,
    "Flávio": 43.956,
-   "weight": 0.01216
+   "weight": 0.01299
   },
   {
    "pollster": "Datafolha",
@@ -29306,7 +29174,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml",
    "Lula": 45.6522,
    "Flávio": 43.4783,
-   "weight": 0.02188
+   "weight": 0.02337
   },
   {
    "pollster": "Ideia",
@@ -29314,7 +29182,7 @@
    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/meio-ideia-presidente-setembro-2026/",
    "Lula": 40.4636,
    "Flávio": 39.3045,
-   "weight": 0.01439
+   "weight": 0.01537
   },
   {
    "pollster": "Futura",
@@ -29322,7 +29190,7 @@
    "url": "https://revistaoeste.com/politica/flavio-tem-481-contra-437-de-lula-no-2-turno-mostra-pesquisa/",
    "Lula": 40.8316,
    "Flávio": 40.1919,
-   "weight": 0.00993
+   "weight": 0.01061
   },
   {
    "pollster": "AtlasIntel",
@@ -29330,7 +29198,7 @@
    "url": "https://www.estadao.com.br/politica/eleicoes/pesquisa-atlas-flavio-bolsonaro-tem-464-e-lula-462-no-segundo-turno/",
    "Lula": 43.4343,
    "Flávio": 37.7778,
-   "weight": 0.00801
+   "weight": 0.00856
   },
   {
    "pollster": "Quaest",
@@ -29338,7 +29206,7 @@
    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-presidente-3-outubro.ghtml",
    "Lula": 45.977,
    "Flávio": 43.6782,
-   "weight": 0.02431
+   "weight": 0.02597
   },
   {
    "pollster": "AtlasIntel",
@@ -29346,7 +29214,7 @@
    "url": "https://cdn1.atlasintel.org/pesquisa_atlas_bloomberg__nacional_260929_f6e4ce397d269a6f.pdf",
    "Lula": 46.2717,
    "Flávio": 43.1052,
-   "weight": 0.02052
+   "weight": 0.02192
   }
  ]
 }
