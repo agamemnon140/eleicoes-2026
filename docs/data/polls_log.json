@@ -1,6 +1,93 @@
 {
- "generated_at": "2026-10-18",
+ "generated_at": "2026-10-19",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "17/10/2026",
+   "source": "Plano Político",
+   "url": "https://clebertoledo.com.br/em-off/vicentinho-aparece-com-565-dos-votos-validos-contra-435-de-dorinha-aponta-parana-pesquisas/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.9,
+   "undecided": 7.1,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 52.5,
+     "pct_valid": 56.5124
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 40.4,
+     "pct_valid": 43.4876
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Igape",
+   "date": "17/10/2026",
+   "source": "Plano Político",
+   "url": "https://jornaldebrasilia.com.br/brasilia/celina-leao-permanece-com-60-dos-votos-validos-a-uma-semana-do-segundo-turno-no-df-aponta-pesquisa/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.4,
+   "undecided": 8.6,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 55.5,
+     "pct_valid": 60.7221
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 35.9,
+     "pct_valid": 39.2779
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Item",
+   "date": "15/10/2026",
+   "source": "Plano Político",
+   "url": "https://difusoramossoro.com.br/pesquisa-difusora-item-allyson-bezerra-aparece-com-51-e-cadu-de-lula-tem-44-na-disputa-pelo-governo-do-rn/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 95.0,
+   "undecided": 5.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 51.0,
+     "pct_valid": 53.6842
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 44.0,
+     "pct_valid": 46.3158
+    }
+   ]
+  },
   {
    "uf": "RN",
    "estado": "Rio Grande do Norte",
@@ -172,35 +259,6 @@
      "party": "PT",
      "pct": 36.0,
      "pct_valid": 40.4494
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "Affare",
-   "date": "12/10/2026",
-   "source": "Plano Político",
-   "url": "https://robsonpiresxerife.com/pesquisa-affare-governador-cadu-lidera-com-526-dos-votos-validos-seguindo-de-allyson-com-474/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 93.30000000000001,
-   "undecided": 0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 49.1,
-     "pct_valid": 52.6259
-    },
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 44.2,
-     "pct_valid": 47.3741
     }
    ]
   },
@@ -20270,64 +20328,6 @@
      "party": "Novo",
      "pct": 6.0,
      "pct_valid": 6.8182
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "14/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-tocantins-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 84.0,
-   "undecided": 16.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 43.0,
-     "pct_valid": 51.1905
-    },
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 41.0,
-     "pct_valid": 48.8095
-    }
-   ]
-  },
-  {
-   "uf": "TO",
-   "estado": "Tocantins",
-   "cargo": "Governo",
-   "pollster": "Paraná Pesquisas",
-   "date": "14/09/2026",
-   "source": "Plano Político",
-   "url": "https://paranapesquisas.com.br/wp-content/uploads/2026/09/TO_Set26.pdf",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 89.1,
-   "undecided": 10.9,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Professora Dorinha",
-     "party": "União",
-     "pct": 46.8,
-     "pct_valid": 52.5253
-    },
-    {
-     "name": "Vicentinho Júnior",
-     "party": "PSDB",
-     "pct": 42.3,
-     "pct_valid": 47.4747
     }
    ]
   },

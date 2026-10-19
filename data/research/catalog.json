@@ -19385,6 +19385,39 @@
    "withdrawn": true
   },
   {
+   "id": "2643175d2d5d2c4dec13",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-01978/2026",
+   "pollster": "Item",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-17",
+   "sample_size": 1250,
+   "method": "Presencial",
+   "url": "https://difusoramossoro.com.br/pesquisa-difusora-item-allyson-bezerra-aparece-com-51-e-cadu-de-lula-tem-44-na-disputa-pelo-governo-do-rn/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 51.0,
+    "Cadu Xavier": 44.0,
+    "Indecisos": 5.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 5.0,
+   "valid_shares": {
+    "Allyson Bezerra": 53.6842,
+    "Cadu Xavier": 46.3158
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
+  },
+  {
    "id": "264da456e76d4a282361",
    "uf": "SP",
    "cargo": "Senado",
@@ -21772,6 +21805,39 @@
    ],
    "date": "21/07/2026",
    "withdrawn": true
+  },
+  {
+   "id": "2a439583bb7fe204a44d",
+   "uf": "RN",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02615/2026",
+   "pollster": "Item",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-15",
+   "published_at": "2026-10-17",
+   "sample_size": 1250,
+   "method": "Presencial",
+   "url": "https://difusoramossoro.com.br/pesquisa-difusora-item-item-lula-tem-59-das-intencoes-de-voto-contra-375-de-flavio-bolsonaro-no-rn/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 59.0,
+    "Flávio Bolsonaro": 37.5,
+    "Indecisos": 3.5
+   },
+   "sum_cands": 96.5,
+   "undecided": 3.5,
+   "valid_shares": {
+    "Lula": 61.1399,
+    "Flávio Bolsonaro": 38.8601
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "15/10/2026"
   },
   {
    "id": "2a55a93adfe1cd4bedd6",
@@ -36005,9 +36071,12 @@
     "Cadu Xavier": 52.6259,
     "Allyson Bezerra": 47.3741
    },
-   "eligible": true,
-   "issues": [],
-   "date": "12/10/2026"
+   "eligible": false,
+   "issues": [
+    "Não consta na versão atual da fonte"
+   ],
+   "date": "12/10/2026",
+   "withdrawn": true
   },
   {
    "id": "47dbdc693f170b7df932",
@@ -55618,6 +55687,39 @@
    "date": "18/09/2026"
   },
   {
+   "id": "71a1779cb16c3a43df4b",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-06715/2026",
+   "pollster": "Futura",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-17",
+   "published_at": "2026-10-19",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.futurainteligencia.com.br/pesquisas",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.5,
+    "Flávio Bolsonaro": 48.3,
+    "Indecisos": 4.3
+   },
+   "sum_cands": 95.8,
+   "undecided": 4.3,
+   "valid_shares": {
+    "Lula": 49.5825,
+    "Flávio Bolsonaro": 50.4175
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "17/10/2026"
+  },
+  {
    "id": "71a8980b5d6a3c3d75b3",
    "uf": "CE",
    "cargo": "Governo",
@@ -63233,6 +63335,39 @@
    "date": "24/08/2026"
   },
   {
+   "id": "81bc3f19c9eac964d981",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-08796/2026",
+   "pollster": "Igape",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-17",
+   "published_at": "2026-10-18",
+   "sample_size": 1200,
+   "method": "Telefone",
+   "url": "https://jornaldebrasilia.com.br/brasilia/celina-leao-permanece-com-60-dos-votos-validos-a-uma-semana-do-segundo-turno-no-df-aponta-pesquisa/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 55.5,
+    "Leandro Grass": 35.9,
+    "Indecisos": 8.6
+   },
+   "sum_cands": 91.4,
+   "undecided": 8.6,
+   "valid_shares": {
+    "Celina Leão": 60.7221,
+    "Leandro Grass": 39.2779
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "17/10/2026"
+  },
+  {
    "id": "81c471805f1019d9dbf9",
    "uf": "AL",
    "cargo": "Senado",
@@ -65199,6 +65334,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "02/10/2026"
+  },
+  {
+   "id": "8699d7ce0e0c87e8564c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02586/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-18",
+   "published_at": "2026-10-19",
+   "sample_size": 3000,
+   "method": "Misto",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-18out26.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 48.4211,
+    "Flávio Bolsonaro": 51.5789
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "18/10/2026"
   },
   {
    "id": "86a06bbbb3967f4f42a2",
@@ -67798,6 +67966,39 @@
    ],
    "date": "12/08/2026",
    "withdrawn": true
+  },
+  {
+   "id": "8ad2438a4d682d2e77f0",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02418/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-13",
+   "field_end": "2026-10-18",
+   "published_at": "2026-10-19",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-511-dos-votos-validos-contra-489-de-lula-diz-atlasintel/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.6,
+    "Flávio Bolsonaro": 49.8,
+    "Indecisos": 2.6
+   },
+   "sum_cands": 97.4,
+   "undecided": 2.6,
+   "valid_shares": {
+    "Lula": 48.8706,
+    "Flávio Bolsonaro": 51.1294
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "18/10/2026"
   },
   {
    "id": "8ad7996c6e2570d1c93a",
@@ -104772,6 +104973,39 @@
    "date": "19/08/2026"
   },
   {
+   "id": "d6861a8fd3d2862f6de8",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-04499/2026",
+   "pollster": "Nexus",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-18",
+   "published_at": "2026-10-19",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-BTG-Nexus-19out2026.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.9,
+    "Flávio Bolsonaro": 46.5,
+    "Indecisos": 7.6
+   },
+   "sum_cands": 92.4,
+   "undecided": 7.6,
+   "valid_shares": {
+    "Lula": 49.6753,
+    "Flávio Bolsonaro": 50.3247
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "18/10/2026"
+  },
+  {
    "id": "d6a11756f3aa911b3d22",
    "uf": "DF",
    "cargo": "Senado",
@@ -107503,6 +107737,39 @@
    "eligible": true,
    "issues": [],
    "date": "02/09/2026"
+  },
+  {
+   "id": "dd59cde315eec81f7d73",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-09349/2026",
+   "pollster": "Paraná Pesquisas",
+   "field_start": "2026-10-14",
+   "field_end": "2026-10-17",
+   "published_at": "2026-10-19",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://clebertoledo.com.br/em-off/vicentinho-aparece-com-565-dos-votos-validos-contra-435-de-dorinha-aponta-parana-pesquisas/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Vicentinho Junior": 52.5,
+    "Professora Dorinha": 40.4,
+    "Indecisos": 7.1
+   },
+   "sum_cands": 92.9,
+   "undecided": 7.1,
+   "valid_shares": {
+    "Vicentinho Junior": 56.5124,
+    "Professora Dorinha": 43.4876
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "17/10/2026"
   },
   {
    "id": "dd8c1e5d383249266e78",
@@ -124596,32 +124863,32 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-18",
-   "updated_at": "2026-10-18",
-   "count": 980,
+   "checked_at": "2026-10-19",
+   "updated_at": "2026-10-19",
+   "count": 985,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-18",
-   "updated_at": "2026-10-18",
-   "count": 1485,
+   "checked_at": "2026-10-19",
+   "updated_at": "2026-10-19",
+   "count": 1487,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-18",
-   "updated_at": "2026-10-18",
+   "checked_at": "2026-10-19",
+   "updated_at": "2026-10-19",
    "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-18",
+ "checked_at": "2026-10-19",
  "changes": {
-  "date": "2026-10-18",
-  "added": 0,
-  "revised": 46,
+  "date": "2026-10-19",
+  "added": 8,
+  "revised": 1,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
  }
