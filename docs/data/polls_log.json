@@ -1,6 +1,151 @@
 {
- "generated_at": "2026-10-19",
+ "generated_at": "2026-10-20",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-tocantins-outubro-2026-segundo-turno/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 46.0,
+     "pct_valid": 52.2727
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 42.0,
+     "pct_valid": 47.7273
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.blogdobg.com.br/real-time-big-data-allyson-tem-45-e-cadu-de-lula-42-no-2o-turno-no-rn/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 45.0,
+     "pct_valid": 51.7241
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 42.0,
+     "pct_valid": 48.2759
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-espirito-santo-outubro-2026-segundo-turno/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 46.0,
+     "pct_valid": 51.6854
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 43.0,
+     "pct_valid": 48.3146
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-distrito-federal-segundo-turno/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.0,
+   "undecided": 10.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 53.0,
+     "pct_valid": 58.8889
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 37.0,
+     "pct_valid": 41.1111
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "Real Time Big Data",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://noticias.r7.com/eleicoes/2026/acre-mailza-assis-tem-59-dos-votos-validos-contra-41-de-alan-rick-no-2-turno-indica-real-time-20102026/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 50.0,
+     "pct_valid": 58.8235
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 35.0,
+     "pct_valid": 41.1765
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -14,7 +159,7 @@
    "sum_cands": 92.9,
    "undecided": 7.1,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -43,7 +188,7 @@
    "sum_cands": 91.4,
    "undecided": 8.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -72,7 +217,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
