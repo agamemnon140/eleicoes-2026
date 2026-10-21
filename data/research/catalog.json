@@ -1,6 +1,39 @@
 {
  "polls": [
   {
+   "id": "000ae50ddfaadbb1fe7c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-04612/2026",
+   "pollster": "PALVER",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://www.brasil247.com/brasil/flavio-bolsonaro-tem-50-e-lula-48-em-empate-tecnico-no-2o-turno-diz-palver/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 48.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 1.0
+   },
+   "sum_cands": 98.0,
+   "undecided": 1.0,
+   "valid_shares": {
+    "Lula": 48.9796,
+    "Flávio Bolsonaro": 51.0204
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
+  },
+  {
    "id": "0048cceb876d32997410",
    "uf": "SE",
    "cargo": "Senado",
@@ -25629,6 +25662,39 @@
    "eligible": true,
    "issues": [],
    "date": "11/07/2026"
+  },
+  {
+   "id": "31636c8868b741c0794f",
+   "uf": "TO",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09051/2026",
+   "pollster": "Paraná Pesquisas",
+   "field_start": "2026-10-14",
+   "field_end": "2026-10-17",
+   "published_at": "2026-10-19",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://paranapesquisas.com.br/wp-content/uploads/2026/10/TO_Out26-2.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 41.9,
+    "Flávio Bolsonaro": 52.9,
+    "Indecisos": 5.2
+   },
+   "sum_cands": 94.8,
+   "undecided": 5.2,
+   "valid_shares": {
+    "Lula": 44.1983,
+    "Flávio Bolsonaro": 55.8017
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "17/10/2026"
   },
   {
    "id": "317496646372516ea67b",
@@ -71155,6 +71221,39 @@
    "date": "22/06/2026"
   },
   {
+   "id": "90ba0375c6bb25b8710b",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08535/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-17",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/21/quaest-presidente-21-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.0,
+    "Flávio Bolsonaro": 45.0,
+    "Indecisos": 11.0
+   },
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "valid_shares": {
+    "Lula": 49.4382,
+    "Flávio Bolsonaro": 50.5618
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
+  },
+  {
    "id": "90cf9c1cb1ca86bf5f42",
    "uf": "BA",
    "cargo": "Senado",
@@ -76158,6 +76257,39 @@
    "eligible": true,
    "issues": [],
    "date": "25/02/2026"
+  },
+  {
+   "id": "9a3c9c7eafaab0575415",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-01690/2026",
+   "pollster": "DataTrends",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-18",
+   "published_at": "2026-10-20",
+   "sample_size": 1200,
+   "method": "Telefone",
+   "url": "https://www.edmarlyra.com/datatrends-allyson-bezerra-tem-52-dos-votos-validos-contra-48-de-cadu-de-lula-no-rio-grande-do-norte/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 49.0,
+    "Cadu Xavier": 46.0,
+    "Indecisos": 5.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 5.0,
+   "valid_shares": {
+    "Allyson Bezerra": 51.5789,
+    "Cadu Xavier": 48.4211
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "18/10/2026"
   },
   {
    "id": "9a67bee0adc52495a5c8",
@@ -107546,6 +107678,39 @@
    "date": "07/09/2026"
   },
   {
+   "id": "dc53ff5a2b352cf89f06",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-06614/2026",
+   "pollster": "Futura",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.futurainteligencia.com.br/pesquisas",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.8,
+    "Flávio Bolsonaro": 48.9,
+    "Indecisos": 4.3
+   },
+   "sum_cands": 95.69999999999999,
+   "undecided": 4.3,
+   "valid_shares": {
+    "Lula": 48.9028,
+    "Flávio Bolsonaro": 51.0972
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
+  },
+  {
    "id": "dc559b6863adce0bee7e",
    "uf": "ES",
    "cargo": "Presidente",
@@ -110604,6 +110769,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "30/06/2026"
+  },
+  {
+   "id": "e31aa566dafc79fd2756",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08251/2026",
+   "pollster": "Ideia",
+   "field_start": "2026-10-15",
+   "field_end": "2026-10-19",
+   "published_at": "2026-10-21",
+   "sample_size": 1500,
+   "method": "Telefone",
+   "url": "https://www.canalmeio.com.br/wp-content/uploads/2026/10/Pesquisa-Meio_Ideia-Outubro.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 48.9362,
+    "Flávio Bolsonaro": 51.0638
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "19/10/2026"
   },
   {
    "id": "e3319d2dcf29aaf12c18",
@@ -125160,31 +125358,31 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-20",
-   "updated_at": "2026-10-20",
-   "count": 988,
+   "checked_at": "2026-10-21",
+   "updated_at": "2026-10-21",
+   "count": 993,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-20",
-   "updated_at": "2026-10-20",
-   "count": 1493,
+   "checked_at": "2026-10-21",
+   "updated_at": "2026-10-21",
+   "count": 1494,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-20",
-   "updated_at": "2026-10-20",
+   "checked_at": "2026-10-21",
+   "updated_at": "2026-10-21",
    "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-20",
+ "checked_at": "2026-10-21",
  "changes": {
-  "date": "2026-10-20",
-  "added": 9,
+  "date": "2026-10-21",
+  "added": 6,
   "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
