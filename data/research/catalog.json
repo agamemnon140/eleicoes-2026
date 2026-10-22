@@ -1593,6 +1593,39 @@
    "date": "23/09/2026"
   },
   {
+   "id": "044d2395475fa972f925",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-07926/2026",
+   "pollster": "PoderData",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-21",
+   "published_at": "2026-10-22",
+   "sample_size": 4000,
+   "method": "Misto",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-21out26-2.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 48.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 4.0
+   },
+   "sum_cands": 97.0,
+   "undecided": 4.0,
+   "valid_shares": {
+    "Lula": 49.4845,
+    "Flávio Bolsonaro": 50.5155
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "21/10/2026"
+  },
+  {
    "id": "047a01a62bad5c5bbd8e",
    "uf": "RN",
    "cargo": "Governo",
@@ -22818,6 +22851,39 @@
    ],
    "date": "15/08/2026",
    "withdrawn": true
+  },
+  {
+   "id": "2c1c4d89e413378589d4",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-00402/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-17",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 1104,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/21/quaest-df-governador-segundo-turno-21-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 50.0,
+    "Leandro Grass": 35.0,
+    "Indecisos": 15.0
+   },
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "valid_shares": {
+    "Celina Leão": 58.8235,
+    "Leandro Grass": 41.1765
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
   },
   {
    "id": "2c26c0c90e16e2b90f16",
@@ -44472,6 +44538,39 @@
    "eligible": true,
    "issues": [],
    "date": "12/09/2026"
+  },
+  {
+   "id": "59a786da52e9cf667c07",
+   "uf": "DF",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03163/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-17",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 1104,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/21/quaest-df-presidente-segundo-turno-21-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 39.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 11.0
+   },
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "valid_shares": {
+    "Lula": 43.8202,
+    "Flávio Bolsonaro": 56.1798
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
   },
   {
    "id": "59acb243bc15efde377b",
@@ -91802,6 +91901,39 @@
    "date": "03/10/2026"
   },
   {
+   "id": "baa872d2360515b7786e",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-02348/2026",
+   "pollster": "INDEXA PESQUISAS",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-21",
+   "published_at": "2026-10-22",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.estadao.com.br/politica/eleicoes/indexabroadcast-flavio-bolsonaro-tem-452-ante-441-de-lula-no-2-turno-em-empate-tecnico/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 44.1,
+    "Flávio Bolsonaro": 45.2,
+    "Indecisos": 10.7
+   },
+   "sum_cands": 89.30000000000001,
+   "undecided": 10.7,
+   "valid_shares": {
+    "Lula": 49.3841,
+    "Flávio Bolsonaro": 50.6159
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "21/10/2026"
+  },
+  {
    "id": "bac46fc58642d9cbaff1",
    "uf": "BR",
    "cargo": "Presidente",
@@ -107302,6 +107434,39 @@
    "eligible": true,
    "issues": [],
    "date": "23/09/2026"
+  },
+  {
+   "id": "dba3f2bb7f1fb40098ef",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03835/2026",
+   "pollster": "Gerp",
+   "field_start": "2026-10-17",
+   "field_end": "2026-10-20",
+   "published_at": "2026-10-21",
+   "sample_size": 2400,
+   "method": "Telefone",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-2026-segundo-turno-3/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 4.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 4.0,
+   "valid_shares": {
+    "Lula": 47.3684,
+    "Flávio Bolsonaro": 52.6316
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "20/10/2026"
   },
   {
    "id": "dbaa36fbdb4fea09db96",
@@ -125358,31 +125523,31 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-21",
-   "updated_at": "2026-10-21",
-   "count": 993,
+   "checked_at": "2026-10-22",
+   "updated_at": "2026-10-22",
+   "count": 997,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-21",
-   "updated_at": "2026-10-21",
-   "count": 1494,
+   "checked_at": "2026-10-22",
+   "updated_at": "2026-10-22",
+   "count": 1495,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-21",
-   "updated_at": "2026-10-21",
+   "checked_at": "2026-10-22",
+   "updated_at": "2026-10-22",
    "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-21",
+ "checked_at": "2026-10-22",
  "changes": {
-  "date": "2026-10-21",
-  "added": 6,
+  "date": "2026-10-22",
+  "added": 5,
   "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
