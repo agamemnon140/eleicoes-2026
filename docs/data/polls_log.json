@@ -1,6 +1,35 @@
 {
- "generated_at": "2026-10-21",
+ "generated_at": "2026-10-22",
  "state_polls": [
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "20/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/21/quaest-df-governador-segundo-turno-21-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 50.0,
+     "pct_valid": 58.8235
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 35.0,
+     "pct_valid": 41.1765
+    }
+   ]
+  },
   {
    "uf": "TO",
    "estado": "Tocantins",
@@ -159,7 +188,7 @@
    "sum_cands": 95.0,
    "undecided": 5.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -18314,64 +18343,6 @@
      "party": "PSD",
      "pct": 38.7,
      "pct_valid": 47.7189
-    }
-   ]
-  },
-  {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Opinião",
-   "date": "19/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/09/7506091-correio-opiniao-celina-lidera-com-329-arruda-e-grass-disputam-2-lugar.html",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 83.7,
-   "undecided": 0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 50.2,
-     "pct_valid": 59.9761
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 33.5,
-     "pct_valid": 40.0239
-    }
-   ]
-  },
-  {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Igape",
-   "date": "19/09/2026",
-   "source": "Plano Político",
-   "url": "https://jornaldebrasilia.com.br/brasilia/celina-supera-50-contra-arruda-e-grass-em-cenarios-de-segundo-turno/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 81.3,
-   "undecided": 18.7,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 53.5,
-     "pct_valid": 65.8057
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 27.8,
-     "pct_valid": 34.1943
     }
    ]
   },
