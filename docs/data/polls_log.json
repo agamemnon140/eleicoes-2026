@@ -1,6 +1,64 @@
 {
- "generated_at": "2026-10-22",
+ "generated_at": "2026-10-23",
  "state_polls": [
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "22/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/22/datafolha-df-governador-segundo-turno-22-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 54.0,
+     "pct_valid": 59.3407
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 37.0,
+     "pct_valid": 40.6593
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "date": "21/10/2026",
+   "source": "Plano Político",
+   "url": "https://agorarn.com.br/politica/exatus-allyson-cadu-segundo-turno-rn/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.44999999999999,
+   "undecided": 10.559999999999999,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 46.08,
+     "pct_valid": 51.5148
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 43.37,
+     "pct_valid": 48.4852
+    }
+   ]
+  },
   {
    "uf": "DF",
    "estado": "Distrito Federal",
@@ -14,7 +72,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",

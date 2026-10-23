@@ -10194,6 +10194,72 @@
    "date": "13/05/2026"
   },
   {
+   "id": "151557e6db7db9e00477",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-01738/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-22",
+   "sample_size": 910,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/22/datafolha-df-governador-segundo-turno-22-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 54.0,
+    "Leandro Grass": 37.0,
+    "Indecisos": 9.0
+   },
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "valid_shares": {
+    "Celina Leão": 59.3407,
+    "Leandro Grass": 40.6593
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
+  },
+  {
+   "id": "152a023ca89256a40aa9",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08496/2026",
+   "pollster": "ALFA INTELIGENCIA",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-23",
+   "sample_size": 1200,
+   "method": "Misto",
+   "url": "https://tmc.com.br/politica/flavio-bolsonaro-lula-pesquisa-alfa-segundo-turno-2026/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 49.9,
+    "Indecisos": 4.1
+   },
+   "sum_cands": 95.9,
+   "undecided": 4.1,
+   "valid_shares": {
+    "Lula": 47.9666,
+    "Flávio Bolsonaro": 52.0334
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
+  },
+  {
    "id": "154206564b6fa206fc74",
    "uf": "AM",
    "cargo": "Governo",
@@ -29874,6 +29940,39 @@
    "date": "13/09/2026"
   },
   {
+   "id": "3b75bd4d191abb431935",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09670/2026",
+   "pollster": "Real Time Big Data",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-23",
+   "sample_size": 2000,
+   "method": "Misto",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno-2/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 6.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 6.0,
+   "valid_shares": {
+    "Lula": 47.8723,
+    "Flávio Bolsonaro": 52.1277
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
+  },
+  {
    "id": "3bd7b2a7904a75d7b7df",
    "uf": "RR",
    "cargo": "Governo",
@@ -46465,6 +46564,39 @@
    "date": "01/10/2026"
   },
   {
+   "id": "5ce4feb3852ae309af33",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09709/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-20",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-22",
+   "sample_size": 2520,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/22/datafolha-presidente-segundo-turno-22-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 47.0,
+    "Indecisos": 7.0
+   },
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "valid_shares": {
+    "Lula": 49.4624,
+    "Flávio Bolsonaro": 50.5376
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
+  },
+  {
    "id": "5cec91f23896600e2f31",
    "uf": "AC",
    "cargo": "Governo",
@@ -53816,6 +53948,39 @@
    "date": "20/08/2026"
   },
   {
+   "id": "6cf00f3428d0e7d36703",
+   "uf": "RN",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-05704/2026",
+   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-21",
+   "published_at": "2026-10-22",
+   "sample_size": 1500,
+   "method": "Presencial",
+   "url": "https://agorarn.com.br/politica/exatus-lula-flavio-presidencia-rn-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 60.8,
+    "Flávio Bolsonaro": 32.0,
+    "Indecisos": 7.26
+   },
+   "sum_cands": 92.8,
+   "undecided": 7.26,
+   "valid_shares": {
+    "Lula": 65.5172,
+    "Flávio Bolsonaro": 34.4828
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "21/10/2026"
+  },
+  {
    "id": "6cf104e2cb731172249c",
    "uf": "BR",
    "cargo": "Presidente",
@@ -55760,6 +55925,39 @@
    "eligible": true,
    "issues": [],
    "date": "28/09/2026"
+  },
+  {
+   "id": "70f8eae1f80dd20cd307",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-01134/2026",
+   "pollster": "EXATUS CONSULTORIA E PESQUISA",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-21",
+   "published_at": "2026-10-22",
+   "sample_size": 1500,
+   "method": "Presencial",
+   "url": "https://agorarn.com.br/politica/exatus-allyson-cadu-segundo-turno-rn/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 46.08,
+    "Cadu Xavier": 43.37,
+    "Indecisos": 10.559999999999999
+   },
+   "sum_cands": 89.44999999999999,
+   "undecided": 10.559999999999999,
+   "valid_shares": {
+    "Allyson Bezerra": 51.5148,
+    "Cadu Xavier": 48.4852
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "21/10/2026"
   },
   {
    "id": "70fb965b113907b6da03",
@@ -125523,31 +125721,31 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-22",
-   "updated_at": "2026-10-22",
-   "count": 997,
+   "checked_at": "2026-10-23",
+   "updated_at": "2026-10-23",
+   "count": 1001,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-22",
-   "updated_at": "2026-10-22",
-   "count": 1495,
+   "checked_at": "2026-10-23",
+   "updated_at": "2026-10-23",
+   "count": 1497,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-22",
-   "updated_at": "2026-10-22",
+   "checked_at": "2026-10-23",
+   "updated_at": "2026-10-23",
    "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-22",
+ "checked_at": "2026-10-23",
  "changes": {
-  "date": "2026-10-22",
-  "added": 5,
+  "date": "2026-10-23",
+  "added": 6,
   "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
