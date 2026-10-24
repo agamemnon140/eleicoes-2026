@@ -1,6 +1,35 @@
 {
- "generated_at": "2026-10-23",
+ "generated_at": "2026-10-24",
  "state_polls": [
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Igape",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://jornaldebrasilia.com.br/brasilia/igape-celina-chega-a-61-dos-votos-validos-contra-39-de-grass-na-reta-final-no-df/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.0,
+   "undecided": 12.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 53.7,
+     "pct_valid": 61.0227
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 34.3,
+     "pct_valid": 38.9773
+    }
+   ]
+  },
   {
    "uf": "DF",
    "estado": "Distrito Federal",
@@ -14,7 +43,7 @@
    "sum_cands": 91.0,
    "undecided": 9.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -31,6 +60,64 @@
    ]
   },
   {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "DATA CONTROL INSTITUTO DE PESQUISA",
+   "date": "22/10/2026",
+   "source": "Plano Político",
+   "url": "https://ac24horas.com/2026/10/23/pesquisa-data-control-mostra-mailza-com-6705-e-alan-rick-com-3295-dos-votos-validos/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 91.71000000000001,
+   "undecided": 8.29,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 61.49,
+     "pct_valid": 67.0483
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 30.22,
+     "pct_valid": 32.9517
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "DataTrends",
+   "date": "21/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.edmarlyra.com/pesquisa-datatrends-mantem-allyson-bezerra-com-52-e-cadu-de-lula-com-48-dos-votos-validos-no-rio-grande-do-norte/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 48.0,
+     "pct_valid": 51.6129
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 45.0,
+     "pct_valid": 48.3871
+    }
+   ]
+  },
+  {
    "uf": "RN",
    "estado": "Rio Grande do Norte",
    "cargo": "Governo",
@@ -43,7 +130,7 @@
    "sum_cands": 89.44999999999999,
    "undecided": 10.559999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -56,6 +143,35 @@
      "party": "PT",
      "pct": 43.37,
      "pct_valid": 48.4852
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "QUALITTA EMPREENDIMENTOS",
+   "date": "20/10/2026",
+   "source": "Plano Político",
+   "url": "https://portalgazetarn.com/pesquisa-qualitta-rn-hoje-aponta-allyson-bezerra-com-549-dos-votos-validos-no-2o-turno-no-rn/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 50.5,
+     "pct_valid": 54.8913
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 41.5,
+     "pct_valid": 45.1087
     }
    ]
   },
@@ -147,6 +263,35 @@
    ]
   },
   {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "DATA PLUS PESQUISA E CONSULTORIA",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://blogdobarreto.com.br/pesquisa-mensury-traz-cadu-em-vantagem-sobre-allyson/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.94,
+   "undecided": 14.07,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 44.27,
+     "pct_valid": 51.5127
+    },
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 41.67,
+     "pct_valid": 48.4873
+    }
+   ]
+  },
+  {
    "uf": "ES",
    "estado": "Espírito Santo",
    "cargo": "Governo",
@@ -176,6 +321,35 @@
    ]
   },
   {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://exame.com/brasil/parana-pesquisas-pazolini-tem-524-e-ferraco-398-no-2o-turno-no-espirito-santo/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.19999999999999,
+   "undecided": 7.800000000000001,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 52.4,
+     "pct_valid": 56.833
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 39.8,
+     "pct_valid": 43.167
+    }
+   ]
+  },
+  {
    "uf": "DF",
    "estado": "Distrito Federal",
    "cargo": "Governo",
@@ -201,6 +375,35 @@
      "party": "PT",
      "pct": 37.0,
      "pct_valid": 41.1111
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Opinião",
+   "date": "19/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.correiobraziliense.com.br/cidades-df/2026/10/7525016-pesquisa-correio-opiniao-indica-celina-com-593-dos-votos-validos-e-grass-com-407.html",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.1,
+   "undecided": 7.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 54.6,
+     "pct_valid": 59.2834
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 37.5,
+     "pct_valid": 40.7166
     }
    ]
   },
@@ -16804,35 +17007,6 @@
    ]
   },
   {
-   "uf": "DF",
-   "estado": "Distrito Federal",
-   "cargo": "Governo",
-   "pollster": "Quaest",
-   "date": "22/09/2026",
-   "source": "Plano Político",
-   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/09/23/quaest-df-governador-23-setembro.ghtml",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 78.0,
-   "undecided": 22.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Celina Leão",
-     "party": "PP",
-     "pct": 48.0,
-     "pct_valid": 61.5385
-    },
-    {
-     "name": "Leandro Grass",
-     "party": "PT",
-     "pct": 30.0,
-     "pct_valid": 38.4615
-    }
-   ]
-  },
-  {
    "uf": "CE",
    "estado": "Ceará",
    "cargo": "Governo",
@@ -18588,35 +18762,6 @@
      "party": "PSDB",
      "pct": 15.0,
      "pct_valid": 16.129
-    }
-   ]
-  },
-  {
-   "uf": "AC",
-   "estado": "Acre",
-   "cargo": "Governo",
-   "pollster": "Real Time Big Data",
-   "date": "19/09/2026",
-   "source": "Plano Político",
-   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-governador-senado-acre-setembro-2026/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 87.0,
-   "undecided": 13.0,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Mailza Assis",
-     "party": "PP",
-     "pct": 45.0,
-     "pct_valid": 51.7241
-    },
-    {
-     "name": "Alan Rick",
-     "party": "Republicanos",
-     "pct": 42.0,
-     "pct_valid": 48.2759
     }
    ]
   },
