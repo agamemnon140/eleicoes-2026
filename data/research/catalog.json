@@ -1455,6 +1455,39 @@
    "date": "24/08/2026"
   },
   {
+   "id": "03d3d765e0b76638c0d5",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-08658/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1807,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Distrito-Federal-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 54.8,
+    "Leandro Grass": 39.8,
+    "Indecisos": 5.4
+   },
+   "sum_cands": 94.6,
+   "undecided": 5.4,
+   "valid_shares": {
+    "Celina Leão": 57.9281,
+    "Leandro Grass": 42.0719
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "03dd52655db7517ddbb4",
    "uf": "BA",
    "cargo": "Governo",
@@ -5167,6 +5200,39 @@
    "date": "05/09/2026"
   },
   {
+   "id": "0b2093279b55ad05ae17",
+   "uf": "AM",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "maria do carmo|omar aziz",
+   "registro": "AM-09640/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1825,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Amazonas-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Omar Aziz": 55.4,
+    "Maria do Carmo": 42.1,
+    "Indecisos": 2.5
+   },
+   "sum_cands": 97.5,
+   "undecided": 2.5,
+   "valid_shares": {
+    "Omar Aziz": 56.8205,
+    "Maria do Carmo": 43.1795
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "0b2d4fc1ef80b600cce4",
    "uf": "PI",
    "cargo": "Senado",
@@ -5507,6 +5573,39 @@
    "eligible": true,
    "issues": [],
    "date": "03/10/2026"
+  },
+  {
+   "id": "0ba38a5cb0b32ed59932",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09540/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 4050,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/datafolha-presidente-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.0,
+    "Flávio Bolsonaro": 48.0,
+    "Indecisos": 5.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 5.0,
+   "valid_shares": {
+    "Lula": 49.4737,
+    "Flávio Bolsonaro": 50.5263
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "0bb07868654e483c1433",
@@ -6022,6 +6121,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "06/09/2026"
+  },
+  {
+   "id": "0cc25d9d277246600499",
+   "uf": "ES",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "lorenzo pazolini|ricardo ferraco",
+   "registro": "ES-06620/2026",
+   "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
+   "field_start": "2026-10-14",
+   "field_end": "2026-10-17",
+   "published_at": "2026-10-18",
+   "sample_size": 1500,
+   "method": "Presencial",
+   "url": "https://serranoticiario.com.br/pesquisa-perfil-aponta-pazolini-com-vantagem-de-8-no-2o-turno-no-es/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lorenzo Pazolini": 46.74,
+    "Ricardo Ferraço": 39.15,
+    "Indecisos": 12.879999999999999
+   },
+   "sum_cands": 85.89,
+   "undecided": 12.879999999999999,
+   "valid_shares": {
+    "Lorenzo Pazolini": 54.4184,
+    "Ricardo Ferraço": 45.5816
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "17/10/2026"
   },
   {
    "id": "0cd94e915dc86e9e5253",
@@ -8733,6 +8865,39 @@
    ],
    "date": "28/09/2026",
    "withdrawn": true
+  },
+  {
+   "id": "1253cd90cd2942caddee",
+   "uf": "AM",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "maria do carmo|omar aziz",
+   "registro": "AM-04125/2026",
+   "pollster": "PROJETA PESQUISA DE MERCADO OPNIAO PUBLICA",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-23",
+   "sample_size": 1200,
+   "method": "Presencial",
+   "url": "https://radaramazonico.com.br/mais-uma-pesquisa-aponta-omar-aziz-na-frente-com-5740-contra-4260-de-maria-do-carmo/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Omar Aziz": 52.78,
+    "Maria do Carmo": 39.17,
+    "Indecisos": 8.05
+   },
+   "sum_cands": 91.95,
+   "undecided": 8.05,
+   "valid_shares": {
+    "Omar Aziz": 57.4008,
+    "Maria do Carmo": 42.5992
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
   },
   {
    "id": "125faca1353bb95a2f9a",
@@ -14963,6 +15128,39 @@
    "date": "07/07/2026"
   },
   {
+   "id": "1dc35d189d6f125fd591",
+   "uf": "ES",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "lorenzo pazolini|ricardo ferraco",
+   "registro": "ES-04365/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/10/24/quaest-espirito-santo-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lorenzo Pazolini": 45.0,
+    "Ricardo Ferraço": 41.0,
+    "Indecisos": 14.0
+   },
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "valid_shares": {
+    "Lorenzo Pazolini": 52.3256,
+    "Ricardo Ferraço": 47.6744
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "1dd3e0891a681a97f038",
    "uf": "PB",
    "cargo": "Governo",
@@ -15192,6 +15390,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "26/09/2026"
+  },
+  {
+   "id": "1dfc1f5c8ee34e7a7c4c",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-06380/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-508-dos-votos-validos-e-lula-492-diz-atlasintel/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 48.4,
+    "Flávio Bolsonaro": 49.9,
+    "Indecisos": 1.7
+   },
+   "sum_cands": 98.3,
+   "undecided": 1.7,
+   "valid_shares": {
+    "Lula": 49.237,
+    "Flávio Bolsonaro": 50.763
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "1dfc75f7545d348b6fb6",
@@ -17392,6 +17623,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "21/09/2026"
+  },
+  {
+   "id": "2202bb4278272cb9c018",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-03453/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 1620,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/datafolha-df-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 54.0,
+    "Leandro Grass": 38.0,
+    "Indecisos": 8.0
+   },
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "valid_shares": {
+    "Celina Leão": 58.6957,
+    "Leandro Grass": 41.3043
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "2217460ce19307303878",
@@ -20492,6 +20756,39 @@
    ],
    "date": "21/08/2026",
    "withdrawn": true
+  },
+  {
+   "id": "27c54df65bae7cea9756",
+   "uf": "AM",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-04062/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1800,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Amazonas-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 52.7,
+    "Flávio Bolsonaro": 45.9,
+    "Indecisos": 1.4
+   },
+   "sum_cands": 98.6,
+   "undecided": 1.4,
+   "valid_shares": {
+    "Lula": 53.4483,
+    "Flávio Bolsonaro": 46.5517
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "27d8dfadc2bccdceb6c1",
@@ -33213,6 +33510,39 @@
    "date": "17/08/2026"
   },
   {
+   "id": "42911d138b05ad05df61",
+   "uf": "AC",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "alan rick|mailza assis",
+   "registro": "AC-02344/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/ac/acre/eleicoes/2026/noticia/2026/10/24/quaest-ac-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Mailza Assis": 51.0,
+    "Alan Rick": 30.0,
+    "Indecisos": 19.0
+   },
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "valid_shares": {
+    "Mailza Assis": 62.963,
+    "Alan Rick": 37.037
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "429cda738e85f7cb0669",
    "uf": "MG",
    "cargo": "Governo",
@@ -42990,6 +43320,39 @@
    "date": "26/08/2026"
   },
   {
+   "id": "565fc6917090b1fa0b51",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-02968/2026",
+   "pollster": "Paraná Pesquisas",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1500,
+   "method": "Misto",
+   "url": "https://paranapesquisas.com.br/wp-content/uploads/2026/10/TO_Out26-2-1.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Vicentinho Junior": 55.5,
+    "Professora Dorinha": 38.5,
+    "Indecisos": 5.9
+   },
+   "sum_cands": 94.0,
+   "undecided": 5.9,
+   "valid_shares": {
+    "Vicentinho Junior": 59.0426,
+    "Professora Dorinha": 40.9574
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "56655c73c56c54a6a4a8",
    "uf": "PE",
    "cargo": "Governo",
@@ -43357,6 +43720,39 @@
    "eligible": true,
    "issues": [],
    "date": "14/10/2026"
+  },
+  {
+   "id": "5736ea8ac6e570376317",
+   "uf": "ES",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00339/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1800,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Espirito-Santo-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 40.7,
+    "Flávio Bolsonaro": 57.5,
+    "Indecisos": 1.8
+   },
+   "sum_cands": 98.2,
+   "undecided": 1.8,
+   "valid_shares": {
+    "Lula": 41.446,
+    "Flávio Bolsonaro": 58.554
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "573ba0ad8e987e65fcc9",
@@ -44699,6 +45095,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "27/09/2026"
+  },
+  {
+   "id": "597dc434a6bf9ba16f19",
+   "uf": "ES",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "lorenzo pazolini|ricardo ferraco",
+   "registro": "ES-05872/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1865,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Espirito-Santo-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lorenzo Pazolini": 49.8,
+    "Ricardo Ferraço": 47.4,
+    "Indecisos": 2.8
+   },
+   "sum_cands": 97.19999999999999,
+   "undecided": 2.8,
+   "valid_shares": {
+    "Lorenzo Pazolini": 51.2346,
+    "Ricardo Ferraço": 48.7654
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "599b06ed4162e2045c37",
@@ -47128,6 +47557,39 @@
    "eligible": true,
    "issues": [],
    "date": "02/10/2026"
+  },
+  {
+   "id": "5dd2a62a93520c07b2b4",
+   "uf": "TO",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08848/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1800,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Tocantins-T2-2026-261024.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.1,
+    "Flávio Bolsonaro": 51.9,
+    "Indecisos": 1.0
+   },
+   "sum_cands": 99.0,
+   "undecided": 1.0,
+   "valid_shares": {
+    "Lula": 47.5758,
+    "Flávio Bolsonaro": 52.4242
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "5dd5adaea29d924277cd",
@@ -50807,6 +51269,39 @@
    "date": "03/10/2026"
   },
   {
+   "id": "65bf49f7a669d76baef5",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09327/2026",
+   "pollster": "Gerp",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-22",
+   "sample_size": 2400,
+   "method": "Telefone",
+   "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-52-dos-votos-validos-contra-48-de-lula-diz-gerp/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 49.0,
+    "Indecisos": 4.0
+   },
+   "sum_cands": 95.0,
+   "undecided": 4.0,
+   "valid_shares": {
+    "Lula": 48.4211,
+    "Flávio Bolsonaro": 51.5789
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "65cb7bb8c4082581e055",
    "uf": "BA",
    "cargo": "Governo",
@@ -53385,6 +53880,39 @@
    "eligible": true,
    "issues": [],
    "date": "21/10/2026"
+  },
+  {
+   "id": "6b790e11baddc5a0b3cf",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-08234/2026",
+   "pollster": "Nexus",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-outubro-2026-vespera-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 46.0,
+    "Flávio Bolsonaro": 47.0,
+    "Indecisos": 7.0
+   },
+   "sum_cands": 93.0,
+   "undecided": 7.0,
+   "valid_shares": {
+    "Lula": 49.4624,
+    "Flávio Bolsonaro": 50.5376
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "6b85b8194077c45cc163",
@@ -59644,6 +60172,39 @@
    "date": "20/08/2026"
   },
   {
+   "id": "78257eff64fa23e29396",
+   "uf": "AC",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09499/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1200,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Acre-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 32.4,
+    "Flávio Bolsonaro": 63.3,
+    "Indecisos": 4.3
+   },
+   "sum_cands": 95.69999999999999,
+   "undecided": 4.3,
+   "valid_shares": {
+    "Lula": 33.8558,
+    "Flávio Bolsonaro": 66.1442
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "7825e7ce1e5d9c1f49a9",
    "uf": "RN",
    "cargo": "Senado",
@@ -60734,6 +61295,39 @@
    "eligible": true,
    "issues": [],
    "date": "01/09/2026"
+  },
+  {
+   "id": "79ab8e933be81308563a",
+   "uf": "DF",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-03112/2026",
+   "pollster": "Datafolha",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 1620,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/datafolha-df-presidente-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 41.0,
+    "Flávio Bolsonaro": 53.0,
+    "Indecisos": 5.0
+   },
+   "sum_cands": 94.0,
+   "undecided": 5.0,
+   "valid_shares": {
+    "Lula": 43.617,
+    "Flávio Bolsonaro": 56.383
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "7a051c86c69dd185e018",
@@ -64944,6 +65538,39 @@
    "date": "24/09/2026"
   },
   {
+   "id": "837f152a77531dfdafb6",
+   "uf": "DF",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "celina leao|leandro grass",
+   "registro": "DF-00368/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2652,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/quaest-df-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Celina Leão": 50.0,
+    "Leandro Grass": 35.0,
+    "Indecisos": 15.0
+   },
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "valid_shares": {
+    "Celina Leão": 58.8235,
+    "Leandro Grass": 41.1765
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "8386e1ac7594337cfaf5",
    "uf": "SE",
    "cargo": "Senado",
@@ -65021,6 +65648,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "09/09/2026"
+  },
+  {
+   "id": "839e8602b69ecc2e9b6a",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-01794/2026",
+   "pollster": "PALVER",
+   "field_start": "2026-10-22",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 5000,
+   "method": "Internet",
+   "url": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 49.0,
+    "Flávio Bolsonaro": 50.0,
+    "Indecisos": 1.0
+   },
+   "sum_cands": 99.0,
+   "undecided": 1.0,
+   "valid_shares": {
+    "Lula": 49.4949,
+    "Flávio Bolsonaro": 50.5051
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "83a6ef4a44b23c057fd2",
@@ -67515,6 +68175,39 @@
     "Soma incompatível com percentual dos entrevistados"
    ],
    "date": "11/09/2026"
+  },
+  {
+   "id": "88e8e997645a4d6b4daa",
+   "uf": "DF",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-00957/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1800,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Distrito-Federal-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 42.1,
+    "Flávio Bolsonaro": 55.7,
+    "Indecisos": 2.2
+   },
+   "sum_cands": 97.80000000000001,
+   "undecided": 2.2,
+   "valid_shares": {
+    "Lula": 43.047,
+    "Flávio Bolsonaro": 56.953
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "8908997422c440b747b5",
@@ -70316,6 +71009,39 @@
    "eligible": true,
    "issues": [],
    "date": "03/07/2026"
+  },
+  {
+   "id": "8da13f2f8a444c5374e2",
+   "uf": "AC",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "alan rick|mailza assis",
+   "registro": "AC-07723/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1191,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Acre-2T-2026-261003.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Mailza Assis": 53.3,
+    "Alan Rick": 34.9,
+    "Indecisos": 11.8
+   },
+   "sum_cands": 88.19999999999999,
+   "undecided": 11.8,
+   "valid_shares": {
+    "Mailza Assis": 60.4308,
+    "Alan Rick": 39.5692
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "8daec632e100baaa56cb",
@@ -74305,6 +75031,39 @@
    "date": "27/07/2026"
   },
   {
+   "id": "95e95ed6586c7464e8d7",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09158/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 3702,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/24/quaest-2o-turno-votos-validos.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 45.0,
+    "Flávio Bolsonaro": 46.0,
+    "Indecisos": 9.0
+   },
+   "sum_cands": 91.0,
+   "undecided": 9.0,
+   "valid_shares": {
+    "Lula": 49.4505,
+    "Flávio Bolsonaro": 50.5495
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "9611b016ff17d5ac160c",
    "uf": "SP",
    "cargo": "Senado",
@@ -76659,6 +77418,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "26/09/2026"
+  },
+  {
+   "id": "998c6c995edcc73ea3e0",
+   "uf": "BR",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-09726/2026",
+   "pollster": "Futura",
+   "field_start": "2026-10-21",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2000,
+   "method": "Telefone",
+   "url": "https://www.futurainteligencia.com.br/pesquisas",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 47.9,
+    "Flávio Bolsonaro": 48.2,
+    "Indecisos": 3.9
+   },
+   "sum_cands": 96.1,
+   "undecided": 3.9,
+   "valid_shares": {
+    "Lula": 49.8439,
+    "Flávio Bolsonaro": 50.1561
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "99a676795ed99d3e1db1",
@@ -87570,6 +88362,39 @@
    "date": "08/03/2026"
   },
   {
+   "id": "afc1123c8658a06a6821",
+   "uf": "RN",
+   "cargo": "Presidente",
+   "scenario": "2º turno",
+   "scenario_key": "flavio bolsonaro|lula",
+   "registro": "BR-05581/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1800,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Rio-Grande-do-Norte-2T-2026-261024.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/presidente/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Lula": 61.7,
+    "Flávio Bolsonaro": 36.2,
+    "Indecisos": 2.2
+   },
+   "sum_cands": 97.9,
+   "undecided": 2.2,
+   "valid_shares": {
+    "Lula": 63.0235,
+    "Flávio Bolsonaro": 36.9765
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "afd3a86b3721ff93a5f9",
    "uf": "SP",
    "cargo": "Governo",
@@ -96226,6 +97051,39 @@
    "date": "02/10/2026"
   },
   {
+   "id": "c16195f4d6502820ec7f",
+   "uf": "AM",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "maria do carmo|omar aziz",
+   "registro": "AM-09902/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/am/amazonas/eleicoes/2026/noticia/2026/10/24/quaest-amazonas-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Omar Aziz": 55.0,
+    "Maria do Carmo": 34.0,
+    "Indecisos": 11.0
+   },
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "valid_shares": {
+    "Omar Aziz": 61.7978,
+    "Maria do Carmo": 38.2022
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
+  },
+  {
    "id": "c1727f050d5f357c61d1",
    "uf": "RN",
    "cargo": "Senado",
@@ -98967,6 +99825,39 @@
    "date": "07/09/2026"
   },
   {
+   "id": "c66f23a85caa787f693a",
+   "uf": "AM",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "maria do carmo|omar aziz",
+   "registro": "AM-09364/2026",
+   "pollster": "PONTUAL PESQUISAS",
+   "field_start": "2026-10-16",
+   "field_end": "2026-10-22",
+   "published_at": "2026-10-24",
+   "sample_size": 2000,
+   "method": "Presencial",
+   "url": "https://emtempo.com.br/610705/politica/pesquisa-pontual-omar-aziz-lidera-amazonas-segundo-turno/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Omar Aziz": 60.6,
+    "Maria do Carmo": 39.4,
+    "Indecisos": null
+   },
+   "sum_cands": 100.0,
+   "undecided": 0,
+   "valid_shares": {
+    "Omar Aziz": 60.6,
+    "Maria do Carmo": 39.4
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "22/10/2026"
+  },
+  {
    "id": "c67c8531b27c1972aaae",
    "uf": "AM",
    "cargo": "Senado",
@@ -101022,6 +101913,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "26/09/2026"
+  },
+  {
+   "id": "cb1d04b956365fb74200",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-07127/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1780,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Rio-Grande-do-Norte-2T-2026-261024.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Cadu Xavier": 49.0,
+    "Allyson Bezerra": 47.0,
+    "Indecisos": 4.0
+   },
+   "sum_cands": 96.0,
+   "undecided": 4.0,
+   "valid_shares": {
+    "Cadu Xavier": 51.0417,
+    "Allyson Bezerra": 48.9583
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
   },
   {
    "id": "cb31d8895b33abef48cc",
@@ -106741,6 +107665,72 @@
    "eligible": true,
    "issues": [],
    "date": "14/09/2026"
+  },
+  {
+   "id": "d86909f586f33b16d8b9",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-07104/2026",
+   "pollster": "MEDIA - INTELIGENCIA EM PESQUISA",
+   "field_start": "2026-10-19",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1050,
+   "method": "Presencial",
+   "url": "https://www.blogdobg.com.br/pesquisa-media-o-potengi-governo-rn-cadu-de-lula-tem-507-dos-votos-validos-contra-493-de-allyson-bezerra/",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Cadu Xavier": 45.8,
+    "Allyson Bezerra": 44.6,
+    "Indecisos": 9.6
+   },
+   "sum_cands": 90.4,
+   "undecided": 9.6,
+   "valid_shares": {
+    "Cadu Xavier": 50.6637,
+    "Allyson Bezerra": 49.3363
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
+   "id": "d86b418cc0f551ef5214",
+   "uf": "RN",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "allyson bezerra|cadu xavier",
+   "registro": "RN-01264/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/24/quaest-rn-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Allyson Bezerra": 45.0,
+    "Cadu Xavier": 44.0,
+    "Indecisos": 11.0
+   },
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "valid_shares": {
+    "Allyson Bezerra": 50.5618,
+    "Cadu Xavier": 49.4382
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "d870c9ff0d16e6eeb56c",
@@ -120942,6 +121932,39 @@
    "date": "03/10/2026"
   },
   {
+   "id": "f4ff35a3e93d8c24567e",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-01088/2026",
+   "pollster": "AtlasIntel",
+   "field_start": "2026-10-18",
+   "field_end": "2026-10-23",
+   "published_at": "2026-10-24",
+   "sample_size": 1891,
+   "method": "Internet",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Tocantins-T2-2026-261024.pdf",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Vicentinho Junior": 53.6,
+    "Professora Dorinha": 36.5,
+    "Indecisos": 9.9
+   },
+   "sum_cands": 90.1,
+   "undecided": 9.9,
+   "valid_shares": {
+    "Vicentinho Junior": 59.4895,
+    "Professora Dorinha": 40.5105
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "23/10/2026"
+  },
+  {
    "id": "f51d72cc18b9a3cb4d59",
    "uf": "SC",
    "cargo": "Governo",
@@ -122652,6 +123675,39 @@
     "Soma dos votos válidos incompatível com 100%"
    ],
    "date": "28/09/2026"
+  },
+  {
+   "id": "f8c9ee02967dba6a4889",
+   "uf": "TO",
+   "cargo": "Governo",
+   "scenario": "2º turno",
+   "scenario_key": "professora dorinha|vicentinho junior",
+   "registro": "TO-03069/2026",
+   "pollster": "Quaest",
+   "field_start": "2026-10-23",
+   "field_end": "2026-10-24",
+   "published_at": "2026-10-24",
+   "sample_size": 2154,
+   "method": "Presencial",
+   "url": "https://g1.globo.com/to/tocantins/eleicoes/2026/noticia/2026/10/24/quaest-tocantins-governador-segundo-turno-24-outubro.ghtml",
+   "source": "Plano Político",
+   "source_url": "https://planopolitico.com.br/agregador/governadores/",
+   "base": "totais",
+   "vote_format": "voto único",
+   "shares": {
+    "Vicentinho Junior": 51.0,
+    "Professora Dorinha": 36.0,
+    "Indecisos": 13.0
+   },
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "valid_shares": {
+    "Vicentinho Junior": 58.6207,
+    "Professora Dorinha": 41.3793
+   },
+   "eligible": true,
+   "issues": [],
+   "date": "24/10/2026"
   },
   {
    "id": "f8d7bafe43fa5b25c461",
@@ -126117,31 +127173,31 @@
  "sources": {
   "presidente": {
    "status": "ok",
-   "checked_at": "2026-10-24",
+   "checked_at": "2026-10-25",
    "updated_at": "2026-10-24",
-   "count": 1005,
+   "count": 1019,
    "url": "https://planopolitico.com.br/agregador/presidente/"
   },
   "governadores": {
    "status": "ok",
-   "checked_at": "2026-10-24",
+   "checked_at": "2026-10-25",
    "updated_at": "2026-10-24",
-   "count": 1505,
+   "count": 1523,
    "url": "https://planopolitico.com.br/agregador/governadores/"
   },
   "senado": {
    "status": "ok",
-   "checked_at": "2026-10-24",
+   "checked_at": "2026-10-25",
    "updated_at": "2026-10-24",
    "count": 533,
    "url": "https://planopolitico.com.br/agregador/senado/"
   }
  },
  "version": "pesquisas-2",
- "checked_at": "2026-10-24",
+ "checked_at": "2026-10-25",
  "changes": {
-  "date": "2026-10-24",
-  "added": 12,
+  "date": "2026-10-25",
+  "added": 32,
   "revised": 0,
   "methodology": null,
   "note": "Novos registros e revisões da fonte, separados de mudanças de metodologia."
