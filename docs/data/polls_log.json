@@ -1,6 +1,354 @@
 {
- "generated_at": "2026-10-24",
+ "generated_at": "2026-10-25",
  "state_polls": [
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/to/tocantins/eleicoes/2026/noticia/2026/10/24/quaest-tocantins-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 87.0,
+   "undecided": 13.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 51.0,
+     "pct_valid": 58.6207
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 36.0,
+     "pct_valid": 41.3793
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/rn/rio-grande-do-norte/eleicoes/2026/noticia/2026/10/24/quaest-rn-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 89.0,
+   "undecided": 11.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 45.0,
+     "pct_valid": 50.5618
+    },
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 44.0,
+     "pct_valid": 49.4382
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/es/espirito-santo/eleicoes/2026/noticia/2026/10/24/quaest-espirito-santo-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 86.0,
+   "undecided": 14.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 45.0,
+     "pct_valid": 52.3256
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 41.0,
+     "pct_valid": 47.6744
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Datafolha",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/datafolha-df-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 92.0,
+   "undecided": 8.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 54.0,
+     "pct_valid": 58.6957
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 38.0,
+     "pct_valid": 41.3043
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/df/distrito-federal/eleicoes/2026/noticia/2026/10/24/quaest-df-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.0,
+   "undecided": 15.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 50.0,
+     "pct_valid": 58.8235
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 35.0,
+     "pct_valid": 41.1765
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "Quaest",
+   "date": "24/10/2026",
+   "source": "Plano Político",
+   "url": "https://g1.globo.com/ac/acre/eleicoes/2026/noticia/2026/10/24/quaest-ac-governador-segundo-turno-24-outubro.ghtml",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 81.0,
+   "undecided": 19.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 51.0,
+     "pct_valid": 62.963
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 30.0,
+     "pct_valid": 37.037
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "Paraná Pesquisas",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://paranapesquisas.com.br/wp-content/uploads/2026/10/TO_Out26-2-1.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 94.0,
+   "undecided": 5.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 55.5,
+     "pct_valid": 59.0426
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 38.5,
+     "pct_valid": 40.9574
+    }
+   ]
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Tocantins-T2-2026-261024.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.1,
+   "undecided": 9.9,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Vicentinho Júnior",
+     "party": "PSDB",
+     "pct": 53.6,
+     "pct_valid": 59.4895
+    },
+    {
+     "name": "Professora Dorinha",
+     "party": "União",
+     "pct": 36.5,
+     "pct_valid": 40.5105
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Rio-Grande-do-Norte-2T-2026-261024.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 96.0,
+   "undecided": 4.0,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 49.0,
+     "pct_valid": 51.0417
+    },
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 47.0,
+     "pct_valid": 48.9583
+    }
+   ]
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "cargo": "Governo",
+   "pollster": "MEDIA - INTELIGENCIA EM PESQUISA",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://www.blogdobg.com.br/pesquisa-media-o-potengi-governo-rn-cadu-de-lula-tem-507-dos-votos-validos-contra-493-de-allyson-bezerra/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 90.4,
+   "undecided": 9.6,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Cadu Xavier",
+     "party": "PT",
+     "pct": 45.8,
+     "pct_valid": 50.6637
+    },
+    {
+     "name": "Allyson Bezerra",
+     "party": "União",
+     "pct": 44.6,
+     "pct_valid": 49.3363
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Espirito-Santo-2T-2026-261003.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 97.19999999999999,
+   "undecided": 2.8,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 49.8,
+     "pct_valid": 51.2346
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 47.4,
+     "pct_valid": 48.7654
+    }
+   ]
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Distrito-Federal-2T-2026-261003.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 94.6,
+   "undecided": 5.4,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Celina Leão",
+     "party": "PP",
+     "pct": 54.8,
+     "pct_valid": 57.9281
+    },
+    {
+     "name": "Leandro Grass",
+     "party": "PT",
+     "pct": 39.8,
+     "pct_valid": 42.0719
+    }
+   ]
+  },
   {
    "uf": "DF",
    "estado": "Distrito Federal",
@@ -14,7 +362,7 @@
    "sum_cands": 88.0,
    "undecided": 12.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -27,6 +375,35 @@
      "party": "PT",
      "pct": 34.3,
      "pct_valid": 38.9773
+    }
+   ]
+  },
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "cargo": "Governo",
+   "pollster": "AtlasIntel",
+   "date": "23/10/2026",
+   "source": "Plano Político",
+   "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas-Eleicoes-Acre-2T-2026-261003.pdf",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 88.19999999999999,
+   "undecided": 11.8,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Mailza Assis",
+     "party": "PP",
+     "pct": 53.3,
+     "pct_valid": 60.4308
+    },
+    {
+     "name": "Alan Rick",
+     "party": "Republicanos",
+     "pct": 34.9,
+     "pct_valid": 39.5692
     }
    ]
   },
@@ -72,7 +449,7 @@
    "sum_cands": 91.71000000000001,
    "undecided": 8.29,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -101,7 +478,7 @@
    "sum_cands": 93.0,
    "undecided": 7.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -159,7 +536,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -275,7 +652,7 @@
    "sum_cands": 85.94,
    "undecided": 14.07,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -333,7 +710,7 @@
    "sum_cands": 92.19999999999999,
    "undecided": 7.800000000000001,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -391,7 +768,7 @@
    "sum_cands": 92.1,
    "undecided": 7.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -491,6 +868,35 @@
      "party": "União",
      "pct": 40.4,
      "pct_valid": 43.4876
+    }
+   ]
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "cargo": "Governo",
+   "pollster": "INSTITUTO DE PESQUISAS PERFIL LTDA",
+   "date": "17/10/2026",
+   "source": "Plano Político",
+   "url": "https://serranoticiario.com.br/pesquisa-perfil-aponta-pazolini-com-vantagem-de-8-no-2o-turno-no-es/",
+   "scenario": "2º turno",
+   "base": "totais",
+   "sum_cands": 85.89,
+   "undecided": 12.879999999999999,
+   "votos": 1,
+   "is_new": true,
+   "readings": [
+    {
+     "name": "Lorenzo Pazolini",
+     "party": "Republicanos",
+     "pct": 46.74,
+     "pct_valid": 54.4184
+    },
+    {
+     "name": "Ricardo Ferraço",
+     "party": "MDB",
+     "pct": 39.15,
+     "pct_valid": 45.5816
     }
    ]
   },
@@ -15204,35 +15610,6 @@
      "party": "PL",
      "pct": 20.6,
      "pct_valid": 23.4437
-    }
-   ]
-  },
-  {
-   "uf": "RN",
-   "estado": "Rio Grande do Norte",
-   "cargo": "Governo",
-   "pollster": "METADATA",
-   "date": "23/09/2026",
-   "source": "Plano Político",
-   "url": "https://98fmnatal.com.br/metadata/cadu-fica-a-frente-de-alvaro-em-eventual-2o-turno-no-rn-allyson-supera-os-dois/393897/",
-   "scenario": "2º turno",
-   "base": "totais",
-   "sum_cands": 86.07,
-   "undecided": 13.93,
-   "votos": 1,
-   "is_new": false,
-   "readings": [
-    {
-     "name": "Allyson Bezerra",
-     "party": "União",
-     "pct": 55.4,
-     "pct_valid": 64.3662
-    },
-    {
-     "name": "Cadu Xavier",
-     "party": "PT",
-     "pct": 30.67,
-     "pct_valid": 35.6338
     }
    ]
   },
