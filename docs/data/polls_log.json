@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25",
+ "generated_at": "2026-10-26",
  "state_polls": [
   {
    "uf": "TO",
@@ -14,7 +14,7 @@
    "sum_cands": 87.0,
    "undecided": 13.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -43,7 +43,7 @@
    "sum_cands": 89.0,
    "undecided": 11.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Allyson Bezerra",
@@ -72,7 +72,7 @@
    "sum_cands": 86.0,
    "undecided": 14.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -101,7 +101,7 @@
    "sum_cands": 92.0,
    "undecided": 8.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -130,7 +130,7 @@
    "sum_cands": 85.0,
    "undecided": 15.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -159,7 +159,7 @@
    "sum_cands": 81.0,
    "undecided": 19.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -188,7 +188,7 @@
    "sum_cands": 94.0,
    "undecided": 5.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -217,7 +217,7 @@
    "sum_cands": 90.1,
    "undecided": 9.9,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Vicentinho Júnior",
@@ -246,7 +246,7 @@
    "sum_cands": 96.0,
    "undecided": 4.0,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -275,7 +275,7 @@
    "sum_cands": 90.4,
    "undecided": 9.6,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Cadu Xavier",
@@ -304,7 +304,7 @@
    "sum_cands": 97.19999999999999,
    "undecided": 2.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
@@ -333,7 +333,7 @@
    "sum_cands": 94.6,
    "undecided": 5.4,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Celina Leão",
@@ -391,7 +391,7 @@
    "sum_cands": 88.19999999999999,
    "undecided": 11.8,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Mailza Assis",
@@ -884,7 +884,7 @@
    "sum_cands": 85.89,
    "undecided": 12.879999999999999,
    "votos": 1,
-   "is_new": true,
+   "is_new": false,
    "readings": [
     {
      "name": "Lorenzo Pazolini",
