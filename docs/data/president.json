@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31",
+ "generated_at": "2026-11-01",
  "polls_date": "2026-10-24",
  "available": true,
  "national": {
@@ -285,23 +285,19 @@
    "trends": {
     "7": {
      "Augusto Cury": {
-      "delta": -0.4,
+      "delta": -0.3,
       "institutes": 5
      },
      "Flávio Bolsonaro": {
-      "delta": 0.9,
+      "delta": 1.0,
       "institutes": 5
      },
      "Lula": {
-      "delta": 0.3,
+      "delta": 0.2,
       "institutes": 5
      },
-     "Outros": {
-      "delta": 0.2,
-      "institutes": 4
-     },
      "Renan Santos": {
-      "delta": -0.3,
+      "delta": -0.2,
       "institutes": 5
      },
      "Romeu Zema": {
@@ -309,8 +305,12 @@
       "institutes": 5
      },
      "Ronaldo Caiado": {
-      "delta": -0.3,
+      "delta": -0.0,
       "institutes": 5
+     },
+     "Outros": {
+      "delta": 0.0,
+      "institutes": 3
      }
     },
     "14": {
@@ -326,48 +326,48 @@
       "delta": 0.5,
       "institutes": 6
      },
-     "Outros": {
-      "delta": -0.2,
-      "institutes": 5
-     },
      "Renan Santos": {
-      "delta": -0.3,
+      "delta": -0.2,
       "institutes": 6
      },
      "Romeu Zema": {
-      "delta": -0.4,
+      "delta": -0.5,
       "institutes": 6
      },
      "Ronaldo Caiado": {
-      "delta": -0.3,
+      "delta": -0.2,
       "institutes": 6
+     },
+     "Outros": {
+      "delta": -0.2,
+      "institutes": 4
      }
     }
    },
    "history": [
     {
-     "date": "2026-09-01",
+     "date": "2026-09-02",
      "shares": {
-      "Augusto Cury": 4.8,
-      "Flávio Bolsonaro": 36.8,
-      "Lula": 43.6,
+      "Augusto Cury": 5.5,
+      "Flávio Bolsonaro": 36.7,
+      "Lula": 43.8,
       "Outros": 3.1,
-      "Renan Santos": 5.2,
-      "Romeu Zema": 2.2,
-      "Ronaldo Caiado": 4.6
+      "Renan Santos": 5.1,
+      "Romeu Zema": 2.1,
+      "Ronaldo Caiado": 4.3
      },
      "intervals": {
       "Augusto Cury": [
-       2.6,
-       7.0
+       2.9,
+       7.6
       ],
       "Flávio Bolsonaro": [
        34.9,
-       38.7
+       38.4
       ],
       "Lula": [
-       42.5,
-       44.9
+       42.6,
+       45.0
       ],
       "Outros": [
        2.3,
@@ -375,20 +375,20 @@
       ],
       "Renan Santos": [
        4.2,
-       6.2
+       6.1
       ],
       "Romeu Zema": [
        1.7,
        2.5
       ],
       "Ronaldo Caiado": [
-       4.1,
-       5.1
+       3.8,
+       5.0
       ]
      }
     },
     {
-     "date": "2026-09-04",
+     "date": "2026-09-05",
      "shares": {
       "Augusto Cury": 7.1,
       "Flávio Bolsonaro": 36.6,
@@ -430,49 +430,49 @@
      }
     },
     {
-     "date": "2026-09-07",
+     "date": "2026-09-08",
      "shares": {
-      "Augusto Cury": 7.2,
-      "Flávio Bolsonaro": 36.5,
-      "Lula": 43.1,
-      "Outros": 3.4,
+      "Augusto Cury": 7.3,
+      "Flávio Bolsonaro": 36.9,
+      "Lula": 42.6,
+      "Outros": 3.2,
       "Renan Santos": 4.5,
-      "Romeu Zema": 2.0,
-      "Ronaldo Caiado": 4.1
+      "Romeu Zema": 1.9,
+      "Ronaldo Caiado": 4.2
      },
      "intervals": {
       "Augusto Cury": [
-       4.9,
+       5.5,
        8.6
       ],
       "Flávio Bolsonaro": [
-       35.0,
-       38.1
+       35.2,
+       38.7
       ],
       "Lula": [
-       42.1,
-       44.1
+       41.7,
+       43.6
       ],
       "Outros": [
        2.3,
-       4.5
+       4.3
       ],
       "Renan Santos": [
-       3.7,
-       5.6
+       3.8,
+       5.5
       ],
       "Romeu Zema": [
-       1.6,
-       2.2
+       1.5,
+       2.1
       ],
       "Ronaldo Caiado": [
-       3.7,
-       4.6
+       3.8,
+       4.7
       ]
      }
     },
     {
-     "date": "2026-09-10",
+     "date": "2026-09-11",
      "shares": {
       "Augusto Cury": 7.2,
       "Flávio Bolsonaro": 37.7,
@@ -514,91 +514,49 @@
      }
     },
     {
-     "date": "2026-09-13",
+     "date": "2026-09-14",
      "shares": {
       "Augusto Cury": 7.3,
-      "Flávio Bolsonaro": 37.7,
-      "Lula": 42.0,
-      "Outros": 3.0,
-      "Renan Santos": 5.2,
-      "Romeu Zema": 1.6,
-      "Ronaldo Caiado": 3.6
-     },
-     "intervals": {
-      "Augusto Cury": [
-       6.0,
-       8.4
-      ],
-      "Flávio Bolsonaro": [
-       36.4,
-       39.0
-      ],
-      "Lula": [
-       41.0,
-       42.9
-      ],
-      "Outros": [
-       2.1,
-       4.0
-      ],
-      "Renan Santos": [
-       4.2,
-       6.5
-      ],
-      "Romeu Zema": [
-       1.4,
-       1.9
-      ],
-      "Ronaldo Caiado": [
-       2.9,
-       4.4
-      ]
-     }
-    },
-    {
-     "date": "2026-09-16",
-     "shares": {
-      "Augusto Cury": 7.4,
-      "Flávio Bolsonaro": 37.7,
-      "Lula": 42.8,
-      "Outros": 2.7,
-      "Renan Santos": 4.8,
-      "Romeu Zema": 1.4,
+      "Flávio Bolsonaro": 37.8,
+      "Lula": 42.1,
+      "Outros": 2.9,
+      "Renan Santos": 5.1,
+      "Romeu Zema": 1.5,
       "Ronaldo Caiado": 3.8
      },
      "intervals": {
       "Augusto Cury": [
-       6.4,
-       8.2
+       6.0,
+       8.3
       ],
       "Flávio Bolsonaro": [
-       36.7,
-       38.9
+       36.6,
+       39.0
       ],
       "Lula": [
-       41.6,
-       44.0
+       41.2,
+       42.9
       ],
       "Outros": [
-       1.8,
-       3.7
+       2.1,
+       3.9
       ],
       "Renan Santos": [
-       4.0,
-       6.0
+       4.1,
+       6.4
       ],
       "Romeu Zema": [
-       1.3,
-       1.6
+       1.4,
+       1.8
       ],
       "Ronaldo Caiado": [
-       3.3,
-       4.4
+       3.1,
+       4.5
       ]
      }
     },
     {
-     "date": "2026-09-19",
+     "date": "2026-09-17",
      "shares": {
       "Augusto Cury": 7.2,
       "Flávio Bolsonaro": 38.4,
@@ -640,23 +598,23 @@
      }
     },
     {
-     "date": "2026-09-22",
+     "date": "2026-09-20",
      "shares": {
-      "Augusto Cury": 7.2,
-      "Flávio Bolsonaro": 38.5,
+      "Augusto Cury": 7.3,
+      "Flávio Bolsonaro": 38.4,
       "Lula": 42.6,
-      "Outros": 2.4,
-      "Renan Santos": 4.4,
+      "Outros": 2.5,
+      "Renan Santos": 4.5,
       "Romeu Zema": 1.4,
-      "Ronaldo Caiado": 3.8
+      "Ronaldo Caiado": 3.7
      },
      "intervals": {
       "Augusto Cury": [
        6.5,
-       8.0
+       8.1
       ],
       "Flávio Bolsonaro": [
-       37.6,
+       37.4,
        39.6
       ],
       "Lula": [
@@ -664,25 +622,67 @@
        43.8
       ],
       "Outros": [
-       1.6,
+       1.7,
        3.4
       ],
       "Renan Santos": [
        3.7,
-       5.5
+       5.6
       ],
       "Romeu Zema": [
        1.2,
        1.6
       ],
       "Ronaldo Caiado": [
-       3.3,
-       4.4
+       3.2,
+       4.3
       ]
      }
     },
     {
-     "date": "2026-09-25",
+     "date": "2026-09-23",
+     "shares": {
+      "Augusto Cury": 7.3,
+      "Flávio Bolsonaro": 38.7,
+      "Lula": 42.7,
+      "Outros": 2.3,
+      "Renan Santos": 4.3,
+      "Romeu Zema": 1.3,
+      "Ronaldo Caiado": 3.7
+     },
+     "intervals": {
+      "Augusto Cury": [
+       6.4,
+       8.1
+      ],
+      "Flávio Bolsonaro": [
+       37.6,
+       39.8
+      ],
+      "Lula": [
+       41.6,
+       43.8
+      ],
+      "Outros": [
+       1.5,
+       3.2
+      ],
+      "Renan Santos": [
+       3.7,
+       5.4
+      ],
+      "Romeu Zema": [
+       1.2,
+       1.5
+      ],
+      "Ronaldo Caiado": [
+       3.2,
+       4.3
+      ]
+     }
+    },
+    {
+     "date": "2026-09-26",
      "shares": {
       "Augusto Cury": 6.7,
       "Flávio Bolsonaro": 39.2,
@@ -707,7 +707,7 @@
       ],
       "Outros": [
        1.4,
-       2.7
+       2.6
       ],
       "Renan Santos": [
        3.5,
@@ -724,52 +724,52 @@
      }
     },
     {
-     "date": "2026-09-28",
+     "date": "2026-09-29",
      "shares": {
-      "Augusto Cury": 6.5,
-      "Flávio Bolsonaro": 39.5,
-      "Lula": 43.2,
-      "Outros": 1.8,
-      "Renan Santos": 4.3,
+      "Augusto Cury": 6.2,
+      "Flávio Bolsonaro": 39.7,
+      "Lula": 43.4,
+      "Outros": 1.7,
+      "Renan Santos": 4.4,
       "Romeu Zema": 1.2,
-      "Ronaldo Caiado": 3.7
+      "Ronaldo Caiado": 3.6
      },
      "intervals": {
       "Augusto Cury": [
-       5.7,
-       7.2
+       5.2,
+       7.1
       ],
       "Flávio Bolsonaro": [
-       38.5,
-       40.4
+       38.7,
+       40.8
       ],
       "Lula": [
        42.4,
-       44.1
+       44.3
       ],
       "Outros": [
-       1.3,
-       2.6
+       1.2,
+       2.4
       ],
       "Renan Santos": [
        3.5,
-       5.1
+       5.2
       ],
       "Romeu Zema": [
        1.1,
        1.3
       ],
       "Ronaldo Caiado": [
-       3.1,
+       2.9,
        4.4
       ]
      }
     },
     {
-     "date": "2026-10-01",
+     "date": "2026-10-02",
      "shares": {
-      "Augusto Cury": 5.7,
-      "Flávio Bolsonaro": 40.2,
+      "Augusto Cury": 5.4,
+      "Flávio Bolsonaro": 40.5,
       "Lula": 43.6,
       "Outros": 1.6,
       "Renan Santos": 4.2,
@@ -778,37 +778,37 @@
      },
      "intervals": {
       "Augusto Cury": [
-       4.9,
-       6.5
+       4.8,
+       6.0
       ],
       "Flávio Bolsonaro": [
-       39.4,
-       41.1
+       39.7,
+       41.2
       ],
       "Lula": [
-       42.6,
-       44.4
+       42.8,
+       44.3
       ],
       "Outros": [
-       1.1,
-       2.3
+       1.2,
+       2.1
       ],
       "Renan Santos": [
        3.6,
-       5.0
+       4.7
       ],
       "Romeu Zema": [
        1.1,
-       1.6
+       1.5
       ],
       "Ronaldo Caiado": [
        3.1,
-       4.3
+       4.1
       ]
      }
     },
     {
-     "date": "2026-10-04",
+     "date": "2026-10-05",
      "shares": {
       "Augusto Cury": 4.9,
       "Flávio Bolsonaro": 41.3,
@@ -850,7 +850,7 @@
      }
     },
     {
-     "date": "2026-10-07",
+     "date": "2026-10-08",
      "shares": {
       "Augusto Cury": 4.9,
       "Flávio Bolsonaro": 41.3,
@@ -862,8 +862,8 @@
      },
      "intervals": {
       "Augusto Cury": [
-       4.4,
-       5.4
+       4.3,
+       5.3
       ],
       "Flávio Bolsonaro": [
        40.5,
@@ -874,8 +874,8 @@
        44.7
       ],
       "Outros": [
-       1.1,
-       1.8
+       1.0,
+       1.7
       ],
       "Renan Santos": [
        3.4,
@@ -883,7 +883,7 @@
       ],
       "Romeu Zema": [
        0.9,
-       1.3
+       1.4
       ],
       "Ronaldo Caiado": [
        3.1,
@@ -892,7 +892,7 @@
      }
     },
     {
-     "date": "2026-10-10",
+     "date": "2026-10-11",
      "shares": {
       "Augusto Cury": 4.7,
       "Flávio Bolsonaro": 41.5,
@@ -934,49 +934,7 @@
      }
     },
     {
-     "date": "2026-10-13",
-     "shares": {
-      "Augusto Cury": 4.7,
-      "Flávio Bolsonaro": 41.5,
-      "Lula": 44.2,
-      "Outros": 1.3,
-      "Renan Santos": 3.9,
-      "Romeu Zema": 1.1,
-      "Ronaldo Caiado": 3.6
-     },
-     "intervals": {
-      "Augusto Cury": [
-       4.1,
-       5.2
-      ],
-      "Flávio Bolsonaro": [
-       40.6,
-       42.4
-      ],
-      "Lula": [
-       43.4,
-       44.8
-      ],
-      "Outros": [
-       1.0,
-       1.6
-      ],
-      "Renan Santos": [
-       3.4,
-       4.5
-      ],
-      "Romeu Zema": [
-       0.9,
-       1.4
-      ],
-      "Ronaldo Caiado": [
-       3.1,
-       4.1
-      ]
-     }
-    },
-    {
-     "date": "2026-10-16",
+     "date": "2026-10-14",
      "shares": {
       "Augusto Cury": 4.6,
       "Flávio Bolsonaro": 41.7,
@@ -1018,7 +976,49 @@
      }
     },
     {
-     "date": "2026-10-19",
+     "date": "2026-10-17",
+     "shares": {
+      "Augusto Cury": 4.4,
+      "Flávio Bolsonaro": 41.8,
+      "Lula": 44.3,
+      "Outros": 1.2,
+      "Renan Santos": 3.9,
+      "Romeu Zema": 1.1,
+      "Ronaldo Caiado": 3.5
+     },
+     "intervals": {
+      "Augusto Cury": [
+       3.8,
+       4.9
+      ],
+      "Flávio Bolsonaro": [
+       40.9,
+       42.7
+      ],
+      "Lula": [
+       43.6,
+       45.0
+      ],
+      "Outros": [
+       0.9,
+       1.5
+      ],
+      "Renan Santos": [
+       3.3,
+       4.4
+      ],
+      "Romeu Zema": [
+       0.9,
+       1.4
+      ],
+      "Ronaldo Caiado": [
+       3.0,
+       4.0
+      ]
+     }
+    },
+    {
+     "date": "2026-10-20",
      "shares": {
       "Augusto Cury": 4.4,
       "Flávio Bolsonaro": 41.9,
@@ -1060,12 +1060,12 @@
      }
     },
     {
-     "date": "2026-10-22",
+     "date": "2026-10-23",
      "shares": {
       "Augusto Cury": 4.3,
       "Flávio Bolsonaro": 41.9,
       "Lula": 44.4,
-      "Outros": 1.2,
+      "Outros": 1.1,
       "Renan Santos": 3.9,
       "Romeu Zema": 1.1,
       "Ronaldo Caiado": 3.5
@@ -1077,7 +1077,7 @@
       ],
       "Flávio Bolsonaro": [
        40.9,
-       42.9
+       42.8
       ],
       "Lula": [
        43.7,
@@ -1088,21 +1088,21 @@
        1.4
       ],
       "Renan Santos": [
-       3.3,
-       4.4
+       3.4,
+       4.5
       ],
       "Romeu Zema": [
        0.8,
        1.3
       ],
       "Ronaldo Caiado": [
-       3.0,
+       3.1,
        4.0
       ]
      }
     },
     {
-     "date": "2026-10-25",
+     "date": "2026-10-26",
      "shares": {
       "Augusto Cury": 3.9,
       "Flávio Bolsonaro": 42.4,
@@ -1144,40 +1144,40 @@
      }
     },
     {
-     "date": "2026-10-28",
+     "date": "2026-10-29",
      "shares": {
-      "Augusto Cury": 3.8,
-      "Flávio Bolsonaro": 42.8,
-      "Lula": 44.7,
-      "Outros": 1.0,
-      "Renan Santos": 3.8,
-      "Romeu Zema": 1.0,
+      "Augusto Cury": 3.6,
+      "Flávio Bolsonaro": 43.2,
+      "Lula": 44.8,
+      "Outros": 1.1,
+      "Renan Santos": 3.6,
+      "Romeu Zema": 0.7,
       "Ronaldo Caiado": 3.2
      },
      "intervals": {
       "Augusto Cury": [
-       3.3,
-       4.3
+       3.2,
+       4.2
       ],
       "Flávio Bolsonaro": [
-       41.9,
-       43.6
+       42.2,
+       44.0
       ],
       "Lula": [
-       43.8,
-       45.4
+       44.0,
+       45.6
       ],
       "Outros": [
        0.7,
-       1.4
+       1.5
       ],
       "Renan Santos": [
-       3.2,
-       4.4
+       2.9,
+       4.2
       ],
       "Romeu Zema": [
-       0.7,
-       1.3
+       0.5,
+       1.0
       ],
       "Ronaldo Caiado": [
        2.8,
@@ -1186,49 +1186,49 @@
      }
     },
     {
-     "date": "2026-10-31",
+     "date": "2026-11-01",
      "shares": {
       "Augusto Cury": 3.5,
-      "Flávio Bolsonaro": 43.8,
-      "Lula": 44.7,
-      "Outros": 1.1,
+      "Flávio Bolsonaro": 44.0,
+      "Lula": 44.8,
+      "Outros": 1.0,
       "Renan Santos": 3.4,
-      "Romeu Zema": 0.6,
+      "Romeu Zema": 0.5,
       "Ronaldo Caiado": 3.1
      },
      "intervals": {
       "Augusto Cury": [
-       3.0,
+       2.9,
        4.0
       ],
       "Flávio Bolsonaro": [
-       42.6,
-       44.9
+       42.7,
+       45.1
       ],
       "Lula": [
        43.9,
-       45.7
+       45.8
       ],
       "Outros": [
-       0.7,
-       1.5
+       0.6,
+       1.4
       ],
       "Renan Santos": [
        2.5,
        4.2
       ],
       "Romeu Zema": [
-       0.3,
-       0.9
+       0.2,
+       0.8
       ],
       "Ronaldo Caiado": [
        2.6,
-       3.5
+       3.6
       ]
      }
     }
    ],
-   "age_days": 28,
+   "age_days": 29,
    "stale": true
   },
   "used": [
@@ -2433,11 +2433,11 @@
  "national_swing": -2.0,
  "pres_lean": {
   "AC": {
-   "Lula": 29.9,
-   "Flávio": 70.1,
+   "Lula": 29.8,
+   "Flávio": 70.2,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.46)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.45)"
   },
   "AL": {
    "Lula": 56.7,
@@ -2451,7 +2451,7 @@
    "Flávio": 49.6,
    "Caiado": 3,
    "Zema": 3,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/PoderData/Quaest estadual (w=0.42)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/PoderData/Quaest estadual (w=0.41)"
   },
   "AP": {
    "Lula": 49.4,
@@ -2461,32 +2461,32 @@
    "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "BA": {
-   "Lula": 52.8,
-   "Flávio": 19.2,
+   "Lula": 52.7,
+   "Flávio": 19.1,
    "Caiado": 3.1,
    "Zema": 2,
-   "basis": "Quaest 23–27/07 + AtlasIntel estadual (w=0.11)"
+   "basis": "Quaest 23–27/07 + AtlasIntel estadual (w=0.10)"
   },
   "CE": {
    "Lula": 55.6,
    "Flávio": 22.7,
    "Caiado": 1.9,
    "Zema": 1.8,
-   "basis": "Quaest 24–28/07 + AtlasIntel estadual (w=0.11)"
+   "basis": "Quaest 24–28/07 + AtlasIntel estadual (w=0.10)"
   },
   "DF": {
-   "Lula": 32.3,
-   "Flávio": 34.6,
-   "Caiado": 5.4,
-   "Zema": 3.7,
-   "basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.10)"
+   "Lula": 30.2,
+   "Flávio": 35.3,
+   "Caiado": 5,
+   "Zema": 4,
+   "basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.56)"
   },
   "ES": {
    "Lula": 39.7,
-   "Flávio": 57.8,
+   "Flávio": 57.9,
    "Caiado": 2.9,
    "Zema": 2.7,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/INSTITUTO DE PESQUISAS PERFIL LTDA/Quaest estadual (w=0.11)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/INSTITUTO DE PESQUISAS PERFIL LTDA/Quaest estadual (w=0.10)"
   },
   "GO": {
    "Lula": 23,
@@ -2503,18 +2503,18 @@
    "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "MG": {
-   "Lula": 32.3,
-   "Flávio": 30.7,
-   "Caiado": 3.0,
-   "Zema": 10.5,
-   "basis": "Quaest 22–26/07 + Datafolha/Real Time Big Data estadual (w=0.19)"
+   "Lula": 31.2,
+   "Flávio": 30.1,
+   "Caiado": 2.9,
+   "Zema": 11.2,
+   "basis": "Quaest 22–26/07 + Real Time Big Data estadual (w=0.10)"
   },
   "MS": {
-   "Lula": 36.3,
+   "Lula": 36.4,
    "Flávio": 60.4,
    "Caiado": 3.0,
    "Zema": 2.5,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA/NOVO IBRAPE estadual (w=0.19)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + IPEMS INSTITUTO DE PESQUISAS DE MATO GROSSO DO SUL LTDA/NOVO IBRAPE estadual (w=0.18)"
   },
   "MT": {
    "Lula": 32.9,
@@ -2524,53 +2524,53 @@
    "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "PA": {
-   "Lula": 39.6,
-   "Flávio": 32.5,
+   "Lula": 39.5,
+   "Flávio": 32.4,
    "Caiado": 2.8,
    "Zema": 1.7,
-   "basis": "Quaest 21–25/07 + AtlasIntel/Doxa estadual (w=0.19)"
+   "basis": "Quaest 21–25/07 + AtlasIntel/Doxa estadual (w=0.18)"
   },
   "PB": {
-   "Lula": 64.2,
-   "Flávio": 34.3,
-   "Caiado": 2.8,
+   "Lula": 64.6,
+   "Flávio": 35.4,
+   "Caiado": 3,
    "Zema": 2,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + ANOVA INSTITUTO DE PESQUISA estadual (w=0.10)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "PE": {
-   "Lula": 55.6,
-   "Flávio": 21.4,
-   "Caiado": 1.0,
+   "Lula": 55,
+   "Flávio": 21,
+   "Caiado": 1,
    "Zema": 1,
-   "basis": "Quaest 22–26/07 + Datafolha estadual (w=0.10)"
+   "basis": "Quaest 22–26/07"
   },
   "PI": {
    "Lula": 74.0,
    "Flávio": 25.3,
    "Caiado": 1.9,
    "Zema": 1.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.11)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.10)"
   },
   "PR": {
-   "Lula": 25.0,
-   "Flávio": 45.1,
-   "Caiado": 2.4,
-   "Zema": 1.8,
-   "basis": "Quaest 21–25/07 + NeoKemp estadual (w=0.19)"
+   "Lula": 24.5,
+   "Flávio": 43.7,
+   "Caiado": 2.2,
+   "Zema": 1.9,
+   "basis": "Quaest 21–25/07 + NeoKemp estadual (w=0.10)"
   },
   "RJ": {
-   "Lula": 30.8,
-   "Flávio": 33.3,
-   "Caiado": 2.9,
-   "Zema": 2.8,
-   "basis": "Quaest 21–25/07 + Datafolha estadual (w=0.10)"
+   "Lula": 30,
+   "Flávio": 32,
+   "Caiado": 3,
+   "Zema": 3,
+   "basis": "Quaest 21–25/07"
   },
   "RN": {
    "Lula": 62.9,
    "Flávio": 35.8,
    "Caiado": 2.8,
    "Zema": 1.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.11)"
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.10)"
   },
   "RO": {
    "Lula": 27.3,
@@ -2588,17 +2588,17 @@
   },
   "RS": {
    "Lula": 30.8,
-   "Flávio": 34.1,
+   "Flávio": 34.0,
    "Caiado": 3.0,
    "Zema": 2.8,
-   "basis": "Quaest 24–28/07 + NeoKemp estadual (w=0.11)"
+   "basis": "Quaest 24–28/07 + NeoKemp estadual (w=0.10)"
   },
   "SC": {
    "Lula": 28.7,
-   "Flávio": 70.3,
-   "Caiado": 2.9,
-   "Zema": 2.8,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + NeoKemp estadual (w=0.10)"
+   "Flávio": 71.3,
+   "Caiado": 3,
+   "Zema": 3,
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "SE": {
    "Lula": 65.2,
@@ -2608,18 +2608,18 @@
    "basis": "proxy 2º turno 2022 + swing nac. -2.0"
   },
   "SP": {
-   "Lula": 31.8,
-   "Flávio": 35.7,
-   "Caiado": 3.1,
-   "Zema": 2.5,
-   "basis": "Quaest 23–27/07 + Badra/Datafolha/Franca estadual (w=0.26)"
+   "Lula": 30.2,
+   "Flávio": 34.4,
+   "Caiado": 3.0,
+   "Zema": 2.8,
+   "basis": "Quaest 23–27/07 + Franca estadual (w=0.10)"
   },
   "TO": {
-   "Lula": 48.2,
-   "Flávio": 50.1,
-   "Caiado": 3.2,
-   "Zema": 2.7,
-   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.10)"
+   "Lula": 48.1,
+   "Flávio": 51.9,
+   "Caiado": 3,
+   "Zema": 3,
+   "basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.43)"
   }
  },
  "state_polls": {
