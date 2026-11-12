@@ -1,13 +1,13 @@
 {
  "research_version": "pesquisas-2",
- "generated_at": "2026-11-11",
+ "generated_at": "2026-11-12",
  "polls_date": "2026-10-24",
  "election_date": "2026-10-04",
- "days_to_election": -38,
+ "days_to_election": -39,
  "source": "Plano Político (pesquisas individuais; fontes originais preservadas)",
  "update": {
   "new_polls": 0,
-  "prev_date": "2026-11-10",
+  "prev_date": "2026-11-11",
   "comparable": true,
   "total_polls": 908
  },
@@ -1208,10 +1208,10 @@
        "inputs": {
         "gov_pct": 40.7,
         "gov_reliability": 1.0,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)"
        }
       },
       "estimated": false,
@@ -1972,10 +1972,10 @@
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 1.0,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)"
        }
       },
       "estimated": true,
@@ -2568,10 +2568,10 @@
        "inputs": {
         "gov_pct": 14.7,
         "gov_reliability": 1.0,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)"
        }
       },
       "estimated": false,
@@ -2605,15 +2605,15 @@
       "polls": [],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 1.0,
+      "score": 0.9,
       "components": {
        "governo": 0.0,
-       "presidente": 1.0
+       "presidente": 0.9
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 31.74166666666667
+        "presidente": 31.416666666666668
        },
        "weights": {
         "governo": 0.97,
@@ -2622,10 +2622,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 1.0,
-        "pres_pct": 29.3,
+        "pres_pct": 29.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)"
        }
       },
       "estimated": false,
@@ -2679,7 +2679,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)"
        }
       },
       "estimated": false,
@@ -2700,7 +2700,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -2947,10 +2947,10 @@
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 90.0,
         "gov_ticket": "Mailza Assis",
         "endorsement": "explícito"
@@ -3159,10 +3159,10 @@
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 100.0,
         "gov_ticket": "Mailza Assis",
         "endorsement": "inferido"
@@ -3371,10 +3371,10 @@
        "inputs": {
         "gov_pct": 37.0,
         "gov_reliability": 0.78,
-        "pres_pct": 70.7,
+        "pres_pct": 71.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 68.333333,
         "gov_ticket": "Mailza Assis",
         "endorsement": "explícito"
@@ -3555,17 +3555,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 45.7,
+      "score": 45.6,
       "components": {
        "governo": 0.8,
-       "presidente": 5.9,
+       "presidente": 5.8,
        "senado": 34.6,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 3.5100000000000007,
-        "presidente": 31.74166666666667,
+        "presidente": 31.416666666666668,
         "senado": 69.166667,
         "apoio": 45.0
        },
@@ -3583,10 +3583,10 @@
        "inputs": {
         "gov_pct": 2.7,
         "gov_reliability": 0.78,
-        "pres_pct": 29.3,
+        "pres_pct": 29.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 69.166667,
         "gov_ticket": "Thor Dantas",
         "endorsement": "inferido"
@@ -3798,7 +3798,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 35.833333,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -4010,7 +4010,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 35.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -4191,17 +4191,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": null,
-      "score": 11.3,
+      "score": 11.2,
       "components": {
        "governo": 0.0,
-       "presidente": 5.9,
+       "presidente": 5.8,
        "senado": 5.4,
        "apoio": 0.0
       },
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 31.74166666666667,
+        "presidente": 31.416666666666668,
         "senado": 10.833333,
         "apoio": 0.0
        },
@@ -4219,10 +4219,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 0.78,
-        "pres_pct": 29.3,
+        "pres_pct": 29.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 10.833333,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -4434,7 +4434,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 7.5,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -4501,7 +4501,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA/Quaest estadual (w=0.33)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATA CONTROL INSTITUTO DE PESQUISA estadual (w=0.27)",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -5189,7 +5189,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -5812,7 +5812,7 @@
       "TDL PESQUISA"
      ],
      "latest_field": "2026-10-02",
-     "age_days": 40,
+     "age_days": 41,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -6471,7 +6471,7 @@
       "model": {
        "scores": {
         "governo": 56.5,
-        "presidente": 54.16666666666667
+        "presidente": 53.95
        },
        "weights": {
         "governo": 0.97,
@@ -6480,10 +6480,10 @@
        "inputs": {
         "gov_pct": 33.9,
         "gov_reliability": 1.0,
-        "pres_pct": 50.0,
+        "pres_pct": 49.8,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)"
        }
       },
       "estimated": true,
@@ -7067,7 +7067,7 @@
       "model": {
        "scores": {
         "governo": 39.0,
-        "presidente": 54.16666666666667
+        "presidente": 54.38333333333334
        },
        "weights": {
         "governo": 0.97,
@@ -7076,10 +7076,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 1.0,
-        "pres_pct": 50.0,
+        "pres_pct": 50.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)"
        }
       },
       "estimated": false,
@@ -7651,7 +7651,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)"
        }
       },
       "estimated": false,
@@ -7672,7 +7672,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [],
@@ -7780,7 +7780,7 @@
       "model": {
        "scores": {
         "governo": 44.07,
-        "presidente": 54.16666666666667,
+        "presidente": 53.95,
         "senado": 100.0,
         "apoio": 45.0
        },
@@ -7798,10 +7798,10 @@
        "inputs": {
         "gov_pct": 33.9,
         "gov_reliability": 0.78,
-        "pres_pct": 50.0,
+        "pres_pct": 49.8,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)",
         "sen_norm": 100.0,
         "gov_ticket": "Omar Aziz",
         "endorsement": "inferido"
@@ -7872,7 +7872,7 @@
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 54.16666666666667,
+        "presidente": 54.38333333333334,
         "senado": 69.444444,
         "apoio": 100.0
        },
@@ -7890,10 +7890,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 50.0,
+        "pres_pct": 50.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)",
         "sen_norm": 69.444444,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "explícito"
@@ -7964,7 +7964,7 @@
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 54.16666666666667,
+        "presidente": 54.38333333333334,
         "senado": 61.111111,
         "apoio": 45.0
        },
@@ -7982,10 +7982,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 50.0,
+        "pres_pct": 50.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)",
         "sen_norm": 61.111111,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "inferido"
@@ -8056,7 +8056,7 @@
       "model": {
        "scores": {
         "governo": 30.42,
-        "presidente": 54.16666666666667,
+        "presidente": 54.38333333333334,
         "senado": 41.666667,
         "apoio": 45.0
        },
@@ -8074,10 +8074,10 @@
        "inputs": {
         "gov_pct": 23.4,
         "gov_reliability": 0.78,
-        "pres_pct": 50.0,
+        "pres_pct": 50.2,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)",
         "sen_norm": 41.666667,
         "gov_ticket": "Roberto Cidade",
         "endorsement": "inferido"
@@ -8123,7 +8123,7 @@
       "model": {
        "scores": {
         "governo": 44.07,
-        "presidente": 54.16666666666667,
+        "presidente": 53.95,
         "senado": 29.249012,
         "apoio": 45.0
        },
@@ -8141,10 +8141,10 @@
        "inputs": {
         "gov_pct": 33.9,
         "gov_reliability": 0.78,
-        "pres_pct": 50.0,
+        "pres_pct": 49.8,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel estadual (w=0.16)",
         "sen_norm": 29.249012,
         "gov_ticket": "Omar Aziz",
         "endorsement": "inferido"
@@ -8159,7 +8159,7 @@
       "Quaest"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [],
@@ -8923,7 +8923,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -11898,7 +11898,7 @@
       "SECULUS CONSULTORIA E ASSESSORIA LTDA"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -12681,7 +12681,7 @@
       "AtlasIntel"
      ],
      "latest_field": "2026-09-29",
-     "age_days": 43,
+     "age_days": 44,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -14456,7 +14456,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -15131,7 +15131,7 @@
       "Datafolha"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -16211,7 +16211,7 @@
       "model": {
        "scores": {
         "governo": 91.16666666666667,
-        "presidente": 58.0
+        "presidente": 57.83333333333334
        },
        "weights": {
         "governo": 0.97,
@@ -16220,10 +16220,10 @@
        "inputs": {
         "gov_pct": 54.7,
         "gov_reliability": 1.0,
-        "pres_pct": 34.8,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)"
        }
       },
       "estimated": true,
@@ -16993,7 +16993,7 @@
       "model": {
        "scores": {
         "governo": 46.5,
-        "presidente": 51.166666666666664
+        "presidente": 51.333333333333336
        },
        "weights": {
         "governo": 0.97,
@@ -17002,10 +17002,10 @@
        "inputs": {
         "gov_pct": 27.9,
         "gov_reliability": 1.0,
-        "pres_pct": 30.7,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)"
        }
       },
       "estimated": false,
@@ -17330,7 +17330,7 @@
         "pres_pct": null,
         "pres_reliability": 1.0,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)"
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)"
        }
       },
       "estimated": false,
@@ -17348,7 +17348,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -17720,7 +17720,7 @@
       "model": {
        "scores": {
         "governo": 71.11,
-        "presidente": 58.0,
+        "presidente": 57.83333333333334,
         "senado": 100.0,
         "apoio": 100.0
        },
@@ -17738,10 +17738,10 @@
        "inputs": {
         "gov_pct": 54.7,
         "gov_reliability": 0.78,
-        "pres_pct": 34.8,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 100.0,
         "gov_ticket": "Celina Leão",
         "endorsement": "explícito"
@@ -18076,7 +18076,7 @@
       "model": {
        "scores": {
         "governo": 71.11,
-        "presidente": 58.0,
+        "presidente": 57.83333333333334,
         "senado": 66.229508,
         "apoio": 100.0
        },
@@ -18094,10 +18094,10 @@
        "inputs": {
         "gov_pct": 54.7,
         "gov_reliability": 0.78,
-        "pres_pct": 34.8,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 66.229508,
         "gov_ticket": "Celina Leão",
         "endorsement": "explícito"
@@ -18425,14 +18425,14 @@
       "score": 51.1,
       "components": {
        "governo": 7.8,
-       "presidente": 9.4,
+       "presidente": 9.5,
        "senado": 29.3,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 36.27,
-        "presidente": 51.166666666666664,
+        "presidente": 51.333333333333336,
         "senado": 58.688525,
         "apoio": 45.0
        },
@@ -18450,10 +18450,10 @@
        "inputs": {
         "gov_pct": 27.9,
         "gov_reliability": 0.78,
-        "pres_pct": 30.7,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 58.688525,
         "gov_ticket": "Leandro Grass",
         "endorsement": "inferido"
@@ -18499,7 +18499,7 @@
       "model": {
        "scores": {
         "governo": 71.11,
-        "presidente": 58.0,
+        "presidente": 57.83333333333334,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -18517,10 +18517,10 @@
        "inputs": {
         "gov_pct": 54.7,
         "gov_reliability": 0.78,
-        "pres_pct": 34.8,
+        "pres_pct": 34.7,
         "pres_reliability": 1.0,
         "pres_bloc": "Flávio",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 0.0,
         "gov_ticket": "Celina Leão",
         "endorsement": "inferido"
@@ -18559,14 +18559,14 @@
       "score": 21.8,
       "components": {
        "governo": 7.8,
-       "presidente": 9.4,
+       "presidente": 9.5,
        "senado": 0.0,
        "apoio": 4.5
       },
       "model": {
        "scores": {
         "governo": 36.27,
-        "presidente": 51.166666666666664,
+        "presidente": 51.333333333333336,
         "senado": 0.0,
         "apoio": 45.0
        },
@@ -18584,10 +18584,10 @@
        "inputs": {
         "gov_pct": 27.9,
         "gov_reliability": 0.78,
-        "pres_pct": 30.7,
+        "pres_pct": 30.8,
         "pres_reliability": 1.0,
         "pres_bloc": "Lula",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 0.0,
         "gov_ticket": "Leandro Grass",
         "endorsement": "inferido"
@@ -18943,7 +18943,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.36)",
+        "pres_basis": "Correio/Opinião 30/07–01/08 + AtlasIntel/Datafolha/Quaest estadual (w=0.35)",
         "sen_norm": 11.147541,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -19754,7 +19754,7 @@
       "model": {
        "scores": {
         "governo": 72.66666666666667,
-        "presidente": 64.45833333333334
+        "presidente": 64.56666666666668
        },
        "weights": {
         "governo": 0.97,
@@ -19763,10 +19763,10 @@
        "inputs": {
         "gov_pct": 43.6,
         "gov_reliability": 1.0,
-        "pres_pct": 59.5,
+        "pres_pct": 59.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)"
        }
       },
       "estimated": true,
@@ -20518,7 +20518,7 @@
       "model": {
        "scores": {
         "governo": 67.16666666666667,
-        "presidente": 43.875
+        "presidente": 43.766666666666666
        },
        "weights": {
         "governo": 0.97,
@@ -20527,10 +20527,10 @@
        "inputs": {
         "gov_pct": 40.3,
         "gov_reliability": 1.0,
-        "pres_pct": 40.5,
+        "pres_pct": 40.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)"
        }
       },
       "estimated": false,
@@ -20619,7 +20619,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)"
        }
       },
       "estimated": false,
@@ -21227,7 +21227,7 @@
       "model": {
        "scores": {
         "governo": 23.333333333333336,
-        "presidente": 43.875
+        "presidente": 43.766666666666666
        },
        "weights": {
         "governo": 0.97,
@@ -21236,10 +21236,10 @@
        "inputs": {
         "gov_pct": 14.0,
         "gov_reliability": 1.0,
-        "pres_pct": 40.5,
+        "pres_pct": 40.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)"
        }
       },
       "estimated": false,
@@ -21256,7 +21256,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [],
@@ -21482,7 +21482,7 @@
       "model": {
        "scores": {
         "governo": 52.39000000000001,
-        "presidente": 43.875,
+        "presidente": 43.766666666666666,
         "senado": 100.0,
         "apoio": 90.0
        },
@@ -21500,10 +21500,10 @@
        "inputs": {
         "gov_pct": 40.3,
         "gov_reliability": 0.78,
-        "pres_pct": 40.5,
+        "pres_pct": 40.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 100.0,
         "gov_ticket": "Ricardo Ferraço",
         "endorsement": "chapa/aliança"
@@ -21694,7 +21694,7 @@
       "model": {
        "scores": {
         "governo": 56.68000000000001,
-        "presidente": 64.45833333333334,
+        "presidente": 64.56666666666668,
         "senado": 34.131737,
         "apoio": 100.0
        },
@@ -21712,10 +21712,10 @@
        "inputs": {
         "gov_pct": 43.6,
         "gov_reliability": 0.78,
-        "pres_pct": 59.5,
+        "pres_pct": 59.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 34.131737,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "explícito"
@@ -21906,7 +21906,7 @@
       "model": {
        "scores": {
         "governo": 56.68000000000001,
-        "presidente": 64.45833333333334,
+        "presidente": 64.56666666666668,
         "senado": 28.742515,
         "apoio": 100.0
        },
@@ -21924,10 +21924,10 @@
        "inputs": {
         "gov_pct": 43.6,
         "gov_reliability": 0.78,
-        "pres_pct": 59.5,
+        "pres_pct": 59.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 28.742515,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "explícito"
@@ -22118,7 +22118,7 @@
       "model": {
        "scores": {
         "governo": 56.68000000000001,
-        "presidente": 64.45833333333334,
+        "presidente": 64.56666666666668,
         "senado": 38.922156,
         "apoio": 45.0
        },
@@ -22136,10 +22136,10 @@
        "inputs": {
         "gov_pct": 43.6,
         "gov_reliability": 0.78,
-        "pres_pct": 59.5,
+        "pres_pct": 59.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 38.922156,
         "gov_ticket": "Lorenzo Pazolini",
         "endorsement": "inferido"
@@ -22330,7 +22330,7 @@
       "model": {
        "scores": {
         "governo": 52.39000000000001,
-        "presidente": 43.875,
+        "presidente": 43.766666666666666,
         "senado": 38.922156,
         "apoio": 90.0
        },
@@ -22348,10 +22348,10 @@
        "inputs": {
         "gov_pct": 40.3,
         "gov_reliability": 0.78,
-        "pres_pct": 40.5,
+        "pres_pct": 40.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 38.922156,
         "gov_ticket": "Ricardo Ferraço",
         "endorsement": "chapa/aliança"
@@ -22432,7 +22432,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 45.945946,
         "gov_ticket": null,
         "endorsement": "inferido"
@@ -22644,7 +22644,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 25.748503,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -22835,7 +22835,7 @@
       "model": {
        "scores": {
         "governo": 0.0,
-        "presidente": 43.875,
+        "presidente": 43.766666666666666,
         "senado": 4.191617,
         "apoio": 0.0
        },
@@ -22853,10 +22853,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 0.78,
-        "pres_pct": 40.5,
+        "pres_pct": 40.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 4.191617,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -23068,7 +23068,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 17.065868,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -23280,7 +23280,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 3.592814,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -23492,7 +23492,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.24)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Quaest estadual (w=0.23)",
         "sen_norm": 3.293413,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -25102,7 +25102,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -29918,7 +29918,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -30763,7 +30763,7 @@
       "IPSENSUS PESQUISAS"
      ],
      "latest_field": "2026-08-20",
-     "age_days": 83,
+     "age_days": 84,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -35583,7 +35583,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -39142,7 +39142,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -39828,7 +39828,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-08-05",
-     "age_days": 98,
+     "age_days": 99,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [],
@@ -41333,7 +41333,7 @@
       "Quaest"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -43982,7 +43982,7 @@
       "Vox Populi"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -47425,7 +47425,7 @@
       "TDL PESQUISA"
      ],
      "latest_field": "2026-10-02",
-     "age_days": 40,
+     "age_days": 41,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [],
@@ -50845,7 +50845,7 @@
       "SIMPLEX CONSULTORIA ECONOMICA E EMPRESARIAL"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -51705,7 +51705,7 @@
       "Datafolha"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -53018,7 +53018,7 @@
       "Vetor Arrow"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -54041,7 +54041,7 @@
       "Data Max"
      ],
      "latest_field": "2026-10-02",
-     "age_days": 40,
+     "age_days": 41,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -57789,7 +57789,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -58598,7 +58598,7 @@
       "AtlasIntel"
      ],
      "latest_field": "2026-10-02",
-     "age_days": 40,
+     "age_days": 41,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -61054,7 +61054,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -62138,7 +62138,7 @@
       "Datafolha"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [],
@@ -63548,7 +63548,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)"
        }
       },
       "estimated": true,
@@ -64933,10 +64933,10 @@
        "inputs": {
         "gov_pct": 27.8,
         "gov_reliability": 1.0,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)"
        }
       },
       "estimated": false,
@@ -66072,7 +66072,7 @@
       "model": {
        "scores": {
         "governo": 44.5,
-        "presidente": 39.86666666666667
+        "presidente": 39.650000000000006
        },
        "weights": {
         "governo": 0.97,
@@ -66081,10 +66081,10 @@
        "inputs": {
         "gov_pct": 26.7,
         "gov_reliability": 1.0,
-        "pres_pct": 36.8,
+        "pres_pct": 36.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)"
        }
       },
       "estimated": false,
@@ -66135,10 +66135,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 1.0,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)"
        }
       },
       "estimated": false,
@@ -66192,7 +66192,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)"
        }
       },
       "estimated": false,
@@ -66220,7 +66220,7 @@
       "Seta"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -66347,10 +66347,10 @@
        "inputs": {
         "gov_pct": 27.8,
         "gov_reliability": 0.78,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 100.0,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -66414,14 +66414,14 @@
       "score": 69.3,
       "components": {
        "governo": 7.5,
-       "presidente": 7.4,
+       "presidente": 7.3,
        "senado": 44.5,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 34.71,
-        "presidente": 39.86666666666667,
+        "presidente": 39.650000000000006,
         "senado": 88.965517,
         "apoio": 100.0
        },
@@ -66439,10 +66439,10 @@
        "inputs": {
         "gov_pct": 26.7,
         "gov_reliability": 0.78,
-        "pres_pct": 36.8,
+        "pres_pct": 36.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 88.965517,
         "gov_ticket": "Álvaro Dias",
         "endorsement": "explícito"
@@ -66531,10 +66531,10 @@
        "inputs": {
         "gov_pct": 27.8,
         "gov_reliability": 0.78,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 31.724138,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -66595,17 +66595,17 @@
       ],
       "estimated_preview": false,
       "certainty_preview": "",
-      "score": 40.9,
+      "score": 40.8,
       "components": {
        "governo": 7.5,
-       "presidente": 7.4,
+       "presidente": 7.3,
        "senado": 16.0,
        "apoio": 10.0
       },
       "model": {
        "scores": {
         "governo": 34.71,
-        "presidente": 39.86666666666667,
+        "presidente": 39.650000000000006,
         "senado": 32.068966,
         "apoio": 100.0
        },
@@ -66623,10 +66623,10 @@
        "inputs": {
         "gov_pct": 26.7,
         "gov_reliability": 0.78,
-        "pres_pct": 36.8,
+        "pres_pct": 36.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 32.068966,
         "gov_ticket": "Álvaro Dias",
         "endorsement": "explícito"
@@ -66690,10 +66690,10 @@
        "inputs": {
         "gov_pct": 27.8,
         "gov_reliability": 0.78,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 0.0,
         "gov_ticket": "Cadu Xavier",
         "endorsement": "chapa/aliança"
@@ -66782,10 +66782,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 0.78,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 13.448276,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -66849,10 +66849,10 @@
        "inputs": {
         "gov_pct": null,
         "gov_reliability": 0.78,
-        "pres_pct": 63.2,
+        "pres_pct": 63.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 0.0,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -66944,7 +66944,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + Affare/AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item/Quaest estadual (w=0.46)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/DATAVERO INSTITUTO DE PESQUISAS/EXATUS CONSULTORIA E PESQUISA/Item estadual (w=0.38)",
         "sen_norm": 7.241379,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -66959,7 +66959,7 @@
       "INSTITUTO DATA CENSUS POTIGUAR LTDA"
      ],
      "latest_field": "2026-07-17",
-     "age_days": 117,
+     "age_days": 118,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -68583,7 +68583,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -69311,7 +69311,7 @@
       "Phoenix"
      ],
      "latest_field": "2026-09-05",
-     "age_days": 67,
+     "age_days": 68,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -69932,7 +69932,7 @@
       "Quaest"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [],
@@ -70462,7 +70462,7 @@
       "CIPET"
      ],
      "latest_field": "2026-08-30",
-     "age_days": 73,
+     "age_days": 74,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -72393,7 +72393,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -75368,7 +75368,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -77849,7 +77849,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -78865,7 +78865,7 @@
       "TWS POLITICA"
      ],
      "latest_field": "2026-09-02",
-     "age_days": 70,
+     "age_days": 71,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [
@@ -80988,7 +80988,7 @@
       "Real Time Big Data"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -86268,7 +86268,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)"
        }
       },
       "estimated": false,
@@ -86834,7 +86834,7 @@
         "pres_pct": 51.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)"
        }
       },
       "estimated": true,
@@ -87129,7 +87129,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)"
        }
       },
       "estimated": false,
@@ -87424,7 +87424,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)"
        }
       },
       "estimated": false,
@@ -87478,7 +87478,7 @@
         "pres_pct": 48.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)"
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)"
        }
       },
       "estimated": false,
@@ -87497,7 +87497,7 @@
       "VR SKALA"
      ],
      "latest_field": "2026-10-03",
-     "age_days": 39,
+     "age_days": 40,
      "stale": true,
      "vote_format": "voto único",
      "missing_candidates": [
@@ -87626,7 +87626,7 @@
         "pres_pct": 51.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 100.0,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "explícito"
@@ -87718,7 +87718,7 @@
         "pres_pct": 51.6,
         "pres_reliability": 0.65,
         "pres_bloc": "Flávio",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 66.115702,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "explícito"
@@ -87810,7 +87810,7 @@
         "pres_pct": 0.0,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 68.181818,
         "gov_ticket": "Professora Dorinha",
         "endorsement": "não verificado"
@@ -87902,7 +87902,7 @@
         "pres_pct": 48.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 41.735537,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -87994,7 +87994,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 54.132231,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -88086,7 +88086,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 30.991736,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -88178,7 +88178,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 29.752066,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -88270,7 +88270,7 @@
         "pres_pct": 48.4,
         "pres_reliability": 0.65,
         "pres_bloc": "Lula",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 3.305785,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -88337,7 +88337,7 @@
         "pres_pct": 3,
         "pres_reliability": 0.65,
         "pres_bloc": "Caiado",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 0.0,
         "gov_ticket": "Laurez Moreira",
         "endorsement": "inferido"
@@ -88429,7 +88429,7 @@
         "pres_pct": null,
         "pres_reliability": 0.65,
         "pres_bloc": "Indefinido",
-        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.31)",
+        "pres_basis": "proxy 2º turno 2022 + swing nac. -2.0 + AtlasIntel/Paraná Pesquisas/Quaest estadual (w=0.30)",
         "sen_norm": 4.958678,
         "gov_ticket": null,
         "endorsement": "não verificado"
@@ -88444,7 +88444,7 @@
       "JORNAL O GIRASSOL"
      ],
      "latest_field": "2026-09-17",
-     "age_days": 55,
+     "age_days": 56,
      "stale": true,
      "vote_format": "voto único normalizado pelo Plano Político",
      "missing_candidates": [],
