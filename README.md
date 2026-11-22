@@ -240,7 +240,7 @@ reference/   roster.yaml (candidatos·partido·bloco·apoio) — FONTE ÚNICA de
 pipeline/    Python — sources/ (coleta), roster_sync.py, schedule.py, model.py, president.py, validate.py, build.py, backtest/, tests/
 docs/        site estático publicado no GitHub Pages (index.html, app.js, styles.css, data/, PWA)
 assets/      logo.svg / icon.svg
-.github/workflows/update.yml   cron DIÁRIO ATIVO: roster → coleta → recalcula → publica
+.github/workflows/update.yml   cron DESLIGADO em 21/11/2026 (repo congelado); só disparo manual: roster → coleta → recalcula → publica
 ```
 
 Publicado via **GitHub Pages** servindo a pasta `docs/` da branch `main` — cada push de dados republica.

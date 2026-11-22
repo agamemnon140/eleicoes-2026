@@ -1,15 +1,11 @@
-# Cron DIÁRIO ativo: sincroniza candidaturas -> coleta pesquisas -> recalcula -> publica.
+# REPOSITÓRIO CONGELADO (eleição de 2026 encerrada): o cron diário foi DESLIGADO em
+# 21/11/2026. O disparo manual continua disponível e faz o mesmo de antes: sincroniza
+# candidaturas -> coleta pesquisas -> recalcula -> publica.
 # O GitHub Pages serve a pasta docs/ da branch main, então basta commitar/pushar os dados
 # atualizados que o site republica sozinho.
-#
-# Cadência diária: os pesos do modelo mudam todo dia (curva côncava até 04/10) e, na reta
-# das convenções/registro, uma pesquisa nova pode virar um estado. Quando nada muda de
-# verdade, o `collect` não grava snapshot novo — o commit fica só no forecast.
-name: Atualiza previsão (diária)
+name: Atualiza previsão (manual)
 
 on:
-  schedule:
-    - cron: "0 12 * * *"        # todo dia 12:00 UTC (09:00 BRT)
   workflow_dispatch: {}
 
 # duas rodadas nunca disputam o mesmo push
